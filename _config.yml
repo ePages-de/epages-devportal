@@ -8,6 +8,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-admin
+  - bourbon
+  - neat
 
 jekyll_admin:
   hidden_links:
