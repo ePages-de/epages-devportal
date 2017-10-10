@@ -5,6 +5,7 @@ github_username: ePages-de
 youtube_username: UCI5hX9kgUGFnYpfxZYxlP0Q
 
 markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-admin
@@ -17,6 +18,10 @@ jekyll_admin:
     - staticfiles
     - datafiles
     - configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 exclude:
   - Gemfile
