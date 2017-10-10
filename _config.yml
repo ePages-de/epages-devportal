@@ -6,6 +6,9 @@ youtube_username: UCI5hX9kgUGFnYpfxZYxlP0Q
 
 markdown: kramdown
 
+include:
+  - _pages
+
 plugins:
   - jekyll-feed
   - jekyll-admin
