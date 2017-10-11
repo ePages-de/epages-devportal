@@ -1,0 +1,20 @@
+<header class="header" style="background-image: url(/assets/img/blog/headers/{{page.image}}.jpg);">
+  <div class="header-wrapper">
+
+    {% if page.layout == 'blog' %}
+
+      <h1>{{ page.title }}</h1>
+
+    {% elsif page.layout == 'post' %}
+
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.author }} — {{ page.date }}</p>
+
+    {% elsif page.layout == 'page' %}
+
+      <img src="/assets/img/icons/play.svg" alt="Play Icon" class="icon-play">
+
+    {% endif %}
+
+  </div>
+</header>
