@@ -17,9 +17,11 @@
     align-items: center
     justify-content: space-between
 
-  .logo img
+  .logo
     display: block
-    height: 4rem
+
+    &--devportal
+      height: 4rem
 
   .navigation__item
     display: inline-block
@@ -28,4 +30,10 @@
       margin-right: 2rem
 
   .navigation__link
-    color: $base-font-color-light
+    color: $base-font-color-white
+    text-shadow: $base-text-shadow
+
+    &:hover,
+    &:focus,
+    &.active
+      font-weight: bold
