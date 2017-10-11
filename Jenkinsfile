@@ -11,7 +11,8 @@ gem install bundler
 bundle install
 rbenv rehash
 jekyll build
-$Currentbranch="${env.BRANCH_NAME}"
+env
+$Currentbranch="master"
 if [ "$Currentbranch" = "master" ]; then
   aws s3 sync ./_site s3://epages-devblog/
 elif [ "$Currentbranch" = "develop" ]; then
