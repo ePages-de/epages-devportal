@@ -1,13 +1,6 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
-      steps {
-        sh '''echo "${env.BRANCH_NAME}"
-echo env.BRANCH_NAME
-echo $env.BRANCH_NAME'''
-      }
-    }
     stage('Build and deploy') {
       steps {
         sh '''source ~/.bash_profile
@@ -18,7 +11,7 @@ gem install bundler
 bundle install
 rbenv rehash
 jekyll build
-$Currentbranch=${env.BRANCH_NAME}
+$Currentbranch="${env.BRANCH_NAME}"
 if [ "$Currentbranch" = "master" ]; then
   aws s3 sync ./_site s3://epages-devblog/
 elif [ "$Currentbranch" = "develop" ]; then
