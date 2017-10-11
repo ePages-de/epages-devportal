@@ -1,6 +1,13 @@
 pipeline {
   agent any
   stages {
+    stage('Test') {
+      steps {
+        sh '''echo "${env.BRANCH_NAME}"
+echo env.BRANCH_NAME
+echo $env.BRANCH_NAME'''
+      }
+    }
     stage('Build and deploy') {
       steps {
         sh '''source ~/.bash_profile
