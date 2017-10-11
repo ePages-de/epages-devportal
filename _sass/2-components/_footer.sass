@@ -1,0 +1,76 @@
+.footer
+  background-image: url(/assets/img/blog/pages/footer.jpg)
+  background-size: cover
+  background-position: center center
+
+  &-wrapper
+    width: 90%
+    max-width: 1200px
+    margin: 0 auto
+    padding: 8rem 0
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+  .row
+    display: flex
+    width: 100%
+    align-items: center
+    justify-content: center
+
+    &--logo
+      margin-bottom: 2rem
+
+      .logo
+        display: block
+
+        &--epages
+          height: 4rem
+
+    &--social
+      margin-bottom: 6rem
+
+      a:not(:last-child)
+        margin-right: 1rem
+
+      .icon
+        display: block
+        height: 3.2rem
+
+    &--links
+      margin-bottom: 6rem
+
+      .navigation
+
+        &__item
+          display: inline-block
+
+          &:not(:last-child)
+            margin-right: 4rem
+
+          &--spacer
+            color: $base-font-color-mid
+
+        &__link
+          color: $base-font-color-light
+
+          &:hover,
+          &:focus
+            color: $base-font-color-white
+
+    &--impress
+
+      .list__item
+        display: inline-block
+        color: $base-font-color-light
+
+        &--spacer
+          margin: 0 .5rem
+
+      .list__link
+        color: $base-font-color-light
+
+        &:hover,
+        &:focus
+          color: $base-font-color-white
