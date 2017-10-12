@@ -1,0 +1,49 @@
+$margin: 4rem
+
+.card
+  background: $card-background-color
+  border: $base-border
+  box-shadow: $base-box-shadow
+
+  &--markdown
+
+    h1, h2, h3, h4, h5, h6
+      margin: 4rem $margin 2rem
+
+      &:last-child
+        margin-bottom: $margin
+
+    p, ul
+      margin: 2rem $margin
+
+      &:first-child
+        margin-top: $margin
+
+      &:last-child
+        margin-bottom: $margin
+
+    img
+      margin: 2rem 0
+      margin-left: -$margin
+      width: calc(100% + #{$margin} * 2)
+      height: auto
+
+    .highlight:not(pre)
+      margin: 4rem 0
+      padding: 2rem $margin
+      font-family: $code-font-family
+      font-size: 1.6rem
+
+    .twitter-tweet
+      margin: 4rem auto !important
+
+      &:not(.twitter-tweet-rendered)
+        max-width: 500px
+        overflow: hidden
+        border: 1px solid rgb(225, 232, 237)
+        border-radius: 4px
+        padding: 2rem $margin
+        box-sizing: border-box
+
+        p
+          margin: 0

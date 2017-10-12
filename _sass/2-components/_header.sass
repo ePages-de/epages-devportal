@@ -5,6 +5,7 @@
   height: 400px
   display: flex
   align-items: center
+  box-shadow: $base-box-shadow
 
   &-wrapper
     width: 90%
@@ -14,7 +15,7 @@
     align-items: center
     justify-content: center
 
-  h1, h2
+  h1, h2, p
     color: $base-font-color-white
     text-shadow: $base-text-shadow
 
@@ -22,3 +23,13 @@
   .header
     .icon-play
       opacity: .8
+
+.post
+  .header-wrapper
+    flex-direction: column
+
+    h2
+      margin-bottom: 2rem
+
+    p
+      color: $base-font-color-white

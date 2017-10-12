@@ -6,6 +6,10 @@ youtube_username: UCI5hX9kgUGFnYpfxZYxlP0Q
 
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 include:
   - _pages
 
@@ -14,6 +18,8 @@ plugins:
   - jekyll-admin
   - bourbon
   - neat
+  - rouge
+  - jekyll-twitter-plugin
 
 jekyll_admin:
   hidden_links:

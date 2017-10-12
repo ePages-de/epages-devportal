@@ -5,7 +5,11 @@
   <body class="blog">
     {% include sections/navbar.html %}
     {% include sections/header.html %}
-    {{ content }}
+    <main>
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </main>
     {% include sections/footer.html %}
   </body>
 </html>
