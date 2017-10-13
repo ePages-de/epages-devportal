@@ -15,11 +15,17 @@
   a
     display: inline-block
 
+    &:not(:last-child)
+      margin-right: 1rem
+
     +grid-media($grid-max)
       display: flex
 
-    &:not(:last-child)
-      margin-right: 1rem
+      &:not(:last-child)
+        margin-right: 0
+        margin-bottom: 1rem
+
+
 
   .icon-share
     display: block
