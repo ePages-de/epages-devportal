@@ -1,18 +1,14 @@
 <header class="header" style="background-image: url(/assets/img/blog/headers/{{page.image}}.jpg);">
   <div class="header-wrapper">
 
-    {% if page.layout == 'blog' %}
-
-      <h1>{{ page.title }}</h1>
-
-    {% elsif page.layout == 'post' %}
+    {% if page.layout == 'post' %}
 
       <h2>{{ page.title }}</h2>
       <p>{{ page.authors }} — {{ page.date | date: "%B %d, %Y" }}</p>
 
-    {% elsif page.layout == 'page' %}
+    {% else %}
 
-      <img src="/assets/img/icons/play.svg" alt="Play Icon" class="icon-play">
+      <h1>{{ page.title }}</h1>
 
     {% endif %}
 
