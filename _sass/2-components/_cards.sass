@@ -1,38 +1,59 @@
-$margin: 4rem
-
 .card
   background: $card-background-color
-  border: $base-border
-  box-shadow: $base-box-shadow
+  border: $card-border
+  box-shadow: $card-box-shadow
 
   &--markdown
 
     h1, h2, h3, h4, h5, h6
-      margin: 4rem $margin 2rem
+      margin: 4rem $card-margin-mobile 2rem
 
-      &:last-child
-        margin-bottom: $margin
+      +grid-media($grid-medium)
+        margin: 4rem $card-margin-desktop 2rem
 
-    p, ul
-      margin: 2rem $margin
+      &:last-of-type
+        margin-bottom: $card-margin-mobile
 
-      &:first-child
-        margin-top: $margin
+        +grid-media($grid-medium)
+          margin-bottom: $card-margin-desktop
 
-      &:last-child
-        margin-bottom: $margin
+    p, ul, ol
+      margin: 2rem $card-margin-mobile
 
-    img
+      +grid-media($grid-medium)
+        margin: 2rem $card-margin-desktop
+
+      &:first-of-type
+        margin-top: $card-margin-mobile
+
+        +grid-media($grid-medium)
+          margin-top: $card-margin-desktop
+
+      &:last-of-type
+        margin-bottom: $card-margin-mobile
+
+        +grid-media($grid-medium)
+
+          margin-bottom: $card-margin-desktop
+
+    img:not(.icon-share)
       margin: 2rem 0
-      margin-left: -$margin
-      width: calc(100% + #{$margin} * 2)
+      margin-left: -$card-margin-mobile
+      width: calc(100% + #{$card-margin-mobile} * 2)
       height: auto
+
+      +grid-media($grid-medium)
+        margin-left: -$card-margin-desktop
+        width: calc(100% + #{$card-margin-desktop} * 2)
 
     .highlight:not(pre)
       margin: 4rem 0
-      padding: 2rem $margin
+      padding: 2rem $card-margin-mobile
       font-family: $code-font-family
       font-size: 1.6rem
+
+      +grid-media($grid-medium)
+        padding: 2rem $card-margin-desktop
 
     .twitter-tweet
       margin: 4rem auto !important
@@ -42,8 +63,12 @@ $margin: 4rem
         overflow: hidden
         border: 1px solid rgb(225, 232, 237)
         border-radius: 4px
-        padding: 2rem $margin
+        padding: 2rem $card-margin-mobile
         box-sizing: border-box
+
+        +grid-media($grid-medium)
+          padding: 2rem $card-margin-desktop
+
 
         p
           margin: 0

@@ -1,13 +1,31 @@
 .navbar
   position: fixed
   width: 100%
-  height: 90px
+  height: $navbar-height
   display: flex
   align-items: center
   z-index: 9999
+  transition: $base-transition
+
 
   &--transparent
     background: transparent
+
+    .navigation__link
+      color: $base-font-color-white
+
+      +grid-media($grid-medium)
+        text-shadow: $base-text-shadow
+
+  &--white
+    background: $white
+    border-bottom: $base-border
+
+    .navigation__link
+      color: $base-font-color-white
+
+      +grid-media($grid-medium)
+        color: $base-font-color
 
   &-wrapper
     width: 90%
@@ -23,17 +41,64 @@
     &--devportal
       height: 3rem
 
-  .navigation__item
-    display: inline-block
+  .navigation
+    $navigation-width: 70%
+    +position(absolute, 0 null null (-$navigation-width))
+    background: $navbar-background-color
+    height: 100vh
+    z-index: 1
+    width: $navigation-width
 
-    &:not(:last-child)
-      margin-right: 2rem
+    &--open
+      left: 0
+      transition: $base-transition
+
+    +grid-media($grid-medium)
+      background: inherit
+      height: inherit
+      position: relative
+      float: right
+      width: auto
+      left: auto
+
+  .navigation__list
+    display: flex
+    flex-direction: column
+
+    +grid-media($grid-medium)
+      flex-direction: row
+
+  .navigation__item
+    +padding(1em null 1em 2em)
+    border-bottom: $navbar-border
+
+    +grid-media($grid-medium)
+      padding: 0
+      border-bottom: none
+
+      &:not(:last-child)
+        margin-right: 2rem
 
   .navigation__link
-    color: $base-font-color-white
-    text-shadow: $base-text-shadow
 
     &:hover,
     &:focus,
     &.active
       font-weight: bold
+
+  .navigation__button
+    float: right
+
+    +grid-media($grid-medium)
+      display: none
+
+
+  .navigation__background
+    +position(absolute, 0 null null 0)
+    width: 100vw
+    height: 100vh
+    background: rgba(0, 0, 0, .4)
+    display: none
+
+    +grid-media($grid-medium)
+      display: none

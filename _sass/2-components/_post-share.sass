@@ -1,11 +1,27 @@
 .share-page
   text-align: center
-  margin-bottom: $margin
+  margin-bottom: $card-margin-desktop
   margin-top: 4rem
 
-  a:not(:last-child)
-    margin-right: 3rem
+  +grid-media($grid-max)
+    text-align: left
+    margin: 0
+    position: fixed
+    left: 2rem
+    top: 50%
+    transform: translateY(-50%)
+    flex-direction: column
+
+  a
+    display: inline-block
+
+    +grid-media($grid-max)
+      display: flex
+
+    &:not(:last-child)
+      margin-right: 1rem
 
   .icon-share
     display: block
     height: 50px
+    width: 50px
