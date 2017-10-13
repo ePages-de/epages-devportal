@@ -18,6 +18,7 @@
     width: 100%
     align-items: center
     justify-content: center
+    text-align: center
 
     &--logo
       margin-bottom: 2rem
@@ -51,6 +52,10 @@
 
           &--spacer
             color: $base-font-color-mid
+            display: none
+
+            +grid-media($grid-medium)
+              display: inline-block
 
         &__link
           color: $base-font-color-light
