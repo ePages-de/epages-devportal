@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  navbarScroll();
 
   $(window).scroll(function() {
     navbarScroll();
