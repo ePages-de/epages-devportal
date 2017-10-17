@@ -1,7 +1,7 @@
 <div class="card  card--post">
   <div class="card--post__header" style="background-image: url(/assets/img/blog/headers/{% post_header include.header-image %}); background-position: center {{ include.header-position }}">
     {% if include.category.size != 0 %}
-      <a href="#" class="card--post__category">{{ include.category }}</a>
+      <a href="/blog/category/{{ include.category }}" class="card--post__category">{{ include.category }}</a>
     {% endif %}
   </div>
   <a href="{{ include.url }}" class="card--post__body">
