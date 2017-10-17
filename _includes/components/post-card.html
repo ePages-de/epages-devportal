@@ -4,7 +4,7 @@
       <a href="#" class="card--post__category">{{ include.category }}</a>
     {% endif %}
   </div>
-  <a href="#" class="card--post__body">
+  <a href="{{ include.url }}" class="card--post__body">
     <h3 class="card--post__title">{{ include.title }}</h3>
     <div class="card--post__footer">
       <p class="card--post__author">{{ include.authors | join: ", "}}</p>

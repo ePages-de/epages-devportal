@@ -6,6 +6,8 @@ youtube_username: UCI5hX9kgUGFnYpfxZYxlP0Q
 
 markdown: kramdown
 
+permalink: /blog/:categories/:title/
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -41,6 +43,6 @@ pagination:
   enabled: true
   collection: 'posts'
   per_page: 6
-  permalink: '/blog/page/:num'
+  permalink: '/page-:num'
   title: ':title'
   sort_reverse: true
