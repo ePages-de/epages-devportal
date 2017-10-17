@@ -1,12 +1,13 @@
 module Jekyll
   class PostHeader < Liquid::Tag
-    def initialize(_, _, _)
+    def initialize(_, key, _)
       super
+      @key = key.strip!
     end
 
     def render(context)
       # Get the image name
-      image_name = lookup(context, 'include.header-image')
+      image_name = lookup(context, @key)
       # Check if the image exists. If not, return default value
       if File.file?('./assets/img/blog/headers/' + image_name.to_s)
         image_name
