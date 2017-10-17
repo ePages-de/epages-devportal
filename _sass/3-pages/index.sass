@@ -1,0 +1,18 @@
+.post-container
+  +grid-collapse
+  +grid-container
+  margin-top: 4rem
+
+  +grid-media($grid-medium)
+    margin-top: 6rem
+    display: flex
+    align-items: stretch
+    flex-direction: row
+    flex-wrap: wrap
+
+  .card--post
+    +grid-column(12)
+    margin-bottom: 4rem
+
+    +grid-media($grid-medium)
+      +grid-column(6)
