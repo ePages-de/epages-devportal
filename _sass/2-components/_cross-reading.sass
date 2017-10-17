@@ -1,81 +1,22 @@
 .cross-reading
-  margin-top: 6rem
-  display: flex
-  flex-direction: column
-  align-items: stretch
+  +grid-collapse($cross-reading-grid)
+  +grid-container
+  margin-top: 4rem
 
   +grid-media($grid-medium)
+    margin-top: 6rem
+    display: flex
+    align-items: stretch
     flex-direction: row
 
   .card--post
-    flex-grow: 1
-    max-width: calc((100% - 4rem) / 3)
-    margin: 0 0 2rem 0
-    box-sizing: border-box
-    position: relative
-
-    &:hover
-      box-shadow: $hover-box-shadow
-      transition: $base-transition
+    +grid-column(12, $cross-reading-grid)
 
     +grid-media($grid-medium)
-      margin: 0
+      +grid-column(4, $cross-reading-grid)
 
-      &:not(:last-child)
-        margin-right: 2rem
+    &:not(:first-child)
+      margin-top: 2rem
 
-    .card--post__header
-      position: relative
-      height: 230px
-      background-size: cover
-
-      .card--post__category
-        position: absolute
-        top: 2rem
-        left: -1rem
-        background-color: $dev-blue
-        color: $white
-        line-height: 1
-        font-weight: bold
-        padding: .5rem 1rem
-        font-size: 1.6rem
-        letter-spacing: .05em
-
-        &:hover
-          background-color: darken($dev-blue, 10%)
-          transition: $base-transition
-
-        &::before
-          content: ''
-          position: absolute
-          left: 0
-          bottom: -1rem
-          width: 0
-          height: 0
-          border-style: solid
-          border-width: 0 1rem 1rem 0
-          border-color: transparent $dev-blue-dark transparent transparent
-
-    .card--post__body
-      padding: 2rem 3rem
-
-      .card--post__title
-        color: $gray-dark
-        padding-bottom: 3.6rem
-
-      .card__footer
-        display: flex
-        justify-content: space-between
-        position: absolute
-        bottom: 2rem
-        width: calc(100% - 6rem)
-        color: $gray-light
-
-        .card--post__author
-          text-overflow: ellipsis
-          white-space: nowrap
-          overflow: hidden
-          margin-right: 2rem
-
-        .card--post__date
-          white-space: nowrap
+      +grid-media($grid-medium)
+        margin-top: 0
