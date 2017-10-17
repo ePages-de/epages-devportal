@@ -1,5 +1,6 @@
 $(document).ready(function() {
   navbarScroll();
+  toggleSearchbar()
 
   $(window).scroll(function() {
     navbarScroll();
@@ -34,4 +35,18 @@ $(document).ready(function() {
     $('.navigation').removeClass('navigation--open');
     $(document.documentElement).css('overflow-y', 'auto');
   }
+
+  function toggleSearchbar() {
+    $('.navigation__search-button').click(function() {
+      $('.navigation__search-input').addClass('navigation__search-input--open');
+    })
+  }
+
+  $(document).mouseup(function(e) {
+    var container = $('.navigation__search-input');
+
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+      container.removeClass('navigation__search-input--open');
+    }
+  });
 });
