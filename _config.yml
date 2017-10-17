@@ -39,6 +39,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+feed:
+  path: /blog/feed.xml
+
 pagination:
   enabled: true
   collection: 'posts'
