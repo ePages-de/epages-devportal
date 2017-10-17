@@ -20,6 +20,7 @@ plugins:
   - neat
   - rouge
   - jekyll-twitter-plugin
+  - jekyll-paginate-v2
 
 jekyll_admin:
   hidden_links:
@@ -35,3 +36,10 @@ sass:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 6
+  permalink: '/blog/page/:num'
+  title: ':title'
