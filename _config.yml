@@ -43,3 +43,4 @@ pagination:
   per_page: 6
   permalink: '/blog/page/:num'
   title: ':title'
+  sort_reverse: true
