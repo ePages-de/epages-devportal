@@ -1,7 +1,7 @@
 <div class="post-container">
   {% for post in paginator.posts %}
     {% include components/post-card.html
-               category=post.categories
+               category=post.category
                header-image=post.image
                title=post.title
                authors=post.authors
