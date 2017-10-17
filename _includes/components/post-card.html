@@ -4,9 +4,9 @@
   </div>
   <a href="#" class="card--post__body">
     <h3 class="card--post__title">{{ include.title }}</h3>
-    <div class="card__footer">
-      <p class="card--post__author">{{ include.author }}</p>
-      <p class="card--post__date">{{ include.date }}</p>
+    <div class="card--post__footer">
+      <p class="card--post__author">{{ include.authors | join: ", "}}</p>
+      <p class="card--post__date">{{ include.date | date: "%b %d, %Y" }}</p>
     </div>
   </a>
 </div>
