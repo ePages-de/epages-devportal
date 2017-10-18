@@ -67,6 +67,29 @@
         p
           margin: 0
 
+    .image-lightbox
+      margin: 2rem 0
+      margin-left: -$card-margin-mobile
+      width: calc(100% + #{$card-margin-mobile} * 2)
+      height: 400px
+      position: relative
+      background-size: cover !important
+
+      +grid-media($grid-medium)
+        margin-left: -$card-margin-desktop
+        width: calc(100% + #{$card-margin-desktop} * 2)
+
+      &__button
+        position: absolute
+        bottom: .5em
+        right: .5em
+        color: #2c2926
+        padding: .5em 1em
+
+        &:hover
+          box-shadow: $hover-box-shadow
+          transition: $base-transition
+
   &--post
     box-sizing: border-box
     position: relative
