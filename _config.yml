@@ -38,6 +38,7 @@ sass:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Jenkinsfile
 
 feed:
   path: /blog/feed.xml

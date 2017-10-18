@@ -1,0 +1,34 @@
+.error-404
+  height: 100vh
+  background-image: url(/assets/img/blog/pages/404.jpg)
+  background-size: cover
+  background-position: right
+
+  +grid-media($grid-large)
+    background-position: center
+
+  .content-wrapper
+    margin-top: 0
+    margin-bottom: 0
+    padding: 20rem 0
+    width: 90%
+
+    .status
+      text-align: center
+      color: $dev-blue
+
+      +grid-media($grid-large)
+        text-align: right
+
+      &__title
+        font-size: 12rem
+        line-height: .85
+
+      &__subtitle
+        font-size: 3rem
+        margin-bottom: 2rem
+
+      &__icon
+        display: block
+        height: 3.2rem
+        margin-left: 1rem
