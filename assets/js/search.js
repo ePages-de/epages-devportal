@@ -24,7 +24,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = '<div class="card  card--search"><h3>No results found</h3></div>';
     }
   }
 

@@ -38,7 +38,7 @@ $(document).ready(function() {
 
   function toggleSearchbar() {
     $('.navigation__search-button').click(function() {
-      $('.navigation__search-input').addClass('navigation__search-input--open');
+      $('.navigation__search-input').addClass('navigation__search-input--open').focus();
     });
   }
 
