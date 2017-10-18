@@ -4,7 +4,7 @@
     {% if page.layout == 'post' %}
 
       <h2>{{ page.title }}</h2>
-      <p>{{ page.authors }} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category }}</a></p>
+      <p>{{ page.authors | join: ', ' }} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category }}</a></p>
 
     {% else %}
 
