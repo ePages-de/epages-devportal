@@ -1,0 +1,18 @@
+<div class="post-container">
+  {% for post in paginator.posts %}
+    {% include components/post-card.html
+               category=post.category
+               header-image=post.image
+               title=post.title
+               authors=post.authors
+               date=post.date
+               url=post.url %}
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="card  pagination__item{% unless paginator.previous_page %}  pagination__item--disabled{% endunless %}">Newer</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="card  pagination__item{% unless paginator.next_page %}  pagination__item--disabled{% endunless %}">Older</a>
+  </div>
+{% endif %}

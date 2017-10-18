@@ -1,0 +1,133 @@
+.card
+  background: $card-background-color
+  border: $card-border
+  box-shadow: $card-box-shadow
+
+  &--markdown
+
+    h1, h2, h3, h4, h5, h6
+      margin: 4rem $card-margin-mobile 2rem
+
+      +grid-media($grid-medium)
+        margin: 4rem $card-margin-desktop 2rem
+
+    p, ul, ol
+      margin: 2rem $card-margin-mobile
+
+      +grid-media($grid-medium)
+        margin: 2rem $card-margin-desktop
+
+      &:first-of-type
+        margin-top: $card-margin-mobile
+
+        +grid-media($grid-medium)
+          margin-top: $card-margin-desktop
+
+      &:last-of-type
+        margin-bottom: $card-margin-mobile
+
+        +grid-media($grid-medium)
+
+          margin-bottom: $card-margin-desktop
+
+    img:not(.icon-share)
+      margin: 2rem 0
+      margin-left: -$card-margin-mobile
+      width: calc(100% + #{$card-margin-mobile} * 2)
+      height: auto
+
+      +grid-media($grid-medium)
+        margin-left: -$card-margin-desktop
+        width: calc(100% + #{$card-margin-desktop} * 2)
+
+    .highlight:not(pre)
+      margin: 4rem 0
+      padding: 2rem $card-margin-mobile
+      font-family: $code-font-family
+      font-size: 1.6rem
+      overflow: scroll
+
+      +grid-media($grid-medium)
+        padding: 2rem $card-margin-desktop
+
+    .twitter-tweet
+      margin: 4rem auto !important
+
+      &:not(.twitter-tweet-rendered)
+        max-width: 500px
+        overflow: hidden
+        border: 1px solid rgb(225, 232, 237)
+        border-radius: 4px
+        padding: 2rem $card-margin-mobile
+        box-sizing: border-box
+
+        +grid-media($grid-medium)
+          padding: 2rem $card-margin-desktop
+
+        p
+          margin: 0
+
+  &--post
+    box-sizing: border-box
+    position: relative
+
+    &:hover
+      box-shadow: $hover-box-shadow
+      transition: $base-transition
+
+    &__header
+      position: relative
+      height: 230px
+      background-size: cover
+
+    &__category
+      position: absolute
+      top: 2rem
+      left: -1rem
+      background-color: $dev-blue
+      color: $white
+      line-height: 1
+      font-weight: bold
+      padding: .5rem 1rem
+      font-size: 1.6rem
+      letter-spacing: .05em
+      box-shadow: $hover-box-shadow
+
+      &:hover
+        background-color: darken($dev-blue, 10%)
+        transition: $base-transition
+
+      &::before
+        content: ''
+        position: absolute
+        left: 0
+        bottom: -1rem
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 0 1rem 1rem 0
+        border-color: transparent $dev-blue-dark transparent transparent
+
+    &__body
+      padding: 2rem 3rem
+
+    &__title
+      color: $gray-dark
+      padding-bottom: 3.6rem
+
+    &__footer
+      display: flex
+      justify-content: space-between
+      position: absolute
+      bottom: 2rem
+      width: calc(100% - 6rem)
+      color: $gray-light
+
+    &__author
+      text-overflow: ellipsis
+      white-space: nowrap
+      overflow: hidden
+      margin-right: 2rem
+
+    &__date
+      white-space: nowrap

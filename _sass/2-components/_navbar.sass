@@ -1,0 +1,193 @@
+.navbar
+  position: fixed
+  width: 100%
+  height: $navbar-height
+  display: flex
+  align-items: center
+  z-index: 9999
+  transition: $base-transition
+
+  &-wrapper
+    width: 90%
+    max-width: 1200px
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  .logo
+    display: block
+
+    &--devportal
+      height: 3rem
+
+  .navigation
+    $navigation-width: 75%
+    +position(absolute, 0 null null (-$navigation-width))
+    background: $navbar-background-color
+    height: 100vh
+    z-index: 1
+    width: $navigation-width
+
+    +grid-media($grid-medium)
+      background: inherit
+      height: inherit
+      position: relative
+      float: right
+      width: auto
+      left: auto
+
+    &--open
+      left: 0
+      transition: $base-transition
+
+    &__list
+      display: flex
+      flex-direction: column
+
+      +grid-media($grid-medium)
+        flex-direction: row
+
+    &__item
+      padding: 1em
+      border-bottom: $navbar-border
+      display: inherit
+
+      +grid-media($grid-medium)
+        padding: 0
+        border-bottom: none
+
+        &:not(:last-child)
+          margin-right: 2rem
+
+    &__link
+
+      &:hover,
+      &:focus,
+      &.active
+        font-weight: bold
+
+    &__button
+      float: right
+
+      +grid-media($grid-medium)
+        display: none
+
+    &__background
+      +position(absolute, 0 null null 0)
+      width: 100vw
+      height: 100vh
+      background: rgba(0, 0, 0, .4)
+      display: none
+
+      +grid-media($grid-medium)
+        display: none
+
+    &__search-button
+      height: 2.5rem
+      width: 2.5rem
+      background-image: url(/assets/img/icons/search_white.svg)
+      background-position: center
+      background-repeat: no-repeat
+      display: none
+
+      +grid-media($grid-medium)
+        display: inline-block
+
+    &__search-form
+      width: 100%
+
+      +grid-media($grid-medium)
+        width: auto
+
+    &__search-input
+      outline: none
+      border: 0
+      font-size: $base-font-size
+      transition: width .2s ease-out
+      width: 100%
+      color: $white
+      background-color: #3f3f3f
+      padding: .4em.8em
+      box-sizing: border-box
+
+      +grid-media($grid-medium)
+        width: 0
+        visibility: hidden
+        background: transparent
+        border-bottom: 1px solid $white
+        color: $white
+        padding: 0
+
+      &--open
+        visibility: visible
+        transition: width .2s ease-out
+        text-shadow: $base-text-shadow
+
+        +grid-media($grid-medium)
+          margin-left: 1rem
+          width: 16rem
+
+        +grid-media($grid-large)
+          width: 30rem
+
+        &::-webkit-input-placeholder
+          font-weight: 100
+
+  &--transparent
+    background: linear-gradient(rgba(25,25,25,.6), rgba(0,0,0,0))
+
+    .navigation
+
+      &__link
+        color: $base-font-color-white
+
+        +grid-media($grid-medium)
+          text-shadow: $base-text-shadow
+
+      &__search-button
+        background-image: url(/assets/img/icons/search_white.svg)
+
+      &__search-input
+
+        +grid-media($grid-medium)
+          border-bottom: 1px solid $white
+
+        &--open
+          text-shadow: 0 0 0
+
+          +grid-media($grid-medium)
+            text-shadow: $base-text-shadow
+
+        &::-webkit-input-placeholder
+          color: $gray-light
+
+          +grid-media($grid-medium)
+            color: lighten($gray-light, 30%)
+
+  &--white
+    background: $white
+    border-bottom: $base-border
+
+    .navigation
+
+      &__link
+        color: $base-font-color-white
+
+        +grid-media($grid-medium)
+          color: $base-font-color
+
+      &__search-button
+        background-image: url(/assets/img/icons/search_gray.svg)
+
+      &__search-input
+
+        +grid-media($grid-medium)
+          color: $base-font-color
+          border-bottom: 1px solid $base-font-color
+
+        &--open
+          text-shadow: 0 0 0
+
+        &::-webkit-input-placeholder
+          color: $gray-light

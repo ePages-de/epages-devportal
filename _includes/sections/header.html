@@ -1,0 +1,16 @@
+<header class="header" style="background-image: url(/assets/img/blog/headers/{% post_header page.image %});">
+  <div class="header-wrapper">
+
+    {% if page.layout == 'post' %}
+
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.authors }} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category }}</a></p>
+
+    {% else %}
+
+      <h1>{{ page.title }}</h1>
+
+    {% endif %}
+
+  </div>
+</header>

@@ -1,0 +1,75 @@
+<div class="cross-reading">
+
+  {% assign category = page.category %}
+
+  {% if site.categories[category].first.url == page.url %}
+    {% assign next_post = site.categories[category][1] %}
+    {% assign prev_post = site.categories[category][2] %}
+  {% else %}
+    {% assign posts = site.categories[category] %}
+    {% for post in posts %}
+      {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+      {% endif %}
+    {% endfor %}
+    {% for post in posts %}
+      {% if post_index0 == forloop.index %}
+        {% assign next_post = post %}
+      {% endif %}
+      {% if post_index1 == forloop.index0 %}
+        {% assign prev_post = post %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% case category %}
+    {% when 'api-experience' %}
+      {% assign other_post = site.categories['techcomm-and-socialmedia'][0] %}
+    {% when 'coding' %}
+      {% assign other_post = site.categories['events'][0] %}
+    {% when 'events' %}
+      {% assign other_post = site.categories['on-the-job'][0] %}
+    {% when 'language-and-localization' %}
+      {% assign other_post = site.categories['api-experience'][0] %}
+    {% when 'methods-and-tools' %}
+      {% assign other_post = site.categories['language-and-localization'][0] %}
+    {% when 'on-the-job' %}
+      {% assign other_post = site.categories['methods-and-tools'][0] %}
+    {% when 'tech-stories' %}
+      {% assign other_post = site.categories['coding'][0] %}
+    {% when 'techcomm-and-socialmedia' %}
+      {% assign other_post = site.categories['tech-stories'][0] %}
+  {% endcase %}
+
+  {% if next_post %}
+    {% include components/post-card.html
+               category=next_post.category
+               header-image=next_post.image
+               title=next_post.title
+               authors=next_post.authors
+               date=next_post.date
+               url=next_post.url %}
+  {% endif %}
+
+  {% if prev_post %}
+    {% include components/post-card.html
+               category=prev_post.category
+               header-image=prev_post.image
+               title=prev_post.title
+               authors=prev_post.authors
+               date=prev_post.date
+               url=prev_post.url %}
+  {% endif %}
+
+  {% if other_post %}
+    {% include components/post-card.html
+               category=other_post.category
+               header-image=other_post.image
+               title=other_post.title
+               authors=other_post.authors
+               date=other_post.date
+               url=other_post.url %}
+  {% endif %}
+
+</div>

@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+  {% include head.html %}
+  <body class="post">
+    {% include sections/navbar.html %}
+    {% include sections/header.html %}
+    <main>
+      <div class="content-wrapper">
+        <div class="card  card--markdown">
+          {{ content }}
+          {% include components/post-share.html %}
+        </div>
+        {% include components/cross-reading.html %}
+      </div>
+    </main>
+    {% include sections/footer.html %}
+    <script src="/assets/js/posts.js"></script>
+    <script src="/assets/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/lightbox.css" />
+  </body>
+</html>

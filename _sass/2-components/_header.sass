@@ -1,0 +1,46 @@
+.header
+  background-size: cover
+  background-position: center center
+  width: 100%
+  height: $header-height
+  display: flex
+  align-items: center
+  box-shadow: $base-box-shadow
+  padding-top: $navbar-height
+  box-sizing: border-box
+
+  &-wrapper
+    width: 90%
+    max-width: 1200px
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: center
+
+  h1, h2, p
+    color: $base-font-color-white
+    text-shadow: $base-text-shadow
+    text-align: center
+
+.page
+  .header
+    .icon-play
+      opacity: .8
+
+.post
+  .header-wrapper
+    flex-direction: column
+
+    h2
+      margin-bottom: 2rem
+
+    p
+      color: $base-font-color-white
+
+      a
+        color: $base-font-color-white
+        text-decoration: none
+
+        &:hover,
+        &:focus
+          text-decoration: underline
