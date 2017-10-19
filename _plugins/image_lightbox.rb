@@ -9,14 +9,15 @@ module Jekyll
     def initialize(_, args, _)
       super
       @args = OptionParser.parse(args, ALLOWED_ATTRIBUTES)
-      raise 'ImageLightbox must have an "image" attribute' if @args[:image].nil?
+      raise 'ImageLightbox: "image" attribute must be provided' if @args[:image].nil?
+      raise 'ImageLightbox: Image doesn\'t exist' unless File.file?(@args[:image])
     end
 
     def render(context)
-      %{<a href='/assets/img/blog/images/#{@args[:image]}'
+      %{<a href='#{@args[:image]}'
            class='image-lightbox'
            data-lightbox='#{@args[:image]}'
-           style='background: url(/assets/img/blog/images/#{@args[:image]}); background-position: center #{@args[:align]};'>
+           style='background: url(#{@args[:image]}); background-position: center #{@args[:align]};'>
            <span class='card image-lightbox__button'>See Full Image</span></a>}
     end
   end
