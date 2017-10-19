@@ -26,8 +26,6 @@ plugins:
 
 jekyll_admin:
   hidden_links:
-    - pages
-    - staticfiles
     - datafiles
     - configuration
 
@@ -39,6 +37,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Jenkinsfile
+  - docker-compose.yml
 
 feed:
   path: /blog/feed.xml
