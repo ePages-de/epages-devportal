@@ -1,21 +1,34 @@
 .error-404
-  height: 100vh
-  background-image: url(/assets/img/blog/pages/404.jpg)
-  background-size: cover
-  background-position: right
 
-  +grid-media($grid-large)
-    background-position: center
+  main
+    background-image: url(/assets/img/blog/pages/404-2.jpg)
+    background-size: cover
+    background-position: left
+    padding-top: 6rem
+    padding-bottom: 6rem
+    box-sizing: border-box
+
+    +grid-media($grid-small)
+      background-position: center
+      padding-top: 16rem
+      padding-bottom: 16rem
+
+    +grid-media($grid-medium)
+      background-position: center
+      padding-top: 26rem
+      padding-bottom: 26rem
+      height: calc(100vh - 453px)
 
   .content-wrapper
     margin-top: 0
     margin-bottom: 0
-    padding: 20rem 0
+    padding-top: 90px
     width: 90%
 
     .status
       text-align: center
-      color: $dev-blue
+      color: $white
+      text-shadow: $base-text-shadow
 
       +grid-media($grid-large)
         text-align: right
@@ -26,9 +39,3 @@
 
       &__subtitle
         font-size: 3rem
-        margin-bottom: 2rem
-
-      &__icon
-        display: block
-        height: 3.2rem
-        margin-left: 1rem
