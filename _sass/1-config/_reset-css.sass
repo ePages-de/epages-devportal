@@ -21,6 +21,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section
   display: block
 
+html, body
+  width: 100vw
+  overflow-x: hidden
+
+  +grid-media($grid-large)
+    width: initial
+    overflow-x: initial
+
 body
   line-height: 1
 
