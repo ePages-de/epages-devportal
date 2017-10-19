@@ -51,8 +51,9 @@
     var idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
-      this.field('authors');
       this.field('category');
+      this.field('tags');
+      this.field('authors');
       this.field('content');
     });
 
@@ -60,8 +61,9 @@
       idx.add({
         'id': key,
         'title': window.store[key].title,
-        'authors': window.store[key].authors,
         'category': window.store[key].category,
+        'tags': window.store[key].tags,
+        'authors': window.store[key].authors,
         'content': window.store[key].content
       });
 
