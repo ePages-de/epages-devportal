@@ -3,6 +3,12 @@
 <html>
   {% include head.html %}
   <body class="error-404">
-    {{ content }}
+    {% include sections/navbar.html %}
+    <main>
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </main>
+    {% include sections/footer.html %}
   </body>
 </html>
