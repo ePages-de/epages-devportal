@@ -10,7 +10,7 @@
         var appendString = appendString + '\
           <div class="card  card--post"> \
             <div class="card--post__header" style="background-image: url(/assets/img/blog/headers/' + item.image + '); background-position: center {{ include.header-position }}"> \
-              <a href="/blog/category/' + item.category + '" class="card--post__category">' + item.category + '</a> \
+              <a href="/blog/category/' + item.category + '" class="card--post__category">' + item.category_name + '</a> \
             </div> \
             <a href="' + item.url + '" class="card--post__body"> \
               <h3 class="card--post__title">' + item.title + '</h3> \

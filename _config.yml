@@ -42,6 +42,16 @@ exclude:
 feed:
   path: /blog/feed.xml
 
+categories:
+  api-experience: API Experience
+  coding: Coding
+  events: Events
+  language-and-localization: Language &amp; Localization
+  methods-and-tools: Methods &amp; Tools
+  on-the-job: On the job
+  tech-stories: Tech Stories
+  techcomm-and-socialmedia: TechComm &amp; Social Media
+
 pagination:
   enabled: true
   collection: 'posts'
