@@ -17,7 +17,8 @@ title: Search
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}",
         "image": "{{ post.image }}",
-        "date": "{{ post.date }}"
+        "date": "{{ post.date }}",
+        "category_name": "{{ post.category | category_name | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
