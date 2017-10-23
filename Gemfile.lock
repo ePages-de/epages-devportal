@@ -8,6 +8,7 @@ GEM
       sass (~> 3.4)
       thor (~> 0.19)
     colorator (1.1.0)
+    colorize (0.8.1)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
     jekyll (3.6.0)
@@ -53,6 +54,7 @@ GEM
       rack
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
+    rake (12.0.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -82,17 +84,19 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
+  colorize
   jekyll
   jekyll-admin
   jekyll-feed
   jekyll-paginate-v2
   jekyll-twitter-plugin
   neat
+  rake
   rouge
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.4.2p198
 
 BUNDLED WITH
    1.15.4
