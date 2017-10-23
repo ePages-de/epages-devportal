@@ -1,6 +1,7 @@
 .card
   background: $card-background-color
   border: $card-border
+  border-radius: $card-border-radius
   box-shadow: $card-box-shadow
 
   &--markdown
@@ -102,12 +103,14 @@
       position: relative
       height: 230px
       background-size: cover
+      border-top-left-radius: $card-border-radius
+      border-top-right-radius: $card-border-radius
 
     &__category
       position: absolute
       top: 2rem
       left: -1rem
-      background-color: $dev-blue
+      background-color: $card-ribbon-background-color
       color: $white
       line-height: 1
       font-weight: bold
@@ -115,9 +118,12 @@
       font-size: 1.6rem
       letter-spacing: .05em
       box-shadow: $hover-box-shadow
+      border-top-right-radius: $base-border-radius
+      border-bottom-right-radius: $base-border-radius
 
       &:hover
-        background-color: darken($dev-blue, 10%)
+        background-color: $card-ribbon-background-color-shade
+        color: $white
         transition: $base-transition
 
       &::before
@@ -129,7 +135,7 @@
         height: 0
         border-style: solid
         border-width: 0 1rem 1rem 0
-        border-color: transparent $dev-blue-dark transparent transparent
+        border-color: transparent $card-ribbon-background-color-shade transparent transparent
 
     &__body
       padding: 2rem

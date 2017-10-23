@@ -1,41 +1,14 @@
-.error-404
+.main
+  background-image: url(/assets/img/blog/pages/404.jpg)
 
-  main
-    background-image: url(/assets/img/blog/pages/404-2.jpg)
-    background-size: cover
-    background-position: left
+  .status
     padding-top: 6rem
-    padding-bottom: 6rem
-    box-sizing: border-box
+    text-align: center
+    color: $white
 
-    +grid-media($grid-small)
-      background-position: center
-      padding-top: 16rem
-      padding-bottom: 16rem
+    &__title
+      font-size: 12rem
+      line-height: 1
 
-    +grid-media($grid-medium)
-      background-position: center
-      padding-top: 26rem
-      padding-bottom: 26rem
-      height: calc(100vh - 453px)
-
-  .content-wrapper
-    margin-top: 0
-    margin-bottom: 0
-    padding-top: 90px
-    width: 90%
-
-    .status
-      text-align: center
-      color: $white
-      text-shadow: $base-text-shadow
-
-      +grid-media($grid-large)
-        text-align: right
-
-      &__title
-        font-size: 12rem
-        line-height: .85
-
-      &__subtitle
-        font-size: 3rem
+    &__subtitle
+      font-size: 3rem

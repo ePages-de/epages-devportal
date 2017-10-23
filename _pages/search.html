@@ -1,7 +1,7 @@
 ---
 layout: search
 permalink: /blog/search.html
-image: blog.jpg
+header_image: blog.jpg
 title: Search
 ---
 
@@ -17,7 +17,7 @@ title: Search
         "authors": "{{ post.authors | join: ', ' | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}",
-        "image": "{{ post.image }}",
+        "image": "{{ post.header_image }}",
         "date": "{{ post.date }}",
         "category_name": "{{ post.category | category_name | xml_escape }}"
       }

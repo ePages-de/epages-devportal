@@ -65,7 +65,8 @@
       &:hover,
       &:focus,
       &.active
-        text-decoration: underline
+        text-decoration: none
+        color: $beyond-green
 
     &__button
       float: right
@@ -107,7 +108,7 @@
       transition: width .2s ease-out
       width: 100%
       color: $white
-      background-color: #3f3f3f
+      background-color: $navbar-input-background-color
       padding: .4em.8em
       box-sizing: border-box
 
@@ -135,7 +136,7 @@
           font-weight: 100
 
   &--transparent
-    background: linear-gradient(rgba(25,25,25,.6), rgba(0,0,0,0))
+    background: linear-gradient(rgba(60,60,60,.5), rgba(0,0,0,0))
 
     .navigation
 

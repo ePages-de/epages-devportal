@@ -1,16 +1,20 @@
-<header class="header" style="background-image: url(/assets/img/blog/headers/{% post_header page.image %}); background-position: center {{ page.header-position }}">
-  <div class="header-wrapper">
+{% if page.header_image %}
 
-    {% if page.layout == 'post' %}
+  <header class="header" style="background-image: url(/assets/img/blog/headers/{% post_header page.header_image %}); background-position: center {{ page.header_position }}">
+    <div class="header-wrapper">
 
-      <h2>{{ page.title }}</h2>
-      <p>{{ page.authors | join: ', ' }} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category }}</a></p>
+      {% if page.layout == 'post' %}
 
-    {% else %}
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.authors | join: ', ' }} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category }}</a></p>
 
-      <h1>{{ page.title }}</h1>
+      {% else %}
 
-    {% endif %}
+        <h1>{{ page.title }}</h1>
 
-  </div>
-</header>
+      {% endif %}
+
+    </div>
+  </header>
+
+{% endif %}
