@@ -2,12 +2,17 @@
   background-image: url(/assets/img/blog/pages/footer.jpg)
   background-size: cover
   background-position: center center
+  display: flex
+  height: 600px
+
+  +grid-media($grid-medium)
+    height: 500px
 
   &-wrapper
     width: 90%
     max-width: 1200px
     margin: 0 auto
-    padding: 8rem 0
+    padding: 0
     display: flex
     align-items: center
     justify-content: center
@@ -32,8 +37,8 @@
     &--social
       margin-bottom: 6rem
 
-      a:not(:last-child)
-        margin-right: 1rem
+      a:not(:first-child)
+        margin-left: 1rem
 
       .icon
         display: block
@@ -79,3 +84,20 @@
         &:hover,
         &:focus
           color: $base-font-color-white
+
+.blank
+
+  .footer
+    background: transparent
+    width: 100%
+    display: flex
+    align-items: center
+
+    &-wrapper
+
+      .row
+
+        &--social
+
+          a:nth-child(4)
+            display: none
