@@ -45,7 +45,7 @@
   {% if next_post %}
     {% include components/post-card.html
                category=next_post.category
-               header-image=next_post.image
+               header_image=next_post.header_image
                title=next_post.title
                authors=next_post.authors
                date=next_post.date
@@ -55,7 +55,7 @@
   {% if prev_post %}
     {% include components/post-card.html
                category=prev_post.category
-               header-image=prev_post.image
+               header_image=prev_post.header_image
                title=prev_post.title
                authors=prev_post.authors
                date=prev_post.date
@@ -65,7 +65,7 @@
   {% if other_post %}
     {% include components/post-card.html
                category=other_post.category
-               header-image=other_post.image
+               header_image=other_post.header_image
                title=other_post.title
                authors=other_post.authors
                date=other_post.date
