@@ -1,12 +1,8 @@
 $(document).ready(function() {
 
-  toggleSearchbar();
-
-  function toggleSearchbar() {
-    $('.navigation__search-button').click(function() {
-      $('.navigation__search-input').addClass('navigation__search-input--open').focus();
-    });
-  }
+  $('.navigation__search-button').click(function() {
+    $('.navigation__search-input').addClass('navigation__search-input--open').focus();
+  });
 
   $(document).mouseup(function(e) {
     var container = $('.navigation__search-input');
