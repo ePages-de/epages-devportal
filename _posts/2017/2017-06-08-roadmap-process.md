@@ -2,8 +2,8 @@
 layout: post
 title: "3 top benefits of a product roadmap planning"
 date: "2017-06-08 07:34:02"
-image: blog-header/agile-roadmap.jpg
-categories: agile
+header_image: agile-roadmap.jpg
+category: methods-and-tools
 authors: ["Ann-Katrin"]
 ---
 

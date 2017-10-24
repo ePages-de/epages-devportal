@@ -2,8 +2,8 @@
 layout: post
 title: "The pros and cons of an e-learning course about continuous deployment"
 date: "2017-05-11 07:00:00"
-image: blog-header/learning.jpg
-categories: tech-stories
+header_image: learning.jpg
+category: tech-stories
 authors: ["Jan"]
 ---
 

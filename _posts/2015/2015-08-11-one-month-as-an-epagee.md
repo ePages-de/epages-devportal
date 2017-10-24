@@ -2,7 +2,7 @@
 layout: post
 title: "One month as an ePagee"
 date: "2015-08-11 08:00:00"
-categories: working-at-epages
+category: on-the-job
 authors: ["Mathias", "Mats"]
 ---
 

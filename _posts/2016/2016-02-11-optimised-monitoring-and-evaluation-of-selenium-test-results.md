@@ -2,8 +2,8 @@
 layout: post
 title: "Optimised monitoring and evaluation of Selenium test results"
 date: "2016-02-11 10:11:12"
-image: blog-header/test-automation-1.jpg
-categories: tech-stories
+header_image: test-automation-1.jpg
+category: tech-stories
 authors: ["Benjamin N.", "Bastian K."]
 ---
 

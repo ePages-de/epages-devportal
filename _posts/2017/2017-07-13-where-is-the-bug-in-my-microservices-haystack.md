@@ -2,8 +2,8 @@
 layout: post
 title: "Where's the bug in my microservices haystack?"
 date: "2017-07-13 09:30:00"
-image: blog-header/needle-in-a-haystack.jpg
-categories: tech-stories
+header_image: needle-in-a-haystack.jpg
+category: tech-stories
 authors: ["Jens"]
 ---
 

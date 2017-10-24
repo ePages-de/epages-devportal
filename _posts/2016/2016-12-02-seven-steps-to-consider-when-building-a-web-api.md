@@ -2,8 +2,8 @@
 layout: post
 title: "7 steps to consider when building a Web API"
 date: "2016-12-02 07:00:00"
-image: blog-header/construction.jpg
-categories: api
+header_image: construction.jpg
+category: api-experience
 authors: ["David", "Ulf B."]
 ---
 

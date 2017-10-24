@@ -2,8 +2,8 @@
 layout: post
 title: "Magdeburger Developer Days"
 date: "2016-05-26 08:30:20"
-image: blog-header/magdeburg-dev.jpg
-categories: events
+header_image: magdeburg-dev.jpg
+category: events
 authors: ["Bastian and Benjamin"]
 ---
 

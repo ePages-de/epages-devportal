@@ -2,7 +2,7 @@
 layout: post
 title: "Results from the first Agile Hackathon at ePages"
 date: "2016-04-20 09:34:28"
-categories: agile
+category: methods-and-tools
 authors: ["Anja B."]
 ---
 

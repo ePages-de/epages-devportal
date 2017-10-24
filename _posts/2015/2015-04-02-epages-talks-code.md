@@ -2,8 +2,8 @@
 layout: post
 title: "ePages talks code"
 date: "2015-04-02 12:00:00"
-image: blog-header/code.jpg
-categories: events
+header_image: code.jpg
+category: events
 authors: ["Birgit"]
 ---
 

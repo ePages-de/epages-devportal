@@ -2,8 +2,8 @@
 layout: post
 title: "A coffee with the CTO of ePages"
 date: "2017-01-12 06:11:00"
-image: blog-header/cto-coffee.jpg
-categories: working-at-epages
+header_image: cto-coffee.jpg
+category: on-the-job
 authors: ["Rose", "Harm"]
 ---
 

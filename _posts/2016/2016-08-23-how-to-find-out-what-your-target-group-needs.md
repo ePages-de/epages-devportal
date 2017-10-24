@@ -2,8 +2,8 @@
 layout: post
 title: "How to find out what your target group needs"
 date: "2016-08-23 08:00:21"
-image: blog-header/target.jpg
-categories: api
+header_image: target.jpg
+category: techcomm-and-socialmedia
 authors: ["Birgit"]
 ---
 

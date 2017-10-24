@@ -2,8 +2,8 @@
 layout: post
 title: "Implementing Capistrano as Configuration Management Tool"
 date: "2016-03-30 07:16:17"
-image: blog-header/platform.jpg
-categories: tech-stories
+header_image: platform.jpg
+category: tech-stories
 authors: ["Karsten P."]
 ---
 

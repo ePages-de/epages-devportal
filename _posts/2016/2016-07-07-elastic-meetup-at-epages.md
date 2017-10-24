@@ -2,8 +2,8 @@
 layout: post
 title: "Elastic Meetup at ePages"
 date: "2016-07-08 11:11:11"
-image: blog-header/elastic-meetup.jpg
-categories: events
+header_image: elastic-meetup.jpg
+category: events
 authors: ["Christian K., Jens", "Benjamin"]
 ---
 

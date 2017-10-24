@@ -2,8 +2,8 @@
 layout: post
 title: "Working as a Software Developer at ePages"
 date: "2016-06-01 07:16:17"
-image: blog-header/david.jpg
-categories: working-at-epages
+header_image: david.jpg
+category: on-the-job
 authors: ["Birgit, Serena", "David"]
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Multitenancy and Elasticsearch"
 date: "2016-11-21 09:00:00"
-image: blog-header/multitenant.jpg
-categories: tech-stories
+header_image: multitenant.jpg
+category: tech-stories
 authors: ["Ulf S."]
 ---
 

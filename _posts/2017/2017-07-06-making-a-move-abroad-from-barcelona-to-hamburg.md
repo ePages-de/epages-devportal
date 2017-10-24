@@ -2,8 +2,8 @@
 layout: post
 title: "Making a move abroad - from Barcelona to Hamburg"
 date: "2017-07-06 09:30:00"
-image: blog-header/suitcase.jpg
-categories: working-at-epages
+header_image: suitcase.jpg
+category: on-the-job
 authors: ["Xavi"]
 ---
 

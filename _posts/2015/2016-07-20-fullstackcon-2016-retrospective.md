@@ -2,8 +2,8 @@
 layout: post
 title: "ePages goes FullStack JavaScript conference"
 date: "2016-07-19 14:00:00"
-image: blog-header/javascript.png
-categories: events
+header_image: javascript.png
+category: events
 authors: ["Paolo"]
 ---
 

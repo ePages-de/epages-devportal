@@ -3,7 +3,7 @@ layout: post
 title: "Getting twice the things done in half the time"
 date: "2017-01-31 06:11:00"
 image: /blog-header/rugby.jpg
-categories: agile
+category: methods-and-tools
 authors: ["Alejandra"]
 ---
 

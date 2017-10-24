@@ -2,8 +2,8 @@
 layout: post
 title: "SoCraTes 2017 - Order is optional"
 date: "2017-09-01 07:37:42"
-image: blog-header/socrates-2017-header.jpg
-categories: events
+header_image: socrates-2017-header.jpg
+category: events
 authors: ["Oliver Z."]
 ---
 

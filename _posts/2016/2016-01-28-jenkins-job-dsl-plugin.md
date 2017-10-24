@@ -2,7 +2,7 @@
 layout: post
 title: "Jenkins jobs as code: the Job DSL plugin"
 date: "2016-01-28 07:59:11"
-categories: tech-stories
+category: tech-stories
 authors: ["Ulf B."]
 ---
 

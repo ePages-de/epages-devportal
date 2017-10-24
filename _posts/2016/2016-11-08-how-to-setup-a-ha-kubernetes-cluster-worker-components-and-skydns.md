@@ -2,8 +2,8 @@
 layout: post
 title: "How to set up a HA Kubernetes cluster: worker components and SkyDNS"
 date: "2016-11-08 07:16:17"
-image: blog-header/kubernetes-worker-logo.jpg
-categories: tech-stories
+header_image: kubernetes-worker-logo.jpg
+category: tech-stories
 authors: ["Karsten P."]
 ---
 

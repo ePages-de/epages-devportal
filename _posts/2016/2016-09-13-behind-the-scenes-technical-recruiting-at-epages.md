@@ -2,8 +2,8 @@
 layout: post
 title: "Behind the scenes: Technical recruiting at ePages"
 date: "2016-09-13 08:00:21"
-image: blog-header/techrecruiting.jpg
-categories: working-at-epages
+header_image: techrecruiting.jpg
+category: on-the-job
 authors: ["Julia, Serena"]
 ---
 

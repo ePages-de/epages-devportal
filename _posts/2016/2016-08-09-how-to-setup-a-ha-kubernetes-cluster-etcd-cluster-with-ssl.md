@@ -2,8 +2,8 @@
 layout: post
 title: "How to set up a HA Kubernetes cluster: etcd cluster with SSL"
 date: "2016-08-09 07:16:17"
-image: blog-header/kubernetes-logo.jpg
-categories: tech-stories
+header_image: kubernetes-logo.jpg
+category: tech-stories
 authors: ["Karsten P."]
 ---
 

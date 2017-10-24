@@ -2,8 +2,8 @@
 layout: post
 title: "XP Days Germany 2016"
 date: "2016-11-28 12:11:00"
-image: blog-header/hamburg-docks.jpg
-categories: events
+header_image: hamburg-docks.jpg
+category: events
 authors: ["Benjamin", "Bastian"]
 ---
 <style>

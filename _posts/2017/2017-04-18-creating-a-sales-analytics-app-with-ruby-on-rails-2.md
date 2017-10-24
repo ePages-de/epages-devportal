@@ -2,8 +2,8 @@
 layout: post
 title: "Creating a Sales Analytics App: issue solving"
 date: "2017-04-18 07:00:00"
-image: blog-header/rails-train-path-straight.jpg
-categories: tech-stories
+header_image: rails-train-path-straight.jpg
+category: tech-stories
 authors: ["Unai M."]
 ---
 

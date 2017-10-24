@@ -2,8 +2,8 @@
 layout: post
 title: "Reactive streams"
 date: "2017-06-13 08:00:00"
-image: blog-header/water-rocks.jpg
-categories: tech-stories
+header_image: water-rocks.jpg
+category: tech-stories
 authors: ["Christian H."]
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "How to ease test evaluation in the Continuous Delivery Pipeline"
 date: "2016-02-16 06:16:02"
-image: blog-header/test-automation-2.jpg
-categories: tech-stories
+header_image: test-automation-2.jpg
+category: tech-stories
 authors: ["Benjamin N.", "Bastian K."]
 ---
 

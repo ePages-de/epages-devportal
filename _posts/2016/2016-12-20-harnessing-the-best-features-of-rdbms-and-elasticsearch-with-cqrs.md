@@ -2,8 +2,8 @@
 layout: post
 title: "Harnessing the best features of RDBMS and Elasticsearch with CQRS"
 date: "2016-12-20 09:00:00"
-image: blog-header/searching.jpg
-categories: tech-stories
+header_image: searching.jpg
+category: tech-stories
 authors: ["Jens"]
 ---
 

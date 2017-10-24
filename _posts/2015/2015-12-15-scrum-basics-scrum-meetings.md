@@ -2,8 +2,8 @@
 layout: post
 title: "Scrum Basics: Scrum Meetings"
 date: "2015-12-15 07:23:00"
-image: blog-header/meeting.jpg
-categories: agile
+header_image: meeting.jpg
+category: methods-and-tools
 authors: ["Anja B."]
 ---
 

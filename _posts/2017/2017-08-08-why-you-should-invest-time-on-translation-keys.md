@@ -2,8 +2,8 @@
 layout: post
 title: Why you should invest time on translation keys
 date: "2017-08-08 09:34:02"
-image: blog-header/translation-keys.jpg
-categories: tech-stories
+header_image: translation-keys.jpg
+category: language-and-localization
 authors: ["Christina"]
 ---
 Let me guess.

@@ -2,7 +2,7 @@
 layout: post
 title: "Infrastructure as code: automating Jenkins"
 date: "2015-06-25 09:00:00"
-categories: tech-stories
+category: tech-stories
 authors: ["Jens", "Dirk"]
 ---
 

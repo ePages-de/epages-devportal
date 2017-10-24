@@ -2,8 +2,8 @@
 layout: post
 title: "Creating systems with pipelining"
 date: "2015-08-03"
-image: blog-header/pipelines.jpg
-categories: tech-stories
+header_image: pipelines.jpg
+category: tech-stories
 authors: ["Carsten", "Karsten"]
 ---
 

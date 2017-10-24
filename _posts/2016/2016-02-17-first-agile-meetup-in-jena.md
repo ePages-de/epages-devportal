@@ -2,8 +2,8 @@
 layout: post
 title: "First Agile Meetup in Jena"
 date: "2016-02-17 07:23:00"
-image: blog-header/agile-meetup.jpg
-categories: events
+header_image: agile-meetup.jpg
+category: events
 authors: ["Anja B.", "Fouad-Steffen"]
 ---
 

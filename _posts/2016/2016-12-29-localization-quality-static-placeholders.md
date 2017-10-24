@@ -2,8 +2,8 @@
 layout: post
 title: "Guest post: Higher localization quality with static placeholders"
 date: "2016-12-29 07:00:00"
-image: blog-header/quality.jpg
-categories: tech-stories
+header_image: quality.jpg
+category: tech-stories
 authors: ["Frederik"]
 ---
 In the prior article on [smart localization formats](https://developer.epages.com/blog/2016/12/08/smart-localization-formats.html), I tried to shed some light on some of the possible features of the commonly used localization format [gettext](https://www.gnu.org/software/gettext/) and to give a quick introduction to the [ICU Message Format](http://userguide.icu-project.org/formatparse/messages).

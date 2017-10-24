@@ -2,8 +2,8 @@
 layout: post
 title: "One development environment to rule them all"
 date: "2017-03-14 07:00:00"
-image: blog-header/ring.jpg
-categories: tech-stories
+header_image: ring.jpg
+category: tech-stories
 authors: ["Jordi"]
 ---
 

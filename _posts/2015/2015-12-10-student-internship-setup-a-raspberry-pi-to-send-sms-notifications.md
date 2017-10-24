@@ -2,8 +2,8 @@
 layout: post
 title: "Student internship: Set up a Raspberry Pi to send SMS notifications "
 date: "2015-12-10 06:00:00"
-image: blog-header/raspberry-pi.jpg
-categories: tech-stories
+header_image: raspberry-pi.jpg
+category: tech-stories
 authors: ["Katharina", "Norman"]
 ---
 

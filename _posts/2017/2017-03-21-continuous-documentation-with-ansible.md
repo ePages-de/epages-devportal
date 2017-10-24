@@ -2,8 +2,8 @@
 layout: post
 title: "Continuous Documentation with Ansible"
 date: "2017-03-21 06:39:20"
-image: blog-header/blog-forest-park-walk-trail.png
-categories: agile
+header_image: blog-forest-park-walk-trail.png
+category: methods-and-tools
 authors: ["Thomas"]
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Help us improve our API documentation"
 date: "2015-09-04 10:20:00"
-image: blog-header/tools.jpg
-categories: api
+header_image: tools.jpg
+category: api-experience
 authors: ["Birgit"]
 ---
 

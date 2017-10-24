@@ -2,7 +2,7 @@
 layout: post
 title: "Scrum Basics: What is Scrum?"
 date: "2015-10-13 08:23:00"
-categories: agile
+category: methods-and-tools
 authors: ["Anja B."]
 ---
 

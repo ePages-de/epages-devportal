@@ -2,8 +2,8 @@
 layout: post
 title: "How we test our API"
 date: "2016-09-29 11:11:11"
-image: blog-header/heartbeat.jpg
-categories: api
+header_image: heartbeat.jpg
+category: api-experience
 authors: ["Ulf B."]
 ---
 

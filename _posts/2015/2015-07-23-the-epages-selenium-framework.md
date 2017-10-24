@@ -2,7 +2,7 @@
 layout: post
 title: "The ePages Selenium Framework"
 date: "2015-07-23 09:24:08"
-categories: tech-stories
+category: tech-stories
 authors: ["Jan M.", "Martin K.", "Kay A."]
 ---
 

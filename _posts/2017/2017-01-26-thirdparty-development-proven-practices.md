@@ -2,8 +2,8 @@
 layout: post
 title: "6 proven practices that make third-party development fun"
 date: "2017-01-24 07:00:00"
-image: blog-header/thirdparty-weapons.jpg
-categories: tech-stories
+header_image: thirdparty-weapons.jpg
+category: tech-stories
 authors: ["Mats"]
 ---
 

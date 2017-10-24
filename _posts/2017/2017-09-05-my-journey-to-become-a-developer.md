@@ -2,9 +2,9 @@
 layout: post
 title: My journey to become a developer
 date: "2017-09-05 10:00:00"
-image: blog-header/journey-developer.jpg
+header_image: journey-developer.jpg
 image-position: bottom
-categories: working-at-epages
+category: on-the-job
 authors: ["Christoph"]
 ---
 My name is Christoph, and since the beginning of the year I am working as a frontend developer at ePages.

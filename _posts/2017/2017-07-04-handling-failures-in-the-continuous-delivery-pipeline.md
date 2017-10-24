@@ -2,8 +2,8 @@
 layout: post
 title: "Handling failures in the continuous delivery pipeline"
 date: "2017-07-04 07:00:00"
-image: blog-header/microservices-pipeline-3.jpg
-categories: tech-stories
+header_image: microservices-pipeline-3.jpg
+category: tech-stories
 authors: ["Benjamin", "Nicole"]
 ---
 

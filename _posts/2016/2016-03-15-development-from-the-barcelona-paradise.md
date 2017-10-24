@@ -2,8 +2,8 @@
 layout: post
 title: "Development from the Barcelona paradise"
 date: "2016-03-15 09:00:00"
-image: blog-header/barbecue.jpg
-categories: working-at-epages
+header_image: barbecue.jpg
+category: on-the-job
 authors: ["Roger"]
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Go'ing forward"
 date: "2017-08-01 08:00:00"
-image: blog-header/golang-library.jpg
-categories: tech-stories
+header_image: golang-library.jpg
+category: coding
 authors: ["Carsten", "Karsten"]
 ---
 

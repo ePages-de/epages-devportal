@@ -2,7 +2,7 @@
 layout: post
 title: "Annual company event: ePagees rock the YOU"
 date: "2015-09-21 13:09:00"
-categories: events
+category: events
 authors: ["Birgit"]
 ---
 

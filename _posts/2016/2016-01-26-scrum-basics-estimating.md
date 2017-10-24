@@ -2,8 +2,8 @@
 layout: post
 title: "Scrum Basics: Estimating"
 date: "2016-01-26 07:23:00"
-image: blog-header/estimation.jpg
-categories: agile
+header_image: estimation.jpg
+category: methods-and-tools
 authors: ["Anja B."]
 ---
 

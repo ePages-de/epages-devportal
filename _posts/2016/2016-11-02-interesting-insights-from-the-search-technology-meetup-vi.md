@@ -2,8 +2,8 @@
 layout: post
 title: "Interesting insights from the Search Technology Meetup VI"
 date: "2016-11-02 09:00:00"
-image: blog-header/search.jpg
-categories: events
+header_image: search.jpg
+category: events
 authors: ["Rose"]
 ---
 

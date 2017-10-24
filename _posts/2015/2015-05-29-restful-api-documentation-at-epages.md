@@ -2,8 +2,8 @@
 layout: post
 title: "RESTful API documentation @ePages"
 date: "2015-05-28 13:35:00"
-image: blog-header/compass.jpg
-categories: api
+header_image: compass.jpg
+category: api-experience
 authors: ["Birgit"]
 ---
 

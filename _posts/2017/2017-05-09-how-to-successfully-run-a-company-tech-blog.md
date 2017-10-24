@@ -2,8 +2,8 @@
 layout: post
 title: "How to successfully run a company tech blog"
 date: "2017-05-09 10:00:00"
-image: blog-header/social-like.jpg
-categories: tech-stories
+header_image: social-like.jpg
+category: techcomm-and-socialmedia
 authors: ["Rose"]
 ---
 

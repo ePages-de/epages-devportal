@@ -2,9 +2,9 @@
 layout: post
 title: Commerce Summit approaching
 date: "2017-08-15 09:34:02"
-image: blog-header/commerce-summit.jpg
+header_image: commerce-summit.jpg
 image-position: bottom
-categories: events
+category: events
 authors: ["Birgit"]
 ---
 

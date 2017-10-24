@@ -2,9 +2,9 @@
 layout: post
 title: "code.talks 2017 - Back on the big screen"
 date: "2017-10-05 10:30:00"
-image: blog-header/codetalks-2017.png
+header_image: codetalks-2017.png
 image-position: bottom
-categories: events
+category: events
 authors: ["Mats", "Mathias"]
 ---
 

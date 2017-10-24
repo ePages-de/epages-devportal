@@ -2,8 +2,8 @@
 layout: post
 title: "App development: ePages Partner Training in Hamburg"
 date: "2016-08-30 09:13:24"
-image: blog-header/partner-training-2.jpg
-categories: events
+header_image: partner-training-2.jpg
+category: events
 authors: ["Birgit"]
 ---
 

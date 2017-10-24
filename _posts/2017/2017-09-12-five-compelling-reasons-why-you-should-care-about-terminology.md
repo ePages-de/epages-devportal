@@ -2,8 +2,8 @@
 layout: post
 title: "5 compelling reasons why you should manage your terminology"
 date: "2017-09-12 09:30:00"
-image: blog-header/jellybears.jpg
-categories: tech-stories
+header_image: jellybears.jpg
+category: language-and-localization
 authors: ["Birgit"]
 ---
 

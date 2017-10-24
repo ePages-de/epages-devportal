@@ -2,8 +2,8 @@
 layout: post
 title: "Fullstack London - Of dragons, numbers and IoT"
 date: "2017-07-20 06:34:02"
-image: blog-header/fullstack.jpg
-categories: events
+header_image: fullstack.jpg
+category: events
 authors: ["Erik"]
 ---
 

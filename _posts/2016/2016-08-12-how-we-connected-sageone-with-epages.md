@@ -2,8 +2,8 @@
 layout: post
 title: "How we connected Sage One with ePages"
 date: "2016-08-12 14:00:28"
-image: blog-header/bridge.jpg
-categories: tech-stories
+header_image: bridge.jpg
+category: tech-stories
 authors: ["Mats"]
 ---
 

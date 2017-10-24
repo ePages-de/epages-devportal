@@ -2,8 +2,8 @@
 layout: post
 title: "Spring I/O 2017 - What it was really like"
 date: "2017-05-23 06:34:02"
-image: blog-header/spring-io-header.jpg
-categories: events
+header_image: spring-io-header.jpg
+category: events
 authors: ["Mathias", "Manel"]
 ---
 

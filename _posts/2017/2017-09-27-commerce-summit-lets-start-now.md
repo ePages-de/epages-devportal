@@ -2,9 +2,9 @@
 layout: post
 title: "Commerce Summit - Let's start NOW"
 date: "2017-09-27 09:34:02"
-image: blog-header/commerce-summit-2017.jpg
+header_image: commerce-summit-2017.jpg
 image-position: top
-categories: events
+category: events
 authors: ["Christina"]
 ---
 <style>

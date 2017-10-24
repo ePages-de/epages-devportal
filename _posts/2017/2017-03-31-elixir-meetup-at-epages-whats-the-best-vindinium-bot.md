@@ -2,8 +2,8 @@
 layout: post
 title: "Elixir Meetup at ePages: What's the best vindinium bot?"
 date: "2017-03-31 06:39:20"
-image: blog-header/elixir.jpg
-categories: events
+header_image: elixir.jpg
+category: events
 authors: ["Rose"]
 ---
 <style>
