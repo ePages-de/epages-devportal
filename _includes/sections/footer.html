@@ -17,9 +17,12 @@
       <a href="https://youtube.com/channel/{{site.youtube_username}}" target="_blank">
         <img src="/assets/img/icons/youtube_white.svg" alt="YouTube Icon" class="icon  icon--youtube">
       </a>
-      <a href="/blog/feed.xml" target="_blank">
-        <img src="/assets/img/icons/rss_white.svg" alt="RSS Icon" class="icon  icon--rss">
-      </a>
+      {% assign url = page.url | split: '/' %}
+      {% if url[1] == 'blog' %}
+        <a href="/blog/feed.xml" target="_blank">
+          <img src="/assets/img/icons/rss_white.svg" alt="RSS Icon" class="icon  icon--rss">
+        </a>
+      {% endif %}
     </div>
 
     <div class="row  row--links">
