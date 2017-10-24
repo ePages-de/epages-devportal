@@ -30,7 +30,7 @@ HR will give you a comprehensive introduction about ePages and how we do things 
 You'll receive a product overview, and a short demo of our software.
 Our scrum masters explain our workflows and team structures.
 
-{% image blog/blog-onboarding.jpg %}
+![](/assets/img/pages/blog/images/blog-onboarding.jpg)
 
 You will be assigned a buddy, who will give you a helping hand during your first days and months at ePages.
 They will go to lunch with you, answer organizational questions, or anything that you're not comfortable asking your team or supervisor.

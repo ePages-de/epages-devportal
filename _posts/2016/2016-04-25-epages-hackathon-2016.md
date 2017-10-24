@@ -39,7 +39,7 @@ Thankfully, tons of crisps, cookies, pizza, and lemonade helped to focus on the 
 After much weaving of code and pushing of pixels while having a great time together the teams presented their projects.
 The audience was highly impressed by those well-prepared presentations and all those polished results.
 
-{% image blog/blog-hack16-result.jpg %}
+![](/assets/img/pages/blog/images/blog-hack16-result.jpg)
 
 We saw native Android apps developed in Java, cross-platform apps for Android and iOS done with Ionic Framework or React Native, as well as Web apps.
 Meanwhile, some teams focused on other projects, like a REST cache layer, or a complexity measuring tool, or preparing a...

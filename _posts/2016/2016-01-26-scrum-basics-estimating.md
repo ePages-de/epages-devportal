@@ -38,7 +38,7 @@ To being able have a more precise measurement, most often some of the Fibonacci 
 The idea behind using Fibonacci is that the bigger a ticket is, the harder it gets to estimate it precisely.
 Therefore, the steps between the numbers will increase.
 
-{% image blog/blog-scrum4-burndown-chart.jpg %}
+![](/assets/img/pages/blog/images/blog-scrum4-burndown-chart.jpg)
 
 During the sprint the story points of all closed tickets are counted.
 In the end you get a number that represents how much a team is capable of solving within a sprint.

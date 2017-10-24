@@ -14,7 +14,7 @@ The main part of the event was organized by [synetics GmbH](https://www.i-doit.c
 They also invited a representative from their partner [procilon](https://www.procilon.de/).
 The other attendees came from the [University of Jena](https://www.uni-jena.de/), as well as from Erfurt, Leipzig, Dresden, and even Munich.
 
-{% image blog/blog-i-doit.jpg %}
+![](/assets/img/pages/blog/images/blog-i-doit.jpg)
 
 The event started with an interesting presentation at [Carl Zeiss AG](https://www.zeiss.de).
 Such a fringe event is meanwhile kind of a tradition for i-doit meetups.

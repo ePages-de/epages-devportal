@@ -37,7 +37,7 @@ Other competitive frameworks are Spock (in Groovy) and Serenity (in Java).
 
 ### "JUnit5", by Johannes Link and Matthias Merdes
 
-{% image blog/blog-karlsruhe-junit.jpg %}
+![](/assets/img/pages/blog/images/blog-karlsruhe-junit.jpg)
 
 Interestingly, the next major iteration of [JUnit 5](http://junit.org/junit5/) raised over 53,000 euros on [IndieGogo](https://www.indiegogo.com/projects/junit-lambda#), which could finance several arrangements like a workshop in Karlsruhe with the folks from the big IDE companies, eclipse and IntelliJ, as well as Pivotal for an optimised tooling support.
 The runner concept from the previous version is abolished so that you can use multiple extensions in parallel.
@@ -53,14 +53,14 @@ What else?
 
 ### "Better Java-Code with Type Annotations)", by Dragan Zuvic
 
-{% image blog/blog-karlsruhe-jsr.jpg %}
+![](/assets/img/pages/blog/images/blog-karlsruhe-jsr.jpg)
 
 A talk that presented many conceptions on how to write your own types and format checkers.
 Quite interesting!
 
 ### Keynote: "Microservices", by Eberhard Wolff
 
-{% image blog/blog-karlsruhe-microservices.jpg %}
+![](/assets/img/pages/blog/images/blog-karlsruhe-microservices.jpg)
 
 Key topics of this talk: how to deal with maintainability, redundant data, and redundant code for software systems.
 

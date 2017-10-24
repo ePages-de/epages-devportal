@@ -21,7 +21,7 @@ Life is not just working {% emoji wink %}.
 
 As everybody knows, Barcelona is one of the most important European cities in software development and hosts the Mobile World Congress, which brings amazing opportunities and projects to the city. This attracts talent which enriches the existing pool of [meet ups](http://www.meetup.com/cities/es/barcelona/) or technical events, where you can participate, learn or collaborate with your thoughts or ideas.
 
-{% image blog/blog-trivia.jpg %}
+![](/assets/img/pages/blog/images/blog-trivia.jpg)
 
 ## The office
 

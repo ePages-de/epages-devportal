@@ -11,7 +11,7 @@ Some might tell stories about the best first workday they have ever had, others 
 In the first week of July, a bunch of new developers started at ePages.
 Find out what we did to help them get off on the right foot and give them a positive start.
 
-{% image blog/blog-employee-induction-cto.jpg %}
+![](/assets/img/pages/blog/images/blog-employee-induction-cto.jpg)
 
 ### 1. Welcome employee before employment even begins
 

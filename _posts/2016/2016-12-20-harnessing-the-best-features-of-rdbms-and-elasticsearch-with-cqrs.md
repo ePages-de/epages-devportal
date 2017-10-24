@@ -19,7 +19,7 @@ A merchant uses the administration area to manage all aspects of their shop, in 
 This product data is stored in a relational database ([RDBMS][rdbms]), where transactions and database constraints guarantee consistency and integrity.
 A simplified relational data model looks like this:
 
-{% image blog/blog-cqrs-elasticsearch-database.png %}
+![](/assets/img/pages/blog/images/blog-cqrs-elasticsearch-database.png)
 
 ### The read model
 

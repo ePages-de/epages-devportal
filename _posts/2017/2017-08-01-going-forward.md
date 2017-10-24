@@ -12,7 +12,7 @@ In our last blogpost we talked about [pipelines](https://developer.epages.com/bl
 Today we take a deeper look into some of the special parts of these pipelines.
 This post deals with an i-doit backend library written in [go(lang)](https://golang.org/).
 
-{% image blog/blog-golang-library-idoit.png %}
+![](/assets/img/pages/blog/images/blog-golang-library-idoit.png)
 
 As already mentioned in the previous blogpost, we are using the i-doit Configuration Management Database (CMDB) extensively.
 [I-doit](https://www.i-doit.com/) is a software especially designed for documentation purposes of IT relevant stuff.
@@ -55,7 +55,7 @@ But our Jenkins nodes sometimes restart (bad guys, they need OS updates and such
 So we needed to take care of this, and initialize the library every time.
 This was not necessary anymore, and with these two tricks we reduced the generation time from 5-6 minutes to something around 10-15 seconds.
 
-## Let's Go(lang) {% image blog/blog-golang-library-gopher.png %}
+## Let's Go(lang) ![](/assets/img/pages/blog/images/blog-golang-library-gopher.png
 
 We wanted something small and simple.
 3 lines of code to get everything necessary.

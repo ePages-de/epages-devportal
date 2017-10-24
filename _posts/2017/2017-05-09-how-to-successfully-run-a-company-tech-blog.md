@@ -38,7 +38,7 @@ Usually, we have a rough content plan for the next two months and try to publish
 We soon created a rotating system to make sure that our different developement teams take turns in writing blog posts.
 Here is an example snapshot of our editorial calendar:
 
-{% image blog/blog-editorial-calendar.png %}
+![](/assets/img/pages/blog/images/blog-editorial-calendar.png)
 
 ## Define guidelines for tech blog contributors
 

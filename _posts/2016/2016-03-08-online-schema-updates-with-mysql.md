@@ -28,7 +28,7 @@ For example, the command `ADD FULLTEXT INDEX` does not allow simultaneous writin
 Changing the data type of a column is also restricted.
 These restrictions can be partially managed via a special patch flow:
 
-{% image blog/blog-online-schema-1.jpg %}
+![](/assets/img/pages/blog/images/blog-online-schema-1.jpg)
 
 We use an interim version for preparatory and follow-up work on the database.
 

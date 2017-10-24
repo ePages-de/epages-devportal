@@ -52,4 +52,4 @@ When the sun had set and it was hard to spot any further targets, we gathered fo
 It was an awesome team event! We learned a lot during the workshops, prepared ourselves for the upcoming team changes, and embraced the nature near Camburg.
 While we lost and broke some arrows in the thicket, no living animals were harmed and nobody took an arrow to the knee!
 
-{% image blog/blog-ep6offsite-yummy.jpg %}
+![](/assets/img/pages/blog/images/blog-ep6offsite-yummy.jpg)

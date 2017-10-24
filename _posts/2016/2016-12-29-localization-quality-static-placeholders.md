@@ -44,11 +44,11 @@ Regardless if your localization format supports segment context information, onc
 For example, let's say you added a new checkout flow called `checkout-v2` to your application.
 When you added the keys to your locale file and upload them for the first time to PhraseApp, you can specify `checkout-v2` as a tag for the newly created keys. You can later remove this tag from tagged keys or add it to other keys.
 
-{% image blog/blog-higher-localization-1.jpg %}
+![](/assets/img/pages/blog/images/blog-higher-localization-1.jpg)
 
 From now on, you can access detailed stats on this tag such as completion, word-count in the PhraseApp Reports section if you're a user of our statistics and reports features:
 
-{% image blog/blog-higher-localization-2.jpg %}
+![](/assets/img/pages/blog/images/blog-higher-localization-2.jpg)
 
 Additionally, tags simplify translation order processes with our integrated providers as well as translation agencies you work with as you can scope exports and translation orders to tags.
 

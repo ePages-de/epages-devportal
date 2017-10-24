@@ -57,7 +57,7 @@ It's been approximately three months since I moved to Hamburg and I don't regret
 I have fantastic colleagues and team mates, I'm doing something I enjoy, and I've been able to settle down more or less.
 The only annoying thing I had to go through was lots of paperwork, but that isn't such a big deal.
 
-{% image blog/blog-alster.jpg %}
+![](/assets/img/pages/blog/images/blog-alster.jpg)
 
 One of the things I like the most about Hamburg is how green it is. Actually, there are many beautiful areas around, but my favorite one is the "Binnenalster" which is an artificial lake.
 It's near the office, and sometimes after work I go sit next to it and read a book.
@@ -65,7 +65,7 @@ It's near the office, and sometimes after work I go sit next to it and read a bo
 Near Hamburg there's another city I can totally recommend visiting: Lübeck.
 It has a beautiful old city, and if you are a sweet-tooth like me you need to go there and try some marzipan products - they are delicious!
 
-{% image blog/blog-marzipan-cake.jpg %}
+![](/assets/img/pages/blog/images/blog-marzipan-cake.jpg)
 
 ## So, what now?
 
