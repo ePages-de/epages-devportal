@@ -1,18 +1,90 @@
-.post-container
-  +grid-collapse
-  +grid-container
-  margin-top: 4rem
+.blank
 
-  +grid-media($grid-medium)
-    margin-top: 6rem
-    display: flex
-    align-items: stretch
-    flex-direction: row
-    flex-wrap: wrap
+  .main
 
-  .card--post
-    +grid-column(12)
-    margin-bottom: 4rem
+    .tiles
+      +grid-container
+      +grid-collapse
+      color: $white
+      margin-top: 6rem
+      margin-bottom: 6rem
+      display: flex
 
-    +grid-media($grid-medium)
-      +grid-column(6)
+      .tile
+        +grid-column(12)
+        background-color: rgba(239,238,229,.25)
+
+        &:hover
+          background-color: rgba(239,238,229,.30)
+          transition: $base-transition
+
+        +grid-media($grid-medium)
+          +grid-column(6)
+
+        +grid-media($grid-huge)
+          +grid-column(5)
+
+        &__header
+          text-align: center
+          padding: 3rem 0
+          width: 100%
+
+        &__body
+          padding: 3rem
+          width: 100%
+          box-sizing: border-box
+          display: flex
+          flex-direction: column
+          align-items: center
+
+        &__list
+          width: 100%
+          margin-bottom: 3rem
+
+        &__item
+          line-height: 2
+          list-style-type: disc
+          margin-left: 1em
+
+        .cta
+          color: $white
+          display: inline-block
+          text-align: center
+          padding: .8rem 3rem
+          text-transform: uppercase
+          letter-spacing: .1rem
+
+          &:hover
+            transition: $base-transition
+
+
+      .tile--now
+        margin-bottom: 4rem
+
+        +grid-media($grid-medium)
+          margin-bottom: 0
+
+        +grid-media($grid-huge)
+          +grid-push(1)
+
+        &__header
+          background-color: rgba(28,54,70,.50)
+          border-top: 10px solid rgba(28,54,70,.90)
+
+        .cta--now
+          background-color: rgba(28,54,70,.75)
+
+          &:hover
+            background-color: rgba(28,54,70,.95)
+
+      .tile--beyond
+
+        &__header
+          background-color: rgba(78,183,168,.50)
+          border-top: 10px solid rgba(78,183,168,.90)
+
+        .cta--beyond
+          background-color: rgba(78,183,168,.75)
+
+          &:hover
+            background-color: rgba(78,183,168,.95)
