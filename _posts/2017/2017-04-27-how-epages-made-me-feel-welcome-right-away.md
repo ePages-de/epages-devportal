@@ -36,7 +36,7 @@ The colleagues at ePages managed to make me handle that in a really pleasant way
 The first ePagees I met in person were two colleagues from HR.
 They organized a welcome breakfast accompanied by a short presentation concerning company structure, special events, and general HR information.
 This way I received a good overview and became a little bit more relaxed.
-Afterwards I was invited to an office tour where I got to know most of my new colleagues and tried to remember as many of their names as I could {% emoji wink %}.
+Afterwards I was invited to an office tour where I got to know most of my new colleagues and tried to remember as many of their names as I could 😉.
 This way I also met the different teams and learned about their main tasks.
 I ended up in my new office and had some time to organize my new desk and have a first chat with my own team which is UX & Content.
 
@@ -64,7 +64,7 @@ This way the working atmosphere has been pleasant from the first day on.
 
 The team is quite young and very international.
 It is fun to work with so many different nationalities and communicate in different languages.
-At lunch time we eat together, enjoy the sun in the park (yes, there are sunny days in Hamburg!{% emoji wink %}) or grab a coffee.
+At lunch time we eat together, enjoy the sun in the park (yes, there are sunny days in Hamburg!😉) or grab a coffee.
 This way I've been already shown many nice and delicious restaurants (my favorite one is a Chinese one) and got some insider tips for my first days in Hamburg.
 
 ## The company events
@@ -94,4 +94,4 @@ Let me present my top three:
 3. Undertaking **responsible tasks** makes you feel like part of the team.
 
 After so many positive aspects, it won't surprise you that I decided to write my master thesis here at ePages after I finished my internship.
-I'm already looking forward to continue my work here at ePages!{% emoji smiley %}
+I'm already looking forward to continue my work here at ePages!😊

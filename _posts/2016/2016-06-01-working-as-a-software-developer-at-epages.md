@@ -21,7 +21,7 @@ When looking for jobs on the internet, I came across a job ad for a Java Develop
 I applied for the job and had a Skype interview with Mario Rieß, the Senior Vice President of R&D, where we talked about some general topics.
 I was then invited for a personal interview, during which I was also asked to solve a specific coding challenge related to Java and MySQL.
 
-In the interview, I found out that I would have to code in PERL {% emoji wink %}.
+In the interview, I found out that I would have to code in PERL 😉.
 But however, working at ePages in Jena was the best choice I could have made!
 And I will be part of a newly established Java team in July.
 
@@ -34,7 +34,7 @@ In addition, I'm writing Selenium tests to check if all of the new features work
 ### But besides those, you do a lot of other tasks. You have your hands in other projects too, haven't you?
 
 What should I say?
-I enjoy these tasks very much, and I'm used to multi-tasking {% emoji wink %}.
+I enjoy these tasks very much, and I'm used to multi-tasking 😉.
 
 For example, keeping information up-to-date is important to me: either when it comes to documenting our code; or cleaning up Confluence, the company intranet.
 

@@ -60,7 +60,7 @@ In the interview, it's more the chemistry, personality, way of communication, mo
 
 ###	Have you ever had a strange or funny application or interview?
 
-Well, it's kind of weird when applicants send a topless photo (no shirt or probably wearing tube top) or sometimes modelling photos, or show up for an interview in short pants and flip flops {% emoji wink %}.
+Well, it's kind of weird when applicants send a topless photo (no shirt or probably wearing tube top) or sometimes modelling photos, or show up for an interview in short pants and flip flops 😉.
 
 ###	Any advice to young professionals?
 

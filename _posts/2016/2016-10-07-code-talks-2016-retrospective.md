@@ -83,7 +83,7 @@ The Alabama Cinema at Kampnagel served as their stage, and although it was a bit
 The talk was delivered as an amusing discussion between *Bob Operator* and *Joe Developer* while live on stage implementing a new feature into an existing online pizza shop based on Java microservices.
 Showing best practices and introducing a number of useful Open Source libraries was very well received by the audience.
 Source code for the epizza project can be found on the [ePages GitHub account](https://github.com/ePages-de/epizza).
-The presentation ended with lots of laughter when a real pizza delivery boy carrying steaming hot salami pizza entered the cinema and asked who ordered it - proof that the implementation really worked {% emoji wink %}.
+The presentation ended with lots of laughter when a real pizza delivery boy carrying steaming hot salami pizza entered the cinema and asked who ordered it - proof that the implementation really worked 😉.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="de" dir="ltr">Bob &amp; Joe at <a href="https://twitter.com/hashtag/codetalkshh?src=hash">#codetalkshh</a> &quot;shared code is evil&quot; ... es sei denn es ist Infrastruktur-Code cc/ <a href="https://twitter.com/jensfischerhh">@jensfischerhh</a> <a href="https://twitter.com/otrosien">@otrosien</a> <a href="https://t.co/uolOVUqcr5">pic.twitter.com/uolOVUqcr5</a></p>&mdash; harm (@netzfisch) <a href="https://twitter.com/netzfisch/status/781801508484616192">September 30, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

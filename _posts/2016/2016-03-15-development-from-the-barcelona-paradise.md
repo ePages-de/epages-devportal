@@ -15,7 +15,7 @@ In this post I am going to explain what it means to live and work in Barcelona f
 
 Apart from the weather, culture, night life and such a big football team, [Barça](http://fcbarcelona.com) of course, Barcelona is much more than that.
 It is the capital of Catalonia, it has almost all the Gaudí heritage, astonishing beaches (like Costa Brava) and big mountains (Pyrenees) in less than 2 hours by car or train.
-Life is not just working {% emoji wink %}.
+Life is not just working 😉.
 
 ### For developers
 

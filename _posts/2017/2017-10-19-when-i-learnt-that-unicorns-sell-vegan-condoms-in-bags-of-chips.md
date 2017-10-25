@@ -21,7 +21,7 @@ Keywords such as **funnel**, **uplift**, **KPIs**, **case**, **monitoring**, or 
 ## My apologies
 
 Dear developers, don't be angry with me that I'm talking about this on a dev blog.
-But it's for your wellbeing {% emoji grin %}.
+But it's for your wellbeing 😀.
 
 The last two days I've spent at the [Social Media Conference](http://www.socialmediaconference.de/) in Hamburg.
 As a Technical Communicator in our development department, I'm also responsible for the department's Social Media presence.
@@ -44,7 +44,7 @@ So why not selling them in a bag of chips?
 
 Markus was all over the place, throwing bags (of chips!) with condoms to the crowd, telling crazy stories about how they bond with their community, and resellers.
 He even motivated the audience to ask questions.
-Teaser: the last questioner received a - let's say - gift box with condoms {% emoji smile %}.
+Teaser: the last questioner received a - let's say - gift box with condoms 😊.
 You can imagine how many people asked questions, can you?
 
 Some phrases that made me think:

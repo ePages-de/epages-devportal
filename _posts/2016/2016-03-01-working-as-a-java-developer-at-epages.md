@@ -89,7 +89,7 @@ I also like the cool company events, like the YOU or internal hackathons.
 
 Those who want to join Team Black should have children (*Jens is grinning*).
 Just kidding.
-But honestly, our team is above average with regards to children {% emoji wink %}.
+But honestly, our team is above average with regards to children 😉.
 
 They should not be afraid of constructive criticism and feedback.
 We often have intensive but professional discussions in the team, so they should be communicative and convinced of their own opinion.

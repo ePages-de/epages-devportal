@@ -24,7 +24,7 @@ I started out building up a new [API documentation](https://developer.epages.com
 This meant understanding what an API is all about, knowing the working methods of developers, how they gather information, understanding the basics of their working environment, and their specific tools.
 It meant finding a suitable documentation tool and platform, and how to deal with these.
 And it also meant applying many of their tools myself: [GitHub](https://github.com/), [Jekyll](https://jekyllrb.com/), the terminal, or setting up local environments.
-Not to mention decoding the developer's technical jargon {% emoji wink %}.
+Not to mention decoding the developer's technical jargon 😉.
 
 And now, with a TechWriter in the house, there was more to come:
 I metamorphosed to a content writer.
@@ -50,7 +50,7 @@ A one-woman business so to speak.
 
 The scrum teams work in sprints on a biweekly cycle.
 Believe it or not: the sprints of more than one team, most likely, have technical writing dependencies.
-Anything else would just be boring {% emoji smiley %}.
+Anything else would just be boring 😊.
 Be it new REST calls to be documented, wording for new features to be provided, a [blog post](https://developer.epages.com/blog) to be written, processes to be discussed, localization issues to be figured out...
 All those things might happen within the same time frame.
 But women are capable of multitasking, right?
@@ -62,7 +62,7 @@ This definitely strengthens one's coordination and organizational skills.
 ## Be proactive
 
 Which brings me to the next point: being proactive.
-If the mountain won't come to the prophet... oops: If the developer (or product owner) won't come to the writer...{% emoji wink %}
+If the mountain won't come to the prophet... oops: If the developer (or product owner) won't come to the writer...😉
 ... then the writer should proactively approach THEM to squeeze out any information about upcoming tasks.
 
 Recipe to get hold of information:
@@ -88,7 +88,7 @@ Which then makes it difficult to write a good documentation.
 
 This also goes without saying.
 If you don't love writing, it's hard to get the message across.
-This is why developers hate documentation and love having a technical writer around {% emoji wink %}.
+This is why developers hate documentation and love having a technical writer around 😉.
 
 ## Embrace change
 
@@ -111,4 +111,4 @@ Being an agile technical writer definitely rocks - in a positive way:
 * You learn and use the products.
 * You broaden your technical knowledge and writing expertise.
 * You set standards for writing, language, and terminology.
-* You become a MacGyver in technical communication {% emoji sunglasses %}.
+* You become a MacGyver in technical communication 😎.

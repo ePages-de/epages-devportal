@@ -120,7 +120,7 @@ If you want to know more about the other jobs, have a look at complete documenta
 ### Credits
 
 We didn't come up with a company-wide solution, but use the plugin in our team and adapt it to our needs.
-So a big thanks to [Gary Hale](https://github.com/ghale), because without him I wouldn't be writing about it today {% emoji wink %}.
+So a big thanks to [Gary Hale](https://github.com/ghale), because without him I wouldn't be writing about it today 😉.
 
 ## References
 

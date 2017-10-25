@@ -65,4 +65,4 @@ Furthermore, jobs can also only be created or modified by the [Job DSL Plugin](h
 Regarding the general setup of the Jenkins master, we are now more or less where we want to be.
 There's still room for improvement, but the main challenges that lie ahead of us are more in the area of getting our build slaves automated the way we want,
 and running all of our build jobs in an appropriate environment.
-In the end, this is typical everyday CI maintenance, which we won't be able to get rid of completely even with full automation... {% emoji wink %}
+In the end, this is typical everyday CI maintenance, which we won't be able to get rid of completely even with full automation... 😉

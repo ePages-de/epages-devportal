@@ -8,7 +8,7 @@ authors: ["Birgit"]
 
 Another year, another ePages hackathon.
 Spring is a nice season for hacking, isn't it?
-The world comes alive, the days are longer, and our developers have even more energy... for coding {% emoji wink %}!
+The world comes alive, the days are longer, and our developers have even more energy... for coding 😉!
 But what exactly did we do?
 
 ## Ready, steady...

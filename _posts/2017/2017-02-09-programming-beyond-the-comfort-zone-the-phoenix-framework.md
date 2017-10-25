@@ -16,7 +16,7 @@ I'm sure you'll find hundreds of more sophisticated tutorials out there on the i
 ## Overview
 
 Started by Chris McCord, the [Phoenix Framework](http://www.phoenixframework.org/) released version [1.0](https://github.com/phoenixframework/phoenix/releases/tag/v1.0.0) in August 2015.
-This was one and a half year after the famous *[initial commit](https://github.com/phoenixframework/phoenix/commit/c4ede8c5f71ab74b0c2e9de1eb37d15531d95a46)* we all know {% emoji wink %}.
+This was one and a half year after the famous *[initial commit](https://github.com/phoenixframework/phoenix/commit/c4ede8c5f71ab74b0c2e9de1eb37d15531d95a46)* we all know 😉.
 Now it's not only used for dynamic websites and applications but especially advertised for real-time WebSocket-based interaction (e.g. chats, games, etc).
 
 Phoenix is heavily relying on three (Elixir and/or Erlang) projects:

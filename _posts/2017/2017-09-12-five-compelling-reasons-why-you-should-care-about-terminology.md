@@ -36,7 +36,7 @@ Should be involved.
 Would like to be involved.
 Sounds like the whole company, right?
 
-So, go tell it on the mountain {% emoji wink %}.
+So, go tell it on the mountain 😉.
 
 ## Sharing is caring
 
@@ -55,7 +55,7 @@ And things will become clearer.
 
 ## Customers in love
 
-Now that you have your terminology on board, everybody knows about it (even your new colleagues {% emoji wink %}) and uses it consistently, you've already made a big step forward.
+Now that you have your terminology on board, everybody knows about it (even your new colleagues 😉) and uses it consistently, you've already made a big step forward.
 This way you can produce high-quality content.
 Great texts that are easy to read and understand.
 Texts that your customers will love, because they're consistent, thus user-friendly.

@@ -51,7 +51,7 @@ We created such reports for every Layer-3-Net containing only IP, MAC, and the d
 Another time-consuming aspect was the need to initialize Dennis' library every time we use it because of our [Jenkins](https://jenkins.io/) automation.
 Jenkins is a great tool for creating generic automation processes and workflows.
 The library initialization is only necessary the first time you use it.
-But our Jenkins nodes sometimes restart (bad guys, they need OS updates and such stuff, or sometimes they decide to crash and run away in PANIC {% emoji wink %} .
+But our Jenkins nodes sometimes restart (bad guys, they need OS updates and such stuff, or sometimes they decide to crash and run away in PANIC 😉 .
 So we needed to take care of this, and initialize the library every time.
 This was not necessary anymore, and with these two tricks we reduced the generation time from 5-6 minutes to something around 10-15 seconds.
 
@@ -69,7 +69,7 @@ Primary requirements for the library:
 - as small as possible (don't want to maintain so much code)
 - fast and working in parallel
 
-The first two requirements are met, and it's fast, because it's Go {% emoji wink %}, but actually there is no parallel implementation present yet.
+The first two requirements are met, and it's fast, because it's Go 😉, but actually there is no parallel implementation present yet.
 
 **Go** features that make things nice:
 
@@ -195,7 +195,7 @@ Let's create some json data and use the `net/http` and `crypto/tls` package to s
 {% endhighlight %}
 
 As you can see, it's easy to create some json data from the data struct using the `encoding/json` package.
-We create our new `POST` request using `http.NewRequest`, add some Content-Type to our header and if you use self-signed certificates on your CMDB you need to import your CA or ignore the verification {% emoji stuck_out_tongue %}.
+We create our new `POST` request using `http.NewRequest`, add some Content-Type to our header and if you use self-signed certificates on your CMDB you need to import your CA or ignore the verification 😛.
 Now we are firing our request using the `client.Do` with our client created using the http.Client reference.
 That's it.
 

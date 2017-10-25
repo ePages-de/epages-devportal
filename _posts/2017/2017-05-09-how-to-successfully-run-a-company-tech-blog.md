@@ -64,7 +64,7 @@ We learned about some very helpful tools to analyze blog performance:
 * [Google Analytics](https://analytics.google.com)
 
 Every time a new post is published, we create a heatmap in Hotjar in order to track and to visualize reader behavior.
-Using Hotjar will let you learn about reading patterns and probably that readers are lazy and prefer shorter blog posts over long ones {% emoji wink %}.
+Using Hotjar will let you learn about reading patterns and probably that readers are lazy and prefer shorter blog posts over long ones 😉.
 Google Analytics, on the other hand, is a very powerful instrument when it comes to measuring [blog traffic](https://www.blogmutt.com/blog/measuring-blog-traffic-with-google-analytics) and analyzing your blog's performance regarding visitor numbers and bounce rates.
 
 ## Sharing is caring: the Twitter magic
@@ -79,7 +79,7 @@ To engage with and keep our followers up-to-date, we tweet about *five times* pe
 
 ## Using Twitter tools
 
-But of course we do not work on our holy weekends {% emoji wink %}.
+But of course we do not work on our holy weekends 😉.
 So, thank god for Social Media tools!
 Most of our tweets are planned about a week ahead.
 In order to do so, we use the planning and analytics tool [buffer](https://buffer.com/app).

@@ -43,7 +43,7 @@ This feedback is valuable to use it for our next iterations.
 
 ### What is your role as a Scrum Master at ePages?
 
-It's lots of multi-tasking {% emoji wink %}.
+It's lots of multi-tasking 😉.
 I work very closely with the development teams and am really a part of the team.
 As a Scrum Master, I am owning the process, so I will make sure that the teams are following the Scrum processes and will also work together with them to continuously improve them.
 The Scrum framework has some regular meetings and I am responsible to moderate these.
@@ -59,7 +59,7 @@ Or just in general, I organize team events, because sometimes it is simply nice 
 
 ### Are there already any insights on this year's Hackathon you can reveal?
 
-We are organizing the Hackathon for the end of March and of course it's going to be lots of fun {% emoji wink %}.
+We are organizing the Hackathon for the end of March and of course it's going to be lots of fun 😉.
 It'll be one day and a half and our developers already have great ideas for things they can build during the Hackathon.
 We will then go through all the ideas and see which topics will make it.
 I’ll be great for the guys to do some stuff, that is not necessary part of their daily business, I am excited to see, what we can achieve in that short amount of time.
@@ -134,4 +134,4 @@ We are currently working on a new product, which will be launched later this yea
 But motivation is also high in the other teams, who are working with our older legacy software.
 The teams want to build something they can be proud of.
 I love to be around people who are passionate about what they are doing.
-This is not only about work though, but just in general {% emoji wink %}.
+This is not only about work though, but just in general 😉.

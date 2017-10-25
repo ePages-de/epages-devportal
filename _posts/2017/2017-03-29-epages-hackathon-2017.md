@@ -18,7 +18,7 @@ This year it has been all about trying out new stuff for our very latest backend
 ## Getting prepared
 
 Just as last year, our Scrum Masters did an outstanding job organizing our two-day hackathon and ensuring a smooth flow of the whole event.
-They organized travel tickets and hotels rooms for the colleagues from Barcelona, New York, and Jena, checked with our CTO upon final topics and the time schedule, prepared meeting rooms for the teams, and most importantly ordered delicious snacks, drinks, and food {% emoji wink %}.
+They organized travel tickets and hotels rooms for the colleagues from Barcelona, New York, and Jena, checked with our CTO upon final topics and the time schedule, prepared meeting rooms for the teams, and most importantly ordered delicious snacks, drinks, and food 😉.
 
 ## And then off we go
 
@@ -60,7 +60,7 @@ New features that came with this team were, amongst others, modern styling techn
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/ephack17?src=hash">#ephack17</a> WINNER TEAM of <a href="https://twitter.com/hashtag/epages?src=hash">#epages</a> <a href="https://twitter.com/hashtag/hackathon?src=hash">#hackathon</a> : Building a <a href="https://twitter.com/hashtag/theme?src=hash">#theme</a> for <a href="https://twitter.com/hashtag/epagesnow?src=hash">#epagesnow</a> and <a href="https://twitter.com/hashtag/beyond?src=hash">#beyond</a><br>Congrats! Well done! <a href="https://t.co/nHWxyWkOoV">pic.twitter.com/nHWxyWkOoV</a></p>&mdash; ePages Developers (@epagesdevs) <a href="https://twitter.com/epagesdevs/status/844973976208244736">March 23, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-But of course, in the end every single team contributed to the complete success of the ePages hackathon 2017 and this needed to be celebrated extensively {% emoji wink %}.
+But of course, in the end every single team contributed to the complete success of the ePages hackathon 2017 and this needed to be celebrated extensively 😉.
 So it ended with a nice party with Italian food and drinks, all presented by our Italian colleagues.
 Thanks for all the positive energy, great projects, insightful chats, and simply being such great ePagees!
 

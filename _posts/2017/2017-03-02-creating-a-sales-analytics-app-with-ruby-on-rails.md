@@ -98,7 +98,7 @@ In every project you have to make some decisions on what tech you use.
 We decided to use [Rails](http://rubyonrails.org/) - in part because we love it, but also to use our [own developed library](https://github.com/ePages-de/epages-rest-ruby).
 On the charts side there are lots of options to choose, but we went with [D3](https://d3js.org/), an open source, very powerful and very customizable option.
 The main reason of picking this was purely educational.
-I love learning new stuff, libraries, languages, paradigms, you name it; and I already used [Highcharts](http://www.highcharts.com/), [Google charts](https://developers.google.com/chart/) and [Chart.js](http://www.chartjs.org/), plus I was really curious about it and my team let me decide {% emoji smiley %}.
+I love learning new stuff, libraries, languages, paradigms, you name it; and I already used [Highcharts](http://www.highcharts.com/), [Google charts](https://developers.google.com/chart/) and [Chart.js](http://www.chartjs.org/), plus I was really curious about it and my team let me decide 😊.
 
 [Devise](https://github.com/plataformatec/devise) was our option for user management.
 This gem is easy and simple, so it was perfect to deliver fast (even though in the end everything became more complicated).
@@ -106,4 +106,4 @@ For this simplicity reason we chose [Slim](http://slim-lang.com/), [Sass](http:/
 
 Join us on our next blog post, where we will talk about the issues we encountered during the development and how everything was about get more complex than we expected.
 
-Thanks for reading and keep coding! {% emoji blush %}
+Thanks for reading and keep coding! 😳

@@ -89,7 +89,7 @@ For testing I use Rspec and Minitest.
 ### What do you like at ePages?
 
 I like the flexible working hours.
-You can choose the computer you want (I chose the MAC book, of course {% emoji wink %}.)
+You can choose the computer you want (I chose the MAC book, of course 😉.)
 The colleagues are amazing.
 And ePages does great company events.
 We had a great [YOU](https://developer.epages.com/blog/2015/09/21/annual-company-event-epagees-rock-the-you.html) and a very funny New Year's Kick-off.

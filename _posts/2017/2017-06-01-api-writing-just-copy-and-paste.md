@@ -79,11 +79,11 @@ I'll note down all my findings, discuss it with the developers and with it impro
 ## QA inclusive
 
 Oh, talking about findings...
-While intensively trying out the REST calls and working with the user interface, it may happen that I stumble upon things that don't work as expected - sometimes also referred to as bugs {% emoji wink %}.
+While intensively trying out the REST calls and working with the user interface, it may happen that I stumble upon things that don't work as expected - sometimes also referred to as bugs 😉.
 
 ## Text work(s)
 
-Once I've gathered all information together, took notes, and received satisfying answers to all of my questions from the API developers {% emoji wink %}, I write down what I've learned to provide our readers with the best possible documentation experience.
+Once I've gathered all information together, took notes, and received satisfying answers to all of my questions from the API developers 😉, I write down what I've learned to provide our readers with the best possible documentation experience.
 This is a lot easier when you've had the time to go through the above mentioned steps.
 
 ## This and that
@@ -107,4 +107,4 @@ I have to keep track of the API changes, follow up with the teams, update the do
 
 API writing is an extensive, multifaceted field of work.
 It's challenging, but a lot of fun as well.
-And for sure, I wouldn't do this job, if it was just copy and paste - because then I would be bored to death {% emoji wink %}.
+And for sure, I wouldn't do this job, if it was just copy and paste - because then I would be bored to death 😉.

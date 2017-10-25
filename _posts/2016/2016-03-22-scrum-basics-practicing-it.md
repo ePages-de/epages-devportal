@@ -43,7 +43,7 @@ Sometimes they realise that "bugfixing" the already folded planes that did not p
 I also had one PO changing the Acceptance Criteria to "I don’t want as many planes as possible, but good quality ones!".
 It is always an interesting game to witness and also a nice team building exercise.
 
-And a small hint on the side: if you don’t clean up after that exercise, you will have paper planes flying around your offices for the weeks to come {% emoji wink %}.
+And a small hint on the side: if you don’t clean up after that exercise, you will have paper planes flying around your offices for the weeks to come 😉.
 
 ## Related posts
 

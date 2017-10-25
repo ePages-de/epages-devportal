@@ -92,7 +92,7 @@ At 12:00 I have lunch with the team.
 We have so many different opportunities for lunch just around the corner.
 
 In the afternoon, I continue my work from the morning.
-Finding bugs and suggesting improvements is my job {% emoji wink %}.
+Finding bugs and suggesting improvements is my job 😉.
 
 Next to this, I'm responsible for automated tests.
 Sometimes I have meetings with the colleagues in Jena to discuss topics with regards to ESF (ePages Selenium Framework) tests.

@@ -21,7 +21,7 @@ Such a fringe event is meanwhile kind of a tradition for i-doit meetups.
 
 The meetup itself was a nice mixture of reports on one's experiences accompanied by interesting discussions.
 An extremely wide range from automation and API, object lists, services and reporting up to visualization and management of licenses or passwords demonstrates the multifarious fields of application i-doit is used for.
-All participants agreed that it was a very nice meeting - not only because of the IT food: pizza {% emoji wink %}.
+All participants agreed that it was a very nice meeting - not only because of the IT food: pizza 😉.
 
 If you wonder how ePages started with i-doit take a look at the blog article [Creating systems with pipelining](https://developer.epages.com/blog/2015/08/03/creating-systems-with-pipelining.html).
 But step by step we are discovering other possible applications of i-doit.

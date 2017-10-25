@@ -12,7 +12,7 @@ A bit more than a month, and we're right in the middle of the Commerce Summit 20
 If you are into ecommerce, this a not-to-be-missed event.
 A community of the world’s leading experts will gather together with online retailers to share the most cutting-edge and disruptive trends, techniques, technologies, and news in the ecommerce area.
 
-If you are a techie - for sure you are {% emoji wink %} - these buzzwords might sound interesting to you:
+If you are a techie - for sure you are 😉 - these buzzwords might sound interesting to you:
 
 * API-first
 * Microservices architecture

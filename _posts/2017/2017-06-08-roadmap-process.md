@@ -42,7 +42,7 @@ The product backlogs will be looked at by the wider business, especially our cus
 It helps them to understand what features are in the pipeline for each product.
 
 Although, we plan out the work for three months, it doesn’t mean, that everything is set in stone and can’t be changed until the next roadmap iteration.
-At the end of the day we are a customer facing company and need to be able to react to market needs (that’s why we are agile, right {% emoji wink %}).
+At the end of the day we are a customer facing company and need to be able to react to market needs (that’s why we are agile, right 😉).
 To ensure, that the business is aware of any changes to the roadmap, we keep high visibility of the progress on a regular basis. For example, the development teams always give an update what roadmap items have already been finished, what items are currently in development and what items have not been started, at the end of each sprint review.
 If the relevant product roadmap would have changed significantly, everybody who attended the sprint review will take notice of it. Once a month our Head of Product Management shows the current status in a company wide meeting.
 
