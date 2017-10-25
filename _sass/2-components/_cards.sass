@@ -31,7 +31,7 @@
 
           margin-bottom: $card-margin-desktop
 
-    img:not(.icon-share)
+    div:not(.custom-image) img:not(.icon-share)
       margin: 2rem 0
       margin-left: -$card-margin-mobile
       width: calc(100% + #{$card-margin-mobile} * 2)
@@ -90,6 +90,48 @@
         &:hover
           box-shadow: $hover-box-shadow
           transition: $base-transition
+
+    .custom-image
+      margin-bottom: $card-margin-desktop
+      margin: 0 auto
+
+      a
+        width: 100%
+        pointer-events: none
+
+      &--circle
+        .custom-image__image
+          border-radius: 100%
+
+        &.custom-image--left
+          margin-left: $card-margin-desktop
+
+        &.custom-image--right
+          margin-right: $card-margin-desktop
+
+      &--left
+        float: left
+        margin-right: $card-margin-desktop
+
+      &--right
+        float: right
+        margin-left: $card-margin-desktop
+
+        .custom-image__caption
+          text-align: right
+
+      &__image
+        width: 100%
+        height: auto
+        background-size: cover
+
+      &__lightbox
+        pointer-events: all !important
+
+      &__caption
+        font-size: 1.4rem
+        color: $gray-light
+        margin: 0 $card-margin-desktop
 
   &--post
     box-sizing: border-box
