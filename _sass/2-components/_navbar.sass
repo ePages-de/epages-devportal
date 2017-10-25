@@ -62,12 +62,6 @@
 
     &__link
 
-      &:hover,
-      &:focus,
-      &--active
-        text-decoration: none
-        color: $beyond-green
-
     &__button
       float: right
 
@@ -146,6 +140,12 @@
         +grid-media($grid-medium)
           text-shadow: $base-text-shadow
 
+        &:hover,
+        &:focus,
+        &--active
+          text-decoration: none
+          color: $beyond-green
+
       &__search-button
         background-image: url(/assets/img/icons/search_white.svg)
 
@@ -177,6 +177,12 @@
 
         +grid-media($grid-medium)
           color: $base-font-color
+
+        &:hover,
+        &:focus,
+        &--active
+          text-decoration: none
+          color: $beyond-green
 
       &__search-button
         background-image: url(/assets/img/icons/search_gray.svg)
