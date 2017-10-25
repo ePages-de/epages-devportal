@@ -27,7 +27,7 @@ Using scripts as a representation of jobs not only allows an automatically set u
 Testing of several microservices is solved by using individual Docker images representing the actual state of a single microservice.
 Tools such as [Kubernetes](https://kubernetes.io/) and [Google Compute Engine (GCE)](https://cloud.google.com/compute/) are used to deploy and test the software.
 
-{% imagebasic blog/blog-microservices-pipeline-cdp-stages.png The_Continuous_Delivery_Pipeline %} image {% endimagebasic %}
+{% image_custom image="assets/img/pages/blog/images/blog-microservices-pipeline-cdp-stages.png" caption="The_Continuous_Delivery_Pipeline" width="100%" %}
 
 There are actually two Jenkins instances active to display the CDP (see image above).
 

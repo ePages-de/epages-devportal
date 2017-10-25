@@ -11,7 +11,7 @@ When we discuss about operating systems, we can often find people who show a kin
 Especially between developers and people who spend lots of time in front of their computers.
 They find a kind of complicity with their systems that make them passionate defenders or detractors of one or the another choice.
 
-{% image blog/blog-os_logos.png 30% right %}
+{% image_custom image="assets/img/pages/blog/images/blog-os_logos.png" width="30%" align="right" %}
 
 Let’s have a look at some general advantages and disadvantages we could find in every of the three main OS we can run nowadays in our laptops: MacOS X, Linux, and Windows.
 

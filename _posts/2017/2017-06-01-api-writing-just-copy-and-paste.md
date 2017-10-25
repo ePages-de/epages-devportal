@@ -63,7 +63,7 @@ This is definitely the most demanding and time-consuming, but also the most inte
 
 Step by step I make my way through the API and basically try out every existing REST call myself.
 
-{% imagebasic blog/blog-try-rest-api.png Example_REST_call %} image {% endimagebasic %}
+{% image_custom image="assets/img/pages/blog/images/blog-try-rest-api.png" caption="Example_REST_call" width="100%" %}
 
 This is what I deal with:
 

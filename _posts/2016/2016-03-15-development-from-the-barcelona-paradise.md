@@ -49,7 +49,7 @@ Also, as in the company we try to do our best to be as **agile** as possible, we
 Maybe you are wondering how we manage to organise ourselves without a scrum master and still have time to take a coffee?
 One of us plays the role of **scrum master** as well as developer, but when things get crazy we have the Hamburg scrum master to helps us.
 
-{% image blog/blog-dev-bc-group.jpg 50% left %}
+{% image_custom image="assets/img/pages/blog/images/blog-dev-bc-group.jpg" width="50%" align="left" %}
 
 The **product owner** is also located in Hamburg, but we are in touch with him almost every day. He attends our dailies, reviews and plannings.
 He also comes to Barcelona once a month to discuss the progress of the different projects or plan the new ones.
@@ -63,7 +63,7 @@ When coding, we try to do pair programming and in early stages of a new developm
 
 ### Communication
 
-{% image blog/blog-video-connection.jpg 50% right %}
+{% image_custom image="assets/img/pages/blog/images/blog-video-connection.jpg" width="50%" align="right" %}
 
 We use tools that let us stay in touch with the other teams in Germany, specially with the other 'connector' team.
 We have a permanent video-conference connection with our twin team.

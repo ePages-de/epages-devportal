@@ -68,7 +68,7 @@ He showed how pure functional programming can actually be applied in the wild:
 
 ## The party
 
-{% image blog/blog-codetalks2016-vouchers.jpg 30% right %}
+{% image_custom image="assets/img/pages/blog/images/blog-codetalks2016-vouchers.jpg" width="30%" align="right" %}
 
 After the first day of talks everybody was invited to have fun at the code.talks After-Work-Party, which conveniently took place at Kampnagel as well.
 And because it also started to rain it was even more attractive to stay and continue with networking while having some drinks.

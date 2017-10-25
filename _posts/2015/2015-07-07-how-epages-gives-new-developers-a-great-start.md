@@ -43,7 +43,7 @@ Our CTO gives a brief introduction including:
 
 ### 4. Buddy time!
 
-{% image blog/blog-employee-induction-welcome.jpg 45% right %}
+{% image_custom image="assets/img/pages/blog/images/blog-employee-induction-welcome.jpg" width="45%" align="right" %}
 
 Next we get the newbies into contact with their buddies and off they go exploring the office.
 This is all about settling-in and clarifying feel-good issues such as:
@@ -72,7 +72,7 @@ This includes:
 * Company events and holidays
 * Applications for leave and sick leave
 
-{% image blog/blog-employee-induction-agenda.png 40% left %}
+{% image_custom image="assets/img/pages/blog/images/blog-employee-induction-agenda.png" width="40%" align="left" %}
 
 ### 6. Team lunch
 

@@ -13,7 +13,7 @@ But what exactly did we do?
 
 ## Ready, steady...
 
-{% image blog/blog-hack16-prep.jpg 40% left %}
+{% image_custom image="assets/img/pages/blog/images/blog-hack16-prep.jpg" width="40%" align="left" %}
 
 This year's hackathon focused on app development.
 Now that this was clear, we started to collect more detailed topics and built individual teams.
@@ -24,7 +24,7 @@ Finally, it was time for the colleagues from Jena and Barcelona to travel to ePa
 
 Prior to the event itself, some developers met in bars or clubs in Hamburg to outline their ideas, or prepare their GitHub repositories.
 
-{% image blog/blog-hack16-agenda.jpg 40% right %}
+{% image_custom image="assets/img/pages/blog/images/blog-hack16-agenda.jpg" width="40%" align="right" %}
 
 ## ...go!
 

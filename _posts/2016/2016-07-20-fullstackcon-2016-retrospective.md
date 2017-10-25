@@ -12,9 +12,7 @@ In this post, I want to share my key takeaways from three very intense conferenc
 
 ## 1. JavaScript is spreading out
 
-{% imagecaption blog/blog-tessel.png %}
-An LED sound level meter built within a few hours of JavaScript hacking.
-{% endimagecaption %}
+{% image_custom image="assets/img/pages/blog/images/blog-tessel.png" width="100%" caption="An LED sound level meter built within a few hours of JavaScript hacking." %}
 
 With JavaScript rapidly becoming a language to program the **Internet of Things (IoT)**, quite a few talks at the conference covered topics like remote controlling [bluetooth][bluetooth-talk] and [medical devices][pacemaker-talk], or [Virtual Reality][vr-talk]. In one of the workshops around minicomputers and microcontrollers, my colleague Erik hacked an LED sound level meter using Node.js on the [Tessel 2][tessel-website].
 
@@ -28,9 +26,7 @@ In total, there were around half a dozen talks around the [NodeJS][node]/[React]
 
 ## 3. This doesn't mean framework fragmentation is a thing of the past
 
-{% imagecaption blog/blog-varnish.png %}
-Can you spot the syntax error on the conference shirt?
-{% endimagecaption %}
+{% image_custom image="assets/img/pages/blog/images/blog-varnish.png" width="100%" caption="Can you spot the syntax error on the conference shirt?" %}
 
 Of course there's enough space for other frameworks in the JavaScript world. [Angular 2][ng-2] was a big topic at _FullStack_, and after giving it a try in an intense workshop, I was left with the impression that the parts I liked most about it, namely [RxJS][rx-js] and [TypeScript][ts], are by Microsoft. But it's good to see that Angular 2 adds server side rendering or **Universal JavaScript**, and [Ember][ember] is getting that as well, as pointed out in a keynote by Ember co-creator [Yehuda Katz][yehuda-twitter].
 

@@ -38,7 +38,7 @@ Interim conclusion: most of the DDL commands in MySQL 5.6 meet the requirements.
 
 ## Quantity
 
-{% imagecaption blog/blog-online-schema-2.jpg %} Test results with small database - UPDATE or SELECT operations {% endimagecaption %}
+{% image_custom image="assets/img/pages/blog/images/blog-online-schema-2.jpg" width="100%" caption="Test results with small database - UPDATE or SELECT operations" %}
 
 As we're working with Scrum processes at ePages, we have a new software release every two weeks.
 The database changes accordingly.
@@ -54,18 +54,18 @@ To summarise the results:
 
 Within a wider context we had three different test scenarios:
 
-{% imagecaption blog/blog-online-schema-3.jpg %} Test scenario - wider context {% endimagecaption %}
+{% image_custom image="assets/img/pages/blog/images/blog-online-schema-3.jpg" width="100%" caption="Test scenario - wider context" %}
 
 The first results show this:
 
-{% imagecaption blog/blog-online-schema-4.jpg %} Test results - execution times of DDL commands {% endimagecaption %}
+{% image_custom image="assets/img/pages/blog/images/blog-online-schema-4.jpg" width="100%" caption="Test results - execution times of DDL commands" %}
 
 You can see clear improvement from version 5.1 to version 5.5.
 But only from the results there's no significant difference between MySQL 5.5 and 5.6.
 So why definitely 5.6?
 Taking a look at the occurred errors, log entries as well as the runtimes of the user test and the patch makes things clearer:
 
-{% imagecaption blog/blog-online-schema-5.jpg %} Test results - number of errors, log entries and run times - user tests and patch {% endimagecaption %}
+{% image_custom image="assets/img/pages/blog/images/blog-online-schema-5.jpg" width="100%" caption="Test results - number of errors, log entries and run times - user tests and patch" %}
 
 In particular, this means:
 
