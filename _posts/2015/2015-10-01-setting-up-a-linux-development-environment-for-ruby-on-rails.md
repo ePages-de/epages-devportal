@@ -74,9 +74,7 @@ Install [*node.js*][nodejs] as its needed by the server at runtime.
 Install *libxml2-devel* and *libxslt-devel* (needed for nokogiri... see below).
 The best way to install these is via your system package manager (yast, apt, yum etc).
 
-{% callout info Info %}
-Modify the file paths below appropriately, and create the dir where you want to install first as a *normal user* (otherwise they will automatically get created belonging to root, and you'll need root privileges to work properly with them).
-{% endcallout %}
+> **Info** Modify the file paths below appropriately, and create the dir where you want to install first as a *normal user* (otherwise they will automatically get > created belonging to root, and you'll need root privileges to work properly with them).mark
 
 ### Build Ruby itself from source:
 
@@ -87,10 +85,8 @@ In the meantime however, there are two options: make the files available globall
 If you install these (globally) via your OS (package manager) then you risk a version mismatch which may cause errors during the build (or worse, at runtime). The better alternative
 is to (locally) download the source code for ruby.
 
-{% callout info Info %}
-Note the use of **prefix** below to ensure that the files to be installed are written to local dirs (and not globally).
-This isolates your ruby version nicely, protecting any other apps that depend on the global version, and yours from any changes made to the global one.
-{% endcallout %}
+> **Info** Note the use of **prefix** below to ensure that the files to be installed are written to local dirs (and not globally).
+> This isolates your ruby version nicely, protecting any other apps that depend on the global version, and yours from any changes made to the global one.
 
     > cd ~/declan/Downloads/ruby-2.2.3
 
@@ -108,9 +104,7 @@ This isolates your ruby version nicely, protecting any other apps that depend on
     cd chruby-0.3.9/
     PREFIX=/home/declan/dev/web_framework/rails/chruby/0.3.9/ make install
 
-{% callout info Info %}
-Don't call setup.ch since it adds a "chruby.sh" file to /etc/profile.d/ which causes share/chruby/auto.sh to get run each system boot - you don't want this.
-{% endcallout %}
+> **Info** Don't call setup.ch since it adds a "chruby.sh" file to /etc/profile.d/ which causes share/chruby/auto.sh to get run each system boot - you don't want this.
 
 ### Edit chruby.sh
 
@@ -152,9 +146,7 @@ However it would be nice to also be able to benefit from a full fledged IDE eg. 
 The best choice here is Intellij
 [IDEA][IDEA] or [RubyMine][RubyMine] (a streamlined down version of IDEA specifically for Ruby development).
 
-{% callout info Info %}
-[NetBeans](http://wiki.netbeans.org/RubySupport) no longer supports Ruby/Rails.
-{% endcallout %}
+> **Info** [NetBeans](http://wiki.netbeans.org/RubySupport) no longer supports Ruby/Rails.
 
 ### Setup up Intellij
 
