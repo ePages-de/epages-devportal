@@ -1,3 +1,5 @@
+$widths: 5,10,15,20,25,30,35,40,45,50,100
+
 .card
   background: $card-background-color
   border: $card-border
@@ -97,7 +99,11 @@
           transition: $base-transition
 
     .custom-image
-      margin: 0 auto $card-margin-desktop
+      margin: 0 auto $card-margin-mobile
+      width: 100%
+
+      +grid-media($grid-small)
+        margin: 0 auto $card-margin-desktop
 
       a
         width: 100%
@@ -109,18 +115,35 @@
           border-radius: 100%
 
         &.custom-image--left
-          margin-left: $card-margin-desktop
+          margin-left: $card-margin-mobile
+
+          +grid-media($grid-small)
+            margin-left: $card-margin-desktop
 
         &.custom-image--right
-          margin-right: $card-margin-desktop
+          margin-left: $card-margin-mobile
+
+          +grid-media($grid-small)
+            margin-right: $card-margin-desktop
+
+      +grid-media($grid-small)
+        @each $wdth in $widths
+          &.custom-image--width-#{$wdth}
+            width: unquote("#{$wdth}%")
 
       &--left
         float: left
-        margin-right: $card-margin-desktop
+        margin-right: $card-margin-mobile
+
+        +grid-media($grid-small)
+          margin-right: $card-margin-desktop
 
       &--right
         float: right
-        margin-left: $card-margin-desktop
+        margin-left: $card-margin-mobile
+
+        +grid-media($grid-small)
+          margin-left: $card-margin-desktop
 
         .custom-image__caption
           text-align: right
@@ -147,7 +170,6 @@
   &--post
     box-sizing: border-box
     position: relative
-    overflow: hidden
 
     &:hover
       box-shadow: $hover-box-shadow
@@ -193,7 +215,6 @@
 
     &__body
       padding: 2rem
-      height: 100%
       display: block
 
     &__title
