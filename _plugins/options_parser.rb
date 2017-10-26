@@ -3,7 +3,7 @@ module Jekyll
     OPTIONS_SYNTAX = %r!([^\s]+)\s*=\s*['"]+([^'"]+)['"]+!
 
     class << self
-      def parse(raw_options, allowed_attributes, allowed_properties)
+      def parse(raw_options, allowed_attributes, allowed_properties = nil)
         options = {
           attributes: {},
           properties: []
