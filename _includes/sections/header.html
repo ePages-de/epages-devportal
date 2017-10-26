@@ -1,4 +1,4 @@
-{% if page.header_image %}
+{% unless page.header_image.blank? %}
 
   <header class="header" style="background-image: url(/assets/img/pages/blog/headers/{% post_header page.header_image %}); background-position: center {{ page.header_position }}">
     <div class="header-wrapper">
@@ -17,4 +17,4 @@
     </div>
   </header>
 
-{% endif %}
+{% endunless %}
