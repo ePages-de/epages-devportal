@@ -241,7 +241,18 @@ end
 task :test_html do
   require 'html-proofer'
 
-  ignore = []
+  ignore = [/.*\ProximaNova-Bold.html/,
+            /.*\ProximaNova-BoldIt.html/,
+            /.*\ProximaNova-Regular.html/,
+            /.*\ProximaNova-RegularIt.html/,
+            /.*\ProximaNovaAlt-Bold.html/,
+            /.*\ProximaNovaAlt-BoldIt.html/,
+            /.*\ProximaNovaAlt-Regular.html/,
+            /.*\ProximaNovaAlt-RegularIt.html/,
+            /.*\ProximaNovaScOsf-Bold.html/,
+            /.*\ProximaNovaScOsf-BoldIt.html/,
+            /.*\ProximaNovaScOsf-Regular.html/,
+            /.*\ProximaNovaScOsf-RegularIt.html/]
 
   options = { disable_external: true,
               file_ignore: ignore,
