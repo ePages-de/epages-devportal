@@ -21,10 +21,11 @@ module Jekyll
       raise 'ImageCustom: "image" attribute must be provided' if image.nil?
       # raise 'ImageCustom: Image doesn\'t exist' unless File.file?(image)
       raise 'ImageCustom: "width" attribute must be provided' if width.nil?
+      raise 'ImageCustom: "width" attribute must be in [5|10|15|20|25|30|35|40|45|50|100]' unless [5,10,15,20,25,30,35,40,45,50,100].include? width.to_i
     end
 
     def render(context)
-      html = "<div class='custom-image  #{align}  #{circle}' style='width:#{width}'>"
+      html = "<div class='custom-image  #{align}  #{circle}  custom-image--width-#{width}'>"
       html += %{<a href='#{image}'
                 class='#{lightbox}'
                 data-lightbox='#{image}'>
