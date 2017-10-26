@@ -30,7 +30,7 @@ Back-pressure means, that the upstream part of a stream only produces data when 
 This concept is really not new.
 A classic example for a back-pressured stream is a simple file download.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-reactive-streams-download-example.png" caption="File_download_as_reactive_stream" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-reactive-streams-download-example.png" caption="File_download_as_reactive_stream" width="100" %}
 
 The web server will send you one chunk of bytes after the other.
 But at any given time the server will only have loaded as much data from disk into memory as you as a client are capable of retrieving.

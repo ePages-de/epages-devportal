@@ -16,7 +16,7 @@ Just recently, our team was restructured. New team members were added, whereas s
 
 ## Workshops
 
-{% image_custom image="/assets/img/pages/blog/images/blog-team-ep6.jpg" width="50%" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-team-ep6.jpg" width="50" align="right" %}
 
 In order to spread knowledge and improve our [T-shaped skills](https://en.wikipedia.org/wiki/T-shaped_skills) we prepared various workshops.
 In advance we identified topics that are relevant to everyone in the team and topics that are only relevant to a certain guild.
@@ -24,7 +24,7 @@ To make best use of the limited time we held some workshops on parallel tracks.
 
 Of interest to everyone was the "JavaScript in our current ePages shop system" session chaired by Markus. He explained in detail how different JavaScript frameworks are integrated in our e-commerce solution and what to consider when writing JavaScript in this environment. Using live coding he demonstrated how the template engine, localisation, and JavaScript compression work.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-ep6-frontend-workshop.jpg" width="50%" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-ep6-frontend-workshop.jpg" width="50" align="left" %}
 
 Oliver explained selected [OWASP threats](https://www.owasp.org/index.php/Cheat_Sheets). Afterwards we tried to exploit our software. While we identified some problems, we also concluded that current version is pretty resilient against the most common attacks: injections and cross-site scripting.
 
@@ -39,7 +39,7 @@ Last but not least Tobias emphasised unit testing and best practices like the [T
 
 ## Bow and arrow action
 
-{% image_custom image="/assets/img/pages/blog/images/blog-ep6offsite-bow.jpg" width="50%" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-ep6offsite-bow.jpg" width="50" align="right" %}
 
 After one and a half day of intense workshops, we had our recreational team event on Wednesday afternoon. We went to the [archery site](http://camburger-bogenschuetzen.de/) located in the forest area in Camburg.
 
