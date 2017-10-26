@@ -61,6 +61,13 @@
           margin-right: 2rem
 
     &__link
+      color: $base-font-color-white
+
+      &:hover,
+      &:focus,
+      &--active
+        text-decoration: none
+        color: $beyond-green
 
     &__button
       float: right
@@ -128,6 +135,7 @@
 
         &::-webkit-input-placeholder
           font-weight: 100
+          color: lighten($gray-light, 30%)
 
   &--transparent
     background: linear-gradient(rgba(60,60,60,.5), rgba(0,0,0,0))
@@ -135,66 +143,37 @@
     .navigation
 
       &__link
-        color: $base-font-color-white
 
         +grid-media($grid-medium)
           text-shadow: $base-text-shadow
 
-        &:hover,
-        &:focus,
-        &--active
-          text-decoration: none
-          color: $beyond-green
+  &--dark
+    background: $navbar-background-color
 
-      &__search-button
-        background-image: url(/assets/img/icons/search_white.svg)
+.devjobs
 
-      &__search-input
-
-        +grid-media($grid-medium)
-          border-bottom: 1px solid $white
-
-        &--open
-          text-shadow: 0 0 0
-
-          +grid-media($grid-medium)
-            text-shadow: $base-text-shadow
-
-        &::-webkit-input-placeholder
-          color: $gray-light
-
-          +grid-media($grid-medium)
-            color: lighten($gray-light, 30%)
-
-  &--white
-    background: $white
-    border-bottom: $base-border
+  .navbar
 
     .navigation
+      background: $gray-dark
 
-      &__link
-        color: $base-font-color-white
+      +grid-media($grid-medium)
+        background: inherit
+
+      &__item
+        border-bottom: 1px solid lighten($gray-dark, 5%)
 
         +grid-media($grid-medium)
-          color: $base-font-color
+          border-bottom: none
+
+      &__link
+        color: $white
 
         &:hover,
         &:focus,
         &--active
-          text-decoration: none
-          color: $beyond-green
+          text-decoration: underline
+          color: $white
 
-      &__search-button
-        background-image: url(/assets/img/icons/search_gray.svg)
-
-      &__search-input
-
-        +grid-media($grid-medium)
-          color: $base-font-color
-          border-bottom: 1px solid $base-font-color
-
-        &--open
-          text-shadow: 0 0 0
-
-        &::-webkit-input-placeholder
-          color: $gray-light
+    &--dark
+      background: $gray-dark
