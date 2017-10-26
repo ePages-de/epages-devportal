@@ -1,0 +1,223 @@
+.devjobs
+
+  section
+    padding: 8rem 0
+
+  a:not(.cta)
+    color: $dev-blue
+
+    &:hover
+      text-decoration: underline
+
+  .section-title
+    margin-bottom: 2rem
+
+  h2.section-title
+    padding: 0 2rem
+
+  h3.section-title
+    font-family: $display-font-family-light
+
+  .section-body,
+  .section-list
+    margin-bottom: 1rem
+
+  .section-list li
+    margin-bottom: 1.5rem
+
+  .cta
+    display: inline-block
+    text-align: center
+    background-color: $dev-green
+    padding: 1rem 2rem
+    color: $white
+    margin-top: 2rem
+
+    &--block
+      display: block
+
+    &:hover
+      background-color: darken($dev-green, 10%)
+      transition: $base-transition
+
+  .card--devjobs
+    text-align: left
+    padding: 2rem
+    flex-basis: calc(100% - 4rem)
+
+    +grid-media($grid-medium)
+      flex-basis: calc(100% / 2 - 4rem)
+
+    +grid-media($grid-large)
+      flex-basis: calc(100% / 3 - 4rem)
+
+    &__container
+      margin: 4rem 0
+      display: flex
+      flex-wrap: wrap
+
+    &__title a
+      color: $dev-red
+      margin-bottom: 1rem
+      font-family: $display-font-family-light
+
+    &__footer
+      margin-top: 1rem
+      color: $gray-light
+
+  .panels
+    display: flex
+    flex-direction: column
+    margin-top: 4rem
+
+    +grid-media($grid-small)
+      flex-direction: row
+      flex-wrap: wrap
+
+    .panel
+      padding: 2rem
+      flex-basis: calc(100% - 4rem)
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      &:nth-child(even)
+        background: lighten($gray-dark, 5%)
+
+      +grid-media($grid-small)
+        flex-basis: calc(100% / 2 - 4rem)
+
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(10),
+        &:nth-child(11)
+          background: lighten($gray-dark, 5%)
+
+        &:nth-child(1),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(8),
+        &:nth-child(9),
+        &:nth-child(12)
+          background: $gray-dark
+
+      +grid-media($grid-medium)
+        flex-basis: calc(100% / 4 - 4rem)
+
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(7),
+        &:nth-child(10),
+        &:nth-child(12)
+          background: lighten($gray-dark, 5%)
+
+        &:nth-child(1),
+        &:nth-child(3),
+        &:nth-child(6),
+        &:nth-child(8),
+        &:nth-child(9),
+        &:nth-child(11)
+          background: $gray-dark
+
+      .fa
+        margin-bottom: 1rem
+        font-size: 2.5rem
+
+      &__body
+
+  .job-openings
+    text-align: center
+
+  .introduction
+    text-align: center
+
+    .row
+      text-align: center
+      display: flex
+      flex-wrap: wrap
+      flex-direction: column
+
+      +grid-media($grid-medium)
+        flex-direction: row
+        text-align: left
+
+      .column
+        flex-basis: calc(100% - 4rem)
+        padding: 2rem
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 3 - 4rem)
+
+  .story
+    text-align: center
+    position: relative
+
+    +grid-media($grid-medium)
+      width: 60%
+      margin: 0 auto
+
+      &::before
+        content: '{'
+        font-family: $display-font-family-light
+        position: absolute
+        left: -8rem
+        top: 5rem
+        font-size: 30rem
+        line-height: 1
+        color: lighten($gray-dark, 10%)
+
+      &::after
+        content: '}'
+        font-family: $display-font-family-light
+        position: absolute
+        right: -8rem
+        top: 5rem
+        font-size: 30rem
+        line-height: 1
+        color: lighten($gray-dark, 10%)
+
+
+  .offer
+    text-align: center
+
+  .devblog
+    text-align: center
+
+    .devs-logo
+      height: 8rem
+      margin-bottom: 2rem
+
+  .contact
+    text-align: center
+
+    &__container
+      margin-top: 4rem
+      display: flex
+      flex-direction: column
+      flex-wrap: wrap
+
+      +grid-media($grid-small)
+        flex-direction: row
+        justify-content: center
+
+      +grid-media($grid-large)
+
+    &__option
+      padding: 2rem
+      display: flex
+      width: 300px
+
+      .fa
+        font-size: 2.5rem
+        margin-right: 2rem
+        color: $dev-red
+
+      a
+        color: $white
+        text-decoration: underline
+
+  .meet
+    text-align: center
