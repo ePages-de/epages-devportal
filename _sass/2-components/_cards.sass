@@ -14,7 +14,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       +grid-media($grid-medium)
         margin: 4rem $card-margin-desktop 2rem
 
-    p, ul, ol
+    p, ul, ol, table
       margin: 2rem $card-margin-mobile
 
       +grid-media($grid-medium)
@@ -32,6 +32,15 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
         +grid-media($grid-medium)
 
           margin-bottom: $card-margin-desktop
+
+    table, th, td
+      border: $base-border
+
+    table
+      th
+        font-weight: bold
+      td, th
+        padding: .2em .4em
 
     ul
       li
@@ -113,7 +122,6 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       a
         width: 100%
         pointer-events: none
-        display: grid
 
       &--circle
         width: calc(100% - #{$card-margin-mobile} * 2)
