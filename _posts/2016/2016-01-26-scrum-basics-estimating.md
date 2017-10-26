@@ -50,7 +50,7 @@ They show the number of closed story points on a time scale representing the spr
 
 ## Planning Poker
 
-{% image_custom image="assets/img/pages/blog/images/blog-scrum4-planning-poker.jpg" width="45%" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum4-planning-poker.jpg" width="45%" align="left" %}
 
 Planning Poker is probably the most used estimation technique in Scrum.
 For this technique every team member gets a set of Planning Poker cards, which show the Fibonacci row.

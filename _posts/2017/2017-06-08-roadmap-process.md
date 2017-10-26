@@ -17,7 +17,7 @@ In this case it means, responding to change is important, but following a plan a
 
 Our product roadmap process at ePages is divided into 5 phases:
 
-{% image_custom image="assets/img/pages/blog/images/blog-roadmap-process.png" caption="Overview_of_the_different_roadmap_phases" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-roadmap-process.png" caption="Overview_of_the_different_roadmap_phases" width="100%" %}
 
 While I understand, that the obvious reason for creating a product roadmap is to outline, when specific features for our products will be delivered, the product roadmap has a lot more benefits for the company.
 Here are my top three:

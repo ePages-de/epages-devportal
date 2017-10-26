@@ -68,7 +68,7 @@ It's fun working together and there's always someone visiting us in our office.
 
 ### What does a typical work day look like?
 
-{% image_custom image="assets/img/pages/blog/images/blog-ruby-dev.jpg" width="50%" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-ruby-dev.jpg" width="50%" align="right" %}
 
 I'm usually in the office at 9:30.
 Then I check my tasks and see what's planned for the day.

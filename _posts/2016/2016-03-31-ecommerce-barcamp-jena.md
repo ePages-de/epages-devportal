@@ -47,7 +47,7 @@ However, a lot of minor service providers already emphasise OpenStack in the mar
 In practice, hosters support that to a varying extent so that developers should check that carefully themselves.
 Nevertheless, the framework in general is very interesting and already provides a lot of functionality. It will be valuable to follow in the future.
 
-{% image_custom image="assets/img/pages/blog/images/blog-ecommerce-barcamp-jena-4.jpg" width="45%" align="right" caption="The orga team" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-ecommerce-barcamp-jena-4.jpg" width="45%" align="right" caption="The orga team" %}
 
 Another interesting session was a guided discussion about [Magento 2](https://magento.com/developers/magento2).
 Björn Jacob and Tobias Vogt explained in an entertaining fashion the new functio set in frequent interplay with the strongly involved audience.

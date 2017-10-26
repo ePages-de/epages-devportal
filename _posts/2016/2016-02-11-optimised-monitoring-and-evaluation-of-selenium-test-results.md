@@ -11,7 +11,7 @@ Today we want to share with you the first of two blog posts on a recent project 
 
 The second post will seamlessly follow up and elaborate in-depth on the technical aspects of the implementation, but now let us start digging towards the core of the business challenge.
 
-{% image_custom image="assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-report.png" width="30%" align="right" caption="The report index of a set" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-report.png" width="30%" align="right" caption="The report index of a set" %}
 
 ## Background story
 

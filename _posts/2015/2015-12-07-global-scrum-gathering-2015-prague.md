@@ -14,7 +14,7 @@ It's been three days filled with interesting workshops, presentations and gettin
 The keynote of Niels Pflaeging followed the ideas of his book "Organize for Complexity".
 The basic idea is that top down management structures were working in the industrial age with slow moving dull markets but that they die with the fast moving markets today.
 
-{% image_custom image="assets/img/pages/blog/images/blog-gsg-1.jpg" width="50%" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-gsg-1.jpg" width="50%" align="left" %}
 
 He described organisations as peaches rather than pyramids, with a centre and a periphery.
 The customer always contacts the periphery and the periphery the centre.
@@ -99,7 +99,7 @@ It was interesting to hear it from someone that has worked with this in practice
 There were many information I couldn't fully grab because I've never worked in Sales, so my advice would be to have a look at this [video](https://www.youtube.com/watch?v=cteAb9Ap7_4).
 It's roughly the same presentation Pavel was holding on the Agile Africa conference this year.
 
-{% image_custom image="assets/img/pages/blog/images/blog-gsg-5.jpg" width="50%" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-gsg-5.jpg" width="50%" align="left" %}
 
 The different contract models you can use in Scrum are all based on the idea to fix time and cost, but not scope.
 

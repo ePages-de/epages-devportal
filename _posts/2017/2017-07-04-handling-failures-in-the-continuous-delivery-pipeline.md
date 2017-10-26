@@ -41,7 +41,7 @@ This has to be done immediately to prevent the pipeline from being blocked for o
 To deploy this fix to the current status of the microservice we use a so called 'Fast-Lane' concept.
 This concept describes a second pipeline, which is running the same stages as the CDP itself to deploy the changes to fix the current pipeline issues.
 
-{% image_custom image="assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-1.png" caption="CDP_with_updates_to_services_1_to_3" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-1.png" caption="CDP_with_updates_to_services_1_to_3" width="100%" %}
 
 The next image shows a CDP with currently seven builds running.
 To explain the concept, the build of the service S1 is going to fail in pre-production stage.
@@ -52,14 +52,14 @@ This means, that these changes are therefore already merged on the master branch
 To apply a fix for the current failure therefore not only includes the required changes but also all changes already merged on the master branch.
 The applying of the fix will be on a fast-lane that is able to overtake all other current builds in the CDP:
 
-{% image_custom image="assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-2.png" caption="Fast-Lane_approach" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-2.png" caption="Fast-Lane_approach" width="100%" %}
 
 After successfully passing the acceptance and pre-production stage in the fast-lane, these changes are rolled out to the actual pre-production stage of the CDP.
 To avoid changes of the same service to be rolled out again it is necessary to cancel builds regarding the same microservice the fix was deployed with.
 Hence, all running builds of the S1 service need to be removed in the CDP.
 Now the pre-production stage gets unlocked and the next build is able to pass over:
 
-{% image_custom image="assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-3.png" caption="CDP_after_Fast-Lane" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-3.png" caption="CDP_after_Fast-Lane" width="100%" %}
 
 ## Related posts
 

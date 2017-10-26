@@ -60,28 +60,28 @@ We had mockups, designs and texts for the whole Web App, so we could focus on pr
 
 For simplicity we mimicked more or less the API models and added a bit of Rails Magic so it's even easier to use.
 
-{% image_custom image="assets/img/pages/blog/images/blog-sales-app-model.png" width="auto" align="center" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-model.png" width="auto" align="center" %}
 
 After that, we created all the sections of the app: Dashboard, Sales, Products, and Customers.
 All these parts are bound to two dates (start date and end date) so the merchant can get even more useful data faster.
 
-{% image_custom image="assets/img/pages/blog/images/blog-sales-app-dashboard.png" caption="Dashboard_of_Sales_Analytics_App" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-dashboard.png" caption="Dashboard_of_Sales_Analytics_App" width="100%" %}
 
 The main purpose of the Dashboard was to have all the basic information about a shop at a glance.
 So we decided to include a graph of sales, the amount of sales and orders, as well as the top products, and last orders.
 
-{% image_custom image="assets/img/pages/blog/images/blog-sales-app-sales.png" caption="Sales_view" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-sales.png" caption="Sales_view" width="100%" %}
 
 Then we included three charts on the Sales section.
 The first is the same as in the Dashboard, the second one represents the orders on the selected time frame and the last is the revenue per order, the calculation between the first two graphs.
 We also added the option to export the data to an `xlsx` file so the merchant doesn't need an internet connection to review the sales.
 
-{% image_custom image="assets/img/pages/blog/images/blog-sales-app-customers.png" caption="Customers_view" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-customers.png" caption="Customers_view" width="100%" %}
 
 The Customers section is a simple table including all the merchant's customers ordered by number of orders or the total amount spent.
 Above the table we can see all the customers for the specified time frame and and the number of returning customers.
 
-{% image_custom image="assets/img/pages/blog/images/blog-sales-app-products.png" caption="Products_view" width="100%" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-products.png" caption="Products_view" width="100%" %}
 
 The last part are the Products.
 In this view, we have the products ordered by revenue or amount of units sold.

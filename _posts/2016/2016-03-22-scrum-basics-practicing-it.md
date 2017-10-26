@@ -26,7 +26,7 @@ In more experienced groups the Product Owner can also add more Acceptance Criter
 
 ## Timeframes
 
-{% image_custom image="assets/img/pages/blog/images/blog-scrum6-folding.jpg" width="42%" align="right" caption="One team drew the folding instructions onto a whiteboard so everyone knew how the plane was supposed to be folded." %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum6-folding.jpg" width="42%" align="right" caption="One team drew the folding instructions onto a whiteboard so everyone knew how the plane was supposed to be folded." %}
 
 The Team has three Sprints in total.
 Each Sprint consists of a 1-minute Sprint Planning, in which the team agrees on how many planes that fulfil the Acceptance Criteria they think they can produce within the Sprint.

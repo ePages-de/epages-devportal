@@ -81,7 +81,7 @@ I already had experience with that.
 
 ### What does a typical work day look like?
 
-{% image_custom image="assets/img/pages/blog/images/blog-qa-1.jpg" width="50%" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-qa-1.jpg" width="50%" align="right" %}
 
 I usually start work between 8:30 and 9:00.
 Then I work myself through some administrative stuff or tackle some smaller tasks.
