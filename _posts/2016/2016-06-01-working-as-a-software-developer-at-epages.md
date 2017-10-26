@@ -18,7 +18,7 @@ I have worked as a Software Developer at ePages since September 2014.
 ### How did you get to know ePages?
 
 When looking for jobs on the internet, I came across a job ad for a Java Developer position at ePages.
-I applied for the job and had a Skype interview with Mario Rieß, the Senior Vice President of R&D, where we talked about some general topics.
+I applied for the job and had a Skype interview with Mario Rieß, the Senior Vice President of R&amp;D, where we talked about some general topics.
 I was then invited for a personal interview, during which I was also asked to solve a specific coding challenge related to Java and MySQL.
 
 In the interview, I found out that I would have to code in PERL 😉.
@@ -65,7 +65,7 @@ I'm connected in all the team rooms and receive a lot of information there.
 So I'm up-to-date most of the time.
 
 Furthermore, we use Google Hangouts to connect with the teams in Hamburg or Barcelona.
-Every Friday, we have our R&D status meeting, where we exchange the week's important topics.
+Every Friday, we have our R&amp;D status meeting, where we exchange the week's important topics.
 
 ### What do you like at ePages?
 
