@@ -31,7 +31,7 @@ module Jekyll
                 data-lightbox='#{image}'>
                 <img class='custom-image__image' src='#{image}' /></a>}
       if @args[:attributes][:caption]
-        html += "<div class='custom-image__caption'>#{@args[:attributes][:caption]}</div>"
+        html += "<div class='custom-image__caption'>#{@args[:attributes][:caption].gsub!('_', ' ')}</div>"
       end
       html += "</div>"
       html
