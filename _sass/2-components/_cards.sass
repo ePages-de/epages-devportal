@@ -14,7 +14,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       +grid-media($grid-medium)
         margin: 4rem $card-margin-desktop 2rem
 
-    p, ul, ol
+    p, ul, ol, table
       margin: 2rem $card-margin-mobile
 
       +grid-media($grid-medium)
@@ -32,6 +32,15 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
         +grid-media($grid-medium)
 
           margin-bottom: $card-margin-desktop
+
+    table, th, td
+      border: $base-border
+
+    table
+      th
+        font-weight: bold
+      td, th
+        padding: .2em .4em
 
     ul
       li
@@ -59,7 +68,12 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
         padding: 2rem $card-margin-desktop
 
     .twitter-tweet
-      margin: 4rem auto !important
+      margin: $card-margin-mobile !important
+      width: calc(100% - #{$card-margin-mobile} * 2) !important
+
+      +grid-media($grid-small)
+        margin: $card-margin-desktop auto !important
+        width: 500px !important
 
       &:not(.twitter-tweet-rendered)
         max-width: 500px
@@ -102,51 +116,91 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       margin: 0 auto $card-margin-mobile
       width: 100%
 
-      +grid-media($grid-small)
+      +grid-media($grid-medium)
         margin: 0 auto $card-margin-desktop
 
       a
         width: 100%
         pointer-events: none
-        display: grid
 
       &--circle
-        .custom-image__image
-          border-radius: 100%
+        width: calc(100% - #{$card-margin-mobile} * 2)
 
         &.custom-image--left
           margin-left: $card-margin-mobile
+          margin-right: $card-margin-mobile
+          float: none
+
+          +grid-media($grid-medium)
+            margin-left: $card-margin-desktop
+            margin-right: $card-margin-desktop
 
           +grid-media($grid-small)
-            margin-left: $card-margin-desktop
+            float: left
 
         &.custom-image--right
           margin-left: $card-margin-mobile
+          margin-right: $card-margin-mobile
+          float: none
+
+          +grid-media($grid-medium)
+            margin-left: $card-margin-desktop
+            margin-right: $card-margin-desktop
 
           +grid-media($grid-small)
-            margin-right: $card-margin-desktop
+            float: right
+
+        .custom-image__image
+          border-radius: 100%
 
       +grid-media($grid-small)
         @each $wdth in $widths
           &.custom-image--width-#{$wdth}
             width: unquote("#{$wdth}%")
 
+      &--center
+
+        .custom-image__caption
+          margin-left: $card-margin-mobile
+          margin-right: $card-margin-mobile
+
+          +grid-media($grid-medium)
+            margin-left: 0
+            margin-right: 0
+
       &--left
         float: left
         margin-right: $card-margin-mobile
 
-        +grid-media($grid-small)
+        +grid-media($grid-medium)
           margin-right: $card-margin-desktop
+
+        .custom-image__caption
+          text-align: left
+          margin-left: $card-margin-mobile
+          margin-right: $card-margin-mobile
+
+          +grid-media($grid-medium)
+            margin-left: $card-margin-desktop
+            margin-right: $card-margin-desktop
 
       &--right
         float: right
         margin-left: $card-margin-mobile
 
-        +grid-media($grid-small)
+        +grid-media($grid-medium)
           margin-left: $card-margin-desktop
 
         .custom-image__caption
-          text-align: right
+          margin-left: $card-margin-mobile
+          margin-right: $card-margin-mobile
+
+          +grid-media($grid-small)
+            text-align: right
+
+          +grid-media($grid-medium)
+            margin-left: $card-margin-desktop
+            margin-right: $card-margin-desktop
 
       &__image
         width: 100%
@@ -159,7 +213,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       &__caption
         font-size: 1.4rem
         color: $gray-light
-        margin: 0 $card-margin-desktop
+        margin: .5em 0 0
 
     .youtube-video
       width: 100%
