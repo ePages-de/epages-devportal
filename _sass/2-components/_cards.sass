@@ -1,3 +1,5 @@
+$widths: 5,10,15,20,25,30,35,40,45,50,100
+
 .card
   background: $card-background-color
   border: $card-border
@@ -31,7 +33,12 @@
 
           margin-bottom: $card-margin-desktop
 
-    img:not(.icon-share)
+    ul
+      li
+        margin-left: 1em
+        list-style-type: disc
+
+    div:not(.custom-image) img:not(.icon-share), P img:not(.icon-share)
       margin: 2rem 0
       margin-left: -$card-margin-mobile
       width: calc(100% + #{$card-margin-mobile} * 2)
@@ -91,6 +98,75 @@
           box-shadow: $hover-box-shadow
           transition: $base-transition
 
+    .custom-image
+      margin: 0 auto $card-margin-mobile
+      width: 100%
+
+      +grid-media($grid-small)
+        margin: 0 auto $card-margin-desktop
+
+      a
+        width: 100%
+        pointer-events: none
+        display: grid
+
+      &--circle
+        .custom-image__image
+          border-radius: 100%
+
+        &.custom-image--left
+          margin-left: $card-margin-mobile
+
+          +grid-media($grid-small)
+            margin-left: $card-margin-desktop
+
+        &.custom-image--right
+          margin-left: $card-margin-mobile
+
+          +grid-media($grid-small)
+            margin-right: $card-margin-desktop
+
+      +grid-media($grid-small)
+        @each $wdth in $widths
+          &.custom-image--width-#{$wdth}
+            width: unquote("#{$wdth}%")
+
+      &--left
+        float: left
+        margin-right: $card-margin-mobile
+
+        +grid-media($grid-small)
+          margin-right: $card-margin-desktop
+
+      &--right
+        float: right
+        margin-left: $card-margin-mobile
+
+        +grid-media($grid-small)
+          margin-left: $card-margin-desktop
+
+        .custom-image__caption
+          text-align: right
+
+      &__image
+        width: 100%
+        height: auto
+        background-size: cover
+
+      &__lightbox
+        pointer-events: all !important
+
+      &__caption
+        font-size: 1.4rem
+        color: $gray-light
+        margin: 0 $card-margin-desktop
+
+    .youtube-video
+      width: 100%
+      display: flex
+      justify-content: center
+      margin-bottom: $card-margin-desktop
+
   &--post
     box-sizing: border-box
     position: relative
@@ -139,6 +215,7 @@
 
     &__body
       padding: 2rem
+      display: block
 
     &__title
       color: $gray-dark

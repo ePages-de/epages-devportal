@@ -38,6 +38,7 @@ exclude:
   - Gemfile.lock
   - Jenkinsfile
   - docker-compose.yml
+  - Rakefile
 
 feed:
   path: /blog/feed.xml
