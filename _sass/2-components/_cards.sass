@@ -36,7 +36,7 @@
         margin-left: 1em
         list-style-type: disc
 
-    div:not(.custom-image) img:not(.icon-share)
+    div:not(.custom-image) img:not(.icon-share), P img:not(.icon-share)
       margin: 2rem 0
       margin-left: -$card-margin-mobile
       width: calc(100% + #{$card-margin-mobile} * 2)
@@ -138,9 +138,16 @@
         color: $gray-light
         margin: 0 $card-margin-desktop
 
+    .youtube-video
+      width: 100%
+      display: flex
+      justify-content: center
+      margin-bottom: $card-margin-desktop
+
   &--post
     box-sizing: border-box
     position: relative
+    overflow: hidden
 
     &:hover
       box-shadow: $hover-box-shadow
@@ -186,6 +193,8 @@
 
     &__body
       padding: 2rem
+      height: 100%
+      display: block
 
     &__title
       color: $gray-dark
