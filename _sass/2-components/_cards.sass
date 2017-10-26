@@ -59,7 +59,12 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
         padding: 2rem $card-margin-desktop
 
     .twitter-tweet
-      margin: 4rem auto !important
+      margin: $card-margin-mobile !important
+      width: calc(100% - #{$card-margin-mobile} * 2) !important
+
+      +grid-media($grid-medium)
+        margin: $card-margin-desktop auto !important
+        width: 500px !important
 
       &:not(.twitter-tweet-rendered)
         max-width: 500px
