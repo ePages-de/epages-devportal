@@ -46,4 +46,4 @@ Meanwhile, some teams focused on other projects, like a REST cache layer, or a c
 
 ## ... video about this awesome hackathon!
 
-{% youtube 2UdyQma76IA %}
+{% youtube_video video_id="2UdyQma76IA" %}

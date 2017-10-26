@@ -47,7 +47,7 @@ Some main points:
 This talk was mainly about efficient usage of cluster resources in Borg and with Kubernetes:
 
 * New Feature in 1.3: Federated Cluster
-{% youtube 86jZdmAjWns %}
+{% youtube_video video_id="86jZdmAjWns" %}
 
 ### [Boyan Dimitrov](https://twitter.com/nathariel) - [Sixt](https://www.sixt.de/): Enterprise Microservice Adoption
 
