@@ -42,6 +42,6 @@ The old language pack build process was quite time-consuming and required lots o
 * Team 8 - Evaluating Docker to optimise resource consumption:
 ePages runs automated acceptance tests with a Selenium Framework against a great number of ePages installations. This requires a significant amount of server resources. The team had to face quite some challenges and worked hard to solve them. But at the end, they managed to run the tests with Docker. Yay!
 
-The team spirit throughout R&D was fantastic. ePagees from Hamburg, Jena, Barcelona (and even New York participated via Skype) worked in crossfunctional teams and had a great time together!
+The team spirit throughout R&amp;D was fantastic. ePagees from Hamburg, Jena, Barcelona (and even New York participated via Skype) worked in crossfunctional teams and had a great time together!
 
 Looking forward to the next ePages hackathon!

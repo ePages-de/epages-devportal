@@ -9,7 +9,7 @@ authors: ["Birgit, Serena", "Domingo"]
 
 Do you want to learn more about what it’s like working as an ePages developer?
 Well, then you can find it out in this new series of articles.
-Serena (our Technical Recruiter) and Birgit (our Technical Writer) interviewed their developer colleagues in the R&D team to “squeeze” information about their work life at ePages.
+Serena (our Technical Recruiter) and Birgit (our Technical Writer) interviewed their developer colleagues in the R&amp;D team to “squeeze” information about their work life at ePages.
 
 ## Here's Domingo's story:
 
@@ -94,7 +94,7 @@ The colleagues are amazing.
 And ePages does great company events.
 We had a great [YOU](https://developer.epages.com/blog/2015/09/21/annual-company-event-epagees-rock-the-you.html) and a very funny New Year's Kick-off.
 We do internal hackathons.
-And there was an [R&D day](https://developer.epages.com/blog/2015/09/15/rnd-day-2015.html), where all developers from all locations came together for knowledge exchange.
+And there was an [R&amp;D day](https://developer.epages.com/blog/2015/09/15/rnd-day-2015.html), where all developers from all locations came together for knowledge exchange.
 
 ### What qualities does an applicant need to fit into the team?
 
