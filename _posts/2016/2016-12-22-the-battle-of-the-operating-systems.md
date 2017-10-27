@@ -60,7 +60,7 @@ A quick look at the numbers will show us that ePages has a nicely mixed ecosyste
 
 If we take a look at the status of OS installations by departments, we can find out that Product Management, Sales, and Marketing are the ones where Windows is more extensively used.
 Graphic designers have a natural tendency to using Mac.
-And within R&D, there is the biggest mix of systems with Windows as the most commonly used.
+And within R&amp;D, there is the biggest mix of systems with Windows as the most commonly used.
 A closer look to Ocean Teams shows that in this case Linux has a bigger piece of the cake (35.9%) than in previous charts and on the other hand MacOS X has a little bit less weight between developers (26.6%).
 But Windows still is the most used platform (37.5%).
 

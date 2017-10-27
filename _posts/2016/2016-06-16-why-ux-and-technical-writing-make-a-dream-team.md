@@ -21,10 +21,10 @@ So, how do we tackle this at ePages?
 
 Our Usability Expert Anja is part of Product Management.
 Her position enables first-hand knowledge of business goals and user requirements, while allowing her to focus on delivering a product with an excellent UX.
-Additionally, she is closely connected with the development teams within R&D by participating in reviews and plannings.
+Additionally, she is closely connected with the development teams within R&amp;D by participating in reviews and plannings.
 She also attends meetings with the UI designers.
 
-I'm the Technical Writer and am part of R&D.
+I'm the Technical Writer and am part of R&amp;D.
 Thus, I'm automatically in close contact with the development teams.
 I join their reviews, and sometimes their plannings, and daily standups.
 In order to stay informed about the latest plans and changes, I have regular meetings with the Product Owners.

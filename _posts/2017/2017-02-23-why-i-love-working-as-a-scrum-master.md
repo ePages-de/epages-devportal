@@ -54,7 +54,7 @@ Also, I collaborate closely with the Product Owner and pass on their feedback to
 Together, we go through the backlog and make sure that the team understands what they understand the user stories in the product backlog.
 I am also the link between development and management.
 You see, I keep up the communication between all parties - CTO, Product Owners, and developers.
-Beyond that, I have other exciting tasks, such as organizing the yearly Hackathon and R&D day.
+Beyond that, I have other exciting tasks, such as organizing the yearly Hackathon and R&amp;D day.
 Or just in general, I organize team events, because sometimes it is simply nice to go out and have fun.
 
 ### Are there already any insights on this year's Hackathon you can reveal?
