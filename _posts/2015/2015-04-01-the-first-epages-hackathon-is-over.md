@@ -2,6 +2,7 @@
 layout: post
 title: "The first ePages hackathon is over"
 date: "2015-04-01 12:00:00"
+image: first-hackathon.jpg
 category: events
 authors: ["Anja", "Birgit"]
 ---
