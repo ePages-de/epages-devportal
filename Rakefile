@@ -54,7 +54,7 @@ task :test_posts do
       errors = []
 
       config = YAML.load(File.open('./_config.yml') { |f| f.read })
-      categories = config['categories'].keys
+      categories = config['category_list'].keys
 
       if ['.md'].include? File.extname(post)
         f_m = YAML.load(File.open(post) { |f| f.read }[/---(.*?)---/m, 1])

@@ -43,7 +43,7 @@ exclude:
 feed:
   path: /blog/feed.xml
 
-categories:
+category_list:
   api-experience: API Experience
   coding: Coding
   events: Events
