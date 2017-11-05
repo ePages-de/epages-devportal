@@ -1,88 +1,76 @@
-.blank
+.no-header
 
-  .main
+  main
+    margin-top: calc(#{$navbar-height} + 6rem)
 
-    .tiles
-      +grid-container
-      +grid-collapse
-      color: $white
-      padding: 4rem 0
+  .tiles
+    +grid-container
+    +grid-collapse
+    padding: 4rem 0
 
-      .tile
-        +grid-column(12)
-        background-color: rgba(239,238,229,.25)
+    .tile
+      +grid-column(12)
+
+      +grid-media($grid-medium)
+        +grid-column(6)
+
+      +grid-media($grid-huge)
+        +grid-column(5)
+
+      &__header
+        text-align: center
+        padding: 3rem 0
+        width: 100%
+        color: $white
+
+      &__body
+        padding: 3rem
+        width: 100%
+        box-sizing: border-box
+        display: flex
+        flex-direction: column
+        align-items: center
+
+      &__list
+        width: 100%
+        margin-bottom: 3rem
+
+      &__item
+        line-height: 2
+        list-style-type: disc
+        margin-left: 1em
+
+      .cta
+        color: $white
+        display: inline-block
+        text-align: center
+        padding: .8rem 3rem
+        text-transform: uppercase
+        letter-spacing: .1rem
 
         &:hover
-          background-color: rgba(239,238,229,.30)
           transition: $base-transition
 
-        +grid-media($grid-medium)
-          +grid-column(6)
 
-        +grid-media($grid-huge)
-          +grid-column(5)
+    .tile--now
+      margin-bottom: 4rem
 
-        &__header
-          text-align: center
-          padding: 3rem 0
-          width: 100%
+      +grid-media($grid-medium)
+        margin-bottom: 0
 
-        &__body
-          padding: 3rem
-          width: 100%
-          box-sizing: border-box
-          display: flex
-          flex-direction: column
-          align-items: center
+      +grid-media($grid-huge)
+        +grid-push(1)
 
-        &__list
-          width: 100%
-          margin-bottom: 3rem
+      &__header
+        background-color: $beyond-blue
 
-        &__item
-          line-height: 2
-          list-style-type: disc
-          margin-left: 1em
+      .cta--now
+        background-color: $beyond-blue
 
-        .cta
-          color: $white
-          display: inline-block
-          text-align: center
-          padding: .8rem 3rem
-          text-transform: uppercase
-          letter-spacing: .1rem
+    .tile--beyond
 
-          &:hover
-            transition: $base-transition
+      &__header
+        background-color: $beyond-green
 
-
-      .tile--now
-        margin-bottom: 4rem
-
-        +grid-media($grid-medium)
-          margin-bottom: 0
-
-        +grid-media($grid-huge)
-          +grid-push(1)
-
-        &__header
-          background-color: rgba(28,54,70,.50)
-          border-top: 10px solid rgba(28,54,70,.90)
-
-        .cta--now
-          background-color: rgba(28,54,70,.75)
-
-          &:hover
-            background-color: rgba(28,54,70,.95)
-
-      .tile--beyond
-
-        &__header
-          background-color: rgba(78,183,168,.50)
-          border-top: 10px solid rgba(78,183,168,.90)
-
-        .cta--beyond
-          background-color: rgba(78,183,168,.75)
-
-          &:hover
-            background-color: rgba(78,183,168,.95)
+      .cta--beyond
+        background-color: $beyond-green
