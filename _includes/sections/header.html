@@ -6,7 +6,7 @@
       {% if page.layout == 'post' %}
 
         <h2>{{ page.title }}</h2>
-        <p>{{ page.authors | join: ', ' }} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category | category_name }}</a></p>
+        <p><a href="/blog/search.html?query={{ page.authors | join: ' ' }}">{{ page.authors | join: ', ' }}</a> — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/category/{{ page.category }}">{{ page.category | category_name }}</a></p>
 
       {% elsif page.layout == 'devjobs' %}
 
