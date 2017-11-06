@@ -241,18 +241,18 @@ end
 task :test_html do
   require 'html-proofer'
 
-  ignore = [/.*\ProximaNova-Bold.html/,
-            /.*\ProximaNova-BoldIt.html/,
-            /.*\ProximaNova-Regular.html/,
-            /.*\ProximaNova-RegularIt.html/,
-            /.*\ProximaNovaAlt-Bold.html/,
-            /.*\ProximaNovaAlt-BoldIt.html/,
-            /.*\ProximaNovaAlt-Regular.html/,
-            /.*\ProximaNovaAlt-RegularIt.html/,
-            /.*\ProximaNovaScOsf-Bold.html/,
-            /.*\ProximaNovaScOsf-BoldIt.html/,
-            /.*\ProximaNovaScOsf-Regular.html/,
-            /.*\ProximaNovaScOsf-RegularIt.html/]
+  ignore = [/.*\/ProximaNova-Bold.html/,
+            /.*\/ProximaNova-BoldIt.html/,
+            /.*\/ProximaNova-Regular.html/,
+            /.*\/ProximaNova-RegularIt.html/,
+            /.*\/ProximaNovaAlt-Bold.html/,
+            /.*\/ProximaNovaAlt-BoldIt.html/,
+            /.*\/ProximaNovaAlt-Regular.html/,
+            /.*\/ProximaNovaAlt-RegularIt.html/,
+            /.*\/ProximaNovaScOsf-Bold.html/,
+            /.*\/ProximaNovaScOsf-BoldIt.html/,
+            /.*\/ProximaNovaScOsf-Regular.html/,
+            /.*\/ProximaNovaScOsf-RegularIt.html/]
 
   options = { disable_external: true,
               file_ignore: ignore,
@@ -262,4 +262,31 @@ task :test_html do
   sh 'bundle exec jekyll build'
 
   HTMLProofer.check_directory('./_site', options).run
+end
+
+task :write do
+  config_file = '_config.yml'
+  write_file  = '_config_write.yml'
+  date_from   = Date.new(2015)
+  date_to     = Date.today.prev_month.prev_month
+
+  if File.exist?(write_file)
+    File.delete(write_file)
+  end
+  File.new(write_file, 'w')
+
+  exclude = { 'exclude' => YAML.load_file('_config.yml')['exclude'],
+              'livereload' => true,
+              'sass' => { 'sass_dir' => '_sass',
+                          'style' => 'expanded' } }
+
+  exclude['exclude'].push '_pages/categories/'
+  exclude['exclude'].push '_pages/404.html'
+  exclude['exclude'].push '_pages/search.html'
+  exclude['exclude'].push '_pages/devjobs.html'
+  exclude['exclude'].push '_pages/about.md'
+  exclude['exclude'].push *(date_from.year..date_to.prev_year.year).map { |d| "_posts/#{d}" }.uniq
+  exclude['exclude'].push *(Date.new(date_to.year)..date_to).map { |d| "_posts/#{d.year}/#{d.year}-#{'%02d' % d.month}-*" }.uniq
+
+  File.open(write_file, 'w+') { |f| f.puts exclude.to_yaml }
 end
