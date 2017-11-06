@@ -14,12 +14,10 @@
             {% include components/pagination.html %}
           </div>
 
-          <div class="sidebar  card">
-            <ul>
-              {% for category in site.category_list %}
-                <li><a href="/blog/{{ category[0] }}/">{{ category[1] }}</a></li>
-              {% endfor %}
-            </ul>
+          <div class="card  sidebar">
+            {% for category in site.category_list %}
+              <a class="category  category--{{ category[0] }}"  href="/blog/{{ category[0] }}/">{{ category[1] }}</a>
+            {% endfor %}
           </div>
 
         </div>

@@ -1,6 +1,6 @@
 <a href="{{ include.url }}" class="card  card--post">
   <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/{% post_header include.header_image %}); background-position: center {{ include.header_position }}">
-    <span class="card--post__category">{{ include.category | category_name }}</span>
+    <span class="card--post__category  category--{{ include.category }}">{{ include.category | category_name }}</span>
   </div>
   <div class="card--post__body">
     <h3 class="card--post__title">{{ include.title }}</h3>
