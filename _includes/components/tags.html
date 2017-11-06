@@ -2,7 +2,7 @@
   <div class="tags">
     <hr>
     <div class="tags-wrapper">
-      {% for tag in page.tags %}
+      {% for tag in include.tags %}
         <div class="tags__tag">
           <a href="/blog/search.html?query={{ tag }}">{{ tag }}</a>
         </div>
