@@ -1,8 +1,10 @@
----
-jekyll:
-  image: jekyll/jekyll:pages
-  command: jekyll serve
-  ports:
-  - 4000:4000
-  volumes:
-  - ".:/srv/jekyll"
+version: '3'
+services:
+  jekyll:
+    build: .
+    command: ./build.sh
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - .:/src
