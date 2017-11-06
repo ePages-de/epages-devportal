@@ -1,19 +1,22 @@
-<div class="post-container">
-  {% for post in paginator.posts %}
-    {% include components/post-card.html
-               category=post.category
-               header_image=post.header_image
-               header_position=post.header_position
-               title=post.title
-               authors=post.authors
-               date=post.date
-               url=post.url %}
-  {% endfor %}
-</div>
+{% for post in paginator.posts %}
+  {% include components/post-card.html
+             category=post.category
+             header_image=post.header_image
+             header_position=post.header_position
+             title=post.title
+             authors=post.authors
+             date=post.date
+             url=post.url %}
+{% endfor %}
 
-{% if paginator.total_pages > 1 %}
+{% if paginator.page_trail %}
   <div class="pagination">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="card  pagination__item{% unless paginator.previous_page %}  pagination__item--disabled{% endunless %}">Newer</a>
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="card  pagination__item{% unless paginator.next_page %}  pagination__item--disabled{% endunless %}">Older</a>
+    <a href="{{ paginator.first_page_path }}"  class="card  pagination__item{% if paginator.page == paginator.first_page %}  pagination__item--disabled{% endif %}"  title="{{trail.title}}">First</a>
+    <a href="{{ paginator.previous_page_path }}"  class="card  pagination__item{% if paginator.page == paginator.first_page %}  pagination__item--disabled{% endif %}"  title="{{trail.title}}">Newer</a>
+    {% for trail in paginator.page_trail %}
+      <a href="{{ trail.path }}"  class="card  pagination__item{% if page.url == trail.path %}  pagination__item--selected{% endif %}"  title="{{trail.title}}">{{ trail.num }}</a>
+    {% endfor %}
+    <a href="{{ paginator.next_page_path }}"  class="card  pagination__item{% if paginator.page == paginator.last_page %}  pagination__item--disabled{% endif %}"  title="{{trail.title}}">Older</a>
+    <a href="{{ paginator.last_page_path }}"  class="card  pagination__item{% if paginator.page == paginator.last_page %}  pagination__item--disabled{% endif %}"  title="{{trail.title}}">Last</a>
   </div>
 {% endif %}

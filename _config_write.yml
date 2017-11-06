@@ -1,0 +1,19 @@
+---
+exclude:
+- Gemfile
+- Gemfile.lock
+- Jenkinsfile
+- docker-compose.yml
+- Rakefile
+- _posts/2015
+- _posts/2016
+- _posts/2017/2017-01-*
+- _posts/2017/2017-02-*
+- _posts/2017/2017-03-*
+- _posts/2017/2017-04-*
+- _posts/2017/2017-05-*
+- _posts/2017/2017-06-*
+- _posts/2017/2017-07-*
+- _posts/2017/2017-08-*
+- _posts/2017/2017-09-*
+livereload: true
