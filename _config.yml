@@ -39,6 +39,8 @@ exclude:
   - Jenkinsfile
   - docker-compose.yml
   - Rakefile
+  - build.sh
+  - Dockerfile
 
 feed:
   path: /blog/feed.xml
