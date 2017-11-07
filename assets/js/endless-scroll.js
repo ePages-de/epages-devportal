@@ -2,7 +2,7 @@ $(document).ready(function() {
   loadPosts();
 
   $(window).scroll(function() {
-    if ($(document).height() - $(window).height() == $(window).scrollTop()) {
+    if ($(document).height() - $(window).height() == $(window).scrollTop() && !(typeof $('#loading').attr('data-next') === 'undefined')) {
       loadPosts();
     }
   });
