@@ -16,7 +16,7 @@
               <h3 class="card--post__title">' + item.title + '</h3> \
               <div class="card--post__footer"> \
                 <p class="card--post__author">' + item.authors + '</p> \
-                <p class="card--post__date">' + item.date + '</p> \
+                <p class="card--post__date">' + new Date(item.date).format("mmm d, yyyy") + '</p> \
               </div> \
             </div> \
           </a>';
