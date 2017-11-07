@@ -8,18 +8,18 @@
       for (var i = 0; i < results.length; i++) {
         var item = store[results[i].ref];
         var appendString = appendString + '\
-          <div class="card  card--post"> \
-            <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/' + item.image + '); background-position: center {{ include.header_position }}"> \
-              <a href="/blog/category/' + item.category + '" class="card--post__category">' + item.category_name + '</a> \
+          <a href="' + item.url + '" class="card  card--post"> \
+            <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/' + item.header_image + '); background-position: center ' + item.header_position + '"> \
+              <span class="card--post__category  category--' + item.category + '  category--' + item.category + '--active">' + item.category_name + '</span> \
             </div> \
-            <a href="' + item.url + '" class="card--post__body"> \
+            <div class="card--post__body"> \
               <h3 class="card--post__title">' + item.title + '</h3> \
               <div class="card--post__footer"> \
                 <p class="card--post__author">' + item.authors + '</p> \
-                <p class="card--post__date">' + new Date(item.date).format("mmm d, yyyy") + '</p> \
+                <p class="card--post__date">' + item.date + '</p> \
               </div> \
-            </a> \
-          </div>';
+            </div> \
+          </a>';
       }
 
       searchResults.innerHTML = appendString;

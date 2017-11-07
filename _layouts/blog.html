@@ -7,24 +7,16 @@
     {% include sections/header.html %}
     <main>
       <div class="content-wrapper">
-
-        <div class="columns">
-
-          <div class="post-container">
-            {% include components/pagination.html %}
-          </div>
-
-          <div class="sidebar  card">
-            <ul>
-              {% for category in site.category_list %}
-                <li><a href="/blog/{{ category[0] }}/">{{ category[1] }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-
+        {% include components/categories.html %}
+        <div class="post-container" id="posts">
+          {{ content }}
+        </div>
+        <div id="loading" data-next="/api{{ page.permalink }}/page-1.json">
+          <img src="/assets/img/loading.svg" alt="Loading…" />
         </div>
       </div>
     </main>
     {% include sections/footer.html %}
+    <script src="/assets/js/endless-scroll.js"></script>
   </body>
 </html>

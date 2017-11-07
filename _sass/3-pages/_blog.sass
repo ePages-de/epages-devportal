@@ -1,29 +1,18 @@
-.columns
-  display: flex
-  align-items: flex-start
+.post-container
+  +grid-collapse
+  +grid-container
+  margin-top: 4rem
 
-  .sidebar
-    width: 30%
-    padding: 2rem
-    box-sizing: border-box
+  +grid-media($grid-medium)
+    margin-top: 6rem
+    display: flex
+    align-items: stretch
+    flex-direction: row
+    flex-wrap: wrap
 
-  .post-container
-    width: 70%
-    padding-right: 4rem
-    +grid-collapse
-    +grid-container
-    // margin-top: 4rem
+  .card--post
+    +grid-column(12)
+    margin-bottom: 4rem
 
     +grid-media($grid-medium)
-      // margin-top: 6rem
-      display: flex
-      align-items: stretch
-      flex-direction: row
-      flex-wrap: wrap
-
-    .card--post
-      +grid-column(12)
-      margin-bottom: 4rem
-
-      +grid-media($grid-medium)
-        +grid-column(6)
+      +grid-column(6)

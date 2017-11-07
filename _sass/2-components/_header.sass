@@ -45,11 +45,12 @@
 
       a
         color: $base-font-color-white
-        text-decoration: none
+        text-decoration: underline
 
         &:hover,
         &:focus
-          text-decoration: underline
+          color: darken($whitesmoke, 15%)
+          transition: $base-transition
 
 .devjobs
 
