@@ -2,7 +2,7 @@
 layout: post
 title: "On the way to a Ruby SDK"
 date: "2016-02-02 07:17:17"
-image: /blog-header/ruby.png
+header_image: ruby.png
 category: tech-stories
 authors: ["Domingo"]
 ---

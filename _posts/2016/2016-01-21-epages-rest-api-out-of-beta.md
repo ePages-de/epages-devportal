@@ -2,6 +2,7 @@
 layout: post
 title: "ePages REST API out of beta"
 date: "2016-01-21 09:34:28"
+header_image: api-out-of-beta.jpg
 category: api-experience
 authors: ["Birgit"]
 ---
