@@ -2,6 +2,8 @@
 layout: post
 title: "One month as an ePagee"
 date: "2015-08-11 08:00:00"
+header_image: one-month-epagee.jpg
+header_position: top
 category: on-the-job
 authors: ["Mathias", "Mats"]
 ---
@@ -10,7 +12,7 @@ Starting a new job is always an adventure. You made a careful decision for a new
 
 So it was really a little relief to receive a very warm welcome on our first day. Dirk (VP Operations) and Harm (CTO) said hello from the management side and introduced ePages. Leana from HR made sure that all the organisational stuff was taken care of and Keun-Man - our system administrator - provided us with the hardware. So we were basically ready to start.
 
-Every new ePagee is assigned to a buddy - usually an experienced employee who should give the new guy a helping hand during the first weeks. Our buddies introduced us to everybody. It turned out that ePages is a very diverse company. The team is very international and has a good mix of age groups. You find people from Spain, Italy, Belarus, Brasil, people that are on their first job and also more experienced ones - and even parents ;-).
+Every new ePagee is assigned to a buddy - usually an experienced employee who should give the new guy a helping hand during the first weeks. Our buddies introduced us to everybody. It turned out that ePages is a very diverse company. The team is very international and has a good mix of age groups. You find people from Spain, Italy, Belarus, Brasil, people that are on their first job and also more experienced ones - and even parents 😀.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-one-month-as-an-epagee-scrum.jpg" width="30" align="left" %}
 

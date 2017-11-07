@@ -2,6 +2,7 @@
 layout: post
 title: "Local meetup for i-doit users at ePages"
 date: "2017-03-07 07:00:00"
+header_image: it-docs.jpg
 category: events
 authors: ["Karsten P."]
 ---
