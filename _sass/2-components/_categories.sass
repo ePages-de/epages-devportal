@@ -1,87 +1,113 @@
+.categories
+  width: 75%
+  margin: 0 auto -1rem
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-wrap: wrap
+
 .category
-  line-height: 1
   color: $white
   line-height: 1
   font-weight: bold
-  padding: .5rem 1rem
+  padding: .5em 1em
   font-size: 1.6rem
   letter-spacing: .05em
-  // box-shadow: $hover-box-shadow
   border-radius: $base-border-radius
   transition: $base-transition
-  margin: 0 .3em .6em
+  margin: 0 .5rem 1rem
+  border: 1px solid #4eb7a8
+  color: #4eb7a8
 
   &:hover
     color: $white
 
-  &--api-experience
-    background-color: $cat-api-experience
+  &--all-categories
 
-    &:hover
-      background-color: $cat-api-experience-hov
+    &:hover, &--active
+      background-color: $cat-all-categories
+      border: 1px solid $cat-all-categories
+      color: white
+
+    &::before
+      border-color: transparent $cat-api-experience-hov transparent transparent
+
+  &--api-experience
+
+    &:hover, &--active
+      background-color: $cat-api-experience
+      border: 1px solid $cat-api-experience
+      color: white
 
     &::before
       border-color: transparent $cat-api-experience-hov transparent transparent
 
   &--coding
-    background-color: $cat-coding
 
-    &:hover
-      background-color: $cat-coding-hov
+    &:hover, &--active
+      background-color: $cat-coding
+      border: 1px solid $cat-coding
+      color: white
 
     &::before
       border-color: transparent $cat-coding-hov transparent transparent
 
   &--events
-    background-color: $cat-events
 
-    &:hover
-      background-color: $cat-events-hov
+    &:hover, &--active
+      background-color: $cat-events
+      border: 1px solid $cat-events
+      color: white
 
     &::before
       border-color: transparent $cat-events-hov transparent transparent
 
   &--language-and-localization
-    background-color: $cat-language-and-localization
 
-    &:hover
-      background-color: $cat-language-and-localization-hov
+    &:hover, &--active
+      background-color: $cat-language-and-localization
+      border: 1px solid $cat-language-and-localization
+      color: white
 
     &::before
       border-color: transparent $cat-language-and-localization-hov transparent transparent
 
   &--methods-and-tools
-    background-color: $cat-methods-and-tools
 
-    &:hover
-      background-color: $cat-methods-and-tools-hov
+    &:hover, &--active
+      background-color: $cat-methods-and-tools
+      border: 1px solid $cat-methods-and-tools
+      color: white
 
     &::before
       border-color: transparent $cat-methods-and-tools-hov transparent transparent
 
   &--on-the-job
-    background-color: $cat-on-the-job
 
-    &:hover
-      background-color: $cat-on-the-job-hov
+    &:hover, &--active
+      background-color: $cat-on-the-job
+      border: 1px solid $cat-on-the-job
+      color: white
 
     &::before
       border-color: transparent $cat-on-the-job-hov transparent transparent
 
   &--tech-stories
-    background-color: $cat-tech-stories
 
-    &:hover
-      background-color: $cat-tech-stories-hov
+    &:hover, &--active
+      background-color: $cat-tech-stories
+      border: 1px solid $cat-tech-stories
+      color: white
 
     &::before
       border-color: transparent $cat-tech-stories-hov transparent transparent
 
   &--techcomm-and-socialmedia
-    background-color: $cat-techcomm-and-socialmedia
 
-    &:hover
-      background-color: $cat-techcomm-and-socialmedia-hov
+    &:hover, &--active
+      background-color: $cat-techcomm-and-socialmedia
+      border: 1px solid $cat-techcomm-and-socialmedia
+      color: white
 
     &::before
       border-color: transparent $cat-techcomm-and-socialmedia-hov transparent transparent
