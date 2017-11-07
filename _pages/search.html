@@ -17,8 +17,9 @@ title: Search
         "authors": "{{ post.authors | join: ', ' | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}",
-        "image": "{{ post.header_image }}",
-        "date": "{{ post.date }}",
+        "header_image": "{{ post.header_image | xml_escape }}",
+        "header_position": "{{ post.header_position | xml_escape }}",
+        "date": "{{ post.date| xml_escape }}",
         "category_name": "{{ post.category | category_name | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
