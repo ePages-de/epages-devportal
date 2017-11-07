@@ -43,6 +43,15 @@
     p
       color: $base-font-color-white
 
+      a
+        color: $base-font-color-white
+        text-decoration: underline
+
+        &:hover,
+        &:focus
+          color: darken($whitesmoke, 15%)
+          transition: $base-transition
+
 .devjobs
 
   .header
