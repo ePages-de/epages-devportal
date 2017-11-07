@@ -18,7 +18,7 @@ $(document).ready(function() {
           html += '\
             <a href="' + post.url + '" class="card  card--post"> \
               <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/' + post.header_image + '); background-position: center ' + post.header_position + '"> \
-                <span href="/blog/category/' + post.category + '" class="card--post__category  category--' + post.category + '">' + post.category_name + '</span> \
+                <span class="card--post__category  category--' + post.category + '">' + post.category_name + '</span> \
               </div> \
               <div class="card--post__body"> \
                 <h3 class="card--post__title">' + post.title + '</h3> \
