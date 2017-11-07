@@ -2,7 +2,7 @@
 layout: post
 title: "Working as a Ruby Developer at ePages"
 date: "2016-02-04 11:16:17"
-image: /blog-header/ruby-dev.jpg
+header_image: ruby-dev.jpg
 category: on-the-job
 authors: ["Birgit, Serena", "Domingo"]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Scrum Basics: Principles and Values"
 date: "2016-02-25 07:23:00"
+header_image: agile.jpg
 category: methods-and-tools
 authors: ["Anja B."]
 ---
