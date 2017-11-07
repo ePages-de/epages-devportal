@@ -2,6 +2,7 @@
 layout: post
 title: "How to set up a CoreOS Cluster on Windows and CentOS"
 date: "2016-01-19 07:17:17"
+header_image: smconf.jpg
 category: tech-stories
 authors: ["Andreas G."]
 ---

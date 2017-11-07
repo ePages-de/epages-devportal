@@ -2,7 +2,7 @@
 layout: post
 title: "ePages turns agile"
 date: "2015-09-24 10:10:00"
-header_image: epages-turns-agile.jpg
+header_image: agile.jpg
 category: methods-and-tools
 authors: ["Anja B."]
 ---
