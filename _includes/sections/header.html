@@ -3,20 +3,18 @@
   <header class="header" style="background-image: url(/assets/img/pages/blog/headers/{% post_header page.header_image %}); background-position: center {{ page.header_position }}">
     <div class="header-wrapper">
 
+      {% if page.upper_title %}
+        <p>{{ page.upper_title }}</p>
+      {% endif %}
+
+      <h1>{% if page.main_title %}{{ page.main_title }}{% else %}{{ page.title }}{% endif %}</h1>
+
+      {% if page.sub_title %}
+        <p>{{ page.sub_title }}</p>
+      {% endif %}
+
       {% if page.layout == 'post' %}
-
-        <h2>{{ page.title }}</h2>
         <p><a href="/blog/search.html?query={{ page.authors | join: ' ' }}">{{ page.authors | join: ', ' }}</a> — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a></p>
-
-      {% elsif page.layout == 'devjobs' %}
-
-        <h1>{{ page.h1 }}</h1>
-        <p>{{ page.h2 }}</p>
-
-      {% else %}
-
-        <h1>{{ page.title }}</h1>
-
       {% endif %}
 
     </div>
