@@ -1,10 +1,13 @@
 .categories
-  width: 75%
+  width: 100%
   margin: 0 auto -1rem
   display: flex
   flex-direction: row
   justify-content: center
   flex-wrap: wrap
+
+  +grid-media($grid-small)
+    width: 75%
 
 .category
   color: $white
@@ -21,6 +24,7 @@
 
   &:hover
     color: $white
+    transition: $base-transition
 
   &--all-categories
 

@@ -237,11 +237,14 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       transition: $base-transition
 
     &__header
+      height: 200px
       position: relative
-      height: 250px
       background-size: cover
       border-top-left-radius: $card-border-radius
       border-top-right-radius: $card-border-radius
+
+      +grid-media($grid-large)
+        height: 250px
 
     &__category
       position: absolute
