@@ -6,7 +6,7 @@
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {
-        var item = store[results[i].ref];
+        var post = store[results[i].ref];
         var appendString = appendString + '\
           <div class="card  card--post"> \
             <a class="card--post__post-link" href="' + post.url + '"> \

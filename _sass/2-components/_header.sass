@@ -16,17 +16,28 @@
     display: flex
     align-items: center
     justify-content: center
+    flex-direction: column
 
   h1, h2, p
     color: $base-font-color-white
     text-shadow: $base-text-shadow
     text-align: center
 
+    a
+      color: $base-font-color-white
+      text-decoration: underline
+
+      &:hover,
+      &:focus
+        color: darken($whitesmoke, 15%)
+        transition: $base-transition
+
+  p:first-child
+    font-size: 2.2rem
+
   h1
     font-size: 6.4rem
-
-  h2
-    font-size: 5.2rem
+    margin: 2rem 0
 
 .page
   .header
@@ -34,23 +45,9 @@
       opacity: .8
 
 .post
-  .header-wrapper
-    flex-direction: column
 
-    h2
-      margin-bottom: 2rem
-
-    p
-      color: $base-font-color-white
-
-      a
-        color: $base-font-color-white
-        text-decoration: underline
-
-        &:hover,
-        &:focus
-          color: darken($whitesmoke, 15%)
-          transition: $base-transition
+    h1
+      font-size: 5.2rem
 
 .devjobs
 

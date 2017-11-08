@@ -1,76 +1,90 @@
-.no-header
+.section
 
-  main
-    margin-top: calc(#{$navbar-height} + 6rem)
+  &__text
+    text-align: center
+    font-size: 2rem
 
   .tiles
     +grid-container
-    +grid-collapse
-    padding: 4rem 0
+    +grid-collapse($tile-grid)
+    margin-top: 6rem
+    padding: 0 6rem
+    box-sizing: border-box
+    display: flex
 
-    .tile
-      +grid-column(12)
+  .tile
+    +grid-column(6, $tile-grid)
+    position: relative
+    padding-bottom: 7rem
 
-      +grid-media($grid-medium)
-        +grid-column(6)
+    &__header
+      width: 100%
+      text-align: center
+      padding: 3rem 0
+      color: $white
+      border-top-left-radius: 4px
+      border-top-right-radius: 4px
 
-      +grid-media($grid-huge)
-        +grid-column(5)
+      &--now
+        background-color: lighten($beyond-blue, 5%)
 
-      &__header
-        text-align: center
-        padding: 3rem 0
-        width: 100%
-        color: $white
+      &--beyond
+        background-color: $beyond-green
 
-      &__body
-        padding: 3rem
-        width: 100%
-        box-sizing: border-box
-        display: flex
-        flex-direction: column
-        align-items: center
+    &__body
+      padding: 3rem
 
-      &__list
-        width: 100%
-        margin-bottom: 3rem
+    &__list
+      list-style: initial
+      margin: .2em 0 .2em 3rem
 
-      &__item
-        line-height: 2
-        list-style-type: disc
-        margin-left: 1em
+    &__cta
+      color: $white
+      display: block
+      text-align: center
+      padding: .8rem 3rem
+      text-transform: uppercase
+      letter-spacing: .1rem
+      width: fit-content
+      position: absolute
+      bottom: 3rem
+      left: 50%
+      transform: translateX(-50%)
 
-      .cta
-        color: $white
-        display: inline-block
-        text-align: center
-        padding: .8rem 3rem
-        text-transform: uppercase
-        letter-spacing: .1rem
+      &--now
+        background-color: lighten($beyond-blue, 5%)
 
         &:hover
+          background-color: $beyond-blue
           transition: $base-transition
 
-
-    .tile--now
-      margin-bottom: 4rem
-
-      +grid-media($grid-medium)
-        margin-bottom: 0
-
-      +grid-media($grid-huge)
-        +grid-push(1)
-
-      &__header
-        background-color: $beyond-blue
-
-      .cta--now
-        background-color: $beyond-blue
-
-    .tile--beyond
-
-      &__header
+      &--beyond
         background-color: $beyond-green
 
-      .cta--beyond
-        background-color: $beyond-green
+        &:hover
+          background-color: darken($beyond-green, 10%)
+          transition: $base-transition
+
+    &__flag
+      background-color: #c7c7c7
+      color: #4c4c4c
+      font-size: 1.4rem
+      letter-spacing: .05em
+      box-shadow: $hover-box-shadow
+      padding: .4em .8em
+      position: absolute
+      top: 80px
+      right: -1rem
+      border-top-left-radius: 4px
+      border-bottom-left-radius: 4px
+
+      &::before
+        content: ''
+        position: absolute
+        right: 0
+        bottom: -1rem
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 1rem 1rem 0 0
+        border-color: darken(#c7c7c7, 10%) transparent transparent transparent

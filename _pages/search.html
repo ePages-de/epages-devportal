@@ -5,7 +5,9 @@ header_image: blog.jpg
 title: Search
 ---
 
-<div class="post-container" id="search-results"></div>
+<div class="post-container" id="search-results">
+  {% include components/load-spinner.html %}
+</div>
 
 <script>
   window.store = {
