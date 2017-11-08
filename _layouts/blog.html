@@ -11,9 +11,8 @@
         <div class="post-container" id="posts">
           {{ content }}
         </div>
-        <div class="load-spinner" id="loading" data-next="/api{{ page.permalink }}/page-1.json">
-          <img src="/assets/img/loading.svg" alt="Loading…" />
-        </div>
+        {% include components/load-spinner.html
+                   permalink=page.permalink %}
       </div>
     </main>
     {% include sections/footer.html %}
