@@ -228,6 +228,10 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
     box-sizing: border-box
     position: relative
 
+    &__post-link
+      width: 100%
+      height: 100%
+
     &:hover
       box-shadow: $hover-box-shadow
       transition: $base-transition
@@ -256,12 +260,73 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       &::before
         content: ''
         position: absolute
-        left: -1px
-        bottom: calc(-1rem - 1px)
+        left: 0
+        bottom: -1rem
         width: 0
         height: 0
         border-style: solid
         border-width: 0 1rem 1rem 0
+
+      &:hover
+        transition: $base-transition
+        color: $white
+
+      &--api-experience
+        background-color: $cat-api-experience
+        &:hover
+          background-color: $cat-api-experience-hov
+        &::before
+          border-color: transparent $cat-api-experience-hov transparent transparent
+
+      &--coding
+        background-color: $cat-coding
+        &:hover
+          background-color: $cat-coding-hov
+        &::before
+          border-color: transparent $cat-coding-hov transparent transparent
+
+      &--events
+        background-color: $cat-events
+        &:hover
+          background-color: $cat-events-hov
+        &::before
+          border-color: transparent $cat-events-hov transparent transparent
+
+      &--language-and-localization
+        background-color: $cat-language-and-localization
+        &:hover
+          background-color: $cat-language-and-localization-hov
+        &::before
+          border-color: transparent $cat-language-and-localization-hov transparent transparent
+
+      &--methods-and-tools
+        background-color: $cat-methods-and-tools
+        &:hover
+          background-color: $cat-methods-and-tools-hov
+        &::before
+          border-color: transparent $cat-methods-and-tools-hov transparent transparent
+
+      &--on-the-job
+        background-color: $cat-on-the-job
+        &:hover
+          background-color: $cat-on-the-job-hov
+        &::before
+          border-color: transparent $cat-on-the-job-hov transparent transparent
+
+      &--tech-stories
+        background-color: $cat-tech-stories
+        &:hover
+          background-color: $cat-tech-stories-hov
+        &::before
+          border-color: transparent $cat-tech-stories-hov transparent transparent
+
+      &--techcomm-and-socialmedia
+        background-color: $cat-techcomm-and-socialmedia
+        &:hover
+          background-color: $cat-techcomm-and-socialmedia-hov
+        &::before
+          border-color: transparent $cat-techcomm-and-socialmedia-hov transparent transparent
+
 
     &__body
       padding: 2rem
