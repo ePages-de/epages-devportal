@@ -1,0 +1,30 @@
+<div class="card  modal">
+  <h3 class="modal__title">Join the ePages Developer Program</h3>
+
+  <p class="modal__text">Just enter your details below to sign up for the ePages Developer Program and you will receive a free ePages Now test shop.</p>
+
+  <form class="form" method="post" action="https://devshop.epages.com/epages/Site.sf/en_GB/?ObjectPath=/Providers/epagesdev&amp;ViewAction=ViewProviderRegistrationForm" target="epages-demo-shop-frame-now">
+
+    <div class="form__row  form--cols-2">
+      <input class="form__input" type="text" name="LastName" placeholder="Full name *" required />
+      <input class="form__input" type="email" name="EMail" placeholder="Email address *" required />
+    </div>
+
+    <div class="form__row">
+      <input type="checkbox" name="tc" required /> I have read and agree to the <a href="/terms-and-conditions/" target="_blank">terms and conditions</a>.
+    </div>
+
+    <input type="hidden" name="ChangeAction" value="RegisterProviderTestShop" />
+    <input type="hidden" name="FirstName" value="" />
+    <input type="hidden" name="CountryID" value="826" />
+    <input type="hidden" name="LocaleID" value="en_GB" />
+    <input type="hidden" name="RegFormLocale" value="en_GB" />
+    <input type="hidden" name="Phone" value="000000" />
+    <input type="hidden" name="ShopTypeAlias" value="PartnerTestShopNow" />
+    <input type="hidden" name="language" value="en" />
+
+    <div class="form__cta-container">
+      <button class="form__cta  form__cta--green" type="submit">Get free test shop</button>
+    </div>
+  </form>
+</div>
