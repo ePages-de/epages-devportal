@@ -14,7 +14,7 @@
       {% endif %}
 
       {% if page.layout == 'post' %}
-        <p><a href="/blog/search.html?query={{ page.authors | join: ' ' }}">{{ page.authors | join: ', ' }}</a> — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a></p>
+        <p><a href="/blog/search/?query={{ page.authors | join: ' ' }}">{{ page.authors | join: ', ' }}</a> — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a></p>
       {% endif %}
 
     </div>
