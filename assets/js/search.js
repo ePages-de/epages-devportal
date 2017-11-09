@@ -6,19 +6,20 @@
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {
-        var item = store[results[i].ref];
+        var post = store[results[i].ref];
         var appendString = appendString + '\
           <div class="card  card--post"> \
-            <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/' + item.image + '); background-position: center {{ include.header_position }}"> \
-              <a href="/blog/category/' + item.category + '" class="card--post__category">' + item.category_name + '</a> \
-            </div> \
-            <a href="' + item.url + '" class="card--post__body"> \
-              <h3 class="card--post__title">' + item.title + '</h3> \
-              <div class="card--post__footer"> \
-                <p class="card--post__author">' + item.authors + '</p> \
-                <p class="card--post__date">' + new Date(item.date).format("mmm d, yyyy") + '</p> \
+            <a class="card--post__post-link" href="' + post.url + '"> \
+              <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/' + post.header_image + '); background-position: center ' + post.header_position + '"></div> \
+              <div class="card--post__body"> \
+                <h3 class="card--post__title">' + post.title + '</h3> \
+                <div class="card--post__footer"> \
+                  <p class="card--post__author">' + post.authors + '</p> \
+                  <p class="card--post__date">' + new Date(post.date).format("mmm d, yyyy") + '</p> \
+                </div> \
               </div> \
             </a> \
+            <a href="/blog/' + post.category + '" class="card--post__category  card--post__category--' + post.category + '">' + post.category_name + '</a> \
           </div>';
       }
 

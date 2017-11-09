@@ -39,11 +39,13 @@ exclude:
   - Jenkinsfile
   - docker-compose.yml
   - Rakefile
+  - build.sh
+  - Dockerfile
 
 feed:
   path: /blog/feed.xml
 
-categories:
+category_list:
   api-experience: API Experience
   coding: Coding
   events: Events
@@ -60,3 +62,6 @@ pagination:
   permalink: '/page-:num'
   title: ':title'
   sort_reverse: true
+  trail:
+    before: 2
+    after: 2

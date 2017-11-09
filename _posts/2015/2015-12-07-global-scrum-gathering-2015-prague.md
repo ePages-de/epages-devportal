@@ -2,11 +2,12 @@
 layout: post
 title: "Global Scrum Gathering 2015 Prague"
 date: "2015-12-07 07:23:00"
+header_image: scrum-prague-2015.jpg
 category: events
 authors: ["Anja B."]
 ---
 
-This November I visted the Global Scrum Gathering in Prague.
+This November I visited the Global Scrum Gathering in Prague.
 It's been three days filled with interesting workshops, presentations and getting to know people.
 
 ## Keynote: Niels Pflaeging - Organize for Complexity

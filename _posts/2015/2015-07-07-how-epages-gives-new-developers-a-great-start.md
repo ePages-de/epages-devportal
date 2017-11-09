@@ -2,6 +2,7 @@
 layout: post
 title: "How ePages gives new developers a great start"
 date: "2015-07-07 07:32:32"
+header_image: great-start.jpg
 category: on-the-job
 authors: ["Birgit"]
 ---

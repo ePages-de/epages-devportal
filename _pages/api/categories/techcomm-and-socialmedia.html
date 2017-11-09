@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /api/blog/techcomm-and-socialmedia
+pagination:
+  permalink: 'page-:num'
+  enabled: true
+  extension: json
+  indexpage: 'page-1'
+  category: techcomm-and-socialmedia
+---
+
+{
+  "posts": [{% for post in paginator.posts %}
+    {% if forloop.first != true %},{% endif %}
+    {
+      "title": "{{ post.title | xml_escape }}",
+      "category": "{{ post.category | xml_escape }}",
+      "authors": "{{ post.authors | join: ', ' | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "header_image": "{{ post.header_image | xml_escape }}",
+      "header_position": "{{ post.header_position | xml_escape }}",
+      "date": "{{ post.date | xml_escape }}",
+      "category_name": "{{ post.category | category_name | xml_escape }}"
+    }{% endfor %}
+  ],
+  "next_page": {% if paginator.next_page %}"{{ paginator.next_page_path | xml_escape }}"{% else %}null{% endif %}
+}

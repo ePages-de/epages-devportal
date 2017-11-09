@@ -23,7 +23,7 @@ Keywords such as **funnel**, **uplift**, **KPIs**, **case**, **monitoring**, or 
 Dear developers, don't be angry with me that I'm talking about this on a dev blog.
 But it's for your wellbeing 😀.
 
-The last two days I've spent at the [Social Media Conference](http://www.socialmediaconference.de/) in Hamburg.
+The last two days I've spent at the [Social Media Conference](http://www.socialmediaconference.de/){:target="_blank"} in Hamburg.
 As a Technical Communicator in our development department, I'm also responsible for the department's Social Media presence.
 I'm far from an expert in Social Media or Content Marketing, so this conference was a great occasion to learn completely new stuff, to gain deeper insights, and to find out what I currently might do wrong.
 

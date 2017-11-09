@@ -7,9 +7,16 @@
     {% include sections/header.html %}
     <main>
       <div class="content-wrapper">
-        {% include components/pagination.html %}
+        {% include components/categories.html %}
+        <div class="post-container" id="posts">
+          {{ content }}
+        </div>
+        {% include components/load-spinner.html
+                   permalink=page.permalink %}
       </div>
     </main>
     {% include sections/footer.html %}
+    <script src="/assets/js/endless-scroll.js"></script>
+    <script src="/assets/js/date-format.js"></script>
   </body>
 </html>

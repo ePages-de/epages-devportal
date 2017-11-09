@@ -2,6 +2,7 @@
 layout: post
 title: "#refugeehackathon"
 date: "2015-10-27 12:00:00"
+header_image: code.jpg
 category: events
 authors: ["Jan"]
 ---
