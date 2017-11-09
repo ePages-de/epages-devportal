@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About us
-header_image: blog.jpg
+header_image: about.jpg
 ---
 
 # Who we are
