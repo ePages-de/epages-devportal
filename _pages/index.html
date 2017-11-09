@@ -9,7 +9,7 @@ background_image: index.jpg
 
 <section class="section">
 
-  <p class="section__text">Share your love for app development with us and empower our merchants with amazing integrations.</p>
+  <p class="section__text  section__text--margin-bottom">Share your love for app development with us and empower our merchants with amazing integrations.</p>
   <p class="section__text">Explore the ePages REST APIs tailored for our cloud-based eCommerce platform:</p>
 
   <div class="tiles">
@@ -25,11 +25,11 @@ background_image: index.jpg
           <li>Seamless App Store integration</li>
           <li>Unlimited use cases</li>
           <li>Comprehensive global customer base</li>
-          <li><a href="#">Sign up</a> for an account</li>
         </ul>
 
+        <p><a href="#" class="popup">Sign up</a> for an account</p>
 
-        <a href="https://developer.epages.com/apps" class="tile__cta  tile__cta--now">Read docs</a>
+        <a href="https://developer.epages.com/apps/" class="form__cta  form__cta--blue  tile__cta">Read Docs</a>
       </div>
     </div>
 
@@ -43,14 +43,14 @@ background_image: index.jpg
         <ul class="tile__list">
           <li>API-first approach</li>
           <li>Microservices architecture</li>
-          <li>Open-Source powered</li>
+          <li>Open-Source-powered</li>
           <li>Complex-free &amp; flexible</li>
-          <li>Limited functionality</li>
-          <li><a href="https://signup.beyondshop.cloud/">Sign up</a> for an account</li>
+          <li>Growing functionality</li>
         </ul>
 
+        <p><a href="https://signup.beyondshop.cloud/">Sign up</a> for an account</p>
 
-        <a href="http://docs.beyondshop.cloud/" class="tile__cta  tile__cta--beyond">Read docs</a>
+        <a href="http://docs.beyondshop.cloud/" class="form__cta  form__cta--green  tile__cta">Read Docs</a>
       </div>
 
       <div class="tile__flag">The ePages Lab</div>
@@ -58,3 +58,60 @@ background_image: index.jpg
   </div>
 
 </section>
+
+<link rel="stylesheet" href="/assets/css/magnific-popup.css">
+<script src="/assets/js/jquery.magnific-popup.min.js"></script>
+
+<iframe id="frame--epages-now" style="display: none;" name="frame--epages-now" frameborder="0" allowtransparency="true" width="900px" height="720px"></iframe>
+
+<script>
+
+  {% capture aaa %}{% include components/signup-form.html %}{% endcapture%}
+
+  $(document).ready(function() {
+    // Show the popup when you click on the popup button
+    $("a.popup").click(function(e){
+      e.preventDefault();
+
+      $.magnificPopup.open({
+        items: {
+          src: "{{ aaa | strip_newlines | replace: '"', "'" }}",
+          type: 'inline'
+        },
+        callbacks: {
+          close: function() {
+            cleanForms();
+            $('.modal #response-text').hide();
+            $('.modal #main-text').show();
+          }
+        }
+      });
+    });
+
+    $(document).on('submit', '#demoshopform-now', function() {
+      $('.modal .load-spinner').show();
+      $('.modal #main-text').hide();
+    });
+
+    $('#frame--epages-now').on('load', function() {
+      $('.modal .load-spinner').hide();
+      $('.modal #response-text').show();
+    });
+
+    function cleanForms() {
+      $('.form__input').val("");
+      $('.form__input').val("");
+      $('input[type="checkbox"]').attr('checked', false);
+      // Remove yellow color from autocompleted input fields
+      if (navigator.userAgent.toLowerCase().indexOf('chrome') >= 0) {
+        $('input:-webkit-autofill').each(function(){
+          var text = $(this).val();
+          var name = $(this).attr('name');
+          $(this).after(this.outerHTML).remove();
+          $('input[name=" + name + "]').val(text);
+        });
+      }
+    }
+  });
+
+</script>
