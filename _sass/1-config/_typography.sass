@@ -1,7 +1,7 @@
 html
   font-size: 62.5%
 
-body
+body, #{$all-text-inputs}, #{$all-buttons}
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   font-family: $base-font-family
@@ -41,6 +41,7 @@ a
   display: inline-block
   text-decoration: none
   color: $link-font-color
+  outline: none
 
   &:hover
     color: darken($link-font-color, 10%)

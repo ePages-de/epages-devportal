@@ -1,0 +1,18 @@
+.modal
+  padding: $card-margin-mobile
+  width: 900px
+  max-width: 90%
+  margin: 0 auto
+  box-sizing: border-box
+  left: -5px
+  position: relative
+
+  +grid-media($grid-small)
+    padding: $card-margin-desktop
+
+  &__title, &__text
+    text-align: center
+    margin-bottom: 2rem
+
+  .load-spinner
+    display: none

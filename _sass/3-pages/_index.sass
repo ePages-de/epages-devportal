@@ -4,18 +4,35 @@
     text-align: center
     font-size: 2rem
 
+    &--margin-bottom
+      margin-bottom: 1em
+
   .tiles
     +grid-container
     +grid-collapse($tile-grid)
-    margin-top: 6rem
-    padding: 0 6rem
+    margin-top: $card-margin-mobile
     box-sizing: border-box
-    display: flex
+
+    +grid-media($grid-small)
+      margin-top: $card-margin-desktop
+      display: flex
+
+    +grid-media($grid-large)
+      padding: 0 6rem
 
   .tile
-    +grid-column(6, $tile-grid)
+    +grid-column(12, $tile-grid)
     position: relative
     padding-bottom: 7rem
+
+    &:last-child
+      margin-top: $card-margin-mobile
+
+      +grid-media($grid-small)
+        margin-top: 0
+
+    +grid-media($grid-small)
+      +grid-column(6, $tile-grid)
 
     &__header
       width: 100%
@@ -36,34 +53,14 @@
 
     &__list
       list-style: initial
-      margin: .2em 0 .2em 3rem
+      margin: .2em 0 .8em 3rem
 
     &__cta
-      color: $white
-      display: block
-      text-align: center
-      padding: .8rem 3rem
-      text-transform: uppercase
       letter-spacing: .1rem
-      width: fit-content
       position: absolute
       bottom: 3rem
       left: 50%
       transform: translateX(-50%)
-
-      &--now
-        background-color: lighten($beyond-blue, 5%)
-
-        &:hover
-          background-color: $beyond-blue
-          transition: $base-transition
-
-      &--beyond
-        background-color: $beyond-green
-
-        &:hover
-          background-color: darken($beyond-green, 10%)
-          transition: $base-transition
 
     &__flag
       background-color: #c7c7c7
