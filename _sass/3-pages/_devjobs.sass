@@ -203,8 +203,6 @@
         flex-direction: row
         justify-content: center
 
-      +grid-media($grid-large)
-
     &__option
       padding: 2rem
       display: flex
@@ -221,3 +219,68 @@
 
   .meet
     text-align: center
+
+    .card--float
+      width: 100%
+
+    +grid-media($grid-medium)
+
+      .card--devjobs__container
+        position: relative
+
+      .card--devjobs__container::before
+        content: ''
+        position: absolute
+        display: block
+        width: 1px
+        background: $white
+        height: 100%
+        margin: auto
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+
+      .card--devjobs
+        flex-basis: calc(50% - 4rem)
+
+      .card--float
+        width: 50%
+        position: relative
+        box-sizing: border-box
+        padding: 4rem
+
+      .card--float:nth-child(even)
+        float: right
+        margin-top: 80px
+
+        .card--devjobs
+          text-align: left
+
+        &::after
+          content: ''
+          position: absolute
+          display: block
+          width: 4rem
+          background: $white
+          height: 1px
+          margin: auto
+          top: 7.2rem
+          left: 0
+
+      .card--float:nth-child(odd)
+        float: left
+
+        .card--devjobs
+          text-align: right
+
+        &::after
+          content: ''
+          position: absolute
+          display: block
+          width: 4rem
+          background: $white
+          height: 1px
+          margin: auto
+          top: 7.2rem
+          right: 0
