@@ -41,6 +41,7 @@ exclude:
   - Rakefile
   - build.sh
   - Dockerfile
+  - _pages/url-map
 
 feed:
   path: /blog/feed.xml
