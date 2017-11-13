@@ -34,10 +34,14 @@
 
   p:first-child
     font-size: 2.2rem
+    margin-bottom: 2rem
 
   h1
-    font-size: 6.4rem
+    font-size: 4rem
     margin: 0 0 2rem
+
+    +grid-media($grid-medium)
+      font-size: 6.4rem
 
 .page
   .header
@@ -70,4 +74,7 @@
           bottom: 3px
 
       p
-        font-size: 3rem
+        font-size: 2.4rem
+
+        +grid-media($grid-medium)
+          font-size: 3rem
