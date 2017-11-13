@@ -53,8 +53,8 @@ namespace :jekyll do
     on roles(:app)do
       execute("cd '#{release_path}'; rm -fr assets")
       execute("cd '#{release_path}'; rm -fr _posts")
-      execute("docker rmi -f $(docker images -a -q)")
-      execute("docker system prune")
+      execute("docker rmi -f $(docker images -a -q); true")
+      execute("docker system prune -f; true")
     end
   end
 
