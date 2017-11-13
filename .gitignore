@@ -4,3 +4,4 @@ _site
 .tweet-cache
 .bundle
 _config_write.yml
+log/
