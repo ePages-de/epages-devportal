@@ -34,13 +34,25 @@ namespace :jekyll do
     on roles(:app) do
       execute("cd '#{release_path}'; docker-compose -f docker-compose.production.yml build")
       execute("cd '#{release_path}'; docker-compose -f docker-compose.production.yml up")
-      execute("chown -R deploy:deploy /home/#{fetch(:user)}/apps/#{fetch(:application)}")
+      execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps/#{fetch(:application)}")
+    end
+  end
+
+  desc 'Add the old docs to _site'
+  task :include_old_docs do
+    on roles(:app) do
+      execute("mkdir /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/apps/* /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/assets/* /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/_site/assets")
+      execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps/#{fetch(:application)}")
     end
   end
 
   desc 'Remove images and not needed folders and files'
   task :clean_up do
     on roles(:app)do
+      execute("cd '#{release_path}'; rm -fr assets")
+      execute("cd '#{release_path}'; rm -fr _posts")
       execute("docker rmi -f $(docker images -a -q)")
       execute("docker system prune")
     end
@@ -48,5 +60,6 @@ namespace :jekyll do
 
   after :deploy, 'jekyll:prepare_files'
   after :prepare_files, :build
-  # after :build, :clean_up
+  after :build, :include_old_docs
+  after :include_old_docs, :clean_up
 end
