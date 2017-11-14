@@ -241,21 +241,25 @@ end
 task :test_html do
   require 'html-proofer'
 
-  ignore = [/.*\/ProximaNova-Bold.html/,
-            /.*\/ProximaNova-BoldIt.html/,
-            /.*\/ProximaNova-Regular.html/,
-            /.*\/ProximaNova-RegularIt.html/,
-            /.*\/ProximaNovaAlt-Bold.html/,
-            /.*\/ProximaNovaAlt-BoldIt.html/,
-            /.*\/ProximaNovaAlt-Regular.html/,
-            /.*\/ProximaNovaAlt-RegularIt.html/,
-            /.*\/ProximaNovaScOsf-Bold.html/,
-            /.*\/ProximaNovaScOsf-BoldIt.html/,
-            /.*\/ProximaNovaScOsf-Regular.html/,
-            /.*\/ProximaNovaScOsf-RegularIt.html/]
+  file_ignore = [/.*\/ProximaNova-Bold.html/,
+                 /.*\/ProximaNova-BoldIt.html/,
+                 /.*\/ProximaNova-Regular.html/,
+                 /.*\/ProximaNova-RegularIt.html/,
+                 /.*\/ProximaNovaAlt-Bold.html/,
+                 /.*\/ProximaNovaAlt-BoldIt.html/,
+                 /.*\/ProximaNovaAlt-Regular.html/,
+                 /.*\/ProximaNovaAlt-RegularIt.html/,
+                 /.*\/ProximaNovaScOsf-Bold.html/,
+                 /.*\/ProximaNovaScOsf-BoldIt.html/,
+                 /.*\/ProximaNovaScOsf-Regular.html/,
+                 /.*\/ProximaNovaScOsf-RegularIt.html/]
+
+  url_ignore = [/.*apps.*/,
+                /.*signup/]
 
   options = { disable_external: true,
-              file_ignore: ignore,
+              file_ignore: file_ignore,
+              url_ignore: url_ignore,
               empty_alt_ignore: true,
               check_html: true }
 
@@ -281,9 +285,10 @@ task :write do
                           'style' => 'expanded' } }
 
   exclude['exclude'].push '_pages/categories/'
+  exclude['exclude'].push '_pages/api/categories/'
   exclude['exclude'].push '_pages/404.html'
-  exclude['exclude'].push '_pages/search'
-  exclude['exclude'].push '_pages/devjobs'
+  exclude['exclude'].push '_pages/search.html'
+  exclude['exclude'].push '_pages/devjobs.html'
   exclude['exclude'].push '_pages/about.md'
   exclude['exclude'].push *(date_from.year..date_to.prev_year.year).map { |d| "_posts/#{d}" }.uniq
   exclude['exclude'].push *(Date.new(date_to.year)..date_to).map { |d| "_posts/#{d.year}/#{d.year}-#{'%02d' % d.month}-*" }.uniq
