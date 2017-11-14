@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ePages Hackathon 2017"
-date: "2017-03-29 06:39:20"
+date: 2017-03-29
 header_image: blue-sky.jpg
 category: events
 authors: ["Rose"]

@@ -93,7 +93,7 @@ task :test_posts do
         if f_m['date'].nil?
           errors << LinterError.new(post, nil, 'Post must have a date')
         else
-          unless (Date.parse(f_m['date']) rescue nil)
+          unless (Date.strptime(f_m['date'].to_s, '%Y-%m-%d') rescue nil)
             errors << LinterError.new(post, nil, 'Post date is not valid')
           end
         end

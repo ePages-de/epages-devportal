@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The battle of the operating systems"
-date: "2016-12-22 06:34:02"
+date: 2016-12-22
 header_image: apple-pear-choose.jpg
 category: tech-stories
 authors: ["Ivan"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "devoxx Belgium 2017 - Day 3"
-date: "2017-11-13 00:00:00"
+date: 2017-11-13
 header_image: devoxx-be-2017-2.jpg
 category: events
 authors: ["Dirk"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Codemotion 2015 - One epagee was there!"
-date: "2015-12-04 12:00:00"
+date: 2015-12-04
 header_image: codemotion-madrid.jpg
 header_position: bottom
 category: events

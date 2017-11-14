@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How ePages made me feel welcome right away
-date: "2017-04-26 06:34:02"
+date: 2017-04-26
 header_image: jump.jpg
 category: on-the-job
 authors: ["Christina"]

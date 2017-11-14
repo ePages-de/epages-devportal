@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JS Unconf 2015 Retrospective"
-date: "2015-04-29 12:00:00"
+date: 2015-04-29
 header_image: javascript.png
 category: events
 authors: ["Paolo"]

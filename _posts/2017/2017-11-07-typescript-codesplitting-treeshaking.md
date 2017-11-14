@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code splitting and tree shaking with Typescript and Webpack"
-date: "2017-11-07 13:41:02"
+date: 2017-11-07
 header_image: sunny-road.jpg
 category: tech-stories
 authors: ["Christian H."]

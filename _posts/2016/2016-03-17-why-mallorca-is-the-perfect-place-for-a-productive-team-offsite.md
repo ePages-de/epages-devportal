@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Mallorca is the perfect place for a productive team offsite"
-date: "2016-03-17 16:03:17"
+date: 2016-03-17
 header_image: offsite.jpg
 category: events
 authors: ["Alejandra, Benjamin and Heiko"]

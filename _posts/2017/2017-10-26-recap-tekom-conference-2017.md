@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recap tekom conference 2017"
-date: "2017-10-26 14:41:02"
+date: 2017-10-26
 header_image: tekom17.jpg
 header_position: bottom
 category: events
