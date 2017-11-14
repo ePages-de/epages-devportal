@@ -42,6 +42,7 @@ exclude:
   - build.sh
   - Dockerfile
   - _pages/url-map
+  - Capfile
 
 feed:
   path: /blog/feed.xml
