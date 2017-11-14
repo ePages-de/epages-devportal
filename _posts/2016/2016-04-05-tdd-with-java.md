@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test-driven development with Java"
-date: "2016-04-05 08:00:00"
+date: 2016-04-05
 header_image: java.jpg
 category: tech-stories
 authors: ["Jan M."]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Versioning of microservices"
-date: "2017-06-20 07:00:00"
+date: 2017-06-20
 header_image: microservices-pipeline-2.jpg
 category: tech-stories
 authors: ["Benjamin", "Nicole"]

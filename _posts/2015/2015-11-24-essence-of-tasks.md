@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On the essence of the task"
-date: "2015-11-24 07:23:00"
+date: 2015-11-24
 header_image: task.jpg
 category: methods-and-tools
 authors: ["Timo H."]

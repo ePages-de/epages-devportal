@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "code.talks: code & nachos"
-date: "2015-10-28 07:17:00"
+date: 2015-10-28
 header_image: nachos.jpg
 category: events
 authors: ["Erik"]

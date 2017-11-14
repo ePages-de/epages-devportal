@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Global Scrum Gathering 2015 Prague"
-date: "2015-12-07 07:23:00"
+date: 2015-12-07
 header_image: scrum-prague-2015.jpg
 category: events
 authors: ["Anja B."]

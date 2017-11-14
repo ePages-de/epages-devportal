@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to set up a CoreOS Cluster on Windows and CentOS"
-date: "2016-01-19 07:17:17"
+date: 2016-01-19
 header_image: windows-coreos.jpg
 category: tech-stories
 authors: ["Andreas G."]

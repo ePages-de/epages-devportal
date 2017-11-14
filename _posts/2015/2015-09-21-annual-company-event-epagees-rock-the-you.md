@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Annual company event: ePagees rock the YOU"
-date: "2015-09-21 13:09:00"
+date: 2015-09-21
 header_image: you-2015.jpg
 category: events
 authors: ["Birgit"]

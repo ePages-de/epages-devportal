@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programming beyond the comfort zone: The Phoenix Framework"
-date: "2017-02-09 07:00:00"
+date: 2017-02-09
 header_image: phoenix.jpg
 category: coding
 authors: ["Erik"]
