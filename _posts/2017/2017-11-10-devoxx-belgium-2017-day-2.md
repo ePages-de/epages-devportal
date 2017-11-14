@@ -90,4 +90,4 @@ The movie made it a nice evening of a very long and exhausting day, which once a
 
 ## Related post
 
-[devoxx Belgium 2017 - Day 1](https://developer.epages.com/blog/2017/11/09/devoxx-belgium-2017-day-1.html)
+[devoxx Belgium 2017 - Day 1](/blog/events/devoxx-belgium-2017-day-1/)

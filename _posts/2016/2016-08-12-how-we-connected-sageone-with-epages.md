@@ -12,7 +12,7 @@ The main purpose of this connector-application is to transfer the orders being c
 
 ## The initial plan
 
-Our initial plan was to build a standalone application using the [ePages REST API](https://developer.epages.com/apps) to obtain the order information that have to be transferred to Sage One.
+Our initial plan was to build a standalone application using the [ePages REST API](/apps) to obtain the order information that have to be transferred to Sage One.
 Soon the requirement of a deeper integration into the ePages administration area came up.
 So we had to find a different approach.
 In our recent payment integration PayPal Plus introduced a “thin layer”-approach.

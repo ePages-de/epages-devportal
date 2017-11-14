@@ -33,7 +33,7 @@ During the presentation he stressed out the importance of microservices for a we
 After this overview of the current development status at ePages, two of our developers took over and gave further insights into the micro- and macro-architecture of our microservices system.
 Another talk dealt with the customization of an online shop using CSS and different settings for themes.
 This way, customers can easily adapt their shops to their personal taste or to company guidelines.
-The talk was followed by a live coding session of a [Python app](ttps://github.com/ooz/epages-rest-python-examples/tree/master/beautiful_order_documents) against the API of ePages [NOW](https://developer.epages.com/apps) and [Beyond](https://s3.eu-central-1.amazonaws.com/new-docu-epages/index.html).
+The talk was followed by a live coding session of a [Python app](ttps://github.com/ooz/epages-rest-python-examples/tree/master/beautiful_order_documents) against the API of ePages [NOW](/apps) and [Beyond](https://s3.eu-central-1.amazonaws.com/new-docu-epages/index.html).
 
 Does that sound interesting to you already?
 That's not all!

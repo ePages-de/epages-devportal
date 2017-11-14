@@ -7,7 +7,7 @@ category: tech-stories
 authors: ["Dirk"]
 ---
 
-Some weeks ago, we published [Infrastructure as Code: automating Jenkins](https://developer.epages.com/blog/2015/06/25/infrastructure-as-code-automating-jenkins.html).
+Some weeks ago, we published [Infrastructure as Code: automating Jenkins](/blog/tech-stories/infrastructure-as-code-automating-jenkins/).
 In that post, we described some open ends, which still needed to be solved in order to satisfy our expectations.
 In this follow-up post, I will explain how we advanced on our way to have a fully automated continuous integration server, this time coming pretty close to an *[immutable server](http://martinfowler.com/bliki/ImmutableServer.html)*.
 

@@ -14,7 +14,7 @@ In this blog post, I'd like to share my experience on how I tried to find out.
 
 ## Starting a documentation from scratch
 
-When I started my job at ePages, I had to come up with a complete new structure as well as all relevant content for a brand new [API documentation](https://developer.epages.com/apps).
+When I started my job at ePages, I had to come up with a complete new structure as well as all relevant content for a brand new [API documentation](/apps).
 As a technical writer I found this position very comfortable as I could really start from scratch.
 From our developers in-house, I found out pretty quickly, that opinions, views, and also tastes differ on what an API documentation must look like and how it should be structured.
 But I had to identify the requirements of my **real** target group.
@@ -37,7 +37,7 @@ But I was not yet 100% sure it would be the perfect fit for my target group.
 I was convinced, that I needed to test this "on the living object".
 Fortunately, I work closely together with our Usability Expert Anja who offered to support me.
 We agreed to conduct an online survey amongst the users of our API documentation.
-The survey was published internally, communicated to our partners, announced on the [ePages developer blog](https://developer.epages.com/blog) as well as via [Twitter](https://twitter.com/epagesdevs).
+The survey was published internally, communicated to our partners, announced on the [ePages developer blog](/blog) as well as via [Twitter](https://twitter.com/epagesdevs).
 
 ### Categorizing the audience
 

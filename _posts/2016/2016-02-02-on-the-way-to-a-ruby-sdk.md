@@ -19,13 +19,13 @@ For this purpose, I decided to go for a [Ruby on Rails](http://rubyonrails.org/)
 
 ## Communicating with the API
 
-When I first started to communicate with the [ePages Rest API](https://developer.epages.com/), I realised that every single call required a lot of code, even when using http libraries, due to the different parameters and types of responses of each API call.
+When I first started to communicate with the [ePages Rest API](/apps/), I realised that every single call required a lot of code, even when using http libraries, due to the different parameters and types of responses of each API call.
 This is why I decided to extract this part to another side project and integrate it with the app later.
 
 ## Ruby SDK
 
 The [Ruby SDK](page:apps-ruby-gem) project began as a single integration to ease the required code to build the custom calls from the API.
-But based on the [ePages API documentation](https://developer.epages.com/apps/index.html), I decided to extend this tool to parse the responses to different classes with a common meaning such as products, categories or orders.
+But based on the [ePages API documentation](/apps/), I decided to extend this tool to parse the responses to different classes with a common meaning such as products, categories or orders.
 By the way, the responses that the SDK returns are more intuitive than the plain response because of the collection of methods the classes implement.
 Another aspect to highlight is the syntax of the calls; very focused on the code's simplicity.
 
@@ -39,4 +39,4 @@ gem 'epages-rest'
 {% endhighlight %}
 
 I am already working on the features for the next version.
-It will include the [Sales call](https://developer.epages.com/apps/api-reference/get-shops-shopid-sales.html) and a new feature to implement concurrent calls, ideal for faster data collection.
+It will include the Sales Call and a new feature to implement concurrent calls, ideal for faster data collection.

@@ -74,4 +74,4 @@ Thanks for reading and stay tuned for the next post about handling failures in t
 
 ## Related post
 
-[Design of a continuous delivery pipeline](https://developer.epages.com/blog/2017/05/30/design-of-a-continuous-delivery-pipeline.html)
+[Design of a continuous delivery pipeline](/blog/tech-stories/design-of-a-continuous-delivery-pipeline/)

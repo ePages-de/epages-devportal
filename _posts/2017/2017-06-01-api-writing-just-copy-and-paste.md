@@ -20,7 +20,7 @@ If you're not born and raised as a developer, but still have to deal with APIs, 
 API writers need a thorough understanding of the API, its functionality, authentication, parameters, return types, what it supports and what not.
 
 They have to be flexible, proactive, sensitive, always present, well-organized...
-Maybe just read [this post](https://developer.epages.com/blog/2016/11/30/what-its-like-to-be-an-agile-technical-writer.html), and you'll know about that part.
+Maybe just read [this post](/blog/methods-and-tools/what-its-like-to-be-an-agile-technical-writer/), and you'll know about that part.
 
 In a nutshell, it requires detailed expertise to write API documentation.
 

@@ -10,7 +10,7 @@ authors: ["Jordi"]
 A usual problem developers are facing, is to work with a common development environment.
 At the same time, this environment has to be the same as the production environment.
 ePages software is working into servers with [centOS](https://www.centos.org/) or [debian](https://www.debian.org/) which makes it mandatory for the developers to write the code in this environment.
-For sure, it is pointless to force all developers to have one of those OS installed, taking into account that the preferred OS are [macOS, ubuntu or windows](https://developer.epages.com/blog/2016/12/22/the-battle-of-the-operating-systems.html).
+For sure, it is pointless to force all developers to have one of those OS installed, taking into account that the preferred OS are [macOS, ubuntu or windows](/blog/tech-stories/the-battle-of-the-operating-systems/).
 
 This scenario calls for finding a solution.
 There are several ways to solve this, and I'll try to explain the different options that we have and which one has mainly been chosen by our development team in Barcelona.

@@ -7,7 +7,7 @@ category: coding
 authors: ["Erik"]
 ---
 
-In the [last post](https://developer.epages.com/blog/2017/02/02/programming-beyond-the-comfort-zone-javascript-elixir.html) we checked why you should learn some more languages and why Elixir might help you becoming a better JavaScript developer.
+In the [last post](/blog/coding/programming-beyond-the-comfort-zone-javascript-elixir/) we checked why you should learn some more languages and why Elixir might help you becoming a better JavaScript developer.
 Now I promised to go deeper into web development (since this is what JS devs do, right?).
 A popular (if not the most popular) web framework for Elixir is [**Phoenix**](http://www.phoenixframework.org/).
 After a short overview and a look at it's core concepts we're going to build a (very) small REST API just to check how to start and how this start looks like.

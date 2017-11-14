@@ -20,7 +20,7 @@ I'm learning new stuff every single day.
 Even after two years.
 Which is great!
 
-I started out building up a new [API documentation](https://developer.epages.com/apps).
+I started out building up a new [API documentation](/apps).
 This meant understanding what an API is all about, knowing the working methods of developers, how they gather information, understanding the basics of their working environment, and their specific tools.
 It meant finding a suitable documentation tool and platform, and how to deal with these.
 And it also meant applying many of their tools myself: [GitHub](https://github.com/), [Jekyll](https://jekyllrb.com/), the terminal, or setting up local environments.
@@ -31,7 +31,7 @@ I metamorphosed to a content writer.
 This was another awesome chance to step into something new.
 I started cooperating closely with UX, which meant understanding the tiny bits and pieces of our different products, and to put myself into yet another user's perspective: this time not developers, but our merchants.
 
-[And with UX already in the boat](https://developer.epages.com/blog/2016/06/16/why-ux-and-technical-writing-make-a-dream-team.html), we made quite some effort for consistent texts and communication.
+[And with UX already in the boat](/blog/techcomm-and-socialmedia/why-ux-and-technical-writing-make-a-dream-team/), we made quite some effort for consistent texts and communication.
 Not far from that was another new topic: software localization and translation.
 Yay!
 As I originally studied technical translation, this was like a home match for me.
@@ -51,7 +51,7 @@ A one-woman business so to speak.
 The scrum teams work in sprints on a biweekly cycle.
 Believe it or not: the sprints of more than one team, most likely, have technical writing dependencies.
 Anything else would just be boring 😊.
-Be it new REST calls to be documented, wording for new features to be provided, a [blog post](https://developer.epages.com/blog) to be written, processes to be discussed, localization issues to be figured out...
+Be it new REST calls to be documented, wording for new features to be provided, a [blog post](/blog) to be written, processes to be discussed, localization issues to be figured out...
 All those things might happen within the same time frame.
 But women are capable of multitasking, right?
 So we can add some meetings here and there, such as sprint reviews, coordination processes, routines...
