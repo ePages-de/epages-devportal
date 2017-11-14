@@ -44,6 +44,8 @@ pipeline {
           gem install bundler
           bundle install
           rbenv rehash
+          eval `ssh-agent -s`
+          ssh-add
           bundle exec cap production deploy --trace
         '''
       }
