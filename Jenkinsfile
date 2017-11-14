@@ -34,7 +34,7 @@ pipeline {
       }
     }
     stage('Deploy') {
-      when { branch 'master' }
+      when { branch 'develop' }
       steps {
         sh '''
           source ~/.bash_profile
@@ -44,7 +44,7 @@ pipeline {
           gem install bundler
           bundle install
           rbenv rehash
-          // bundle exec cap production deploy --trace
+          bundle exec cap production deploy --trace
         '''
       }
     }
