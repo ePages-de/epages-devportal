@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "devoxx Belgium 2017 - Day 2"
-date: "2017-11-10 00:00:00"
+date: 2017-11-10
 header_image: devoxx-be-2017-2.jpg
 category: events
 authors: ["Dirk"]
@@ -15,7 +15,7 @@ Read on what my schedule looked like on Thursday, and what the talks were like (
 
 To start the day, [Mario Fusco](https://twitter.com/mariofusco) talked about how you could introduce more lazy
 evaluation in your Java code, mainly by using lambdas.
-While the content was quite good, the presentation wasn't too fluent. 
+While the content was quite good, the presentation wasn't too fluent.
 Maybe looking at the slides only might be a better use of your time, although you might miss a very funny
 (and true) analogy.
 

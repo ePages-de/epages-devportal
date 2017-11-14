@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Online Schema Updates with MySQL"
-date: "2016-03-08 07:16:17"
+date: 2016-03-08
 header_image: database.jpg
 category: tech-stories
 authors: ["Mario"]

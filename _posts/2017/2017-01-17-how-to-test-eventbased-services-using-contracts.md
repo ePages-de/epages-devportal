@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to test event-based services using contracts"
-date: "2017-01-17 12:11:00"
+date: 2017-01-17"
 header_image: testing-async-interactions.jpg
 category: tech-stories
 authors: ["Mathias"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tracing the suspect - a microservices murder mystery"
-date: "2017-08-17 09:30:00"
+date: 2017-08-17
 header_image: tracing-the-suspect.jpg
 category: tech-stories
 authors: ["Jens"]

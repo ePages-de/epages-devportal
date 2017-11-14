@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ePages talks code"
-date: "2015-04-02 12:00:00"
+date: 2015-04-02
 header_image: code.jpg
 category: events
 authors: ["Birgit"]

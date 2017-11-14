@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guest post: Smart localization formats in i18n"
-date: "2016-12-08 07:00:00"
+date: 2016-12-08
 header_image: smart.jpg
 category: tech-stories
 authors: ["Frederik"]

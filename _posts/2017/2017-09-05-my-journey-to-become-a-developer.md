@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My journey to become a developer
-date: "2017-09-05 10:00:00"
+date: 2017-09-05
 header_image: journey-developer.jpg
 image-position: bottom
 category: on-the-job

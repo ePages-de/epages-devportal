@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 steps to make you feel comfortable in your new job"
-date: "2016-08-04 07:00:28"
+date: 2016-08-04
 header_image: onboarding.jpg
 category: on-the-job
 authors: ["Birgit, Leana", "Serena"]

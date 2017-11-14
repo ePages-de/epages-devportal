@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programming beyond the comfort zone: JavaScript |> Elixir"
-date: "2017-02-02 07:00:00"
+date: 2017-02-02
 header_image: drink.jpg
 category: coding
 authors: ["Erik"]

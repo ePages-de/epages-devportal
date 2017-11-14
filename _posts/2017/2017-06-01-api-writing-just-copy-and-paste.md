@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "API writing - just copy and paste?"
-date: "2017-06-01 06:34:02"
+date: 2017-06-01
 header_image: api-journey.jpg
 category: techcomm-and-socialmedia
 authors: ["Birgit"]

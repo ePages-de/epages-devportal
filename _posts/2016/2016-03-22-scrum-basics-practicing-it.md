@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scrum Basics: Practicing it!"
-date: "2016-03-22 07:57:03"
+date: 2016-03-22
 header_image: plane.jpg
 category: methods-and-tools
 authors: ["Anja B."]

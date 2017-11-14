@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Karlsruher Entwicklertag 2016"
-date: "2016-06-23 08:16:17"
+date: 2016-06-23
 header_image: karlsruhe.jpg
 category: events
 authors: ["Benjamin and Birgit"]

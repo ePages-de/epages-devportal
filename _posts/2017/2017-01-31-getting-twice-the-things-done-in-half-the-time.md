@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting twice the things done in half the time"
-date: "2017-01-31 06:11:00"
+date: 2017-01-31
 header_image: rugby.jpg
 category: methods-and-tools
 authors: ["Alejandra"]

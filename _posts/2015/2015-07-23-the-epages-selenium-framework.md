@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The ePages Selenium Framework"
-date: "2015-07-23 09:24:08"
+date: 2015-07-23
 header_image: selenium-framework.jpg
 category: tech-stories
 authors: ["Jan M.", "Martin K.", "Kay A."]
