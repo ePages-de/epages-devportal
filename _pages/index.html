@@ -61,57 +61,6 @@ background_image: index.jpg
 
 <link rel="stylesheet" href="/assets/css/magnific-popup.css">
 <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="/assets/js/index.js"></script>
 
 <iframe id="frame--epages-now" style="display: none;" name="frame--epages-now" frameborder="0" allowtransparency="true" width="900px" height="720px"></iframe>
-
-<script>
-
-  {% capture aaa %}{% include components/signup-form.html %}{% endcapture%}
-
-  $(document).ready(function() {
-    // Show the popup when you click on the popup button
-    $("a.popup").click(function(e){
-      e.preventDefault();
-
-      $.magnificPopup.open({
-        items: {
-          src: "{{ aaa | strip_newlines | replace: '"', "'" }}",
-          type: 'inline'
-        },
-        callbacks: {
-          close: function() {
-            cleanForms();
-            $('.modal #response-text').hide();
-            $('.modal #main-text').show();
-          }
-        }
-      });
-    });
-
-    $(document).on('submit', '#demoshopform-now', function() {
-      $('.modal .load-spinner').show();
-      $('.modal #main-text').hide();
-    });
-
-    $('#frame--epages-now').on('load', function() {
-      $('.modal .load-spinner').hide();
-      $('.modal #response-text').show();
-    });
-
-    function cleanForms() {
-      $('.form__input').val("");
-      $('.form__input').val("");
-      $('input[type="checkbox"]').attr('checked', false);
-      // Remove yellow color from autocompleted input fields
-      if (navigator.userAgent.toLowerCase().indexOf('chrome') >= 0) {
-        $('input:-webkit-autofill').each(function(){
-          var text = $(this).val();
-          var name = $(this).attr('name');
-          $(this).after(this.outerHTML).remove();
-          $('input[name=" + name + "]').val(text);
-        });
-      }
-    }
-  });
-
-</script>
