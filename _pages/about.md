@@ -19,5 +19,5 @@ Enjoy!
 
 You can find us on the following channels:
 
-* [Twitter @epagesdevs](https://twitter.com/epagesdevs?lang=en)
-* [YouTube "ePages Developers"](https://www.youtube.com/channel/UCI5hX9kgUGFnYpfxZYxlP0Q)
+* [Twitter @epagesdevs](https://twitter.com/epagesdevs?lang=en){:target="_blank"}
+* [YouTube "ePages Developers"](https://www.youtube.com/channel/UCI5hX9kgUGFnYpfxZYxlP0Q){:target="_blank"}
