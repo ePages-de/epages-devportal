@@ -242,4 +242,4 @@ All told, Spring Cloud Contract is a great tool to improve testing of event-base
 
 ## Related posts
 
-[How to make microservice testing great again](/blog/2016/07/14/wiremock.html)
+[How to make microservice testing great again](/blog/tech-stories/wiremock/)

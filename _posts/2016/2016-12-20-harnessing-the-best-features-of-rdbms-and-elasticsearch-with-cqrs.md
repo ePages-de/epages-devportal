@@ -221,7 +221,7 @@ Having all the safety of a relational database for manipulating product data as 
 
 [Multitenancy and Elasticsearch][prev-blog-post]
 
-[prev-blog-post]: /blog/2016/11/21/multitenancy-and-elasticsearch.html
+[prev-blog-post]: /blog/tech-stories/multitenancy-and-elasticsearch/
 [rdbms]: https://en.wikipedia.org/wiki/Relational_database_management_system
 [fowler-cqrs]: http://martinfowler.com/bliki/CQRS.html
 [fowler-event-sourcing]: http://martinfowler.com/eaaDev/EventSourcing.html
