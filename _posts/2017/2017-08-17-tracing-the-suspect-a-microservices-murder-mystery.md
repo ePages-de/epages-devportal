@@ -235,7 +235,7 @@ We will also show how to attach an IDE debugger to a running microservice contai
 [Where's the bug in my microservices haystack][haystack]
 
 
-[haystack]:                 /blog/2017/07/13/where-is-the-bug-in-my-microservices-haystack.html         "Where's the bug in my microservices haystack?"
+[haystack]:                 /blog/tech-stories/where-is-the-bug-in-my-microservices-haystack/         "Where's the bug in my microservices haystack?"
 [stackdriver]:              https://cloud.google.com/logging/                   "Google Stackdriver Logging"
 [spring-boot]:              https://projects.spring.io/spring-boot/ "Spring Boot"
 [logback]:                  https://logback.qos.ch/         "Logback - The Generic, Reliable Fast & Flexible Logging Framework"
