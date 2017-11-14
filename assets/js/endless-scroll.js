@@ -7,7 +7,7 @@ $(document).ready(function() {
     var bodyHeight = $(document).height() - windowHeight;
     var scrollPercentage = (scrollTop / bodyHeight);
 
-    if (scrollPercentage > 0.9 && !(typeof $('#loading').attr('data-next') === 'undefined')) {
+    if (scrollPercentage > 0.9 && !(typeof $('#loading').attr('data-next') === 'undefined') && !$.active) {
       loadPosts();
     }
   });
