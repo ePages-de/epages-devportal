@@ -59,13 +59,17 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
 
     .highlight:not(pre)
       margin: 4rem 0
-      padding: 2rem $card-margin-mobile
+      // padding: 2rem $card-margin-mobile
       font-family: $code-font-family
       font-size: 1.6rem
-      overflow: scroll
+      overflow: auto
 
-      +grid-media($grid-medium)
-        padding: 2rem $card-margin-desktop
+      pre
+        padding: 2rem $card-margin-mobile
+        overflow: auto
+
+        +grid-media($grid-medium)
+          padding: 2rem $card-margin-desktop
 
     code.highlighter-rouge
       font-family: $code-font-family
