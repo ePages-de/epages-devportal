@@ -51,10 +51,4 @@ pipeline {
       }
     }
   }
-  triggers {
-    githubPullRequest {
-      cron('H/5 * * * 1-5')
-      useGitHubHooks()
-    }
-  }
 }
