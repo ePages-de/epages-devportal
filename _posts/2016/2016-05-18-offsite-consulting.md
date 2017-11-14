@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Consulting offsite meeting"
-date: "2016-05-18 16:03:17"
+date: 2016-05-18
 header_image: consulting-offsite.jpg
 category: events
 authors: ["Pavlo", "Tobias"]

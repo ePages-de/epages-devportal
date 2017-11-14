@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guest post: Higher localization quality with static placeholders"
-date: "2016-12-29 07:00:00"
+date: 2016-12-29
 header_image: quality.jpg
 category: tech-stories
 authors: ["Frederik"]

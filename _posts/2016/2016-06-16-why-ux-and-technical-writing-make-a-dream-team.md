@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why UX and Technical Writing make a dream team"
-date: "2016-06-16 11:16:17"
+date: 2016-06-16
 header_image: dream-team.jpg
 category: techcomm-and-socialmedia
 authors: ["Birgit"]

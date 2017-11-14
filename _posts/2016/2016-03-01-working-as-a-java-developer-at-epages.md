@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working as a Java Developer at ePages"
-date: "2016-03-01 07:16:17"
+date: 2016-03-01
 header_image: coffee.jpg
 category: on-the-job
 authors: ["Birgit, Serena", "Jens"]

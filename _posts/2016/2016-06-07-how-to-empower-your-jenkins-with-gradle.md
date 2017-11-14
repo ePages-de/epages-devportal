@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to empower your Jenkins with Gradle"
-date: "2016-06-07 07:59:11"
+date: 2016-06-07
 header_image: gradle-jenkins-tools.jpg
 category: tech-stories
 authors: ["Renato"]

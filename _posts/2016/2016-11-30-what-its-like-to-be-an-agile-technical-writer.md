@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What it's like to be an agile technical writer"
-date: "2016-11-30 06:34:02"
+date: 2016-11-30
 header_image: agile-techwriter.jpg
 category: methods-and-tools
 authors: ["Birgit"]

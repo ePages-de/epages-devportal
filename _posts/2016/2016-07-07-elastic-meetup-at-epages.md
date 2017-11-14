@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elastic Meetup at ePages"
-date: "2016-07-08 11:11:11"
+date: 2016-07-08
 header_image: elastic-meetup.jpg
 category: events
 authors: ["Christian K., Jens", "Benjamin"]

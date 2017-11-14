@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "One month as an ePagee"
-date: "2015-08-11 08:00:00"
+date: 2015-08-11
 header_image: one-month-epagee.jpg
 header_position: top
 category: on-the-job
