@@ -28,12 +28,15 @@ namespace :jekyll do
   task :prepare_files do
     on roles(:app)do
       execute("cd #{release_path}; rm -f Gemfile.lock")
+      execute("cd #{release_path}; rm -f Gemfile")
       execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/build-production.sh #{release_path}/build-production.sh")
       execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/docker-compose.production.yml #{release_path}/docker-compose.production.yml")
       execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Dockerfile-production #{release_path}/Dockerfile-production")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Gemfile #{release_path}/Gemfile")
       execute("chmod 755 #{release_path}/build-production.sh")
       execute("chmod 755 #{release_path}/docker-compose.production.yml")
       execute("chmod 755 #{release_path}/Dockerfile-production")
+      execute("chmod 755 #{release_path}/Gemfile")
     end
   end
 
