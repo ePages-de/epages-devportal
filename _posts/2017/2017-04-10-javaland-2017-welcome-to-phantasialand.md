@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaLand 2017 - Welcome to Phantasialand"
-date: "2017-04-10 11:12:13"
+date: 2017-04-10
 header_image: javaland-2017.jpg
 category: events
 authors: ["Benjamin, Bastian"]

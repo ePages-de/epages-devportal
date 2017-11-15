@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Working as a QA Engineer at ePages"
-date: "2016-04-12 07:16:17"
+date: 2016-04-12
 header_image: qa-dev.jpg
 category: on-the-job
 authors: ["Birgit, Serena", "Vlad"]
 ---
 
-In our latest posts, you already learned about what it’s like to work as a [Ruby Developer](https://developer.epages.com/blog/2016/02/04/working-as-a-ruby-developer-at-epages.html) and a [Java Developer](https://developer.epages.com/blog/2016/03/01/working-as-a-java-developer-at-epages.html) at ePages.
+In our latest posts, you already learned about what it’s like to work as a [Ruby Developer](/blog/on-the-job/working-as-a-ruby-developer-at-epages/) and a [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/) at ePages.
 To give you some insight into our world of Quality Assurance, we've talked to one of our Quality Assurance Engineers, who shared how he started with us and how his daily work looks like.
 
 ## Here's his story:
@@ -125,7 +125,7 @@ They should be team-minded and able to listen to everybody's problems.
 
 ## Related posts
 
-* [Working as a Java Developer at ePages](https://developer.epages.com/blog/2016/03/01/working-as-a-java-developer-at-epages.html)
-* [Working as a Ruby Developer at ePages](https://developer.epages.com/blog/2016/02/04/working-as-a-ruby-developer-at-epages.html)
-* [One month as an ePagee](https://developer.epages.com/blog/2015/08/11/one-month-as-an-epagee.html)
-* [How ePages gives new developers a great start](https://developer.epages.com/blog/2015/07/07/how-epages-gives-new-developers-a-great-start.html)
+* [Working as a Java Developer at ePages](/blog/on-the-job/working-as-a-java-developer-at-epages/)
+* [Working as a Ruby Developer at ePages](/blog/on-the-job/working-as-a-ruby-developer-at-epages/)
+* [One month as an ePagee](/blog/on-the-job/one-month-as-an-epagee/)
+* [How ePages gives new developers a great start](/blog/on-the-job/how-epages-gives-new-developers-a-great-start/)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Build a multiple repository pull request test"
-date: "2017-04-19 10:00:00"
+date: 2017-04-19
 header_image: challenge-cube.jpg
 category: tech-stories
 authors: ["Florian Z."]

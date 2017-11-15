@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "How to ease test evaluation in the Continuous Delivery Pipeline"
-date: "2016-02-16 06:16:02"
+date: 2016-02-16
 header_image: test-automation-2.jpg
 category: tech-stories
 authors: ["Benjamin N.", "Bastian K."]
 ---
 
-We implemented a Selenium test report database with Elasticsearch, Logstash, Docker, CircleCI and Jenkins to ease the test evaluation process in our Continuous Delivery Pipeline. Last week we already introduced you to the [background of the project](https://developer.epages.com/blog/2016/02/11/optimised-monitoring-and-evaluation-of-selenium-test-results.html) and today we want to get your hands on the actual development steps. Hence, this post showcases the various parts of the implemented solution and discusses the pragmatic benefits for our pipeline and our speed-up for massive regression test evaluation.
+We implemented a Selenium test report database with Elasticsearch, Logstash, Docker, CircleCI and Jenkins to ease the test evaluation process in our Continuous Delivery Pipeline. Last week we already introduced you to the [background of the project](/blog/tech-stories/optimised-monitoring-and-evaluation-of-selenium-test-results/) and today we want to get your hands on the actual development steps. Hence, this post showcases the various parts of the implemented solution and discusses the pragmatic benefits for our pipeline and our speed-up for massive regression test evaluation.
 
 Furthermore, this article should serve as an outline of the consolidated technical expertise gained throughout the engineering process of this project.
 
@@ -291,4 +291,4 @@ Overall we are very happy with the outcome of this project and hope we can spend
 
 ## Related post
 
-[Optimised monitoring and evaluation of Selenium test results](https://developer.epages.com/blog/2016/02/11/optimised-monitoring-and-evaluation-of-selenium-test-results.html)
+[Optimised monitoring and evaluation of Selenium test results](/blog/tech-stories/optimised-monitoring-and-evaluation-of-selenium-test-results/)

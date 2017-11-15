@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "The pros and cons of an e-learning course about continuous deployment"
-date: "2017-05-11 07:00:00"
+date: 2017-05-11
 header_image: learning.jpg
 category: tech-stories
 authors: ["Jan"]
 ---
 
 New versions of our ePages software are currently released every three weeks.
-The update scripts are adjusted for the different providers and then installed with [Capistrano](https://developer.epages.com/blog/2016/03/30/implementing-capistrano-as-configuration-management-tool.html) by our [Application Management team with zero downtime](https://developer.epages.com/blog/2016/03/08/online-schema-updates-with-mysql.html).
+The update scripts are adjusted for the different providers and then installed with [Capistrano](/blog/tech-stories/implementing-capistrano-as-configuration-management-tool/) by our [Application Management team with zero downtime](/blog/tech-stories/online-schema-updates-with-mysql/).
 For our new product we'd like to take this a step further by including the deployment on the production system into the definition of done for a user story.
 As I was involved in the creation of the first draft of the process definition I took the e-learning course [Continuous Deployment](https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=continuousDeployment&devLanguage=Python) from Industrial Logic to educate myself further in this area.
 My target was to derive some inspiration for our new process.

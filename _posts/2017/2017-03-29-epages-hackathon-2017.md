@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ePages Hackathon 2017"
-date: "2017-03-29 06:39:20"
+date: 2017-03-29
 header_image: blue-sky.jpg
 category: events
 authors: ["Rose"]
@@ -49,7 +49,7 @@ Yet another team created a dashboard app to visualize KPIs for the merchant.
 In order to enhance our latest shop software ePages Now, one of the teams developed an Amazon mass uploader to upload a bulk of products at once instead of merely one by one.
 
 And there were teams, that dedicated their time to improve internal processes.
-Amongst others, one team made the source of our [API documentation](https://developer.epages.com/apps) and [Developer blog](https://developer.epages.com/blog), [epages-docs](https://github.com/ePages-de/epages-docs), fast again, another automatized the [Linux](https://www.linux.com/) setup for new colleagues starting at ePages.
+Amongst others, one team made the source of our [API documentation](/apps) and [Developer blog](/blog), [epages-docs](https://github.com/ePages-de/epages-docs), fast again, another automatized the [Linux](https://www.linux.com/) setup for new colleagues starting at ePages.
 
 In the end everyone could vote for their favorite project.
 The first three winners were the lucky ones and received Amazon vouchers.

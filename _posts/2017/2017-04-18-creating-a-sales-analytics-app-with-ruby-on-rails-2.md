@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Creating a Sales Analytics App: issue solving"
-date: "2017-04-18 07:00:00"
+date: 2017-04-18
 header_image: rails-train-path-straight.jpg
 category: tech-stories
 authors: ["Unai M."]
 ---
 
-Last month, I wrote a post about [how and why we started with our Sales Analytics app](https://developer.epages.com/blog/2017/03/02/creating-a-sales-analytics-app-with-ruby-on-rails.html).
+Last month, I wrote a post about [how and why we started with our Sales Analytics app](/blog/coding/creating-a-sales-analytics-app-with-ruby-on-rails/).
 In this post, I'd like to talk about some issues we encountered on our way and how we solved them.
 
 ## About our - slightly - bumpy development road
@@ -21,7 +21,7 @@ The nice thing is that we work really close together and we are used to help eac
 ### ...and API call limits
 
 The data the we use to display on the graphs and tables through the app obviously come from merchant shops.
-Currently, the [ePages REST API](https://developer.epages.com/apps) has a rate limit of 6000 calls per hour and although at the very beginning this seemed more than enough, it turned out to be an issue we had to find a solution for.
+Currently, the [ePages REST API](/apps) has a rate limit of 6000 calls per hour and although at the very beginning this seemed more than enough, it turned out to be an issue we had to find a solution for.
 
 Even from the start, it was clear for us that we had to persist the data in our own database; not only because of having limits on retrieving data but also we wanted to give the merchant extra value.
 For this, we needed to do some heavy calculations with data, so we couldn't rely on external systems.
@@ -85,8 +85,8 @@ The downside of this scenario is that we will have to set up everything by ourse
 Lucky for us, we have [Capistrano](http://capistranorb.com/), a tool written on Ruby (but available for other languages also) for remote server automation and deployment.
 
 [Docker](https://www.docker.com) is another option for us on the deployment side of the things to do when not choosing Heroku.
-We also have experience on it and in the case we needed support, our colleagues at ePages are experienced on [Docker](https://developer.epages.com/blog/2016/07/05/containerdays-hamburg.html) and [Kubernetes](https://developer.epages.com/blog/2016/08/09/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl.html). So we know, that we are more than covered on those subjects.
+We also have experience on it and in the case we needed support, our colleagues at ePages are experienced on [Docker](/blog/events/containerdays-hamburg/) and [Kubernetes](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl/). So we know, that we are more than covered on those subjects.
 
-Only time will tell which option is going to work for us and maybe another [blog](https://developer.epages.com/blog/) post will come on that.
+Only time will tell which option is going to work for us and maybe another [blog](/blog/) post will come on that.
 
 Thanks for reading.

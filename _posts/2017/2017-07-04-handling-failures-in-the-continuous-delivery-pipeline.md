@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handling failures in the continuous delivery pipeline"
-date: "2017-07-04 07:00:00"
+date: 2017-07-04
 header_image: microservices-pipeline-3.jpg
 category: tech-stories
 authors: ["Benjamin", "Nicole"]
@@ -63,5 +63,5 @@ Now the pre-production stage gets unlocked and the next build is able to pass ov
 
 ## Related posts
 
-* [Design of a continuous delivery pipeline](https://developer.epages.com/blog/2017/05/30/design-of-a-continuous-delivery-pipeline.html)
-* [Versioning of microservices](https://developer.epages.com/blog/2017/06/20/versioning-of-microservices.html)
+* [Design of a continuous delivery pipeline](/blog/tech-stories/design-of-a-continuous-delivery-pipeline/)
+* [Versioning of microservices](/blog/tech-stories/versioning-of-microservices/)

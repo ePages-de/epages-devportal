@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is buzzing in Berlin 2017?"
-date: "2017-06-22 09:30:00"
+date: 2017-06-22
 header_image: berlin-buzzwords-2017.jpg
 category: events
 authors: ["Jens"]

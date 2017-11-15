@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "code.talks 2015 retrospective"
-date: "2015-10-07 09:00:00"
+date: 2015-10-07
 header_image: code-talks-2015.jpg
 category: events
 authors: ["Jens"]

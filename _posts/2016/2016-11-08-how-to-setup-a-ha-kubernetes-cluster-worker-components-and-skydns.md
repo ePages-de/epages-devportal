@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to set up a HA Kubernetes cluster: worker components and SkyDNS"
-date: "2016-11-08 07:16:17"
+date: 2016-11-08
 header_image: kubernetes-worker-logo.jpg
 category: tech-stories
 authors: ["Karsten P."]
@@ -106,7 +106,7 @@ EOF
 
 _kubelet_ too is running on the worker nodes.
 The configuration is different to the one of the master nodes.
-Yet, the installation is done in the same way as described in [the second part of this blog post series](https://developer.epages.com/blog/2016/09/08/kubernetes-preparing-nodes.html).
+Yet, the installation is done in the same way as described in [the second part of this blog post series](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-preparing-the-nodes/).
 
 {% highlight bash %}
 root@worker:~$ cat > /etc/systemd/system/kubelet.service << EOF
@@ -137,7 +137,7 @@ EOF
 root@worker:~$ systemctl enable kubelet
 {% endhighlight %}
 
-As described in [the setup of the master components](https://developer.epages.com/blog/2016/10/18/kubernetes-master-components.html) _kubelet_ and _kube-proxy_ are affected by [an error](https://github.com/kubernetes/kubernetes/issues/18174).
+As described in [the setup of the master components](/blog/tech-stories/how-to-setup-a-kubernetes-cluster-master-components/) _kubelet_ and _kube-proxy_ are affected by [an error](https://github.com/kubernetes/kubernetes/issues/18174).
 Therefore, we do not insert a comma separated list of API servers but only the load balancer's URL in the parameter _api-servers_.
 Unlike the master nodes, on the worker nodes shall run the real application pods.
 As a consequence, _kubelet_ registers its own node within the API as "schedulable".
@@ -460,6 +460,6 @@ For this purpose Kubernetes provides additional add-ons.
 
 # Related posts
 
-* [How to set up a HA Kubernetes cluster: etcd cluster with SSL](https://developer.epages.com/blog/2016/08/09/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl.html)
-* [How to set up a HA Kubernetes cluster: preparing the nodes](https://developer.epages.com/blog/2016/09/08/how-to-setup-a-ha-kubernetes-cluster-preparing-the-nodes.html)
-* [How to set up a HA Kubernetes cluster: master components](https://developer.epages.com/blog/2016/10/18/how-to-setup-a-kubernetes-cluster-master-components.html)
+* [How to set up a HA Kubernetes cluster: etcd cluster with SSL](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl/)
+* [How to set up a HA Kubernetes cluster: preparing the nodes](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-preparing-the-nodes/)
+* [How to set up a HA Kubernetes cluster: master components](/blog/tech-stories/how-to-setup-a-kubernetes-cluster-master-components/)

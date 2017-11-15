@@ -1,4 +1,4 @@
-(function() {
+$(window).on('load', function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
 
@@ -15,7 +15,7 @@
                 <h3 class="card--post__title">' + post.title + '</h3> \
                 <div class="card--post__footer"> \
                   <p class="card--post__author">' + post.authors + '</p> \
-                  <p class="card--post__date">' + new Date(post.date).toString("MMM d, yyyy") + '</p> \
+                  <p class="card--post__date">' + Date.parse(post.date).toString("MMM d, yyyy") + '</p> \
                 </div> \
               </div> \
             </a> \
@@ -42,34 +42,36 @@
     }
   }
 
-  var searchTerm = getQueryVariable('query');
+  setTimeout(function() {
+    var searchTerm = getQueryVariable('query');
 
-  if (searchTerm) {
-    var searchBox = document.getElementById('search-box');
-    searchBox.setAttribute("value", searchTerm);
-    searchBox.className += ' navigation__search-input--open';
+    if (searchTerm) {
+      var searchBox = document.getElementById('search-box');
+      searchBox.setAttribute("value", searchTerm);
+      searchBox.className += ' navigation__search-input--open';
 
-    var idx = lunr(function () {
-      this.field('id');
-      this.field('title', { boost: 10 });
-      this.field('category');
-      this.field('tags');
-      this.field('authors');
-      this.field('content');
-    });
-
-    for (var key in window.store) {
-      idx.add({
-        'id': key,
-        'title': window.store[key].title,
-        'category': window.store[key].category,
-        'tags': window.store[key].tags,
-        'authors': window.store[key].authors,
-        'content': window.store[key].content
+      var idx = lunr(function () {
+        this.field('id');
+        this.field('title', { boost: 10 });
+        this.field('category');
+        this.field('tags');
+        this.field('authors');
+        this.field('content');
       });
 
-      var results = idx.search(searchTerm);
-      displaySearchResults(results, window.store);
+      for (var key in window.store) {
+        idx.add({
+          'id': key,
+          'title': window.store[key].title,
+          'category': window.store[key].category,
+          'tags': window.store[key].tags,
+          'authors': window.store[key].authors,
+          'content': window.store[key].content
+        });
+
+        var results = idx.search(searchTerm);
+        displaySearchResults(results, window.store);
+      }
     }
-  }
-})();
+  }, 1000);
+});

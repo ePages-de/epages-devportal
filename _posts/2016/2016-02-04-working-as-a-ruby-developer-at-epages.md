@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working as a Ruby Developer at ePages"
-date: "2016-02-04 11:16:17"
+date: 2016-02-04
 header_image: ruby-dev.jpg
 category: on-the-job
 authors: ["Birgit, Serena", "Domingo"]
@@ -92,9 +92,9 @@ I like the flexible working hours.
 You can choose the computer you want (I chose the MAC book, of course 😉.)
 The colleagues are amazing.
 And ePages does great company events.
-We had a great [YOU](https://developer.epages.com/blog/2015/09/21/annual-company-event-epagees-rock-the-you.html) and a very funny New Year's Kick-off.
+We had a great [YOU](/blog/events/annual-company-event-epagees-rock-the-you/) and a very funny New Year's Kick-off.
 We do internal hackathons.
-And there was an [R&amp;D day](https://developer.epages.com/blog/2015/09/15/rnd-day-2015.html), where all developers from all locations came together for knowledge exchange.
+And there was an [R&amp;D day](/blog/tech-stories/rnd-day-2015/), where all developers from all locations came together for knowledge exchange.
 
 ### What qualities does an applicant need to fit into the team?
 
@@ -105,5 +105,5 @@ He (or she!) should be a team-player, communicative, motivated and show interest
 
 ## Related posts
 
-* [How ePages gives new developers a great start](https://developer.epages.com/blog/2015/07/07/how-epages-gives-new-developers-a-great-start.html)
-* [One month as an ePagee](https://developer.epages.com/blog/2015/08/11/one-month-as-an-epagee.html)
+* [How ePages gives new developers a great start](/blog/on-the-job/how-epages-gives-new-developers-a-great-start/)
+* [One month as an ePagee](/blog/on-the-job/one-month-as-an-epagee/)

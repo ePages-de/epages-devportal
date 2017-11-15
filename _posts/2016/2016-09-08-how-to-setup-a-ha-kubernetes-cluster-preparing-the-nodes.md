@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to set up a HA Kubernetes cluster: preparing the nodes"
-date: "2016-09-08 07:16:17"
+date: 2016-09-08
 header_image: kubernetes-docker-flanneld-logo.jpg
 category: tech-stories
 authors: ["Karsten P."]
@@ -66,7 +66,7 @@ For this purpose flanneld creates its own virtual network interface and must the
 ### Create *etcd* client certificates
 
 Kubernetes nodes need a client certificate because each user of the *etcd* cluster has to authenticate.
-It can be created as described in [the first part of this blog post series](https://developer.epages.com/blog/2016/08/09/how-to-setup-a-kubernetes-cluster-etcd-cluster-with-ssl.html) but there are differences in the _openssl.cnf_.
+It can be created as described in [the first part of this blog post series](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl/) but there are differences in the _openssl.cnf_.
 The _openssl.cnf_ has a simpler structure as flanneld has to identify itself as client only.
 
 {% highlight bash %}
@@ -259,4 +259,4 @@ It uses its own *drop-in* to be able to handle the parameters provided by *flann
 
 ## Related posts
 
-* [How to set up a HA Kubernetes cluster: etcd cluster with SSL](https://developer.epages.com/blog/2016/08/09/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl.html)
+* [How to set up a HA Kubernetes cluster: etcd cluster with SSL](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl/)

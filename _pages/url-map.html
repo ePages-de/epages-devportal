@@ -4,5 +4,5 @@ permalink: /url-map/
 ---
 
 {% for post in site.posts %}
-rewrite ^/blog/{{ post.date | date: "%Y" }}/{{ post.date | date: "%m" }}/{{ post.date | date: "%d" }}/{{ post.slug }}$ https://developer.epages.com{{ post.url }} redirect;<br />
+rewrite ^/blog/{{ post.date | date: "%Y" }}/{{ post.date | date: "%m" }}/{{ post.date | date: "%d" }}/{{ post.slug }}.html$ https://developer.epages.com{{ post.url }} redirect;<br />
 {% endfor %}
