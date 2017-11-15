@@ -46,5 +46,5 @@ As a reference to this, I'm wrapping up with this quote:
 
 ## Related posts
 
-* [devoxx Belgium 2017 - Day 1](https://developer.epages.com/blog/2017/11/09/devoxx-belgium-2017-day-1.html)
-* [devoxx Belgium 2017 - Day 2](https://developer.epages.com/blog/2017/11/10/devoxx-belgium-2017-day-2.html)
+* [devoxx Belgium 2017 - Day 1](/blog/events/devoxx-belgium-2017-day-1/)
+* [devoxx Belgium 2017 - Day 2](/blog/events/devoxx-belgium-2017-day-2/)

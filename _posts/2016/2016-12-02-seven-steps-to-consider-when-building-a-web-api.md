@@ -43,7 +43,7 @@ These objectives will be called at different times.
 * Implement an option to change these limits with configuration.
 You will find the ideal limit by using your API in real life.
 * Return information about the limitation in the response.
-Use headers for these information as in the [ePages REST API](https://developer.epages.com/apps/api-call-limit).
+Use headers for these information as in the [ePages REST API](/apps/api-call-limit.html).
 
 ## 4 Provide an SDK
 
@@ -52,7 +52,7 @@ It's recommended to provide an SDK (at least for the common programming language
 
 * Make the SDK code public (e.g. on [GitHub](https://github.com)), so that external developers can extend the code later on.
 
-At [ePages](https://developer.epages.com), we currently have 2 SDKs: [Ruby](https://developer.epages.com/apps/ruby-gem) and [PHP](https://developer.epages.com/apps/php-client).
+At [ePages](/), we currently have 2 SDKs: [Ruby](/apps/ruby-gem.html) and [PHP](/apps/php-client.html).
 
 ## 5 Use automation services
 

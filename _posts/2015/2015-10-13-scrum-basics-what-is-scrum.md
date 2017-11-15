@@ -76,21 +76,21 @@ It also shows if one person is working on too many tickets at the same time or i
 
 At ePages we only have one team that is using a paper board.
 Having a visual board present in the room at all times has more advantages for them.
-The quick and easy way of adding tasks to stories (more about that in [ Estimating](https://developer.epages.com/blog/2016/01/26/scrum-basics-4.html)) outbalance the higher administrative effort that occurs because one has to maintain the tickets on the physical board as well as in Jira.
+The quick and easy way of adding tasks to stories (more about that in [ Estimating](/blog/methods-and-tools/scrum-basics-estimating/)) outbalance the higher administrative effort that occurs because one has to maintain the tickets on the physical board as well as in Jira.
 The other teams are using Jira Boards.
 
 ## What will be next?
 
 Scrum defines three roles, which are Product Owner, Scrum Master and the Development Team.
-Those roles will be discussed in detail in the [next part](https://developer.epages.com/blog/2015/11/19/scrum-basics-2.html) of this Scrum Basics Series.
+Those roles will be discussed in detail in the [next part](/blog/methods-and-tools/scrum-basics-scrum-roles/) of this Scrum Basics Series.
 
 Next to the roles Scrum brings four standard meetings: Sprint Planning, Daily Standup, Sprint Review and the Retrospective.
-We will talk about these meetings in detail in [Scrum Meetings](https://developer.epages.com/blog/2015/12/15/scrum-basics-3.html).
+We will talk about these meetings in detail in [Scrum Meetings](/blog/methods-and-tools/scrum-basics-scrum-meetings/).
 
 ## Related posts
 
-* [Scrum Basics: Scrum Roles](https://developer.epages.com/blog/2015/11/19/scrum-basics-scrum-roles.html)
-* [Scrum Basics: Scrum Meetings](https://developer.epages.com/blog/2015/12/15/scrum-basics-scrum-meetings.html)
-* [Scrum Basics: Estimating](https://developer.epages.com/blog/2016/01/26/scrum-basics-estimating.html)
-* [Scrum Basics: Principles and Values](https://developer.epages.com/blog/2016/02/25/scrum-basics-principles-and-values.html)
-* [Scrum Basics: Practicing it](https://developer.epages.com/blog/2016/03/22/scrum-basics-practicing-it.html)
+* [Scrum Basics: Scrum Roles](/blog/methods-and-tools/scrum-basics-scrum-roles/)
+* [Scrum Basics: Scrum Meetings](/blog/methods-and-tools/scrum-basics-scrum-meetings/)
+* [Scrum Basics: Estimating](/blog/methods-and-tools/scrum-basics-estimating/)
+* [Scrum Basics: Principles and Values](/blog/methods-and-tools/scrum-basics-principles-and-values/)
+* [Scrum Basics: Practicing it](/blog/methods-and-tools/scrum-basics-practicing-it/)

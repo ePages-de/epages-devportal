@@ -7,7 +7,7 @@ category: tech-stories
 authors: ["Manel"]
 ---
 
-In a [previous blog post](https://developer.epages.com/blog/2015/11/03/payment-integrations.html), Xavi explained the standard payment flow model that we use for a long time.
+In a [previous blog post](/blog/tech-stories/payment-integrations/), Xavi explained the standard payment flow model that we use for a long time.
 In fact, flows between different payments or shippings have differences in architecture (SOAP or REST), as well as the requested data, and even the steps required.
 
 ## Standard flow for payments and shipping
