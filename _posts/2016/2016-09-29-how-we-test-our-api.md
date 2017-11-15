@@ -7,7 +7,7 @@ category: api-experience
 authors: ["Ulf B."]
 ---
 
-A few years ago, at the time when the development of the [ePages REST API](https://developer.epages.com/apps) started,
+A few years ago, at the time when the development of the [ePages REST API](/apps) started,
 ePages 6 was a huge monolith written in Perl and already hard to handle.
 The objective was to not further inflate the monolith, but rather be able to use state-of-the-art frameworks.
 Therefore, the REST API was initiated as a separate service implemented in Java.

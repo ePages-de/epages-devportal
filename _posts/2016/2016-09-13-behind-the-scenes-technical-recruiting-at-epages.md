@@ -73,5 +73,5 @@ I want to know what the applicant wants to do or to learn.
 
 ## Related posts
 
-* [5 steps to make you feel comfortable in your new job](https://developer.epages.com/blog/2016/08/04/5-steps-to-make-you-feel-comfortable-in-your-new-job.html)
-* [Working as a Software Developer at ePages](https://developer.epages.com/blog/2016/06/01/working-as-a-software-developer-at-epages.html)
+* [5 steps to make you feel comfortable in your new job](/blog/on-the-job/5-steps-to-make-you-feel-comfortable-in-your-new-job/)
+* [Working as a Software Developer at ePages](/blog/on-the-job/working-as-a-software-developer-at-epages/)

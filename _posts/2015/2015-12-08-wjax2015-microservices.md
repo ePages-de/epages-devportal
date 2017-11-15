@@ -77,4 +77,4 @@ Some tools like [Netflix/eureka](https://github.com/Netflix/eureka) help to moni
 
 ## Related post
 
-[W-JAX 2015 Retrospect Part 1: Agile Day](https://developer.epages.com/blog/2015/11/30/wjax2015-agile-day.html)
+[W-JAX 2015 Retrospect Part 1: Agile Day](/blog/events/wjax2015-agile-day/)
