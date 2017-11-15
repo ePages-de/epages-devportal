@@ -8,7 +8,7 @@ authors: ["Anja B."]
 ---
 
 Welcome back to part three of our Scrum Basics Series which deals with Scrum Meetings.
-Most of these meetings you might have already noticed on the Scrum Framework Picture of my post [What is Scrum](https://developer.epages.com/blog/2015/10/13/scrum-basics-1.html).
+Most of these meetings you might have already noticed on the Scrum Framework Picture of my post [What is Scrum](/blog/methods-and-tools/scrum-basics-what-is-scrum/).
 
 So let's jump right into Scrum Meetings:
 
@@ -155,8 +155,8 @@ It should clarify cross-team problems and remove dependencies between the teams.
 
 ## Related posts
 
-* [Scrum Basics: What is Scrum?](https://developer.epages.com/blog/2015/10/13/scrum-basics-what-is-scrum.html)
-* [Scrum Basics: Scrum Roles](https://developer.epages.com/blog/2015/11/19/scrum-basics-scrum-roles.html)
-* [Scrum Basics: Estimating](https://developer.epages.com/blog/2016/01/26/scrum-basics-estimating.html)
-* [Scrum Basics: Principles and Values](https://developer.epages.com/blog/2016/02/25/scrum-basics-principles-and-values.html)
-* [Scrum Basics: Practicing it](https://developer.epages.com/blog/2016/03/22/scrum-basics-practicing-it.html)
+* [Scrum Basics: What is Scrum?](/blog/methods-and-tools/scrum-basics-what-is-scrum/)
+* [Scrum Basics: Scrum Roles](/blog/methods-and-tools/scrum-basics-scrum-roles/)
+* [Scrum Basics: Estimating](/blog/methods-and-tools/scrum-basics-estimating/)
+* [Scrum Basics: Principles and Values](/blog/methods-and-tools/scrum-basics-principles-and-values/)
+* [Scrum Basics: Practicing it](/blog/methods-and-tools/scrum-basics-practicing-it/)

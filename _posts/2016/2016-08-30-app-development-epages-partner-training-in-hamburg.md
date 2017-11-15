@@ -15,7 +15,7 @@ Quick overview of the agenda:
 
 * Developer Basics
 * Development of ePages internal modules
-* The ePages [REST API](https://developer.epages.com/apps)
+* The ePages [REST API](/apps)
 * Developing an app via REST
 * Introduction to our new responsive storefront and optimized administration area
 * Q&A session

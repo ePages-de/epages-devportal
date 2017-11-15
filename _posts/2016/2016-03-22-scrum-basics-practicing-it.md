@@ -47,8 +47,9 @@ And a small hint on the side: if you don’t clean up after that exercise, you w
 
 ## Related posts
 
-* [Scrum Basics: What is Scrum?](https://developer.epages.com/blog/2015/10/13/scrum-basics-what-is-scrum.html)
-* [Scrum Basics: Scrum Roles](https://developer.epages.com/blog/2015/11/19/scrum-basics-scrum-roles.html)
-* [Scrum Basics: Scrum Meetings](https://developer.epages.com/blog/2015/12/15/scrum-basics-scrum-meetings.html)
-* [Scrum Basics: Estimating](https://developer.epages.com/blog/2016/01/26/scrum-basics-estimating.html)
-* [Scrum Basics: Principles and Values](https://developer.epages.com/blog/2016/02/25/scrum-basics-principles-and-values.html)
+* [Scrum Basics: What is Scrum?](/blog/methods-and-tools/scrum-basics-what-is-scrum/)
+* [Scrum Basics: Scrum Roles](/blog/methods-and-tools/scrum-basics-scrum-roles/)
+* [Scrum Basics: Scrum Meetings](/blog/methods-and-tools/scrum-basics-scrum-meetings/)
+* [Scrum Basics: Estimating](/blog/methods-and-tools/scrum-basics-estimating/)
+* [Scrum Basics: Principles and Values](/blog/methods-and-tools/scrum-basics-principles-and-values/)
+

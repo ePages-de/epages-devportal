@@ -268,6 +268,12 @@ task :test_html do
   HTMLProofer.check_directory('./_site', options).run
 end
 
+task :test do
+  sh 'rake test_html'
+  sh 'rake test_files'
+  sh 'rake test_posts'
+end
+
 task :write do
   config_file = '_config.yml'
   write_file  = '_config_write.yml'

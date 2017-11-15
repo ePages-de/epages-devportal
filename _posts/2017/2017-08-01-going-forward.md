@@ -8,7 +8,7 @@ authors: ["Carsten", "Karsten"]
 ---
 
 Long time no see guys.
-In our last blogpost we talked about [pipelines](https://developer.epages.com/blog/2015/08/03/creating-systems-with-pipelining.html).
+In our last blogpost we talked about [pipelines](/blog/tech-stories/creating-systems-with-pipelining/).
 Today we take a deeper look into some of the special parts of these pipelines.
 This post deals with an i-doit backend library written in [go(lang)](https://golang.org/).
 
