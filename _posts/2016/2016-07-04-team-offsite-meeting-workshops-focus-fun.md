@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Team offsite meeting: workshops, focus, and fun"
-date: "2016-07-04 13:37:42"
+date: 2016-07-04
 header_image: ep6offsite2016.jpg
 category: events
 authors: ["Sandra", "Oliver Z."]

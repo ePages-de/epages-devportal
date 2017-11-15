@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why I love working as a Scrum Master"
-date: "2017-02-23 07:00:00"
+date: 2017-02-23
 header_image: scrum-ann-katrin.jpg
 category: on-the-job
 authors: ["Rose", "Ann-Katrin"]

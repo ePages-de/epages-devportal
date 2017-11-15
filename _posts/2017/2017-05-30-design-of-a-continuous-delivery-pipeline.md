@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Design of a continuous delivery pipeline"
-date: "2017-05-30 07:00:00"
+date: 2017-05-30
 header_image: microservices-pipeline-1.jpg
 category: tech-stories
 authors: ["Benjamin", "Nicole"]

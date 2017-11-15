@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On the way to full stack ECMAScript 6"
-date: "2015-11-16 12:00:00"
+date: 2015-11-16
 header_image: module.jpg
 category: coding
 authors: ["Paolo"]

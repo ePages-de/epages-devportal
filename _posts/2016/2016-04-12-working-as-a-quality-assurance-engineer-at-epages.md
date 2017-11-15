@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working as a QA Engineer at ePages"
-date: "2016-04-12 07:16:17"
+date: 2016-04-12
 header_image: qa-dev.jpg
 category: on-the-job
 authors: ["Birgit, Serena", "Vlad"]

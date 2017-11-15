@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Microservices Meetup: Service Discovery"
-date: "2016-02-09 07:16:34"
+date: 2016-02-09
 header_image: microservice-meetup.jpg
 category: events
 authors: ["Mathias"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working as a UI Designer at ePages"
-date: "2016-12-15 12:11:00"
+date: 2016-12-15"
 header_image: ui-designer.jpg
 category: on-the-job
 authors: ["Rose, Serena", "Verena"]
