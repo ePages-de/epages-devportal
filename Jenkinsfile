@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      when { anyOf { branch 'master'; branch 'develop' } }
+      when { anyOf { branch 'master'; branch 'develop'; expression { BRANCH_NAME ==~ /PR-\d*/ } } }
       steps {
         sh '''
           source ~/.bash_profile
@@ -17,7 +17,7 @@ pipeline {
       }
     }
     stage('Test') {
-      when { anyOf { branch 'master'; branch 'develop' } }
+      when { anyOf { branch 'master'; branch 'develop'; expression { BRANCH_NAME ==~ /PR-\d*/ } } }
       steps {
         sh '''
           source ~/.bash_profile

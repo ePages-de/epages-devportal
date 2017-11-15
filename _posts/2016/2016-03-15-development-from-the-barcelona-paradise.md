@@ -75,6 +75,6 @@ And that's all more or less. I hope you enjoyed reading.
 
 ## Related posts
 
-* [Working as a Ruby Developer at ePages](https://developer.epages.com/blog/2016/02/04/working-as-a-ruby-developer-at-epages.html)
-* [How ePages gives new developers a great start](https://developer.epages.com/blog/2015/07/07/how-epages-gives-new-developers-a-great-start.html)
-* [One month as an ePagee](https://developer.epages.com/blog/2015/08/11/one-month-as-an-epagee.html)
+* [Working as a Ruby Developer at ePages](/blog/on-the-job/working-as-a-ruby-developer-at-epages/)
+* [How ePages gives new developers a great start](/blog/on-the-job/how-epages-gives-new-developers-a-great-start/)
+* [One month as an ePagee](/blog/on-the-job/one-month-as-an-epagee/)

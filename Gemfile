@@ -9,10 +9,6 @@ gem 'capistrano', '3.8.1', require: false
 gem 'capistrano-rbenv', require: false
 gem 'capistrano-bundler', require: false
 
-group :development do
-  gem 'jekyll-livereload'
-end
-
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-admin'
