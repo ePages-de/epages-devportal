@@ -9,10 +9,6 @@ gem 'capistrano', '3.8.1', require: false
 gem 'capistrano-rbenv', require: false
 gem 'capistrano-bundler', require: false
 
-group :development do
-  gem 'jekyll-livereload'
-end
-
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-admin'
@@ -21,6 +17,7 @@ group :jekyll_plugins do
   gem 'rouge'
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-livereload'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
