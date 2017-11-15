@@ -1,0 +1,21 @@
+<div class="card  tile">
+  <div class="tile__header  tile__header--{{ include.class }}">
+    <h2 class="tile__title">{{ include.title }}</h2>
+  </div>
+  <div class="tile__body">
+    <p>{{ include.body }}</p>
+
+    <ul class="tile__list">
+      {% for item in include.list %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+
+    <p><a href="{{ include.signup }}" target="{{ include.signup_target }}">Sign up</a> for an account</p>
+
+    <a href="{{ include.docs }}" class="form__cta  form__cta--{{ include.class }}  tile__cta" target="{{ include.docs_target }}">{{ include.cta }}</a>
+  </div>
+  {% if include.flag %}
+    <div class="tile__flag">{{ include.flag }}</div>
+  {% endif %}
+</div>
