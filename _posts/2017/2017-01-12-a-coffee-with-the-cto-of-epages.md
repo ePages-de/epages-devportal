@@ -21,8 +21,8 @@ First it was mainly about refining, enhancing, and adding value to our current c
 Furthermore, we had to hire a lot of developers and established a new development location in Hamburg.
 
 ePages 6 is our very first and core product, which has a wide range of features and functionalities that our customers highly appreciate.
-Over the past two years, we extended and enhanced ePages 6 with the [REST API](https://developer.epages.com/apps), which consequently allowed us to facilitate an [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/) as well as a [Theme Store](https://themes.epages.com/en/).
-Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/) through the [REST API](https://developer.epages.com/apps) and launched the beta phase by the end of last year.
+Over the past two years, we extended and enhanced ePages 6 with the [REST API](/apps), which consequently allowed us to facilitate an [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/) as well as a [Theme Store](https://themes.epages.com/en/).
+Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/) through the [REST API]/apps) and launched the beta phase by the end of last year.
 
 ### How did you come up with the idea of ePages Now - a product with improved usability?
 
@@ -98,7 +98,7 @@ All in all, we reduced a lot of uncertainties with this improved recruiting proc
 
 Well yes.
 I introduced our [epagesdevs](https://twitter.com/epagesdevs) Twitter channel and pushed for the implementation of a developer blog, as I noticed the lack of employer branding in the community.
-The teams alternate every month with writing tech stories that are related to their work. They use the markdown structure and [git](https://git-scm.com/) and do pull requests on [GitHub](https://github.com/) which are then reviewed by our [technical writer](https://developer.epages.com/blog/2016/11/30/what-its-like-to-be-an-agile-technical-writer.html).
+The teams alternate every month with writing tech stories that are related to their work. They use the markdown structure and [git](https://git-scm.com/) and do pull requests on [GitHub](https://github.com/) which are then reviewed by our [technical writer](/blog/methods-and-tools/what-its-like-to-be-an-agile-technical-writer/).
 This way, and by using [Jekyll](http://jekyllrb.com/) as a static blog engine, we integrated the blogging workflow into the developers' familiar work environment, which increased their motivation and contribution ratio to the blog a lot.
 
 ### What does your typical working day look like?
@@ -106,7 +106,7 @@ This way, and by using [Jekyll](http://jekyllrb.com/) as a static blog engine, w
 In the morning I usually cycle to work.
 I always enjoy the bike ride along the beautiful Elbe to distract myself.
 When arriving at ePages, I go through all offices saying "Hi" to everyone and eventually quickly clarify pending tasks or uncertainties.
-Then I check new emails and try to attend as many [team reviews](https://developer.epages.com/blog/2015/12/15/scrum-basics-scrum-meetings.html) as possible during the day, even if it's from remote.
+Then I check new emails and try to attend as many [team reviews](/blog/methods-and-tools/scrum-basics-scrum-meetings/) as possible during the day, even if it's from remote.
 
 Furthermore, I attempt to keep myself up-to-date on the latest technology trends, and news.
 I regularly have dedicated meetings concerning various technology approaches as well as lunch with different teams.

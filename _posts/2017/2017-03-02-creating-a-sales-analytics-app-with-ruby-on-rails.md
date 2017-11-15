@@ -9,8 +9,8 @@ authors: ["Unai M."]
 
 One of the languages that we use the most in my team is [Ruby](https://www.ruby-lang.org).
 We love the syntax, the simplicity and the big and active community around it.
-Some time ago, [we wrote about our SDK](https://developer.epages.com/blog/2016/02/02/on-the-way-to-a-ruby-sdk.html) for the ePages shops and lots of things have changed since then.
-We've kept developing it to support more operations, such as data pagination and also to keep up with the releases of our colleagues from the [API development team](https://developer.epages.com/apps).
+Some time ago, [we wrote about our SDK](/blog/tech-stories/on-the-way-to-a-ruby-sdk/) for the ePages shops and lots of things have changed since then.
+We've kept developing it to support more operations, such as data pagination and also to keep up with the releases of our colleagues from the [API development team](/apps).
 
 ## Status of the SDK
 

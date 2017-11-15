@@ -8,10 +8,10 @@ authors: ["Rose"]
 ---
 
 At [ePages](https://www.epages.com/us/) we develop e-commerce solutions.
-Thus, we had enough techies around that supported us setting up a [company tech blog](https://developer.epages.com/blog).
-Our [API documentation](https://developer.epages.com/apps) was already [Jekyll](https://jekyllrb.com/)-based.
+Thus, we had enough techies around that supported us setting up a [company tech blog](/blog).
+Our [API documentation](/apps) was already [Jekyll](https://jekyllrb.com/)-based.
 As Jekyll is a blog engine, it came natural to use it also as a platform for our tech blog.
-The epagesdevs social media adventure, including the [blog](https://developer.epages.com/blog) as well as a [Twitter account](https://twitter.com/epagesdevs), started two years ago.
+The epagesdevs social media adventure, including the [blog](/blog) as well as a [Twitter account](https://twitter.com/epagesdevs), started two years ago.
 
 In the following, I will give you some detailed insights on what we have learned ever since we began our social media journey and how we engaged in the developer community with our tech blog and Twitter.
 
@@ -26,11 +26,14 @@ Furthermore, we are establishing new APIs, actively live Scrum and agile process
 Not to forget that we're proud of our company culture and familiar working atmosphere.
 Having this in mind, made us come up with the following main categories for our blog:
 
-* [Tech Stories](https://developer.epages.com/blog/categories/tech-stories/)
-* [Working at ePages](https://developer.epages.com/blog/categories/working-at-epages/)
-* [Events](https://developer.epages.com/blog/categories/events/)
-* [API](https://developer.epages.com/blog/categories/api/)
-* [Agile](https://developer.epages.com/blog/categories/agile/)
+* [API Expereince](/blog/api-experience/)
+* [Coding](/blog/coding/)
+* [Events](/blog/events/)
+* [Language & Localization](/blog/language-and-localization/)
+* [Methods & Tools](/blog/methods-and-tools/)
+* [On the job](/blog/on-the-job/)
+* [Tech Stories](/blog/tech-stories/)
+* [TechComm & Social Media](/blog/techcomm-and-socialmedia/)
 
 Planning our content ahead not only saves us lots of unnecessary stress when it comes to fresh content ideas, but also lets us see the big picture.
 Therefore, we developed an editorial calendar to determine who would cover which topic area for a respective publication date.
@@ -70,7 +73,7 @@ Google Analytics, on the other hand, is a very powerful instrument when it comes
 ## Sharing is caring: the Twitter magic
 
 Every blog post we publish, we also share on our [epagesdevs Twitter](https://twitter.com/epagesdevs) channel and encourage our colleagues and followers to engage in the sharing fun.
-To increase our readership, we not only tweet about our latest blog post publications but also promote articles from the archives, publish our [job openings](https://developer.epages.com/devjobs) or retweet other relevant content for our followers.
+To increase our readership, we not only tweet about our latest blog post publications but also promote articles from the archives, publish our [job openings](/devjobs) or retweet other relevant content for our followers.
 [Twitter](https://twitter.com/) is the most suitable social media platform when it comes to getting engaged with the developer community.
 
 Yet, you should not underestimate the additional workload that the maintenance of a Twitter account implies.

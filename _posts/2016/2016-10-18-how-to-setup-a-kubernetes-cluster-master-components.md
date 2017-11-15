@@ -12,7 +12,7 @@ Among others we will have a look at the characteristics of an API server in an H
 
 ## Systemd service definition
 
-Since [kubelet is already installed on all kubernetes nodes](https://developer.epages.com/blog/2016/09/08/kubernetes-preparing-nodes.html) we continue with the service definition on the master nodes.
+Since kubelet is already installed on all kubernetes nodes we continue with the service definition on the master nodes.
 For the communication with the API server the local port _8080_ is used on the master nodes:
 
 {% highlight bash %}
@@ -395,5 +395,5 @@ Once the namespace _kube-system_ is created (after the start of the API server) 
 
 # Related posts
 
-* [How to set up a HA Kubernetes cluster: etcd cluster with SSL](https://developer.epages.com/blog/2016/08/09/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl.html)
-* [How to set up a HA Kubernetes cluster: preparing the nodes](https://developer.epages.com/blog/2016/09/08/how-to-setup-a-ha-kubernetes-cluster-preparing-the-nodes.html)
+* [How to set up a HA Kubernetes cluster: etcd cluster with SSL](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl/)
+* [How to set up a HA Kubernetes cluster: preparing the nodes](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-preparing-the-nodes/)
