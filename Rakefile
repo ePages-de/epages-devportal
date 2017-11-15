@@ -293,9 +293,11 @@ task :write do
   exclude['exclude'].push '_pages/categories/'
   exclude['exclude'].push '_pages/api/categories/'
   exclude['exclude'].push '_pages/404.html'
-  exclude['exclude'].push '_pages/search.html'
-  exclude['exclude'].push '_pages/devjobs.html'
   exclude['exclude'].push '_pages/about.md'
+  exclude['exclude'].push '_pages/devjobs.html'
+  exclude['exclude'].push '_pages/index.html'
+  exclude['exclude'].push '_pages/search.html'
+  exclude['exclude'].push '_pages/terms-and-conditions.md'
   exclude['exclude'].push *(date_from.year..date_to.prev_year.year).map { |d| "_posts/#{d}" }.uniq
   exclude['exclude'].push *(Date.new(date_to.year)..date_to).map { |d| "_posts/#{d.year}/#{d.year}-#{'%02d' % d.month}-*" }.uniq
 

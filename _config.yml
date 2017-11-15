@@ -59,11 +59,8 @@ category_list:
 
 pagination:
   enabled: true
-  collection: 'posts'
   per_page: 6
-  permalink: '/page-:num'
-  title: ':title'
   sort_reverse: true
-  trail:
-    before: 2
-    after: 2
+  permalink: page-:num
+  extension: json
+  indexpage: page-1
