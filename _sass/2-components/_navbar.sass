@@ -50,12 +50,11 @@
         flex-direction: row
 
     &__item
-      padding: 1em
       border-bottom: $navbar-border
       display: inherit
 
       +grid-media($grid-medium)
-        padding: 0
+        padding: 1em 0
         border-bottom: none
 
         &:not(:last-child)
@@ -68,6 +67,10 @@
       color: $base-font-color-white
       display: block
       width: 100%
+      padding: 1em
+
+      +grid-media($grid-medium)
+        padding: 0
 
       &:hover,
       &:focus,
@@ -104,9 +107,11 @@
 
     &__search-form
       width: 100%
+      padding: 1em
 
       +grid-media($grid-medium)
         width: auto
+        padding: 0
 
     &__search-input
       outline: none
