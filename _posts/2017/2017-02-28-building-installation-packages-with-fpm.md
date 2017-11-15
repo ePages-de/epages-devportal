@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building installation packages with FPM"
-date: "2017-02-28 07:00:00"
+date: 2017-02-28
 header_image: code-fpm.jpg
 category: coding
 authors: ["Maik", "Wolf"]

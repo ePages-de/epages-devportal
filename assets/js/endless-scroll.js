@@ -7,7 +7,7 @@ $(document).ready(function() {
     var bodyHeight = $(document).height() - windowHeight;
     var scrollPercentage = (scrollTop / bodyHeight);
 
-    if (scrollPercentage > 0.9 && !(typeof $('#loading').attr('data-next') === 'undefined')) {
+    if (scrollPercentage > 0.9 && !(typeof $('#loading').attr('data-next') === 'undefined') && !$.active) {
       loadPosts();
     }
   });
@@ -28,7 +28,7 @@ $(document).ready(function() {
                   <h3 class="card--post__title">' + post.title + '</h3> \
                   <div class="card--post__footer"> \
                     <p class="card--post__author">' + post.authors + '</p> \
-                    <p class="card--post__date">' + new Date(post.date).toString("MMM d, yyyy") + '</p> \
+                    <p class="card--post__date">' + Date.parse(post.date).toString("MMM d, yyyy") + '</p> \
                   </div> \
                 </div> \
               </a> \

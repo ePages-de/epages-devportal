@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Versioning of microservices"
-date: "2017-06-20 07:00:00"
+date: 2017-06-20
 header_image: microservices-pipeline-2.jpg
 category: tech-stories
 authors: ["Benjamin", "Nicole"]
@@ -74,4 +74,4 @@ Thanks for reading and stay tuned for the next post about handling failures in t
 
 ## Related post
 
-[Design of a continuous delivery pipeline](https://developer.epages.com/blog/2017/05/30/design-of-a-continuous-delivery-pipeline.html)
+[Design of a continuous delivery pipeline](/blog/tech-stories/design-of-a-continuous-delivery-pipeline/)

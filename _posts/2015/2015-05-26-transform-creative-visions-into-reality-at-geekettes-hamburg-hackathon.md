@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Transform creative visions into reality @Geekettes Hamburg Hackathon"
-date: "2015-05-28 10:30:00"
+date: 2015-05-28
 header_image: geekettes-2015.png
 category: events
 authors: ["Andreas"]

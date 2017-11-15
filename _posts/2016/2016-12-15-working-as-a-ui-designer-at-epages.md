@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working as a UI Designer at ePages"
-date: "2016-12-15 12:11:00"
+date: 2016-12-15"
 header_image: ui-designer.jpg
 category: on-the-job
 authors: ["Rose, Serena", "Verena"]
@@ -105,9 +105,9 @@ I then have the chance to see my colleagues from Jena and Barcelona.
 
 ## Related posts
 
-* [Behind the scenes: TechRecruiting at ePages](https://developer.epages.com/blog/2016/09/13/behind-the-scenes-technical-recruiting-at-epages.html)
-* [5 steps to make you feel comfortable in your new job](https://developer.epages.com/blog/2016/08/04/5-steps-to-make-you-feel-comfortable-in-your-new-job.html)
-* [Working as a QA Engineer at ePages](https://developer.epages.com/blog/2016/04/12/working-as-a-quality-assurance-engineer-at-epages.html)
-* [Working as a Software Developer at ePages](https://developer.epages.com/blog/2016/06/01/working-as-a-software-developer-at-epages.html)
-* [Working as a Java Developer at ePages](https://developer.epages.com/blog/2016/03/01/working-as-a-java-developer-at-epages.html)
-* [Working as a Ruby Developer at ePages](https://developer.epages.com/blog/2016/02/04/working-as-a-ruby-developer-at-epages.html)
+* [Behind the scenes: TechRecruiting at ePages](/blog/on-the-job/behind-the-scenes-technical-recruiting-at-epages/)
+* [5 steps to make you feel comfortable in your new job](/blog/on-the-job/5-steps-to-make-you-feel-comfortable-in-your-new-job/)
+* [Working as a QA Engineer at ePages](/blog/on-the-job/working-as-a-quality-assurance-engineer-at-epages/)
+* [Working as a Software Developer at ePages](/blog/on-the-job/working-as-a-software-developer-at-epages/)
+* [Working as a Java Developer at ePages](/blog/on-the-job/working-as-a-java-developer-at-epages/)
+* [Working as a Ruby Developer at ePages](/blog/on-the-job/working-as-a-ruby-developer-at-epages/)

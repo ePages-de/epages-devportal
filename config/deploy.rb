@@ -15,17 +15,28 @@ set :deploy_via,      :remote_cache
 set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
 
+namespace :deploy do
+  after :updated, :jekyll_tasks do
+    on roles(:app)do
+      invoke 'jekyll:prepare_files'
+    end
+  end
+end
+
 namespace :jekyll do
   desc 'Move needed files to current'
   task :prepare_files do
     on roles(:app)do
-      execute("rm -f /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/Gemfile.lock")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/build-production.sh /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/build-production.sh")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/docker-compose.production.yml /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/docker-compose.production.yml")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Dockerfile-production /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/Dockerfile-production")
-      execute("chmod 755 /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/build-production.sh")
-      execute("chmod 755 /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/docker-compose.production.yml")
-      execute("chmod 755 /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/Dockerfile-production")
+      execute("cd #{release_path}; rm -f Gemfile.lock")
+      execute("cd #{release_path}; rm -f Gemfile")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/build-production.sh #{release_path}/build-production.sh")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/docker-compose.production.yml #{release_path}/docker-compose.production.yml")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Dockerfile-production #{release_path}/Dockerfile-production")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Gemfile #{release_path}/Gemfile")
+      execute("chmod 755 #{release_path}/build-production.sh")
+      execute("chmod 755 #{release_path}/docker-compose.production.yml")
+      execute("chmod 755 #{release_path}/Dockerfile-production")
+      execute("chmod 755 #{release_path}/Gemfile")
     end
   end
 
@@ -41,9 +52,9 @@ namespace :jekyll do
   desc 'Add the old docs to _site'
   task :include_old_docs do
     on roles(:app) do
-      execute("mkdir /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/_site/apps")
-      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/apps/* /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/_site/apps")
-      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/assets/* /home/#{fetch(:user)}/apps/#{fetch(:application)}/current/_site/assets")
+      execute("mkdir #{release_path}/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/apps/* #{release_path}/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/assets/* #{release_path}/_site/assets")
       execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps/#{fetch(:application)}")
     end
   end
@@ -58,7 +69,6 @@ namespace :jekyll do
     end
   end
 
-  after :deploy, 'jekyll:prepare_files'
   after :prepare_files, :build
   after :build, :include_old_docs
   after :include_old_docs, :clean_up

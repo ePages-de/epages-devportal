@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Why I love working as a Scrum Master"
-date: "2017-02-23 07:00:00"
+date: 2017-02-23
 header_image: scrum-ann-katrin.jpg
 category: on-the-job
 authors: ["Rose", "Ann-Katrin"]
 ---
 
-As already discussed in our previous [blog post](https://developer.epages.com/blog/2017/01/31/getting-twice-the-things-done-in-half-the-time.html), the agile process framework [Scrum](https://www.scrum.org/resources/what-is-scrum) is our preferred methodology when it comes to managing the product development at ePages.
+As already discussed in our previous [blog post](/blog/methods-and-tools/getting-twice-the-things-done-in-half-the-time/), the agile process framework [Scrum](https://www.scrum.org/resources/what-is-scrum) is our preferred methodology when it comes to managing the product development at ePages.
 To get further insights into our work with Scrum, we have interviewed our Scrum Master Ann-Katrin:
 
 ### Hi Ann-Katrin. Many thanks for taking the time to do this interview. Could you please give us an introduction of yourself?

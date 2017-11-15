@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "One month as an ePagee"
-date: "2015-08-11 08:00:00"
+date: 2015-08-11
 header_image: one-month-epagee.jpg
 header_position: top
 category: on-the-job
@@ -28,4 +28,4 @@ Code-reviews and pair-programming are tools that are frequently used at ePages. 
 
 ## Related post
 
-[How ePages gives new developers a great start](https://developer.epages.com/blog/2015/07/07/how-epages-gives-new-developers-a-great-start.html)
+[How ePages gives new developers a great start](/blog/on-the-job/how-epages-gives-new-developers-a-great-start/)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "4 pain points in third-party software development"
-date: "2017-01-05 10:00:00"
+date: 2017-01-05
 header_image: challenge-cube.jpg
 category: tech-stories
 authors: ["Mats"]
@@ -62,7 +62,7 @@ You might find those helpful once your are in the situation of working with a th
 
 ### Related posts
 
-* [How we connected Sage One with ePages](https://developer.epages.com/blog/2016/08/12/how-we-connected-sageone-with-epages.html)
-* [How to easily connect payment and shipping with online shops](https://developer.epages.com/blog/2016/08/02/how-to-easily-connect-payment-and-shipping-with-online-shops.html)
-* [Payment integrations](https://developer.epages.com/blog/2015/11/03/payment-integrations.html)
-* [Challenges of integrating third-parties](https://developer.epages.com/blog/2015/07/20/challenges-of-integrating-third-parties.html)
+* [How we connected Sage One with ePages](/blog/tech-stories/how-we-connected-sageone-with-epages/)
+* [How to easily connect payment and shipping with online shops](/blog/tech-stories/how-to-easily-connect-payment-and-shipping-with-online-shops/)
+* [Payment integrations](/blog/tech-stories/payment-integrations/)
+* [Challenges of integrating third-parties](/blog/tech-stories/challenges-of-integrating-third-parties/)

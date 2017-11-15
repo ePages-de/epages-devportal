@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interesting insights from the Search Technology Meetup VI"
-date: "2016-11-02 09:00:00"
+date: 2016-11-02
 header_image: search.jpg
 category: events
 authors: ["Rose"]

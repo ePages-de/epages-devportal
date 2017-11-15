@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "How to empower your Jenkins with Gradle"
-date: "2016-06-07 07:59:11"
+date: 2016-06-07
 header_image: gradle-jenkins-tools.jpg
 category: tech-stories
 authors: ["Renato"]
 ---
 
-Since the [last blog post]( https://developer.epages.com/blog/2016/01/28/jenkins-job-dsl-plugin.html) post we did some updates in our Jenkins environments and today I'm going to talk a bit about it.
+Since the [last blog post](/blog/tech-stories/jenkins-job-dsl-plugin/) post we did some updates in our Jenkins environments and today I'm going to talk a bit about it.
 We are using a [Gradle Jenkins plugin](https://github.com/ghale/gradle-jenkins-plugin) to control the Jenkins installation.
 
-We already mentioned the DSL on the previous blogpost, you can find more information about the [Job DSL Plugin](https://developer.epages.com/blog/2016/01/28/jenkins-job-dsl-plugin.html)
+We already mentioned the DSL on the previous blogpost, you can find more information about the [Job DSL Plugin](/blog/tech-stories/jenkins-job-dsl-plugin/)
 
 "Why did we change it?" you may ask.
 For the other plugin you need to create a seed job, and at ePages, we have quite a complex structure with a few shell scripts.

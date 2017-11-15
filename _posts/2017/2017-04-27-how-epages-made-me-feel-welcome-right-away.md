@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How ePages made me feel welcome right away
-date: "2017-04-26 06:34:02"
+date: 2017-04-26
 header_image: jump.jpg
 category: on-the-job
 authors: ["Christina"]
@@ -43,7 +43,7 @@ I ended up in my new office and had some time to organize my new desk and have a
 Being the "new one", I had a lot of questions and didn't understand all the internal terms and processes right away.
 But who doesn't have these problems at the beginning?
 At ePages everyone seemed to remember this situation and was really helpful.
-During the first week they prepared some really useful presentations to make me comfortable with [GitHub](https://github.com/), [Scrum](https://developer.epages.com/blog/2017/02/23/why-i-love-working-as-a-scrum-master.html) and the different [software versions](https://www.epages.com/us/now/).
+During the first week they prepared some really useful presentations to make me comfortable with [GitHub](https://github.com/), [Scrum](/blog/on-the-job/why-i-love-working-as-a-scrum-master/) and the different [software versions](https://www.epages.com/us/now/).
 In addition to this personal support, there are some nice and handy technical features for new employees.
 For example, there is a terminology database that explains many important and frequent words and concepts.
 This way you can easily look up a new word or reread one you've already heard.
@@ -72,7 +72,7 @@ This way I've been already shown many nice and delicious restaurants (my favorit
 Communication and transparency is really important here at ePages.
 To be always up-to-date, we have regular team meetings which gave me the possibility to get an overview of what is going on and who's working at which topic.
 
-Besides these weekly meetings we have some "special events" such as the [ePages Hackathon](https://developer.epages.com/blog/2017/03/29/epages-hackathon-2017.html) or the [ePages YOU](https://developer.epages.com/blog/2015/09/21/annual-company-event-epagees-rock-the-you.html).
+Besides these weekly meetings we have some "special events" such as the [ePages Hackathon](/blog/events/epages-hackathon-2017/) or the [ePages YOU](/blog/events/annual-company-event-epagees-rock-the-you/).
 On our annual Hackathon event in March I got to know many other ePagees from Barcelona, New York, and Jena.
 As it was my first Hackathon, it was a really great experience for me and it was nice to meet a lot of new people.
 
@@ -90,7 +90,7 @@ It is difficult to determine THE one reason why ePages made me feel welcome so f
 Let me present my top three:
 
 1. **Great colleagues** lead to a great working atmosphere.
-2. A structured and detailed [**onboarding**](https://developer.epages.com/blog/2016/08/04/5-steps-to-make-you-feel-comfortable-in-your-new-job.html) simplifies the start tremendously.
+2. A structured and detailed [**onboarding**](/blog/on-the-job/5-steps-to-make-you-feel-comfortable-in-your-new-job/) simplifies the start tremendously.
 3. Undertaking **responsible tasks** makes you feel like part of the team.
 
 After so many positive aspects, it won't surprise you that I decided to write my master thesis here at ePages after I finished my internship.

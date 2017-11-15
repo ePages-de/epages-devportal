@@ -93,7 +93,7 @@ task :test_posts do
         if f_m['date'].nil?
           errors << LinterError.new(post, nil, 'Post must have a date')
         else
-          unless (Date.parse(f_m['date']) rescue nil)
+          unless (Date.strptime(f_m['date'].to_s, '%Y-%m-%d') rescue nil)
             errors << LinterError.new(post, nil, 'Post date is not valid')
           end
         end
@@ -241,27 +241,37 @@ end
 task :test_html do
   require 'html-proofer'
 
-  ignore = [/.*\/ProximaNova-Bold.html/,
-            /.*\/ProximaNova-BoldIt.html/,
-            /.*\/ProximaNova-Regular.html/,
-            /.*\/ProximaNova-RegularIt.html/,
-            /.*\/ProximaNovaAlt-Bold.html/,
-            /.*\/ProximaNovaAlt-BoldIt.html/,
-            /.*\/ProximaNovaAlt-Regular.html/,
-            /.*\/ProximaNovaAlt-RegularIt.html/,
-            /.*\/ProximaNovaScOsf-Bold.html/,
-            /.*\/ProximaNovaScOsf-BoldIt.html/,
-            /.*\/ProximaNovaScOsf-Regular.html/,
-            /.*\/ProximaNovaScOsf-RegularIt.html/]
+  file_ignore = [/.*\/ProximaNova-Bold.html/,
+                 /.*\/ProximaNova-BoldIt.html/,
+                 /.*\/ProximaNova-Regular.html/,
+                 /.*\/ProximaNova-RegularIt.html/,
+                 /.*\/ProximaNovaAlt-Bold.html/,
+                 /.*\/ProximaNovaAlt-BoldIt.html/,
+                 /.*\/ProximaNovaAlt-Regular.html/,
+                 /.*\/ProximaNovaAlt-RegularIt.html/,
+                 /.*\/ProximaNovaScOsf-Bold.html/,
+                 /.*\/ProximaNovaScOsf-BoldIt.html/,
+                 /.*\/ProximaNovaScOsf-Regular.html/,
+                 /.*\/ProximaNovaScOsf-RegularIt.html/]
+
+  url_ignore = [/.*apps.*/,
+                /.*signup/]
 
   options = { disable_external: true,
-              file_ignore: ignore,
+              file_ignore: file_ignore,
+              url_ignore: url_ignore,
               empty_alt_ignore: true,
               check_html: true }
 
   sh 'bundle exec jekyll build'
 
   HTMLProofer.check_directory('./_site', options).run
+end
+
+task :test do
+  sh 'rake test_html'
+  sh 'rake test_files'
+  sh 'rake test_posts'
 end
 
 task :write do
@@ -281,10 +291,13 @@ task :write do
                           'style' => 'expanded' } }
 
   exclude['exclude'].push '_pages/categories/'
+  exclude['exclude'].push '_pages/api/categories/'
   exclude['exclude'].push '_pages/404.html'
-  exclude['exclude'].push '_pages/search'
-  exclude['exclude'].push '_pages/devjobs'
   exclude['exclude'].push '_pages/about.md'
+  exclude['exclude'].push '_pages/devjobs.html'
+  exclude['exclude'].push '_pages/index.html'
+  exclude['exclude'].push '_pages/search.html'
+  exclude['exclude'].push '_pages/terms-and-conditions.md'
   exclude['exclude'].push *(date_from.year..date_to.prev_year.year).map { |d| "_posts/#{d}" }.uniq
   exclude['exclude'].push *(Date.new(date_to.year)..date_to).map { |d| "_posts/#{d.year}/#{d.year}-#{'%02d' % d.month}-*" }.uniq
 

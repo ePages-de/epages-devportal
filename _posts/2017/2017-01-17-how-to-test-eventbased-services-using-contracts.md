@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to test event-based services using contracts"
-date: "2017-01-17 12:11:00"
+date: 2017-01-17"
 header_image: testing-async-interactions.jpg
 category: tech-stories
 authors: ["Mathias"]
@@ -242,4 +242,4 @@ All told, Spring Cloud Contract is a great tool to improve testing of event-base
 
 ## Related posts
 
-[How to make microservice testing great again](/blog/2016/07/14/wiremock.html)
+[How to make microservice testing great again](/blog/tech-stories/wiremock/)

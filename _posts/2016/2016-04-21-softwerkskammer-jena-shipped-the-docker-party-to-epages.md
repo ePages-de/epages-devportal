@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guest post: Softwerkskammer Jena shipped the Docker Party to ePages!"
-date: "2016-04-21 12:04:21"
+date: 2016-04-21
 header_image: docker-party.jpg
 category: events
 authors: ["Softwerkskammer Jena (Oliver and Benjamin)"]
@@ -67,7 +67,7 @@ The attendees then had to figure out how the Dockerfile commands needed to be co
 The most experienced Docker users gathered together in the special workshop, where the main focus was a bit shifted.
 Three workstation laptops had been prepared to introduce [CoreOS](https://coreos.com) to the participants.
 Andreas Grohmann introduced the open-source lightweight operating system designed to provide infrastructure to clustered deployments to the each participant.
-The goal was to [setup a cluster environment](https://developer.epages.com/blog/2016/01/19/how-to-setup-a-coreos-cluster-on-windows-and-centos.html#why-use-coreos) with three nodes and run Docker on it.
+The goal was to [setup a cluster environment](/blog/tech-stories/how-to-setup-a-coreos-cluster-on-windows-and-centos/) with three nodes and run Docker on it.
 Everyone succeeded.
 Afterwards, Christian Köhler gave an insight on how to configure Kubernetes with a short demonstration.
 He also distinctly outlined the advantages of Docker Swarm.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Local meetup for i-doit users at ePages"
-date: "2017-03-07 07:00:00"
+date: 2017-03-07
 header_image: it-docs.jpg
 category: events
 authors: ["Karsten P."]
@@ -24,7 +24,7 @@ The meetup itself was a nice mixture of reports on one's experiences accompanied
 An extremely wide range from automation and API, object lists, services and reporting up to visualization and management of licenses or passwords demonstrates the multifarious fields of application i-doit is used for.
 All participants agreed that it was a very nice meeting - not only because of the IT food: pizza 😉.
 
-If you wonder how ePages started with i-doit take a look at the blog article [Creating systems with pipelining](https://developer.epages.com/blog/2015/08/03/creating-systems-with-pipelining.html).
+If you wonder how ePages started with i-doit take a look at the blog article [Creating systems with pipelining](/blog/tech-stories/creating-systems-with-pipelining/).
 But step by step we are discovering other possible applications of i-doit.
 One of our next projects will be the integration of monitoring using [Icinga](https://www.icinga.com/).
 

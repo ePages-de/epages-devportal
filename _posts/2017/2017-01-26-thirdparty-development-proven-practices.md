@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "6 proven practices that make third-party development fun"
-date: "2017-01-24 07:00:00"
+date: 2017-01-24
 header_image: thirdparty-weapons.jpg
 category: tech-stories
 authors: ["Mats"]
 ---
 
-In my [previous post](https://developer.epages.com/blog/2017/01/05/painpoints-with-thirdparty-software.html) I talked about the pain points in third-party software development and the different challenges we're facing when connecting our e-commerce software to a third-party service.
+In my [previous post](/blog/tech-stories/painpoints-with-thirdparty-software/) I talked about the pain points in third-party software development and the different challenges we're facing when connecting our e-commerce software to a third-party service.
 
 Today, I will follow up on this and give an insight into our "weapons of choice" that simplify our work.
 These workflows and best practices have been developed over a longer period of time and are continuously updated.
@@ -53,7 +53,7 @@ This of course is especially helpful in case the communication with your integra
 But it is also worth the effort even if you have a good communication with your partner.
 Notifications regarding changes might become lost during communication in your partners company already.
 Relying on hard facts will always be more direct and trustworthy then relying on manual notifications.
-In our blog post [How we test our API](https://developer.epages.com/blog/2016/09/29/rest-api-test-framework.html) you can find some ideas on how we write tests against our own API at ePages.
+In our blog post [How we test our API](/blog/api-experience/how-we-test-our-api/) you can find some ideas on how we write tests against our own API at ePages.
 
 ### Involve the QA engineer
 

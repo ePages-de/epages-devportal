@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Design of a continuous delivery pipeline"
-date: "2017-05-30 07:00:00"
+date: 2017-05-30
 header_image: microservices-pipeline-1.jpg
 category: tech-stories
 authors: ["Benjamin", "Nicole"]
@@ -21,7 +21,7 @@ With the help of tools like [Puppet](https://puppet.com/) and [vSphere](http://w
 A CDP was a concatenation of several jobs producing a job chain, which were manually set up using the WebUI of Jenkins.
 
 With the concept infrastructure-as-code the setup of a CDP changed completely to an automated process.
-Using Jenkins DSLs (like the [Job DSL Plugin](https://developer.epages.com/blog/2016/01/28/jenkins-job-dsl-plugin.html) and [Pipeline Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin)) to configure Jenkins jobs, the manual process of creating a job passed over into writing scripts.
+Using Jenkins DSLs (like the [Job DSL Plugin](/blog/tech-stories/jenkins-job-dsl-plugin/) and [Pipeline Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin)) to configure Jenkins jobs, the manual process of creating a job passed over into writing scripts.
 Using scripts as a representation of jobs not only allows an automatically set up Jenkins configuration but also versioning and creating backups of a Jenkins instance.
 
 Testing of several microservices is solved by using individual Docker images representing the actual state of a single microservice.
