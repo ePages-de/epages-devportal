@@ -38,6 +38,8 @@ task :test_posts do
       posts = find_posts
       posts.each do |post|
         errors += check_front_matter(post)
+        errors += check_for_internal_urls(post)
+        errors += check_for_external_urls(post)
       end
 
       errors.each do |error|
@@ -102,6 +104,33 @@ task :test_posts do
         end
         if !f_m['header_position'].nil? && !(['top','center','bottom'].include? f_m['header_position'])
           errors << LinterError.new(post, nil, 'Post header_position must be "top", "center" or "bottom"')
+        end
+      end
+      errors
+    end
+
+    def check_for_internal_urls(file)
+      errors = []
+      if ['.md'].include? File.extname(file)
+        lines = read_file_lines(file)
+        lines.each do |line|
+          if line.content =~ /\[.*\]:.*developer.epages.com.*/ ||
+             line.content =~ /\[.*\]\(.*developer.epages.com.*\)/
+            errors << LinterError.new(file, line, 'Linking to an internat URL. Use relative path')
+          end
+        end
+      end
+      errors
+    end
+
+    def check_for_external_urls(file)
+      errors = []
+      if ['.md'].include? File.extname(file)
+        lines = read_file_lines(file)
+        lines.each do |line|
+          if line.content =~ /\[.*\]\(https?(?!.*developer.epages.com.*).*\)(?!{:target="_blank"})/
+            errors << LinterError.new(file, line, 'Linking to an external URL without using {:target="_blank"}')
+          end
         end
       end
       errors
@@ -286,7 +315,6 @@ task :write do
   File.new(write_file, 'w')
 
   exclude = { 'exclude' => YAML.load_file('_config.yml')['exclude'],
-              'livereload' => true,
               'sass' => { 'sass_dir' => '_sass',
                           'style' => 'expanded' } }
 
