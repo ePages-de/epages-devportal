@@ -114,8 +114,7 @@ task :test_posts do
       if ['.md'].include? File.extname(file)
         lines = read_file_lines(file)
         lines.each do |line|
-          if line.content =~ /\[.*\]:.*developer.epages.com.*/ ||
-             line.content =~ /\[.*\]\(.*developer.epages.com.*\)/
+          if line.content =~ /(\[.*\]\(.*developer.epages.com[^ {}\(\)]+\))/
             errors << LinterError.new(file, line, 'Linking to an internat URL. Use relative path')
           end
         end
@@ -128,7 +127,7 @@ task :test_posts do
       if ['.md'].include? File.extname(file)
         lines = read_file_lines(file)
         lines.each do |line|
-          if line.content =~ /\[.*\]\(https?(?!.*developer.epages.com.*).*\)(?!{:target="_blank"})/
+          if line.content =~ /(\[.*?\]\(https?(?!.*developer.epages.com.*)[^ {}\(\)]+\)(?!{:target="_blank"}))/
             errors << LinterError.new(file, line, 'Linking to an external URL without using {:target="_blank"}')
           end
         end
