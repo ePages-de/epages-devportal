@@ -1,3 +1,6 @@
+{% comment %}
+  Due to liquid limitation this solution checks whether tags are empty or not
+{% endcomment %}
 {% assign tags = page.tags | strip %}
 {% if tags != '[]' %}
   <div class="tags">
