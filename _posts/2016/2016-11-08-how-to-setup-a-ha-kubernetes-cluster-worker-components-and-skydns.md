@@ -137,7 +137,7 @@ EOF
 root@worker:~$ systemctl enable kubelet
 {% endhighlight %}
 
-As described in [the setup of the master components](/blog/tech-stories/how-to-setup-a-kubernetes-cluster-master-components/) _kubelet_ and _kube-proxy_ are affected by [an error](https://github.com/kubernetes/kubernetes/issues/18174).
+As described in [the setup of the master components](/blog/tech-stories/how-to-setup-a-kubernetes-cluster-master-components/) _kubelet_ and _kube-proxy_ are affected by [an error](https://github.com/kubernetes/kubernetes/issues/18174){:target="_blank"}.
 Therefore, we do not insert a comma separated list of API servers but only the load balancer's URL in the parameter _api-servers_.
 Unlike the master nodes, on the worker nodes shall run the real application pods.
 As a consequence, _kubelet_ registers its own node within the API as "schedulable".
@@ -196,7 +196,7 @@ EOF
 
 At this place we see a vulnerability of the HA cluster.
 Normally, the load balancer has to be failure-resistant too, because it is the only connection from the worker to the master nodes.
-But since this would go beyond the constraints of this article, we simply refer to [this older documentation](https://www.howtoforge.com/setting-up-a-high-availability-load-balancer-with-haproxy-keepalived-on-debian-lenny).
+But since this would go beyond the constraints of this article, we simply refer to [this older documentation](https://www.howtoforge.com/setting-up-a-high-availability-load-balancer-with-haproxy-keepalived-on-debian-lenny){:target="_blank"}.
 Now, that the _kube-proxy_ pod is created, the worker nodes are ready for operation.
 Based on _flanneld_ and the _docker engine_, _kubelet_ is started with the following command:
 
@@ -215,7 +215,7 @@ b9  v1.2.2_coreos.0   "/hyperkube proxy --m"   About a minute ago   Up About a m
 
 ## kubectl
 
-[kubectl](http://kubernetes.io/docs/user-guide/kubectl-overview/) is the administration tool for the cluster.
+[kubectl](http://kubernetes.io/docs/user-guide/kubectl-overview/){:target="_blank"} is the administration tool for the cluster.
 It is running on your local computer and interacts via Kubernetes API with the cluster.
 Among others, it enables you to create new pods using YAML files on your local machine.
 Note that YAML files on the Kubernetes nodes (so called "static pods") cannot be administrated via _kebectl_.
@@ -267,11 +267,11 @@ worker03   Ready                     1h
 ## SkyDNS
 
 Now that the cluster is set up, we can install the cluster DNS.
-We use the add-on [SkyDNS](https://github.com/kubernetes/kubernetes/tree/v1.2.2/cluster/addons/dns).
+We use the add-on [SkyDNS](https://github.com/kubernetes/kubernetes/tree/v1.2.2/cluster/addons/dns){:target="_blank"}.
 This way an application within the cluster DNS name can use Kubernetes services.
 This pod runs on one of the worker nodes.
-So _SkyDNS_ is the first application on the new cluster (represented by a [Replication Controller](http://kubernetes.io/docs/user-guide/replication-controller/)).
-In addition, _SkyDNS_ needs another Kubernetes object: the [Service](http://kubernetes.io/docs/user-guide/services/).
+So _SkyDNS_ is the first application on the new cluster (represented by a [Replication Controller](http://kubernetes.io/docs/user-guide/replication-controller/){:target="_blank"}).
+In addition, _SkyDNS_ needs another Kubernetes object: the [Service](http://kubernetes.io/docs/user-guide/services/){:target="_blank"}.
 The example demonstrates the creation of both objects directly on the shell of _kubectl_.
 But of course they can be created via YAML files, too.
 
@@ -436,7 +436,7 @@ EOF
 The code shows that the _cluster-dns_ IP entered in _kubelet_ is implemented in the DNS service.
 Other applications from different namespaces can use the corresponding services simply by calling the service name.
 SkyDNS is permanently looking for new services within the API and creates new entries in the _Etcd_ storage.
-For the communication with the API it uses a [secret](http://kubernetes.io/docs/user-guide/secrets/).
+For the communication with the API it uses a [secret](http://kubernetes.io/docs/user-guide/secrets/){:target="_blank"}.
 This secret is provided via the secured connections of all cluster components.
 
 ## Summary
@@ -451,12 +451,12 @@ The downside of this solution is the fact that the load balancer is not failure-
 In order to reduce the risk of a cluster outage a considerable monitor environment of all nodes should be established.
 Consequently, problems can be found as early as possible.
 For this purpose Kubernetes provides additional add-ons.
-[Fluentd, combined with Elasticsearch and Kibana](https://github.com/kubernetes/kubernetes/tree/v1.2.2/cluster/addons/fluentd-elasticsearch), as well as [Heapster, with Influxdb and Grafana](https://github.com/kubernetes/kubernetes/tree/v1.2.2/cluster/addons/cluster-monitoring/influxdb), offer the possibility to analyze log files and the utilization of nodes.
+[Fluentd, combined with Elasticsearch and Kibana](https://github.com/kubernetes/kubernetes/tree/v1.2.2/cluster/addons/fluentd-elasticsearch){:target="_blank"}, as well as [Heapster, with Influxdb and Grafana](https://github.com/kubernetes/kubernetes/tree/v1.2.2/cluster/addons/cluster-monitoring/influxdb){:target="_blank"}, offer the possibility to analyze log files and the utilization of nodes.
 
 ## Additional links
 
-[CoreOS Kubernetes guide](https://coreos.com/kubernetes/docs/1.2.2)
-[Kubernetes on GitHub](https://github.com/kubernetes/kubernetes)
+[CoreOS Kubernetes guide](https://coreos.com/kubernetes/docs/1.2.2){:target="_blank"}
+[Kubernetes on GitHub](https://github.com/kubernetes/kubernetes){:target="_blank"}
 
 # Related posts
 

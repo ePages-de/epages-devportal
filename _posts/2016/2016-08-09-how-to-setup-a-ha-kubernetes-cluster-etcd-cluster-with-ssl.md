@@ -7,13 +7,13 @@ category: tech-stories
 authors: ["Karsten P."]
 ---
 
-This is the first of a four-part blog post series about how we install a high-availability (HA) [Kubernetes](http://kubernetes.io/) cluster for testing purposes with [Debian](https://www.debian.org/) 8.
+This is the first of a four-part blog post series about how we install a high-availability (HA) [Kubernetes](http://kubernetes.io/){:target="_blank"} cluster for testing purposes with [Debian](https://www.debian.org/){:target="_blank"} 8.
 As part of this process, the whole cluster services communication is secured via TLS.
 
 ## Outline
 
-Kubernetes offers a wide [range of settings](http://kubernetes.io/docs/getting-started-guides/).
-Therefore, in this series we focus on version [1.2.2](https://github.com/kubernetes/kubernetes/tree/v1.2.2) and its characteristics.
+Kubernetes offers a wide [range of settings](http://kubernetes.io/docs/getting-started-guides/){:target="_blank"}.
+Therefore, in this series we focus on version [1.2.2](https://github.com/kubernetes/kubernetes/tree/v1.2.2){:target="_blank"} and its characteristics.
 
 In order not to specify every command per host, we use role names for groups of computers.
 Considering the user and the workspace, a command could look as follows:
@@ -36,12 +36,12 @@ These terms are linked first time they appear in the post.
 
 In order to use TLS, a variety of certificates are required.
 In this post, we assume that a root CA is already available.
-If not, [it can be easily created](https://jamielinux.com/docs/openssl-certificate-authority/).
+If not, [it can be easily created](https://jamielinux.com/docs/openssl-certificate-authority/){:target="_blank"}.
 
 ### Remote access
 
 For executing the commands we use the Bash that Debian 8 contains by default.
-It can be reached via a remote console ([ssh](https://en.wikipedia.org/wiki/Secure_Shell)).
+It can be reached via a remote console ([ssh](https://en.wikipedia.org/wiki/Secure_Shell){:target="_blank"}).
 The connection can be established with an additional user who is able to gain root rights.
 
 ### Additional packages
@@ -49,17 +49,17 @@ The connection can be established with an additional user who is able to gain ro
 In this series, we assume that the commands we use are installed via the package manager.
 Ensure the following programs are installed on all computers:
 
-* [ssh-server](https://packages.debian.org/en/jessie/openssh-server)
-* [curl](https://packages.debian.org/en/jessie/curl)
-* [openssl](https://packages.debian.org/en/jessie/openssl)
-* [tar](https://packages.debian.org/en/jessie/tar)
-* [scp](https://packages.debian.org/en/jessie/openssh-client)
-* [sed](https://packages.debian.org/de/jessie/sed)
+* [ssh-server](https://packages.debian.org/en/jessie/openssh-server){:target="_blank"}
+* [curl](https://packages.debian.org/en/jessie/curl){:target="_blank"}
+* [openssl](https://packages.debian.org/en/jessie/openssl){:target="_blank"}
+* [tar](https://packages.debian.org/en/jessie/tar){:target="_blank"}
+* [scp](https://packages.debian.org/en/jessie/openssh-client){:target="_blank"}
+* [sed](https://packages.debian.org/de/jessie/sed){:target="_blank"}
 
 ### Load balancer URL
 
 During installation a load balancer URL is used in several places and has to be available in the own network.
-In this simple configuration it is sufficient to enter the [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) of the [service nodes](#nodes).
+In this simple configuration it is sufficient to enter the [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name){:target="_blank"} of the [service nodes](#nodes).
 So in our example, the load balancer URL always references to the service node.
 
 ## Hardware assembly
@@ -98,7 +98,7 @@ As etcd cluster they serve as centralized storage location for all important inf
 
 ### Creating etcd peer certificates
 
-First, create one [certificate signing request](https://en.wikipedia.org/wiki/Certificate_signing_request) for the so called peer certificate for each Etcd node.
+First, create one [certificate signing request](https://en.wikipedia.org/wiki/Certificate_signing_request){:target="_blank"} for the so called peer certificate for each Etcd node.
 You will require the IP of the primary network card, on which the etcd service will be available later.
 In this example, it is 192.168.0.[1|2|3] depending on the node.
 
@@ -143,7 +143,7 @@ With the following scp-command both files will be copied to the computer on whic
 root@etcd:/etc/ssl/etcd$ scp openssl.cnf etcd.csr root@root-ca-host:
 {% endhighlight %}
 
-To subsequently issue the certificate we use [openssl](https://www.openssl.org/) again.
+To subsequently issue the certificate we use [openssl](https://www.openssl.org/){:target="_blank"} again.
 Here, we have to consider the environment variables that have to match with the certificate signing request.
 Depending on the etcd node the IP and the FQDN have to be set correctly.
 
@@ -190,7 +190,7 @@ root@etcd:/etc/ssl/etcd$ ls -la
 ### Installing the etcd daemon
 
 In the next step we install the etcd daemon.
-It will be managed via [Systemd](https://www.freedesktop.org/wiki/Software/systemd/).
+It will be managed via [Systemd](https://www.freedesktop.org/wiki/Software/systemd/){:target="_blank"}.
 By using the **EnvironmentFile** parameter in the service description, the configuration can be easily outsourced to an extra file (**options.env**).
 As the option **ETCD_ADVERTISE_CLIENT_URLS** is node-specific, you will have to enter the IP of the primary network card per node.
 To simplify this, we use the variable **PRIMARY_HOST_IP**  in the following commands:
@@ -284,7 +284,7 @@ The iptables rules of flannld would block a redirection.
 
 The task of etcd in the Kubernetes cluster is to store the complete cluster information.
 In order to design a fail-safe storage you should operate several etcd nodes.
-In the described structure we tolerate the [failure of an etcd node](https://github.com/coreos/etcd/blob/v2.3.2/Documentation/admin_guide.md#fault-tolerance-table).
+In the described structure we tolerate the [failure of an etcd node](https://github.com/coreos/etcd/blob/v2.3.2/Documentation/admin_guide.md#fault-tolerance-table){:target="_blank"}.
 
 If you want to improve the reliability, you have to add further nodes.
 Encryption is ensured via TLS.
@@ -323,7 +323,7 @@ These nodes are critical infrastructure and are to be operated redundantly.
 
 ### Frontend/Worker nodes
 
-Computers that execute the majority of the [pods](http://kubernetes.io/docs/user-guide/pods/).
+Computers that execute the majority of the [pods](http://kubernetes.io/docs/user-guide/pods/){:target="_blank"}.
 The number of these nodes can be easily scaled, as these nodes do no execute mandatory services from a cluster point of view.
 
 ### Pod
@@ -334,5 +334,5 @@ The containers within a pod will always be executed on the same Kubernetes node 
 
 ### API-Server
 
-The [API server](http://kubernetes.io/docs/admin/kube-apiserver/) is a Kubernetes core component.
+The [API server](http://kubernetes.io/docs/admin/kube-apiserver/){:target="_blank"} is a Kubernetes core component.
 This pod is executed on the master nodes and provides the cluster API via https.

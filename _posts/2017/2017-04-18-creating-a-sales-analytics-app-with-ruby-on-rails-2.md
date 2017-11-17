@@ -14,7 +14,7 @@ In this post, I'd like to talk about some issues we encountered on our way and h
 
 ### The issue with the graphs...
 
-As mentioned in my previous post, [D3](https://d3js.org/) is a really powerful engine to do all sorts of graphs but is by no means simple.
+As mentioned in my previous post, [D3](https://d3js.org/){:target="_blank"} is a really powerful engine to do all sorts of graphs but is by no means simple.
 This and the fact that we (backend, frontend, and design) had separated tasks for the graphs, created issues whenever we needed to change anything.
 The nice thing is that we work really close together and we are used to help each other, so in the end it turned out to be a really enriching experience for the whole team.
 
@@ -27,7 +27,7 @@ Even from the start, it was clear for us that we had to persist the data in our 
 For this, we needed to do some heavy calculations with data, so we couldn't rely on external systems.
 
 Our first approach was to add all the products, customers and orders to our database.
-For this, we were using [sidekiq](http://sidekiq.org/) to send the syncing tasks to the background.
+For this, we were using [sidekiq](http://sidekiq.org/){:target="_blank"} to send the syncing tasks to the background.
 Sidekiq is fast and really customizable, but even with all the flexibility on the world, if the data isn't there, it can't be used.
 
 At the time of writing this, it seems obvious that shops aren't made of two demo customers and three orders with one product each.
@@ -48,8 +48,8 @@ As the main use case for the app is to being able to check and get reports and a
 ### Encryption?!
 
 Another of our challenges was related to encryption.
-By default, [Rails](http://rubyonrails.org/) encrypts passwords and we were already encrypting the `access_token`. But we got the request to also encrypt the email addresses.
-The challenge with this was, that the simple and easy user management library [`Devise`](https://github.com/plataformatec/devise) that we were using doesn't support that.
+By default, [Rails](http://rubyonrails.org/){:target="_blank"} encrypts passwords and we were already encrypting the `access_token`. But we got the request to also encrypt the email addresses.
+The challenge with this was, that the simple and easy user management library [`Devise`](https://github.com/plataformatec/devise){:target="_blank"} that we were using doesn't support that.
 Changing to username for the log in process was the first thing it came into our minds.
 
 This is probably the easiest solution but also, one that changed how the app worked.
@@ -76,15 +76,15 @@ That affected also to other parts of the Devise library, such as `reset_tokens` 
 ## Hosting the app
 
 Now that we have dealt with all the issues on the app, here comes the hosting debate.
-Our team has experience on both [Heroku](https://www.heroku.com) and [AWS](https://aws.amazon.com) deployment so those are the main contenders.
+Our team has experience on both [Heroku](https://www.heroku.com){:target="_blank"} and [AWS](https://aws.amazon.com){:target="_blank"} deployment so those are the main contenders.
 
-Following the philosophy on fast delivery, we started with Heroku, which allows us to deploy on one console command and to add some useful plugins like [Papertrail](https://papertrailapp.com) to store and search the logfiles or [New Relic](https://newrelic.com/) to check the application performance. So this was something really critical to decide on the host.
+Following the philosophy on fast delivery, we started with Heroku, which allows us to deploy on one console command and to add some useful plugins like [Papertrail](https://papertrailapp.com){:target="_blank"} to store and search the logfiles or [New Relic](https://newrelic.com/){:target="_blank"} to check the application performance. So this was something really critical to decide on the host.
 
 If we end up with lots of traffic and big RAM usage, we may change to AWS so we can have a machine more suited to our needs.
 The downside of this scenario is that we will have to set up everything by ourselves, the machine, the deployment process and so on.
-Lucky for us, we have [Capistrano](http://capistranorb.com/), a tool written on Ruby (but available for other languages also) for remote server automation and deployment.
+Lucky for us, we have [Capistrano](http://capistranorb.com/){:target="_blank"}, a tool written on Ruby (but available for other languages also) for remote server automation and deployment.
 
-[Docker](https://www.docker.com) is another option for us on the deployment side of the things to do when not choosing Heroku.
+[Docker](https://www.docker.com){:target="_blank"} is another option for us on the deployment side of the things to do when not choosing Heroku.
 We also have experience on it and in the case we needed support, our colleagues at ePages are experienced on [Docker](/blog/events/containerdays-hamburg/) and [Kubernetes](/blog/tech-stories/how-to-setup-a-ha-kubernetes-cluster-etcd-cluster-with-ssl/). So we know, that we are more than covered on those subjects.
 
 Only time will tell which option is going to work for us and maybe another [blog](/blog/) post will come on that.

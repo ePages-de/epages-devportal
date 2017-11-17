@@ -7,7 +7,7 @@ category: on-the-job
 authors: ["Rose", "Harm"]
 ---
 
-[Harm Behrens](https://archive.epages.com/de/unternehmen/newsroom/news/Harm-Behrens-ist-neuer-CTO-bei-ePages.php) joined [ePages](https://www.epages.com/) as CTO in September 2014.
+[Harm Behrens](https://archive.epages.com/de/unternehmen/newsroom/news/Harm-Behrens-ist-neuer-CTO-bei-ePages.php){:target="_blank"} joined [ePages](https://www.epages.com/){:target="_blank"} as CTO in September 2014.
 Ever since ePages benefits from Harm's over 15 years of expertise in the field of development and operation of extensive web and mobile applications.
 In this interview, Harm talks about the next generation commerce platform, his daily coffee ration as well as his focus on people, the product portfolio, and development technologies.
 
@@ -21,8 +21,8 @@ First it was mainly about refining, enhancing, and adding value to our current c
 Furthermore, we had to hire a lot of developers and established a new development location in Hamburg.
 
 ePages 6 is our very first and core product, which has a wide range of features and functionalities that our customers highly appreciate.
-Over the past two years, we extended and enhanced ePages 6 with the [REST API](/apps), which consequently allowed us to facilitate an [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/) as well as a [Theme Store](https://themes.epages.com/en/).
-Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/) through the [REST API]/apps) and launched the beta phase by the end of last year.
+Over the past two years, we extended and enhanced ePages 6 with the [REST API](/apps), which consequently allowed us to facilitate an [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/){:target="_blank"} as well as a [Theme Store](https://themes.epages.com/en/){:target="_blank"}.
+Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/){:target="_blank"} through the [REST API]/apps) and launched the beta phase by the end of last year.
 
 ### How did you come up with the idea of ePages Now - a product with improved usability?
 
@@ -53,7 +53,7 @@ Our new backend architecture pursues three main goals:
 2. Create an architecture that is easy to change and to maintain.
 3. Focus on the Java ecosystem with an up-to-date technology stack.
 
-This resulted in a [microservices-](https://en.wikipedia.org/wiki/Microservices)based architecture with modern technologies such as [Docker](https://www.docker.com), [Kubernetes](http://kubernetes.io/), [Java](https://www.java.com/en/), [Spring Boot](https://projects.spring.io/spring-boot/), and alike.
+This resulted in a [microservices-](https://en.wikipedia.org/wiki/Microservices){:target="_blank"}based architecture with modern technologies such as [Docker](https://www.docker.com){:target="_blank"}, [Kubernetes](http://kubernetes.io/){:target="_blank"}, [Java](https://www.java.com/en/){:target="_blank"}, [Spring Boot](https://projects.spring.io/spring-boot/){:target="_blank"}, and alike.
 Besides continually evolving BEYOND, we also created a blueprint approach in order to scale microservice development across teams and our different locations Barcelona, Jena and Hamburg.
 
 This cuts down complexity, and thus makes it easier for existing teams to work on the project.
@@ -97,9 +97,9 @@ All in all, we reduced a lot of uncertainties with this improved recruiting proc
 ### Certainly there is more...?
 
 Well yes.
-I introduced our [epagesdevs](https://twitter.com/epagesdevs) Twitter channel and pushed for the implementation of a developer blog, as I noticed the lack of employer branding in the community.
-The teams alternate every month with writing tech stories that are related to their work. They use the markdown structure and [git](https://git-scm.com/) and do pull requests on [GitHub](https://github.com/) which are then reviewed by our [technical writer](/blog/methods-and-tools/what-its-like-to-be-an-agile-technical-writer/).
-This way, and by using [Jekyll](http://jekyllrb.com/) as a static blog engine, we integrated the blogging workflow into the developers' familiar work environment, which increased their motivation and contribution ratio to the blog a lot.
+I introduced our [epagesdevs](https://twitter.com/epagesdevs){:target="_blank"} Twitter channel and pushed for the implementation of a developer blog, as I noticed the lack of employer branding in the community.
+The teams alternate every month with writing tech stories that are related to their work. They use the markdown structure and [git](https://git-scm.com/){:target="_blank"} and do pull requests on [GitHub](https://github.com/){:target="_blank"} which are then reviewed by our [technical writer](/blog/methods-and-tools/what-its-like-to-be-an-agile-technical-writer/).
+This way, and by using [Jekyll](http://jekyllrb.com/){:target="_blank"} as a static blog engine, we integrated the blogging workflow into the developers' familiar work environment, which increased their motivation and contribution ratio to the blog a lot.
 
 ### What does your typical working day look like?
 
@@ -129,9 +129,9 @@ This is also what I expect from the teams: to work autonomously, take on respons
 
 Last year I would have said still a lot of Perl - simply because that's the code base of ePages 6, but now there are more modern technologies involved.
 This change is due to switching to ePages Now and BEYOND.
-The new storefront and editor uses modern Javascript libraries such as [Node.js](https://nodejs.org) and [React](https://facebook.github.io/react/).
-We use Java and [Spring Boot](https://projects.spring.io/spring-boot/) for our new microservices, as well as API and [Elastic Search](https://www.elastic.co/) for the search-driven shop.
-For supporting tools we use [Ruby](https://www.ruby-lang.org/en/) and [Rails](http://rubyonrails.org/).
+The new storefront and editor uses modern Javascript libraries such as [Node.js](https://nodejs.org){:target="_blank"} and [React](https://facebook.github.io/react/){:target="_blank"}.
+We use Java and [Spring Boot](https://projects.spring.io/spring-boot/){:target="_blank"} for our new microservices, as well as API and [Elastic Search](https://www.elastic.co/){:target="_blank"} for the search-driven shop.
+For supporting tools we use [Ruby](https://www.ruby-lang.org/en/){:target="_blank"} and [Rails](http://rubyonrails.org/){:target="_blank"}.
 
 ### What do you like most about ePages?
 

@@ -8,7 +8,7 @@ authors: ["Renato"]
 ---
 
 Since the [last blog post](/blog/tech-stories/jenkins-job-dsl-plugin/) post we did some updates in our Jenkins environments and today I'm going to talk a bit about it.
-We are using a [Gradle Jenkins plugin](https://github.com/ghale/gradle-jenkins-plugin) to control the Jenkins installation.
+We are using a [Gradle Jenkins plugin](https://github.com/ghale/gradle-jenkins-plugin){:target="_blank"} to control the Jenkins installation.
 
 We already mentioned the DSL on the previous blogpost, you can find more information about the [Job DSL Plugin](/blog/tech-stories/jenkins-job-dsl-plugin/)
 
@@ -21,7 +21,7 @@ For instance, I didn't want to break our Team Jenkins installation, so I run an 
 
 ## How to set up the project
 
-In your gradle project, you should use the [gradle-jenkins-plugin](https://github.com/ghale/gradle-jenkins-plugin).
+In your gradle project, you should use the [gradle-jenkins-plugin](https://github.com/ghale/gradle-jenkins-plugin){:target="_blank"}.
 
 Look at the following sample snippet:
 
@@ -105,7 +105,7 @@ This will update your Jenkins installation with the DSL defined locally.
 
 This plugin is really powerful, and there are many cases where you could use it to empower your jobs/automation environment.
 I hope this blog post illustrates the application examples of this plugin.
-If you want to know more about the other jobs, have a look at complete documentation on the [project wiki](https://github.com/ghale/gradle-jenkins-plugin/wiki).
+If you want to know more about the other jobs, have a look at complete documentation on the [project wiki](https://github.com/ghale/gradle-jenkins-plugin/wiki){:target="_blank"}.
 
 ### Advantages
 
@@ -120,9 +120,9 @@ If you want to know more about the other jobs, have a look at complete documenta
 ### Credits
 
 We didn't come up with a company-wide solution, but use the plugin in our team and adapt it to our needs.
-So a big thanks to [Gary Hale](https://github.com/ghale), because without him I wouldn't be writing about it today 😉.
+So a big thanks to [Gary Hale](https://github.com/ghale){:target="_blank"}, because without him I wouldn't be writing about it today 😉.
 
 ## References
 
-- [Gradle Jenkins plugin](https://github.com/ghale/gradle-jenkins-plugin).
-- If you want to create a local Jenkins, here is a small tutorial [how to setup a docker instance](https://hub.docker.com/_/jenkins/).
+- [Gradle Jenkins plugin](https://github.com/ghale/gradle-jenkins-plugin){:target="_blank"}.
+- If you want to create a local Jenkins, here is a small tutorial [how to setup a docker instance](https://hub.docker.com/_/jenkins/){:target="_blank"}.

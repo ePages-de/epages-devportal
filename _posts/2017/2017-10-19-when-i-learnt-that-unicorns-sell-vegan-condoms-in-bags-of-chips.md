@@ -49,7 +49,7 @@ You can imagine how many people asked questions, can you?
 
 Some phrases that made me think:
 
-* Those who work at [einhorn products](https://einhorn.my/) don't take themselves too seriously, and challenge their ego.
+* Those who work at [einhorn products](https://einhorn.my/){:target="_blank"} don't take themselves too seriously, and challenge their ego.
 * They do magic there. If you don't feel like it, you don't need to come to work.
 'Cause then you can't do magic.
 No sick note or application for leave required.
@@ -61,7 +61,7 @@ Just - unicornly - awesome!
 
 ## How modern brand management actually works
 
-Christopher Rohs, [elbdudler](http://elbdudler.de/en/), held an interesting talk about how modern brand management actually works.
+Christopher Rohs, [elbdudler](http://elbdudler.de/en/){:target="_blank"}, held an interesting talk about how modern brand management actually works.
 He made clear that doing Social Media because "That's what you do now." is not a strategy.
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">&quot;Das macht man doch jetzt so&quot; ist keine Strategie. Christopher Rohs von <a href="https://twitter.com/elbdudler?ref_src=twsrc%5Etfw">@elbdudler</a> auf der <a href="https://twitter.com/hashtag/smconf?src=hash&amp;ref_src=twsrc%5Etfw">#smconf</a> <a href="https://t.co/8TuZNDXAd5">pic.twitter.com/8TuZNDXAd5</a></p>&mdash; Monika Riedl (@Shirinja) <a href="https://twitter.com/Shirinja/status/920229442198429696?ref_src=twsrc%5Etfw">17. Oktober 2017</a></blockquote>
@@ -99,7 +99,7 @@ Also very important: get in contact with the employees and make them influencers
 ## How to reach Generation Z on Social Media platforms
 
 Only 15 years old and already owning a media agency.
-[Charles Bahr](https://twitter.com/einfachcharles?lang=en) had the most unfortunate time slot with the last talk at the conference.
+[Charles Bahr](https://twitter.com/einfachcharles?lang=en){:target="_blank"} had the most unfortunate time slot with the last talk at the conference.
 But he so rocked it explaining us how "Generation Z" ticks.
 Left me speechless.
 

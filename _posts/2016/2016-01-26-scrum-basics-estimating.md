@@ -31,7 +31,7 @@ Ideally, it should also cover all expert areas within a team (e.g. for a piece o
 Within the Backlog Refinement the team members estimate the stories.
 As already said, they don’t estimate time, but effort.
 To symbolise the effort, Scrum Teams use *Story Points*.
-Those are typically [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number): 1, 2, 3, 5, 8, 13, 21.
+Those are typically [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number){:target="_blank"}: 1, 2, 3, 5, 8, 13, 21.
 An alternative are T-shirt sizes.
 Those are usually more roughly because they only represent 4 stages: S, M, L or XL.
 To being able have a more precise measurement, most often some of the Fibonacci numbers are assigned to the T-shirt sizes (e.g. S=2, M=5, L=13, XL=21).

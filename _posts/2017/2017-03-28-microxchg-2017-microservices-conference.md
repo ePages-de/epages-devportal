@@ -7,28 +7,28 @@ category: events
 authors: ["Benjamin"]
 ---
 
-In mid February the [microXchg conference](http://microxchg.io) ([Twitter](https://twitter.com/microXchg)) took place in Berlin.
-It is the biggest two-day event in Europe that focuses on [Microservices](https://martinfowler.com/articles/microservices.html)
+In mid February the [microXchg conference](http://microxchg.io){:target="_blank"} ([Twitter](https://twitter.com/microXchg){:target="_blank"}) took place in Berlin.
+It is the biggest two-day event in Europe that focuses on [Microservices](https://martinfowler.com/articles/microservices.html){:target="_blank"}
 – an architectural design of software systems that has generated a lot of traction within the last years.
 Microservices are not only capable of transforming old architectures but also aligning teams properly to the distribution of software artifacts by establishing distinct bounded contexts.
 
 ## Pre-Event Panel one evening before
 
-One day before the main conference a [conference panel](https://www.meetup.com/Microservices-Meetup-Berlin/events/237309001) event was held with plenum discussions, organized by the [Microservices Meetup Berlin](https://www.meetup.com/Microservices-Meetup-Berlin).
-Some of the greatest influencers in Microservices were invited: [Uwe Friedrichsen](http://twitter.com/ufried), [Oliver Gierke](http://twitter.com/olivergierke), [Eberhard Wolff](http://twitter.com/ewolff) and [Fred George](http://twitter.com/fgeorge52).
+One day before the main conference a [conference panel](https://www.meetup.com/Microservices-Meetup-Berlin/events/237309001){:target="_blank"} event was held with plenum discussions, organized by the [Microservices Meetup Berlin](https://www.meetup.com/Microservices-Meetup-Berlin){:target="_blank"}.
+Some of the greatest influencers in Microservices were invited: [Uwe Friedrichsen](http://twitter.com/ufried){:target="_blank"}, [Oliver Gierke](http://twitter.com/olivergierke){:target="_blank"}, [Eberhard Wolff](http://twitter.com/ewolff){:target="_blank"} and [Fred George](http://twitter.com/fgeorge52){:target="_blank"}.
 Although I did not really learn something totally new, I picked up quite a lot of interesting details.
 Especially Fred's stories about his life and about his really big software projects were worth every second I could spend sitting in the first row.
 I also had the opportunity to ask questions and chat with participants.
 
 ## Workshop day
 
-I visited the workshop "Building microservices with Scala and Akka" by [Yaroslav Tkachenko](http://sap1ens.com).
+I visited the workshop "Building microservices with Scala and Akka" by [Yaroslav Tkachenko](http://sap1ens.com){:target="_blank"}.
 Yaroslav is a highly-skilled professional with a very long background in Scala.
 His great workshop could have easily covered two more days.
 The presentation material lasted until the very last second of the workshop.
 Perfectly on time.
 After the workshop I had an interesting discussion about the tech communities in Canada.
-Yaroslav also wrote [a blog post](http://sap1ens.com/blog/2017/02/26/microxchg-2017) about his observations of the conference.
+Yaroslav also wrote [a blog post](http://sap1ens.com/blog/2017/02/26/microxchg-2017){:target="_blank"} about his observations of the conference.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Last talk for the day:<a href="https://twitter.com/fgeorge52">@fgeorge52</a> about IoT and <a href="https://twitter.com/hashtag/Microservices?src=hash">#Microservices</a> in the Home <a href="https://t.co/JpZYuXrFnf">pic.twitter.com/JpZYuXrFnf</a></p>&mdash; microXchg (@microXchg) <a href="https://twitter.com/microXchg/status/832281234520809472">February 16, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -39,15 +39,15 @@ I visited a lot of interesting sessions with a wide variety of topics.
 All talks were recorded with cameras and microphones.
 30 minutes after a talk, the movie crew uploaded the recordings to the familiar services:
 
-* [microXchg YouTube Channel](https://www.youtube.com/channel/UCGCbB8TPtYMQmJwYVogcPjg)
-* [InfoQ](https://www.infoq.com/microxchg)(one of the best platforms for tech talks on the internet as slides and speaker recordings are presented in two windows)
+* [microXchg YouTube Channel](https://www.youtube.com/channel/UCGCbB8TPtYMQmJwYVogcPjg){:target="_blank"}
+* [InfoQ](https://www.infoq.com/microxchg){:target="_blank"}(one of the best platforms for tech talks on the internet as slides and speaker recordings are presented in two windows)
 
 ## Talks on Thursday
 
 **Morning:**
 
 * Resilient functional software design (Uwe Friedrichsen)
-* Shrinking Microservices to functions (Adrian Cockcroft) - [Summary of the talk](https://www.infoq.com/news/2017/02/microxchg-microservice-functions)
+* Shrinking Microservices to functions (Adrian Cockcroft) - [Summary of the talk](https://www.infoq.com/news/2017/02/microxchg-microservice-functions){:target="_blank"}
 * DDD & REST - Domain-Driven APIs for the web (Oliver Gierke)
 * Serverless - Power to the Black Box! (Michael Bruns)
 
@@ -58,7 +58,7 @@ All talks were recorded with cameras and microphones.
 * Microservices: The Organizational and People Impact (Daniel Bryant)
 * IoT and MicroServices in the Home (Fred George)
 
-[Here](https://www.infoq.com/news/2017/02/microxchg-day-one) you can find a summary of day one.
+[Here](https://www.infoq.com/news/2017/02/microxchg-day-one){:target="_blank"} you can find a summary of day one.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">FULL ROOM at Secure Microservices Adoption by <a href="https://twitter.com/ggonchar">@ggonchar</a> <a href="https://twitter.com/Kreditech">@Kreditech</a> <a href="https://twitter.com/microXchg">@microXchg</a> <a href="https://twitter.com/hashtag/microXchg?src=hash">#microXchg</a> <a href="https://twitter.com/hashtag/eCommerce?src=hash">#eCommerce</a> <a href="https://t.co/eFQOAYd2AP">pic.twitter.com/eFQOAYd2AP</a></p>&mdash; Benjamin Nothdurft (@dataduke) <a href="https://twitter.com/dataduke/status/832520703979159552">February 17, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -81,14 +81,14 @@ All talks were recorded with cameras and microphones.
 
 As you can watch all recordings online I will only give a summary of one single talk that impressed me the most.
 
-The [talk](https://www.youtube.com/watch?v=G7A6ftCbVQY) of [Will Tran](http://twitter.com/fivetenwill) from Pivotal was all about getting Microservices secure.
+The [talk](https://www.youtube.com/watch?v=G7A6ftCbVQY){:target="_blank"} of [Will Tran](http://twitter.com/fivetenwill){:target="_blank"} from Pivotal was all about getting Microservices secure.
 His idea is to use nested, single use JWT tokens instead of having "one token rule them all".
-The project uses [JOSE](http://connect2id.com/products/nimbus-jose-jwt) and trusted service registries.
+The project uses [JOSE](http://connect2id.com/products/nimbus-jose-jwt){:target="_blank"} and trusted service registries.
 
-If you are interested in this new endeavor explore the [source code](https://github.com/william-tran/microxchg2017) and [slides](https://docs.google.com/presentation/d/1gmMlvBW8JNGGo0rY_CnMt6qRYGCGVfQCvevkxVYhXWs/edit#slide=id.g20cc451819_0_3322).
+If you are interested in this new endeavor explore the [source code](https://github.com/william-tran/microxchg2017){:target="_blank"} and [slides](https://docs.google.com/presentation/d/1gmMlvBW8JNGGo0rY_CnMt6qRYGCGVfQCvevkxVYhXWs/edit#slide=id.g20cc451819_0_3322){:target="_blank"}.
 
-Will has in the meantime left Pivotal to work at [autonomic.ai](http://autonomic.ai/) with other former Pivotal employees.
-Still he plans to gather more feedback and interest at [IIW24 - Internet Identity Workshop](http://www.internetidentityworkshop.com/) in the hope that others can contribute to the implementation.
+Will has in the meantime left Pivotal to work at [autonomic.ai](http://autonomic.ai/){:target="_blank"} with other former Pivotal employees.
+Still he plans to gather more feedback and interest at [IIW24 - Internet Identity Workshop](http://www.internetidentityworkshop.com/){:target="_blank"} in the hope that others can contribute to the implementation.
 This would allow further development so that maybe in the future the project might get more support by Pivotal.
 
 ## Wrap-up
@@ -103,5 +103,5 @@ Thanks for such terrific days in Berlin, the delicious catering and the vitalizi
 
 ## Credits
 
-Special thanks goes to [Oliver Gierke](http://twitter.com/olivergierke), who took nearly an hour of his time and invested it into talking with me in the lounge area about [Pivotal](https://pivotal.io) internals and [Spring Data Rest](http://projects.spring.io/spring-data-rest) and [Spring Data Elasticsearch](https://projects.spring.io/spring-data-elasticsearch).
+Special thanks goes to [Oliver Gierke](http://twitter.com/olivergierke){:target="_blank"}, who took nearly an hour of his time and invested it into talking with me in the lounge area about [Pivotal](https://pivotal.io){:target="_blank"} internals and [Spring Data Rest](http://projects.spring.io/spring-data-rest){:target="_blank"} and [Spring Data Elasticsearch](https://projects.spring.io/spring-data-elasticsearch){:target="_blank"}.
 This was very helpful and improved my knowledge besides all talks I have already seen from him at several conferences.

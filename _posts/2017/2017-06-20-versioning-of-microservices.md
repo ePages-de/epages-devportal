@@ -13,7 +13,7 @@ Today it's all about versioning of microservices.
 ## How do we keep track of the state and version of each microservice?
 
 Within our technical infrastructure the source code of each microservice is stored in a dedicated Git repository for version control.
-We use [GitHub](https://github.com/) to manage code contributions (e.g. to add new functionality or fix bugs), which are bundled in pull requests (PR).
+We use [GitHub](https://github.com/){:target="_blank"} to manage code contributions (e.g. to add new functionality or fix bugs), which are bundled in pull requests (PR).
 After passing a defined feedback cycle (automated tests and code analysis, developer code reviews, and quality assurance by a peer group) the PR is merged into the master branch, which then triggers a new build of the microservice.
 
 Up to this point there is nothing special about the code infrastructure management that we have in place.
@@ -41,12 +41,12 @@ Each generated build job consists mainly of the following steps:
 - checkout git repository
 - set build name = `${MIRCOSERVICE_REPONAME}-${BUILD_TIMESTAMP}`
 - clean workspace, build microservice project, run tests via gradle tasks
-- check code quality metrics via defined rules and push measures to aggregated statistics in [SonarQube](https://www.sonarqube.org/)
+- check code quality metrics via defined rules and push measures to aggregated statistics in [SonarQube](https://www.sonarqube.org/){:target="_blank"}
 - publish to microservice-timestamp.jar and message-subs.jar to JFrog artifactory
 - push microservice image to docker hub and remove the built docker image from local disk
 - archive test results.
 
-Within the build microservice task of gradle we also include the [gradle-docker-plugin](https://github.com/bmuschko/gradle-docker-plugin) of [bmuschko](https://github.com/bmuschko).
+Within the build microservice task of gradle we also include the [gradle-docker-plugin](https://github.com/bmuschko/gradle-docker-plugin){:target="_blank"} of [bmuschko](https://github.com/bmuschko){:target="_blank"}.
 The plugin is in our gradle-plugins groovy repo that wraps all our gradle magic and provides all the gradle tasks that can be pulled and included as dependencies into each mircoservices repo.
 
 `docker build --label git-commit:$GIT_COMMIT --tag $MICROSERVICE_NAME:$IMAGE_TAG .`

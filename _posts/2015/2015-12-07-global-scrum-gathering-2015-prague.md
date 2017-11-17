@@ -36,11 +36,11 @@ Statistics show that only 5% of the problems at work occur due to people while 9
 
 Systems that got designed for non-existing X-people are destructive and we should get rid of them.
 He had a whole slide with examples, but I personally most liked his statement: **"Bonus systems are a crime against humanity."**
-If you want to see his whole presentation, you can find it [here](http://de.slideshare.net/npflaeging/organize-for-complexity-keynote-by-niels-pflaeging-at-scrum-gatering-prague-praguecz).
+If you want to see his whole presentation, you can find it [here](http://de.slideshare.net/npflaeging/organize-for-complexity-keynote-by-niels-pflaeging-at-scrum-gatering-prague-praguecz){:target="_blank"}.
 
 ## Ralph Miarka - From Non-Violent Communication to Potential-Focused Communication
 
-Ralph Miarka enhanced the idea of [Non-Violent Communication](https://en.wikipedia.org/wiki/Nonviolent_Communication) with solution focused thinking.
+Ralph Miarka enhanced the idea of [Non-Violent Communication](https://en.wikipedia.org/wiki/Nonviolent_Communication){:target="_blank"} with solution focused thinking.
 That means while the non-violent communication is centred on problems, you should rather focus on the future.
 Talking about problems creates problems, but talking about the future opens up new possibilities.
 Ralph Miarka enhanced the non-violent communication model to
@@ -97,7 +97,7 @@ Plan it in the sprint or take a certain percentage of the sprint (e.g. one day p
 
 Pavel Dabrytski was teaching the audience all the basics about contract, budgets and capitalisation in Scrum.
 It was interesting to hear it from someone that has worked with this in practice.
-There were many information I couldn't fully grab because I've never worked in Sales, so my advice would be to have a look at this [video](https://www.youtube.com/watch?v=cteAb9Ap7_4).
+There were many information I couldn't fully grab because I've never worked in Sales, so my advice would be to have a look at this [video](https://www.youtube.com/watch?v=cteAb9Ap7_4){:target="_blank"}.
 It's roughly the same presentation Pavel was holding on the Agile Africa conference this year.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-gsg-5.jpg" width="50" align="left" %}
@@ -115,4 +115,4 @@ Finish early scenario.
 Sprints that were paid but not needed anymore -> pay back 25% per sprint.
 * You can combine the last two contract models.
 
-You can find the slides of this presentation [here](http://de.slideshare.net/PavelDabrytski/agile-economics-budgets-contacts-capitalization).
+You can find the slides of this presentation [here](http://de.slideshare.net/PavelDabrytski/agile-economics-budgets-contacts-capitalization){:target="_blank"}.

@@ -7,7 +7,7 @@ category: events
 authors: ["Benjamin and Birgit"]
 ---
 
-From the 15th to 17th of June, the [Karlsruher Entwicklertag](https://entwicklertag.de/karlsruhe/2016/) took place at the [IHK Karlsruhe](https://www.karlsruhe.ihk.de/).
+From the 15th to 17th of June, the [Karlsruher Entwicklertag](https://entwicklertag.de/karlsruhe/2016/){:target="_blank"} took place at the [IHK Karlsruhe](https://www.karlsruhe.ihk.de/){:target="_blank"}.
 Despite its name, it is a 3-day event with two conference days, and a tutorial day.
 
 The frame of each day was formed by a morning keynote, 36 session slots in 6 parallel tracks, and an evening keynote.
@@ -19,14 +19,14 @@ In this post, I will mainly talk about the Conference Day, and the various sessi
 
 ## Conference Day
 
-For my colleague Bastian and me, the conference day kicked off with the presentation of our talk on ["Continuous Delivery Pipeline: Test Aggregation and Evaluation for DevOps"](https://entwicklertag.de/karlsruhe/2016/einblick-die-maschinerie).
-In 45 minutes we explained our journey with a solution approach that also outlined some best practices and learnings from working with [Docker](https://www.docker.com/), [CircleCI](https://circleci.com/), and [Elasticsearch](https://www.elastic.co/de/products/elasticsearch).
+For my colleague Bastian and me, the conference day kicked off with the presentation of our talk on ["Continuous Delivery Pipeline: Test Aggregation and Evaluation for DevOps"](https://entwicklertag.de/karlsruhe/2016/einblick-die-maschinerie){:target="_blank"}.
+In 45 minutes we explained our journey with a solution approach that also outlined some best practices and learnings from working with [Docker](https://www.docker.com/){:target="_blank"}, [CircleCI](https://circleci.com/){:target="_blank"}, and [Elasticsearch](https://www.elastic.co/de/products/elasticsearch){:target="_blank"}.
 
 <script async class="speakerdeck-embed" data-id="8b6da8e8a6984137a11e7d91e0c7a967" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### "Behaviour-Driven Development in Java with JGiven", by Dr. Jan Schäfer
 
-[JGiven](http://jgiven.org/) is a new BDD framework, which tries to solve the different issues that Cucumber, JBehave, Concordion, or Fitness could create in large-scale projects with lots of team members.
+[JGiven](http://jgiven.org/){:target="_blank"} is a new BDD framework, which tries to solve the different issues that Cucumber, JBehave, Concordion, or Fitness could create in large-scale projects with lots of team members.
 Most of these tools try to start with a textual description of the test scenarios in the "Given-When-Then-Format” (as a plain file or table), and then try to generate the source code skeleton, that serves as implementation aid for the developer.
 Over time, lots of manual synchronisation errors between annotated refactored test classes in the source code and the test scenarios may occur, especially in larger projects.
 Here is where JGiven shows its strength.
@@ -39,7 +39,7 @@ Other competitive frameworks are Spock (in Groovy) and Serenity (in Java).
 
 ![](/assets/img/pages/blog/images/blog-karlsruhe-junit.jpg)
 
-Interestingly, the next major iteration of [JUnit 5](http://junit.org/junit5/) raised over 53,000 euros on [IndieGogo](https://www.indiegogo.com/projects/junit-lambda#), which could finance several arrangements like a workshop in Karlsruhe with the folks from the big IDE companies, eclipse and IntelliJ, as well as Pivotal for an optimised tooling support.
+Interestingly, the next major iteration of [JUnit 5](http://junit.org/junit5/){:target="_blank"} raised over 53,000 euros on [IndieGogo](https://www.indiegogo.com/projects/junit-lambda#){:target="_blank"}, which could finance several arrangements like a workshop in Karlsruhe with the folks from the big IDE companies, eclipse and IntelliJ, as well as Pivotal for an optimised tooling support.
 The runner concept from the previous version is abolished so that you can use multiple extensions in parallel.
 
 Another interesting feature is `@assertAll`, which does multiple asserts without stopping when in the meantime a failure occurs, so that the test result is more significant (e.g. a comparison of all personal data including addresses).
@@ -87,7 +87,7 @@ We look forward to the next conference next year.
 
 ## Related links
 
-* [Conference Day](https://entwicklertag.de/karlsruhe/2016/conference-day)
-* [Agile Day](https://entwicklertag.de/karlsruhe/2016/agile-day)
-* [Tutorial Day](https://entwicklertag.de/karlsruhe/2016/tutorial-day)
-* [Speaker Deck](https://speakerdeck.com/dataduke/continuous-delivery-pipeline-automated-test-evaluation)
+* [Conference Day](https://entwicklertag.de/karlsruhe/2016/conference-day){:target="_blank"}
+* [Agile Day](https://entwicklertag.de/karlsruhe/2016/agile-day){:target="_blank"}
+* [Tutorial Day](https://entwicklertag.de/karlsruhe/2016/tutorial-day){:target="_blank"}
+* [Speaker Deck](https://speakerdeck.com/dataduke/continuous-delivery-pipeline-automated-test-evaluation){:target="_blank"}

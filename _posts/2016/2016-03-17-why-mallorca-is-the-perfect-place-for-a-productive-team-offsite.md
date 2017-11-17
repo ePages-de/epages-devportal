@@ -17,11 +17,11 @@ Enjoy the multifaceted report!
 
 ## Travelling together
 
-With much curiosity we first took some time off and enjoyed the amazing view over the beach skyline from the terrace of our finca, [Son Pages](http://sonpages.com).
-On day two, we visited the [Cuevas del Drach](http://www.cuevasdeldrach.com) and the beautiful yacht harbour at [Porto Cristo](http://www.portocristo.org/) to draw fresh inspiration.
+With much curiosity we first took some time off and enjoyed the amazing view over the beach skyline from the terrace of our finca, [Son Pages](http://sonpages.com){:target="_blank"}.
+On day two, we visited the [Cuevas del Drach](http://www.cuevasdeldrach.com){:target="_blank"} and the beautiful yacht harbour at [Porto Cristo](http://www.portocristo.org/){:target="_blank"} to draw fresh inspiration.
 On the next day, we went on a road trip with the team van to Sa Calobra in the north.
 We were impressed by the majestic mountains and the bluish tonalities of the Mediterranean Sea.
-When cruising along the bay area, we also found various [Geocaching](https://www.geocaching.com) possibilities to explore.
+When cruising along the bay area, we also found various [Geocaching](https://www.geocaching.com){:target="_blank"} possibilities to explore.
 
 ![](/assets/img/pages/blog/images/blog-mallorca-1.jpg)
 
@@ -44,7 +44,7 @@ We accomplished two knowledge sharing sessions.
 One session was held by our continuous delivery pipeline expert in order to understand and explain the tool chain mechanisms that have not been shared equally amongst each team member yet.
 Another session focused on our evolved know-how and the established workflows around the translation process including language handling and building of language packs for internationalisation.
 
-We also played two rounds of [Coding Dojo](http://codingdojo.org), where we focused on solving the **Kata of Conway’s Game of Life**.
+We also played two rounds of [Coding Dojo](http://codingdojo.org){:target="_blank"}, where we focused on solving the **Kata of Conway’s Game of Life**.
 In the first round we tried to apply the constraints _“TDD as if you meant it”_ and _“Driver & Navigator”_, which strictly separates the roles in pair programming.
 The second round focused on shaping distinct, comprehensive and sustainable test cases.
 Therefore, one ePagee had to implement a unit test.
@@ -58,12 +58,12 @@ In this rotary principle we trained our sense for writing high quality tests. Th
 
 We also planned one day for a hackathon, that accelerated our ingenious chains of thoughts.
 From the early afternoon until late into the night three pairs of programmers took the opportunity to delve into topics of their interest – which fortunately often matched the team's scope of duties.
-One team evaluated the [Jenkins Pipeline Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin) and built a rapid prototype with multiple continuous delivery stages.
+One team evaluated the [Jenkins Pipeline Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin){:target="_blank"} and built a rapid prototype with multiple continuous delivery stages.
 Others engineered the ground-breaking steps for an automated translation process.
 The third team developed a new concept on how to deal with failing tests – of course not without a working prototype that considered a quarantine test group.
 Presenting the results to the others the next morning showed how quick ideas can grow into applicable solutions.
 
-Two [Design Thinking](http://hpi.de/school-of-design-thinking.html) sessions took us beyond the mental barrier of longsome beaten paths.
+Two [Design Thinking](http://hpi.de/school-of-design-thinking.html){:target="_blank"} sessions took us beyond the mental barrier of longsome beaten paths.
 The consistent execution of this method over and over again rapidly helped us to find the desired ideas for our current team mission.
 Firstly, we want to return a lot of responsibilities to those teams that strongly depend on us these days.
 Secondly, we would like to establish a fast and secure mechanism to permanently keep the latest build of the next ePages version in a releasable state.
