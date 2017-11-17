@@ -10,13 +10,13 @@ authors: ["Carsten", "Karsten"]
 Long time no see guys.
 In our last blogpost we talked about [pipelines](/blog/tech-stories/creating-systems-with-pipelining/).
 Today we take a deeper look into some of the special parts of these pipelines.
-This post deals with an i-doit backend library written in [go(lang)](https://golang.org/).
+This post deals with an i-doit backend library written in [go(lang)](https://golang.org/){:target="_blank"}.
 
 ![](/assets/img/pages/blog/images/blog-golang-library-idoit.png)
 
 As already mentioned in the previous blogpost, we are using the i-doit Configuration Management Database (CMDB) extensively.
-[I-doit](https://www.i-doit.com/) is a software especially designed for documentation purposes of IT relevant stuff.
-You can find a short introduction to the tool [here](https://www.i-doit.com/en/products/cmdb/).
+[I-doit](https://www.i-doit.com/){:target="_blank"} is a software especially designed for documentation purposes of IT relevant stuff.
+You can find a short introduction to the tool [here](https://www.i-doit.com/en/products/cmdb/){:target="_blank"}.
 We use the CMDB for most of our IT documentation, and because we are lazy people, we don't put information into it by hand.
 So we automated it partly, especially the network parts.
 When we use our pipeline to integrate new parts (VM's, Server, even RPi's) into our network infrastructure, all the relevant data are put into our CMDB.
@@ -28,7 +28,7 @@ The goal for us today is to see how the data goes into our CMDB, and how we use 
 Before we take a look at how to get data into our CMDB we need some structure.
 By default, the CMDB has some preconfigured objects.
 One of these objects is called the Layer-3-Net.
-For those who forgot the [OSI model ](https://en.wikipedia.org/wiki/OSI_model), the Layer 3 abstraction is called the network layer.
+For those who forgot the [OSI model ](https://en.wikipedia.org/wiki/OSI_model){:target="_blank"}, the Layer 3 abstraction is called the network layer.
 Every node in this network needs an IP/MAC address, and in most of our networks we have DHCP servers providing these IP's for specific MAC's.
 
 Starting with some objects, lets call them server, virtual machine, router etc., are related to the Layer-3-Net because of the IP address in this network, and everyone has a MAC address configured.
@@ -38,7 +38,7 @@ Because we know the domain of the network we can also generate all configs we ne
 ### About magic ... and an API
 
 Here i-doit comes with it's REST-API.
-When starting our pipeline project we started to use the [php client library](https://bitbucket.org/dstuecken/i-doit-api-clients/wiki/PHP) of [Dennis Stücken](https://twitter.com/dstuecken).
+When starting our pipeline project we started to use the [php client library](https://bitbucket.org/dstuecken/i-doit-api-clients/wiki/PHP){:target="_blank"} of [Dennis Stücken](https://twitter.com/dstuecken){:target="_blank"}.
 It's great, and did the job, but finally it was too much code to maintain.
 
 So we thought it was time for some bad voodoo to create less code and make the generation process much faster.
@@ -48,7 +48,7 @@ So the first trick we did was to use the i-doit integrated report manager.
 Here you can create reports from all data in your CMDB and correlate them together.
 We created such reports for every Layer-3-Net containing only IP, MAC, and the domain.
 
-Another time-consuming aspect was the need to initialize Dennis' library every time we use it because of our [Jenkins](https://jenkins.io/) automation.
+Another time-consuming aspect was the need to initialize Dennis' library every time we use it because of our [Jenkins](https://jenkins.io/){:target="_blank"} automation.
 Jenkins is a great tool for creating generic automation processes and workflows.
 The library initialization is only necessary the first time you use it.
 But our Jenkins nodes sometimes restart (bad guys, they need OS updates and such stuff, or sometimes they decide to crash and run away in PANIC 😉 .
@@ -79,7 +79,7 @@ The first two requirements are met, and it's fast, because it's Go 😉, but act
 
 ### Short intro
 
-The library is available [here](https://github.com/cseeger-epages/i-doit-go-api).
+The library is available [here](https://github.com/cseeger-epages/i-doit-go-api){:target="_blank"}.
 You're free to use it ... just GO.
 
 Let's take a short look at the very basic function called `Request`.
@@ -100,7 +100,7 @@ type Api struct {
 
 {% endhighlight %}
 
-Since **Go** does not have a strict object-orientated model, it has a primitive called [interface](https://gobyexample.com/interfaces) which specifies the behavior of our API object.
+Since **Go** does not have a strict object-orientated model, it has a primitive called [interface](https://gobyexample.com/interfaces){:target="_blank"} which specifies the behavior of our API object.
 
 Our `ApiMethod` interface defines the functions.
 As we can see, our interface holds our `Request` function signature.
@@ -125,7 +125,7 @@ func (a Api) Request(method string, parameters interface{}) (Response, error)
 
 {% endhighlight %}
 
-A nice feature we can see here is the so called [empty interface](https://tour.golang.org/methods/14) `interface{}` for our parameters.
+A nice feature we can see here is the so called [empty interface](https://tour.golang.org/methods/14){:target="_blank"} `interface{}` for our parameters.
 We can use the empty interface for encapsulating our request parameters without the need to directly define the structure.
 
 Let's take a look at our request data.
@@ -264,5 +264,5 @@ We create an API object by providing a URL and an API key, and do a simple searc
 
 ## That's it, folks
 
-You can find more [examples](https://github.com/cseeger-epages/i-doit-go-api/tree/master/examples) on github showing usage examples and how to implement own functions.
-For a more detailed documentation see the [godoc.org](https://godoc.org/github.com/cseeger-epages/i-doit-go-api) platform generating documentation from code comments (great feature).
+You can find more [examples](https://github.com/cseeger-epages/i-doit-go-api/tree/master/examples){:target="_blank"} on github showing usage examples and how to implement own functions.
+For a more detailed documentation see the [godoc.org](https://godoc.org/github.com/cseeger-epages/i-doit-go-api){:target="_blank"} platform generating documentation from code comments (great feature).

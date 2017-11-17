@@ -13,7 +13,7 @@ The main goal of this event was to:
 > "[..] provide the European container community with the necessary platform to promote and professionalize the thriving container movement."
 
 The event was divided into a conference day and a workshop day.
-The first day was dedicated to workshops that focused on the practical use of container technologies like [Docker](https://www.docker.com/), [Kubernetes](http://kubernetes.io/), and [Mesosphere](https://mesosphere.com/).
+The first day was dedicated to workshops that focused on the practical use of container technologies like [Docker](https://www.docker.com/){:target="_blank"}, [Kubernetes](http://kubernetes.io/){:target="_blank"}, and [Mesosphere](https://mesosphere.com/){:target="_blank"}.
 The workshops were followed by a Meetup session in the evening.
 The second day focused on talks from experts within the container community.
 They presented their insights and experiences in the field of the IT infrastructure of the future.
@@ -22,16 +22,16 @@ In this post, I share some notes that I took from the various sessions I was par
 
 ## Meetup
 
-### Tobias Schneck - [ConSol Software GmbH](https://www.consol.com/): Containerized End-2-End-Testing
+### Tobias Schneck - [ConSol Software GmbH](https://www.consol.com/){:target="_blank"}: Containerized End-2-End-Testing
 
-The main point of this talk was about putting a VNC-Server and Selenium-like testing software ([sakuli](https://github.com/ConSol/sakuli)) in a container, and run UI tests with it.
-They also integrated the E2E test in [Nagios](https://www.nagios.org/) and got some nice graphs and error reports out of it.
+The main point of this talk was about putting a VNC-Server and Selenium-like testing software ([sakuli](https://github.com/ConSol/sakuli){:target="_blank"}) in a container, and run UI tests with it.
+They also integrated the E2E test in [Nagios](https://www.nagios.org/){:target="_blank"} and got some nice graphs and error reports out of it.
 
-[Slides](https://rawgit.com/toschneck/presentation/docker-meetup-container-days/index.html#/)
+[Slides](https://rawgit.com/toschneck/presentation/docker-meetup-container-days/index.html#/){:target="_blank"}
 
-### [Aaron Huslage](https://twitter.com/huslage) - [Docker](https://www.docker.com/): New Stuff in Docker 1.12
+### [Aaron Huslage](https://twitter.com/huslage){:target="_blank"} - [Docker](https://www.docker.com/){:target="_blank"}: New Stuff in Docker 1.12
 
-Aaron showed the new features of the upcoming docker release. The biggest part was the new orchestration framework (see [blog post](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/)).
+Aaron showed the new features of the upcoming docker release. The biggest part was the new orchestration framework (see [blog post](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/){:target="_blank"}).
 
 Some main points:
 
@@ -42,14 +42,14 @@ Some main points:
 
 ## Conference Day
 
-### [Mandy Waite](https://twitter.com/tekgrrl) - [Google](https://www.google.de) : From Borg to Kubernetes: The history and future of container orchestration
+### [Mandy Waite](https://twitter.com/tekgrrl){:target="_blank"} - [Google](https://www.google.de){:target="_blank"} : From Borg to Kubernetes: The history and future of container orchestration
 
 This talk was mainly about efficient usage of cluster resources in Borg and with Kubernetes:
 
 * New Feature in 1.3: Federated Cluster
 {% youtube_video video_id="86jZdmAjWns" %}
 
-### [Boyan Dimitrov](https://twitter.com/nathariel) - [Sixt](https://www.sixt.de/): Enterprise Microservice Adoption
+### [Boyan Dimitrov](https://twitter.com/nathariel){:target="_blank"} - [Sixt](https://www.sixt.de/){:target="_blank"}: Enterprise Microservice Adoption
 
 The talk was about the first services developed as a microservice.
 
@@ -63,7 +63,7 @@ The approach:
 * Create API, self contained databases, service should be killable, fail fast, define success
 * Service template, new repos, Jenkins Jobs, Makefile
 * Continuous delivery track: simple and repeatable
-* Use [Micro](https://blog.micro.mu/) (microservice toolkit)
+* Use [Micro](https://blog.micro.mu/){:target="_blank"} (microservice toolkit)
 * Scale the pilot
 
 The already have production traffic on Kubernetes.
@@ -79,7 +79,7 @@ Building blocks of container:
 * cgroups: examples: devices memory freeze
 * Namespaces: cmd tool unshare
 
-### Rainer Sträter - [1&1 Internet SE](http://www.1und1.de/): Application deployment and management at scale with 1&1
+### Rainer Sträter - [1&1 Internet SE](http://www.1und1.de/){:target="_blank"}: Application deployment and management at scale with 1&1
 
 * Motivation for container: Web hosting stacks, new demands from customers, complex updates
 * Everything is a container (mysql, php, ...)
@@ -87,12 +87,12 @@ Building blocks of container:
 * Kubernetes Cluster Size: 1000 Nodes, 1000 Container per Node
 * Cluster running on CoreOS
 * Open vSwitch for routing traffic
-* Automation of container build with [drone.io](https://drone.io/). Watch for changes, build, test push.
+* Automation of container build with [drone.io](https://drone.io/){:target="_blank"}. Watch for changes, build, test push.
 * Applications need to support immutable updates
 * Currently no own container
 * Shortly publicly available as "Managed Hosting"
 
-### [Mathias Lafeldt](https://twitter.com/mlafeldt) - [Jimdo](http://www.jimdo.com/index.php): A journey through wonderland
+### [Mathias Lafeldt](https://twitter.com/mlafeldt){:target="_blank"} - [Jimdo](http://www.jimdo.com/index.php){:target="_blank"}: A journey through wonderland
 
 * Cloud migration took 5 years, now running on AWS
 * Every team did their own monitoring, deployment, test, and other stuff
@@ -102,9 +102,9 @@ Building blocks of container:
 * Toolsmith team as internal service provider: SLA, workshops, documentation, ....
 * Tools in use: Docker registry, Vault, Chat bot, CoreOS (no SSH for devs)
 
-[Slides](https://speakerdeck.com/mlafeldt/a-journey-through-wonderland)
+[Slides](https://speakerdeck.com/mlafeldt/a-journey-through-wonderland){:target="_blank"}
 
-### [Henning Jacobs](https://twitter.com/try_except_) - [Zalando](https://tech.zalando.de/): Plan B: Service to Service authentication with OAuth
+### [Henning Jacobs](https://twitter.com/try_except_){:target="_blank"} - [Zalando](https://tech.zalando.de/){:target="_blank"}: Plan B: Service to Service authentication with OAuth
 
 About the dev environment:
 
@@ -126,17 +126,17 @@ What else?
 * Cassandra for token storage
 * 0.5 ms for validation + 8ms token info
 
-[Documentation](http://planb.readthedocs.io/en/latest/)
+[Documentation](http://planb.readthedocs.io/en/latest/){:target="_blank"}
 
-[Slides](http://de.slideshare.net/try_except_/plan-b-service-to-service-authentication-with-oauth)
+[Slides](http://de.slideshare.net/try_except_/plan-b-service-to-service-authentication-with-oauth){:target="_blank"}
 
-### [Florian Leibert](https://twitter.com/flo) - [Mesosphere](https://mesosphere.com/): Lightning Talk
+### [Florian Leibert](https://twitter.com/flo){:target="_blank"} - [Mesosphere](https://mesosphere.com/){:target="_blank"}: Lightning Talk
 
 * Helped Twitter and Airbnb to containerize their appilcations
 * Presented Mesos as OS for the data centre
 * Live example of Apache Spark with Zeppelin for analytics
 
-### [Tobias Schmidt](https://twitter.com/dagrobie) - [Soundcloud](https://soundcloud.com/): Efficient monitoring in modern environments
+### [Tobias Schmidt](https://twitter.com/dagrobie){:target="_blank"} - [Soundcloud](https://soundcloud.com/){:target="_blank"}: Efficient monitoring in modern environments
 
 Why Monitor?
 
@@ -176,9 +176,9 @@ What else?
 * Use run books, playbooks, and link them in the alerts
 * Practice outages "game days"
 
-[Slides](https://speakerdeck.com/grobie/efficient-monitoring-in-modern-environments)
+[Slides](https://speakerdeck.com/grobie/efficient-monitoring-in-modern-environments){:target="_blank"}
 
-### [Florian Sellmayr](https://twitter.com/fsellmayr) - [ThoughtWorks](https://www.thoughtworks.com/): A web shop in containers - Building the microservice platform for otto.de
+### [Florian Sellmayr](https://twitter.com/fsellmayr){:target="_blank"} - [ThoughtWorks](https://www.thoughtworks.com/){:target="_blank"}: A web shop in containers - Building the microservice platform for otto.de
 
 * Running on Apache Mesos
 * 600 VMs running live shop

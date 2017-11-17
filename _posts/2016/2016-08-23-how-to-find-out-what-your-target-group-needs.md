@@ -37,7 +37,7 @@ But I was not yet 100% sure it would be the perfect fit for my target group.
 I was convinced, that I needed to test this "on the living object".
 Fortunately, I work closely together with our Usability Expert Anja who offered to support me.
 We agreed to conduct an online survey amongst the users of our API documentation.
-The survey was published internally, communicated to our partners, announced on the [ePages developer blog](/blog) as well as via [Twitter](https://twitter.com/epagesdevs).
+The survey was published internally, communicated to our partners, announced on the [ePages developer blog](/blog) as well as via [Twitter](https://twitter.com/epagesdevs){:target="_blank"}.
 
 ### Categorizing the audience
 
@@ -77,10 +77,10 @@ Amongst others they'd like to see:
 
 I learned about good API documentation that developers really like to work with, as:
 
-* [PayPal API](https://developer.paypal.com/docs/api/)
-* [Twitter API](https://dev.twitter.com/overview/documentation)
-* [GitHub API](https://developer.github.com/)
-* [Node.js](https://nodejs.org/api/all.html)
+* [PayPal API](https://developer.paypal.com/docs/api/){:target="_blank"}
+* [Twitter API](https://dev.twitter.com/overview/documentation){:target="_blank"}
+* [GitHub API](https://developer.github.com/){:target="_blank"}
+* [Node.js](https://nodejs.org/api/all.html){:target="_blank"}
 
 ## Summary
 

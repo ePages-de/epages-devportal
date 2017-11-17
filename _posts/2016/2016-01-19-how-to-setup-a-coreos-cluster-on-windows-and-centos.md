@@ -7,7 +7,7 @@ category: tech-stories
 authors: ["Andreas G."]
 ---
 
-This post deals with setting up a 3-Cluster CoreOS installation using [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) on Windows and CentOS.
+This post deals with setting up a 3-Cluster CoreOS installation using [Vagrant](https://www.vagrantup.com/){:target="_blank"} and [VirtualBox](https://www.virtualbox.org/){:target="_blank"} on Windows and CentOS.
 It is intended as a short practical introduction to using CoreOS.
 Later posts will show how to set up and connect different containers in CoreOS.
 
@@ -17,7 +17,7 @@ The new architecture of ePages will almost certainly be based on CoreOS as an op
 CoreOS in combination with Docker, etcd, systemd or fleet fits perfectly into the microservices approach.
 It is designed to facilitate large multiple-machine deployments and is easy to scale and manage.
 CoreOS uses Linux containers to manage services instead of package managers.
-One of the main advantages is that the code and all dependencies of a single service, is packaged within a container and can be run on different CoreOS machines (see also [Using CoreOs](https://coreos.com/using-coreos/) and [CoreOS with Docker](https://www.airpair.com/coreos/posts/coreos-with-docker)).
+One of the main advantages is that the code and all dependencies of a single service, is packaged within a container and can be run on different CoreOS machines (see also [Using CoreOs](https://coreos.com/using-coreos/){:target="_blank"} and [CoreOS with Docker](https://www.airpair.com/coreos/posts/coreos-with-docker){:target="_blank"}).
 
 Now let's just start with the practical stuff:
 
@@ -29,23 +29,23 @@ Now let's just start with the practical stuff:
 
 First, install the Windows Management Framework 3.0 including the Windows PowerShell 3.0.
 The standard shell will have some troubles with paths.
-Download the latest version [here](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+Download the latest version [here](https://www.microsoft.com/en-us/download/details.aspx?id=34595){:target="_blank"}.
 
 #### 2. Install cygwin
 
 To get the rsync feature, install cygwin on your Windows installation.
-Download it [here](https://cygwin.com/install.html).
+Download it [here](https://cygwin.com/install.html){:target="_blank"}.
 
 * Make sure to activate "rsync" and "SSH" in the installation.
 * Add "C:\cygwin64\bin" to your Windows system variable "PATH".
 
 #### 3. Install VirtualBox
 
-Download the latest version of VirtualBox [here](https://www.virtualbox.org/wiki/Downloads).
+Download the latest version of VirtualBox [here](https://www.virtualbox.org/wiki/Downloads){:target="_blank"}.
 
 #### 4. Install Vagrant
 
-Download the latest version of Vagrant [here](https://www.vagrantup.com/downloads.html).
+Download the latest version of Vagrant [here](https://www.vagrantup.com/downloads.html){:target="_blank"}.
 
 ### Getting started
 
@@ -165,7 +165,7 @@ $ yum install nano
 
 #### 4. Install Vagrant
 
-[See also](https://www.vagrantup.com/downloads.html).
+[See also](https://www.vagrantup.com/downloads.html){:target="_blank"}.
 
 {% highlight bash %}
 $ cd
@@ -177,7 +177,7 @@ $ rpm -Uvh vagrant_1.7.4_x86_64.rpm
 
 #### 5. Install VirtualBox
 
-[See also](http://tecadmin.net/install-oracle-virtualbox-on-centos-redhat-and-fedora/).
+[See also](http://tecadmin.net/install-oracle-virtualbox-on-centos-redhat-and-fedora/){:target="_blank"}.
 
 {% highlight bash %}
 $ vim /etc/yum.repos.d/virtualbox.repo
@@ -310,6 +310,6 @@ $ yum install nfs-utils nfs-utils-lib
 
 ## Related links
 
-* [UsingCoreOS](https://coreos.com/using-coreos/)
-* [CoreOSTutorial](https://coreos.com/os/docs/latest/booting-on-vagrant.html)
-* [CoreOSVagrantRepo](https://github.com/coreos/coreos-vagrant)
+* [UsingCoreOS](https://coreos.com/using-coreos/){:target="_blank"}
+* [CoreOSTutorial](https://coreos.com/os/docs/latest/booting-on-vagrant.html){:target="_blank"}
+* [CoreOSVagrantRepo](https://github.com/coreos/coreos-vagrant){:target="_blank"}

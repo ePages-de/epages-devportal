@@ -28,12 +28,12 @@ Maybe that inspires you and gives some further insight of what kind of apps we'r
 Take a glance at our integrations.
 There's already a [Ruby gem](page:apps-ruby-gem) in place that is to help you create easy and understandable code and speed up your development.
 
-Using our [REST client SITe](https://github.com/ePages-de/site) you can easily build a plugin for a Content Management System (CMS) or blog of your choice.
+Using our [REST client SITe](https://github.com/ePages-de/site){:target="_blank"} you can easily build a plugin for a Content Management System (CMS) or blog of your choice.
 
 ## We're keeping you up to date
 
 We've implemented a change log that covers significant updates and changes to the ePages REST API.
-In order to keep track of these changes we recommend you to follow [@epagesdevs](https://twitter.com/epagesdevs) on Twitter or subscribe to our [RSS feed for the API Change Log](/blog/feed.xml).
+In order to keep track of these changes we recommend you to follow [@epagesdevs](https://twitter.com/epagesdevs){:target="_blank"} on Twitter or subscribe to our [RSS feed for the API Change Log](/blog/feed.xml).
 
 ## Happy coding!
 

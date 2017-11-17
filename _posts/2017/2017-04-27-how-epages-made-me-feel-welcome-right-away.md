@@ -19,7 +19,7 @@ What should I wear?
 How will my first day look like?
 Which tasks will wait for me?
 
-These kind of questions swirled through my mind when I started my internship in the Technical Communication team here at [ePages](https://www.epages.com) two months ago.
+These kind of questions swirled through my mind when I started my internship in the Technical Communication team here at [ePages](https://www.epages.com){:target="_blank"} two months ago.
 To be honest, I was pretty nervous and felt some butterflies in my stomach when I opened the ePages door for the first time.
 But already on my first day, I noticed that I will have a great time and don't need to worry at all.
 Let me tell you why.
@@ -43,7 +43,7 @@ I ended up in my new office and had some time to organize my new desk and have a
 Being the "new one", I had a lot of questions and didn't understand all the internal terms and processes right away.
 But who doesn't have these problems at the beginning?
 At ePages everyone seemed to remember this situation and was really helpful.
-During the first week they prepared some really useful presentations to make me comfortable with [GitHub](https://github.com/), [Scrum](/blog/on-the-job/why-i-love-working-as-a-scrum-master/) and the different [software versions](https://www.epages.com/us/now/).
+During the first week they prepared some really useful presentations to make me comfortable with [GitHub](https://github.com/){:target="_blank"}, [Scrum](/blog/on-the-job/why-i-love-working-as-a-scrum-master/) and the different [software versions](https://www.epages.com/us/now/){:target="_blank"}.
 In addition to this personal support, there are some nice and handy technical features for new employees.
 For example, there is a terminology database that explains many important and frequent words and concepts.
 This way you can easily look up a new word or reread one you've already heard.
@@ -81,7 +81,7 @@ As it was my first Hackathon, it was a really great experience for me and it was
 Making coffee and copies and doing all the annoying stuff nobody else wants to do?
 That's how an internship could be... but not at ePages.
 Taking into account my wishes and interests, I got my own varied and interesting tasks.
-For example, I had the chance to research on some software localization tools such as [PhraseApp](https://phraseapp.com/) or I was even engaged in making a [video of our Hackathon](https://www.youtube.com/watch?v=j-qMUo8_ChQ).
+For example, I had the chance to research on some software localization tools such as [PhraseApp](https://phraseapp.com/){:target="_blank"} or I was even engaged in making a [video of our Hackathon](https://www.youtube.com/watch?v=j-qMUo8_ChQ){:target="_blank"}.
 I am really happy, that I got my own responsible tasks and felt like a "real" colleague and not only like an intern.
 
 ## The secret recipe

@@ -6,14 +6,14 @@ header_image: smart.jpg
 category: tech-stories
 authors: ["Frederik"]
 ---
-From our work with hundreds of companies localizing software here at [PhraseApp](https://phraseapp.com/), I want to share some insights in the usage of gettext and advanced translation message format features.
+From our work with hundreds of companies localizing software here at [PhraseApp](https://phraseapp.com/){:target="_blank"}, I want to share some insights in the usage of gettext and advanced translation message format features.
 I'll share my point of view on which features to use and which to rather avoid.
 
 ## A discussion of the "smartness" of localization formats
 
 Locales for text-based resources are usually quite simple.
 They are composed of segments, each given a label or name and the translation content for the segment in the given language.
-For example, when using the [gettext locale format](https://phraseapp.com/docs/guides/formats/gettext-po/), a locale contains bits like this:
+For example, when using the [gettext locale format](https://phraseapp.com/docs/guides/formats/gettext-po/){:target="_blank"}, a locale contains bits like this:
 
 {% highlight text %}
   msgid "Hello World"
@@ -74,7 +74,7 @@ A translated segment would look like this:
 The `msgstr[0]` is not the zero, but the singular form given a single message, and the `msgstr[1]`form is the plural form used for any other amount of messages, e.g. 0, 2, 3 or n messages with (n=0 or n>1).
 
 In languages with more plural forms, additional plural forms can be added, e.g. for forms for few or many items, labeled `msgstr[2]`, `msgstr[3]` etc.
-They need to be numbered according to the [gettext plural-form specification](https://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Plural-forms.html).
+They need to be numbered according to the [gettext plural-form specification](https://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Plural-forms.html){:target="_blank"}.
 
 ### Process-related format features
 
@@ -85,7 +85,7 @@ Besides simple contextual comments...
   msgid "About Us"
 {% endhighlight %}
 
-... gettext supports also noting the approval-state of a current translation, by using [the keyword `fuzzy` as a system-comment](https://www.gnu.org/software/gettext/manual/html_node/Fuzzy-Entries.html).
+... gettext supports also noting the approval-state of a current translation, by using [the keyword `fuzzy` as a system-comment](https://www.gnu.org/software/gettext/manual/html_node/Fuzzy-Entries.html){:target="_blank"}.
 
 {% highlight text %}
   #, fuzzy
@@ -98,7 +98,7 @@ Although, pluralization is a useful feature it is usually used sparsely in proje
 The use-cases of phrases such as "You've got %d items in your cart." are actually quite rare and often not worth the trouble of communicating the specifics with translators who may or may not be aware of pluralization features in software localization.
 Same story for complex interpolation, such as `"%.2f"` or similar.
 Any non-standard text may cause confusion, misunderstanding and in some cases even programmatic errors. Simple is usually more maintainable.
-Albeit, modern [translation management platforms](https://phraseapp.com) like PhraseApp help to assist translators in translating strings that have interpolation or plural-rules they adhere to.
+Albeit, modern [translation management platforms](https://phraseapp.com){:target="_blank"} like PhraseApp help to assist translators in translating strings that have interpolation or plural-rules they adhere to.
 
 ### ICU is a completely different story
 
@@ -137,14 +137,14 @@ Having this run through and evaluated by an external library doesn't add additio
 In short: Algorithmic complexity in translation content is a burden on the translator who needs to work with it as well as generations of developers who will try to understand why a certain piece of logic of their application is hidden in a locale file.
 
 However, there are certain cases in which the ICU message format can be used to enable pluralization support or simple linguistic switches.
-Some frameworks such as the popular PHP-web-framework Symfony even introduce [their own version of the same idea](http://symfony.com/doc/current/components/translation/usage.html#message-placeholders).
+Some frameworks such as the popular PHP-web-framework Symfony even introduce [their own version of the same idea](http://symfony.com/doc/current/components/translation/usage.html#message-placeholders){:target="_blank"}.
 But this should be done carefully and it may make the translation process more error-prone.
 
 ## The gist: keep it simple!
 
 I would suggest to reduce the complexity in the translation process by using explicit sentences with pluralization and placeholders at most.
 Complex rule-based translation messages usually lead to confusion with external editors or translators, make problems harder to debug and solve and thereby overcomplicate the process.
-Using a [translation management system with a translation memory](https://phraseapp.com) and simple ways to manage a large complex word base is key to being able to achieve an [efficient translation process](https://phraseapp.com).
+Using a [translation management system with a translation memory](https://phraseapp.com){:target="_blank"} and simple ways to manage a large complex word base is key to being able to achieve an [efficient translation process](https://phraseapp.com){:target="_blank"}.
 
 ## About the author
 

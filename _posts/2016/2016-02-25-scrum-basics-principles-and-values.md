@@ -8,7 +8,7 @@ authors: ["Anja B."]
 ---
 
 This part of our Scrum Basics Series will take a look at the Principles and Values Scrum is trying to implement in your company.
-For a start, I'd like to show you what the [Agile Manifesto](http://www.agilemanifesto.org) says about what agile development values:
+For a start, I'd like to show you what the [Agile Manifesto](http://www.agilemanifesto.org){:target="_blank"} says about what agile development values:
 
 >„Individuals and interactions over processes and tools.
 Working software over comprehensive documentation.
@@ -23,7 +23,7 @@ It’s a short but powerful summary and shows that implementing Scrum in your co
 
 ## Principles
 
-In addition to this short summary the Agile Manifesto also lists [twelve principles](http://agilemanifesto.org/iso/en/principles.html) an agile company should follow.
+In addition to this short summary the Agile Manifesto also lists [twelve principles](http://agilemanifesto.org/iso/en/principles.html){:target="_blank"} an agile company should follow.
 Here only a small selection:
 
 *“Our highest priority is to satisfy the customer

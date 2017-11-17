@@ -23,7 +23,7 @@ After the tests have been run, the JSON logs should have been created inside eve
 
 ### Part 1 - Define the test object and extend the test suite reporter
 
-Our initial task consisted of the definition of the desired target format for the individual test objects, which would later be stored in Elasticsearch as [JSON](http://www.json.org/) documents. We determined to create a single object for each test case and represent it as a simple JSON object (without nested fields, like arrays) as this could be easier displayed by several client interfaces of Elasticsearch later on.
+Our initial task consisted of the definition of the desired target format for the individual test objects, which would later be stored in Elasticsearch as [JSON](http://www.json.org/){:target="_blank"} documents. We determined to create a single object for each test case and represent it as a simple JSON object (without nested fields, like arrays) as this could be easier displayed by several client interfaces of Elasticsearch later on.
 
 {% highlight json %}
 {
@@ -53,7 +53,7 @@ All other fields cannot be derived from our test suite itself and therefore need
 
 #### Dockerfile
 
-We decided to run the nodes of the [Elasticsearch](https://www.elastic.co/products/elasticsearch) cluster within effortlessly deployable Docker containers. To keep the entire setup at a reasonable level the reuse of the [official base image](https://hub.docker.com/_/elasticsearch/) was very helpful. In the `Dockerfile` we synced our timezone, prepared templating with [Jinja2](http://jinja.pocoo.org/docs/dev/) and installed two plugins for HTTP authorisation and [administration](https://github.com/mobz/elasticsearch-head) via a web frontend that included a tabular document view and an extensive REST-console. We needed to create and use our own `docker-entrypoint` script as we wanted to map a few more Docker host directories than suggested by the official base image.
+We decided to run the nodes of the [Elasticsearch](https://www.elastic.co/products/elasticsearch){:target="_blank"} cluster within effortlessly deployable Docker containers. To keep the entire setup at a reasonable level the reuse of the [official base image](https://hub.docker.com/_/elasticsearch/){:target="_blank"} was very helpful. In the `Dockerfile` we synced our timezone, prepared templating with [Jinja2](http://jinja.pocoo.org/docs/dev/){:target="_blank"} and installed two plugins for HTTP authorisation and [administration](https://github.com/mobz/elasticsearch-head){:target="_blank"} via a web frontend that included a tabular document view and an extensive REST-console. We needed to create and use our own `docker-entrypoint` script as we wanted to map a few more Docker host directories than suggested by the official base image.
 
 #### Configuration
 
@@ -257,14 +257,14 @@ For our Elasticsearch Docker cluster we configured a new Jenkins job, which ensu
 
 ### Part 5 - Use the Elasticsearch Client to evaluate the test results
 
-In the current state we use the [Elasticsearch Client](https://github.com/rdpatil4/ESClient) to monitor and analyse the test results. Here you can browse and filter the documents via dropdown menus for the index, which is our test object type (e.g. cdp-ui-tests) and the document type, which is the ePages repo id (e.g. 6.17.39). You can then narrow down the search with simple matches in the search field (e.g. only show tests with result FAILURE) or use the official [Lucence Query](http://www.lucenetutorial.com/lucene-query-syntax.html), which supports boolean operators, range matchers and more advanced features similar to a regex. It is possible to edit every single test object within the client by double-clicking a tabular row. Therefore, the `note` field can be used to add information about the error, like the cause of the error and the corresponding JIRA issue id.
+In the current state we use the [Elasticsearch Client](https://github.com/rdpatil4/ESClient){:target="_blank"} to monitor and analyse the test results. Here you can browse and filter the documents via dropdown menus for the index, which is our test object type (e.g. cdp-ui-tests) and the document type, which is the ePages repo id (e.g. 6.17.39). You can then narrow down the search with simple matches in the search field (e.g. only show tests with result FAILURE) or use the official [Lucence Query](http://www.lucenetutorial.com/lucene-query-syntax.html){:target="_blank"}, which supports boolean operators, range matchers and more advanced features similar to a regex. It is possible to edit every single test object within the client by double-clicking a tabular row. Therefore, the `note` field can be used to add information about the error, like the cause of the error and the corresponding JIRA issue id.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-client.png" width="100" caption="The test results in the Elasticsearch Client" %}
 
 Additionally, we also take advantage of three other ways to access our Elasticsearch cluster:
 
-* via the [Elasticsearch Head plugin](https://github.com/mobz/elasticsearch-head)
-* via curl and the [Elasticsearch DSL simple query string](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html)
+* via the [Elasticsearch Head plugin](https://github.com/mobz/elasticsearch-head){:target="_blank"}
+* via curl and the [Elasticsearch DSL simple query string](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html){:target="_blank"}
 * via URI requests in the location bar of the browser, e.g.:
 
 {% highlight text%}

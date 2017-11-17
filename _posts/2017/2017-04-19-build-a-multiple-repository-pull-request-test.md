@@ -24,16 +24,16 @@ Three things are necessary:
 * naming convention.
 
 ## 2. Why do we need those things?
-You can use the [Github Organizational Folder Plugin](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Organization+Folder+Plugin) to check your repositories for new pull requests.
+You can use the [Github Organizational Folder Plugin](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Organization+Folder+Plugin){:target="_blank"} to check your repositories for new pull requests.
 This plugin will check every affected repository for changes and activates the Jenkinsfile in the main directory, if a change has been made.
 
-You can create a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/) for a repository, which will be triggered after a pull request.
+You can create a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/){:target="_blank"} for a repository, which will be triggered after a pull request.
 The task of this Jenkinsfile is mainly to check, if branches with the same name from the same developer in other repositories exist and then uses them for the PR tests, if a change was detected.
 
 You have to agree to naming conventions, that means you have to set the name for all affected branches in the different repositories.
 While working with pull requests, you need to find out the branch name first.
 Luckily, you can get the pull request number directly from the trigger.
-You need to [GET the PR information](https://developer.github.com/v3/pulls/#get-a-single-pull-request) from Github:
+You need to [GET the PR information](https://developer.github.com/v3/pulls/#get-a-single-pull-request){:target="_blank"} from Github:
 
 {% highlight groovy %}
 BRANCH = git.getBranchNameFromPr("rest-test-gold", env.CHANGE_ID)
@@ -63,7 +63,7 @@ As you now have the name of the branch, you need to do the same for the remote n
 How can we now ensure, that the pull request is only triggered once and not for every repository, where a Pull request was set from a developer?
 
 The solution is to build a hierarchy into the repository structure.
-As every repository has a descriptive [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/), we need a kind of control repository.
+As every repository has a descriptive [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/){:target="_blank"}, we need a kind of control repository.
 
 ![](/assets/img/pages/blog/images/blog-pr-test-1.png)
 

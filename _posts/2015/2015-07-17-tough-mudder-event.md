@@ -10,7 +10,7 @@ authors: ["Ludger"]
 Weeks of preparation.
 Running to and around the Alster during lunch breaks.
 Athletics exercises. A lot of training sessions and sweat.
-Focussing on that one goal: participating in the [Tough Mudder](https://toughmudder.com/) obstacle course!
+Focussing on that one goal: participating in the [Tough Mudder](https://toughmudder.com/){:target="_blank"} obstacle course!
 Find out more how we fought through the mud.
 
 We were well prepared to do the Tough Mudder challenge in the Lüneburg Heath, a muddy and marshy area in Northern Germany.

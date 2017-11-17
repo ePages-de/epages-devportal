@@ -38,7 +38,7 @@ Tools like [**L**ogstash][logstash] or [**F**luentd][fluentd] are Open Source so
 They provide one part of a technology stack often abbreviated as **ELK** or **EFK**, completed by [**E**lasticsearch][elasticsearch] for storing and [**K**ibana][kibana] for visualizing log events.
 While such tools are very flexible with regards to their input data formats, we already create log events in a structure that eases (or even lets us completely skip) the transformation step.
 For our microservices executed in a Java Virtual Machine (JVM) we use the combination of [Logback][logback] and [Logback JSON encoder][logstash-logback-encoder] to produce log events in JSON, while still allowing seamless integration into all logging calls of our app.
-The JSON format created out of the box is already a good fit for Logstash, but it's also possible to introduce a [custom JSON structure](https://github.com/logstash/logstash-logback-encoder#composite-encoderlayout) for more advanced use cases.
+The JSON format created out of the box is already a good fit for Logstash, but it's also possible to introduce a [custom JSON structure](https://github.com/logstash/logstash-logback-encoder#composite-encoderlayout){:target="_blank"} for more advanced use cases.
 A typical Java application can be configured by adding Logback JSON encoder to the classpath and including this `logback.xml` file:
 
 {% highlight xml %}
@@ -164,7 +164,7 @@ http {
 events {}
 {% endhighlight %}
 
-Notice how the `$request_id` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_request_id) is used to define an additional JSON property for every request, containing a randomly generated hexadecimal value used as the **Correlation ID**.
+Notice how the `$request_id` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_request_id){:target="_blank"} is used to define an additional JSON property for every request, containing a randomly generated hexadecimal value used as the **Correlation ID**.
 It is also communicated to the downstream service using a custom HTTP header `X-Correlation-ID`, as well as returned to the calling client as a response header:
 
 {% highlight json %}

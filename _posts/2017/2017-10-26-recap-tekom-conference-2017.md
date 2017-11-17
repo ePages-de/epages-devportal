@@ -8,7 +8,7 @@ category: events
 authors: ["Birgit"]
 ---
 
-While the impressions of [tekom conference 2017](http://tagungen.tekom.de/h17/tekom-jahrestagung-2017/) are still fresh in my mind, I'd like to share some positive reminders with you.
+While the impressions of [tekom conference 2017](http://tagungen.tekom.de/h17/tekom-jahrestagung-2017/){:target="_blank"} are still fresh in my mind, I'd like to share some positive reminders with you.
 I'll make it short and use some buzzwords.
 
 ## Plentiful

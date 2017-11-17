@@ -21,7 +21,7 @@ The speakers of the W-JAX 2015 conference talked about this idea in many session
 
 ### When do we need microservices
 
-Developing software until now often had the idea of developing a [monolith](https://en.wikipedia.org/wiki/Monolithic_system).
+Developing software until now often had the idea of developing a [monolith](https://en.wikipedia.org/wiki/Monolithic_system){:target="_blank"}.
 With a monolith we build a software in one application with one database and (mostly) one programming language.
 To test the complete software will entail huge tests.
 
@@ -51,7 +51,7 @@ If the sliced software component cannot be serviced by one team alone, slice it 
 Microservices will put the weight of complexity from algorithm complexity to communication complexity.
 The dependencies of each software part are now moved to the way of communication.
 
-A second big challenge can be the [Two-Phase Commit](http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html) and data consistency.
+A second big challenge can be the [Two-Phase Commit](http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html){:target="_blank"} and data consistency.
 Let's imagine we want to transfer money from one to another bank account.
 The monolith would have a controller layer which sends a request to the model layout.
 This layer will transfer the money from one bank account to another instantly.
@@ -66,14 +66,14 @@ Furthermore, every microservice has a fallback output value if something is wron
 Another important hint is to monitor the communication over all microservices.
 That is important to know in which component will be an error, why and when.
 For this an overall identification number of each data element would be helpful.
-Some tools like [Netflix/eureka](https://github.com/Netflix/eureka) help to monitor all microservices.
+Some tools like [Netflix/eureka](https://github.com/Netflix/eureka){:target="_blank"} help to monitor all microservices.
 
 ### Linked sources
 
-- [The Art of Scalability](http://www.amazon.de/The-Art-Scalability-Martin-Abbott/dp/0137030428)
-- [Building Microservices](http://www.amazon.de/Building-Microservices-Sam-Newman/dp/1491950358)
-- [Domain-Driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.de/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
-- [Implementing Domain-Driven Design](http://www.amazon.de/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577)
+- [The Art of Scalability](http://www.amazon.de/The-Art-Scalability-Martin-Abbott/dp/0137030428){:target="_blank"}
+- [Building Microservices](http://www.amazon.de/Building-Microservices-Sam-Newman/dp/1491950358){:target="_blank"}
+- [Domain-Driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.de/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215){:target="_blank"}
+- [Implementing Domain-Driven Design](http://www.amazon.de/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577){:target="_blank"}
 
 ## Related post
 

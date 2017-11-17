@@ -26,7 +26,7 @@ In a nutshell, it requires detailed expertise to write API documentation.
 
 ## Playing around with the software
 
-At [ePages](https://www.epages.com/en/), we develop online shop software, and we'd like to give partners and external app developers the best possible support to integrate with us.
+At [ePages](https://www.epages.com/en/){:target="_blank"}, we develop online shop software, and we'd like to give partners and external app developers the best possible support to integrate with us.
 They need great docs.
 But before I can start writing straight away, there's some groundwork to do.
 
@@ -53,7 +53,7 @@ We really want our merchants to be successful with our software, so any of these
 On the side I can set up the environment to interact with the API:
 
 * Get credentials to access the API.
-* Set up my [REST client](https://paw.cloud/).
+* Set up my [REST client](https://paw.cloud/){:target="_blank"}.
 * Consult the internal developer documentation.
 
 ## Understanding the API mystery

@@ -24,7 +24,7 @@ At the heart of the service discovery infrastructure, there is a so-called servi
 
 ##### Consul
 
-We chose [Consul](https://consul.io/) as our service registry implementation. Consul provides the core functionality of a service registry by utilising an agent-based setup. This means, an agent, which is kind of a daemon process, runs on every machine that provides services. Here is a short abstract of Consul's introduction documentation to get to know the most important parts:
+We chose [Consul](https://consul.io/){:target="_blank"} as our service registry implementation. Consul provides the core functionality of a service registry by utilising an agent-based setup. This means, an agent, which is kind of a daemon process, runs on every machine that provides services. Here is a short abstract of Consul's introduction documentation to get to know the most important parts:
 
 >Consul is a distributed, highly available system. [...]
 >Every node that provides services to Consul runs a *Consul agent*.  Running an agent is not required for discovering other services or getting/setting key/value data. The agent is responsible for health checking the services on the node as well as the node itself.
@@ -33,7 +33,7 @@ We chose [Consul](https://consul.io/) as our service registry implementation. Co
 >Components of your infrastructure that need to discover other services or nodes can query any of the Consul servers
 >or any of the Consul agents. The agents forward queries to the servers automatically.
 
-For more details, see the full [introduction](https://www.consul.io/intro/index.html) and the [in-depth architecture overview](https://www.consul.io/docs/internals/architecture.html) on the Consul web site.
+For more details, see the full [introduction](https://www.consul.io/intro/index.html){:target="_blank"} and the [in-depth architecture overview](https://www.consul.io/docs/internals/architecture.html){:target="_blank"} on the Consul web site.
 
 ### Health-Checks
 
@@ -47,7 +47,7 @@ The third major building block is a component, which is able to look up or route
 
 We decided for the routing solution, to keep the logic and also library dependencies out of the services. As the identifier, we use the first path element of any request URI, which means that a request to `http://insert.hostname.here/myservice/recource1` will be routed to an appropriate service instance of the `myservice` service.
 
-With this naming schema defined, the actual routing is done by [HAProxy](http://www.haproxy.org/), a reliable, high performance TCP/HTTP load balancer. It is configured by a process called consul-template, which queries the information about available service instances from Consul and applies it to a provided template, in this case a template HAProxy configuration file, and (gracefully) restarts HAProxy afterwards.
+With this naming schema defined, the actual routing is done by [HAProxy](http://www.haproxy.org/){:target="_blank"}, a reliable, high performance TCP/HTTP load balancer. It is configured by a process called consul-template, which queries the information about available service instances from Consul and applies it to a provided template, in this case a template HAProxy configuration file, and (gracefully) restarts HAProxy afterwards.
 
 ![](/assets/img/pages/blog/images/blog-consul-template-haproxy.png)
 
@@ -55,7 +55,7 @@ Now that we have this logic in place, HAProxy routes any incoming request to the
 
 ### Dynamic Service Registration
 
-So far, service discovery works fine, but how do the services register with the Consul agent on the hosts on which they are started? To solve this, we introduce another component, [Registrator](http://gliderlabs.com/registrator/latest/). This is a so-called service registry bridge for Docker. What it actually does is nicely summarised on their website:
+So far, service discovery works fine, but how do the services register with the Consul agent on the hosts on which they are started? To solve this, we introduce another component, [Registrator](http://gliderlabs.com/registrator/latest/){:target="_blank"}. This is a so-called service registry bridge for Docker. What it actually does is nicely summarised on their website:
 
 >Registrator automatically registers and deregisters services for any Docker container by inspecting containers as they come online. Registrator supports pluggable service registries, which currently includes Consul, etcd and SkyDNS 2.
 

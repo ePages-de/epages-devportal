@@ -23,7 +23,7 @@ This provides the advantage that we could challenge this project with our standa
 
 ## Quality - range of functions and limitations
 
-[MySQL](https://www.mysql.com/) does not cover the complete DDL command set according to the requirements mentioned above.
+[MySQL](https://www.mysql.com/){:target="_blank"} does not cover the complete DDL command set according to the requirements mentioned above.
 For example, the command `ADD FULLTEXT INDEX` does not allow simultaneous writing.
 Changing the data type of a column is also restricted.
 These restrictions can be partially managed via a special patch flow:

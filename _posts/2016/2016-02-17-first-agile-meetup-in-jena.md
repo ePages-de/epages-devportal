@@ -8,7 +8,7 @@ authors: ["Anja B.", "Fouad-Steffen"]
 ---
 
 Last Monday we had our first agile meetup at ePages.
-Since there were no such meetups available in Jena or the surrounding cities, we decided at the end of last year to take the initiative and [organise one by ourselves](http://www.meetup.com/Agile-Jena/).
+Since there were no such meetups available in Jena or the surrounding cities, we decided at the end of last year to take the initiative and [organise one by ourselves](http://www.meetup.com/Agile-Jena/){:target="_blank"}.
 The feedback from other Jena agilists was great and in the end we were 16 participants from six different organisations.
 
 At the beginning we had an introduction round with a Daily Standup asking three rather unusual questions:

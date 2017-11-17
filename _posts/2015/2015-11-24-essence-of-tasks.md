@@ -24,10 +24,10 @@ You need some kind of system, to find out which tasks are the most important, wh
 
 Within a workshop we discussed four of them:
 
-* [Getting things done ](https://en.wikipedia.org/wiki/Getting_Things_Done)
-* [Todo-Lists](https://en.wikipedia.org/wiki/Time_management#Task_list_organization)
-* [Not-Todo Lists](https://www.pinterest.com/pin/76772368624218376/)
-* [Kanban](https://en.wikipedia.org/wiki/Kanban)
+* [Getting things done ](https://en.wikipedia.org/wiki/Getting_Things_Done){:target="_blank"}
+* [Todo-Lists](https://en.wikipedia.org/wiki/Time_management#Task_list_organization){:target="_blank"}
+* [Not-Todo Lists](https://www.pinterest.com/pin/76772368624218376/){:target="_blank"}
+* [Kanban](https://en.wikipedia.org/wiki/Kanban){:target="_blank"}
 
 The bottom line of this workshop was to pick one system, which suits your role and your tasks best.
 With the correct system you can find the right tasks and are able to effectively use your time and reach the target.

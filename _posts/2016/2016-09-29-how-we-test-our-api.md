@@ -35,7 +35,7 @@ which leads to different results in the following calls.
 The solution is to create new shops in order to test those calls.
 So far, the ePages 6 REST API does not offer an endpoint to create new shops, this is why we used the ePages SOAP API to do so.
 
-RAT is based on [REST-assured](http://rest-assured.io/) and [Serenity BDD](http://www.thucydides.info), two tools that ease a lot of our workload and help us to achieve good test results.
+RAT is based on [REST-assured](http://rest-assured.io/){:target="_blank"} and [Serenity BDD](http://www.thucydides.info){:target="_blank"}, two tools that ease a lot of our workload and help us to achieve good test results.
 In the following paragraphs I will introduce the mentioned tools briefly and show how we use them.
 
 ### REST-assured
@@ -79,10 +79,10 @@ JsonPath products = requestSpecification
 
 #### JSONPath ####
 
-REST-assured already includes a library for JSONPath (which is basically [XPath](https://en.wikipedia.org/wiki/XPath) for JSON) namely [com.jayway.restassured:json-path](https://mvnrepository.com/artifact/com.jayway.restassured/json-path)
+REST-assured already includes a library for JSONPath (which is basically [XPath](https://en.wikipedia.org/wiki/XPath){:target="_blank"} for JSON) namely [com.jayway.restassured:json-path](https://mvnrepository.com/artifact/com.jayway.restassured/json-path){:target="_blank"}
 that can be used to validate a JSON response and verify certain attributes.
 
-Unfortunately, this library does not implement all the JSONPath expressions from [Stefan Gössner's JSONPath specification](http://goessner.net/articles/JsonPath/) - this is why we use [com.jayway.jsonpath:json-path](https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path) instead.
+Unfortunately, this library does not implement all the JSONPath expressions from [Stefan Gössner's JSONPath specification](http://goessner.net/articles/JsonPath/){:target="_blank"} - this is why we use [com.jayway.jsonpath:json-path](https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path){:target="_blank"} instead.
 To use this library we cannot simply apply *... .extract().body().jsonPath();* anymore. Instead, we have to get the response as a string first and then parse it in a second step:
 
 {% highlight java %}
@@ -108,7 +108,7 @@ List<String> productNames = products.read("items[*].name");
 
 ### Serenity BDD
 
-Similar to [Cucumber](https://cucumber.io/) in the Ruby world,
+Similar to [Cucumber](https://cucumber.io/){:target="_blank"} in the Ruby world,
 Serenity allows you to describe and structure the test cases in a way so that it acts like a complete specification that describes each use case step by step.
 
 The following snippet shows a test case we use to check, if an uploaded image gets added to the slideshow of a product:

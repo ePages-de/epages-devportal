@@ -8,7 +8,7 @@ authors: ["Xavi"]
 ---
 
 Bank transfers and credit cards aren't the only payment methods available when buying a product from an ePages shop.
-Unlike in the real world, online shopping offers a much wider range of possibilities and solutions such as [Ingenico](http://www.ingenico.com/), [Skrill](https://www.skrill.com/en/) or [Klarna](https://www.klarna.com/us), which can be used to purchase products from our shops.
+Unlike in the real world, online shopping offers a much wider range of possibilities and solutions such as [Ingenico](http://www.ingenico.com/){:target="_blank"}, [Skrill](https://www.skrill.com/en/){:target="_blank"} or [Klarna](https://www.klarna.com/us){:target="_blank"}, which can be used to purchase products from our shops.
 
 ## General overview
 
