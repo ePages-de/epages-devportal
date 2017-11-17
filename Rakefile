@@ -146,7 +146,7 @@ task :test_posts do
     end
   end
 
-  Linter.new('./_posts/', '**/*.*', ['./.git', './.sass_cache', './_site/', './_sass/bootstrap/', './_sass/font-awesome/', './assets/fonts', './vendor/', './README.md']).run
+  Linter.new('./_posts/', '**/*.*').run
 end
 
 task :test_files do
@@ -263,7 +263,14 @@ task :test_files do
     end
   end
 
-  Linter.new('.', '*/**/*.*', ['./.git', './.sass_cache', './_site/', './_sass/bootstrap/', './_sass/font-awesome/', './assets/fonts', './vendor/', './README.md']).run
+  Linter.new('.', '*/**/*.*', ['./_site',
+                               './.bundle',
+                               './.git',
+                               './.sass_cache',
+                               './.tweet-cache',
+                               './assets/font-awesome',
+                               './assets/fonts_new',
+                               './vendor']).run
 end
 
 task :test_html do
