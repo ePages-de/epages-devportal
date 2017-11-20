@@ -13,11 +13,11 @@ authors: ["Rose"]
 }
 </style>
 
-Last Friday, we hosted the seventh edition of the Search Technology Meetup Hamburg organized by [Shopping24](https://www.shopping24.de) in our new office in Holstenwall 5.
+Last Friday, we hosted the seventh edition of the Search Technology Meetup Hamburg organized by [Shopping24](https://www.shopping24.de){:target="_blank"} in our new office in Holstenwall 5.
 The room was packed and participants from all kinds of backgrounds engaged in discussions with the invited speakers even before the presentations started.
 Next to some snacks and refreshing drinks, we then saw two brilliant talks on search architecture and how to use statistical as well as machine learning models for improving search.
 
-Therefore, [Miguel Olivares](https://twitter.com/moliware) and Christian Würtz from [Xing](https://www.xing.com/) as well as Data Scientist [Andrew Clegg](https://twitter.com/andrew_clegg) from [Etsy](https://www.etsy.com/) gave us interesting insights into their search technology infrastructure, respectively.
+Therefore, [Miguel Olivares](https://twitter.com/moliware){:target="_blank"} and Christian Würtz from [Xing](https://www.xing.com/){:target="_blank"} as well as Data Scientist [Andrew Clegg](https://twitter.com/andrew_clegg){:target="_blank"} from [Etsy](https://www.etsy.com/){:target="_blank"} gave us interesting insights into their search technology infrastructure, respectively.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The room is packed and listening to <a href="https://twitter.com/andrew_clegg">@andrew_clegg</a>! The <a href="https://twitter.com/hashtag/search?src=hash">#search</a> community is in fire in <a href="https://twitter.com/hashtag/hamburg?src=hash">#hamburg</a> at <a href="https://twitter.com/hashtag/stmhh?src=hash">#stmhh</a>. Thanks for joining us! <a href="https://t.co/1j402flFF7">pic.twitter.com/1j402flFF7</a></p>&mdash; Search Tech Meetup (@stmhamburg) <a href="https://twitter.com/stmhamburg/status/792067869114851328">October 28, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -31,7 +31,7 @@ Also, they improved the categorization of job ads.
 Thus, if users search for the English job ad or the German one for Software Developer or "Entwickler", respectively, they are now unified and result in the same search outcome, which contributes to the improvement of qualitative search.
 
 Furthermore, Xing developed as a service solution to what they call "search as a service ", since they offer a platform not only to search for business contacts or jobs, yet also they provide auto-suggestions based on one's personal network and geo location, etc.
-A technology that considerably contributed to Xing's success was the Lucene-based search engine [Elasticsearch](https://www.elastic.co/de/products/elasticsearch).
+A technology that considerably contributed to Xing's success was the Lucene-based search engine [Elasticsearch](https://www.elastic.co/de/products/elasticsearch){:target="_blank"}.
 
 ## Search meets Data Science at Etsy
 
@@ -46,7 +46,7 @@ He therefore presented some use cases and how to measure similarity.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Big shout out to <a href="https://twitter.com/DataconomyMedia">@DataconomyMedia</a> and <a href="https://twitter.com/DataNativesConf">@DataNativesConf</a> in Berlin, and <a href="https://twitter.com/stmhamburg">@stmhamburg</a> and <a href="https://twitter.com/epagesdevs">@epagesdevs</a> in Hamburg. 3 talks in 2 cities in 1 day 🏆</p>&mdash; Andrew Clegg (@andrew_clegg) <a href="https://twitter.com/andrew_clegg/status/792123572781285376">October 28, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-For further insights, and to see which method Andrew considers best to measure semantic similarity, check out his [presentation](http://www.andrewclegg.org/Talks.html).
+For further insights, and to see which method Andrew considers best to measure semantic similarity, check out his [presentation](http://www.andrewclegg.org/Talks.html){:target="_blank"}.
 
 So again, many thanks to everyone who attended, to the speakers and of course the organizers.
 

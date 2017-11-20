@@ -9,21 +9,21 @@ authors: ["Erik"]
 
 In the [last post](/blog/coding/programming-beyond-the-comfort-zone-javascript-elixir/) we checked why you should learn some more languages and why Elixir might help you becoming a better JavaScript developer.
 Now I promised to go deeper into web development (since this is what JS devs do, right?).
-A popular (if not the most popular) web framework for Elixir is [**Phoenix**](http://www.phoenixframework.org/).
+A popular (if not the most popular) web framework for Elixir is [**Phoenix**](http://www.phoenixframework.org/){:target="_blank"}.
 After a short overview and a look at it's core concepts we're going to build a (very) small REST API just to check how to start and how this start looks like.
 I'm sure you'll find hundreds of more sophisticated tutorials out there on the internet if you want to go further.
 
 ## Overview
 
-Started by Chris McCord, the [Phoenix Framework](http://www.phoenixframework.org/) released version [1.0](https://github.com/phoenixframework/phoenix/releases/tag/v1.0.0) in August 2015.
-This was one and a half year after the famous *[initial commit](https://github.com/phoenixframework/phoenix/commit/c4ede8c5f71ab74b0c2e9de1eb37d15531d95a46)* we all know 😉.
+Started by Chris McCord, the [Phoenix Framework](http://www.phoenixframework.org/){:target="_blank"} released version [1.0](https://github.com/phoenixframework/phoenix/releases/tag/v1.0.0){:target="_blank"} in August 2015.
+This was one and a half year after the famous *[initial commit](https://github.com/phoenixframework/phoenix/commit/c4ede8c5f71ab74b0c2e9de1eb37d15531d95a46){:target="_blank"}* we all know 😉.
 Now it's not only used for dynamic websites and applications but especially advertised for real-time WebSocket-based interaction (e.g. chats, games, etc).
 
 Phoenix is heavily relying on three (Elixir and/or Erlang) projects:
 
-1. The HTTP server [Cowboy](https://github.com/ninenines/cowboy)
-2. [Plug](https://github.com/elixir-lang/plug) - a specification for composable modules used in web application
-3. The database wrapper [Ecto](https://github.com/elixir-ecto/ecto) which also provides a DSL for querying.
+1. The HTTP server [Cowboy](https://github.com/ninenines/cowboy){:target="_blank"}
+2. [Plug](https://github.com/elixir-lang/plug){:target="_blank"} - a specification for composable modules used in web application
+3. The database wrapper [Ecto](https://github.com/elixir-ecto/ecto){:target="_blank"} which also provides a DSL for querying.
 
 Since Phoenix is built in a very modular way you can add and remove pretty much any functionality you need.
 Writing a REST API that only provides JSON data?
@@ -37,7 +37,7 @@ The most important thing to notice is that within the framework (and it's layers
 Of course you do not alter the *original* connection but rather use it to construct a new one.
 Remember, we have immutable data!
 
-To give you a more visual impression of the flow I'd like to borrow some thoughts from the excellent ["Programming Phoenix"](https://pragprog.com/book/phoenix/programming-phoenix) book.
+To give you a more visual impression of the flow I'd like to borrow some thoughts from the excellent ["Programming Phoenix"](https://pragprog.com/book/phoenix/programming-phoenix){:target="_blank"} book.
 As mentioned we start with the `connection`.
 In case you forgot, the pipeline operator `|>` takes the left-hand side and passes it as the first argument to the function on the right.
 
@@ -75,7 +75,7 @@ I bet you'd like to see that in action and have a look how we could use this to 
 What would be better than writing a REST API that you can use as a backend for your JavaScript frontend?
 Awesome!
 There are a couple of things we'll need and since I'm a lazy developer I assume you're running Mac OS.
-If not please see the [official Elixir site](http://elixir-lang.org/install.html) to get started.
+If not please see the [official Elixir site](http://elixir-lang.org/install.html){:target="_blank"} to get started.
 
 ### TL;DR
 
@@ -92,7 +92,7 @@ $ brew update && \
 
 ### The slightly longer version
 
-For Mac OS just get [brew](http://brew.sh/index_de.html) and do a
+For Mac OS just get [brew](http://brew.sh/index_de.html){:target="_blank"} and do a
 
 ```sh
 $ brew update && brew install elixir
@@ -126,7 +126,7 @@ As we're going to build a tiny REST API we don't need any sort of assets like im
 I'm telling you that because Phoenix usually uses **brunch** to compile these statics (which would require `nodejs`).
 The only other thing we do need is a database.
 The default database Ecto uses is PostgreSQL but you could also opt for MySQL if you like that better.
-If you have [Docker](https://www.docker.com/) installed, a simple
+If you have [Docker](https://www.docker.com/){:target="_blank"} installed, a simple
 
 ```sh
 $ docker run -p 5432:5432 postgres
@@ -236,8 +236,8 @@ There's a lot to explore from here on and there's (of course) a lot missing in o
 * Create an HTML application instead of a REST API
 * ...
 
-This being probably the smallest and least comprehensive tutorial ever, I encourage you to check the awesome [Phoenix Guides](http://www.phoenixframework.org/docs/overview) which will teach you about everything covered here, and more, in much more depth.
+This being probably the smallest and least comprehensive tutorial ever, I encourage you to check the awesome [Phoenix Guides](http://www.phoenixframework.org/docs/overview){:target="_blank"} which will teach you about everything covered here, and more, in much more depth.
 I hope these posts made you curious and showed you some things beyond the JavaScript world.
-[Let me know](https://twitter.com/epagesdevs?lang=de) what you think.
+[Let me know](https://twitter.com/epagesdevs?lang=de){:target="_blank"} what you think.
 
 Thanks for reading.

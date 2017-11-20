@@ -7,19 +7,19 @@ category: on-the-job
 authors: ["Roger"]
 ---
 
-If you check our [ePages](http://www.epages.com) website you will see that we have an office in Barcelona, wow!
+If you check our [ePages](http://www.epages.com){:target="_blank"} website you will see that we have an office in Barcelona, wow!
 Unlike other commercial offices we have a development team, double wow!
 In this post I am going to explain what it means to live and work in Barcelona from an ePages developer perspective.
 
 ## Life in Barcelona
 
-Apart from the weather, culture, night life and such a big football team, [Barça](http://fcbarcelona.com) of course, Barcelona is much more than that.
+Apart from the weather, culture, night life and such a big football team, [Barça](http://fcbarcelona.com){:target="_blank"} of course, Barcelona is much more than that.
 It is the capital of Catalonia, it has almost all the Gaudí heritage, astonishing beaches (like Costa Brava) and big mountains (Pyrenees) in less than 2 hours by car or train.
 Life is not just working 😉.
 
 ### For developers
 
-As everybody knows, Barcelona is one of the most important European cities in software development and hosts the Mobile World Congress, which brings amazing opportunities and projects to the city. This attracts talent which enriches the existing pool of [meet ups](http://www.meetup.com/cities/es/barcelona/) or technical events, where you can participate, learn or collaborate with your thoughts or ideas.
+As everybody knows, Barcelona is one of the most important European cities in software development and hosts the Mobile World Congress, which brings amazing opportunities and projects to the city. This attracts talent which enriches the existing pool of [meet ups](http://www.meetup.com/cities/es/barcelona/){:target="_blank"} or technical events, where you can participate, learn or collaborate with your thoughts or ideas.
 
 ![](/assets/img/pages/blog/images/blog-trivia.jpg)
 
@@ -38,7 +38,7 @@ And internal hackathons, where all developers meet for 2 days to just hack away 
 
 ## Team
 
-Our team currently consists of 4 engineers. But we are looking for a [QA](http://www.epages.com/en/career/jobs/QA_BCN-HH.php) and two more [developers](http://www.epages.com/en/career/jobs/software-developer.php).
+Our team currently consists of 4 engineers. But we are looking for a [QA](http://www.epages.com/en/career/jobs/QA_BCN-HH.php){:target="_blank"} and two more [developers](http://www.epages.com/en/career/jobs/software-developer.php){:target="_blank"}.
 The QA, Scrum Master and Product Owner are located in Hamburg and support us in our daily basis work.
 Our team, together with another team in Hamburg, is responsible for the connectors to the e-commerce platform, such as payments, shippings and others.
 

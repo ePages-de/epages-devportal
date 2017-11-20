@@ -27,7 +27,7 @@ The point against Macintosh is that you need an approved hardware to run MacOS X
 The Linux system is also UNIX based, and their fans are usually hard believers of open source software and use to think they can find on the net any application they need for whatever purpose.
 Linux has a practical advantage against others because it’s meant to run on almost any machine, no matter if it’s an old or new PC.
 For these purposes, any Linux distribution could probably fit and please you, especially if you don’t pay much attention on usability and user experience and also have some time to spend compiling kernels.
-But if not, probably you would prefer another more user-friendly distribution like [Ubuntu](https://www.ubuntu.com/).
+But if not, probably you would prefer another more user-friendly distribution like [Ubuntu](https://www.ubuntu.com/){:target="_blank"}.
 
 ### Windows
 
@@ -67,7 +67,7 @@ But Windows still is the most used platform (37.5%).
 ![](/assets/img/pages/blog/images/blog-os_market_share_03.png)
 
 Development environments with virtual machines are completely another world in terms of the operating systems they are running.
-In this case, [Debian](https://www.debian.org/) and [CentOS](https://www.centos.org/) are the most commonly used Linux distributions to work with the ePages platform.
+In this case, [Debian](https://www.debian.org/){:target="_blank"} and [CentOS](https://www.centos.org/){:target="_blank"} are the most commonly used Linux distributions to work with the ePages platform.
 Here Linux wins without opposition.
 
 

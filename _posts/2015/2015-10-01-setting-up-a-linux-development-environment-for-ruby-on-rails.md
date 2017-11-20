@@ -146,7 +146,7 @@ However it would be nice to also be able to benefit from a full fledged IDE eg. 
 The best choice here is Intellij
 [IDEA][IDEA] or [RubyMine][RubyMine] (a streamlined down version of IDEA specifically for Ruby development).
 
-> **Info** [NetBeans](http://wiki.netbeans.org/RubySupport) no longer supports Ruby/Rails.
+> **Info** [NetBeans](http://wiki.netbeans.org/RubySupport){:target="_blank"} no longer supports Ruby/Rails.
 
 ### Setup up Intellij
 
@@ -175,7 +175,7 @@ You'll probably want to supplement it with the following however when using the 
     .idea/workspace.xml
     .idea/tasks.xml
 
-See [here](https://intellij-support.jetbrains.com/hc/en-us/articles/206827587-How-to-manage-projects-under-Version-Control-Systems) for more details.
+See [here](https://intellij-support.jetbrains.com/hc/en-us/articles/206827587-How-to-manage-projects-under-Version-Control-Systems){:target="_blank"} for more details.
 
 
 <!-- Links -->

@@ -12,8 +12,8 @@ authors: ["Rose"]
 }
 </style>
 
-This Tuesday, the second part of the [hh.ex vindinium challenge](https://www.meetup.com/de-DE/Elixir-Hamburg/events/238421135/?eventId=238421135) took place in the [ePages](https://www.epages.com/en/) office in Hamburg.
-Despite the amazing weather conditions outside, there were quite a few [Elixir](http://elixir-lang.org/) and [vindinium](http://vindinium.org/) interested developers to join the meetup.
+This Tuesday, the second part of the [hh.ex vindinium challenge](https://www.meetup.com/de-DE/Elixir-Hamburg/events/238421135/?eventId=238421135){:target="_blank"} took place in the [ePages](https://www.epages.com/en/){:target="_blank"} office in Hamburg.
+Despite the amazing weather conditions outside, there were quite a few [Elixir](http://elixir-lang.org/){:target="_blank"} and [vindinium](http://vindinium.org/){:target="_blank"} interested developers to join the meetup.
 
 ## Programming a semi static blog engine with Elixir
 
@@ -23,15 +23,15 @@ He presented his semi static blog engine "Jelly Shot".
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Air2ick">@Air2ick</a> presents his semi static blogengine <a href="https://twitter.com/hashtag/JellyShot?src=hash">#JellyShot</a> with <a href="https://twitter.com/elixirlang">@elixirlang</a> <a href="https://twitter.com/HamburgEx">@HamburgEx</a> <a href="https://twitter.com/hashtag/meetup?src=hash">#meetup</a> <a href="https://twitter.com/hashtag/hamburg?src=hash">#hamburg</a> cc/ <a href="https://twitter.com/epagesdevs">@epagesdevs</a></p>&mdash; harm (@netzfisch) <a href="https://twitter.com/netzfisch/status/846769010389798912">March 28, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The idea to set up this blog engine came up, because for him, working with the static site generator [Jekyll](https://jekyllrb.com/) often takes up too much time.
+The idea to set up this blog engine came up, because for him, working with the static site generator [Jekyll](https://jekyllrb.com/){:target="_blank"} often takes up too much time.
 Motivated by this experience, he thought it couldn't be too difficult to write his own blog engine.
 And he was absolutely right!
 
-His blog project Jelly Shot uses the web framework [Phoenix](http://www.phoenixframework.org/) and is written in [Elixir](http://elixir-lang.org/).
+His blog project Jelly Shot uses the web framework [Phoenix](http://www.phoenixframework.org/){:target="_blank"} and is written in [Elixir](http://elixir-lang.org/){:target="_blank"}.
 Unlike other blog systems, Jelly Shot has no access to databases nor uses static file generation, but stores data in its memory.
 The `Agent`, a simple state abstraction, administers all data and is able to filter, delete, or replace parts of it - and this at a much faster pace.
 
-Check out Erik's [repository](https://github.com/erikmueller/jelly_shot) for more information!
+Check out Erik's [repository](https://github.com/erikmueller/jelly_shot){:target="_blank"} for more information!
 
 ## The grand hh.ex vindinium challenge tournament
 

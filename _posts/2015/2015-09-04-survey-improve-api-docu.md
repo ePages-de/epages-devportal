@@ -15,6 +15,6 @@ We prepared a short survey to find out more about the expectations and requireme
 We kindly ask you to participate and share your opinion with us.
 The survey will take approx. 5 to 10 minutes.
 
-[Participate now!](http://eshop.polldaddy.com/s/api-documentation)
+[Participate now!](http://eshop.polldaddy.com/s/api-documentation){:target="_blank"}
 
 Thank you for your support!

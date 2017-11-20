@@ -8,7 +8,7 @@ authors: ["Sandra", "Oliver Z."]
 ---
 
 Mid June, the ePages 6 team went on a two-day offsite meeting -- in Jena! How is it an offsite if you stay in the city you work in? Well, due to the size of the team and various team members having family obligations it was difficult to find a date and a location for this offsite.
-Therefore, we agreed to stay in Jena. To avoid the usual office interruptions we booked the [Creative Room of the Volkshochschule Jena](https://www.vhs-jena.de/de/service/raumvermietung/649482#/collapse4) for two days. Additionally, we organised a cool team event in the forest area in Camburg. But let us tackle the serious issues first!
+Therefore, we agreed to stay in Jena. To avoid the usual office interruptions we booked the [Creative Room of the Volkshochschule Jena](https://www.vhs-jena.de/de/service/raumvermietung/649482#/collapse4){:target="_blank"} for two days. Additionally, we organised a cool team event in the forest area in Camburg. But let us tackle the serious issues first!
 
 ## Team constellation and focus
 
@@ -18,7 +18,7 @@ Just recently, our team was restructured. New team members were added, whereas s
 
 {% image_custom image="/assets/img/pages/blog/images/blog-team-ep6.jpg" width="50" align="right" %}
 
-In order to spread knowledge and improve our [T-shaped skills](https://en.wikipedia.org/wiki/T-shaped_skills) we prepared various workshops.
+In order to spread knowledge and improve our [T-shaped skills](https://en.wikipedia.org/wiki/T-shaped_skills){:target="_blank"} we prepared various workshops.
 In advance we identified topics that are relevant to everyone in the team and topics that are only relevant to a certain guild.
 To make best use of the limited time we held some workshops on parallel tracks.
 
@@ -26,7 +26,7 @@ Of interest to everyone was the "JavaScript in our current ePages shop system" s
 
 {% image_custom image="/assets/img/pages/blog/images/blog-ep6-frontend-workshop.jpg" width="50" align="left" %}
 
-Oliver explained selected [OWASP threats](https://www.owasp.org/index.php/Cheat_Sheets). Afterwards we tried to exploit our software. While we identified some problems, we also concluded that current version is pretty resilient against the most common attacks: injections and cross-site scripting.
+Oliver explained selected [OWASP threats](https://www.owasp.org/index.php/Cheat_Sheets){:target="_blank"}. Afterwards we tried to exploit our software. While we identified some problems, we also concluded that current version is pretty resilient against the most common attacks: injections and cross-site scripting.
 
 Peter outlined our current development pipeline process used primarily for QA and collaboration on more complex features.
 Additionally, he clarified the different build and configuration setups on our team VMs.
@@ -35,13 +35,13 @@ On the second day we started with the parallel sessions: UI development and tax 
 For the frontend developers and designers Björn presented the various HTML template sections of a typical ePages shop webpage. In addition to that he documented the directory and file structure used for styling as well as the style guide itself.
 The backend folks attended the tax calculation lecture by Michael. He explained in detail how to alter tax settings and which constraints to consider when customers and merchants from different countries do business together.
 
-Last but not least Tobias emphasised unit testing and best practices like the [Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html). Using multiple code examples he demonstrated how mocking can be used for integration tests.
+Last but not least Tobias emphasised unit testing and best practices like the [Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html){:target="_blank"}. Using multiple code examples he demonstrated how mocking can be used for integration tests.
 
 ## Bow and arrow action
 
 {% image_custom image="/assets/img/pages/blog/images/blog-ep6offsite-bow.jpg" width="50" align="right" %}
 
-After one and a half day of intense workshops, we had our recreational team event on Wednesday afternoon. We went to the [archery site](http://camburger-bogenschuetzen.de/) located in the forest area in Camburg.
+After one and a half day of intense workshops, we had our recreational team event on Wednesday afternoon. We went to the [archery site](http://camburger-bogenschuetzen.de/){:target="_blank"} located in the forest area in Camburg.
 
 Before starting our tour through the forest, we had some training shots. Equipped with bows, arrows, quivers, and protection gear, we were prepared for small and big game! We picked the "lesser" route, which resulted in shooting at around 27 animal models in three hours. Besides the typical forest animals we hunted gigantic turtles, cobras and even dinosaurs! :)
 

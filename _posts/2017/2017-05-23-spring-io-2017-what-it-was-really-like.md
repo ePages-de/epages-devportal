@@ -14,8 +14,8 @@ authors: ["Mathias", "Manel"]
 }
 </style>
 
-We just came back from beautiful Barcelona where the [Spring I/O](http://2017.springio.net/) took place for the 6th time.
-Spring I/O is the leading European conference focused on the [Spring Framework](https://projects.spring.io/spring-framework/) ecosystem.
+We just came back from beautiful Barcelona where the [Spring I/O](http://2017.springio.net/){:target="_blank"} took place for the 6th time.
+Spring I/O is the leading European conference focused on the [Spring Framework](https://projects.spring.io/spring-framework/){:target="_blank"} ecosystem.
 This year it was all about the upcoming Spring 5 and its support for reactive programming.
 This is a huge leap forward for Spring - so we were pretty excited to learn more about it.
 
@@ -23,8 +23,8 @@ Here are some of our highlights from this year's edition in Spring  I/O:
 
 ## Database centric applications with Spring Boot and jOOQ
 
-For a long time I had [jOOQ](http://www.jooq.org/) on the list of frameworks I wanted to take a look at.
-So it came in handy that [Michael Simons](https://twitter.com/rotnroll666) gave a talk about using it together with Spring Boot.
+For a long time I had [jOOQ](http://www.jooq.org/){:target="_blank"} on the list of frameworks I wanted to take a look at.
+So it came in handy that [Michael Simons](https://twitter.com/rotnroll666){:target="_blank"} gave a talk about using it together with Spring Boot.
 
 > jOOQ is short for "Java object oriented querying" and describes a query builder framework that takes a look at your database schema, and provides you with a domain specific language (DSL) for generating statements.
 
@@ -48,14 +48,14 @@ So next time you put a 10 line native SQL query into a String in your JPA reposi
 ## Reactive Spring
 
 This talk was held on the second day of the conference.
-[Josh Long](https://twitter.com/starbuxman) and [Mark Heckler](http://twitter.com/mkheck) gave an introduction to the reactive features in Spring 5 in a live-coding session.
+[Josh Long](https://twitter.com/starbuxman){:target="_blank"} and [Mark Heckler](http://twitter.com/mkheck){:target="_blank"} gave an introduction to the reactive features in Spring 5 in a live-coding session.
 And everybody who ever attended a talk by (in)famous Josh Long knew what was coming.
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr"><a href="https://twitter.com/netzfisch">@netzfisch</a> <a href="https://twitter.com/starbuxman">@starbuxman</a> <a href="https://twitter.com/spring_io">@spring_io</a> Not sure if my brain is already fast enough for <a href="https://twitter.com/starbuxman">@starbuxman</a> so early in the morning. I give it a try. 💯🚀🌅 <a href="https://twitter.com/hashtag/springio17?src=hash">#springio17</a> <a href="https://t.co/Ewdsqq8hdN">pic.twitter.com/Ewdsqq8hdN</a></p>&mdash; Mathias Dpunkt (@zaddo) <a href="https://twitter.com/zaddo/status/865462587168743425">19. Mai 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Their talk gave a very good introduction about how Spring 5 is supporting reactive programming.
-It builds on [Project Reactor](https://projectreactor.io/) to support message-driven, elastic, resilient, and responsive services.
+It builds on [Project Reactor](https://projectreactor.io/){:target="_blank"} to support message-driven, elastic, resilient, and responsive services.
 They showed how to expose reactive endpoints using the traditional annotated controller approach, but also the new functional way using `RouterFunction` and `HandlerFunction`.
 And as expected the talk was highly entertaining.
 I was not surprised that it ended up being the top-rated talk of Spring I/O 2017.
@@ -65,13 +65,13 @@ I was not surprised that it ended up being the top-rated talk of Spring I/O 2017
 
 ## Functional web applications with Spring and Kotlin
 
-One of the talks I most enjoyed was "Functional web applications with Spring and Kotlin" by [Sébastien Deleuze](https://twitter.com/sdeleuze).
+One of the talks I most enjoyed was "Functional web applications with Spring and Kotlin" by [Sébastien Deleuze](https://twitter.com/sdeleuze){:target="_blank"}.
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">The slides of my new Functional web applications with <a href="https://twitter.com/hashtag/Spring?src=hash">#Spring</a> and <a href="https://twitter.com/hashtag/Kotlin?src=hash">#Kotlin</a> talk at <a href="https://twitter.com/hashtag/springio17?src=hash">#springio17</a> are available <a href="https://t.co/rJ4narYt4a">https://t.co/rJ4narYt4a</a></p>&mdash; Sébastien Deleuze (@sdeleuze) <a href="https://twitter.com/sdeleuze/status/865526947425640448">19. Mai 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-In the first part of his talk Sébastien gave a short introduction to [Kotlin](https://kotlinlang.org/).
-For me many language features looked familiar because of their similarity to [Scala](https://www.scala-lang.org/):
+In the first part of his talk Sébastien gave a short introduction to [Kotlin](https://kotlinlang.org/){:target="_blank"}.
+For me many language features looked familiar because of their similarity to [Scala](https://www.scala-lang.org/){:target="_blank"}:
 
 - type inference
 - named parameters
@@ -85,17 +85,17 @@ It seems to add a lot of useful features in areas where Java is a little weak wh
 <script async class="speakerdeck-embed" data-slide="7" data-id="0f1b6be0670a4ee8a32ab73ec1c9dc8c" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 Kotlin is especially interesting for me (and maybe for my team in the future) because it seems to become a first class citizen in the Spring ecosystem - at least with Spring 5.
-So it is supposed to be quite easy to adopt while still using the full power of [Spring Boot](https://projects.spring.io/spring-boot/) and [Spring Cloud](http://projects.spring.io/spring-cloud/).
+So it is supposed to be quite easy to adopt while still using the full power of [Spring Boot](https://projects.spring.io/spring-boot/){:target="_blank"} and [Spring Cloud](http://projects.spring.io/spring-cloud/){:target="_blank"}.
 
 <script async class="speakerdeck-embed" data-slide="31" data-id="0f1b6be0670a4ee8a32ab73ec1c9dc8c" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-Starting to play around with Kotlin as a Spring developer is very easy - just head over to  [start.spring.io](https://start.spring.io/#!language=kotlin) and select Kotlin from the language dropdown.
+Starting to play around with Kotlin as a Spring developer is very easy - just head over to  [start.spring.io](https://start.spring.io/#!language=kotlin){:target="_blank"} and select Kotlin from the language dropdown.
 I exactly did that after the talk and tried to explore Kotlin and the Spring 5 reactive features a bit.
 With the knowledge taken from the talk the start was really easy and I got first results running really quickly.
 
 ## DDD Strategic Design with Spring Boot
 
-In this talk, [Michael Plöd](https://twitter.com/bitboss) exposed ideas and patterns around _Strategic Design_ (one of the most important concepts behind _Domain Driven Design_) by using a _Spring Boot Application_ as example.
+In this talk, [Michael Plöd](https://twitter.com/bitboss){:target="_blank"} exposed ideas and patterns around _Strategic Design_ (one of the most important concepts behind _Domain Driven Design_) by using a _Spring Boot Application_ as example.
 
 Strategic Design identifies _Bounded Contexts_ and _Context Maps_.
 Each bounded context contains models and maybe other (embedded) contexts.
@@ -111,16 +111,16 @@ There are context map patterns that can be identified:
 - Open/Host Service -each bounded context expose a set of services to other systems-
 - Published language -single agreed language to express models-
 
-Here you can get the [DDD Strategic Design with Spring Boot](https://github.com/mploed/ddd-strategic-design-spring-boot) example shown by the presenter.
+Here you can get the [DDD Strategic Design with Spring Boot](https://github.com/mploed/ddd-strategic-design-spring-boot){:target="_blank"} example shown by the presenter.
 
 ## Bootiful Development with Spring Boot and Angular
 
-That was a workshop presented by [Matt Raible](https://www.linkedin.com/in/mraible/), developer advocate at Okta, a company that provides mobility, security and identity IT solutions.
+That was a workshop presented by [Matt Raible](https://www.linkedin.com/in/mraible/){:target="_blank"}, developer advocate at Okta, a company that provides mobility, security and identity IT solutions.
 
 This fast speaker showed us a _beer recommender web service_ mounted as an Angular standalone client app making cross-origin requests to access a Spring Boot backend API (with Spring MVC and Spring Data REST technologies).
 Does this frontend/backend split sound familiar to you?
 
-Get the [Bootiful Development with Spring Boot and Angular](http://developer.okta.com/blog/2017/04/26/bootiful-development-with-spring-boot-and-angular) workshop info and start coding.
+Get the [Bootiful Development with Spring Boot and Angular](http://developer.okta.com/blog/2017/04/26/bootiful-development-with-spring-boot-and-angular){:target="_blank"} workshop info and start coding.
 
 ## It's a wrap
 

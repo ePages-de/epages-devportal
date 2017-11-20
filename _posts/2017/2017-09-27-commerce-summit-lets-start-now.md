@@ -16,8 +16,8 @@ authors: ["Christina"]
 
 Two days of interesting talks about the current state of the art and the future of ecommerce with international speakers from all fields.
 An event that allows interdisciplinary and fascinating chats between developers, merchants, partners, and many more.
-That has been the Commerce Summit 2017 hosted by [ePages](https://www.epages.com/) in Hamburg.
-The [agenda](https://www.commerce-summit.com/en/agenda/) was separated into three tracks:
+That has been the Commerce Summit 2017 hosted by [ePages](https://www.epages.com/){:target="_blank"} in Hamburg.
+The [agenda](https://www.commerce-summit.com/en/agenda/){:target="_blank"} was separated into three tracks:
 * Technology-Track
 * Merchant-Track
 * Strategy-Track
@@ -33,14 +33,14 @@ During the presentation he stressed out the importance of microservices for a we
 After this overview of the current development status at ePages, two of our developers took over and gave further insights into the micro- and macro-architecture of our microservices system.
 Another talk dealt with the customization of an online shop using CSS and different settings for themes.
 This way, customers can easily adapt their shops to their personal taste or to company guidelines.
-The talk was followed by a live coding session of a [Python app](ttps://github.com/ooz/epages-rest-python-examples/tree/master/beautiful_order_documents) against the API of ePages [NOW](/apps) and [Beyond](https://s3.eu-central-1.amazonaws.com/new-docu-epages/index.html).
+The talk was followed by a live coding session of a [Python app](ttps://github.com/ooz/epages-rest-python-examples/tree/master/beautiful_order_documents) against the API of ePages [NOW](/apps) and [Beyond](https://s3.eu-central-1.amazonaws.com/new-docu-epages/index.html){:target="_blank"}.
 
 Does that sound interesting to you already?
 That's not all!
 The first day ended with an exciting topic that took up the ongoing discussion of the future of ecommerce.
 How will it look like?
 Which devices will be used?
-One of our developers had a chat with [Amazons Alexa](https://developer.amazon.com/alexa) and enabled her to assist a merchant with organizing their online shop.
+One of our developers had a chat with [Amazons Alexa](https://developer.amazon.com/alexa){:target="_blank"} and enabled her to assist a merchant with organizing their online shop.
 Alexa informed about incoming orders in detail and was able to process them according to the merchants wishes.
 Cool stuff, isn't it?
 
@@ -48,12 +48,12 @@ Cool stuff, isn't it?
 
 After such an interesting and successful first day, we had several reasons to celebrate.
 ePages had its 30th birthday, **and** ePages NOW was finally launched after years of hard work.
-To bring the crowd in the right mood, we had a [fantastic act from the Reeperbahn festival](http://betsymusic.co.uk/).
+To bring the crowd in the right mood, we had a [fantastic act from the Reeperbahn festival](http://betsymusic.co.uk/){:target="_blank"}.
 
 ## The day after
 
 The second day started just like the first one ended.
-Luis Gomes went even one step further than a voice activated assistant such as Alexa and had a look at the [Microsoft HoloLens](https://developer.microsoft.com/en-us/windows/mixed-reality/).
+Luis Gomes went even one step further than a voice activated assistant such as Alexa and had a look at the [Microsoft HoloLens](https://developer.microsoft.com/en-us/windows/mixed-reality/){:target="_blank"}.
 He created a scenario of a customer looking for a new TV using a HoloLens.
 The customer was able to have a 3D view of the TV and receive relevant information right next to it.
 To make this possible, Gomes even admitted having installed Windows - on his MAC!
@@ -63,7 +63,7 @@ So, playing around with the HoloLens really seems to be fun.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Besides this futuristic talk, there have been some others during the day.
-For example, [Aruba cloud](https://www.arubacloud.com/), [Shipcloud](https://www.shipcloud.io/), and [Honico](https://www.honico.com/en/home.html) presented their products and possibilities for developers.
+For example, [Aruba cloud](https://www.arubacloud.com/){:target="_blank"}, [Shipcloud](https://www.shipcloud.io/){:target="_blank"}, and [Honico](https://www.honico.com/en/home.html){:target="_blank"} presented their products and possibilities for developers.
 And not to forget all the other interesting talks of the other two tracks.
 If you wanted to see them all, you had a tough time schedule.
 
@@ -71,8 +71,8 @@ If you wanted to see them all, you had a tough time schedule.
 
 Sitting in a room and listening to a speaker might be exhausting over time.
 Luckily, there have been some side activities to free the minds.
-So why not try to beat national player [Oke Harms](https://www.kickerkult.de/epages/61190833.sf/de_DE/?ObjectPath=Categories) in table football?
-Or find your own rhythm on the [drums](http://bodrum-webshop.de/)?
+So why not try to beat national player [Oke Harms](https://www.kickerkult.de/epages/61190833.sf/de_DE/?ObjectPath=Categories){:target="_blank"} in table football?
+Or find your own rhythm on the [drums](http://bodrum-webshop.de/){:target="_blank"}?
 Or just have a chat with the exhibitors after filling your tummy with delicious food?
 Visitors had lots of freedom to shape their day.
 
@@ -80,7 +80,7 @@ Visitors had lots of freedom to shape their day.
 
 This gathering of so many people from different areas lead to an intensive exchange of opinions and ideas.
 The direct contact between ePagees, merchants, partners, and developers allowed interesting discussions at the bar tables and a mixed audience in the talks.
-Thus, a non-developer like me for example finally learned about the kebab case while listening to one of the Tech-Track talks, whereas developers had to think about sex and shopping when listening to [Graham Jones](https://www.grahamjones.co.uk/) in the Strategy-Track.
+Thus, a non-developer like me for example finally learned about the kebab case while listening to one of the Tech-Track talks, whereas developers had to think about sex and shopping when listening to [Graham Jones](https://www.grahamjones.co.uk/){:target="_blank"} in the Strategy-Track.
 Who would have thought that before?
 
 So, I'm already looking forward to the next Commerce Summit and so should you!

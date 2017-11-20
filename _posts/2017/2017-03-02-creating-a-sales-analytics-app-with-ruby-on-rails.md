@@ -7,14 +7,14 @@ category: coding
 authors: ["Unai M."]
 ---
 
-One of the languages that we use the most in my team is [Ruby](https://www.ruby-lang.org).
+One of the languages that we use the most in my team is [Ruby](https://www.ruby-lang.org){:target="_blank"}.
 We love the syntax, the simplicity and the big and active community around it.
 Some time ago, [we wrote about our SDK](/blog/tech-stories/on-the-way-to-a-ruby-sdk/) for the ePages shops and lots of things have changed since then.
 We've kept developing it to support more operations, such as data pagination and also to keep up with the releases of our colleagues from the [API development team](/apps).
 
 ## Status of the SDK
 
-We are preparing a release Soon&#8482; containing lots of model changes, in order to make the use of [the gem](https://github.com/ePages-de/epages-rest-ruby) even easier.
+We are preparing a release Soon&#8482; containing lots of model changes, in order to make the use of [the gem](https://github.com/ePages-de/epages-rest-ruby){:target="_blank"} even easier.
 For example, to get the customers of a shop, we used to have to do
 
 {% highlight ruby %}
@@ -51,7 +51,7 @@ We also fixed some bugs and updated some dependencies.
 
 Testing things in the console was fun, but we needed a real life scenario to check that the gem was working correctly and to find missing features.
 Lucky for us, our Product Owner came up with a perfect task for this.
-We needed to create a Sales Analytics App for the ePages [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/).
+We needed to create a Sales Analytics App for the ePages [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/){:target="_blank"}.
 
 ## The new app in Rails
 
@@ -95,14 +95,14 @@ Other basic functionalities like changing the email address or password as well 
 ## Some decisions on technologies
 
 In every project you have to make some decisions on what tech you use.
-We decided to use [Rails](http://rubyonrails.org/) - in part because we love it, but also to use our [own developed library](https://github.com/ePages-de/epages-rest-ruby).
-On the charts side there are lots of options to choose, but we went with [D3](https://d3js.org/), an open source, very powerful and very customizable option.
+We decided to use [Rails](http://rubyonrails.org/){:target="_blank"} - in part because we love it, but also to use our [own developed library](https://github.com/ePages-de/epages-rest-ruby){:target="_blank"}.
+On the charts side there are lots of options to choose, but we went with [D3](https://d3js.org/){:target="_blank"}, an open source, very powerful and very customizable option.
 The main reason of picking this was purely educational.
-I love learning new stuff, libraries, languages, paradigms, you name it; and I already used [Highcharts](http://www.highcharts.com/), [Google charts](https://developers.google.com/chart/) and [Chart.js](http://www.chartjs.org/), plus I was really curious about it and my team let me decide 😊.
+I love learning new stuff, libraries, languages, paradigms, you name it; and I already used [Highcharts](http://www.highcharts.com/){:target="_blank"}, [Google charts](https://developers.google.com/chart/){:target="_blank"} and [Chart.js](http://www.chartjs.org/){:target="_blank"}, plus I was really curious about it and my team let me decide 😊.
 
-[Devise](https://github.com/plataformatec/devise) was our option for user management.
+[Devise](https://github.com/plataformatec/devise){:target="_blank"} was our option for user management.
 This gem is easy and simple, so it was perfect to deliver fast (even though in the end everything became more complicated).
-For this simplicity reason we chose [Slim](http://slim-lang.com/), [Sass](http://sass-lang.com/) and [CoffeeScript](http://coffeescript.org/).
+For this simplicity reason we chose [Slim](http://slim-lang.com/){:target="_blank"}, [Sass](http://sass-lang.com/){:target="_blank"} and [CoffeeScript](http://coffeescript.org/){:target="_blank"}.
 
 Join us on our next blog post, where we will talk about the issues we encountered during the development and how everything was about get more complex than we expected.
 

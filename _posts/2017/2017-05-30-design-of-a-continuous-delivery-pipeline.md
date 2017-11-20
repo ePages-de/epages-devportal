@@ -7,7 +7,7 @@ category: tech-stories
 authors: ["Benjamin", "Nicole"]
 ---
 
-This is the first post of a three-part blog post series about the foundation pillars for the [ePages](https://www.epages.com/en/) next generation e-commerce platform, where we'll talk about the Continuous Delivery Pipeline (CDP) of our new Microservices Architecture.
+This is the first post of a three-part blog post series about the foundation pillars for the [ePages](https://www.epages.com/en/){:target="_blank"} next generation e-commerce platform, where we'll talk about the Continuous Delivery Pipeline (CDP) of our new Microservices Architecture.
 
 In these posts we will answer the 4 most important questions that show how to continuously deliver new microservices, feature updates, and bug fixes to our customers within less time than the average lunch break.
 To deploy in under 45 minutes, with highest confidence, and without quality compromises we need to apply several advanced techniques for building a solid and high-performance continuous delivery pipeline that is capable of handling all our demands with ease.
@@ -16,22 +16,22 @@ This post deals with the design of the CDP, whereas in the next to we'll talk ab
 
 ## How did we design our continuous delivery pipeline in detail so that we support our microservices architecture?
 
-In former times, a Continuous Delivery Pipeline was set up by using the UI of a CI/CD tool such as [Jenkins](https://jenkins.io/) as well as various virtual machines as test environments.
-With the help of tools like [Puppet](https://puppet.com/) and [vSphere](http://www.vmware.com/de/products/vsphere.html), we integrated virtual machines as nodes to Jenkins  to distribute different Jenkins jobs onto.
+In former times, a Continuous Delivery Pipeline was set up by using the UI of a CI/CD tool such as [Jenkins](https://jenkins.io/){:target="_blank"} as well as various virtual machines as test environments.
+With the help of tools like [Puppet](https://puppet.com/){:target="_blank"} and [vSphere](http://www.vmware.com/de/products/vsphere.html){:target="_blank"}, we integrated virtual machines as nodes to Jenkins  to distribute different Jenkins jobs onto.
 A CDP was a concatenation of several jobs producing a job chain, which were manually set up using the WebUI of Jenkins.
 
 With the concept infrastructure-as-code the setup of a CDP changed completely to an automated process.
-Using Jenkins DSLs (like the [Job DSL Plugin](/blog/tech-stories/jenkins-job-dsl-plugin/) and [Pipeline Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin)) to configure Jenkins jobs, the manual process of creating a job passed over into writing scripts.
+Using Jenkins DSLs (like the [Job DSL Plugin](/blog/tech-stories/jenkins-job-dsl-plugin/) and [Pipeline Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin){:target="_blank"}) to configure Jenkins jobs, the manual process of creating a job passed over into writing scripts.
 Using scripts as a representation of jobs not only allows an automatically set up Jenkins configuration but also versioning and creating backups of a Jenkins instance.
 
 Testing of several microservices is solved by using individual Docker images representing the actual state of a single microservice.
-Tools such as [Kubernetes](https://kubernetes.io/) and [Google Compute Engine (GCE)](https://cloud.google.com/compute/) are used to deploy and test the software.
+Tools such as [Kubernetes](https://kubernetes.io/){:target="_blank"} and [Google Compute Engine (GCE)](https://cloud.google.com/compute/){:target="_blank"} are used to deploy and test the software.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-cdp-stages.png" caption="The_Continuous_Delivery_Pipeline" width="100" %}
 
 There are actually two Jenkins instances active to display the CDP (see image above).
 
-On the one hand, there is the build-jenkins, that is responsible for running pull request tests from [GitHub](https://github.com/).
+On the one hand, there is the build-jenkins, that is responsible for running pull request tests from [GitHub](https://github.com/){:target="_blank"}.
 This way, jobs are triggered when new pull requests (PR) of any microservice are available.
 These jobs run unit and integration tests to validate the commits within these PRs.
 If these checks have passed successfully a new docker image of the microservice is build and published.

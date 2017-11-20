@@ -11,11 +11,11 @@ As one of the leading e-commerce companies, ePages distributes its software for 
 Building these packages is most of the time not easy and existing packages have to be modified to your own needs.
 You have to be familiar with both the Linux distribution you are working on as well as with the packaging system (e.g. rpm and/or deb) you are using.
 As part of optimizing the release process for ePages packages, we researched other ways on how to build these packages more easily.
-We ended up using [FPM](https://github.com/jordansissel/fpm/wiki) for our new packaging process.
+We ended up using [FPM](https://github.com/jordansissel/fpm/wiki){:target="_blank"} for our new packaging process.
 
 ## What is FPM
 
-FPM (Effing Package Management) was built by [Jordan Sissel](https://twitter.com/jordansissel?lang=en).
+FPM (Effing Package Management) was built by [Jordan Sissel](https://twitter.com/jordansissel?lang=en){:target="_blank"}.
 The goal of FPM is to make it quick and easy to build packages, such as rpms, debs, etc.
 You cannot only build new packages with FPM but also edit existing packages (e.g. removing files or changing metadata and dependencies).
 Deb, rpm and solaris etc. packages can be build from any of the following sources:
@@ -75,7 +75,7 @@ fpm -s dir -t deb -n myapp -v 0.0.1 -C /build/myapp/
 ```
 
 With FPM you can build many more options and types of packages.
-Visit the [GitHub project](https://github.com/jordansissel/fpm/wiki).
+Visit the [GitHub project](https://github.com/jordansissel/fpm/wiki){:target="_blank"}.
 
 ## Why we use FPM
 

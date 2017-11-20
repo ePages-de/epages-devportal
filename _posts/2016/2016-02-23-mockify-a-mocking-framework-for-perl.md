@@ -21,13 +21,13 @@ Stay tuned and you'll see!
 
 We have to support the current core for a while.
 Furthermore, we need to write unit tests in our legacy code base.
-This should be as easy as possible, since Perl by itself is [confusing](https://media.ccc.de/v/32c3-7130-the_perl_jam_2) enough.
+This should be as easy as possible, since Perl by itself is [confusing](https://media.ccc.de/v/32c3-7130-the_perl_jam_2){:target="_blank"} enough.
 
-In order to achieve this, I created [**Mockify** *minimal mocking framework for perl*](https://github.com/ePages-de/Mockify).
+In order to achieve this, I created [**Mockify** *minimal mocking framework for perl*](https://github.com/ePages-de/Mockify){:target="_blank"}.
 
 ## Why not using Test::MockObject directly
 
-[Test::MockObject](http://search.cpan.org/~chromatic/Test-MockObject-1.20150527/README.pod) is a really smart package, but actually it is too smart.
+[Test::MockObject](http://search.cpan.org/~chromatic/Test-MockObject-1.20150527/README.pod){:target="_blank"} is a really smart package, but actually it is too smart.
 One of its features is to add methods to packages which are not existing.
 On the one hand this is very flexible, on the other hand it leads to a big problem.
 
@@ -54,7 +54,7 @@ my $MyModule = $Mockify->getMockObject();
 ### Return values
 
 A mocked method is defined by a *name* and a *function pointer*, which will be called instead of the original method.
-Most of the time you need a static return value ([stub](https://en.wikipedia.org/wiki/Method_stub)).
+Most of the time you need a static return value ([stub](https://en.wikipedia.org/wiki/Method_stub){:target="_blank"}).
 To save time and keep the code more clean, a method exists for this purpose.
 The method expects two arguments.
 The first argument is the name of the method to mock, the second argument is the return value.

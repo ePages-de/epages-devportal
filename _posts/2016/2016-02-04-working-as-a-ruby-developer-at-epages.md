@@ -19,7 +19,7 @@ I'm working as a Ruby Developer at ePages since July 2015.
 How did I end up at ePages in Hamburg?
 Well, it started with a friend of mine, who introduced me to ePages.
 I sent in my application and managed to get an interview with Harm Behrens, the CTO, who happened to be in the Barcelona office at that time. It was a good opportunity to meet with him in person.
-As part of the interview process, I was also given a coding challenge (via [codility](https://codility.com/)).
+As part of the interview process, I was also given a coding challenge (via [codility](https://codility.com/){:target="_blank"}).
 And what shall I say… here I am!
 I’m now a member of the Tools Team.
 

@@ -20,7 +20,7 @@ So why should you start programming in another language?
 Let's take a step back from the frameworks and look at the language itself.
 JavaScript claims to be both, object-oriented (with prototypal inheritance) and functional.
 And since it claims to be both, it is neither one nor the other to a satisfying extend.
-Other languages like [Elixir](http://elixir-lang.org/) (which we're going to talk about in a bit) make it much easier to use functional language features and methods such as *destructuring*, *pattern matching* or *recursion*.
+Other languages like [Elixir](http://elixir-lang.org/){:target="_blank"} (which we're going to talk about in a bit) make it much easier to use functional language features and methods such as *destructuring*, *pattern matching* or *recursion*.
 You might shift from doing everything with a `forEach` loop to solving pretty much every problem with `reduce`.
 This paradigm shift not only broadens your programming knowledge, but lets you view problems (and more importantly their solutions) from a different angle.
 On top of that, it improves code readability - at least most of the time 😉.
@@ -30,7 +30,7 @@ Now, what if I told you that you can learn all of this by using a web framework 
 ## Enter: Elixir and Phoenix
 
 This is rather a teaser that should make you curious about trying out something new and leaving your comfort zone, than a full blown tutorial or language reference.
-This first part will take a look at how **Elixir** might help you to rethink programming patterns leading to cleaner code and continue with what this [**Phoenix**](http://www.phoenixframework.org/) thing actually is.
+This first part will take a look at how **Elixir** might help you to rethink programming patterns leading to cleaner code and continue with what this [**Phoenix**](http://www.phoenixframework.org/){:target="_blank"} thing actually is.
 
 ### The Platform
 
@@ -93,10 +93,10 @@ Trying to match `result = 4` afterwards will give you an error, since the compil
 This might look strange at first, yet makes more sense once you grasp concepts like pattern matching or destructuring.
 
 After looking at the above described language features, I cannot circumvent a few basic facts.
-Elixir runs on the [Erlang](https://www.erlang.org/) VM (BEAM) and gives you the great ecosystem companies like *Heroku* and *WhatsApp* use to build their products.
+Elixir runs on the [Erlang](https://www.erlang.org/){:target="_blank"} VM (BEAM) and gives you the great ecosystem companies like *Heroku* and *WhatsApp* use to build their products.
 It kind of relates to Erlang like Scala relates to Java (JVM).
 Likewise, you can import Erlang modules and use them right away.
-Elixir's syntax is concise and reminds of the Ruby programming language due to the fact that the creator [José Valim](https://github.com/josevalim) is a very active member of the ruby community.
+Elixir's syntax is concise and reminds of the Ruby programming language due to the fact that the creator [José Valim](https://github.com/josevalim){:target="_blank"} is a very active member of the ruby community.
 
 
 Ok, let's see some more Elixir code and compare it to JavaScript ES6.
@@ -143,12 +143,12 @@ function fibonacci (n) {
 At this point I'll stop listing language features Elixir provides since this post is only meant for sweetening.
 I will also not try to persuade you that this is the right language to learn and use.
 Anyway, you should probably check some resources and dive a bit deeper into the awesome world of functional programming.
-A good place to start is [the official elixir-lang site](http://elixir-lang.org/).
+A good place to start is [the official elixir-lang site](http://elixir-lang.org/){:target="_blank"}.
 Just click around and look at some beautiful code and examples.
 
 You think Elixir is not for you?
 Check out another functional language then!
-Take a look at [Scala](https://www.scala-lang.org/), [Haskell](https://www.haskell.org/) or Erlang itself.
+Take a look at [Scala](https://www.scala-lang.org/){:target="_blank"}, [Haskell](https://www.haskell.org/){:target="_blank"} or Erlang itself.
 I personally think your daily (programming) life will benefit from everything you learn, even if you do not actively use these languages for development.
 
 **Next up**: The Phoenix web framework.

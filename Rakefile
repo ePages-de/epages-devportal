@@ -38,6 +38,8 @@ task :test_posts do
       posts = find_posts
       posts.each do |post|
         errors += check_front_matter(post)
+        errors += check_for_internal_urls(post)
+        errors += check_for_external_urls(post)
       end
 
       errors.each do |error|
@@ -107,6 +109,32 @@ task :test_posts do
       errors
     end
 
+    def check_for_internal_urls(file)
+      errors = []
+      if ['.md'].include? File.extname(file)
+        lines = read_file_lines(file)
+        lines.each do |line|
+          if line.content =~ /(\[.*\]\(.*developer.epages.com[^ {}\(\)]+\))/
+            errors << LinterError.new(file, line, 'Linking to an internat URL. Use relative path')
+          end
+        end
+      end
+      errors
+    end
+
+    def check_for_external_urls(file)
+      errors = []
+      if ['.md'].include? File.extname(file)
+        lines = read_file_lines(file)
+        lines.each do |line|
+          if line.content =~ /(\[.*?\]\(https?(?!.*developer.epages.com.*)[^ {}\(\)]+\)(?!{:target="_blank"}))/
+            errors << LinterError.new(file, line, 'Linking to an external URL without using {:target="_blank"}')
+          end
+        end
+      end
+      errors
+    end
+
     def find_posts
       Dir.glob(File.join(@dir, @glob))
          .select { |file| not @ignore.any? { |ign| file.start_with? ign } }
@@ -118,7 +146,7 @@ task :test_posts do
     end
   end
 
-  Linter.new('./_posts/', '**/*.*', ['./.git', './.sass_cache', './_site/', './_sass/bootstrap/', './_sass/font-awesome/', './assets/fonts', './vendor/', './README.md']).run
+  Linter.new('./_posts/', '**/*.*').run
 end
 
 task :test_files do
@@ -235,7 +263,14 @@ task :test_files do
     end
   end
 
-  Linter.new('.', '*/**/*.*', ['./.git', './.sass_cache', './_site/', './_sass/bootstrap/', './_sass/font-awesome/', './assets/fonts', './vendor/', './README.md']).run
+  Linter.new('.', '*/**/*.*', ['./_site',
+                               './.bundle',
+                               './.git',
+                               './.sass_cache',
+                               './.tweet-cache',
+                               './assets/font-awesome',
+                               './assets/fonts_new',
+                               './vendor']).run
 end
 
 task :test_html do
@@ -286,7 +321,6 @@ task :write do
   File.new(write_file, 'w')
 
   exclude = { 'exclude' => YAML.load_file('_config.yml')['exclude'],
-              'livereload' => true,
               'sass' => { 'sass_dir' => '_sass',
                           'style' => 'expanded' } }
 

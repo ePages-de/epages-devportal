@@ -68,7 +68,7 @@ Elasticsearch provides some features that help dealing with multitenancy in a si
 
 #### Bool / Filtered query
 
-An obvious way to implement this is by wrapping queries into a [bool query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html) and filter by tenant.
+An obvious way to implement this is by wrapping queries into a [bool query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html){:target="_blank"} and filter by tenant.
 This is very similar to what you might be used to with other databases and corresponding frameworks.
 
 {% highlight javascript %}
@@ -89,7 +89,7 @@ This is a possible solution, but you would probably like to have some kind of fr
 
 #### Index alias
 
-Another nifty feature you can use are [filtered aliases](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html#filtered).
+Another nifty feature you can use are [filtered aliases](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html#filtered){:target="_blank"}.
 
 Filtered aliases basically enable you to do the same thing as with filtered queries by introducing an alias for every tenant.
 This way you can deal with tenancy in a more transparent way.
@@ -130,7 +130,7 @@ If you create too many aliases, you increase the size of your cluster state and 
 The cluster state is transferred between nodes on every update and includes index, alias and mapping information.
 
 Another issue with using a shared index in general, is that there is no complete data separation for scoring.
-The [inverse document frequency](https://en.wikipedia.org/wiki/Tf%E2%80%93idf#Inverse_document_frequency), which is part of the scoring algorithm, is calculated across all documents.
+The [inverse document frequency](https://en.wikipedia.org/wiki/Tf%E2%80%93idf#Inverse_document_frequency){:target="_blank"}, which is part of the scoring algorithm, is calculated across all documents.
 This means that documents of different tenants influence the scoring of results.
 
 This might be undesired, because ordering of results might "magically" change without the tenant having changed anything.
