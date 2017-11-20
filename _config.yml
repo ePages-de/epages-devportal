@@ -1,4 +1,4 @@
-title: ePages developer portal
+title: ePages Developer Portal
 url: https://developer.epages.com
 twitter_username: epagesdevs
 github_username: ePages-de
@@ -41,8 +41,8 @@ exclude:
   - Rakefile
   - build.sh
   - Dockerfile
-  - _pages/url-map
   - Capfile
+  - _pages/url-map
 
 feed:
   path: /blog/feed.xml

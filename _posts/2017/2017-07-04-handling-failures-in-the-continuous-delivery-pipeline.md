@@ -20,7 +20,7 @@ Different tests in the separated stages assure the confidence in the quality and
 
 * During the build or the acceptance stage
 
-Within the build stage failures will more often occur with regards to testing pull requests from [GitHub](https://github.com/).
+Within the build stage failures will more often occur with regards to testing pull requests from [GitHub](https://github.com/){:target="_blank"}.
 These can be easily solved by committing fixes to the given branch.
 Failures in the acceptance stage occur during the installation of a new image or by running the API tests.
 Fixes for failures can be applied in a similar way to the build stage.

@@ -22,8 +22,8 @@ This divergence should be as small as possible.
 When creating an API, there could be a similar gap between API developer and API user, such as your Frontend colleagues, or even developers from other companies if it is a public API.
 
 * In the best case, let the users of your API describe the requirements themselves.
-* Use [Test-driven development](http://wiki.c2.com/?TestDrivenDevelopment): Specify the expected responses and write a test checking them.
-* Have a look how competitors define similar API's and don't reinvent the wheel ([Principle of Least Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)).
+* Use [Test-driven development](http://wiki.c2.com/?TestDrivenDevelopment){:target="_blank"}: Specify the expected responses and write a test checking them.
+* Have a look how competitors define similar API's and don't reinvent the wheel ([Principle of Least Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment){:target="_blank"}).
 
 ## 2 Secure your API
 
@@ -31,8 +31,8 @@ You will need an authorization process to control the access to the API.
 Depending on your business case you can also think about different scopes to
 restrict the usage of certain API calls based on the account.
 
-* If you want to build a public API, the [OAuth2](https://oauth.net/2/) authorization flow is a good choice.
-* Think about using [JSON Web Token](https://jwt.io/) which have some nice advantages (the token itself can contain user information).
+* If you want to build a public API, the [OAuth2](https://oauth.net/2/){:target="_blank"} authorization flow is a good choice.
+* Think about using [JSON Web Token](https://jwt.io/){:target="_blank"} which have some nice advantages (the token itself can contain user information).
 
 ## 3 Implement flexible API call limits
 
@@ -50,7 +50,7 @@ Use headers for these information as in the [ePages REST API](/apps/api-call-lim
 A public API should be easily usable outside of the company by other developers.
 It's recommended to provide an SDK (at least for the common programming languages) to simplify the usage for external developers.
 
-* Make the SDK code public (e.g. on [GitHub](https://github.com)), so that external developers can extend the code later on.
+* Make the SDK code public (e.g. on [GitHub](https://github.com){:target="_blank"}), so that external developers can extend the code later on.
 
 At [ePages](/), we currently have 2 SDKs: [Ruby](/apps/ruby-gem.html) and [PHP](/apps/php-client.html).
 
@@ -60,9 +60,9 @@ There are lots of to do's in order to build and rollout releases.
 These tasks always have to be done in the same order and with the same requirements.
 
 * Use tools to automate deployment, test, and integration processes.
-At [ePages](http://www.epages.com/en/) we use [Jenkins](https://jenkins.io/) and [VMware vSphere](http://www.vmware.com/de/products/vsphere.html).
+At [ePages](http://www.epages.com/en/){:target="_blank"} we use [Jenkins](https://jenkins.io/){:target="_blank"} and [VMware vSphere](http://www.vmware.com/de/products/vsphere.html){:target="_blank"}.
 * Integrate these tools into your daily work.
-There are plugins for [GitHub](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin) and [Confluence](https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.git-plugin/server/overview).
+There are plugins for [GitHub](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin){:target="_blank"} and [Confluence](https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.git-plugin/server/overview){:target="_blank"}.
 
 ## 6 Provide documentation
 

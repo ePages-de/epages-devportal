@@ -11,7 +11,7 @@ The Codemotion conference took place in Madrid on November 28 and 29. With more 
 This conference was sponsored by companies such as IBM, Microsoft, Arsys, Mozilla and Google...
 
 Two days filled with talks from 12 different tracks, where each track focussed on a specific theme such as  Software Quality, Agile Methodologies, Clean Code, Testing, Big Data, Infrastructure, Scala, Java, Cassandra, MongoDB, Apache Drill, Selenium and Spark...
-Some of them have been broadcasted, giving you the chance to watch them on [Youtube](http://2015.codemotion.es/streaming.html) (unfortunately only available in Spanish).
+Some of them have been broadcasted, giving you the chance to watch them on [Youtube](http://2015.codemotion.es/streaming.html){:target="_blank"} (unfortunately only available in Spanish).
 
 It was a good opportunity to get inspiration and I really enjoyed the variety of talks, which allowed me to get to know new technologies and discover different points of view on how to deal with tricky situations in some of the most well-known technology companies.
 From my point of view, each talk had different levels of difficulty and quality.
@@ -27,7 +27,7 @@ The main goal of "Design Thinking" is to create a real and intuitive experience,
 ## Love your tests and Microservices testing
 
 Some companies are migrating their huge monolithic applications towards something called service-oriented.
-One of these companies is [Tuenti](http://www.tuenti.com/), which had to face plenty of challenges to migrate its social network code in order to become a high-tech virtual mobile network operator integrating different third party services.
+One of these companies is [Tuenti](http://www.tuenti.com/){:target="_blank"}, which had to face plenty of challenges to migrate its social network code in order to become a high-tech virtual mobile network operator integrating different third party services.
 It is said that code tests take place before delivering the product to production environments, but unfortunately most of technology companies have several issues in real environments.
 Some given recommendations in this talk were:
 
@@ -47,6 +47,6 @@ Finally, none of this is written in stone, but we want to do something. Some sma
 
 Nowadays, the software engineering approach called "Continuos Delivery" is becoming more and more popular, where software is produced in short cycles and launched faster.
 This approach improves the market time and reduces cost and risks while delivering updates of the real system.
-In this talk, people from [AtSistemas](http://atsistemas.com/en/) presented their own tool based on Cloud deployment methodologies with microservices.
+In this talk, people from [AtSistemas](http://atsistemas.com/en/){:target="_blank"} presented their own tool based on Cloud deployment methodologies with microservices.
 Everything was automatically deployed in a cluster of containers managed by Docker Swarm.
 Data was shown in a dynamic way by Logstash, indexed in ElasticSearch, and all orchestrated with different tools such as Jenkins, Rundeck, Chef and Consul.

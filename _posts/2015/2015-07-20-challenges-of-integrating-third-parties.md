@@ -17,7 +17,7 @@ Read more to find out why it is not the easiest thing to integrate third-parties
 
 Example: If a customer buys a product in an ePages online shop, they could choose e.g. PayPal as payment method and DHL as delivery method.
 The customer could also obtain an insurance with Trusted Shops.
-(Read further [here](http://www.epages.com/en/partner/technology-partner/) to get an overview of our technology partners.)
+(Read further [here](http://www.epages.com/en/partner/technology-partner/){:target="_blank"} to get an overview of our technology partners.)
 A checkout alone can easily have three third-party dependencies.
 
 The merchant, in turn, receives information via server-sided callbacks, if an order has been paid.

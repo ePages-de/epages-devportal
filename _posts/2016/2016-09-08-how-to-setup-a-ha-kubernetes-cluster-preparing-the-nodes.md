@@ -13,9 +13,9 @@ It describes the installation of the HAProxy, the Flannel daemon (flanneld), the
 ## Installing the service node
 
 The service node which is located outside the cluster undertakes the task of a load balancer.
-Since the open source version of nginx does not support TCP load balancing we use [HAProxy](http://www.haproxy.org/).
-HAProxy distributes packages between the hosts on the [transport layer](https://en.wikipedia.org/wiki/Transport_layer) of the [OSI reference model](https://en.wikipedia.org/wiki/OSI_model).
-The following configuration is set up after the [Installation of HAProxy](https://haproxy.debian.net/).
+Since the open source version of nginx does not support TCP load balancing we use [HAProxy](http://www.haproxy.org/){:target="_blank"}.
+HAProxy distributes packages between the hosts on the [transport layer](https://en.wikipedia.org/wiki/Transport_layer){:target="_blank"} of the [OSI reference model](https://en.wikipedia.org/wiki/OSI_model){:target="_blank"}.
+The following configuration is set up after the [Installation of HAProxy](https://haproxy.debian.net/){:target="_blank"}.
 
 {% highlight bash %}
 root@service:~$ cat > /etc/haproxy/haproxy.cfg << EOF
@@ -57,7 +57,7 @@ After restarting the service it should be possible to reach the master nodes via
 
 ## Flanneld
 
-[Flannel](https://coreos.com/flannel) enables the cluster wide distribution of the pods' packages.
+[Flannel](https://coreos.com/flannel){:target="_blank"} enables the cluster wide distribution of the pods' packages.
 Since the description of the networks are stored in *etcd* a connection of all Kubernetes nodes (master and worker) to the *etcd* cluster has to be enabled.
 The docker daemon on each Kubernetes node will be performed with special parameters provided by flanneld.
 Cross-node communication of containers is realized by iptables that route the packages to the correct target servers.
@@ -184,9 +184,9 @@ root@kubernetes:/tmp$ rm -f flannel-0.5.5-linux-amd64.tar.gz
 
 As you can see in _/etc/systemd/system/flanneld.service_ the script _mk-docker-opts.sh_ creates environment variables with the file _/run/flanneld/docker_opts.env_.
 These variables are used by the Docker daemon.
-We use the [drop-in feature](https://www.freedesktop.org/software/systemd/man/systemd.unit.html) of *Systemd*.
+We use the [drop-in feature](https://www.freedesktop.org/software/systemd/man/systemd.unit.html){:target="_blank"} of *Systemd*.
 So there is no need to change the standard service definition of Docker.
-The [installation of the Docker engine](https://docs.docker.com/engine/installation/linux/debian/) is done in the standard way.
+The [installation of the Docker engine](https://docs.docker.com/engine/installation/linux/debian/){:target="_blank"} is done in the standard way.
 
 {% highlight bash %}
 root@kubernetes:~$ apt-get purge lxc-docker*
@@ -217,7 +217,7 @@ The new one contains the variables from the file _/run/flanneld/docker_opts.env_
 
 ## Kubelet
 
-[Kubelet](http://kubernetes.io/docs/admin/kubelet/) controls the directory _/etc/kubernetes/manifests_ and creates Docker containers from the Pod definitions located here.
+[Kubelet](http://kubernetes.io/docs/admin/kubelet/){:target="_blank"} controls the directory _/etc/kubernetes/manifests_ and creates Docker containers from the Pod definitions located here.
 Therefore, it also needs root rights.
 The Kubelet version has to be compatible to the one of the API server.
 
@@ -237,7 +237,7 @@ root@kubernetes:/tmp$ chmod 755 /usr/local/bin/kubelet
 root@kubernetes:/tmp$ mkdir -p /etc/kubernetes/manifests
 {% endhighlight %}
 
-In addition we have to add [Kernel boot parameter](https://github.com/kubernetes/kubernetes/issues/9837).
+In addition we have to add [Kernel boot parameter](https://github.com/kubernetes/kubernetes/issues/9837){:target="_blank"}.
 Refer to the following code example on how to do this using *sed*.
 
 {% highlight bash %}
@@ -249,7 +249,7 @@ root@kubernetes:~$ reboot
 ## Summary
 
 The external __service node__ is used as a load balancer.
-Working on the [Transport layer](https://en.wikipedia.org/wiki/Transport_layer) of the [OSI reference model](https://en.wikipedia.org/wiki/OSI_model) it does not terminate SSL but simply routes the traffic.
+Working on the [Transport layer](https://en.wikipedia.org/wiki/Transport_layer){:target="_blank"} of the [OSI reference model](https://en.wikipedia.org/wiki/OSI_model){:target="_blank"} it does not terminate SSL but simply routes the traffic.
 
 On all __Kubernetes nodes__ run various services.
 *Flanneld* is required to run the *Docker engine*.

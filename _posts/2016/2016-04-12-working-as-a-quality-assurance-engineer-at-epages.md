@@ -19,7 +19,7 @@ I'm working as a Quality Assurance Engineer at ePages since September 2015.
 ### How did you end up working at ePages?
 
 Due to the war and the poor living conditions, I was looking for a job outside of Ukraine.
-I checked [Linkedin](https://www.linkedin.com/) for job ads, as it is an international platform and the information there is in English.
+I checked [Linkedin](https://www.linkedin.com/){:target="_blank"} for job ads, as it is an international platform and the information there is in English.
 I came across the ePages job ad for a Quality Assurance Engineer in Hamburg, found it interesting, and I submitted my application. I applied for the job in Germany, despite not knowing a word of German.
 
 ### Why Germany?
@@ -55,7 +55,7 @@ I immediately started to look for my own apartment and also the process to reloc
 
 Sometimes it was a bit hard because of all the documents that are required to rent an apartment.
 But the team helped me a lot with the communication.
-I then started my German course at [Colon](http://www.colon.de/en/colon.html) in October.
+I then started my German course at [Colon](http://www.colon.de/en/colon.html){:target="_blank"} in October.
 I attend the classes twice a week in the evening after work.
 
 ### Did you get support with other administrative issues?

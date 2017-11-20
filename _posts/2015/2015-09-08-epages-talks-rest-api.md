@@ -7,7 +7,7 @@ category: events
 authors: ["Birgit"]
 ---
 
-Have you signed up for the [`code.talks`](https://www.codetalks.de/) 2015 in Hamburg?
+Have you signed up for the [`code.talks`](https://www.codetalks.de/){:target="_blank"} 2015 in Hamburg?
 This conference thrives on a variety of interesting topics in the field of web development, exciting talks and of course lots of fun.
 And we're participating!
 

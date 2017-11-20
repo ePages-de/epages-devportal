@@ -40,4 +40,4 @@ By then, a minor change to the codebase could cause it to break, or worse, it co
 
 This type of project is not usually influenced by customer feedback, however, thanks to all the real-time constructive criticism and suggestions, we were able to pinpoint and resolve some user experience difficulties during the integration process.
 This included improving our order update process and preventing duplicate items/orders due to user error.
-We’re now excited to bring Shippo to the ePages community! To learn more about Shippo, visit [goshippo.com](https://goshippo.com/).
+We’re now excited to bring Shippo to the ePages community! To learn more about Shippo, visit [goshippo.com](https://goshippo.com/){:target="_blank"}.

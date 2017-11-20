@@ -23,7 +23,7 @@ It also helps to identify potential mismatches of flows and concepts between the
 
 All this information helps our product owner with his estimations as well as our team during technical planning.
 We consider potential problems right away and minimize the necessity to postpone decisions because of misunderstanding a specific service functionality.
-A tool we use quite frequently exactly for this purpose is [Postman](https://www.getpostman.com/).
+A tool we use quite frequently exactly for this purpose is [Postman](https://www.getpostman.com/){:target="_blank"}.
 Postman allows you to play around with HTTP based APIs without having to deal with all the HTTP communication details.
 That way, we can focus on testing the functionality of an API instead of wasting time on trivial communication details.
 

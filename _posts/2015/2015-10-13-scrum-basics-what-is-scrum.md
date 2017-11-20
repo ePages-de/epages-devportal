@@ -33,7 +33,7 @@ That doesn’t mean everyone should know everything, it only means everyone is w
 ## Advantages
 
 The big advantage of those teams in comparison to assigning a single person to specific parts of the product development is that you always have all the abilities needed in one room.
-In [waterfall](https://en.wikipedia.org/wiki/Waterfall_model) you often have the problem that the person who did the backend development is already working on the next project when the designers realise that they need some more data from the backend.
+In [waterfall](https://en.wikipedia.org/wiki/Waterfall_model){:target="_blank"} you often have the problem that the person who did the backend development is already working on the next project when the designers realise that they need some more data from the backend.
 In Scrum that won’t happen.
 Another advantage is that you always have several eyes on one problem.
 Solutions can be found faster if you have more experience in the room and people who get stuck at some point always have someone to ask right next to them.

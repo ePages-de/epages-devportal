@@ -23,7 +23,7 @@ Which is great!
 I started out building up a new [API documentation](/apps).
 This meant understanding what an API is all about, knowing the working methods of developers, how they gather information, understanding the basics of their working environment, and their specific tools.
 It meant finding a suitable documentation tool and platform, and how to deal with these.
-And it also meant applying many of their tools myself: [GitHub](https://github.com/), [Jekyll](https://jekyllrb.com/), the terminal, or setting up local environments.
+And it also meant applying many of their tools myself: [GitHub](https://github.com/){:target="_blank"}, [Jekyll](https://jekyllrb.com/){:target="_blank"}, the terminal, or setting up local environments.
 Not to mention decoding the developer's technical jargon 😉.
 
 And now, with a TechWriter in the house, there was more to come:

@@ -12,7 +12,7 @@ speakers on the schedule, I was really eager to get to Antwerp for this year's d
 And I'm also eager to share my personal impressions o 🙂
 
 One really cool thing about devoxx is that they stream all of the talks live at their
-[Youtube channel](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg), and put the recordings online pretty soon
+[Youtube channel](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg){:target="_blank"}, and put the recordings online pretty soon
 (usually online the next day).
 So if you find a topic interesting, tune in.
 
@@ -20,10 +20,10 @@ Now, here's my personal schedule and summary for the first of the conference par
 
 ## Keynote: Moving Java Forward Faster
 
-In this first keynote, [Mark Reinhold](https://twitter.com/mreinhold), Chief Architect of the Java Platform Group,
+In this first keynote, [Mark Reinhold](https://twitter.com/mreinhold){:target="_blank"}, Chief Architect of the Java Platform Group,
 presented an outlook to the future release process of Java.
 We're going to get new releases every 6 month, with LTS releases every three years (and being supported that long).
-On top of this, he and [Brian Goetz](https://twitter.com/BrianGoetz) also let us peek into future of Java, with
+On top of this, he and [Brian Goetz](https://twitter.com/BrianGoetz){:target="_blank"} also let us peek into future of Java, with
 highly appreciated features like pattern matching.
 
 If you have followed the Java news, you might know most of the stuff already, but still I would highly recommend this
@@ -37,7 +37,7 @@ Which will be possible in 2019 at the OpenCERN event and VoxxedDays.
 
 ## Keynote: Move Slow and Mend Things
 
-My favorite takeaway from the talk of [Kevlin Henney](https://twitter.com/KevlinHenney) is "speed != velocity, because
+My favorite takeaway from the talk of [Kevlin Henney](https://twitter.com/KevlinHenney){:target="_blank"} is "speed != velocity, because
 velocity has a direction, while speed may be high, but without (or the wrong) direction".
 He very successfully made the point that sometimes being fast and breaking things is okay, but there are also lots of
 occasions when moving slow and fixing things is the better choice.
@@ -49,19 +49,19 @@ Once again, definitely worth watching!
 ## Kotlin for Java Programmers
 
 Want to learn Kotlin and don't have much time?
-Then I definitely recommend viewing [Venkat Subramaniam](https://twitter.com/venkat_s)'s talk.
+Then I definitely recommend viewing [Venkat Subramaniam](https://twitter.com/venkat_s){:target="_blank"}'s talk.
 It's force-feeding Kotlin concepts which would fill a two day training somewhere else into 50 minutes.
 When watching this on Youtube, you might want to reduce the speed to avoid brain overload ;-)
 
 When the session is over, one could feel like you could (and also want to) start programming in Kotlin immediately.
 
-Personally, I would like to see a conference talk battle between Venkat and [Josh Long](https://twitter.com/starbuxman)
+Personally, I would like to see a conference talk battle between Venkat and [Josh Long](https://twitter.com/starbuxman){:target="_blank"}
 to find out who speaks faster and packs more stuff into the minute 🙂
 
 ## Quickie: Spring Framework 5: Hidden Gems
 
 If you're using Spring Framework for some time and already know all those major improvements that Spring 5 brings,
-having a look at this presentation by [Jürgen Höller](https://twitter.com/springjuergen) is really worth the time.
+having a look at this presentation by [Jürgen Höller](https://twitter.com/springjuergen){:target="_blank"} is really worth the time.
 It turns the spotlight to the less prominent improvements, of which several might make the life of an Spring developer
 easier.
 My personal highlight is the build-time annotation processor, which might take away the real pain if long startup times
@@ -81,7 +81,7 @@ introduction.
 ## Plain Functional Programming
 
 In this talk, originally announced as a beginner-level talk, but  changed to intermediate-level, Scala inventor
-[Martin Odersky](https://twitter.com/odersky) explained Kleisli triples and implicit functions, and why you sometimes
+[Martin Odersky](https://twitter.com/odersky){:target="_blank"} explained Kleisli triples and implicit functions, and why you sometimes
 shouldn't use them either.
 Although I wasn't able to grasp everything, being not too deep into functional programming yet, the main takeaway,
 the concept of least power, is surely relevant way beyond the domain of functional programming.
@@ -94,7 +94,7 @@ Otherwise be aware it is definitely not beginner level.
 I was keen to visit this talk since the everlasting question on how to deal with changing APIs is also challenging us
 at ePages.
 From that perspective, and the expectations I had from the abstract, I was really disappointed from what
-[Patrice Krakow](https://twitter.com/patricekrakow), lead architect at ING, finally presented.
+[Patrice Krakow](https://twitter.com/patricekrakow){:target="_blank"}, lead architect at ING, finally presented.
 He talked about service discovery, routing, server-side and client-side loadbalancing.
 He also explained how to pin a service to a specific API version, but not about how to deal with changes in the API
 itself.
@@ -104,8 +104,8 @@ solutions.
 
 ## JUnit 5 — The New Testing Framework for Java and Platform for the JVM
 
-In this last full session of the day, [Sam Brennan](https://twitter.com/sam_brannen) and
-[Marc Phillipp](https://twitter.com/marcphilipp) introduced the new architecture of JUnit 5, together with a lot of
+In this last full session of the day, [Sam Brennan](https://twitter.com/sam_brannen){:target="_blank"} and
+[Marc Phillipp](https://twitter.com/marcphilipp){:target="_blank"} introduced the new architecture of JUnit 5, together with a lot of
 its cool new features.
 Really recommended if you want to get a quick introduction, together with live coding examples.
 

@@ -9,21 +9,21 @@ authors: ["Dirk"]
 
 Some weeks ago, we published [Infrastructure as Code: automating Jenkins](/blog/tech-stories/infrastructure-as-code-automating-jenkins/).
 In that post, we described some open ends, which still needed to be solved in order to satisfy our expectations.
-In this follow-up post, I will explain how we advanced on our way to have a fully automated continuous integration server, this time coming pretty close to an *[immutable server](http://martinfowler.com/bliki/ImmutableServer.html)*.
+In this follow-up post, I will explain how we advanced on our way to have a fully automated continuous integration server, this time coming pretty close to an *[immutable server](http://martinfowler.com/bliki/ImmutableServer.html){:target="_blank"}*.
 
 ## Remaining shortcomings
 
 The main challenge we had earlier was the central configuration of the Jenkins master, which is extended by lots of plugins.
 As a workaround, we created the full `config.xml` in advance and just copied it over to Jenkins.
-In addition, we were pretty unhappy with not being able to avoid local modifications, which were still leaving permanent traces behind, even when being overwritten by a new run of [Ansible](http://www.ansible.com/).
+In addition, we were pretty unhappy with not being able to avoid local modifications, which were still leaving permanent traces behind, even when being overwritten by a new run of [Ansible](http://www.ansible.com/){:target="_blank"}.
 
 ## Introducing Docker
 
 ![](/assets/img/pages/blog/images/blog-docker-logo-h.png)
 
 So, let's get started on our journey towards immutable Jenkins master!
-The main step to achieve this goal was our decision to build our further steps on [Docker](https://www.docker.com/).
-With the very sophisticated official [Jenkins image](https://hub.docker.com/_/jenkins/) available at [Docker Hub](https://hub.docker.com/), we found an excellent starting point.
+The main step to achieve this goal was our decision to build our further steps on [Docker](https://www.docker.com/){:target="_blank"}.
+With the very sophisticated official [Jenkins image](https://hub.docker.com/_/jenkins/){:target="_blank"} available at [Docker Hub](https://hub.docker.com/){:target="_blank"}, we found an excellent starting point.
 The image already provides out-of-the-box support for installing additional plugins by providing a list of plugins and versions, which we previously did in a much more complicated way using Jenkins CLI.
 
 In addition, the Docker image hinted us to the solution of the configuration problem: Groovy init hooks.
@@ -56,10 +56,10 @@ We are intentionally not mounting the whole `jenkins_home` folder as a persisten
 As already described in the earlier post, we only backup a small fraction of the files in these folders, as for example the `jobs` folder also contains the workspace,
 which can be created whenever needed by just checking out from version control.
 
-The problem of possible modifications through the web UI can be solved using the [Matrix Authorization Strategy Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Matrix+Authorization+Strategy+Plugin).
+The problem of possible modifications through the web UI can be solved using the [Matrix Authorization Strategy Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Matrix+Authorization+Strategy+Plugin){:target="_blank"}.
 Utilising this plugin, we create only one real admin user, which has a (unknown) random password, and other users, which are only allowed to trigger builds.
 In doing so, the only way to change the configuration of the server is to create a new version of the Docker container with Ansible.
-Furthermore, jobs can also only be created or modified by the [Job DSL Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin).
+Furthermore, jobs can also only be created or modified by the [Job DSL Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin){:target="_blank"}.
 
 ## Outlook
 

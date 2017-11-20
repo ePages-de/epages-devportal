@@ -7,7 +7,7 @@ category: tech-stories
 authors: ["Mats"]
 ---
 
-In my team the recent and still ongoing project is the implementation of an application serving as a connector between the ePages e-commerce solution and [Sage One](https://developer.sageone.com), an Accounting software.
+In my team the recent and still ongoing project is the implementation of an application serving as a connector between the ePages e-commerce solution and [Sage One](https://developer.sageone.com){:target="_blank"}, an Accounting software.
 The main purpose of this connector-application is to transfer the orders being created in the ePages shop into the Sage One accounting application.
 
 ## The initial plan
@@ -16,7 +16,7 @@ Our initial plan was to build a standalone application using the [ePages REST AP
 Soon the requirement of a deeper integration into the ePages administration area came up.
 So we had to find a different approach.
 In our recent payment integration PayPal Plus introduced a “thin layer”-approach.
-That means, we used a Java application as a layer between the ePages Perl code and the [PayPal API](https://developer.paypal.com).
+That means, we used a Java application as a layer between the ePages Perl code and the [PayPal API](https://developer.paypal.com){:target="_blank"}.
 In this approach we used the Java layer as a plain communication adapter in order to be able to use the PayPal Java SDK. Understanding the Java layer as a plain communication adapter we were strictly avoiding any business logic there.
 The Java layer is only transferring information between the ePages Perl core and the Paypal API.
 

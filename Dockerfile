@@ -20,6 +20,5 @@ EXPOSE 4000
 WORKDIR /src
 
 COPY build.sh .
-COPY build_d.sh .
 
 CMD jekyll serve

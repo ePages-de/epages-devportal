@@ -120,7 +120,7 @@ Let's wrap up with a brief overview of what had to be done:
 2. Add Babel configuration to transpile with `babel-preset-env` preset while not touching imports or dynamic imports.
 3. Tell Webpack to use TypeScript + Babel, either by configuring `awesome-typescript-loader` or by manually adding `babel-loader`.
 
-To see everything in action, I prepared a [demo repository](https://github.com/ePages-de/typescript-babel-webpack-treeshaking-codesplitting-demo).
+To see everything in action, I prepared a [demo repository](https://github.com/ePages-de/typescript-babel-webpack-treeshaking-codesplitting-demo){:target="_blank"}.
 
 [code-splitting]: https://webpack.js.org/guides/code-splitting/
 [tree-shaking]: https://webpack.js.org/guides/tree-shaking/

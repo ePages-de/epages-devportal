@@ -22,16 +22,16 @@ Fun fact: before starting out there I did not even know what HTML and CSS was.
 Since the beginning of 2017, with the graduation of my apprenticeship in sight, I started out in Team 42 to get a glimpse at what the life of a developer looks like.
 Team 42 develops applications and tools that are both internally and externally used such as the Sales Analytics App, the API documentation for developers or a plugin to use your ePages shop within a WordPress website.
 I had a very warm welcome in an interesting small team of two developers and one product owner.
-They immediately introduced me to the product they were currently working on, which was the Sales Analytics App built in [Rails](http://rubyonrails.org/).
-Without knowing anything about Rails, or the underlying programming language [Ruby](https://www.ruby-lang.org/en/), I was nonetheless able to contribute with my knowledge of CSS respectively Sass, and give the product some styling.
+They immediately introduced me to the product they were currently working on, which was the Sales Analytics App built in [Rails](http://rubyonrails.org/){:target="_blank"}.
+Without knowing anything about Rails, or the underlying programming language [Ruby](https://www.ruby-lang.org/en/){:target="_blank"}, I was nonetheless able to contribute with my knowledge of CSS respectively Sass, and give the product some styling.
 Apart from that I got a crash course in how developers work, for instance with Git, and what is important to keep in mind in order to become a good developer.
 Always staying up to date and being interested in the newest technologies for example was one of that.
 
 ## Status Quo
 
-Now, roughly six month after starting in the team, one big and interesting project which was the relaunch of our website [epages.com](https://www.epages.com/) and successful finishing my apprenticeship in June, I am still feeling very satisfied with where I am.
+Now, roughly six month after starting in the team, one big and interesting project which was the relaunch of our website [epages.com](https://www.epages.com/){:target="_blank"} and successful finishing my apprenticeship in June, I am still feeling very satisfied with where I am.
 What's missing now is a deep understanding of basic programming.
-That's why I am currently doing a lot of training in the fields of JavaScript, and everything related such as [jQuery](https://jquery.com/).
+That's why I am currently doing a lot of training in the fields of JavaScript, and everything related such as [jQuery](https://jquery.com/){:target="_blank"}.
 In the long run I want to be able to contribute to all the projects the team is working on, which are built in Rails.
 Luckily, I have a very supportive team, that helps me wherever they can.
 We are currently doing some training sessions so that I get the fundamentals of computer science and programming in general.
