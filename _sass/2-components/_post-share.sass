@@ -1,4 +1,6 @@
-.share-page
+.post-share
+  opacity: 0
+  transition: $base-transition
   text-align: center
   margin-bottom: $card-margin-desktop
   margin-top: 4rem
@@ -6,6 +8,7 @@
   +grid-media($grid-large)
     text-align: left
     margin: 0
+    padding: 3rem 0
     position: fixed
     left: 2rem
     top: 50%
@@ -24,8 +27,6 @@
       &:not(:last-child)
         margin-right: 0
         margin-bottom: 1rem
-
-
 
   .icon-share
     display: block
