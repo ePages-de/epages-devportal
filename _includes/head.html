@@ -25,6 +25,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+    {% if page.layout == 'default' %}ga('create', 'UA-71308214-1', 'auto');{% endif %}
     {% if page.layout == 'blog' %}ga('create', 'UA-71308214-2', 'auto');{% endif %}
     {% if page.layout == 'devjobs' %}ga('create', 'UA-71308214-3', 'auto');{% endif %}
     ga('send', 'pageview');
