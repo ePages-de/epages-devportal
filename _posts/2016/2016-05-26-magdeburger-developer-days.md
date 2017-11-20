@@ -7,14 +7,14 @@ category: events
 authors: ["Bastian and Benjamin"]
 ---
 
-On May, 18th 2016, the first [Developer Days](http://md-devdays.de/) took place in the exhibition halls of Magdeburg, Germany.
-Although this Java and .NET developer conference was organised for the first time, many developers from across Germany participated and followed the invitation from the [Twitter](https://twitter.com/MiB_MD_DevDays) channel of Michael Blume, the initiator and organiser.
+On May, 18th 2016, the first [Developer Days](http://md-devdays.de/){:target="_blank"} took place in the exhibition halls of Magdeburg, Germany.
+Although this Java and .NET developer conference was organised for the first time, many developers from across Germany participated and followed the invitation from the [Twitter](https://twitter.com/MiB_MD_DevDays){:target="_blank"} channel of Michael Blume, the initiator and organiser.
 
 ![](/assets/img/pages/blog/images/blog-magdeburg-1.jpg)
 
 ## The setting
 
-The exhibition hall was parted into four large rooms, named after famous pioneers of the Information Technologies, like [Konrad Zuse](https://en.wikipedia.org/wiki/Konrad_Zuse) and [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup).
+The exhibition hall was parted into four large rooms, named after famous pioneers of the Information Technologies, like [Konrad Zuse](https://en.wikipedia.org/wiki/Konrad_Zuse){:target="_blank"} and [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup){:target="_blank"}.
 The lobby offered bar tables and an open space that could consistently be used for interesting discussions about the latest technologies, side projects, and networking.
 Besides the catering with snacks and a variety of beverages, the orga team also delivered a conference booklet with over 40 pages, where each speaker and session was listed in depth on individual pages.
 Another noteworthy subject was the affectionate designed certificates for the participants that were handed over at the entrance area in addition to the welcome bag.
@@ -27,16 +27,16 @@ After the two introduction talks, the sessions began. The main topics were front
 
 ![](/assets/img/pages/blog/images/blog-magdeburg-3.jpg)
 
-The first session was a dive into [TypeScript](https://www.typescriptlang.org) by Rainer Stropek.
+The first session was a dive into [TypeScript](https://www.typescriptlang.org){:target="_blank"} by Rainer Stropek.
 TypeScript is a JavaScript similar language and can be compiled into JavaScript.
 It is a strictly typed and object-oriented programming language.
 We learned how to compile and use TypeScript.
-Rainer Stropek showed examples via live coding at the TypeScript [Playground](https://www.typescriptlang.org/play/index.html), which directly generates the resulting JavaScript.
+Rainer Stropek showed examples via live coding at the TypeScript [Playground](https://www.typescriptlang.org/play/index.html){:target="_blank"}, which directly generates the resulting JavaScript.
 He also showed how to use common JS libraries within TypeScript.
 
 ![](/assets/img/pages/blog/images/blog-magdeburg-4.jpg)
 
-Our second session was all about "What's still new in [Java SE 8](https://docs.oracle.com/javase/8/docs/api)?".
+Our second session was all about "What's still new in [Java SE 8](https://docs.oracle.com/javase/8/docs/api){:target="_blank"}?".
 Bernd Gronostay, who works closely together with the author of "Java ist auch ein Insel", talked about a lot of new features and API changes.
 Not only did he talk about the modifications, but also showed a lot of examples which illustrated these features very well.
 The perhaps most interesting part in this session were the various show cases of lambda functions and streams.
@@ -46,7 +46,7 @@ This enables developers to write Java in a functional syntax.
 
 After lunch there was a talk with a topic which was completely new to us:
 Functional Domain Driven Design (DDD) with F# held by Marco Heimeshoff.
-He is one of the cofounders of the [DDD community](http://dddcommunity.org) in Germany.
+He is one of the cofounders of the [DDD community](http://dddcommunity.org){:target="_blank"} in Germany.
 His introduction showed a new idea of how the software models should look like.
 The mapping between the Requirement Space (Domain) and the Implementation Space (Code) is usually a gap that needs to be bridged.
 The difficulty is to have the code representing exactly the real domain.
@@ -56,7 +56,7 @@ This is only a little extract of this session with a lot of new, interesting ide
 
 ![](/assets/img/pages/blog/images/blog-magdeburg-6.jpg)
 
-The next session was an introduction into the JavaScript framework [React](https://facebook.github.io/react) by Oliver Zeigermann, who is the author of several JavaScript books.
+The next session was an introduction into the JavaScript framework [React](https://facebook.github.io/react){:target="_blank"} by Oliver Zeigermann, who is the author of several JavaScript books.
 He showed and explained the principals of React.
 One feature of React is that it represents only the view in a Model-View-Controller (MVC) model.
 So it is typical to have a mixture of JavaScript and HTML code in one file.
@@ -66,8 +66,8 @@ The interesting thing about React is, that due to that technique websites are al
 
 ![](/assets/img/pages/blog/images/blog-magdeburg-7.jpg)
 
-The last session of the day was "Architekturdokumentation leicht gemacht" (architecture documentation for dummies) by Andreas Richter, the organiser of the [Softwerkskammer Magdeburg](https://www.softwerkskammer.org/groups/magdeburg).
-He introduced the [arc42](http://arc42.org) template and its most important parts.
+The last session of the day was "Architekturdokumentation leicht gemacht" (architecture documentation for dummies) by Andreas Richter, the organiser of the [Softwerkskammer Magdeburg](https://www.softwerkskammer.org/groups/magdeburg){:target="_blank"}.
+He introduced the [arc42](http://arc42.org){:target="_blank"} template and its most important parts.
 The main benefits of such an architectural templates is that there is always the same structure.
 
 ## Summary

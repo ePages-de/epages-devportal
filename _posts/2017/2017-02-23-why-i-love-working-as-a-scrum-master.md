@@ -7,14 +7,14 @@ category: on-the-job
 authors: ["Rose", "Ann-Katrin"]
 ---
 
-As already discussed in our previous [blog post](/blog/methods-and-tools/getting-twice-the-things-done-in-half-the-time/), the agile process framework [Scrum](https://www.scrum.org/resources/what-is-scrum) is our preferred methodology when it comes to managing the product development at ePages.
+As already discussed in our previous [blog post](/blog/methods-and-tools/getting-twice-the-things-done-in-half-the-time/), the agile process framework [Scrum](https://www.scrum.org/resources/what-is-scrum){:target="_blank"} is our preferred methodology when it comes to managing the product development at ePages.
 To get further insights into our work with Scrum, we have interviewed our Scrum Master Ann-Katrin:
 
 ### Hi Ann-Katrin. Many thanks for taking the time to do this interview. Could you please give us an introduction of yourself?
 
 Hi, I am Ann-Katrin, the Scrum Master here at ePages.
 I started my career at an e-commerce agency, here in Hamburg, where I worked for about seven years, before I moved to London.
-In London, I worked for two big retailers, namely [Arcadia](https://www.arcadiagroup.co.uk/) and [Debenhams](http://www.debenhams.com/).
+In London, I worked for two big retailers, namely [Arcadia](https://www.arcadiagroup.co.uk/){:target="_blank"} and [Debenhams](http://www.debenhams.com/){:target="_blank"}.
 At the beginning, I was dedicated more towards the operational business, but then moved more and more in the direction of agile project management.
 Although I liked the project management side of my job, my real passion was more working with agile teams and being the one helping them to coordinate their work.
 This is when I got to know the processes of Scrum and got certificated as a Scrum Master and ever since worked in that field.
@@ -93,7 +93,7 @@ But then there are some opportunity wins that will push us closer to that island
 The teams at ePages know each other quite well and they are very good at giving feedback, so we mostly keep it simple.
 I generally talk about identifying what went well and where can we.
 In the first 10 minutes of the retrospective we gather everyone’s feedback. After presenting it, we then go into a discussion.
-The most important aspect is to go out of the retrospective with some [smart action items](http://agileinaflash.blogspot.de/2009/06/smart-goals.html) in order to know what to improve.
+The most important aspect is to go out of the retrospective with some [smart action items](http://agileinaflash.blogspot.de/2009/06/smart-goals.html){:target="_blank"} in order to know what to improve.
 Each action item is assigned to a member of the team and a deadline is set in order to be able to follow it up.
 It’s then my task to follow up on the assigned action items.
 

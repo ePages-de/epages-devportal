@@ -1,8 +1,12 @@
-{% if include.tags %}
+{% comment %}
+  Due to liquid limitation this solution checks whether tags are empty or not
+{% endcomment %}
+{% assign tags = page.tags | strip %}
+{% if tags != '[]' %}
   <div class="tags">
     <hr>
     <div class="tags-wrapper">
-      {% for tag in include.tags %}
+      {% for tag in page.tags %}
         <div class="tags__tag">
           <a href="/blog/search/?query={{ tag }}">{{ tag }}</a>
         </div>

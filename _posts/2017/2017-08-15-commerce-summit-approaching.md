@@ -19,7 +19,7 @@ If you are a techie - for sure you are 😉 - these buzzwords might sound intere
 * Ecommerce 4.0
 * Cloud infrastructure
 
-The Commerce Summit [agenda](https://www.commerce-summit.com/en/agenda/) provides more detailed information on these topics as well as about further interesting ecommerce strategy and merchant talks.
+The Commerce Summit [agenda](https://www.commerce-summit.com/en/agenda/){:target="_blank"} provides more detailed information on these topics as well as about further interesting ecommerce strategy and merchant talks.
 
 Date & Time: 21th/22th September 2017
 

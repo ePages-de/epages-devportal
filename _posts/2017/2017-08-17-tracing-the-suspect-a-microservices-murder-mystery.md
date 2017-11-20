@@ -22,7 +22,7 @@ In this second post we will enhance the JSON log structure, and dive deeper into
 
 At ePages we use [Google's Stackdriver Logging infrastructure][stackdriver] to aggregate all our log events, thus we need to adjust our JSON structure to follow their format:
 We want to rename the default JSON properties `@timestamp` and `level` to `time` and `severity` respectively, while completely dropping `@version`, `level_value`, and `thread_name`.
-Using [Spring Boot][spring-boot]'s support for [Logback][logback], we control the JSON structure by introducing a [custom encoder layout](https://github.com/logstash/logstash-logback-encoder#composite-encoderlayout) in this `logback-spring.xml` file:
+Using [Spring Boot][spring-boot]'s support for [Logback][logback], we control the JSON structure by introducing a [custom encoder layout](https://github.com/logstash/logstash-logback-encoder#composite-encoderlayout){:target="_blank"} in this `logback-spring.xml` file:
 
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -58,7 +58,7 @@ Using [Spring Boot][spring-boot]'s support for [Logback][logback], we control th
 {% endhighlight %}
 
 The JSON property `app` is rendered by the `<context/>` JSON provider, which gets its value from the `<springProperty/>` element used to access the `spring.application.name` configuration value that is available for every Spring Boot app.
-The `correlation-id` is fetched from the Mapped Diagnostic Context (as introduced in the previous blog post) using the special [conversion word](https://logback.qos.ch/manual/layouts.html#mdc) `%mdc{}`.
+The `correlation-id` is fetched from the Mapped Diagnostic Context (as introduced in the previous blog post) using the special [conversion word](https://logback.qos.ch/manual/layouts.html#mdc){:target="_blank"} `%mdc{}`.
 
 A typical stream of log events produced by processing a single request spanning the microservices named *ping*, *pong*, and *ack* behind our *api-gateway* in our (artificial) system looks like this:
 

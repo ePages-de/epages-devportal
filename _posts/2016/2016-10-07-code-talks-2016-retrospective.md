@@ -28,7 +28,7 @@ There was rather more queuing for popcorn, drinks, and food than last year.
 
 ### The Return of Sanity? (Die Rückkehr der Vernunft?)
 
-The conference started with a real highlight on the main stage in K6 - [Lars Jankowfsky](https://twitter.com/dodgeris) and [Johann-Peter Hartmann](https://twitter.com/Johannhartmann) gave a talk about *"The Return of Sanity?" ("Die Rückkehr der Vernunft?")*.
+The conference started with a real highlight on the main stage in K6 - [Lars Jankowfsky](https://twitter.com/dodgeris){:target="_blank"} and [Johann-Peter Hartmann](https://twitter.com/Johannhartmann){:target="_blank"} gave a talk about *"The Return of Sanity?" ("Die Rückkehr der Vernunft?")*.
 Actually the talk was rather a play than a talk.
 It was a discussion between the two about which technology stack to use for their imaginary startup *canab.io*.
 They started going through a lot of hot technologies only to bash them all.
@@ -50,7 +50,7 @@ Which technology would you choose if the south Italian investor captured your fa
 
 ### Developing more efficiently with Functional Programming
 
-[Michael Sperber](https://twitter.com/sperbsen) from Active Group talked about functional programming.
+[Michael Sperber](https://twitter.com/sperbsen){:target="_blank"} from Active Group talked about functional programming.
 He took an example based approach to show how useful the main principles of functional programming are.
 Particularly his very creative examples are unbeaten.
 
@@ -59,7 +59,7 @@ Particularly his very creative examples are unbeaten.
 
 He showed how pure functional programming can actually be applied in the wild:
 
-- functional UI development using [Reacl](https://github.com/active-group/reacl) - a ClojureScript library for programming with the React framework.
+- functional UI development using [Reacl](https://github.com/active-group/reacl){:target="_blank"} - a ClojureScript library for programming with the React framework.
 - functional dependency injection
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">Effizient entwickeln mit Funktionaler Programmierung: talk by <a href="https://twitter.com/sperbsen">@sperbsen</a> at <a href="https://twitter.com/codetalkshh">@codetalkshh</a> <a href="https://t.co/BPDCJ9jo2M">pic.twitter.com/BPDCJ9jo2M</a></p>&mdash; Teresa Holfeld (@TeresaHolfeld) <a href="https://twitter.com/TeresaHolfeld/status/781433670452281344">29. September 2016</a></blockquote>
@@ -82,7 +82,7 @@ Just before lunch on Friday it was time for Oliver and Jens to give their talk o
 The Alabama Cinema at Kampnagel served as their stage, and although it was a bit separated from all the other conference rooms it was still well visited.
 The talk was delivered as an amusing discussion between *Bob Operator* and *Joe Developer* while live on stage implementing a new feature into an existing online pizza shop based on Java microservices.
 Showing best practices and introducing a number of useful Open Source libraries was very well received by the audience.
-Source code for the epizza project can be found on the [ePages GitHub account](https://github.com/ePages-de/epizza).
+Source code for the epizza project can be found on the [ePages GitHub account](https://github.com/ePages-de/epizza){:target="_blank"}.
 The presentation ended with lots of laughter when a real pizza delivery boy carrying steaming hot salami pizza entered the cinema and asked who ordered it - proof that the implementation really worked 😉.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="de" dir="ltr">Bob &amp; Joe at <a href="https://twitter.com/hashtag/codetalkshh?src=hash">#codetalkshh</a> &quot;shared code is evil&quot; ... es sei denn es ist Infrastruktur-Code cc/ <a href="https://twitter.com/jensfischerhh">@jensfischerhh</a> <a href="https://twitter.com/otrosien">@otrosien</a> <a href="https://t.co/uolOVUqcr5">pic.twitter.com/uolOVUqcr5</a></p>&mdash; harm (@netzfisch) <a href="https://twitter.com/netzfisch/status/781801508484616192">September 30, 2016</a></blockquote>
@@ -90,9 +90,9 @@ The presentation ended with lots of laughter when a real pizza delivery boy carr
 
 ## The aftermath
 
-Compared to last year's topics it seems like many teams already use [Docker](https://www.docker.com/) on a day-to-day base.
+Compared to last year's topics it seems like many teams already use [Docker](https://www.docker.com/){:target="_blank"} on a day-to-day base.
 Also the hype for microservices is still present, but this year more companies could tell from their experiences from actually moving to this kind of architecture.
-[Continuous Delivery Pipelines](https://devops.com/2014/07/29/continuous-delivery-pipeline/) and full process automation are becoming more and more popular.
+[Continuous Delivery Pipelines](https://devops.com/2014/07/29/continuous-delivery-pipeline/){:target="_blank"} and full process automation are becoming more and more popular.
 What was a lot more prominent than before is the general interest in Functional Programming using different platforms and programming languages.
 
 Once more code.talks where able to deliver on their slogan "biggest class reunion of the developer community". Congratulations to the organizers and see you next year!

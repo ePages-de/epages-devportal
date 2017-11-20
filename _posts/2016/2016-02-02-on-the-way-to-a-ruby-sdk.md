@@ -15,7 +15,7 @@ Main targets for this app:
 * create an app template for future projects
 * foresee common problems that can appear during the process to build other helpers or tools that can improve the quality and readability of the code and the experience of development.
 
-For this purpose, I decided to go for a [Ruby on Rails](http://rubyonrails.org/) application as it offers a fast development and a very understandable code.
+For this purpose, I decided to go for a [Ruby on Rails](http://rubyonrails.org/){:target="_blank"} application as it offers a fast development and a very understandable code.
 
 ## Communicating with the API
 
@@ -30,7 +30,7 @@ By the way, the responses that the SDK returns are more intuitive than the plain
 Another aspect to highlight is the syntax of the calls; very focused on the code's simplicity.
 
 So the little side project has grown and now it is the official Ruby SDK for the ePages API.
-The [GitHub repository is open-source](https://github.com/ePages-de/epages-rest-ruby) so anyone can use it to integrate ePages with any platform.
+The [GitHub repository is open-source](https://github.com/ePages-de/epages-rest-ruby){:target="_blank"} so anyone can use it to integrate ePages with any platform.
 
 In order to use it in a Rails application, only add it to the Gemfile.
 

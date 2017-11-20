@@ -41,7 +41,7 @@ Whatever this means.
 
 For reading this far you deserve a well kept secret about `npm`: It's **not** an abbreviation for the **n**ode **p**ackage **m**anager but a recursive bacronymic abbreviation for "npm is not an acronym".
 
-However rumor has it, the package manager sends "**n**aughty **p**ush **m**essages" once installed (see [npm-expansions](https://github.com/npm/npm-expansions)).
+However rumor has it, the package manager sends "**n**aughty **p**ush **m**essages" once installed (see [npm-expansions](https://github.com/npm/npm-expansions){:target="_blank"}).
 
 ## 2. We're pretty much up-to-date
 

@@ -57,9 +57,9 @@ Therefore, it needs IP addresses and FQDN's of both API servers and the load bal
 In addition, the DNS entries for the API Url (_kubernetes_ and _kubernetes.default_) will be inserted.
 
 In contrary to all other certificates the one for the API server is created only on one master node and will be copied to the second one later on.
-The reason for this is the creation and validation of the [API token](http://kubernetes.io/docs/user-guide/accessing-the-cluster/#accessing-the-api-from-a-pod) which is created with the key of the API server.
-A [bearer token](https://tools.ietf.org/html/rfc6750) which is required for authorization against the kubernetes API is provided for each application within a container by using a file.
-This token is created by the primary [kube controller manager](http://kubernetes.io/docs/admin/kube-controller-manager/) with the API server key.
+The reason for this is the creation and validation of the [API token](http://kubernetes.io/docs/user-guide/accessing-the-cluster/#accessing-the-api-from-a-pod){:target="_blank"} which is created with the key of the API server.
+A [bearer token](https://tools.ietf.org/html/rfc6750){:target="_blank"} which is required for authorization against the kubernetes API is provided for each application within a container by using a file.
+This token is created by the primary [kube controller manager](http://kubernetes.io/docs/admin/kube-controller-manager/){:target="_blank"} with the API server key.
 When an application sends a request to the API it is "load balanced" to one of the master nodes.
 But the master node can only accept the request if the tokens' key is correct.
 By copying the certificate as well as the keys both master nodes are now able to validate encrypted connections with the token.
@@ -141,7 +141,7 @@ root@master01:/etc/kubernetes/ssl$ scp apiserver.key apiserver.crt ca.crt root@m
 ### Pod
 
 Now the YAML file that describes the API server can be created on both master nodes.
-Here we use an image of [quay.io](https://quay.io/).
+Here we use an image of [quay.io](https://quay.io/){:target="_blank"}.
 
 {% highlight bash %}
 root@master:~$ cat > /etc/kubernetes/manifests/kube-apiserver << EOF
@@ -209,9 +209,9 @@ The first IP, 10.3.0.1, is the IP of the _kubernetes.default_ service.
 The second IP, 10.3.0.2, will be used for the cluster DNS service.
 It is part of the kubelet service definition already.
 The IP of the loadbalancer is used as _advertise-address_.
-The reason is an [error](https://github.com/kubernetes/kubernetes/issues/18174) in the [kube proxies](http://kubernetes.io/docs/admin/kube-proxy/) and kubelet.
+The reason is an [error](https://github.com/kubernetes/kubernetes/issues/18174){:target="_blank"} in the [kube proxies](http://kubernetes.io/docs/admin/kube-proxy/){:target="_blank"} and kubelet.
 Due to this error only the first entry of a list of API server Url's would be used.
-Using the loadbalancer's IP as _advertise-address_ causes _kube proxy_ to use static [IPtables](https://www.netfilter.org/) rules with this IP.
+Using the loadbalancer's IP as _advertise-address_ causes _kube proxy_ to use static [IPtables](https://www.netfilter.org/){:target="_blank"} rules with this IP.
 So the packages will be distributed by the loadbalancer.
 
 ## Kube controller manager
@@ -303,7 +303,7 @@ EOF
 
 ## Kube scheduler
 
-Finally, the [kube scheduler](http://kubernetes.io/docs/admin/kube-scheduler/) pod is defined.
+Finally, the [kube scheduler](http://kubernetes.io/docs/admin/kube-scheduler/){:target="_blank"} pod is defined.
 There are no specialities here.
 
 {% highlight bash %}
@@ -358,7 +358,7 @@ e6  v1.2.2_coreos.0   "/hyperkube controlle"   26 seconds ago       Up 25 second
 {% endhighlight %}
 
 But the log files still contain errors.
-The containers are registered in the [namespace](http://kubernetes.io/docs/user-guide/namespaces/) _kube-system_.
+The containers are registered in the [namespace](http://kubernetes.io/docs/user-guide/namespaces/){:target="_blank"} _kube-system_.
 The namespace does not exist by default, but has to be created on __only one__ of the master nodes.
 
 {% highlight bash %}

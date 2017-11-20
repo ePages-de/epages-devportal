@@ -17,7 +17,7 @@ Hi, my name is Verena and I work as a User Interface Designer at ePages since Ju
 I originally started as an intern in January 2012 in Jena, but then got offered to work as a full-time employee, which I happily accepted.
 
 When I started in Jena, I was involved in a project that was managed both in Jena and Hamburg.
-This project is known as [ePages Now](https://www.epages.com/sell-online/now/).
+This project is known as [ePages Now](https://www.epages.com/sell-online/now/){:target="_blank"}.
 In July 2015, the project was relocated to Hamburg, and I was asked to move along with it.
 After some reflection, I took the opportunity and I now have been living in Hamburg for already a year and four months.
 
@@ -38,12 +38,12 @@ I applied for an internship, got invited for an interview and finally got accept
 ### How did you experience the onboarding process and your first weeks at ePages?
 
 I remember on my very first day, I was shown around and introduced to all teams, such as Application Management, QA, etc.
-Afterwards, I set up my computer and checked out our company's intranet [Confluence](https://de.atlassian.com/software/confluence) to get familiar with the departments and remember all of my colleagues' names.
+Afterwards, I set up my computer and checked out our company's intranet [Confluence](https://de.atlassian.com/software/confluence){:target="_blank"} to get familiar with the departments and remember all of my colleagues' names.
 
 In the first month, I attended a partner training in Hamburg and thereby got to know our office in Hamburg as well as my Hanseatic colleagues - already a little sneak peak of what was about to become my future workplace and home so to speak.
 
 After the first week, I began to develop a style guide, which was a perfect way to get an overview of what kind of software we use and also to get in touch with my new colleagues.
-Thereafter, I started with some smaller [Jira](https://de.atlassian.com/software/jira) tickets and fixed some bugs.
+Thereafter, I started with some smaller [Jira](https://de.atlassian.com/software/jira){:target="_blank"} tickets and fixed some bugs.
 
 ### What are typical tasks of a UI Designer and which technologies do you use?
 
@@ -52,10 +52,10 @@ At the moment, for example, we are redesigning our existing software.
 Therefore, we create UI elements, or even complete new designs, and improve features.
 Sometimes, we also refactor code - so you see, my work greatly varies from conceptional and design-related work to code-related topics.
 
-I mostly work with [LESS](http://lesscss.org/), [HTML](https://www.w3.org/html/), [CSS](https://www.w3.org/Style/CSS/), [GitHub](https://github.com/), [Source Tree](https://www.sourcetreeapp.com/) and [Photoshop](http://www.adobe.com/de/products/photoshop.html) for creating themes, e.g. the home page or category pages.
-At the moment, I don't work a lot with JavaScript, yet I always need to know some basics of [React](https://facebook.github.io/react/), whenever I need to change a bit of code in our templates.
+I mostly work with [LESS](http://lesscss.org/){:target="_blank"}, [HTML](https://www.w3.org/html/){:target="_blank"}, [CSS](https://www.w3.org/Style/CSS/){:target="_blank"}, [GitHub](https://github.com/){:target="_blank"}, [Source Tree](https://www.sourcetreeapp.com/){:target="_blank"} and [Photoshop](http://www.adobe.com/de/products/photoshop.html){:target="_blank"} for creating themes, e.g. the home page or category pages.
+At the moment, I don't work a lot with JavaScript, yet I always need to know some basics of [React](https://facebook.github.io/react/){:target="_blank"}, whenever I need to change a bit of code in our templates.
 When it comes to responsive design, we don't use tools such as Bootstrap, but develop our own solution.
-We do use [Bootstrap](http://getbootstrap.com/) though for pages of our administration area, such as the new product detail page or the general settings page.
+We do use [Bootstrap](http://getbootstrap.com/){:target="_blank"} though for pages of our administration area, such as the new product detail page or the general settings page.
 
 ### Tell us about a typical work day.
 
@@ -100,7 +100,7 @@ I like working in a team.
 All of my colleagues are very friendly and helpful.
 If I have a question, I can always count on their support.
 
-Concerning the culture of ePages, I appreciate a lot our yearly get-together, the YOU, as well as the internal [hackathons](https://www.youtube.com/watch?v=2UdyQma76IA).
+Concerning the culture of ePages, I appreciate a lot our yearly get-together, the YOU, as well as the internal [hackathons](https://www.youtube.com/watch?v=2UdyQma76IA){:target="_blank"}.
 I then have the chance to see my colleagues from Jena and Barcelona.
 
 ## Related posts

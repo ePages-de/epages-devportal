@@ -13,7 +13,7 @@ authors: ["Rose"]
 </style>
 
 As every year in spring, last week we had our third hackathon at ePages.
-This year it has been all about trying out new stuff for our very latest backend architecture ePages BEYOND, adding value to [ePages Now](https://www.epages.com/en/now/) as well as automating internal processes.
+This year it has been all about trying out new stuff for our very latest backend architecture ePages BEYOND, adding value to [ePages Now](https://www.epages.com/en/now/){:target="_blank"} as well as automating internal processes.
 
 ## Getting prepared
 
@@ -42,14 +42,14 @@ No wonder, then, that the results the next day in the evening were brilliant:
 During the two days of the hackathon, the teams mainly focused on pushing forward our new architecture BEYOND, enhancing ePages Now as well as improving internal processes.
 The audience was quite impressed by the creative outcomes of every single team.
 
-To try out some new ideas for BEYOND, some teams dedicated the two days to simplify API interaction by using the query language [GraphQl](http://graphql.org/learn/).
-Another team coded with Amazon's voice service device [Alexa](https://developer.amazon.com/alexa) to enable merchants to interact with their shop administration.
+To try out some new ideas for BEYOND, some teams dedicated the two days to simplify API interaction by using the query language [GraphQl](http://graphql.org/learn/){:target="_blank"}.
+Another team coded with Amazon's voice service device [Alexa](https://developer.amazon.com/alexa){:target="_blank"} to enable merchants to interact with their shop administration.
 Yet another team created a dashboard app to visualize KPIs for the merchant.
 
 In order to enhance our latest shop software ePages Now, one of the teams developed an Amazon mass uploader to upload a bulk of products at once instead of merely one by one.
 
 And there were teams, that dedicated their time to improve internal processes.
-Amongst others, one team made the source of our [API documentation](/apps) and [Developer blog](/blog), [epages-docs](https://github.com/ePages-de/epages-docs), fast again, another automatized the [Linux](https://www.linux.com/) setup for new colleagues starting at ePages.
+Amongst others, one team made the source of our [API documentation](/apps) and [Developer blog](/blog), [epages-docs](https://github.com/ePages-de/epages-docs){:target="_blank"}, fast again, another automatized the [Linux](https://www.linux.com/){:target="_blank"} setup for new colleagues starting at ePages.
 
 In the end everyone could vote for their favorite project.
 The first three winners were the lucky ones and received Amazon vouchers.
@@ -64,4 +64,4 @@ But of course, in the end every single team contributed to the complete success 
 So it ended with a nice party with Italian food and drinks, all presented by our Italian colleagues.
 Thanks for all the positive energy, great projects, insightful chats, and simply being such great ePagees!
 
-If you'd like get more insights on our hackathon, check #ephack17 on [Twitter](https://twitter.com/search?q=%23ephack17&src=typd).
+If you'd like get more insights on our hackathon, check #ephack17 on [Twitter](https://twitter.com/search?q=%23ephack17&src=typd){:target="_blank"}.

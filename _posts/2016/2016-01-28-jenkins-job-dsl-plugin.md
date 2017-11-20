@@ -7,10 +7,10 @@ category: tech-stories
 authors: ["Ulf B."]
 ---
 
-In [Follow-up: Automating Jenkins](/blog/tech-stories/followup-automating-jenkins/), Dirk mentioned already the [Job DSL Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin) for creating and managing Jenkins jobs.
+In [Follow-up: Automating Jenkins](/blog/tech-stories/followup-automating-jenkins/), Dirk mentioned already the [Job DSL Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin){:target="_blank"} for creating and managing Jenkins jobs.
 In this post I will go into the details and show how to actually use it as well as point out the benefits of using it.
 
-The idea of the project is to describe Jenkins jobs with a [Groovy](http://www.groovy-lang.org)-based [Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language) (DSL) and then use the Jenkins plugin to create the jobs from this description.
+The idea of the project is to describe Jenkins jobs with a [Groovy](http://www.groovy-lang.org){:target="_blank"}-based [Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language){:target="_blank"} (DSL) and then use the Jenkins plugin to create the jobs from this description.
 
 Since a job description is just a Groovy script, it can be kept together with your project in source control.
 
@@ -39,7 +39,7 @@ You can use one file per job or define multiples jobs in the same file.
 Since Groovy is a full programming language, you can even program your job definition.
 You could iterate over a folder with different projects, and depending on the project type, create different jobs.
 
-For an overall overview of DSL commands and how to use them, have a look at the [Job DSL Wiki](https://github.com/jenkinsci/job-dsl-plugin/wiki) and the [Api Viewer](https://jenkinsci.github.io/job-dsl-plugin/).
+For an overall overview of DSL commands and how to use them, have a look at the [Job DSL Wiki](https://github.com/jenkinsci/job-dsl-plugin/wiki){:target="_blank"} and the [Api Viewer](https://jenkinsci.github.io/job-dsl-plugin/){:target="_blank"}.
 
 ### Creating jobs
 
@@ -98,7 +98,7 @@ You can see the changes and who did them.
 
 - If you setup a new Jenkins, you can easily re-create your jobs.
 
-- Job DSL is an active project and can be [found on GitHub](https://github.com/jenkinsci/job-dsl-plugin).
+- Job DSL is an active project and can be [found on GitHub](https://github.com/jenkinsci/job-dsl-plugin){:target="_blank"}.
 On average, there is one release per month.
 More than 100 developers contribute to the repository.
 
@@ -116,7 +116,7 @@ If someone else runs the seed job again, these changes are lost.
 There are a lot of interesting blog posts about the project which are describing more specialised use cases.
 I'd like to suggest a few of them:
 
-- On his blog, [Ralf Stuckert ](https://github.com/ralfstuckert) posted [a](http://hardmockcafe.blogspot.de/2015/03/job-dsl-part-i.html) [little](http://hardmockcafe.blogspot.de/2015/03/job-dsl-part-ii.html) [series](http://hardmockcafe.blogspot.de/2015/04/job-dsl-part-iii.html) about the Job DSL plugin
+- On his blog, [Ralf Stuckert ](https://github.com/ralfstuckert){:target="_blank"} posted [a](http://hardmockcafe.blogspot.de/2015/03/job-dsl-part-i.html){:target="_blank"} [little](http://hardmockcafe.blogspot.de/2015/03/job-dsl-part-ii.html){:target="_blank"} [series](http://hardmockcafe.blogspot.de/2015/04/job-dsl-part-iii.html){:target="_blank"} about the Job DSL plugin
 and explains how to use it to build a microservice project.
 
-- In [Using Jenkins Job DSL for Job Lifecycle Management](https://blog.codecentric.de/en/2015/10/using-jenkins-job-dsl-for-job-lifecycle-management/), [Marcel Birkner](https://twitter.com/marcelbirkner) gives you an idea how a huge seed job can look like and shows that the plugin can deal with larger projects as well.
+- In [Using Jenkins Job DSL for Job Lifecycle Management](https://blog.codecentric.de/en/2015/10/using-jenkins-job-dsl-for-job-lifecycle-management/){:target="_blank"}, [Marcel Birkner](https://twitter.com/marcelbirkner){:target="_blank"} gives you an idea how a huge seed job can look like and shows that the plugin can deal with larger projects as well.

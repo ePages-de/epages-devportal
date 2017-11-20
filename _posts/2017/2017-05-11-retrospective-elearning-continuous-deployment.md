@@ -10,7 +10,7 @@ authors: ["Jan"]
 New versions of our ePages software are currently released every three weeks.
 The update scripts are adjusted for the different providers and then installed with [Capistrano](/blog/tech-stories/implementing-capistrano-as-configuration-management-tool/) by our [Application Management team with zero downtime](/blog/tech-stories/online-schema-updates-with-mysql/).
 For our new product we'd like to take this a step further by including the deployment on the production system into the definition of done for a user story.
-As I was involved in the creation of the first draft of the process definition I took the e-learning course [Continuous Deployment](https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=continuousDeployment&devLanguage=Python) from Industrial Logic to educate myself further in this area.
+As I was involved in the creation of the first draft of the process definition I took the e-learning course [Continuous Deployment](https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=continuousDeployment&devLanguage=Python){:target="_blank"} from Industrial Logic to educate myself further in this area.
 My target was to derive some inspiration for our new process.
 
 ## Scope of the course
@@ -50,6 +50,6 @@ Longer and more frequent videos would have helped to describe complex matters.
 ## Conclusion
 
 The attendance of the e-learning course did not pay off yet.
-The initial stages of our deployment pipeline are already covered by [the Continuous Delivery book](https://martinfowler.com/books/continuousDelivery.html).
+The initial stages of our deployment pipeline are already covered by [the Continuous Delivery book](https://martinfowler.com/books/continuousDelivery.html){:target="_blank"}.
 However, I still recommend this learning approach and also this specific course.
 It improved my understanding of the subject and will also serve as a source for new improvement ideas for our continuous delivery pipeline.
