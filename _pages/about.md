@@ -5,19 +5,17 @@ title: About us
 header_image: about.jpg
 ---
 
-# Who we are
+# Hey!
 
-Hey!
+Thanks for visiting our Developer Portal.
+This is the place where you can find all the details and documentation to integrate with our software.
+On our developer blog, we regularly publish posts about latest events, our corporate culture, we give practical advice, write about learnings, or just share our thoughts related to our work and tech stack.
 
-You're just visiting the ePages Developer Blog.
-We are a great community of developers, scrum masters, UX experts, and Technical Communicators.
-We love e-commerce and our daily business is hacking away on our online shop software.
-We're regularly publishing posts here about our tech stack and ideas that drive us.
-Here’s where we also post about work culture, meetups, events and conferences, and much more.
+We simply love e-commerce!
 
-Enjoy!
-
-You can find us on the following channels:
+You can find us also on the following channels:
 
 * [Twitter @epagesdevs](https://twitter.com/epagesdevs?lang=en){:target="_blank"}
 * [YouTube "ePages Developers"](https://www.youtube.com/channel/UCI5hX9kgUGFnYpfxZYxlP0Q){:target="_blank"}
+
+Enjoy!
