@@ -10,6 +10,17 @@
   box-sizing: border-box
   border-bottom: $base-border
 
+  &-overlay
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1
+    display: block
+    height: 400px
+    width: 100%
+    background-color: rgba(0,0,0,.5)
+
   &-wrapper
     width: 90%
     max-width: 1200px
@@ -18,6 +29,7 @@
     align-items: center
     justify-content: center
     flex-direction: column
+    z-index: 999
 
   h1, h2, p
     color: $base-font-color-white
