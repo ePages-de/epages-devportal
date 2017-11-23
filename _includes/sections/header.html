@@ -1,7 +1,7 @@
 {% unless page.header_image.blank? %}
 
   <header class="header" style="background-image: url(/assets/img/pages/blog/headers/{% post_header page.header_image %}); background-position: center {{ page.header_position }}">
-    {% if page.layout == 'post' %}<div class="header-overlay"</div></div>{% endif %}
+    {% if page.header_overlay == true %}<div class="header-overlay"</div></div>{% endif %}
     <div class="header-wrapper">
 
       {% if page.upper_title %}
