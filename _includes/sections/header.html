@@ -15,7 +15,7 @@
 
       {% if page.layout == 'post' %}
         <p>
-          {% for author in page.authors | join: ', ' %}
+          {% for author in page.authors %}
             <a href="/blog/search/?query={{ author }}">
               {{ author }}
             </a>{% unless forloop.last %}, {% endunless %}
