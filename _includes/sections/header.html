@@ -14,7 +14,13 @@
       {% endif %}
 
       {% if page.layout == 'post' %}
-        <p><a href="/blog/search/?query={{ page.authors | join: ' ' }}">{{ page.authors | join: ', ' }}</a> — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a></p>
+        <p>
+          {% for author in page.authors %}
+            <a href="/blog/search/?query={{ author }}">
+              {{ author }}
+            </a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a>
+        </p>
       {% endif %}
 
     </div>
