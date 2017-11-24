@@ -17,7 +17,7 @@ XP Day(s) are a global conference series for developers and by developers with e
 The integral part is the strong focus on agile software development as well as the values, principles and techniques of [eXtreme Programming](https://en.wikipedia.org/wiki/Extreme_programming){:target="_blank"}.
 In this context, several product owners, scrum masters and innovation evangelists had the courage to participate and contribute, too.
 
-# The schedule
+## The schedule
 
 This time, the three-day-conference with around 170 participants was even accompanied by a [Devoxx4Kids](http://www.devoxx4kids-hamburg.de){:target="_blank"} event, so that theoretically the whole geek family could join.
 [Sunday](http://www.xpdays.de/2016/downloads/community-day/OpenSpaceSonntag.pdf){:target="_blank"} was assembled in an open space format with a session marketplace in the morning and after the lunch break.
@@ -27,7 +27,7 @@ In contrast, Monday and Tuesday provided a regular [conference schedule](http://
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Keynote-Feeling bei den XP Days <a href="https://twitter.com/hashtag/developer?src=hash">#developer</a> <a href="https://twitter.com/hashtag/agile?src=hash">#agile</a> <a href="https://twitter.com/hashtag/programming?src=hash">#programming</a> <a href="https://twitter.com/hashtag/conference?src=hash">#conference</a> <a href="https://twitter.com/hashtag/xdde16?src=hash">#xdde16</a> <a href="https://twitter.com/xd_de">@xd_de</a> <a href="https://t.co/wt0L6pnJyC">pic.twitter.com/wt0L6pnJyC</a></p>&mdash; Benjamin Nothdurft (@dataduke) <a href="https://twitter.com/dataduke/status/800710674884141056">November 21, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Our Docker talk and workshop
+## Our Docker talk and workshop
 
 After a short pitch in the opening talk, we could gather more than 30 interested conference visitors to join our session: "[Welcome to Dockerland: Best Practises for Kickstarters and Tools by Example](http://www.xpdays.de/2016/sessions/116-welcome-to-dockerland-best-practices-for-kickstarters-tools-by-example.html){:target="_blank"}".
 Here, we explained the various parts of the Docker platform and showed best practices for writing Dockerfiles.
@@ -39,7 +39,7 @@ At the end, we got some very positive feedback for our [pictographic slides](htt
 For a more practical approach, we invited all participants to join our hands-on workshop in the afternoon, which offered [5 different tutorials](http://training.docker.com/category/docker-mentor-week){:target="_blank"} for all skill levels.
 Here, we reused the materials of the [Docker Mentor Week](https://blog.docker.com/2016/10/docker-global-mentor-week-2016/){:target="_blank"} - a global event series that also took place in [Hamburg at Xing](https://www.meetup.com/Docker-Hamburg/events/234772983/){:target="_blank"} a week before, where we also tutored to help others to [#learndocker](https://twitter.com/search?vertical=default&q=%23learndocker){:target="_blank"}.
 
-# Other talks
+## Other talks
 
 **[10 golden rules for bad tests](http://www.xpdays.de/2016/sessions/102-die-10-goldenen-regeln-fuer-schlechte-tests.html){:target="_blank"}**
 
@@ -77,7 +77,7 @@ This means that you are not able to separate the logic from the integration part
 Here, the developer has to balance pros and cons whether mocking is not taking away any important implementation that should be tested.
 At the borders of your system mocking is indispensable, which means external services that are used have to be mocked.
 
-# Other workshops
+## Other workshops
 
 **[Impact Mapping](http://www.xpdays.de/2016/sessions/061-impact-mapping-workshop.html){:target="_blank"}**
 
@@ -95,7 +95,7 @@ On monday night, a two-hour coding contest took place.
 Small teams needed to write a [Mia game bot](https://github.com/jlink/maexchen){:target="_blank"}, which interacted with the table server.
 Within four rounds the bots needed to compete against each other. It was a lot of fun and in the end our team bot could achieve the highest overall performance.
 
-# One more thing
+## One more thing
 
 These days graphic recording of sessions is a major trend.
 Hence, there were not only 2 sessions for learning this skill yourself but also live sketching was done for of all sessions within the big hall by a professional artist – [Benjamin Felis](https://twitter.com/benjaminfelis){:target="_blank"}.
@@ -103,7 +103,7 @@ Hence, there were not only 2 sessions for learning this skill yourself but also 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="de" dir="ltr">Das graphic recording war eine tolle Idee! Sehr wertschätzend für die Moderatoren! Danke <a href="https://twitter.com/hashtag/xdde16?src=hash">#xdde16</a> <a href="https://t.co/WZOZzO5AFh">pic.twitter.com/WZOZzO5AFh</a></p>&mdash; Andy Fischer (@Fischermaen) <a href="https://twitter.com/Fischermaen/status/801088541094715393">November 22, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Our feedback
+## Our feedback
 
 This year, the keynote with Holger Stanislawski was really impressive and delivered an unconventional perception on managing highly valuable teams.
 To top it all off, [Nat Pryce](https://twitter.com/natpryce){:target="_blank"} – an academic researcher at the [Imperial College London](http://www.doc.ic.ac.uk/~np2/){:target="_blank"} and co-founder of the XP Day in London – outlined vividly the [historical journey of TDD](http://www.xpdays.de/2016/downloads/keynote-di/Wisdom_of_the_Ancients__2_.pdf){:target="_blank"} from Lehman's laws in the 1980s until the three fundamental aspects for software systems in TDD:
