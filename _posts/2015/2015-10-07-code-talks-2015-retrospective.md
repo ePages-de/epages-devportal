@@ -43,7 +43,6 @@ I really enjoyed the diversity of talks, which allowed me to switch focus based 
 Of course different talks had different levels of complexity and quality, but my general impression was that most speakers knew their topic pretty well and were also able to deliver their talk in an interesting fashion.
 And meeting old and new contacts from _our_ development community in a friendly and relaxing environment is always something to look for.
 
-
 ## Slides and presentations
 
 [About You](http://www.aboutyou.de/){:target="_blank"}, the organizers of the `code.talks`, are going to [publish material](http://developer.aboutyou.de/blog/2015/09/code-talks-2015-talks-und-slides-der-speaker/){:target="_blank"} from the talks as the speakers submit their slides and presentations.
