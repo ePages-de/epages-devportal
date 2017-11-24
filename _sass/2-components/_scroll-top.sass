@@ -1,17 +1,25 @@
 .arrow-up
   display: none
-  width: 60px
-  height: 60px
+  width: 40px
+  height: 40px
   background-image: url(/assets/img/icons/arrow-up.svg)
   background-size: cover
   background-repeat: no-repeat
+  background-color: $whitesmoke
   border: 1px solid #9b9b9b
   border-radius: 4px
   position: fixed
   bottom: 1rem
   right: 1rem
   cursor: pointer
+  -webkit-transform: translateZ(0)
+
+  +grid-media($grid-medium)
+    background-color: transparent
+    width: 60px
+    height: 60px
 
   &:hover
     background-color: rgba(150,150,150,.15)
     transition: $base-transition
+    -webkit-transition: $base-transition
