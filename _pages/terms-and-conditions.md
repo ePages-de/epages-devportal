@@ -24,7 +24,7 @@ institution.
 
 ### 1. Definitions
 
-Application Programming Interface (API)Application (app) - The API app is the connector between ePages and the developers’ service.
+App - The app is the connector between ePages and an external system. The app is allowed to exchange data between both systems.
 
 App Store – an online platform integrated into the ePages software that enables merchants to install apps to their ePages shops.
 
@@ -90,7 +90,7 @@ It is at the sole discretion of ePages to reactivate developer afterwards or to 
 In addition, ePages retains the right to react to changes in market conditions by modifying product bundles at any time without prior information.
 Any and all decisions regarding the composition of such product bundles remain at the discretion of ePages.
 
-(2) ePages reserves the right to remove apps of developers from the Apps Store at any time, especially if such offers offend against the law, contrary to morality or third party rights violated.
+(2) ePages reserves the right to remove apps of developers from the Apps Store at any time, especially if such offers offend against the law, contrary to morality or third party rights violated, or if partners change their business model, so that it does not fit the customer base any longer.
 However, ePages is not obligated for the removal of apps, unless this is justified by law.
 
 (3) ePages reserves the right to change details of the App Store at any time or to discontinue its operation completely or partially.
