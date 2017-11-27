@@ -4,7 +4,7 @@ title: "Working as a QA Engineer at ePages"
 date: 2016-04-12
 header_image: qa-dev.jpg
 category: on-the-job
-authors: ["Birgit, Serena", "Vlad"]
+authors: ["Birgit", "Serena", "Vlad"]
 ---
 
 In our latest posts, you already learned about what it’s like to work as a [Ruby Developer](/blog/on-the-job/working-as-a-ruby-developer-at-epages/) and a [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/) at ePages.

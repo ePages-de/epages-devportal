@@ -4,7 +4,7 @@ title: "Working as a UI Designer at ePages"
 date: 2016-12-15"
 header_image: ui-designer.jpg
 category: on-the-job
-authors: ["Rose, Serena", "Verena"]
+authors: ["Rose", "Serena", "Verena"]
 ---
 
 Do you want to learn more about what it's like to work as a UI Designer at ePages?
