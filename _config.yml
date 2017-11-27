@@ -43,6 +43,7 @@ exclude:
   - Dockerfile
   - Capfile
   - _pages/url-map
+  - resources
 
 feed:
   path: /blog/feed.xml
