@@ -4,7 +4,7 @@ title: "Working as a Java Developer at ePages"
 date: 2016-03-01
 header_image: coffee.jpg
 category: on-the-job
-authors: ["Birgit, Serena", "Jens"]
+authors: ["Birgit", "Serena", "Jens"]
 ---
 
 In one of our latest posts, you already learned about what it’s like to be a [Ruby Developer at ePages](/blog/on-the-job/working-as-a-ruby-developer-at-epages/).

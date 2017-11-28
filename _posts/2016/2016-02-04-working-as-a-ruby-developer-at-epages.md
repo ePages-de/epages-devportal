@@ -4,7 +4,7 @@ title: "Working as a Ruby Developer at ePages"
 date: 2016-02-04
 header_image: ruby-dev.jpg
 category: on-the-job
-authors: ["Birgit, Serena", "Domingo"]
+authors: ["Birgit", "Serena", "Domingo"]
 ---
 
 Do you want to learn more about what it’s like working as an ePages developer?
