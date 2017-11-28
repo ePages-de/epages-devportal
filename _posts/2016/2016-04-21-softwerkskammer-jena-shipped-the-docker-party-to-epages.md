@@ -4,7 +4,7 @@ title: "Guest post: Softwerkskammer Jena shipped the Docker Party to ePages!"
 date: 2016-04-21
 header_image: docker-party.jpg
 category: events
-authors: ["Softwerkskammer Jena (Oliver and Benjamin)"]
+authors: ["Softwerkskammer Jena", "Oliver", "Benjamin"]
 ---
 
 The newly founded [Softwerkskammer Jena](http://www.softwerkskammer.org/groups/jena){:target="_blank"} had its first [Developer Meetup](http://www.meetup.com/jenadevs){:target="_blank"} at the beginning of April.
