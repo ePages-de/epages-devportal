@@ -64,7 +64,9 @@ So in our example, the load balancer URL always references to the service node.
 
 ## Hardware assembly
 
-{% image_custom image="/assets/img/pages/blog/images/blog-kube-node-structure.jpg" width="100" caption="Overview of nodes with their IPs and roles" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-kube-node-structure.jpg" %}
+
+Overview of nodes with their IPs and roles
 
 For this simple HA setup, we use 9 computers in total, which are listed in the image above according to their role and affiliation.
 Each computer has just one network card.

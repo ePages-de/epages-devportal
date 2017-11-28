@@ -17,7 +17,7 @@ They need to understand that they are ONE team, fighting for the same goal: to r
 
 ## Development Team
 
-{% image_custom image="/assets/img/pages/blog/images/blog-scrum2-devteam.jpg" width="50" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum2-devteam.jpg" width="35" align="left" %}
 
 A typical Development Team consists of 7 members +/-2 with cross-functional abilities.
 They should organise themselves and decide on their own, how tickets will be implemented within a sprint.
@@ -35,7 +35,7 @@ Just as in Scrum they can tell themselves how much time they need to deliver som
 
 ## Product Owner
 
-{% image_custom image="/assets/img/pages/blog/images/blog-scrum2-productowner.jpg" width="25" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum2-productowner.jpg" width="20" align="right" %}
 
 The Product Owner is a very important role in Scrum.
 I’ve heard trainers say that a Scrum Team can rise or fall with their PO.
@@ -60,7 +60,7 @@ As you can see, the Product Owner is a very important and complex role in Scrum 
 
 ## Scrum Master
 
-{% image_custom image="/assets/img/pages/blog/images/blog-scrum2-scrummaster.jpg" width="25" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum2-scrummaster.jpg" width="20" align="left" %}
 
 The Scrum Master is normally the most unclear role for people who are new to Scrum.
 The concept is just not existing in other frameworks and therefore the value of this role is often underestimated.

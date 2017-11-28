@@ -65,18 +65,18 @@ How can we now ensure, that the pull request is only triggered once and not for 
 The solution is to build a hierarchy into the repository structure.
 As every repository has a descriptive [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/){:target="_blank"}, we need a kind of control repository.
 
-![](/assets/img/pages/blog/images/blog-pr-test-1.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-pr-test-1.png" %}
 
 This is important to avoid uncontrollable starts of the PR_Test.
 If a Pull request exists there, the other repositories don't have to activate their tests as the control repository will do it.
 
-![](/assets/img/pages/blog/images/blog-pr-test-2.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-pr-test-2.png" %}
 
 Other repositories have to check, if a branch with the given name exists in the control repository.
 If the branch was found, the control repository will start the test.
 If the branch doesn't exist, one of the other repositories has to trigger the PR_test.
 
-![](/assets/img/pages/blog/images/blog-pr-test-3.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-pr-test-3.png" %}
 
 One way or another, we will start to build a new job called 'PR_Test'.
 

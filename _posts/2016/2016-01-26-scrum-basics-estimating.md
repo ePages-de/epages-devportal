@@ -38,7 +38,7 @@ To being able have a more precise measurement, most often some of the Fibonacci 
 The idea behind using Fibonacci is that the bigger a ticket is, the harder it gets to estimate it precisely.
 Therefore, the steps between the numbers will increase.
 
-![](/assets/img/pages/blog/images/blog-scrum4-burndown-chart.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-scrum4-burndown-chart.jpg" %}
 
 During the sprint the story points of all closed tickets are counted.
 In the end you get a number that represents how much a team is capable of solving within a sprint.
@@ -50,7 +50,7 @@ They show the number of closed story points on a time scale representing the spr
 
 ## Planning Poker
 
-{% image_custom image="/assets/img/pages/blog/images/blog-scrum4-planning-poker.jpg" width="45" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum4-planning-poker.jpg" width="35" align="left" %}
 
 Planning Poker is probably the most used estimation technique in Scrum.
 For this technique every team member gets a set of Planning Poker cards, which show the Fibonacci row.
@@ -90,4 +90,3 @@ It is much faster than Planning Poker but can lead to wrong estimations on compl
 * [Scrum Basics: Scrum Meetings](/blog/methods-and-tools/scrum-basics-scrum-meetings/)
 * [Scrum Basics: Principles and Values](/blog/methods-and-tools/scrum-basics-principles-and-values/)
 * [Scrum Basics: Practicing it](/blog/methods-and-tools/scrum-basics-practicing-it/)
-

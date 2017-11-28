@@ -89,7 +89,7 @@ $ vagrant up
 
 If everything works fine three VirtualBox windows appear and your shell should look like this:
 
-![](/assets/img/pages/blog/images/blog-coreos-winsetup-01.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-coreos-winsetup-01.jpg" %}
 
 #### 4. Stop clusters
 
@@ -119,7 +119,7 @@ to this:
 $num_instances=10
 {% endhighlight %}
 
-![](/assets/img/pages/blog/images/blog-coreos-winsetup-02.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-coreos-winsetup-02.jpg" %}
 
 Now switch to your PowerShell 3.0 and execute the following commands:
 
@@ -130,7 +130,7 @@ $ vagrant up
 
 If everything works properly, you should see something like this:
 
-![](/assets/img/pages/blog/images/blog-coreos-winsetup-03.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-coreos-winsetup-03.jpg" %}
 
 #### 6. Remove clusters
 

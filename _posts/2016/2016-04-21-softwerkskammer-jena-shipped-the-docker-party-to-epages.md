@@ -36,14 +36,14 @@ The second part considered some best practises for writing your own Dockerfile, 
 This was a nice opportunity to also show some typical use cases at ePages, e.g. the Continuous Delivery Pipeline for integration testing, or that both, the ePages and the provider infrastructure are already based partly on [Kubernetes](http://kubernetes.io){:target="_blank"}.
 The talk finished with some typical base images as well as a discussion about official app environment images.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-presentation.jpg" width="100" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-docker-presentation.jpg" %}
 
 ## Containers, containers, con... er workshops!
 
 Upfront, all necessary material and code for the workshops was hosted on the jenadevs [GitHub](https://github.com/jenadevs){:target="_blank"} account, which even offers the [complete presentation](https://github.com/jenadevs/jenadevs-meetup-001-docker-party){:target="_blank"}.
 Good news: all material of [jenadevs](https://github.com/jenadevs){:target="_blank"} is free and will always be open-source!
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-workflow.jpg" width="30" align="right" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-docker-workflow.jpg" %}
 
 ### Beginners workshop
 
@@ -52,7 +52,7 @@ The participants were guided through the official Docker birthday [tutorial](htt
 As a first step, the Docker newbies built a simple web application, which served random kitten pictures using the [Flask](http://flask.pocoo.org){:target="_blank"} microframework.
 In the end, the beginners already created and customised a multi-container voting application with a Python user app, a Redis queue for buffering, a Java worker for processing, a PostgreSQL database for storage and a Javascript administration app - all running from a single `docker-compose.yml` file.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-beginners.jpg" width="40" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-beginners.jpg" width="30" align="left" %}
 
 ### Advanced workshop
 
@@ -60,7 +60,7 @@ This workshop focused on writing your own Dockerfiles, running the containers an
 Bastian Klein prepared an empty custom [Magento](https://magento.com){:target="_blank"} `Dockerfile` and `Circle.yml` with comments left only, where the implementation code was completely removed.
 The attendees then had to figure out how the Dockerfile commands needed to be configured, guided by the workshop maintainer.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-kubernetes.jpg" width="30" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-kubernetes.jpg" width="25" align="right" %}
 
 ### Special workshop
 
@@ -99,6 +99,6 @@ PS: The Docker shirts and stickers finally arrived yesterday after persistent ne
 You may catch yours at the next meetup!
 See you there.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-jenadevs-orga.jpg" width="50" align="left" caption="The orga team" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-jenadevs-orga.jpg" width="30" align="left" caption="The orga team" %}
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-stickers.jpg" width="50" align="right" caption="The Docker shirts and stickers" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-stickers.jpg" width="30" align="right" caption="The Docker shirts and stickers" %}

@@ -47,7 +47,7 @@ So, yeah, I pretty much like to bring fresh motivation, and I'm always intereste
 
 ### What does a typical work day look like?
 
-{% image_custom image="/assets/img/pages/blog/images/blog-hr-david.jpg" width="50" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-hr-david.jpg" width="40" align="right" %}
 
 I'm the early bird in the team.
 My work day starts around 7:00, so that I can work on my tasks without any disturbances.

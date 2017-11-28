@@ -120,4 +120,4 @@ It also featured the best explanation of `yield` so far:
 > `yield` is doing the same as a _Mortal Combat_ fatality. It's taking the promise and ripping out it's heart (value).
 
 Basically the talk was glueing together my knowledge (fragments) of async operations making me understand a lot of connections and things they all have in common (and share).
-Although Tomasz had to rush a bit during the end it's defintely to recommend especially to people coming to node.js since it also explains the (simplified) workings of the event loop and asynchronicity in general.
+Although Tomasz had to rush a bit during the end it's definitely to recommend especially to people coming to node.js since it also explains the (simplified) workings of the event loop and asynchronicity in general.
