@@ -22,13 +22,14 @@ In this post we will even further enhance our request tracing and finally be abl
 ## Color me interested
 
 With the help of [Sleuth](https://cloud.spring.io/spring-cloud-sleuth/){:target="_blank"} and [Zipkin](http://zipkin.io/){:target="_blank"} we are able to search for and correlate log events belonging to a particular **trace**.
-For that we need to know its unique trace id, that could be part of a REST API response header and noted down for later analysis in case of an error.
+For that we need to know its unique trace id, that could be part of a REST API response header and noted down for later log analysis in case of an error.
 Another approach is to first come up with a trace id and already provide it along with the initial REST API request to be carried throughout the whole request processing.
-You can think of painting your request with a signal color that is easy to spot between all the other dull requests.
+You can think of it as painting your request with a signal color, that is easy to spot between all the other dull requests.
 
-## Dynamic Lua scripting in nginx
+## Howling at the moon
 
-With the help of [Lua](https://github.com/openresty/lua-nginx-module#readme){:target="_blank"} we can enhance the [nginx](https://nginx.org/en/){:target="_blank"} that acts as our central [API gateway](http://microservices.io/patterns/apigateway.html){:target="_blank"}.
+With the help of the scripting language [Lua](https://www.lua.org/about.html){:target="_blank"} (Portuguese for "moon") we can enhance our [nginx](https://nginx.org/en/){:target="_blank"} that acts as a central [API gateway](http://microservices.io/patterns/apigateway.html){:target="_blank"}.
+We use [OpenResty](https://openresty.org/en/){:target="_blank"} as an alternative to vanilla nginx, as it comes along with a preconfigured Lua environment with many useful libraries.
 Put the following snippet somewhere inside a `server {}` block of your nginx configuration:
 
 {% highlight lua %}
@@ -53,12 +54,19 @@ set_by_lua_block $trace_id {
   return trace_id
 }
 
-# set upstream headers
-proxy_set_header X-B3-SpanId  $span_id;
-proxy_set_header X-B3-TraceId $trace_id;
+location / {
+  proxy_pass http://10.0.0.1:8080;
 
-# set response headers
-add_header       X-B3-TraceId $trace_id always;
+  # set upstream headers
+  proxy_set_header X-B3-TraceId      $trace_id;
+  proxy_set_header X-B3-SpanId       $span_id;
+  proxy_set_header X-Forwarded-Host  $host;
+  proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+  proxy_set_header X-Forwarded-Proto $scheme;
+
+  # add response header
+  add_header X-B3-TraceId $trace_id always;
+}
 {% endhighlight %}
 
 The `set_by_lua_block {}` directive allows us to directly inline Lua scripting code.
@@ -69,7 +77,26 @@ This solution looks for presence of a request header named `X-B3-TraceId` (note:
 If such a header is found and it matches our desired trace id format, we will use it for all proxied upstream requests and also add its value as `X-B3-TraceId` response header.
 Otherwise we let nginx create a fresh trace id randomly via its `ngx.var.request_id` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_request_id){:target="_blank"}.
 We also derive a 64-bit **span** id from the first 16 characters of the trace id, as required by the [B3 specification](https://github.com/openzipkin/b3-propagation#spanid-1){:target="_blank"}.
+`X-B3-SpanId` as well as a number of typical `X-Forwarded-*` headers are also sent to our upstream microservices.
 
+Now we can mark our HTTP request with a custom trace id, and it will be propagated upstream into our system of distributed microservices before being echoed back to us as a HTTP response header:
+
+{% highlight bash %}
+$ curl --include --header 'X-B3-TraceId: dead0000beef0000cafe0000babe0000' https://api-gateway/
+HTTP/1.1 200 OK
+Date: Wed, 29 Nov 2017 16:12:59 GMT
+Content-Type: application/json
+Content-Length: 123
+Connection: keep-alive
+Server: openresty
+X-B3-TraceId: dead0000beef0000cafe0000babe0000
+
+{
+   ...
+}
+{% endhighlight %}
+
+Searching for `dead0000beef0000cafe0000babe0000` in our log analysis systems will yield only those log events, that have been generated while processing our marked request.
 
 ## IDE Debugging
 **TODO**
