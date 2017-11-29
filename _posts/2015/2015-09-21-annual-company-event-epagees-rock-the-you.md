@@ -32,7 +32,7 @@ To make it short: that was a hell of a lot of fun!
 To keep it interesting, the team presentations had some restrictions: 12-minutes only for the presentation and then 12-minutes for a Q&A session.
 That was definitely a challenge and required time for a careful preparation.
 
-![](/assets/img/pages/blog/images/blog-you-prepare.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-you-prepare.jpg" %}
 
 ## Patience required
 
@@ -44,7 +44,7 @@ Staying patient was required.
 
 ## Kick-off at the beach
 
-![](/assets/img/pages/blog/images/blog-you-beachclub.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-you-beachclub.jpg" %}
 
 Finally the YOU started in a beach club above the city roofs of Hamburg.
 We enjoyed a beautiful view across the city, along with food and drinks, a relaxed atmosphere and lots of fun.
@@ -54,7 +54,7 @@ Incidentally, we also had the chance to observe a beautiful sunset!
 
 The next day we all convened at the Hamburg University to spend the first day watching funny and awesome team videos and listening to well-prepared team presentations.
 
-![](/assets/img/pages/blog/images/blog-you-presentation.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-you-presentation.jpg" %}
 
 Exciting: the team that was going to present was drawn right before the presentation, so every team had to be prepared at all times!
 
@@ -62,14 +62,14 @@ Exciting: the team that was going to present was drawn right before the presenta
 
 In the afternoon, the secret was finally revealed as to what our outdoor activity would be. We were taken to a small dock at a branch of the Alster to spend the afternoon competing in dragon boat races.
 
-![](/assets/img/pages/blog/images/blog-you-dragonboat.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-you-dragonboat.jpg" %}
 
 This outdoor activity was simply spectacular!
 There was so much enthusiasm and ambition amongst the colleagues learning the skills, performing the strokes in sync, being one effective entity to win the race - with a good battle cry, of course.
 
 ## Being rewarded
 
-![](/assets/img/pages/blog/images/blog-you-reward.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-you-reward.jpg" %}
 
 We finished the day chilling out at a restaurant with cocktails and burgers.
 The composition of the tables was chosen at random.
@@ -85,7 +85,7 @@ Next to this, we had a speaker presenting future company events as well as a lec
 
 The afternoon was packed with workshops.
 
-![](/assets/img/pages/blog/images/blog-you-workshop.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-you-workshop.jpg" %}
 
 The groups were again chosen at random and worked on the following topics:
 

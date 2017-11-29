@@ -10,7 +10,7 @@ authors: ["Christian K.", "Jens", "Benjamin"]
 On the 30th of June the third [jenadevs](http://www.meetup.com/jenadevs/events/230859746){:target="_blank"} meetup took place at the ePages office in Jena.
 A video conference with our office in Hamburg was also established to give more people the option to attend remotely.
 
-![](/assets/img/pages/blog/images/blog-elastic-meetup-1.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-elastic-meetup-1.jpg" %}
 
 Approximately 30 participants were interested in the topic and showed up at 6 pm.
 After a short general introduction the presentations started:
@@ -20,7 +20,7 @@ After a short general introduction the presentations started:
 [Pere Urbón-Bayes](http://www.purbon.com/){:target="_blank"} ([elastic](https://www.elastic.co){:target="_blank"}) walked through the new features of the Elastic 5 stack and explained for every component what's new and what changed.
 Further information on this topic: [elastic v5](https://www.elastic.co/de/v5){:target="_blank"}.
 
-![](/assets/img/pages/blog/images/blog-elastic-meetup-2.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-elastic-meetup-2.jpg" %}
 
 ### Visualisation and analysis of Open Data
 

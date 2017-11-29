@@ -8,9 +8,9 @@ authors: ["Thomas"]
 ---
 
 ## Introduction
-In recent years there has been a [steady trend towards cloud based deployments](http://www.softwareadvice.com/buyerview/deployment-preference-report-2014/){:target="_blank"} of applications and services.  
-This increases the distributed nature of the systems we develop, which in turn raises the complexity and effort
-required to develop and manage (i.e. provision resources, build, test, configure, deploy and monitor) them.  
+
+In recent years there has been a [steady trend towards cloud based deployments](http://www.softwareadvice.com/buyerview/deployment-preference-report-2014/){:target="_blank"} of applications and services.
+This increases the distributed nature of the systems we develop, which in turn raises the complexity and effort required to develop and manage (i.e. provision resources, build, test, configure, deploy and monitor) them.  
 This is especially true, as during this transition phase the environment is heterogeneous and different methods of building and deploying software are combined (e.g. RPM packages and Docker containers).
 
 At the same time, delivery cycles are expected to shorten because of the [opportunity cost of not releasing software](http://robertbaillie.blogspot.de/2014/10/the-opportunity-cost-of-delaying.html){:target="_blank"}
@@ -21,22 +21,26 @@ It also includes a short discussion on the relation of Ansible to other tools su
 scalability of the development process, [Docker](https://www.docker.com/){:target="_blank"} and [Jenkins](https://jenkins.io/){:target="_blank"}.
 
 ## Documentation vs. Automation
+
 The way we think about documentation [is changing](https://devops.com/documenting-devops-agile-automation-and-continuous-documentation/){:target="_blank"}.
 For the documentation of application software it is generally accepted that it should be generated from code, to leave as little possibility for deviation as possible.  
 In the case of "management code" this is more difficult, because the things being modelled are often heterogeneous and not as focussed in terms of their implementation as for example a REST-API or a library / module.  
 The concept of [using declarative formats for automation](https://12factor.net/#introduction){:target="_blank"} can fill this gap.
 
 ## Structure of Ansible projects
+
 As there are many sources of Ansible best practices to be found on the web, instead of writing another one, I would like to assume the viewpoint of someone reading Ansible code, rather than writing it.
 Note that I am using the term "Ansible project" without implying a certain structure in terms of source code repositories.  
 
 ### Playbooks
-[Playbooks](http://docs.ansible.com/ansible/playbooks.html){:target="_blank"} are the entry point when looking at an Ansible project.  
+
+[Playbooks](http://docs.ansible.com/ansible/playbooks.html){:target="_blank"} are the entry point when looking at an Ansible project.
 A common convention is to categorize playbooks into two kinds.
 
-#### Deployment Playbooks
-One type of playbooks would be named like `deploy-<project>.yml`.  
-These are meant to execute continuously, deploying changing versions of an application.  
+#### Deployment playbooks
+
+One type of playbooks would be named like `deploy-<project>.yml`.
+These are meant to execute continuously, deploying changing versions of an application.
 They would typically be executed during a CI/CD run, and a failure during that phase could be the cause for investigating the playbook in the first place.
 
 Let's look at an example playbook (`deploy-epages-now.yml`):
@@ -63,15 +67,16 @@ Let's look at an example playbook (`deploy-epages-now.yml`):
     - role: epages-now
       tags: [ epages-now ]
 {% endhighlight %}
-This playbook should be fairly self-explanatory, given you know what [ePages Now](https://www.epages.com/de/now/){:target="_blank"} is.    
-Looking at the pre-task, its intention seems to be to document a dependency, providing a bit more context for this playbook.  
-The roles that are being assigned are `docker` (which would correctly be assumed to install Docker on the host) and `epages-now`.  
+This playbook should be fairly self-explanatory, given you know what [ePages Now](https://www.epages.com/de/now/){:target="_blank"} is.
+Looking at the pre-task, its intention seems to be to document a dependency, providing a bit more context for this playbook.
+The roles that are being assigned are `docker` (which would correctly be assumed to install Docker on the host) and `epages-now`.
 The installation of Docker in a deployment playbook is questionable, and should probably be refactored once the way of doing the deployment has stabilized (see below).
 Concerning the hosts (`application-vms` in this case), the word implies a group of hosts. This could also be read as "the hosts that this playbook could run against", keeping in mind that depending on the environment, it might only be executed against a single host at a time.
-This is done using the `--limit` parameter of `ansible-playbook`, which is a very common case for CI/CD jobs.  
+This is done using the `--limit` parameter of `ansible-playbook`, which is a very common case for CI/CD jobs.
 Motivation for doing it like this is that the exact same playbooks can be used for different environments / inventories (see below).
 
 #### Setup Playbooks
+
 The other type of playbook would initially provision / prepare an environment to deploy an application into it.  
 These playbooks would typically be named `setup-<project>.yml`.
 While this type could traditionally be seen more on the IT department's side of an organization, it would also be used [to set up a development environment](https://github.com/ePages-de/mac-dev-setup){:target="_blank"} (i.e. developer laptop) for that application.  
@@ -79,6 +84,7 @@ The point of using the same technique for both of these things is that it become
 Using playbooks to install a development environment is a good way of incorporating new developers. Invariably occurring problems are an opportunity to familiarize with the environment and getting used to the workflow.
 
 ### Roles
+
 While playbooks are the entry point, one will soon be looking at [Roles](http://docs.ansible.com/ansible/playbooks_roles.html){:target="_blank"}, because a playbook typically contains sets of roles (that are applied to groups of hosts).  
 The motivation to do it like that is to [separate the What from the How](http://wiki.c2.com/?SeparateTheWhatFromTheHow){:target="_blank"}.  
 When learning about a role, the best place to start is `defaults/main.yml`.  
@@ -107,7 +113,7 @@ At the top there is a directory, which probably refers to the host.
 Since the role requires Docker (see playbook example), and there is a reference to docker-compose in the next property, one could (correctly) assume that the file being copied there could be a docker-compose definition file.
 However there is also a property `epages_now_use_systemd` which is apparently mutually exclusive with `epages_now_use_docker_compose`.  
 
-The purpose of having two different ways of starting the application could (and should) be questioned.  
+The purpose of having two different ways of starting the application could (and should) be questioned.
 In this case it suggests that the staging / production setup is still incubating and the deployment happens very similar to development mode.  
 But as Agile thinking suggests this should not prevent us from [automating the deployment as early as possible](http://www.theserverside.com/tip/Try-an-Agile-deployment-strategy){:target="_blank"}.
 
@@ -116,6 +122,7 @@ By looking at the defaults, anyone could get a good idea about the scope of the 
 As mentioned before, roles do not necessarily need to live in the same repository as playbooks, because Ansible supports [role dependencies](http://docs.ansible.com/ansible/playbooks_roles.html#role-dependencies){:target="_blank"}.
 
 ### Variables
+
 There is also a file `vars/main.yml` inside a role that can be used to document [variables](http://docs.ansible.com/ansible/playbooks_variables.html){:target="_blank"}, but generally any role should be considered "immutable", similar to a class in OO programming. Only when it is used in a playbook will it receive its arguments.  
 Assigning role variables in playbooks is a very straight forward way to document things, as it only requires to know about playbook and the scope of the involved roles.  
 Other places to put variables include `group_vars/<groupname>.yml` and `host_vars/<inventory-hostname>.yml`. The latter should be avoided, because we are trying to get rid of host-specific configuration to begin with.  
@@ -123,6 +130,7 @@ Group vars could be considered acceptable, but the goal should always be to enca
 Talking about hosts and groups this leads over to the next section, the inventory.
 
 ### Inventory
+
 The [inventory](http://docs.ansible.com/ansible/intro_inventory.html){:target="_blank"} contains hosts divided into groups, and can also contain variables per group or host (discouraged, see above). When a playbook is executed using the `ansible-playbook` it usually receives the particular inventory file it should be using.  
 There are several ways how different inventory files can be used, for example
 having a `localhost` inventory file, which has localhost mapped to all relevant groups, and eventually roles.
@@ -175,6 +183,7 @@ Of course this structure of playbooks and inventories assumes that we are dealin
 This will be discussed shortly, but first let's have a look at the purpose of Ansible in the CI/CD pipeline.
 
 ## Jenkins and Ansible
+
 About a year ago, Jenkins received a major update, promoting the [Pipeline plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin){:target="_blank"} into its core, and making the creation of  [declarative pipelines](https://jenkins.io/blog/2017/02/03/declarative-pipeline-ga/){:target="_blank"} the primary use case.  
 
 A continuous delivery pipeline is hard to maintain, because it models a complex workflow and must constantly be adapted to changes in any of the projects it integrates. This is why the traditional approach of chaining jobs in Jenkins was considered a maintenance nightmare, and [other approaches](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin){:target="_blank"} to configuring and maintaining jobs and sequences of jobs were developed. This lead to the decision to make "Pipeline as Code" a first class citizen.
@@ -188,6 +197,7 @@ This has a couple of advantages:
 - either implementation could be changed, without affecting the other (e.g. Jenkins could be replaced with [GoCD](https://www.gocd.io/){:target="_blank"} more easily)
 
 ## Docker and Ansible
+
 At first glance Docker and Ansible seem to be solving a similar problem in very different ways, making it questionable whether and how to use them in conjunction.  
 But their scope is actually quite different.
 
@@ -205,6 +215,7 @@ There is also a project that works on [building docker images from Ansible playb
 This approach has essentially the same motive as [this lengthy discussion](https://github.com/docker/docker/issues/735){:target="_blank"} which proposes adding an `INCLUDE` directive to Dockerfiles, to be able to avoid duplication and modularize them.
 
 ## Conclusion
+
 Agile principles suggest that changeability is a key quality of competitive software. It is well understood that code readability is a [requirement for staying productive](http://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is){:target="_blank"}. Even more so as we are gravitating towards [everything-as-code](https://github.com/lreimer/everything-as-code){:target="_blank"}.
 
 Using declarative formats for automation is [a way](http://wiki.c2.com/?LiberatingConstraint){:target="_blank"} to achieve this requirement, and the proposition of Ansible is to offer simplicity and general applicability.

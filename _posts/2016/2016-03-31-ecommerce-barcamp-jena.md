@@ -33,7 +33,7 @@ This immediate reaction allows a proper planning of the time slot and room alloc
 In order to give a better impression of the actual contents of the unconference, I'd like to outline some of the sessions.
 As a backend developer, I will focus on the technical talks and neglect the sessions about marketing or law.
 
-![](/assets/img/pages/blog/images/blog-ecommerce-barcamp-jena-2.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-ecommerce-barcamp-jena-2.jpg" %}
 
 The first session was held by Christoph Rüger from [Synesty](http://synesty.com){:target="_blank"}.
 He is part of a small team that has built a new cloud service that reads data from files (uploaded CSV, XML, Google Drive etc.).
@@ -73,7 +73,7 @@ Consistently, I could spot happy foodies everywhere!
 Another form of active relaxation between the session breaks could be accomplished by a short visit of the gaming corner.
 Several retro consoles awaited their live field-test in battle matches with Super Mario Kart and other classics.
 
-![](/assets/img/pages/blog/images/blog-ecommerce-barcamp-jena-3.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-ecommerce-barcamp-jena-3.jpg" %}
 
 ## Summary
 

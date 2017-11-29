@@ -65,13 +65,13 @@ My team dedicated one hour to write a Definition of Done (DoD).
 I offered the team an explanation of what a DoD is good for and gave them some hints as in what to pay attention to.
 Every team member had the chance to individually collect the elements they would include in their definition of done:
 
-![](/assets/img/pages/blog/images/blog-def-of-done.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-def-of-done.png" %}
 
 Later on, we did some magic out of our conversation skills and ...
 Eventually, the team agreed on the following flow and I visualized the new team agreement in our room, in our Confluence space and on our screen.
 See the mega cool result, which of course should be revised whenever needed.
 
-![](/assets/img/pages/blog/images/blog-def-of-done-chart.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-def-of-done-chart.png" %}
 
 If you want to get things Done-Done as a team, agree first on what Done takes.
 Apart from that, DONE is a pure matter of effort.

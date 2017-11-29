@@ -12,7 +12,8 @@ In this post, I want to share my key takeaways from three very intense conferenc
 
 ## 1. JavaScript is spreading out
 
-{% image_custom image="/assets/img/pages/blog/images/blog-tessel.png" width="100" caption="An LED sound level meter built within a few hours of JavaScript hacking." %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-tessel.png" %}
+*An LED sound level meter built within a few hours of JavaScript hacking.*
 
 With JavaScript rapidly becoming a language to program the **Internet of Things (IoT)**, quite a few talks at the conference covered topics like remote controlling [bluetooth][bluetooth-talk] and [medical devices][pacemaker-talk], or [Virtual Reality][vr-talk]. In one of the workshops around minicomputers and microcontrollers, my colleague Erik hacked an LED sound level meter using Node.js on the [Tessel 2][tessel-website].
 
@@ -20,13 +21,14 @@ Naturally, in the IoT context **security** gains more importance, and I attended
 
 ## 2. React still has huge momentum
 
-Just like the other conferences I attended in the last 12 months, _FullStack_ featured the canonical talk by a company that [moved from a monolithic [add your current technology here] application to a micro-service based system with a front-end powered by an isomorphic React & Redux app running on NodeJS][react-talk].
+Just like the other conferences I attended in the last 12 months, _FullStack_ featured the canonical talk by a company that [moved from a monolithic [add your current technology here] application to a micro-service based system with a front-end powered by an isomorphic React & Redux app running on NodeJS][react-talk]
 
 In total, there were around half a dozen talks around the [NodeJS][node]/[React][react]/[Redux][redux] stack that my team is using for building ePages' next generation frontend and website editor. One of the most interesting was by [Forbes Lindesay][forbes-twitter] from Facebook, who talked about [data fetching in React][react-data-fetching]. All in all there was plenty of opportunity to compare notes on that topic with other attendees from the very international audience.
 
 ## 3. This doesn't mean framework fragmentation is a thing of the past
 
-{% image_custom image="/assets/img/pages/blog/images/blog-varnish.png" width="100" caption="Can you spot the syntax error on the conference shirt?" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-varnish.png" %}
+*Can you spot the syntax error on the conference shirt?*
 
 Of course there's enough space for other frameworks in the JavaScript world. [Angular 2][ng-2] was a big topic at _FullStack_, and after giving it a try in an intense workshop, I was left with the impression that the parts I liked most about it, namely [RxJS][rx-js] and [TypeScript][ts], are by Microsoft. But it's good to see that Angular 2 adds server side rendering or **Universal JavaScript**, and [Ember][ember] is getting that as well, as pointed out in a keynote by Ember co-creator [Yehuda Katz][yehuda-twitter].
 
