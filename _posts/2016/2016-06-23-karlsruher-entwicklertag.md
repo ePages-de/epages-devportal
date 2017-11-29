@@ -4,7 +4,7 @@ title: "Karlsruher Entwicklertag 2016"
 date: 2016-06-23
 header_image: karlsruhe.jpg
 category: events
-authors: ["Benjamin and Birgit"]
+authors: ["Benjamin", "Birgit"]
 ---
 
 From the 15th to 17th of June, the [Karlsruher Entwicklertag](https://entwicklertag.de/karlsruhe/2016/){:target="_blank"} took place at the [IHK Karlsruhe](https://www.karlsruhe.ihk.de/){:target="_blank"}.

@@ -4,7 +4,7 @@ title: "Working as a Software Developer at ePages"
 date: 2016-06-01
 header_image: david.jpg
 category: on-the-job
-authors: ["Birgit, Serena", "David"]
+authors: ["Birgit", "Serena", "David"]
 ---
 
 In the last months, you learned about what it’s like to be a [Ruby Developer](/blog/on-the-job/working-as-a-ruby-developer-at-epages/), a [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/), or a [QA engineer](/blog/on-the-job/working-as-a-quality-assurance-engineer-at-epages/) at ePages in Hamburg.

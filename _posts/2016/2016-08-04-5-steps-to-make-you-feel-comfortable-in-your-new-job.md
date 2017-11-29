@@ -4,7 +4,7 @@ title: "5 steps to make you feel comfortable in your new job"
 date: 2016-08-04
 header_image: onboarding.jpg
 category: on-the-job
-authors: ["Birgit, Leana", "Serena"]
+authors: ["Birgit", "Leana", "Serena"]
 ---
 
 You've spent days and weeks perfecting your resume, preparing for interviews, and making a good impression at personal meetings.

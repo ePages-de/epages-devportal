@@ -4,7 +4,7 @@ title: "Why Mallorca is the perfect place for a productive team offsite"
 date: 2016-03-17
 header_image: offsite.jpg
 category: events
-authors: ["Alejandra, Benjamin and Heiko"]
+authors: ["Alejandra", "Benjamin", "Heiko"]
 ---
 
 Last week, the ePages release and test automation team was welcomed by the precious views, hearty people and refreshing atmosphere of Mallorca.

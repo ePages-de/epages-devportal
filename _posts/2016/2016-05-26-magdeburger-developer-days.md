@@ -4,7 +4,7 @@ title: "Magdeburger Developer Days"
 date: 2016-05-26
 header_image: magdeburg-dev.jpg
 category: events
-authors: ["Bastian and Benjamin"]
+authors: ["Bastian", "Benjamin"]
 ---
 
 On May, 18th 2016, the first [Developer Days](http://md-devdays.de/){:target="_blank"} took place in the exhibition halls of Magdeburg, Germany.

@@ -1,6 +1,7 @@
 {% unless page.header_image.blank? %}
 
   <header class="header" style="background-image: url(/assets/img/pages/blog/headers/{% post_header page.header_image %}); background-position: center {{ page.header_position }}">
+    {% if page.header_overlay == true %}<div class="header-overlay"</div></div>{% endif %}
     <div class="header-wrapper">
 
       {% if page.upper_title %}
@@ -14,7 +15,13 @@
       {% endif %}
 
       {% if page.layout == 'post' %}
-        <p><a href="/blog/search/?query={{ page.authors | join: ' ' }}">{{ page.authors | join: ', ' }}</a> — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a></p>
+        <p>
+          {% for author in page.authors %}
+            <a href="/blog/search/?query={{ author }}">
+              {{ author }}
+            </a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a>
+        </p>
       {% endif %}
 
     </div>

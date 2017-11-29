@@ -5,16 +5,15 @@
 
 $(document).ready(function() {
   // Show the popup when you click on the popup button
-  $('a[href="#signup"]').click(function(e){
+  $('a[href="#signup"]').click(function(e) {
     e.preventDefault();
-
-    $.magnificPopup.open({
-    items: {
-      src: "{{ signup_html | strip_newlines | replace: '"', "'" }}",
-      type: 'inline'
-    }
-    });
+    openPopup();
   });
+
+  // Show the popup when coming from /#register.html
+  if (window.location.hash === '#register.html') {
+    openPopup();
+  }
 
   $.magnificPopup.instance.close = function () {
     if (!$('.load-spinner').is(':visible')) {
@@ -40,12 +39,21 @@ $(document).ready(function() {
     $('.form__input').val("");
     $('input[type="checkbox"]').attr('checked', false);
     if (navigator.userAgent.toLowerCase().indexOf('chrome') >= 0) {
-      $('input:-webkit-autofill').each(function(){
+      $('input:-webkit-autofill').each(function() {
         var text = $(this).val();
         var name = $(this).attr('name');
         $(this).after(this.outerHTML).remove();
         $('input[name=" + name + "]').val(text);
       });
     }
+  }
+
+  function openPopup() {
+    $.magnificPopup.open({
+      items: {
+        src: "{{ signup_html | strip_newlines | replace: '"', "'" }}",
+        type: 'inline'
+      }
+    });
   }
 });

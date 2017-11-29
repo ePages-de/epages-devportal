@@ -4,7 +4,7 @@ title: "Elastic Meetup at ePages"
 date: 2016-07-08
 header_image: elastic-meetup.jpg
 category: events
-authors: ["Christian K., Jens", "Benjamin"]
+authors: ["Christian K.", "Jens", "Benjamin"]
 ---
 
 On the 30th of June the third [jenadevs](http://www.meetup.com/jenadevs/events/230859746){:target="_blank"} meetup took place at the ePages office in Jena.
