@@ -3,7 +3,7 @@ layout: post
 title: "Guest post: Smart localization formats in i18n"
 date: 2016-12-08
 header_image: smart.jpg
-category: tech-stories
+category: language-and-localization
 authors: ["Frederik"]
 ---
 From our work with hundreds of companies localizing software here at [PhraseApp](https://phraseapp.com/){:target="_blank"}, I want to share some insights in the usage of gettext and advanced translation message format features.
