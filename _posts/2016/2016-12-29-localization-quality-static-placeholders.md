@@ -3,10 +3,10 @@ layout: post
 title: "Guest post: Higher localization quality with static placeholders"
 date: 2016-12-29
 header_image: quality.jpg
-category: tech-stories
+category: language-and-localization
 authors: ["Frederik"]
 ---
-In the prior article on [smart localization formats](/blog/tech-stories/smart-localization-formats/), I tried to shed some light on some of the possible features of the commonly used localization format [gettext](https://www.gnu.org/software/gettext/){:target="_blank"} and to give a quick introduction to the [ICU Message Format](http://userguide.icu-project.org/formatparse/messages){:target="_blank"}.
+In the prior article on [smart localization formats](/blog/language-and-localization/smart-localization-formats/), I tried to shed some light on some of the possible features of the commonly used localization format [gettext](https://www.gnu.org/software/gettext/){:target="_blank"} and to give a quick introduction to the [ICU Message Format](http://userguide.icu-project.org/formatparse/messages){:target="_blank"}.
 
 This article aims at localization best-practices and achieving a higher localization quality through a technically functional and consistent localization.
 So, we transition from i18n (internationalization) to l10n (localization), the act of actually localizing the content for a specific audience.
@@ -44,11 +44,11 @@ Regardless if your localization format supports segment context information, onc
 For example, let's say you added a new checkout flow called `checkout-v2` to your application.
 When you added the keys to your locale file and upload them for the first time to PhraseApp, you can specify `checkout-v2` as a tag for the newly created keys. You can later remove this tag from tagged keys or add it to other keys.
 
-![](/assets/img/pages/blog/images/blog-higher-localization-1.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-higher-localization-1.jpg" %}
 
 From now on, you can access detailed stats on this tag such as completion, word-count in the PhraseApp Reports section if you're a user of our statistics and reports features:
 
-![](/assets/img/pages/blog/images/blog-higher-localization-2.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-higher-localization-2.jpg" %}
 
 Additionally, tags simplify translation order processes with our integrated providers as well as translation agencies you work with as you can scope exports and translation orders to tags.
 
@@ -63,7 +63,7 @@ Using [advanced localization feature](https://phraseapp.com/features){:target="_
 
 ## About the author
 
-{% image_custom image="/assets/img/pages/blog/images/blog-phraseapp-fvollert.jpg" width="15" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-phraseapp-fvollert.jpg" width="10" align="left" %}
 
 Fred is the founder of [PhraseApp.com](https://phraseapp.com/){:target="_blank"} and shares the team's notoriously bad music taste; he loves rap.
 Having spent some time in the U.S. as a high-school student and enjoying traveling he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.

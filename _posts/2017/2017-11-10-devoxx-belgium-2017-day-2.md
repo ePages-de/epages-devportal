@@ -88,6 +88,7 @@ To round up this day, which again had an amazing density of valuable information
 see [Blade Runner 2049](http://www.imdb.com/title/tt1856101/){:target="_blank"}, which quite a lot did.
 The movie made it a nice evening of a very long and exhausting day, which once again was really worth visiting the devoxx.
 
-## Related post
+## Related posts
 
-[devoxx Belgium 2017 - Day 1](/blog/events/devoxx-belgium-2017-day-1/)
+* [devoxx Belgium 2017 - Day 1](/blog/events/devoxx-belgium-2017-day-1/)
+* [devoxx Belgium 2017 - Day 3](/blog/events/devoxx-belgium-2017-day-3/)

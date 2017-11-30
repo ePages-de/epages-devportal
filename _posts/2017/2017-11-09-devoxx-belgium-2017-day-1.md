@@ -9,7 +9,7 @@ authors: ["Dirk"]
 
 Being at the devoxx for the first time, but having heard so much praise already, and seeing all those high-profile
 speakers on the schedule, I was really eager to get to Antwerp for this year's devoxx.
-And I'm also eager to share my personal impressions o 🙂
+And I'm also eager to share my personal impressions 🙂.
 
 One really cool thing about devoxx is that they stream all of the talks live at their
 [Youtube channel](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg){:target="_blank"}, and put the recordings online pretty soon
@@ -73,7 +73,7 @@ To keep it short: Not worth looking at.
 
 ## Modular Development with JDK 9
 
-Alex Buckley, specification lead for Java at Oracle, gave a really thorough overview on the new module system im Java 9.
+Alex Buckley, specification lead for Java at Oracle, gave a really thorough overview on the new module system in Java 9.
 Presenting the new concepts, the steps to migrate an existing application to Java 9 and what to watch out for, I would
 recommend this talk to anyone who hasn't looked deeper into the Java module system and wants to get a condensed
 introduction.
@@ -118,3 +118,8 @@ I visited to get all out of it.
 This was by far the most interesting, but also the most exhausting conference day I attended in the last few years.
 I' eagerly looking forward for day2.
 Stay tuned for the Thursday summary...
+
+## Related posts
+
+* [devoxx Belgium 2017 - Day 2](/blog/events/devoxx-belgium-2017-day-2/)
+* [devoxx Belgium 2017 - Day 3](/blog/events/devoxx-belgium-2017-day-3/)

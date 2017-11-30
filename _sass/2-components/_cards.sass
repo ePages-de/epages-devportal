@@ -59,7 +59,6 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
 
     .highlight:not(pre)
       margin: 4rem 0
-      // padding: 2rem $card-margin-mobile
       font-family: $code-font-family
       font-size: 1.6rem
       overflow: auto
@@ -377,3 +376,15 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
     h3
       line-height: 1
       font-size: 4.2rem
+
+  &--jobs
+
+    &:hover
+      box-shadow: $hover-box-shadow
+      transition: $base-transition
+
+    a
+      color: $base-font-color
+
+      &:hover
+        color: $base-font-color

@@ -13,7 +13,7 @@ Read more to find out why it is not the easiest thing to integrate third-parties
 
 ## The use case
 
-![](/assets/img/pages/blog/images/blog-third-party-overview.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-third-party-overview.png" %}
 
 Example: If a customer buys a product in an ePages online shop, they could choose e.g. PayPal as payment method and DHL as delivery method.
 The customer could also obtain an insurance with Trusted Shops.

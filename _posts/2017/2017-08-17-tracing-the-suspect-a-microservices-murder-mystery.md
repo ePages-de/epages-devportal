@@ -210,16 +210,15 @@ Sleuth-instrumented requests then produce log events like this:
 
 The Zipkin web application offers a nice visualization of all traces that have been sampled:
 
-![](/assets/img/pages/blog/images/blog-zipkin-overview.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-zipkin-overview.png" %}
 
 Drilling down into a specific trace offers detailed information about the timings of all affected spans:
 
-![](/assets/img/pages/blog/images/blog-zipkin-trace-1.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-zipkin-trace-1.png" %}
 
 A trace with a failed span is marked red and can be inspected for further details:
 
-![](/assets/img/pages/blog/images/blog-zipkin-trace-2.png)
-
+{% image_lightbox image="/assets/img/pages/blog/images/blog-zipkin-trace-2.png" %}
 
 ## Announcing our verdict
 

@@ -38,10 +38,10 @@ Having this in mind, made us come up with the following main categories for our 
 Planning our content ahead not only saves us lots of unnecessary stress when it comes to fresh content ideas, but also lets us see the big picture.
 Therefore, we developed an editorial calendar to determine who would cover which topic area for a respective publication date.
 Usually, we have a rough content plan for the next two months and try to publish at least four times per month.
-We soon created a rotating system to make sure that our different developement teams take turns in writing blog posts.
+We soon created a rotating system to make sure that our different development teams take turns in writing blog posts.
 Here is an example snapshot of our editorial calendar:
 
-![](/assets/img/pages/blog/images/blog-editorial-calendar.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-editorial-calendar.png" %}
 
 ## Define guidelines for tech blog contributors
 

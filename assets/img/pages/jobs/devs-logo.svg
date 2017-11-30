@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>devs-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="devs-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <circle id="Oval" fill="#2C2926" cx="50" cy="50" r="50"></circle>
+                <path d="M25.8474576,25.8474576 L74.1525424,74.1525424" id="green" stroke="#28B464" stroke-width="3" stroke-linecap="square" transform="translate(50.000000, 50.000000) scale(1, -1) translate(-50.000000, -50.000000) "></path>
+                <path d="M25.8474576,25.8474576 L74.1525424,74.1525424" id="red" stroke="#EB3C41" stroke-width="3" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

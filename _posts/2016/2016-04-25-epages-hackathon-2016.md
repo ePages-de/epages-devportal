@@ -14,7 +14,7 @@ But what exactly did we do?
 
 ## Ready, steady...
 
-{% image_custom image="/assets/img/pages/blog/images/blog-hack16-prep.jpg" width="40" align="left" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-hack16-prep.jpg" width="30" align="left" %}
 
 This year's hackathon focused on app development.
 Now that this was clear, we started to collect more detailed topics and built individual teams.
@@ -25,7 +25,7 @@ Finally, it was time for the colleagues from Jena and Barcelona to travel to ePa
 
 Prior to the event itself, some developers met in bars or clubs in Hamburg to outline their ideas, or prepare their GitHub repositories.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-hack16-agenda.jpg" width="40" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-hack16-agenda.jpg" width="30" align="right" %}
 
 ## ...go!
 
@@ -40,7 +40,7 @@ Thankfully, tons of crisps, cookies, pizza, and lemonade helped to focus on the 
 After much weaving of code and pushing of pixels while having a great time together the teams presented their projects.
 The audience was highly impressed by those well-prepared presentations and all those polished results.
 
-![](/assets/img/pages/blog/images/blog-hack16-result.jpg)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-hack16-result.jpg" %}
 
 We saw native Android apps developed in Java, cross-platform apps for Android and iOS done with Ionic Framework or React Native, as well as Web apps.
 Meanwhile, some teams focused on other projects, like a REST cache layer, or a complexity measuring tool, or preparing a...

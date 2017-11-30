@@ -16,7 +16,7 @@ But all of them have something in common:
 
 *The online shop has to contact the web services from the final payment or shipping company, and provide the required information to make the payment or shipping.*
 
-![](/assets/img/pages/blog/images/blog-next-gen-webservices-1.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-next-gen-webservices-1.png" %}
 
 From a development point of view, this approach can be OK if there are only a few payments and shippings to offer.
 But this is not the case for ePages.
@@ -32,7 +32,7 @@ That new model is being offered by a few startup companies, and the idea is as f
 
 *The online shop has to contact the web services from the payment or shipping provider company, which is responsible to offer a portfolio of payment gateways/logistics.*
 
-![](/assets/img/pages/blog/images/blog-next-gen-webservices-2.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-next-gen-webservices-2.png" %}
 
 Even though the basic idea for both, payment and shipping, is the same, they use different approaches to better fit merchant needs.
 
@@ -49,7 +49,7 @@ Step three is the real payment process and includes many steps.
 
 This is the flow of step 3:
 
-![](/assets/img/pages/blog/images/blog-next-gen-webservices-3.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-next-gen-webservices-3.png" %}
 
 As you can see, the Payment Card Industry (PCI) compliance is guaranteed by the payments provider, and no matter the final payment gateway used, payment flow remains the same.
 
@@ -68,11 +68,11 @@ But from the other side, three asynchronous shipping processes are required.
 
 This is the flow of step 2:
 
-![](/assets/img/pages/blog/images/blog-next-gen-webservices-4.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-next-gen-webservices-4.png" %}
 
 And the process for the merchants to make shipping requests to logistics from the shop's administration area, - step 4 - looks like this:
 
-![](/assets/img/pages/blog/images/blog-next-gen-webservices-5.png)
+{% image_lightbox image="/assets/img/pages/blog/images/blog-next-gen-webservices-5.png" %}
 
 ## Summary
 

@@ -38,7 +38,7 @@ Interim conclusion: most of the DDL commands in MySQL 5.6 meet the requirements.
 
 ## Quantity
 
-{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-2.jpg" width="100" caption="Test results with small database - UPDATE or SELECT operations" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-online-schema-2.jpg" %}
 
 As we're working with Scrum processes at ePages, we have a new software release every two weeks.
 The database changes accordingly.
