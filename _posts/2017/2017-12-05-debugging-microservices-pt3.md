@@ -5,7 +5,7 @@ date: 2017-12-05
 header_image: debugging-microservices.jpg
 header_overlay: true
 category: tech-stories
-tags: ["microservice", "debugging", "logging", "tracing", "nginx", "lua"]
+tags: ["microservice", "docker", "debugging", "logging", "tracing", "sleuth", "zipkin", "nginx", "lua"]
 authors: ["Jens"]
 ---
 
@@ -99,7 +99,59 @@ X-B3-TraceId: dead0000beef0000cafe0000babe0000
 Searching for `dead0000beef0000cafe0000babe0000` in our log analysis systems will yield only those log events, that have been generated while processing our marked request.
 
 ## IDE Debugging
-**TODO**
+
+Starting the Docker container in `DEBUG` mode:
+
+{% highlight bash %}
+$ docker run --interactive --tty --rm \
+  --publish 8080:8080 --publish 8000:8000 \
+  --env JAVA_TOOL_OPTIONS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000" \
+  epages/ng-tax:latest \
+  --spring.profiles.active=docker \
+  --spring.cloud.config.enabled=false
+
+Picked up JAVA_TOOL_OPTIONS: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000
+Listening for transport dt_socket at address: 8000
+2017-11-30 13:50:11.055  INFO [tax,,,] 1 --- [           main] com.epages.tax.TaxApplication            : No active profile set, falling back to default profiles: default
+2017-11-30 13:50:22.020  INFO [tax,,,] 1 --- [           main] com.epages.tax.TaxApplication            : Started TaxApplication in 13.083 seconds (JVM running for 14.0)
+{% endhighlight %}
+
+Sending the REST request:
+
+{% highlight bash %}
+$ curl --header 'X-B3-TraceId: dead0000beef0000cafe0000babe0000' http://192.168.99.100:8080/tax-configurations/DE/destinations/FR/tax-rates
+{
+  "_embedded" : {
+    "taxRates" : [ {
+      "taxClass" : "REGULAR",
+      "value" : 0.19
+    }, {
+      "taxClass" : "REDUCED",
+      "value" : 0.07
+    }, {
+      "taxClass" : "EXEMPT",
+      "value" : 0.0
+    } ]
+  }
+}
+
+2017-11-30 14:34:37.920 DEBUG [tax,dead0000beef0000cafe0000babe0000,cafe0000babe0000,true] 1 --- [        http-25] c.e.t.c.TaxConfigurationController       : fetching tax rates
+{% endhighlight %}
+
+
+### Debugging in IntelliJ IDEA
+
+{% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea-setup.png" width="50" caption="Setting up debugging" lightbox %}
+
+{% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea.gif"  width="100" caption="Debugging a breakpoint" lightbox  %}
+
+<!--
+$ ffmpeg -i Debugging2.mov -pix_fmt rgb8 -r 10 -f gif - | gifsicle --colors 256 --color-method blend-diversity --dither=floyd-steinberg --optimize=0 --delay=10 --no-loopcount > Debugging2.gif
+
+https://gist.github.com/dergachev/4627207
+https://gist.github.com/SlexAxton/4989674
+-->
+
 
 ## Related post
 
