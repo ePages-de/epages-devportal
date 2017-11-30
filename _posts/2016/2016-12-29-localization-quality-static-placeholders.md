@@ -6,7 +6,7 @@ header_image: quality.jpg
 category: language-and-localization
 authors: ["Frederik"]
 ---
-In the prior article on [smart localization formats](/blog/tech-stories/smart-localization-formats/), I tried to shed some light on some of the possible features of the commonly used localization format [gettext](https://www.gnu.org/software/gettext/){:target="_blank"} and to give a quick introduction to the [ICU Message Format](http://userguide.icu-project.org/formatparse/messages){:target="_blank"}.
+In the prior article on [smart localization formats](/blog/language-and-localization/smart-localization-formats/), I tried to shed some light on some of the possible features of the commonly used localization format [gettext](https://www.gnu.org/software/gettext/){:target="_blank"} and to give a quick introduction to the [ICU Message Format](http://userguide.icu-project.org/formatparse/messages){:target="_blank"}.
 
 This article aims at localization best-practices and achieving a higher localization quality through a technically functional and consistent localization.
 So, we transition from i18n (internationalization) to l10n (localization), the act of actually localizing the content for a specific audience.
