@@ -9,13 +9,6 @@ tags: ["microservice", "docker", "debugging", "logging", "tracing", "sleuth", "z
 authors: ["Jens"]
 ---
 
-<style>
-
-.twitter-tweet {
-  margin: auto;
-}
-</style>
-
 We covered [structured log events](/blog/tech-stories/where-is-the-bug-in-my-microservices-haystack/) and [distributed tracing](/blog/tech-stories/tracing-the-suspect-a-microservices-murder-mystery/) by the first two posts in our series about debugging microservices.
 In this post we will even further enhance our request tracing and finally be able to peek into a running microservice from our IDE.
 
@@ -55,6 +48,7 @@ set_by_lua_block $trace_id {
 }
 
 location / {
+  # point to your upstream server
   proxy_pass http://10.0.0.1:8080;
 
   # set upstream headers
@@ -70,16 +64,16 @@ location / {
 {% endhighlight %}
 
 The `set_by_lua_block {}` directive allows us to directly inline Lua scripting code.
-Due to Lua's [limited pattern matching support](http://lua-users.org/wiki/PatternsTutorial){:target="_blank"}, we can't use curly brackets as repetition quantifiers from [PCRE](https://www.pcre.org/current/doc/html/pcre2pattern.html#SEC17){:target="_blank"}.
+Due to Lua's [limited pattern matching support](http://lua-users.org/wiki/PatternsTutorial){:target="_blank"}, we can't use curly braces as repetition quantifiers known from [PCRE](https://www.pcre.org/current/doc/html/pcre2pattern.html#SEC17){:target="_blank"}.
 Instead the local function `hex32()` serves as a workaround to create a pattern to exactly match 32 hexadecimal characters like `^[0-9a-f]{32}$` - that is the 128-bit format our trace ids must follow.
 
 This solution looks for presence of a request header named `X-B3-TraceId` (note: HTTP headers are case-insensitive) by evaluating the `ngx.var.http_x_b3_traceid` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_http_){:target="_blank"}.
-If such a header is found and it matches our desired trace id format, we will use it for all proxied upstream requests and also add its value as `X-B3-TraceId` response header.
+If such a header is found and it matches our desired trace id format, we will use it for all proxied upstream requests.
 Otherwise we let nginx create a fresh trace id randomly via its `ngx.var.request_id` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_request_id){:target="_blank"}.
 We also derive a 64-bit **span** id from the first 16 characters of the trace id, as required by the [B3 specification](https://github.com/openzipkin/b3-propagation#spanid-1){:target="_blank"}.
-`X-B3-SpanId` as well as a number of typical `X-Forwarded-*` headers are also sent to our upstream microservices.
+`X-B3-SpanId` as well as a number of typical `X-Forwarded-*` headers are also sent to our upstream microservices, while we send back the `X-B3-TraceId` as response header.
 
-Now we can mark our HTTP request with a custom trace id, and it will be propagated upstream into our system of distributed microservices before being echoed back to us as a HTTP response header:
+Now we can mark our HTTP request with a custom trace id, and it will be propagated upstream into our system of distributed microservices before being echoed back to us as an HTTP response header:
 
 {% highlight bash %}
 $ curl --include --header 'X-B3-TraceId: dead0000beef0000cafe0000babe0000' https://api-gateway/
@@ -98,9 +92,21 @@ X-B3-TraceId: dead0000beef0000cafe0000babe0000
 
 Searching for `dead0000beef0000cafe0000babe0000` in our log analysis systems will yield only those log events, that have been generated while processing our marked request.
 
-## IDE Debugging
+## Logging is just a poor man's debugging
 
-Starting the Docker container in `DEBUG` mode:
+To quote Twitter, since Twitter is never wrong:
+
+{% twitter https://twitter.com/_shuLhan/status/932521300693696512 %}
+
+But it still happens that you did not foresee to include a proper log statement in your application code.
+Then one final option is to start a real debugger (as provided by your favourite IDE) and attach it to a running process to have better insights of what is actually going on in your code.
+
+At ePages we are running compiled Java code inside Docker containers in the cloud.
+The _Java Platform Debugger Architecture_ ([JPDA](https://docs.oracle.com/javase/7/docs/technotes/guides/jpda/index.html){:target="_blank"}) specifies a _Java Debug Wire Protocol_ ([JDWP](https://docs.oracle.com/javase/7/docs/technotes/guides/jpda/jdwp-spec.html){:target="_blank"}) for allowing debuggers to connect to a remotely running Java virtual machine via TCP/IP.
+We secured network access to our Docker containers' debug port, so that only authorised clients can use this.
+That enables us to use JDWP by providing a debug port to our Java processes using the `JAVA_TOOL_OPTIONS` environment variable with a value of `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000`.
+
+In a local Docker environment this can be achieved with this command:
 
 {% highlight bash %}
 $ docker run --interactive --tty --rm \
@@ -112,14 +118,16 @@ $ docker run --interactive --tty --rm \
 
 Picked up JAVA_TOOL_OPTIONS: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000
 Listening for transport dt_socket at address: 8000
-2017-11-30 13:50:11.055  INFO [tax,,,] 1 --- [           main] com.epages.tax.TaxApplication            : No active profile set, falling back to default profiles: default
-2017-11-30 13:50:22.020  INFO [tax,,,] 1 --- [           main] com.epages.tax.TaxApplication            : Started TaxApplication in 13.083 seconds (JVM running for 14.0)
+2017-11-30 13:50:11.055  INFO 1 --- [           main] com.epages.tax.TaxApplication            : The following profiles are active: docker
+2017-11-30 13:50:22.020  INFO 1 --- [           main] com.epages.tax.TaxApplication            : Started TaxApplication in 13.083 seconds (JVM running for 14.0)
 {% endhighlight %}
 
-Sending the REST request:
+In our example we started a microservice responsible for determining the tax rates for transactions between two countries.
+We can send a sample REST request to its local Docker IP and port:
 
 {% highlight bash %}
-$ curl --header 'X-B3-TraceId: dead0000beef0000cafe0000babe0000' http://192.168.99.100:8080/tax-configurations/DE/destinations/FR/tax-rates
+$ curl http://192.168.99.100:8080/tax-configurations/DE/destinations/FR/tax-rates
+
 {
   "_embedded" : {
     "taxRates" : [ {
@@ -135,23 +143,27 @@ $ curl --header 'X-B3-TraceId: dead0000beef0000cafe0000babe0000' http://192.168.
   }
 }
 
-2017-11-30 14:34:37.920 DEBUG [tax,dead0000beef0000cafe0000babe0000,cafe0000babe0000,true] 1 --- [        http-25] c.e.t.c.TaxConfigurationController       : fetching tax rates
+2017-11-30 14:34:37.920 DEBUG 1 --- [        http-25] c.e.t.c.TaxConfigurationController       : fetching tax rates
 {% endhighlight %}
 
+The emitted log message `fetching tax rates` does not give us enough details about how these tax rates have been determined, so we want to start a deeper crime scene investigation by stepping through the request processing with a debugger.
 
-### Debugging in IntelliJ IDEA
+## CSI: Microservices
+
+In order to attach a debugger to a running microservice, we need to setup our favourite IDE by providing the correct JDWP settings:
 
 {% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea-setup.png" width="50" caption="Setting up debugging" lightbox %}
 
+When the next request is being served by our microservice, our IDE will automatically interrupt the execution at a breakpoint we explicitly provided.
+Now we can step through single lines of code execution in order to inspect runtime variables and find out if our code is already prepared for an upcoming Brexit tax rate change:
+
 {% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea.gif"  width="100" caption="Debugging a breakpoint" lightbox  %}
 
-<!--
-$ ffmpeg -i Debugging2.mov -pix_fmt rgb8 -r 10 -f gif - | gifsicle --colors 256 --color-method blend-diversity --dither=floyd-steinberg --optimize=0 --delay=10 --no-loopcount > Debugging2.gif
+## The loot of our heist: pearls of wisdom
 
-https://gist.github.com/dergachev/4627207
-https://gist.github.com/SlexAxton/4989674
--->
+Now that we have all the tools and processes at hand to properly hunt for bugs in our system, let us come to realise this final conclusion:
 
+{% twitter https://twitter.com/CodeWisdom/status/897911593878511617 %}
 
 ## Related post
 
