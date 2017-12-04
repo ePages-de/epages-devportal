@@ -9,8 +9,8 @@ tags: ["microservice", "docker", "debugging", "logging", "tracing", "sleuth", "z
 authors: ["Jens"]
 ---
 
-We covered [structured log events](/blog/tech-stories/where-is-the-bug-in-my-microservices-haystack/) and [distributed tracing](/blog/tech-stories/tracing-the-suspect-a-microservices-murder-mystery/) by the first two posts in our series about debugging microservices.
-In this post we will even further enhance our request tracing and finally be able to peek into a running microservice from our IDE.
+[Structured log events](/blog/tech-stories/where-is-the-bug-in-my-microservices-haystack/) and [distributed tracing](/blog/tech-stories/tracing-the-suspect-a-microservices-murder-mystery/) were covered in the first two posts of our series about debugging microservices.
+In this post we will even further enhance our request tracing, and finally be able to peek into a running microservice from our IDE.
 
 ## Color me interested
 
@@ -65,9 +65,9 @@ location / {
 
 The `set_by_lua_block {}` directive allows us to directly inline Lua scripting code.
 Due to Lua's [limited pattern matching support](http://lua-users.org/wiki/PatternsTutorial){:target="_blank"}, we can't use curly braces as repetition quantifiers known from [PCRE](https://www.pcre.org/current/doc/html/pcre2pattern.html#SEC17){:target="_blank"}.
-Instead the local function `hex32()` serves as a workaround to create a pattern to exactly match 32 hexadecimal characters like `^[0-9a-f]{32}$` - that is the 128-bit format our trace ids must follow.
+Instead, the local function `hex32()` serves as a workaround to create a pattern to exactly match 32 hexadecimal characters like `^[0-9a-f]{32}$` - that is the 128-bit format our trace ids must follow.
 
-This solution looks for presence of a request header named `X-B3-TraceId` (note: HTTP headers are case-insensitive) by evaluating the `ngx.var.http_x_b3_traceid` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_http_){:target="_blank"}.
+This solution checks if a request header named `X-B3-TraceId` exists by evaluating the `ngx.var.http_x_b3_traceid` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_http_){:target="_blank"} (note: HTTP headers are case-insensitive).
 If such a header is found and it matches our desired trace id format, we will use it for all proxied upstream requests.
 Otherwise we let nginx create a fresh trace id randomly via its `ngx.var.request_id` [nginx variable](http://nginx.org/en/docs/http/ngx_http_core_module.html#var_request_id){:target="_blank"}.
 We also derive a 64-bit **span** id from the first 16 characters of the trace id, as required by the [B3 specification](https://github.com/openzipkin/b3-propagation#spanid-1){:target="_blank"}.
@@ -106,7 +106,7 @@ The _Java Platform Debugger Architecture_ ([JPDA](https://docs.oracle.com/javase
 We secured network access to our Docker containers' debug port, so that only authorised clients can use this.
 That enables us to use JDWP by providing a debug port to our Java processes using the `JAVA_TOOL_OPTIONS` environment variable with a value of `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000`.
 
-In a local Docker environment this can be achieved with this command:
+In a local Docker environment, you can use this command:
 
 {% highlight bash %}
 $ docker run --interactive --tty --rm \
@@ -150,12 +150,12 @@ The emitted log message `fetching tax rates` does not give us enough details abo
 
 ## CSI: Microservices
 
-In order to attach a debugger to a running microservice, we need to setup our favourite IDE by providing the correct JDWP settings:
+In order to attach a debugger to a running microservice, we need to setup our favorite IDE by providing the correct JDWP settings:
 
 {% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea-setup.png" width="50" caption="Setting up debugging" lightbox %}
 
-When the next request is being served by our microservice, our IDE will automatically interrupt the execution at a breakpoint we explicitly provided.
-Now we can step through single lines of code execution in order to inspect runtime variables and find out if our code is already prepared for an upcoming Brexit tax rate change:
+When the next request is being served by our microservice, our IDE will automatically interrupt the execution at a breakpoint that we have explicitly provided.
+Now we can step through single lines of code execution in order to inspect runtime variables and find out if our code is already prepared for an upcoming Brexit tax rate change ;)
 
 {% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea.gif"  width="100" caption="Debugging a breakpoint" lightbox  %}
 
@@ -165,7 +165,7 @@ Now that we have all the tools and processes at hand to properly hunt for bugs i
 
 {% twitter https://twitter.com/CodeWisdom/status/897911593878511617 %}
 
-## Related post
+## Related posts
 
 * [Where's the bug in my microservices haystack](/blog/tech-stories/where-is-the-bug-in-my-microservices-haystack/)
 * [Tracing the suspect - a microservices murder mystery](/blog/tech-stories/tracing-the-suspect-a-microservices-murder-mystery/)
