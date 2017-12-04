@@ -6,12 +6,13 @@
 
   <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
 
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}{% endif %}">
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i">
 
   {% if page.layout == 'devjobs' %}
-
-    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
   {% endif %}
 
   <link rel="stylesheet" href="/assets/css/main.css" />
