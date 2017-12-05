@@ -6,19 +6,20 @@
 
   <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
 
+  {% capture url_base %}{{ page.url | split: '/' | second }}{% endcapture %}
+  {% if site.data.seo.[url_base].description %}<meta name="description" content="{{ site.data.seo.[url_base].description }}">{% endif %}
+  {% if site.data.seo.[url_base].keywords %}<meta name="keywords" content="{{ site.data.seo.[url_base].keywords | join: ', ' }}">{% endif %}
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i">
 
   {% if page.layout == 'devjobs' %}
-
     <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-
   {% endif %}
 
   <link rel="stylesheet" href="/assets/css/main.css" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,6 +31,5 @@
     {% if page.layout == 'devjobs' %}ga('create', 'UA-71308214-3', 'auto');{% endif %}
     ga('send', 'pageview');
   </script>
-  <!-- End Google Analytics -->
 
 </head>
