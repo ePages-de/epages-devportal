@@ -6,8 +6,9 @@
 
   <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
 
-  <meta name="description" content="{% if site.data.seo.[page.seo].description %}{{ site.data.seo.[page.seo].description }}{% endif %}">
-  <meta name="keywords" content="{% if site.data.seo.[page.seo].keywords %}{{ site.data.seo.[page.seo].keywords | join: ', ' }}{% endif %}">
+  {% assign url_base = page.url | replace:'/',' ' | truncatewords: 1,"" %}
+  <meta name="description" content="{% if site.data.seo.[url_base].description %}{{ site.data.seo.[url_base].description }}{% endif %}">
+  <meta name="keywords" content="{% if site.data.seo.[url_base].keywords %}{{ site.data.seo.[url_base].keywords | join: ', ' }}{% endif %}">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i">
 
