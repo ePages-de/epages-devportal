@@ -1,292 +1,176 @@
 .devjobs
 
   section
-    padding: 8rem 0
-
-  a:not(.cta)
-    color: $dev-blue
-
-    &:hover
-      text-decoration: underline
-
-  .section-title
-    margin-bottom: 2rem
-
-  h2.section-title
-    padding: 0 2rem
-
-  h3.section-title
-    font-family: $display-font-family-light
-
-  .section-body,
-  .section-list
-    margin-bottom: 1rem
-
-  .section-list li
-    margin-bottom: 1.5rem
-
-  .cta
-    display: inline-block
     text-align: center
-    background-color: $dev-green
-    padding: 1rem 2rem
-    color: $white
-    margin-top: 2rem
-
-    &--block
-      display: block
-
-    &:hover
-      background-color: darken($dev-green, 10%)
-      transition: $base-transition
-
-  .card--devjobs
-    text-align: left
-    padding: 2rem
-    flex-basis: calc(100% - 4rem)
+    margin: 8rem 0
 
     +grid-media($grid-medium)
-      flex-basis: calc(100% / 2 - 4rem)
+      margin: 12rem 0
 
-    +grid-media($grid-large)
-      flex-basis: calc(100% / 3 - 4rem)
-
-    &__container
-      margin: 4rem 0
-      display: flex
-      flex-wrap: wrap
-
-    &__title a
-      color: $dev-red
+    .section__title
       margin-bottom: 1rem
-      font-family: $display-font-family-light
-
-    &__footer
-      margin-top: 1rem
-      color: $gray-light
-
-  .panels
-    display: flex
-    flex-direction: column
-    margin-top: 4rem
-
-    +grid-media($grid-small)
-      flex-direction: row
-      flex-wrap: wrap
-
-    .panel
-      padding: 2rem
-      flex-basis: calc(100% - 4rem)
-      display: flex
-      flex-direction: column
-      justify-content: center
-
-      &:nth-child(even)
-        background: lighten($gray-dark, 5%)
-
-      +grid-media($grid-small)
-        flex-basis: calc(100% / 2 - 4rem)
-
-        &:nth-child(2),
-        &:nth-child(3),
-        &:nth-child(6),
-        &:nth-child(7),
-        &:nth-child(10),
-        &:nth-child(11)
-          background: lighten($gray-dark, 5%)
-
-        &:nth-child(1),
-        &:nth-child(4),
-        &:nth-child(5),
-        &:nth-child(8),
-        &:nth-child(9),
-        &:nth-child(12)
-          background: $gray-dark
-
-      +grid-media($grid-medium)
-        flex-basis: calc(100% / 4 - 4rem)
-
-        &:nth-child(2),
-        &:nth-child(4),
-        &:nth-child(5),
-        &:nth-child(7),
-        &:nth-child(10),
-        &:nth-child(12)
-          background: lighten($gray-dark, 5%)
-
-        &:nth-child(1),
-        &:nth-child(3),
-        &:nth-child(6),
-        &:nth-child(8),
-        &:nth-child(9),
-        &:nth-child(11)
-          background: $gray-dark
-
-      .fa
-        margin-bottom: 1rem
-        font-size: 2.5rem
-
-      &__body
 
   .job-openings
-    text-align: center
 
-  .introduction
-    text-align: center
-
-    .row
-      text-align: center
+    .card-wrapper
       display: flex
       flex-wrap: wrap
-      flex-direction: column
+      margin: 2rem -1rem
 
-      +grid-media($grid-medium)
-        flex-direction: row
+      .card--jobs
+        position: relative
         text-align: left
-
-      .column
-        flex-basis: calc(100% - 4rem)
-        padding: 2rem
+        box-sizing: border-box
+        flex-direction: column
+        flex-basis: 100%
+        margin: 1rem
 
         +grid-media($grid-medium)
-          flex-basis: calc(100% / 3 - 4rem)
+          flex-direction: row
+          flex-basis: calc(100% / 2 - 2rem)
 
-  .story
-    text-align: center
-    position: relative
+        +grid-media($grid-huge)
+          flex-direction: row
+          flex-basis: calc(100% / 3 - 2rem)
 
-    +grid-media($grid-medium)
-      width: 60%
-      margin: 0 auto
+        a
+          padding: 2rem 2rem 6rem
 
-      &::before
-        content: '{'
-        font-family: $display-font-family-light
-        position: absolute
-        left: -8rem
-        top: 5rem
-        font-size: 30rem
-        line-height: 1
-        color: lighten($gray-dark, 10%)
+        &__title
+          color: $beyond-green
 
-      &::after
-        content: '}'
-        font-family: $display-font-family-light
-        position: absolute
-        right: -8rem
-        top: 5rem
-        font-size: 30rem
-        line-height: 1
-        color: lighten($gray-dark, 10%)
+        &__body
+          margin-top: 1rem
 
+          &::after
+            content: '❯'
+            color: $beyond-green
+            margin-left: .7rem
+            position: relative
+            top: .1rem
 
-  .offer
-    text-align: center
-
-  .devblog
-    text-align: center
-
-    .devs-logo
-      height: 8rem
-      margin-bottom: 2rem
+        &__footer
+          color: $gray-light
+          position: absolute
+          bottom: 2rem
 
   .contact
-    text-align: center
 
-    +grid-media($grid-medium)
-      background-image: url(/assets/img/pages/jobs/harm-behrens.png)
-      background-position: bottom right
-      background-repeat: no-repeat
-      background-size: 15rem
-
-    &__container
-      margin-top: 4rem
+    &-wrapper
+      margin: 4rem auto 0
+      text-align: left
+      border: $base-border
+      border-radius: $base-border-radius
+      box-shadow: $base-box-shadow
+      background-color: $white
       display: flex
-      flex-direction: column
       flex-wrap: wrap
+      box-sizing: border-box
 
-      +grid-media($grid-small)
-        flex-direction: row
+      &--inner
+        height: 350px
+        flex-basis: 100%
+        position: relative
+        display: flex
         justify-content: center
+        align-items: center
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2)
+
+        a
+          color: $base-font-color
+
+          &:hover
+            color: $beyond-green
+            transition: $base-transition
+
+      &--left
+        background-color: $white
+
+      &--right
+        background-color: $beyond-beige
+
+    &__group-1
+      display: inline-block
+      width: 220px
+
+      +grid-media($grid-medium)
+        width: initial
+        height: 190px
+
+    &__group-2
+      display: inline-block
+      width: 220px
+
+      +grid-media($grid-medium)
+        width: 290px
+        height: 190px
 
     &__option
-      padding: 2rem
       display: flex
-      width: 300px
 
       .fa
-        font-size: 2.5rem
         margin-right: 2rem
-        color: $dev-red
+        font-size: 2.5rem
+        width: 3rem
+        text-align: center
 
-      a
-        color: $white
-        text-decoration: underline
+        &-comment
+          margin-right: 2.7rem
 
-  .meet
-    text-align: center
+      &:not(:last-child)
+        margin-bottom: 2rem
 
-    .card--float
-      width: 100%
+      .info__text
+        font-size: 1.6rem
 
-    +grid-media($grid-medium)
+    .image-harm
+      display: none
+      position: absolute
+      height: 16rem
+      bottom: 0
+      right: 1rem
 
-      .card--devjobs__container
-        position: relative
-
-      .card--devjobs__container::before
-        content: ''
-        position: absolute
+      +grid-media($grid-huge)
         display: block
-        width: 1px
-        background: $white
-        height: 100%
-        margin: auto
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
 
-      .card--devjobs
-        flex-basis: calc(50% - 4rem)
+  .about
 
-      .card--float
-        width: 50%
-        position: relative
+    .developer-logo
+      height: 10rem
+      margin-bottom: 2rem
+
+    .column-wrapper
+      border: $base-border
+      border-radius: $base-border-radius
+      box-shadow: $base-box-shadow
+      background-color: $white
+      text-align: left
+      display: flex
+      flex-wrap: wrap
+      margin: 4rem -1rem 0
+      padding: 2rem
+
+      .column
+        flex-basis: 100%
+        padding: 2rem
         box-sizing: border-box
-        padding: 4rem
 
-      .card--float:nth-child(even)
-        float: right
-        margin-top: 80px
+        +grid-media($grid-large)
+          flex-basis: calc(100% / 3)
 
-        .card--devjobs
-          text-align: left
+        &__title
+          margin-bottom: 1rem
 
-        &::after
-          content: ''
-          position: absolute
+        .fa
+          font-size: 6rem
+          margin-bottom: 3rem
+          color: lighten($gray-light, 20%)
           display: block
-          width: 4rem
-          background: $white
-          height: 1px
-          margin: auto
-          top: 7.2rem
-          left: 0
 
-      .card--float:nth-child(odd)
-        float: left
+      .column-2
+        margin: 3rem 0
 
-        .card--devjobs
-          text-align: right
-
-        &::after
-          content: ''
-          position: absolute
-          display: block
-          width: 4rem
-          background: $white
-          height: 1px
-          margin: auto
-          top: 7.2rem
-          right: 0
+        +grid-media($grid-large)
+          margin: 0

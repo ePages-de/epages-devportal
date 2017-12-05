@@ -2,166 +2,90 @@
 layout: devjobs
 permalink: /devjobs/
 title: DevJobs
-main_title: Our <span>{</span> code <span>}</span> speaks e-commerce
-sub_title: Join one of the leading developer teams for online shop software
+main_title: We're hiring
 header_image: devjobs.jpg
 ---
 
 <section class="job-openings">
-  <h2 class="section-title">Exciting. Challenging. Grow with us.</h2>
-  <p class="section-body">Do you love coding? Are you keen for a new challenge? We are offering various job opportunities especially for experienced web developers.</p>
-  <div class="card--devjobs__container">
+  <h2 class="section__title">Exciting. Challenging. Grow with us.</h2>
+  <p class="section__body">Do you love coding? Are you keen for a new challenge? We are offering various job opportunities especially for experienced web developers.</p>
+  <div class="card-wrapper">
     {% assign jobs = site.data.jobs %}
     {% for job in jobs %}
-      <div class="card--devjobs">
-        <h3 class="card--devjobs__title"><a target="_blank" href="{{ job.link }}">{{ job.title }}</a></h3>
-        <p class="card--devjobs__body">{{ job.description }}</p>
-        <p class="card--devjobs__footer">{{ job.location }}</p>
+      <div class="card  card--jobs">
+        <a target="_blank" href="{{ job.link }}">
+          <h3 class="card__title  card--jobs__title">{{ job.title }}</h3>
+          <p class="card__body  card--jobs__body">{{ job.description | truncate: 160, '' }}</p>
+          <p class="card__footer  card--jobs__footer">{{ job.location }}</p>
+        </a>
       </div>
     {% endfor %}
   </div>
-  <p class="section-body">More web developer jobs at ePages.</p>
-  <a href="https://epages.com/career" class="cta">All job openings</a>
-</section>
-
-<section class="introduction">
-  <h2 class="section-title">Join the Force! We are developing the next generation commerce platform</h2>
-  <div class="row">
-    <div class="column  column-1">
-      <h3 class="section-title">Shape the ePages software<br> with us</h3>
-      <p class="section-body">With our online shop software a merchant receives a complete package to hit the ground running in commerce. We are constantly working on our solution to keep it up-to-date with new market developments, for example integrating new features.</p>
-    </div>
-    <div class="column  column-2">
-      <h3 class="section-title">Our focus: User experience and connectivity</h3>
-      <ul class="section-list">
-        <li>A <strong>user-friendly storefront</strong> to optimise the shopping experience for the end user.</li>
-        <li><strong>Easy-to-use editor</strong> and backend making it convenient for the merchant in daily business.</li>
-        <li>The <strong>RESTful API</strong> allows third parties to integrate their service with ease.</li>
-      </ul>
-    </div>
-    <div class="column  column-3">
-      <h3 class="section-title">Make the step:<br> Join the ePages team</h3>
-      <p class="section-body">We are looking for more dedicated developers to join our team. Bring your ideas and let's shape the next generation commerce platform together.</p>
-    </div>
-  </div>
-</section>
-
-<section class="story">
-  <h2 class="section-title">Our story</h2>
-  <p class="section-body">We develop high performing online shop software. Established for years, we are one of the market leaders worldwide.</p>
-  <p class="section-body">More than 140,000 businesses use our online shop solution already.</p>
-  <p class="section-body">We love ecommerce and we always have an eye on the latest trends on the market.</p>
-</section>
-
-<section class="offer">
-  <h2 class="section-title">What we offer</h2>
-  <p class="section-body">Working at ePages means being part of a growing international team, full of ecommerce experts who are passionate for web development. In the backend we are working modular with Java, JPA, MySQL, MongoDB, and Solr which is decoupled from the Node.js frontend by a REST API. We also work with GitHub, Vagrant, Jenkins, Selenium, Docker, and Jira. We place great emphasis on test-driven-development and continuous integration.</p>
-  <p class="section-body">Great perspectives for developing your career: Be involved in exciting projects and benefit of the full load of advantages ePages is offering to you.</p>
-
-  <div class="panels">
-    <div class="panel">
-      <i class="fa fa-black-tie" aria-hidden="true"></i>
-      <p class="panel__body">An interesting job in a fast growing industry</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-sitemap" aria-hidden="true"></i>
-      <p class="panel__body">Flat hierarchies and quick decision-making</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-handshake-o" aria-hidden="true"></i>
-      <p class="panel__body">An excellent working atmosphere</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-globe" aria-hidden="true"></i>
-      <p class="panel__body">A growing international team</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-github" aria-hidden="true"></i>
-      <p class="panel__body">Work with popular tools</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-laptop" aria-hidden="true"></i>
-      <p class="panel__body">Choose your laptop: Mac, Linux, Windows</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-users" aria-hidden="true"></i>
-      <p class="panel__body">Scrum teams</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-      <p class="panel__body">Option for individual training</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-gamepad" aria-hidden="true"></i>
-      <p class="panel__body">Regular organised team events</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-cutlery" aria-hidden="true"></i>
-      <p class="panel__body">Further advantages such as lunch allowance and language courses</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
-      <p class="panel__body">Flexible working hours</p>
-    </div>
-    <div class="panel">
-      <i class="fa fa-subway" aria-hidden="true"></i>
-      <p class="panel__body">Centrally located offices with excellent public transportation</p>
-    </div>
-  </div>
-</section>
-
-<section class="devblog">
-  <img class="devs-logo" src="/assets/img/pages/jobs/devs-logo.png" alt="Devs Logo">
-  <h2 class="section-title">Explore the ePages DevBlog</h2>
-  <p class="section-body">The ePages developer teams are blogging regularly about technical issues. They also share their experiences from conferences and hackathons as well as writing about different team events. In the dev blog you will also find info about career fairs and coding events which ePages regularly attends.</p>
-  <a href="/blog/" class="cta">ePages devblog</a>
+  <a href="https://epages.com/career" class="cta  cta--beyond">More developer jobs</a>
 </section>
 
 <section class="contact">
-  <h2 class="section-tit">Get in touch with us!</h2>
-  <p class="section-body">Find out more about your career opportunities at ePages.</p>
-  <div class="contact__container">
-
-    <div class="contact__option">
-      <i class="fa fa-envelope" aria-hidden="true"></i>
-      <a href="mailto:hr@epages.com">hr@epages.com</a>
+  <h2 class="section__title">Get in touch with us!</h2>
+  <p class="section__body">Find out more about your career opportunities at ePages.</p>
+  <div class="contact-wrapper">
+    <div class="contact-wrapper--inner  contact-wrapper--left">
+      <div class="contact__group-1">
+        <div class="contact__option">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <a href="mailto:hr@epages.com">hr@epages.com</a>
+        </div>
+        <div class="contact__option">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>+49-40-350 188-0</span>
+        </div>
+        <div class="contact__option">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <a href="https://twitter.com/epagesdevs" target="_blank">@epagesdevs</a>
+        </div>
+        <div class="contact__option">
+          <i class="fa fa-rss" aria-hidden="true"></i>
+          <a href="/blog/" target="_blank">ePages DevBlog</a>
+        </div>
+      </div>
     </div>
-    <div class="contact__option">
-      <i class="fa fa-phone" aria-hidden="true"></i>
-      <span>+49-40-350 188-0</span>
+    <div class="contact-wrapper--inner  contact-wrapper--right">
+      <div class="contact__group-2">
+        <div class="contact__option">
+          <i class="fa fa-black-tie" aria-hidden="true"></i>
+          <span>Harm Behrens | CTO</span>
+        </div>
+        <div class="contact__option">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <a href="https://twitter.com/netzfisch" target="_blank">@netzfisch</a>
+        </div>
+        <div class="contact__option">
+          <i class="fa fa-comment fa-flip-horizontal" aria-hidden="true"></i>
+          <span class="info__text">Harm shares the “bike2work” passion of many ePagees. He’s an e-commerce-addict, internet enthusiast and Ruby evangelist.</span>
+        </div>
+      </div>
+      <img src="/assets/img/pages/jobs/harm-behrens.png" alt="Harm Behrens | CTO" class="image-harm">
     </div>
-    <div class="contact__option">
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-      <a href="https://twitter.com/epagesdevs" target="_blank">@epagesdevs</a>
-    </div>
-    <div class="contact__option">
-      <i class="fa fa-comment" aria-hidden="true"></i>
-      <a href="/blog/" target="_blank">ePages DevBlog</a>
-    </div>
-    <div class="contact__option">
-      <i class="fa fa-black-tie" aria-hidden="true"></i>
-      <span>Harm Behrens | CTO</span>
-    </div>
-    <div class="contact__option">
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-      <a href="https://twitter.com/netzfisch" target="_blank">@netzfisch</a>
-    </div>
-
   </div>
 </section>
 
-<section class="meet">
-  <h2 class="section-title">Let's meet</h2>
-  <div class="card--devjobs__container">
-    {% assign events = site.data.events %}
-    {% for event in events %}
-    <div class="card--float">
-      <div class="card--devjobs">
-        <h3 class="card--devjobs__title"><a target="_blank" href="{{ event.link }}">{{ event.title }}</a></h3>
-        <p class="card--devjobs__body">{{ event.description }}</p>
-        <p class="card--devjobs__footer">{{ event.location }}</p>
-      </div>
+<section class="about">
+  <img src="/assets/img/pages/jobs/devs-logo.svg" alt="ePages Developer Logo" class="developer-logo">
+  <h2 class="section__title">Join the Force!</h2>
+  <div class="column-wrapper">
+    <div class="column  column-1">
+      <i class="fa fa-code" aria-hidden="true"></i>
+      <h4 class="column__title">Shape the ePages software with us</h4>
+      <p class="column__body">With our online shop software, a merchant receives a complete package to hit the ground running in commerce. We are constantly working on our solution to keep it up-to-date with new market developments, for example by integrating new features.</p>
     </div>
-    {% endfor %}
+    <div class="column  column-2">
+      <i class="fa fa-cogs" aria-hidden="true"></i>
+      <h4 class="column__title">What working at ePages means</h4>
+      <p class="column__body">Being part of an international team of ecommerce experts who are passionate about web development. Our backend is based on a Java, MongoDB, SpringBoot, and Docker tech stack decoupled from a ReactJs frontend via a REST API. We also work with cloud tools such as GitHub, CircleCI, or Google Cloud Engine.</p>
+    </div>
+    <div class="column  column-3">
+      <i class="fa fa-handshake-o" aria-hidden="true"></i>
+      <h4 class="column__title">Make the step: Join the ePages team</h4>
+      <p class="column__body">We are looking for dedicated developers to join our team. Bring your ideas and be involved in exciting projects. Benefit from the <a href="https://www.epages.com/career/why-epages/">full load of advantages</a> ePages is offering you.</p>
+    </div>
   </div>
 </section>
