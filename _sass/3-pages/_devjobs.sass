@@ -59,10 +59,6 @@
     &-wrapper
       margin: 4rem auto 0
       text-align: left
-      border: $base-border
-      border-radius: $base-border-radius
-      box-shadow: $base-box-shadow
-      background-color: $white
       display: flex
       flex-wrap: wrap
       box-sizing: border-box
@@ -87,9 +83,13 @@
 
       &--left
         background-color: $white
+        border-top-left-radius: $base-border-radius
+        border-bottom-left-radius: $base-border-radius
 
       &--right
         background-color: $beyond-beige
+        border-top-right-radius: $base-border-radius
+        border-bottom-right-radius: $base-border-radius
 
     &__group-1
       display: inline-block
@@ -142,10 +142,6 @@
       margin-bottom: 2rem
 
     .column-wrapper
-      border: $base-border
-      border-radius: $base-border-radius
-      box-shadow: $base-box-shadow
-      background-color: $white
       text-align: left
       display: flex
       flex-wrap: wrap
