@@ -38,7 +38,7 @@ To minimize such worst case downtime, incremential backup can be loaded in realt
 
 Now, in case of emergency on side A, application can be switched to side B in matter of minutes.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-galera-replicationICE.png" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-galera-replicationice.png" %}
 
 This guarantees a good availability, but it requires manual work for the switch, which will also be a one way road only.
 Once switch has been made, a lengthy reinitialization process is required, for making the switch possible to the opposite direction.
