@@ -14,7 +14,7 @@ So now as you know what Galera Cluster is, you might want to install one.
 First you need to have three servers with CentOS/RH 7 Linux operating system, and later two more for application and loadbalancer respectively.
 
 "Five servers! Doesnt sound that easy!" I hear you say. But it is how galera will be ran for real applications, so it is no use to learn it other way.
-There is also a possibility to run Galera on Docker, but we wont be discussing it here. For more information visit [Galera with Docker](http://galeracluster.com/2015/05/getting-started-galera-with-docker-part-1/)
+There is also a possibility to run Galera on Docker, but we wont be discussing it here. For more information visit [Galera with Docker](http://galeracluster.com/2015/05/getting-started-galera-with-docker-part-1{:target="_blank"}
 
 Once you have vms installed and running, we will be referring them as vm-galera01, vm-galera02, vm-galera03, vm-lb and vm-app, regardless how you really named them. Just adapt the upcoming install instructions and config files with your real server names accordingly.
 
@@ -61,7 +61,7 @@ Remember to repeat the process on all of your Galera servers.
 ## MySQL configuration
 Then we need to configure mysql to form a Galera cluster with three nodes.
 
-In this example, we will create three configuration files in directory /etc/my.cnf.d/, one for general Galera-, one for Galera node- and one for general Mysql-configuration. 
+In this example, we will create three configuration files in directory /etc/my.cnf.d/, one for general Galera-, one for Galera node- and one for general Mysql-configuration.
 
 It begins with mysql config file, which we will use only to include other config files in directory /etc/my.cnf.d:
 ```
@@ -310,4 +310,3 @@ After your status looks like the following, you have successfully installed a Ga
 #| wsrep_ready          | ON      |
 #+----------------------+---------+
 ```
-
