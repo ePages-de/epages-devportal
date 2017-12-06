@@ -34,7 +34,7 @@ pipeline {
       }
     }
     stage('Deploy') {
-      when { branch 'develop' }
+      when { branch 'master' }
       steps {
         sh '''
           source ~/.bash_profile
