@@ -5,23 +5,23 @@
     <div class="header-wrapper">
 
       {% if page.upper_title %}
-        <p>{{ page.upper_title }}</p>
+        <div class="header__upper-title">{{ page.upper_title }}</div>
       {% endif %}
 
-      <h1>{% if page.main_title %}{{ page.main_title }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h1 class="header__main-title">{% if page.main_title %}{{ page.main_title }}{% else %}{{ page.title }}{% endif %}</h1>
 
       {% if page.sub_title %}
-        <p>{{ page.sub_title }}</p>
+        <div class="header__sub-title">{{ page.sub_title }}</div>
       {% endif %}
 
       {% if page.layout == 'post' %}
-        <p>
+        <div class="header__post-info">
           {% for author in page.authors %}
-            <a href="/blog/search/?query={{ author }}">
+            <a href="/blog/search/?query={{ author }}" class="header__author">
               {{ author }}
             </a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}">{{ page.category | category_name }}</a>
-        </p>
+          {% endfor %} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}" class="header__category">{{ page.category | category_name }}</a>
+        </div>
       {% endif %}
 
     </div>

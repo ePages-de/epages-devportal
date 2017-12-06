@@ -31,7 +31,10 @@
     flex-direction: column
     z-index: 999
 
-  h1, h2, p
+  &__main-title,
+  &__upper-title,
+  &__sub-title,
+  &__post-info
     color: $base-font-color-white
     text-shadow: $base-text-shadow
     text-align: center
@@ -45,11 +48,11 @@
         color: darken($whitesmoke, 15%)
         transition: $base-transition
 
-  p:first-child
+  &__upper-title
     font-size: 2.2rem
     margin-bottom: 2rem
 
-  h1
+  &__main-title
     font-size: 4rem
     margin: 0 0 2rem
 
@@ -63,10 +66,10 @@
 
 .post
 
-    h1
-      font-size: 3.4rem
-      line-height: 1.1
+  h1.header__main-title
+    font-size: 3.4rem
+    line-height: 1.1
 
-      +grid-media($grid-medium)
-        font-size: 5.2rem
-        line-height: 1.3
+    +grid-media($grid-medium)
+      font-size: 5.2rem
+      line-height: 1.3
