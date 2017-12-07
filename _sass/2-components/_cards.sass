@@ -7,6 +7,9 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
 
   &--markdown
     overflow: hidden
+    padding: 2rem 0
+    max-width: 1080px
+    margin: 0 auto
 
     h1, h2, h3, h4, h5, h6
       margin: 4rem $card-margin-mobile 2rem
@@ -20,18 +23,8 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       +grid-media($grid-medium)
         margin: 2rem $card-margin-desktop
 
-      &:first-of-type
-        margin-top: $card-margin-mobile
-
-        +grid-media($grid-medium)
-          margin-top: $card-margin-desktop
-
-      &:last-of-type
-        margin-bottom: $card-margin-mobile
-
-        +grid-media($grid-medium)
-
-          margin-bottom: $card-margin-desktop
+      +grid-media($grid-large)
+        // font-size: 2.2rem
 
     table, th, td
       border: $base-border
@@ -125,11 +118,8 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
           transition: $base-transition
 
     .custom-image
-      margin: 0 auto $card-margin-mobile
+      margin: 0 auto
       width: 100%
-
-      +grid-media($grid-medium)
-        margin: 0 auto $card-margin-desktop
 
       a
         width: 100%
@@ -145,7 +135,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
 
           +grid-media($grid-medium)
             margin-left: $card-margin-desktop
-            margin-right: $card-margin-desktop
+            margin-right: 4rem
 
           +grid-media($grid-small)
             float: left
@@ -156,7 +146,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
           float: none
 
           +grid-media($grid-medium)
-            margin-left: $card-margin-desktop
+            margin-left: 4rem
             margin-right: $card-margin-desktop
 
           +grid-media($grid-small)
@@ -185,7 +175,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
         margin-right: $card-margin-mobile
 
         +grid-media($grid-medium)
-          margin-right: $card-margin-desktop
+          margin-right: 4rem
 
         .custom-image__caption
           text-align: left
@@ -194,30 +184,29 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
 
           +grid-media($grid-medium)
             margin-left: $card-margin-desktop
-            margin-right: $card-margin-desktop
+            margin-right: 4rem
 
       &--right
         float: right
         margin-left: $card-margin-mobile
 
         +grid-media($grid-medium)
-          margin-left: $card-margin-desktop
+          margin-left: 4rem
 
         .custom-image__caption
+          text-align: right
           margin-left: $card-margin-mobile
           margin-right: $card-margin-mobile
 
-          +grid-media($grid-small)
-            text-align: right
-
           +grid-media($grid-medium)
-            margin-left: $card-margin-desktop
+            margin-left: 4rem
             margin-right: $card-margin-desktop
 
       &__image
         width: 100%
         height: auto
         background-size: cover
+        vertical-align: bottom
 
       &__lightbox
         pointer-events: all !important
@@ -231,7 +220,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       width: 100%
       display: flex
       justify-content: center
-      margin-bottom: $card-margin-desktop
+      margin-bottom: 4rem
 
   &--post
     box-sizing: border-box
@@ -253,7 +242,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       border-top-right-radius: $card-border-radius
 
       +grid-media($grid-large)
-        height: 250px
+        height: 220px
 
     &__category
       position: absolute
@@ -362,9 +351,11 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       white-space: nowrap
       overflow: hidden
       margin-right: 2rem
+      font-size: 1.8rem
 
     &__date
       white-space: nowrap
+      font-size: 1.8rem
 
   &--search
     width: 100%

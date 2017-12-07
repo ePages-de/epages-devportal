@@ -10,7 +10,7 @@
 
   &-wrapper
     width: 90%
-    max-width: 1200px
+    max-width: 1080px
     margin: 0 auto
     display: flex
     align-items: center
@@ -116,7 +116,7 @@
     &__search-input
       outline: none
       border: 0
-      font-size: $base-font-size
+      font-size: $mobile-font-size
       transition: width .2s ease-out
       width: 100%
       color: $white
@@ -125,6 +125,7 @@
       box-sizing: border-box
 
       +grid-media($grid-medium)
+        font-size: $desktop-font-size
         width: 0
         visibility: hidden
         background: transparent
