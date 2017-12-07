@@ -5,13 +5,13 @@
     <div class="header-wrapper">
 
       {% if page.upper_title %}
-        <div class="header__upper-title">{{ page.upper_title }}</div>
+        <h4 class="header__upper-title">{{ page.upper_title }}</h4>
       {% endif %}
 
       <h1 class="header__main-title">{% if page.main_title %}{{ page.main_title }}{% else %}{{ page.title }}{% endif %}</h1>
 
       {% if page.sub_title %}
-        <div class="header__sub-title">{{ page.sub_title }}</div>
+        <h4 class="header__sub-title">{{ page.sub_title }}</h4>
       {% endif %}
 
       {% if page.layout == 'post' %}
