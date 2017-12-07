@@ -1,0 +1,6 @@
+<div class="categories">
+  <a class="category  category--all-categories  {% if page.url == '/blog/' %}category--all-categories--active{% endif %}" href="/blog/">All Categories</a>
+  {% for category in site.category_list %}
+    <a class="category  category--{{ category[0] }}  {% if page.url contains category[0] %}category--{{ category[0] }}--active{% endif %}" href="/blog/{{ category[0] }}">{{ category[1] }}</a>
+  {% endfor %}
+</div>

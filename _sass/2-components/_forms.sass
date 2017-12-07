@@ -1,0 +1,41 @@
+.form
+
+  &__row
+    width: 100%
+    margin-bottom: 1rem
+
+  &__cta-container
+    width: 100%
+    display: flex
+    justify-content: center
+    margin-top: 2.4rem
+
+  &__input
+    display: block
+    width: 100%
+    outline: none
+    border: 1px solid $input-border-color
+    border-radius: 3px
+    padding: 6px 8px
+    background-color: $white
+    transition: border-color 0.125s ease-in, box-shadow 0.125s ease-in
+    box-sizing: border-box
+
+    &:not(:last-child)
+      margin-bottom: 1rem
+
+      +grid-media($grid-small)
+        margin-bottom: 0
+
+    &:focus
+      border-color: #4eb7a8
+      box-shadow: 0 0 2px rgb(78, 183, 168)
+
+  &--cols-2
+
+    +grid-media($grid-small)
+      display: flex
+      justify-content: space-between
+
+      .form__input
+        width: 48%

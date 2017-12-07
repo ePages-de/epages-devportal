@@ -1,0 +1,33 @@
+html
+  background-color: $document-background-color
+
+  .content-wrapper
+    width: 90%
+    max-width: 1200px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 3rem
+    margin-bottom: 3rem
+
+    +grid-media($grid-large)
+      margin-top: 6rem
+      margin-bottom: 6rem
+
+  .blank
+    min-height: 100vh
+
+    .main
+      min-height: 100vh
+      background-size: cover
+      background-position: center
+
+      .content-wrapper
+        width: 90%
+        margin-top: 0
+        margin-bottom: 0
+        padding-top: 80px
+        box-sizing: border-box
+        min-height: 100vh
+        display: flex
+        flex-direction: column
+        justify-content: space-around

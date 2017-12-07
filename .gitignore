@@ -1,3 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+.tweet-cache
+.bundle
+_config_write.yml
+log/

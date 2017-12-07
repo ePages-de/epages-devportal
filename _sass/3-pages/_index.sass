@@ -1,0 +1,80 @@
+.section
+
+  &__text
+    text-align: center
+    font-size: 2rem
+
+    &--margin-bottom
+      margin-bottom: 1em
+
+  .tiles
+    +grid-container
+    +grid-collapse($tile-grid)
+    margin-top: $card-margin-mobile
+    box-sizing: border-box
+
+    +grid-media($grid-medium)
+      margin-top: $card-margin-desktop
+      display: flex
+
+    +grid-media($grid-large)
+      padding: 0 6rem
+
+  .tile
+    +grid-column(12, $tile-grid)
+    position: relative
+    padding-bottom: 7rem
+
+    &:last-child
+      margin-top: $card-margin-mobile
+
+      +grid-media($grid-medium)
+        margin-top: 0
+
+    +grid-media($grid-medium)
+      +grid-column(6, $tile-grid)
+
+    &__header
+      width: 100%
+      text-align: center
+      padding: 3rem 0
+      color: $white
+      border-top-left-radius: 4px
+      border-top-right-radius: 4px
+
+      &--now
+        background-color: lighten($beyond-blue, 5%)
+
+      &--beyond
+        background-color: $beyond-green
+
+    &__body
+      padding: 3rem
+
+    &__list
+      list-style: initial
+      margin: .2em 0 .8em 3rem
+
+    &__flag
+      background-color: #c7c7c7
+      color: #4c4c4c
+      font-size: 1.4rem
+      letter-spacing: .05em
+      box-shadow: $hover-box-shadow
+      padding: .4em .8em
+      position: absolute
+      top: 80px
+      right: -1rem
+      border-top-left-radius: 4px
+      border-bottom-left-radius: 4px
+
+      &::before
+        content: ''
+        position: absolute
+        right: 0
+        bottom: -1rem
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 1rem 1rem 0 0
+        border-color: darken(#c7c7c7, 10%) transparent transparent transparent

@@ -1,0 +1,46 @@
+.post-share
+  margin-bottom: $card-margin-desktop
+  margin-top: 4rem
+  display: flex
+  justify-content: center
+  z-index: 99
+
+  +grid-media($grid-large)
+    opacity: 0
+    transition: $base-transition
+    text-align: left
+    margin: 0
+    padding: 3rem 0
+    position: fixed
+    left: .5rem
+    top: 50%
+    transform: translateY(-50%)
+    flex-direction: column
+
+  +grid-media($grid-huge)
+    left: 1rem
+
+  +grid-media($grid-max)
+    left: 2rem
+
+  a
+    display: inline-block
+
+    &:not(:last-child)
+      margin-right: 1rem
+
+    +grid-media($grid-large)
+      display: flex
+
+      &:not(:last-child)
+        margin-right: 0
+        margin-bottom: 1rem
+
+  .icon-share
+    display: block
+    height: 40px
+    width: 40px
+
+    +grid-media($grid-max)
+      height: 50px
+      width: 50px

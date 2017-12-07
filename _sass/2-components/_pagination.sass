@@ -1,0 +1,26 @@
+.pagination
+  width: 100%
+  display: flex
+  justify-content: center
+
+  &__item
+    color: $base-font-color
+    padding: .5em 1em
+    margin: 0 1.6rem
+
+    &:not(&--disabled):hover
+      box-shadow: $hover-box-shadow
+      transition: $base-transition
+      color: $base-font-color
+
+    &--selected
+      background: $pagination-selected-bg
+      color: $pagination-selected-color
+      cursor: default
+      pointer-events: none
+
+    &--disabled
+      background-color: $pagination-disabled-bg
+      color:  $pagination-disabled-color
+      cursor: default
+      pointer-events: none

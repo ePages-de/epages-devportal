@@ -1,0 +1,48 @@
+---
+layout: default
+permalink: /
+header_image: main.jpg
+upper_title: Hundreds of thousands of online shops worldwide
+title: Powered by your app.
+background_image: index.jpg
+---
+
+<section class="section">
+
+  <p class="section__text  section__text--margin-bottom">Share your love for app development with us and empower our merchants with amazing integrations.</p>
+  <p class="section__text">Explore the ePages REST APIs tailored for our cloud-based eCommerce platform:</p>
+
+  <div class="tiles">
+    {% assign list_now = 'Bulletproof architecture, Seamless App Store integration, Unlimited use cases, Comprehensive global customer base' | split: ', ' %}
+
+    {% include components/index-card.html class='now'
+                                          title='ePages Now'
+                                          body='Reach over 140.000 existing merchants worldwide:'
+                                          list=list_now
+                                          signup='#signup'
+                                          signup_target='_self'
+                                          docs='https://developer.epages.com/apps/'
+                                          docs_target='_self'
+                                          cta='Read Docs' %}
+
+    {% assign list_beyond = 'API-first approach, Microservices architecture, Open-Source-powered, Complex-free &amp; flexible, Growing functionality' | split: ', ' %}
+
+    {% include components/index-card.html class='beyond'
+                                          title='ePages Beyond'
+                                          body='Be involved from the very start and help shape our new Commerce Cockpit:'
+                                          list=list_beyond
+                                          signup='https://signup.beyondshop.cloud/'
+                                          signup_target='_blank'
+                                          docs='http://docs.beyondshop.cloud/'
+                                          docs_target='_blank'
+                                          cta='Read Docs'
+                                          flag='The ePages Lab' %}
+  </div>
+
+</section>
+
+<link rel="stylesheet" href="/assets/css/magnific-popup.css">
+<script src="/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="/assets/js/index.js"></script>
+
+<iframe id="frame--epages-now" style="display: none;" name="frame--epages-now" frameborder="0" allowtransparency="true" width="900px" height="720px"></iframe>

@@ -1,0 +1,25 @@
+.cross-reading
+  +grid-collapse($cross-reading-grid)
+  +grid-container
+  margin-top: 4rem
+
+  +grid-media($grid-medium)
+    margin-top: 6rem
+    display: flex
+    align-items: stretch
+    flex-direction: row
+
+  .card--post
+    +grid-column(12, $cross-reading-grid)
+
+    +grid-media($grid-medium)
+      +grid-column(4, $cross-reading-grid)
+
+    &:not(:first-child)
+      margin-top: 2rem
+
+      +grid-media($grid-medium)
+        margin-top: 0
+
+    &__header
+      height: 200px !important

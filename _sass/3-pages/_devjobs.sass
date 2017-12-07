@@ -1,0 +1,172 @@
+.devjobs
+
+  section
+    text-align: center
+    margin: 8rem 0
+
+    +grid-media($grid-medium)
+      margin: 12rem 0
+
+    .section__title
+      margin-bottom: 1rem
+
+  .job-openings
+
+    .card-wrapper
+      display: flex
+      flex-wrap: wrap
+      margin: 2rem -1rem
+
+      .card--jobs
+        position: relative
+        text-align: left
+        box-sizing: border-box
+        flex-direction: column
+        flex-basis: 100%
+        margin: 1rem
+
+        +grid-media($grid-medium)
+          flex-direction: row
+          flex-basis: calc(100% / 2 - 2rem)
+
+        +grid-media($grid-huge)
+          flex-direction: row
+          flex-basis: calc(100% / 3 - 2rem)
+
+        a
+          padding: 2rem 2rem 6rem
+
+        &__title
+          color: $beyond-green
+
+        &__body
+          margin-top: 1rem
+
+          &::after
+            content: '❯'
+            color: $beyond-green
+            margin-left: .7rem
+            position: relative
+            top: .1rem
+
+        &__footer
+          color: $gray-light
+          position: absolute
+          bottom: 2rem
+
+  .contact
+
+    &-wrapper
+      margin: 4rem auto 0
+      text-align: left
+      display: flex
+      flex-wrap: wrap
+      box-sizing: border-box
+
+      &--inner
+        height: 350px
+        flex-basis: 100%
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2)
+
+        a
+          color: $base-font-color
+
+          &:hover
+            color: $beyond-green
+            transition: $base-transition
+
+      &--left
+        background-color: $white
+        border-top-left-radius: $base-border-radius
+        border-bottom-left-radius: $base-border-radius
+
+      &--right
+        background-color: $beyond-beige
+        border-top-right-radius: $base-border-radius
+        border-bottom-right-radius: $base-border-radius
+
+    &__group-1
+      display: inline-block
+      width: 220px
+
+      +grid-media($grid-medium)
+        width: initial
+        height: 190px
+
+    &__group-2
+      display: inline-block
+      width: 220px
+
+      +grid-media($grid-medium)
+        width: 290px
+        height: 190px
+
+    &__option
+      display: flex
+
+      .fa
+        margin-right: 2rem
+        font-size: 2.5rem
+        width: 3rem
+        text-align: center
+
+        &-comment
+          margin-right: 2.7rem
+
+      &:not(:last-child)
+        margin-bottom: 2rem
+
+      .info__text
+        font-size: 1.6rem
+
+    .image-harm
+      display: none
+      position: absolute
+      height: 16rem
+      bottom: 0
+      right: 1rem
+
+      +grid-media($grid-huge)
+        display: block
+
+  .about
+
+    .developer-logo
+      height: 10rem
+      margin-bottom: 2rem
+
+    .column-wrapper
+      text-align: left
+      display: flex
+      flex-wrap: wrap
+      margin: 4rem -1rem 0
+      padding: 2rem
+
+      .column
+        flex-basis: 100%
+        padding: 2rem
+        box-sizing: border-box
+
+        +grid-media($grid-large)
+          flex-basis: calc(100% / 3)
+
+        &__title
+          margin-bottom: 1rem
+
+        .fa
+          font-size: 6rem
+          margin-bottom: 3rem
+          color: lighten($gray-light, 20%)
+          display: block
+
+      .column-2
+        margin: 3rem 0
+
+        +grid-media($grid-large)
+          margin: 0

@@ -1,0 +1,72 @@
+.header
+  background-size: cover
+  background-position: center center
+  width: 100%
+  height: $header-height
+  display: flex
+  align-items: center
+  box-shadow: $base-box-shadow
+  padding-top: $navbar-height
+  box-sizing: border-box
+  position: relative
+
+  &-overlay
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1
+    display: block
+    height: 100%
+    width: 100%
+    background-color: rgba(0,0,0,.5)
+
+  &-wrapper
+    width: 90%
+    max-width: 1200px
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    z-index: 999
+
+  h1, h2, p
+    color: $base-font-color-white
+    text-shadow: $base-text-shadow
+    text-align: center
+
+    a
+      color: $base-font-color-white
+      text-decoration: underline
+
+      &:hover,
+      &:focus
+        color: darken($whitesmoke, 15%)
+        transition: $base-transition
+
+  p:first-child
+    font-size: 2.2rem
+    margin-bottom: 2rem
+
+  h1
+    font-size: 4rem
+    margin: 0 0 2rem
+
+    +grid-media($grid-medium)
+      font-size: 6.4rem
+
+.page
+  .header
+    .icon-play
+      opacity: .8
+
+.post
+
+    h1
+      font-size: 3.4rem
+      line-height: 1.1
+
+      +grid-media($grid-medium)
+        font-size: 5.2rem
+        line-height: 1.3

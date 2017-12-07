@@ -1,0 +1,13 @@
+<!doctype html>
+
+<html>
+  {% include head.html %}
+  <body class="blank">
+    {% include sections/navbar.html %}
+    <main class="main" style="background-image: url(/assets/img/pages/{{ page.background_image }})">
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+.categories
+  width: 100%
+  margin: 0 auto -1rem
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-wrap: wrap
+
+  +grid-media($grid-small)
+    width: 75%
+
+.category
+  background-color: $whitesmoke
+  color: $white
+  line-height: 1
+  padding: .5em 1em
+  font-size: 1.6rem
+  letter-spacing: .05em
+  border-radius: $base-border-radius
+  transition: $base-transition
+  margin: 0 .5rem 1rem
+  border: 1px solid #4eb7a8
+  color: #4eb7a8
+
+  &:hover
+    color: $white
+    transition: $base-transition
+
+  &--all-categories
+
+    &:hover, &--active
+      background-color: $cat-all-categories
+      border: 1px solid $cat-all-categories
+      color: white
+
+  &--api-experience
+
+    &:hover, &--active
+      background-color: $cat-api-experience
+      border: 1px solid $cat-api-experience
+      color: white
+
+  &--coding
+
+    &:hover, &--active
+      background-color: $cat-coding
+      border: 1px solid $cat-coding
+      color: white
+
+  &--events
+
+    &:hover, &--active
+      background-color: $cat-events
+      border: 1px solid $cat-events
+      color: white
+
+  &--language-and-localization
+
+    &:hover, &--active
+      background-color: $cat-language-and-localization
+      border: 1px solid $cat-language-and-localization
+      color: white
+
+  &--methods-and-tools
+
+    &:hover, &--active
+      background-color: $cat-methods-and-tools
+      border: 1px solid $cat-methods-and-tools
+      color: white
+
+  &--on-the-job
+
+    &:hover, &--active
+      background-color: $cat-on-the-job
+      border: 1px solid $cat-on-the-job
+      color: white
+
+  &--tech-stories
+
+    &:hover, &--active
+      background-color: $cat-tech-stories
+      border: 1px solid $cat-tech-stories
+      color: white
+
+  &--techcomm-and-socialmedia
+
+    &:hover, &--active
+      background-color: $cat-techcomm-and-socialmedia
+      border: 1px solid $cat-techcomm-and-socialmedia
+      color: white

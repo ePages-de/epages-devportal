@@ -1,0 +1,36 @@
+.tags
+  margin: 4rem $card-margin-mobile 3rem
+
+  +grid-media($grid-medium)
+    margin: 4rem $card-margin-desktop
+
+  hr
+    margin-top: 0
+    margin-bottom: 4rem
+    border: $base-border
+    border-color: darken($whitesmoke, 2%)
+    width: 75%
+
+  .tags-wrapper
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    width: 100%
+    margin: 0 auto
+
+    +grid-media($grid-medium)
+      width: 70%
+
+    .tags__tag
+      border: $base-border
+      background: $whitesmoke
+      display: inline
+      border-radius: 50px
+      margin: 0 .5rem 1rem
+
+      &:hover
+        background: darken($whitesmoke, 5%)
+        transition: $base-transition
+
+      a
+        padding: .2em 1em

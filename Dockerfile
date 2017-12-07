@@ -1,0 +1,23 @@
+FROM ruby:2.4.2
+
+RUN apt-get update \
+    && apt-get install -y \
+    node \
+    python-pygments \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/
+
+RUN gem install \
+    jekyll \
+    jekyll-redirect-from \
+    kramdown \
+    rdiscount \
+    rouge
+
+EXPOSE 4000
+
+WORKDIR /src
+
+COPY build.sh .
+
+CMD jekyll serve
