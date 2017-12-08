@@ -48,7 +48,7 @@ $(window).on('load', function() {
     if (searchTerm) {
       var searchBox = document.getElementById('search-box');
       searchBox.setAttribute("value", searchTerm);
-      searchBox.className += ' navigation__search-input--open';
+      searchBox.className += ' search-input';
 
       var idx = lunr(function () {
         this.field('id');

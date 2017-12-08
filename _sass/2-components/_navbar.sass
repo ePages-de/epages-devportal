@@ -94,61 +94,6 @@
       +grid-media($grid-medium)
         display: none
 
-    &__search-button
-      height: 2.5rem
-      width: 2.5rem
-      background-image: url(/assets/img/icons/search_white.svg)
-      background-position: center
-      background-repeat: no-repeat
-      display: none
-
-      +grid-media($grid-medium)
-        display: inline-block
-
-    &__search-form
-      width: 100%
-      padding: 1em
-
-      +grid-media($grid-medium)
-        width: auto
-        padding: 0
-
-    &__search-input
-      outline: none
-      border: 0
-      font-size: $mobile-font-size
-      transition: width .2s ease-out
-      width: 100%
-      color: $white
-      background-color: $navbar-input-background-color
-      padding: .4em.8em
-      box-sizing: border-box
-
-      +grid-media($grid-medium)
-        font-size: $desktop-font-size
-        width: 0
-        visibility: hidden
-        background: transparent
-        border-bottom: 1px solid $white
-        color: $white
-        padding: 0
-
-      &--open
-        visibility: visible
-        transition: width .2s ease-out
-        text-shadow: $base-text-shadow
-
-        +grid-media($grid-medium)
-          margin-left: 1rem
-          width: 16rem
-
-        +grid-media($grid-large)
-          width: 30rem
-
-        &::-webkit-input-placeholder
-          font-weight: 100
-          color: lighten($gray-light, 30%)
-
   &--transparent
     background: linear-gradient(rgba(60,60,60,.5), rgba(0,0,0,0))
 
