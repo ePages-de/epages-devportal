@@ -7,15 +7,6 @@
 
     <nav class="navigation">
       <ul class="navigation__list">
-        {% assign url = page.url | split: '/' %}
-        {% if url[1] == 'blog' %}
-          <li class="navigation__item">
-            <div class="navigation__search-button"></div>
-            <form action="/blog/search/" method="get" class="navigation__search-form">
-              <input type="text" class="navigation__search-input" placeholder="Search for tags, keywords, etc." name="query" id="search-box">
-            </form>
-          </li>
-        {% endif %}
         <li class="navigation__item  navigation__item--hidden">
           <a href="/" class="navigation__link">Home</a>
         </li>
@@ -43,9 +34,6 @@
   </div>
 </div>
 
-{% if url[1] == 'blog' %}
-  <script src="/assets/js/navbar-search.js"></script>
-{% endif %}
 {% unless page.layout == 'no-header' %}
   <script src="/assets/js/navbar.js"></script>
 {% endunless %}
