@@ -5,7 +5,7 @@ title: About us
 header_image: about.jpg
 ---
 
-# Hey!
+## Hey!
 
 Thanks for visiting our Developer Portal.
 This is the place where you can find all the details and documentation to integrate with our software.
