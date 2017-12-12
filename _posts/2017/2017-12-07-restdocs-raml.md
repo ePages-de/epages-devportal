@@ -71,7 +71,7 @@ The [RamlResourceSnippet](https://github.com/ePages-de/restdocs-raml/blob/master
  - JWT scopes
  
 So the `ramlResource` snippet rather documents all aspects of the resource rather than generating different snippets for each concern. 
-We tried to come up with an API that uses a lot of the factory methods from Spring REST Docs and tries to align as much as possible with the existing API. 
+We tried to come up with an API that uses a lot of the factory methods from Spring REST Docs and tries to align as much as possible with the existing API. Also the validation functionality of Spring REST Docs still applies.
 So it easy to migrate existing code. 
 
 ```java
@@ -121,7 +121,7 @@ Now we have a RAML fragment for each of our resources.
 But usually a RAML file describes a complete API.
 So next we need to aggregate these fragments into a complete RAML file for the service. 
 For this purpose we provide the [`restdocs-raml-gradle-plugin`](https://github.com/ePages-de/restdocs-raml/tree/master/restdocs-raml-gradle-plugin){:target="_blank"}. 
-It adds a task `ramldoc` that scans the `generated-snippets` directory for `raml-resource.raml` files and aggregates the resources into a RAML file containing all the documented resources.
+It adds a task `ramldoc` that scans the `generated-snippets` directory for `raml-resource.raml` files and aggregates them into a RAML file containing all the documented resources.
 
 This is how such a top level `api.raml` file could look like:
 
@@ -192,8 +192,8 @@ The json schema files contain the field documentation - `notes-create-schema-req
 
 ## Play around
 
-The [restdocs-raml](https://github.com/ePages-de/restdocs-raml){:target="_blank"} repository contains a sample project [restdocs-raml-sample](https://github.com/ePages-de/restdocs-raml/tree/master/restdocs-raml-sample){:target="_blank"}. 
-A look at the [README](https://github.com/ePages-de/restdocs-raml/blob/master/README.md){:target="_blank"} is helpful to understand how `restdocs-raml` works. 
+To get started a look at the [README](https://github.com/ePages-de/restdocs-raml/blob/master/README.md){:target="_blank"} is helpful to understand how [restdocs-raml](https://github.com/ePages-de/restdocs-raml){:target="_blank"} works. 
+The repository contains a sample project [restdocs-raml-sample](https://github.com/ePages-de/restdocs-raml/tree/master/restdocs-raml-sample){:target="_blank"}. 
 The main test documenting the resources in `restdocs-raml-sample` is located in [ApiDocumentation.java](restdocs-raml/restdocs-raml-sample/src/test/java/com/example/notes/ApiDocumentation.java){:target="_blank"}.
 Let's checkout the sample project and play around with it to see what `restdocs-raml` can do for us. 
 
@@ -246,11 +246,10 @@ Now you can explore and interact with the API.
 
 {% image_custom image="/assets/img/pages/blog/images/restdocs-raml-api-console.gif"  width="50" caption="api-console" lightbox  %}
 
-Please checkout the [README](https://github.com/ePages-de/restdocs-raml){:target="_blank"} for more details.
-
 ## Next steps
 
-We will refactor our documenting tests to output RAML with the help of `restdocs-raml` and improve the project as we proceed.
+We are convinced that `restdocs-raml` can help us to keep the benefits of Spring REST Docs by leveraging the additional value that RAML provides. 
+That's why we will refactor our documenting tests to output RAML with the help of `restdocs-raml` and improve the project as we proceed.
 
 There are a few improvements that we already have in mind.
 
