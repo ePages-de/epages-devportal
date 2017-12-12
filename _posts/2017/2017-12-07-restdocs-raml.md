@@ -1,6 +1,6 @@
 ---
 layout: post
-title: REST API Documentation using Spring REST Docs and RAML
+title: Spring REST Docs - Going further with RAML
 date: 2017-12-14
 header_image: restdocs-raml.jpg
 header_overlay: true
