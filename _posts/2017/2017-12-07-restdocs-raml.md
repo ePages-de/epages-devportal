@@ -13,14 +13,14 @@ authors: ["Mathias"]
 It offers support for AsciiDoc and Markdown. This is great for generating simple HTML-based documentation.
 
 We have been using Spring REST Docs from the start in our new ecommerce backend. 
-The feature we love most is that the documentation of resources is part if our tests.
+The feature we love most is that the documentation of resources is part of our tests.
 Thus we can be sure that the documentation is always up-to date. 
 New fields added to a resource are never left undocumented.
 Changed and removed fields will not leave the documentation stale.
 This is awesome.
 
 Also it is really easy to generate a simple HTML-based documentation using Spring REST Docs. 
-This gave us good documentation for a start without spending a lot of effort on it.
+This gives us good documentation for a start without spending a lot of effort on it.
 
 You can look at our current [public API documentation](http://docs.beyondshop.cloud){:target="_blank"} to see how far we got with plain Spring REST Docs.
 
@@ -28,9 +28,9 @@ You can look at our current [public API documentation](http://docs.beyondshop.cl
 
 Our new Beyond ecommerce backend follows an API first approach. 
 The API is our product.
+We would like to attract third-party developers to work with our API.
 This means that a good API is really important for us and so is an appealing documentation.
 
-We would like to attract third-party developers to provide apps and thus our documentation needs to be attractive.
 
 Our tech-writers would really love to see an interactive API documentation that allows users of our API to already play with it while going through the documentation.
 It should be a good source of information and also a nice appetizer to start using our product.
@@ -53,14 +53,13 @@ You can:
   - interact with your API using an API console - [api-console](https://github.com/mulesoft/api-console){:target="_blank"}
   - import RAML into REST clients like Postman and Paw to start playing around with an API
 
-Generally it seems to be used to specify an API but we think it also a good choice for our needs. 
+Generally it seems to be used to specify an API but we think it is also a good choice for our needs. 
 Once we have a RAML file describing our API this opens a lot more possibilities than AsciiDoc or Markdown.
 So we decided to try to use RAML as an output format for Spring REST Docs. 
 
 ## Introducing restdocs-raml
 
 We came up with an open-source project that supports just this - [restdocs-raml](https://github.com/ePages-de/restdocs-raml){:target="_blank"}.
-It is still in an early stage of development but already contains the most important features.
 
 The project provides a new snippet type that generates a RAML fragment for the current resource. 
 The [RamlResourceSnippet](https://github.com/ePages-de/restdocs-raml/blob/master/restdocs-raml/src/main/java/com/epages/restdocs/raml/RamlResourceSnippet.java){:target="_blank"} can be used to document:
@@ -94,8 +93,8 @@ mockMvc
 );
 ```
 
-Note how we use an url template to build the request with [RestDocumentationRequestBuilders](https://docs.spring.io/spring-restdocs/docs/current/api/org/springframework/restdocs/mockmvc/RestDocumentationRequestBuilders.html#get-java.lang.String-java.lang.Object...-){:target="_blank"}. 
-This makes the url template available in the snippet and we can render it into the RAML fragments.
+Note how we use an URL template to build the request with [RestDocumentationRequestBuilders](https://docs.spring.io/spring-restdocs/docs/current/api/org/springframework/restdocs/mockmvc/RestDocumentationRequestBuilders.html#get-java.lang.String-java.lang.Object...-){:target="_blank"}. 
+This makes the URL template available in the snippet and we can render it into the RAML fragments.
 
 The `ramlResource` snippet generates a `raml-resource.raml` in the operation's output directory:
 
@@ -268,5 +267,5 @@ Also we will have a look at documenting cross-cutting concerns like paging and l
 
 So stay tuned for more to come.
 
-We are always eager to hear your feedback - so drop us a line to let us know what you think.
+We are always eager to hear your feedback about `restdocs-raml` - so drop us a line to let us know what you think.
 
