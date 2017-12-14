@@ -8,6 +8,8 @@ markdown: kramdown
 
 permalink: /blog/:categories/:title/
 
+future: false
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
