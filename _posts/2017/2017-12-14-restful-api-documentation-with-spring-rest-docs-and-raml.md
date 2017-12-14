@@ -243,6 +243,8 @@ cd build/ramldoc
 api-console dev api.raml
 ```
 
+💡 In case you see the error `Required json property not found` see this [issue](https://github.com/mulesoft-labs/api-console-cli/issues/18){:target="_blank"} for a workaround
+
 Now you can explore and interact with the API.
 
 {% image_custom image="/assets/img/pages/blog/images/restdocs-raml-api-console.gif"  width="50" caption="api-console" lightbox  %}
