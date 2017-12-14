@@ -4,8 +4,8 @@
     <div class="card--post__body">
       <h3 class="card--post__title">{{ include.title }}</h3>
       <div class="card--post__footer">
-        <p class="card--post__author">{{ include.authors | join: ", "}}</p>
-        <p class="card--post__date">{{ include.date | date: "%b %d, %Y" }}</p>
+        <div class="card--post__author">{{ include.authors | join: ", "}}</div>
+        <div class="card--post__date">{{ include.date | date: "%b %d, %Y" }}</div>
       </div>
     </div>
   </a>
