@@ -195,7 +195,7 @@ The json schema files contain the field documentation - `notes-create-schema-req
 
 To get started a look at the [README](https://github.com/ePages-de/restdocs-raml/blob/master/README.md){:target="_blank"} is helpful to understand how [restdocs-raml](https://github.com/ePages-de/restdocs-raml){:target="_blank"} works. 
 The repository contains a sample project [restdocs-raml-sample](https://github.com/ePages-de/restdocs-raml/tree/master/restdocs-raml-sample){:target="_blank"}. 
-The main test that documents the resources in `restdocs-raml-sample` is located in [ApiDocumentation.java](restdocs-raml/restdocs-raml-sample/src/test/java/com/example/notes/ApiDocumentation.java){:target="_blank"}.
+The main test that documents the resources in `restdocs-raml-sample` is located in [ApiDocumentation.java](https://github.com/ePages-de/restdocs-raml/blob/master/restdocs-raml-sample/src/test/java/com/example/notes/ApiDocumentation.java){:target="_blank"}.
 Let's checkout the sample project, and play around with it to see what `restdocs-raml` can do for us. 
 
 ```
