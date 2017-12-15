@@ -5,3 +5,4 @@ _site
 .bundle
 _config_write.yml
 log/
+.DS_Store

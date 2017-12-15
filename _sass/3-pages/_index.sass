@@ -1,77 +1,107 @@
-.section
+body.default
+  .card:not(.card--post)
+    padding: 2rem
+    margin: 4rem -1rem
+  .column-wrapper
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    .column
+      position: relative
+      .fa
+        color: $beyond-blue
+      &__title
+        margin-bottom: 1rem
 
-  &__text
-    text-align: center
-    font-size: 2rem
-
-    &--margin-bottom
-      margin-bottom: 1em
-
-  .tiles
-    +grid-container
-    +grid-collapse($tile-grid)
-    margin-top: $card-margin-mobile
-    box-sizing: border-box
-
-    +grid-media($grid-medium)
-      margin-top: $card-margin-desktop
-      display: flex
-
-  .tile
-    +grid-column(12, $tile-grid)
-    position: relative
-    padding-bottom: 7rem
-
-    &:last-child
-      margin-top: $card-margin-mobile
-
-      +grid-media($grid-medium)
-        margin-top: 0
-
-    +grid-media($grid-medium)
-      +grid-column(6, $tile-grid)
-
-    &__header
-      width: 100%
+  .intro
+    .column
       text-align: center
-      padding: 3rem 0
-      color: $white
-      border-top-left-radius: 4px
-      border-top-right-radius: 4px
+      padding: 2rem
+      flex-basis: 100%
+      +grid-media($grid-medium)
+        flex-basis: calc(100% / 2 - 4rem)
+      .fa
+        font-size: 5rem
+        margin-bottom: 2rem
 
-      &--now
-        background-color: lighten($beyond-blue, 5%)
+  .steps
+    .section__title
+      margin: 2rem 0
+      text-align: center
+    .column
+      padding: 2rem
+      text-align: center
+      flex-basis: 100%
+      +grid-media($grid-medium)
+        flex-basis: calc(100% / 3 - 4rem)
+      .fa
+        font-size: 5rem
+        margin-bottom: 2rem
+        padding: 4rem
+        border: 2px solid $beyond-blue
+        border-radius: 50%
+      +grid-media($grid-medium)
+        &:not(:last-child):after
+          content: '›'
+          font-size: 12rem
+          color: lighten($gray-light, 20%)
+          position: absolute
+          right: -2rem
+          top: 0
 
-      &--beyond
-        background-color: $beyond-green
+      &__body
+        padding-bottom: 8rem
+        &:last-child
+          padding-bottom: 0
+      .cta--absolute
+        font-size: 1.8rem
+        text-align: center
+        width: inherit
+        bottom: 2rem
+        +grid-media($grid-medium)
+          width: calc(100% - 10rem)
+    .column-2
+      margin: 3rem 0
+      +grid-media($grid-medium)
+        margin: 0
 
-    &__body
-      padding: 3rem
+  .about
+    .section__title
+      margin: 0 0 2rem
+    .column-wrapper
+      +grid-media($grid-medium)
+        flex-wrap: nowrap
+      .column
+        padding: 2rem
+        .fa
+          font-size: 8rem
+      .column-1
+        flex-basis: 10%
+      .column-2
+        flex-basis: 90%
 
-    &__list
-      list-style: initial
-      margin: .2em 0 .8em 3rem
-
-    &__flag
-      background-color: #c7c7c7
-      color: #4c4c4c
-      font-size: 1.4rem
-      letter-spacing: .05em
-      box-shadow: $hover-box-shadow
-      padding: .4em .8em
-      position: absolute
-      top: 80px
-      right: -1rem
-      border-top-left-radius: 4px
-      border-bottom-left-radius: 4px
-
-      &::before
-        content: ''
+  .news
+    text-align: center
+    .section__title
+      margin: 2rem 0 2rem
+    .carousel
+      margin: 2rem -3rem 0
+      text-align: left
+      .card--post
+        margin: 2rem
+        +grid-media($grid-medium)
+          min-height: 348px
+      button
         position: absolute
-        right: 0
-        bottom: -1rem
-        width: 0
-        height: 0
-        border-style: solid
-        border-width: 1rem 1rem 0 0
-        border-color: darken(#c7c7c7, 10%) transparent transparent transparent
+        top: 45%
+        &.slick-prev
+          left: -10rem
+        &.slick-next
+          right: -10rem
+
+  .more
+    text-align: center
+    .section__title
+      margin: 2rem 0
+    .cta
+      margin: 3rem 0 2rem
