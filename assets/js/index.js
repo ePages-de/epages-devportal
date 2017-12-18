@@ -63,6 +63,8 @@ $(document).ready(function(){
     infinite: false,
     slidesToShow: 2,
     slidesToScroll: 2,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
     responsive: [
       {
         breakpoint: 768,

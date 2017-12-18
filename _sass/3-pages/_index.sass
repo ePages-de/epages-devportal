@@ -28,6 +28,10 @@ body.default
     .section__title
       margin: 2rem 0
       text-align: center
+      +grid-media($grid-small)
+        width: 80%
+      +grid-media($grid-medium)
+        width: 100%
     .column
       padding: 2rem
       text-align: center
@@ -77,31 +81,56 @@ body.default
           font-size: 8rem
       .column-1
         flex-basis: 10%
+        display: flex
+        align-items: center
+        justify-content: center
       .column-2
         flex-basis: 90%
 
   .news
     text-align: center
+    position: relative
     .section__title
       margin: 2rem 0 2rem
     .carousel
-      margin: 2rem -3rem 0
+      position: relative
+      margin: 0 -3rem 0
       text-align: left
       .card--post
         margin: 2rem
+        min-height: 320px
         +grid-media($grid-medium)
-          min-height: 348px
-      button
+          min-height: 350px
+      &__link
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover,
+        &:focus
+          box-shadow: none
+    .paginator
+      position: absolute
+      bottom: 25rem
+      left: 0
+      right: 0
+      .prev, .next
         position: absolute
-        top: 45%
-        &.slick-prev
-          left: -10rem
-        &.slick-next
-          right: -10rem
+        top: 0
+        font-size: 8rem
+        cursor: pointer
+        color: lighten($gray-light, 20%)
+        &.slick-disabled
+          visibility: hidden
+      .prev
+        left: -6rem
+      .next
+        right: -6rem
 
   .more
     text-align: center
-    .section__title
-      margin: 2rem 0
-    .cta
-      margin: 3rem 0 2rem
+    .card
+      margin-top: 2rem
+      .section__title
+        margin: 2rem 0
+      .cta
+        margin: 3rem 0 2rem

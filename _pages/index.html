@@ -39,13 +39,13 @@ background_image: index.jpg
       <i class="fa fa-book" aria-hidden="true"></i>
       <h4 class="column__title">Get started</h4>
       <p class="column__body">Learn about the BEYOND API, and get inspired by the possibilities it offers.</p>
-      <a href="http://docs.beyondshop.cloud/" class="cta  cta--beyond  cta--absolute">Read docs</a>
+      <a href="http://docs.beyondshop.cloud/" class="cta  cta--beyond  cta--absolute" target="_blank">Read docs</a>
     </div>
     <div class="column  column-2">
       <i class="fa fa-code" aria-hidden="true"></i>
       <h4 class="column__title">Develop your app</h4>
       <p class="column__body">Sign up for a BEYOND shop, get yourself a token in the Developer area, and start developing your app.</p>
-      <a href="https://signup.beyondshop.cloud/" class="cta  cta--beyond  cta--absolute">Sign up</a>
+      <a href="https://signup.beyondshop.cloud/" class="cta  cta--beyond  cta--absolute" target="_blank">Sign up</a>
     </div>
     <div class="column  column-3">
       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
@@ -82,11 +82,15 @@ background_image: index.jpg
               url=post.url %}
         </div>
       {% endfor %}
-      <div class="carousel__item  carousel__item-6">
-        <div class="card--post">
+      <div class="carousel__item">
+        <div class="card--post  carousel__link">
             <a href="/blog/">Check out the developer blog ›</a>
         </div>
       </div>
+    </div>
+    <div class="paginator">
+      <div class="prev">‹</div>
+      <div class="next">›</div>
     </div>
 </section>
 
