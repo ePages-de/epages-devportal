@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '2', artifactNumToKeepStr: '2'))
+  }
   stages {
     stage('Build') {
       when { anyOf { branch 'master'; branch 'develop'; expression { BRANCH_NAME ==~ /PR-\d*/ } } }
