@@ -11,13 +11,13 @@ authors: ["Christina"]
 
 Great UI texts are crucial for a great software product.
 Well yes, it is not all.
-Of course, the software behind it needs to be built and work properly.
+Of course, the software behind it needs to work properly.
 But imagine, you play around with a new technically flawless software, and you don't understand how things work, and where to find them.
 Or one function is named differently throughout the software.
 In this case, UI writers messed up, and you will never touch the software again (unless you have to).
 To avoid this, our UI writers do their best to ensure an awesome user experience, and thus make our users happy.
-I sneaked into one of their wording sessions and figured out, what they keep in mind, and what is needed to create awesome UI texts.
-By the way, they directly provide them in three different source languages.
+I sneaked into one of their wording sessions and figured out, what is needed to create awesome UI texts.
+The following advices are the result:
 
 ## See the big picture
 
@@ -28,14 +28,13 @@ Sometimes you don't even know if this word is a subject or a verb.
 How can you be able to translate this into another language?
 This is one of the reasons, we decided to work with the software localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}.
 With the help of PhraseApp's [In-Context Editor](http://demo.phraseapp.com/){:target="_blank"} we are now able to see, and translate the single strings directly in our software.
-So taking into account the context: Check!
 
 ## Benefit of a good memory
 
 Having a look at the context is not enough.
 You also have to remember, which terminology, and phrasing you used in similar texts before.
 This way, you can come up with consistent, and understandable UI texts.
-Of course, [PhraseApp's](https://phraseapp.com/){:target="_blank"} Translation Memory can help to tackle this.
+[PhraseApp](https://phraseapp.com/){:target="_blank"} also offers a Translation Memory to tackle this.
 But Translation Memories do not always show every result, and (most of the time) do not take into account syntax similarities, or content overlaps.
 Thus, it helps if you are able to remember what you already did before.
 So, stay concentrated, don't forget the past, and benefit from the work you already did.
@@ -47,13 +46,13 @@ Yes, it will take some time in the beginning.
 And yes, you need quite a few people for it, e.g. colleagues from UX and design.
 BUT after this initial step, the guideline will simplify your wording tasks every single time.
 Once you have established a structure for text types, decide how to apply grammar rules, and how to combine images, and texts.
-This makes creating UI tests a better and faster process.
+This makes creating UI texts a better and faster process.
 Additionally, your texts will be consistent and coherent.
 
 ## Be aware that you might need to do QA
 
 Ideally, you shape the UI texts at the end of a feature development process.
-After the User Experience is set, and design has been implemented.
+After the user experience is set, and design has been implemented.
 But there will be cases where the communication was not completely perfect.
 That's why you might come across some issues that are not perfectly implemented from UX and UI perspective during your wording sessions.
 There is only one way to solve these issues: communication!
@@ -62,7 +61,7 @@ Talk to the product owner or developers, and have a look if the software can be 
 ## Look for a sparing partner
 
 Working in a team means you are more creative, you decrease the risk of slips, and you can benefit from a broader background knowledge.
-So, for a good wording, you should always apply the four-eyes principle.
+So, for a great wording, you should always apply the four-eyes principle.
 
 ## What else to think of?
 
