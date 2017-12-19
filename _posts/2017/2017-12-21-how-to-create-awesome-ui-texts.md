@@ -41,12 +41,12 @@ So, stay concentrated, don't forget the past, and benefit from the work you alre
 
 ## Create your own guidelines
 
-Taking the time to come up with some guidelines for the UI will help you tremendously.
+Taking the time to come up with some guidelines for UI texts will help you tremendously.
+Once you have established a structure for text types, decide how to apply grammar rules, and how to combine images, and texts.
+This makes creating UI texts a better and faster process.
 Yes, it will take some time in the beginning.
 And yes, you need quite a few people for it, e.g. colleagues from UX and design.
 BUT after this initial step, the guideline will simplify your wording tasks every single time.
-Once you have established a structure for text types, decide how to apply grammar rules, and how to combine images, and texts.
-This makes creating UI texts a better and faster process.
 Additionally, your texts will be consistent and coherent.
 
 ## Be aware that you might need to do QA
@@ -54,7 +54,7 @@ Additionally, your texts will be consistent and coherent.
 Ideally, you shape the UI texts at the end of a feature development process.
 After the user experience is set, and design has been implemented.
 But there will be cases where the communication was not completely perfect.
-That's why you might come across some issues that are not perfectly implemented from UX and UI perspective during your wording sessions.
+That's why you might come across some issues that are not perfectly implemented from UX and UI perspective.
 There is only one way to solve these issues: communication!
 Talk to the product owner or developers, and have a look if the software can be changed accordingly.
 
@@ -67,8 +67,8 @@ So, for a great wording, you should always apply the four-eyes principle.
 
 Besides the above tasks, great UI texts require even more:
 
-- Keep in mind the length of your texts. If they are already long, how long will they possibly be in other languages?
-- Differentiate between technically correct texts, and texts the user will understand.
+- Keep in mind the length of your texts. If the original texts are already long, how long will they possibly be in other languages? Additionally, short texts help to easily understand the subject.
+- Speak the language of your target group. For example, you sometimes need to differentiate between technically correct texts, and texts the user will understand.
 
 Before I sneaked into the session, I sometimes wondered how our UI writers can discuss a whole hour about just three or four words.
 Now I understand.
