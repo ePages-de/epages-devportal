@@ -1,0 +1,130 @@
+---
+layout: about
+permalink: /about/
+title: About us
+header_image: about.jpg
+---
+
+
+<section class="about">
+
+  <div class="card">
+
+    <h2 class="card__title">Who we are</h2>
+
+    <p class="card__body">Lorem</p>
+
+    <p class="card__footer">
+      <a href="/devjobs/">Find new working adventures as an ePages Dev ›</a>
+    </p>
+
+  </div>
+
+</section>
+
+
+
+
+
+<section class="more">
+
+  <div class="card">
+
+    <h2 class="card__title">Find out more...</h2>
+
+    <!-- Twitter and YouTube reference goes here-->
+
+    <p class="card__body">
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      <a href="https://www.epages.com">www.epages.com</a>
+      <span> (Company website)</span>
+    </p>
+
+  </div>
+
+</section>
+
+
+
+
+
+<section class="events">
+
+  <h2 class="section__title">Behind every motivated tech team is a nice working atmosphere with cool events</h2>
+
+  <p class="section__body">Lorem</p>
+
+  <div class="carousel  js-carousel--about">
+
+    {% assign events = site.data.events %}
+    {% for ev in events %}
+
+      <div class="carousel__item">
+
+        <div class="card  card--event">
+          {% if ev.video %}
+            <div class="card--event__play-icon">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+          {% endif %}
+          <div class="card--event__image" style="background-image: url('/assets/img/pages/about/{{ ev.image }}');"></div>
+          <div class="card--event__body">
+            <h4 class="card--event__title">{{ ev.title }}</h4>
+            <div class="card--event__date">{{ ev.date }}</div>
+          </div>
+        </div>
+
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="carousel__paginator">
+    <div class="prev">‹</div>
+    <div class="next">›</div>
+  </div>
+
+</section>
+
+
+
+
+
+<section class="exhibitions">
+
+  <h2 class="section__title">Let's meet!</h2>
+
+  <p class="section__body">We are exhibiting at many techy events. Get in touch with us!</p>
+
+  <div class="card-container  card-container--exhibition">
+
+    {% assign exhibitions = site.data.exhibitions %}
+    {% for ex in exhibitions %}
+
+      <div class="card--float">
+
+        <div class="card  card--exhibition">
+          <a target="_blank" href="{{ event.link }}">
+            <div class="card--exhibition__date       ">{{ ex.date }}</div>
+            <div class="card--exhibition__title      ">{{ ex.title }}</div>
+            <div class="card--exhibition__description">{{ ex.description }}</div>
+            <div class="card--exhibition__time       ">{{ ex.time }}</div>
+            <div class="card--exhibition__address    ">{{ ex.address }}</div>
+          </a>
+        </div>
+
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+
+
+
+<script src="/assets/slick/slick.min.js"></script>
+<script src="/assets/js/about.js"></script>

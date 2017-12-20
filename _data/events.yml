@@ -1,8 +1,18 @@
-- title: WIK HTWK Leipzig
-  description: We are exhibiting at this event.
-  link: http://www.wikway.de/wik-leipzig-htwk
-  location: 29. Nov 2017<br>10am - 4pm<br>HTKW Leipzig - Foyer NIEPER-Bau<br>Karl-Liebknecht-Straße 134<br>04277 Leipzig
-- title: academix Thüringen
-  description: We are exhibiting at this event.
-  link: http://www.thaff-thueringen.de/academix-thueringen/
-  location: 2. Dez 2017<br>10am - 6pm<br>Messe Erfurt<br>Gothaer Straße 34<br>99084 Erfurt
+- title: About us
+  date: '&nbsp;'
+  image: placeholder.jpg
+  video: https://www.youtube.com/watch?v=FbE2FyqTJCY
+
+- title: Commerce Summit 2017
+  date: 21. - 22. Sep 2017
+  image: placeholder.jpg
+
+- title: Hackathon 2017
+  date: 23. Mar 2017
+  image: placeholder.jpg
+  video: https://www.youtube.com/watch?v=j-qMUo8_ChQ
+
+- title: Hackathon 2016
+  date: 24. Mar 2016
+  image: placeholder.jpg
+  video: https://www.youtube.com/watch?v=2UdyQma76IA

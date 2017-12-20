@@ -1,0 +1,125 @@
+body.about
+
+  section
+    margin: 8rem 0
+
+  .events
+    position: relative
+
+    .carousel
+
+      &__item
+
+        .card--event
+          position: relative
+          margin: 1rem
+          line-height: 1
+
+          &__play-icon
+            cursor: pointer
+            position: absolute
+            color: transparentize($white, .1)
+            font-size: 5rem
+            line-height: 1
+            left: 50%
+            top:  50%
+            transform: translate(-50%, calc(-50% - 47px))
+            display: inline-flex
+
+          &__image
+            height: 250px
+            width: 100%
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center bottom
+            border-top-left-radius: $base-border-radius
+            border-top-right-radius: $base-border-radius
+
+          &__body
+            padding: 2rem
+
+          &__title
+            margin-bottom: 1rem
+
+          &__date
+            color: $gray-light
+            text-align: right
+            font-size: 1.8rem
+
+        &:first-child
+
+          .card--event
+            background: $beyond-blue
+            color: $white
+
+
+
+
+
+  .exhibitions
+
+    .card-container--exhibition
+      overflow: hidden
+
+      +grid-media($grid-medium)
+        position: relative
+
+        &::before
+          content: ''
+          position: absolute
+          display: block
+          width: 1px
+          background: linear-gradient($whitesmoke, #cecece, #cecece, #cecece, #cecece, #cecece, #cecece, $whitesmoke)
+          height: 100%
+          margin: auto
+          top:    0
+          left:   0
+          right:  0
+          bottom: 0
+
+      .card--float
+        width: 100%
+
+        +grid-media($grid-medium)
+          width: 50%
+          position: relative
+          box-sizing: border-box
+          padding: 4rem
+
+          &:nth-child(even)
+            float: right
+            margin-top: 80px
+
+            .card
+              text-align: left
+
+              &::after
+                content: ''
+                position: absolute
+                display: block
+                width: 4rem
+                background: #cecece
+                height: 1px
+                margin: auto
+                top:  7.2rem
+                left: 0
+
+          &:nth-child(odd)
+            float: left
+
+            .card
+              text-align: right
+
+              &::after
+                content: ''
+                position: absolute
+                display: block
+                width: 4rem
+                background: #cecece
+                height: 1px
+                margin: auto
+                top:   7.2rem
+                right: 0
+
+        .card--exhibition
+          padding: 2rem

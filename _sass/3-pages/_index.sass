@@ -1,50 +1,74 @@
 body.default
+
   .card:not(.card--post)
     padding: 2rem
     margin: 8rem -1rem
+
   .column-wrapper
     display: flex
     flex-wrap: wrap
     justify-content: center
+
     .column
       position: relative
+
       .fa
         color: $beyond-blue
+
       &__title
         margin-bottom: 1rem
 
+
+
+
+
   .intro
+
     .column
       text-align: center
       padding: 2rem
       flex-basis: 100%
+
       +grid-media($grid-medium)
         flex-basis: calc(100% / 2 - 4rem)
+
       .fa
         font-size: 5rem
         margin-bottom: 2rem
 
+
+
+
+
   .steps
+
     .section__title
       margin: 2rem 0
       text-align: center
+
       +grid-media($grid-small)
         width: 80%
+
       +grid-media($grid-medium)
         width: 100%
+
     .column
       padding: 2rem
       text-align: center
       flex-basis: 100%
+
       +grid-media($grid-medium)
         flex-basis: calc(100% / 3 - 4rem)
+
       .fa
         font-size: 5rem
         margin-bottom: 2rem
         padding: 4rem
         border: 2px solid $beyond-blue
         border-radius: 50%
+
       +grid-media($grid-medium)
+
         &:not(:last-child):after
           content: '›'
           font-size: 12rem
@@ -52,85 +76,100 @@ body.default
           position: absolute
           right: -2rem
           top: 0
+
       &__body
         padding-bottom: 8rem
+
         &:last-child
           padding-bottom: 0
+
       .cta--absolute
         font-size: 1.8rem
         text-align: center
         width: inherit
         bottom: 2rem
+
         +grid-media($grid-medium)
           width: calc(100% - 10rem)
+
     .column-2
       margin: 3rem 0
+
       +grid-media($grid-medium)
         margin: 0
 
+
+
+
+
   .about
+
     .section__title
       margin: 0 0 1rem
+
     .column-wrapper
+
       +grid-media($grid-medium)
         flex-wrap: nowrap
+
       .column
         padding: 2rem
+
         .fa
           font-size: 8rem
+
       .column-1
         flex-basis: 10%
         display: flex
         align-items: center
         justify-content: center
+
       .column-2
         flex-basis: 90%
+
+
+
+
 
   .news
     margin: 8rem 0
     text-align: center
     position: relative
+
     .section__title
       margin: 0 0 1rem
+
     .carousel
-      position: relative
       margin: 1rem -3rem 0
       text-align: left
+
       .card--post
         margin: 2rem
         min-height: 320px
+
         +grid-media($grid-medium)
           min-height: 350px
+
       &__link
         display: flex
         justify-content: center
         align-items: center
-        &:hover,
-        &:focus
+
+        &:hover, &:focus
           box-shadow: none
-    .paginator
-      position: absolute
-      bottom: 25rem
-      left: 0
-      right: 0
-      .prev, .next
-        position: absolute
-        top: 0
-        font-size: 8rem
-        cursor: pointer
-        color: lighten($gray-light, 20%)
-        &.slick-disabled
-          visibility: hidden
-      .prev
-        left: -6rem
-      .next
-        right: -6rem
+
+
+
+
 
   .more
     text-align: center
+
     .card
+
       .section__title
         margin: 2rem 0 1rem
+
       .cta
         margin: 3rem 0 2rem
 

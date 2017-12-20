@@ -1,0 +1,25 @@
+.carousel
+  position: relative
+  margin: 0 -1rem
+
+.carousel__paginator
+  position: absolute
+  bottom: 25rem
+  left: 0
+  right: 0
+
+  .prev, .next
+    position: absolute
+    top: 0
+    font-size: 8rem
+    cursor: pointer
+    color: lighten($gray-light, 20%)
+
+    &.slick-disabled
+      visibility: hidden
+
+  .prev
+    left: -5rem
+
+  .next
+    right: -5rem

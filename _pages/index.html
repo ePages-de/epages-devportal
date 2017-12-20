@@ -8,99 +8,150 @@ background_image: index.jpg
 ---
 
 <section class="intro">
+
   <div class="card  column-wrapper">
+
     <div class="column  column-1">
       <i class="fa fa-connectdevelop" aria-hidden="true"></i>
       <h4 class="column__title">API first</h4>
       <p class="column__body">Our ultimate aim is a developer-friendly REST API. That's why we've designed the BEYOND API first, provising a sound basis to build an awesome product on top of it.</p>
     </div>
+
     <div class="column  column-2">
       <i class="fa fa-cubes" aria-hidden="true"></i>
       <h4 class="column__title">Microservices architecture</h4>
       <p class="column__body">We are developing for the cloud. That's why we've established an ecosystem of microservices for our highly scalable and flexible ecommerce platform.</p>
     </div>
+
     <div class="column  column-3">
       <i class="fa fa-line-chart" aria-hidden="true"></i>
       <h4 class="column__title">Growing functionality</h4>
       <p class="column__body">BEYOND covers already a whole ecommerce infrastructure, and the functionality is ever growing! Be involved from the very start, and help shape our ecommerce platform.</p>
     </div>
+
     <div class="column  column-4">
       <i class="fa fa-heart" aria-hidden="true"></i>
       <h4 class="column__title">Build apps with love</h4>
       <p class="column__body">Share your love for app development with us. Build apps in your language of choice, and empower our merchants with amazing integrations.</p>
     </div>
+
   </div>
+
 </section>
 
+
+
+
+
 <section class="steps">
+
   <div class="card  column-wrapper">
+
     <h2 class="section__title">Empower online businesses worldwide with your app:</h2>
+
     <div class="column  column-1">
       <i class="fa fa-book" aria-hidden="true"></i>
       <h4 class="column__title">Get started</h4>
       <p class="column__body">Learn about the BEYOND API, and get inspired by the possibilities it offers.</p>
       <a href="http://docs.beyondshop.cloud/" class="cta  cta--beyond  cta--absolute" target="_blank">Read docs</a>
     </div>
+
     <div class="column  column-2">
       <i class="fa fa-code" aria-hidden="true"></i>
       <h4 class="column__title">Develop your app</h4>
       <p class="column__body">Sign up for a BEYOND shop, get yourself a token in the Developer area, and start developing your app.</p>
       <a href="https://signup.beyondshop.cloud/" class="cta  cta--beyond  cta--absolute" target="_blank">Sign up</a>
     </div>
+
     <div class="column  column-3">
       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
       <h4 class="column__title">Launch it!</h4>
       <p class="column__body">Once your app is tried and tested, let us know, and we clear the way for it's publication in our store!</p>
     </div>
+
   </div>
+
 </section>
 
+
+
+
+
 <section class="about">
+
   <div class="card  column-wrapper">
+
     <div class="column  column-1">
       <i class="fa fa-rocket" aria-hidden="true"></i>
     </div>
+
     <div class="column  column-2">
       <h2 class="section__title">Innovative platform packed with powerful ecommerce features</h2>
       <p class="section__body">With BEYOND, our customers can draw from the full source of ecommerce! Be it controlling different commerce channels, integrating with Website Builders, or creating an efficient connection of ERP and ecommerce - BEYOND means successful business!</p>
     </div>
+
   </div>
+
 </section>
+
+
+
+
 
 <section class="news">
-    <h2 class="section__title">What's new?</h2>
-    <p class="section__body">We're constantly pushing the latest topics which currently matter in the tech business. See what we're up to right now, by checking our latest blog posts below.</p>
-    <div class="carousel">
-      {% for post in site.posts limit:5 %}
-        <div class="carousel__item">
-            {% include components/post-card.html
-              category=post.category
-              header_image=post.header_image
-              title=post.title
-              authors=post.authors
-              date=post.date
-              url=post.url %}
-        </div>
-      {% endfor %}
+
+  <h2 class="section__title">What's new?</h2>
+
+  <p class="section__body">We're constantly pushing the latest topics which currently matter in the tech business. See what we're up to right now, by checking our latest blog posts below.</p>
+
+  <div class="carousel  js-carousel--index">
+
+    {% for post in site.posts limit:5 %}
+
       <div class="carousel__item">
-        <div class="card--post  carousel__link">
-            <a href="/blog/">Check out the developer blog ›</a>
-        </div>
+        {% include components/post-card.html
+          category=post.category
+          header_image=post.header_image
+          title=post.title
+          authors=post.authors
+          date=post.date
+          url=post.url %}
+      </div>
+
+    {% endfor %}
+
+    <div class="carousel__item">
+      <div class="card--post  carousel__link">
+        <a href="/blog/">Check out the developer blog ›</a>
       </div>
     </div>
-    <div class="paginator">
-      <div class="prev">‹</div>
-      <div class="next">›</div>
-    </div>
+
+  </div>
+
+  <div class="carousel__paginator">
+    <div class="prev">‹</div>
+    <div class="next">›</div>
+  </div>
+
 </section>
 
+
+
+
+
 <section class="more">
+
   <div class="card">
     <h2 class="section__title">More REST API docs</h2>
     <p class="section__body">If you're developing for our Now and Base platform, here's the REST documentation you'll need:</p>
     <a href="/apps/" class="cta  cta--now">Read docs</a>
   </div>
+
 </section>
+
+
+
+
 
 <script src="/assets/slick/slick.min.js"></script>
 <script src="/assets/js/index.js"></script>
