@@ -3,6 +3,88 @@ body.about
   section
     margin: 8rem 0
 
+
+
+
+  .about
+    display: flex
+    flex-direction: column
+    margin-left:  -1rem
+    margin-right: -1rem
+
+    +grid-media($grid-medium)
+      flex-direction: row
+
+    .card
+      padding: 2rem
+      margin: 1rem
+      text-align: center
+
+      +grid-media($grid-medium)
+        flex-basis: calc(100% / 2)
+
+      &__footer
+        background-color: $beyond-blue
+        color: $white
+        padding: 2rem
+        margin: 2rem -2rem -2rem
+        border-bottom-left-radius:  $base-border-radius
+        border-bottom-right-radius: $base-border-radius
+
+        A
+          color: $white
+          border-bottom: 1px solid $white
+          line-height: 1
+
+          &:hover, &:focus
+            color: darken($white, 10%)
+            border-color: darken($white, 10%)
+            transition: $base-transition
+
+        .fa
+          margin-right: 1rem
+          position: relative
+          top: .2rem
+
+      .panels
+        display: flex
+        margin-left:   -2rem
+        margin-right:  -2rem
+        margin-bottom: -2rem
+
+        .panel
+          flex-basis: 50%
+          text-align: center
+          line-height: 1
+
+          &:hover, &:focus
+            background-color: darken($white, 3%)
+            transition: $base-transition
+
+          &-wrap
+            font-size: 1.6rem
+            color: $base-font-color
+            padding: 2rem
+
+            .fa
+              display: block
+              font-size: 4rem
+              margin-bottom: 1rem
+
+          &--twitter
+
+            .fa
+              color: #1dcaff
+
+          &--youtube
+
+            .fa
+              color: #ff0000
+
+
+
+
+
   .events
     position: relative
 
@@ -18,7 +100,7 @@ body.about
           &__play-icon
             cursor: pointer
             position: absolute
-            color: transparentize($white, .1)
+            color: transparentize($white, .4)
             font-size: 5rem
             line-height: 1
             left: 50%
@@ -26,13 +108,17 @@ body.about
             transform: translate(-50%, calc(-50% - 47px))
             display: inline-flex
 
+            &:hover, &:focus
+              color: transparentize($white, .2)
+              transition: $base-transition
+
           &__image
             height: 250px
             width: 100%
             background-size: cover
             background-repeat: no-repeat
             background-position: center bottom
-            border-top-left-radius: $base-border-radius
+            border-top-left-radius:  $base-border-radius
             border-top-right-radius: $base-border-radius
 
           &__body
@@ -49,7 +135,7 @@ body.about
         &:first-child
 
           .card--event
-            background: $beyond-blue
+            background-color: $beyond-blue
             color: $white
 
 
@@ -106,6 +192,7 @@ body.about
 
           &:nth-child(odd)
             float: left
+            margin-top: 40px
 
             .card
               text-align: right
