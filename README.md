@@ -12,4 +12,4 @@ _pages/,
 _posts/ and
 assets/img/
 
-is licensed under CC-BY-4.0. The logos in the folder assets/logos/ may not be shared or adapted. The different fonts in the assets/fonts_new/ and assets/fonts_new/ folders are licensed under their own respective licenses. All other content is licensed under MIT.
+is licensed under CC-BY-4.0. The logos in the folder assets/logos/ may not be shared or adapted. The different fonts in the assets/fonts_new/ and assets/fonts-awesome/ folders are licensed under their own respective licenses. All other content is licensed under MIT.
