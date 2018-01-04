@@ -3,6 +3,9 @@ body.about
   section
     margin: 8rem 0
 
+    .spacer-1
+      height: 1rem
+
 
 
 
@@ -22,6 +25,9 @@ body.about
 
       +grid-media($grid-medium)
         flex-basis: calc(100% / 2)
+
+      &__title
+        margin-bottom: 1rem
 
       &__footer
         background-color: $beyond-blue
@@ -46,6 +52,7 @@ body.about
           position: relative
           top: .2rem
 
+
       .panels
         display: flex
         margin-left:   -2rem
@@ -57,12 +64,16 @@ body.about
           text-align: center
           line-height: 1
 
+          A
+            display: block
+            height: 100%
+
           &:hover, &:focus
             background-color: darken($white, 3%)
             transition: $base-transition
 
           &-wrap
-            font-size: 1.6rem
+            // font-size: 1.6rem
             color: $base-font-color
             padding: 2rem
 
@@ -132,6 +143,7 @@ body.about
             text-align: right
             font-size: 1.8rem
 
+
         &:first-child
 
           .card--event
@@ -163,6 +175,7 @@ body.about
           right:  0
           bottom: 0
 
+
       .card--float
         width: 100%
 
@@ -177,7 +190,6 @@ body.about
             margin-top: 80px
 
             .card
-              text-align: left
 
               &::after
                 content: ''
@@ -195,7 +207,6 @@ body.about
             margin-top: 40px
 
             .card
-              text-align: right
 
               &::after
                 content: ''
@@ -208,5 +219,53 @@ body.about
                 top:   7.2rem
                 right: 0
 
+
         .card--exhibition
           padding: 2rem
+          text-align: center
+          line-height: 1
+
+          A
+            display: block
+
+          &__upper
+            background: #944788
+            background: $beyond-beige
+            margin: -2rem -2rem 0
+            padding: 1.5rem
+            border-top-left-radius:  $base-border-radius
+            border-top-right-radius: $base-border-radius
+
+          &__date
+            color: transparentize($white, .5)
+            color: darken($beyond-beige, 20%)
+
+          &__title
+            font-family: $display-font-family
+            color: $white
+            color: darken($beyond-beige, 20%)
+            color: $base-font-color-light
+            position: relative
+            bottom: -.2rem
+
+          &__time
+            color: transparentize($white, .5)
+            color: darken($beyond-beige, 20%)
+
+          &__lower
+            background: $white
+            margin: 0 -2rem -2rem
+            padding: 1.5rem
+            border-bottom-left-radius:  $base-border-radius
+            border-bottom-right-radius: $base-border-radius
+
+          &__description
+            color: $base-font-color-light
+
+          &__address
+            color: darken($beyond-beige, 20%)
+            line-height: 1.2
+
+          &:hover, &:focus
+            box-shadow: $hover-box-shadow
+            transition: $base-transition
