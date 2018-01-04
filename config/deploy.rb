@@ -54,10 +54,10 @@ namespace :jekyll do
     on roles(:app) do
       execute("mkdir #{release_path}/_site/apps")
       execute("mkdir #{release_path}/_site/soap")
-      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/apps/* #{release_path}/_site/apps")
-      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/soap/* #{release_path}/_site/soap")
-      execute("cp -r /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/assets/* #{release_path}/_site/assets")
-      execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps/#{fetch(:application)}")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/apps/* #{release_path}/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/soap/* #{release_path}/_site/soap")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/assets/* #{release_path}/_site/assets")
+      execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps")
     end
   end
 
