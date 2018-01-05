@@ -2,47 +2,100 @@
 layout: default
 permalink: /
 header_image: main.jpg
-upper_title: Hundreds of thousands of online shops worldwide
-title: Powered by your app.
+title: The next generation <br>ecommerce infrastructure
+sub_title: Are you ready for take off?
 background_image: index.jpg
 ---
 
-<section class="section">
-
-  <p class="section__text  section__text--margin-bottom">Share your love for app development with us and empower our merchants with amazing integrations.</p>
-  <p class="section__text">Explore the ePages REST APIs tailored for our cloud-based eCommerce platform:</p>
-
-  <div class="tiles">
-    {% assign list_now = 'Bulletproof architecture, Seamless App Store integration, Unlimited use cases, Comprehensive global customer base' | split: ', ' %}
-
-    {% include components/index-card.html class='now'
-                                          title='ePages Now'
-                                          body='Reach over 140.000 existing merchants worldwide:'
-                                          list=list_now
-                                          signup='#signup'
-                                          signup_target='_self'
-                                          docs='https://developer.epages.com/apps/'
-                                          docs_target='_self'
-                                          cta='Read Docs' %}
-
-    {% assign list_beyond = 'API-first approach, Microservices architecture, Open-Source-powered, Complex-free &amp; flexible, Growing functionality' | split: ', ' %}
-
-    {% include components/index-card.html class='beyond'
-                                          title='ePages Beyond'
-                                          body='Be involved from the very start and help shape our new Commerce Cockpit:'
-                                          list=list_beyond
-                                          signup='https://signup.beyondshop.cloud/'
-                                          signup_target='_blank'
-                                          docs='http://docs.beyondshop.cloud/'
-                                          docs_target='_blank'
-                                          cta='Read Docs'
-                                          flag='The ePages Lab' %}
+<section class="intro">
+  <div class="card  column-wrapper">
+    <div class="column  column-1">
+      <i class="fas fa-plug  fa-3x" aria-hidden="true"></i>
+      <h4 class="column__title">API first</h4>
+      <p class="column__body">Our ultimate aim is a developer-friendly REST API. That's why we've designed the BEYOND API first, provising a sound basis to build an awesome product on top of it.</p>
+    </div>
+    <div class="column  column-2">
+      <i class="fas fa-cubes  fa-3x" aria-hidden="true"></i>
+      <h4 class="column__title">Microservices architecture</h4>
+      <p class="column__body">We are developing for the cloud. That's why we've established an ecosystem of microservices for our highly scalable and flexible ecommerce platform.</p>
+    </div>
+    <div class="column  column-3">
+      <i class="fas fa-chart-line  fa-3x" aria-hidden="true"></i>
+      <h4 class="column__title">Growing functionality</h4>
+      <p class="column__body">BEYOND covers already a whole ecommerce infrastructure, and the functionality is ever growing! Be involved from the very start, and help shape our ecommerce platform.</p>
+    </div>
+    <div class="column  column-4">
+      <i class="fas fa-heart  fa-3x" aria-hidden="true"></i>
+      <h4 class="column__title">Build apps with love</h4>
+      <p class="column__body">Share your love for app development with us. Build apps in your language of choice, and empower our merchants with amazing integrations.</p>
+    </div>
   </div>
-
 </section>
 
-<link rel="stylesheet" href="/assets/css/magnific-popup.css">
-<script src="/assets/js/jquery.magnific-popup.min.js"></script>
-<script src="/assets/js/index.js"></script>
+<section class="steps">
+  <div class="card  column-wrapper">
+    <h2 class="section__title">Empower online businesses worldwide with your app:</h2>
+    <div class="column  column-1">
+      <i class="fas  fa-book  fa-3x  fa-fw" aria-hidden="true"></i>
+      <h4 class="column__title">Get started</h4>
+      <p class="column__body"><a href="http://docs.beyondshop.cloud/" target="_blank">Read the docs</a> and learn about the BEYOND API, and get inspired by the possibilities it offers.</p>
+    </div>
+    <div class="column  column-2">
+      <i class="fas  fa-code  fa-3x  fa-fw" aria-hidden="true"></i>
+      <h4 class="column__title">Develop your app</h4>
+      <p class="column__body"><a href="https://signup.beyondshop.cloud/" target="_blank">Sign up for free</a> for a BEYOND shop, get yourself a token in the Developer area, and start developing your app.</p>
+    </div>
+    <div class="column  column-3">
+      <i class="fas  fa-paper-plane  fa-3x  fa-fw" aria-hidden="true"></i>
+      <h4 class="column__title">Launch it!</h4>
+      <p class="column__body">Once your app is tried and tested, let us know, and we clear the way for its publication in our store!</p>
+    </div>
+  </div>
+</section>
 
-<iframe id="frame--epages-now" style="display: none;" name="frame--epages-now" frameborder="0" allowtransparency="true" width="900px" height="720px"></iframe>
+<section class="about">
+  <div class="card  column-wrapper">
+    <div class="column  column-1">
+      <i class="fas  fa-rocket  fa-3x" aria-hidden="true"></i>
+    </div>
+    <div class="column  column-2">
+      <h2 class="section__title">Innovative ecommerce platform</h2>
+      <p class="section__body">With BEYOND, our customers can draw from the full source of ecommerce! Be it controlling different commerce channels, integrating with Website Builders, or creating an efficient connection of ERP and ecommerce - BEYOND means successful business!</p>
+    </div>
+  </div>
+</section>
+
+<section class="news">
+    <h2 class="section__title">Tech News</h2>
+    <p class="section__body">We regularly share knowledge about the latest topics, and challenges that drive our work. See what we're up to, and check out our latest blog posts:</p>
+    <div class="carousel">
+      {% for post in site.posts limit:5 %}
+        <div class="carousel__item">
+            {% include components/post-card.html
+              category=post.category
+              header_image=post.header_image
+              title=post.title
+              authors=post.authors
+              date=post.date
+              url=post.url %}
+        </div>
+      {% endfor %}
+      <div class="carousel__item">
+        <div class="card--post  carousel__link">
+            <a href="/blog/">More posts ›</a>
+        </div>
+      </div>
+    </div>
+    <div class="paginator">
+      <div class="prev">‹</div>
+      <div class="next">›</div>
+    </div>
+</section>
+
+<section class="more">
+  <h2 class="section__title">More REST API docs</h2>
+  <p class="section__body">If you're developing for our Now and Base platform, <a href="/apps/">here's the REST documentation you'll need</a>.</p>
+</section>
+
+<script src="/assets/slick/slick.min.js"></script>
+<script src="/assets/js/index.js"></script>

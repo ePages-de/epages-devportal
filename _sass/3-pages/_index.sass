@@ -1,77 +1,198 @@
-.section
+body.default
 
-  &__text
-    text-align: center
-    font-size: 2rem
+  .card:not(.card--post)
+    padding: 2rem
+    margin: 8rem -1rem
 
-    &--margin-bottom
-      margin-bottom: 1em
+  .column-wrapper
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
 
-  .tiles
-    +grid-container
-    +grid-collapse($tile-grid)
-    margin-top: $card-margin-mobile
-    box-sizing: border-box
+    .column
+      position: relative
 
-    +grid-media($grid-medium)
-      margin-top: $card-margin-desktop
-      display: flex
+      svg
+        color: $cat-coding
 
-  .tile
-    +grid-column(12, $tile-grid)
-    position: relative
-    padding-bottom: 7rem
+      &__title
+        margin-bottom: 1rem
 
-    &:last-child
-      margin-top: $card-margin-mobile
+
+
+
+
+  .intro
+
+    .column
+      text-align: center
+      padding: 2rem
+      flex-basis: 100%
 
       +grid-media($grid-medium)
-        margin-top: 0
+        flex-basis: calc(100% / 2 - 4rem)
 
-    +grid-media($grid-medium)
-      +grid-column(6, $tile-grid)
+      svg
+        margin-bottom: 2rem
 
-    &__header
-      width: 100%
+
+
+
+
+  .steps
+
+    .section__title
+      margin: 2rem 0
       text-align: center
-      padding: 3rem 0
-      color: $white
-      border-top-left-radius: 4px
-      border-top-right-radius: 4px
 
-      &--now
-        background-color: lighten($beyond-blue, 5%)
+      +grid-media($grid-small)
+        width: 80%
 
-      &--beyond
-        background-color: $beyond-green
+      +grid-media($grid-medium)
+        width: 100%
 
-    &__body
-      padding: 3rem
+    .column
+      padding: 2rem
+      text-align: center
+      flex-basis: 100%
 
-    &__list
-      list-style: initial
-      margin: .2em 0 .8em 3rem
+      +grid-media($grid-medium)
+        flex-basis: calc(100% / 3 - 4rem)
 
-    &__flag
-      background-color: #c7c7c7
-      color: #4c4c4c
-      font-size: 1.4rem
-      letter-spacing: .05em
-      box-shadow: $hover-box-shadow
-      padding: .4em .8em
+      svg
+        margin-bottom: 2rem
+
+      +grid-media($grid-medium)
+
+        &:not(:last-child):after
+          content: '›'
+          font-size: 12rem
+          color: lighten($gray-light, 20%)
+          position: absolute
+          right: -2rem
+          top: 0
+
+      &__body
+        padding-bottom: 8rem
+
+        &:last-child
+          padding-bottom: 0
+
+    .column-2
+      margin: 3rem 0
+
+      +grid-media($grid-medium)
+        margin: 0
+
+
+
+
+
+  .about
+
+    .section__title
+      margin: 0 0 1rem
+
+    .column-wrapper
+
+      +grid-media($grid-medium)
+        flex-wrap: nowrap
+
+      .column
+        padding: 2rem
+
+      .column-1
+        flex-basis: 10%
+        display: flex
+        align-items: center
+        justify-content: center
+
+      .column-2
+        flex-basis: 90%
+
+
+
+
+
+  .news
+    margin: 8rem 0
+    text-align: center
+    position: relative
+
+    .section__title
+      margin: 0 0 1rem
+
+    .section__body
+
+      +grid-media($grid-large)
+        width: 70%
+        margin: 0 auto
+
+    .carousel
+      position: relative
+      margin: 1rem -3rem 0
+      text-align: left
+
+      .card--post
+        margin: 2rem
+        min-height: 320px
+
+        +grid-media($grid-medium)
+          min-height: 350px
+
+      &__link
+        display: flex
+        justify-content: center
+        align-items: center
+
+        &:hover, &:focus
+          box-shadow: none
+
+    .paginator
       position: absolute
-      top: 80px
-      right: -1rem
-      border-top-left-radius: 4px
-      border-bottom-left-radius: 4px
+      bottom: 25rem
+      left: 0
+      right: 0
 
-      &::before
-        content: ''
+      .prev, .next
+        visibility: hidden
         position: absolute
-        right: 0
-        bottom: -1rem
-        width: 0
-        height: 0
-        border-style: solid
-        border-width: 1rem 1rem 0 0
-        border-color: darken(#c7c7c7, 10%) transparent transparent transparent
+        top: 0
+        font-size: 8rem
+        cursor: pointer
+        color: lighten($gray-light, 20%)
+
+        &.slick-disabled
+          visibility: hidden
+
+        +grid-media($grid-medium)
+          visibility: visible
+
+      .prev
+        left: -4rem
+
+        +grid-media($grid-huge)
+          left: -5rem
+
+        +grid-media($grid-max)
+          left: -6rem
+
+      .next
+        right: -4rem
+
+        +grid-media($grid-huge)
+          right: -5rem
+
+        +grid-media($grid-max)
+          right: -6rem
+
+
+
+
+
+  .more
+    text-align: center
+
+    .section__title
+      margin: 2rem 0 1rem
+
