@@ -12,8 +12,8 @@ body.default
     .column
       position: relative
 
-      .fa
-        color: $beyond-blue
+      svg
+        color: $cat-coding
 
       &__title
         margin-bottom: 1rem
@@ -32,8 +32,7 @@ body.default
       +grid-media($grid-medium)
         flex-basis: calc(100% / 2 - 4rem)
 
-      .fa
-        font-size: 5rem
+      svg
         margin-bottom: 2rem
 
 
@@ -60,12 +59,8 @@ body.default
       +grid-media($grid-medium)
         flex-basis: calc(100% / 3 - 4rem)
 
-      .fa
-        font-size: 5rem
+      svg
         margin-bottom: 2rem
-        padding: 4rem
-        border: 2px solid $beyond-blue
-        border-radius: 50%
 
       +grid-media($grid-medium)
 
@@ -82,15 +77,6 @@ body.default
 
         &:last-child
           padding-bottom: 0
-
-      .cta--absolute
-        font-size: 1.8rem
-        text-align: center
-        width: inherit
-        bottom: 2rem
-
-        +grid-media($grid-medium)
-          width: calc(100% - 10rem)
 
     .column-2
       margin: 3rem 0
@@ -115,9 +101,6 @@ body.default
       .column
         padding: 2rem
 
-        .fa
-          font-size: 8rem
-
       .column-1
         flex-basis: 10%
         display: flex
@@ -139,6 +122,12 @@ body.default
     .section__title
       margin: 0 0 1rem
 
+    .section__body
+
+      +grid-media($grid-large)
+        width: 70%
+        margin: 0 auto
+
     .carousel
       margin: 1rem -3rem 0
       text-align: left
@@ -158,6 +147,44 @@ body.default
         &:hover, &:focus
           box-shadow: none
 
+    .paginator
+      position: absolute
+      bottom: 25rem
+      left: 0
+      right: 0
+
+      .prev, .next
+        visibility: hidden
+        position: absolute
+        top: 0
+        font-size: 8rem
+        cursor: pointer
+        color: lighten($gray-light, 20%)
+
+        &.slick-disabled
+          visibility: hidden
+
+        +grid-media($grid-medium)
+          visibility: visible
+
+      .prev
+        left: -4rem
+
+        +grid-media($grid-huge)
+          left: -5rem
+
+        +grid-media($grid-max)
+          left: -6rem
+
+      .next
+        right: -4rem
+
+        +grid-media($grid-huge)
+          right: -5rem
+
+        +grid-media($grid-max)
+          right: -6rem
+
 
 
 
@@ -165,11 +192,6 @@ body.default
   .more
     text-align: center
 
-    .card
-
-      .section__title
-        margin: 2rem 0 1rem
-
-      .cta
-        margin: 3rem 0 2rem
+    .section__title
+      margin: 2rem 0 1rem
 
