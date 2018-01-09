@@ -9,6 +9,7 @@
   right: 0
 
   .prev, .next
+    visibility: hidden
     position: absolute
     top: 0
     font-size: 8rem
@@ -18,8 +19,23 @@
     &.slick-disabled
       visibility: hidden
 
+    +grid-media($grid-medium)
+      visibility: visible
+
   .prev
-    left: -5rem
+    left: -4rem
+
+    +grid-media($grid-huge)
+      left: -5rem
+
+    +grid-media($grid-max)
+      left: -6rem
 
   .next
-    right: -5rem
+    right: -4rem
+
+    +grid-media($grid-huge)
+      right: -5rem
+
+    +grid-media($grid-max)
+      right: -6rem

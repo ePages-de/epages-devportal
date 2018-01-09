@@ -97,25 +97,33 @@ background_image: index.jpg
 
 
 <section class="news">
-    <h2 class="section__title">Tech News</h2>
-    <p class="section__body">We regularly share knowledge about the latest topics, and challenges that drive our work. See what we're up to, and check out our latest blog posts:</p>
-    <div class="carousel">
-      {% for post in site.posts limit:5 %}
-        <div class="carousel__item">
-            {% include components/post-card.html
-              category=post.category
-              header_image=post.header_image
-              title=post.title
-              authors=post.authors
-              date=post.date
-              url=post.url %}
-        </div>
-      {% endfor %}
+
+  <h2 class="section__title">Tech News</h2>
+
+  <p class="section__body">We regularly share knowledge about the latest topics, and challenges that drive our work. See what we're up to, and check out our latest blog posts:</p>
+
+  <div class="carousel  js-carousel--index">
+
+    {% for post in site.posts limit:5 %}
+
       <div class="carousel__item">
-        <div class="card--post  carousel__link">
-            <a href="/blog/">More posts ›</a>
-        </div>
+          {% include components/post-card.html
+            category=post.category
+            header_image=post.header_image
+            title=post.title
+            authors=post.authors
+            date=post.date
+            url=post.url %}
       </div>
+
+    {% endfor %}
+
+    <div class="carousel__item">
+
+      <div class="card--post  carousel__link">
+        <a href="/blog/">More posts ›</a>
+      </div>
+
     </div>
 
   </div>
@@ -132,8 +140,11 @@ background_image: index.jpg
 
 
 <section class="more">
+
   <h2 class="section__title">More REST API docs</h2>
+
   <p class="section__body">If you're developing for our Now and Base platform, <a href="/apps/">here's the REST documentation you'll need</a>.</p>
+
 </section>
 
 

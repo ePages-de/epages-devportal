@@ -147,50 +147,13 @@ body.default
         &:hover, &:focus
           box-shadow: none
 
-    .paginator
-      position: absolute
-      bottom: 25rem
-      left: 0
-      right: 0
-
-      .prev, .next
-        visibility: hidden
-        position: absolute
-        top: 0
-        font-size: 8rem
-        cursor: pointer
-        color: lighten($gray-light, 20%)
-
-        &.slick-disabled
-          visibility: hidden
-
-        +grid-media($grid-medium)
-          visibility: visible
-
-      .prev
-        left: -4rem
-
-        +grid-media($grid-huge)
-          left: -5rem
-
-        +grid-media($grid-max)
-          left: -6rem
-
-      .next
-        right: -4rem
-
-        +grid-media($grid-huge)
-          right: -5rem
-
-        +grid-media($grid-max)
-          right: -6rem
-
 
 
 
 
   .more
     text-align: center
+    margin: 8rem -1rem
 
     .section__title
       margin: 2rem 0 1rem
