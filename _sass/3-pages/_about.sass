@@ -21,7 +21,7 @@ body.about
     .card
       padding: 2rem
       margin: 1rem
-      text-align: center
+      // text-align: center
 
       +grid-media($grid-medium)
         flex-basis: calc(100% / 2)
@@ -30,27 +30,37 @@ body.about
         margin-bottom: 1rem
 
       &__footer
-        background-color: $beyond-blue
-        color: $white
+        // background-color: $beyond-blue
+        background-color: $beyond-beige
+        // color: lighten($beyond-blue, 30%)
         padding: 2rem
         margin: 2rem -2rem -2rem
         border-bottom-left-radius:  $base-border-radius
         border-bottom-right-radius: $base-border-radius
 
+        & > *
+          // color: lighten($beyond-blue, 40%)
+          color: $base-font-color-light
+          // border-bottom-color: lighten($beyond-blue, 40%)
+          border-bottom-color: $base-font-color-light
+
         A
-          color: $white
-          border-bottom: 1px solid $white
+          // color: lighten($beyond-blue, 30%)
+          border-bottom-width: 1px
+          border-bottom-style: solid
           line-height: 1
 
           &:hover, &:focus
-            color: darken($white, 10%)
-            border-color: darken($white, 10%)
+            // color: lighten($beyond-blue, 30%)
+            color: darken($base-font-color-light, 10%)
+            // border-color: lighten($beyond-blue, 30%)
+            border-color: darken($base-font-color-light, 10%)
             transition: $base-transition
 
-        .fa
+        svg
           margin-right: 1rem
-          position: relative
-          top: .2rem
+          // position: relative
+          // top: .2rem
 
 
       .panels
@@ -61,7 +71,7 @@ body.about
 
         .panel
           flex-basis: 50%
-          text-align: center
+          // text-align: center
           line-height: 1
 
           A
@@ -77,19 +87,19 @@ body.about
             color: $base-font-color
             padding: 2rem
 
-            .fa
+            svg
               display: block
-              font-size: 4rem
+              // font-size: 4rem
               margin-bottom: 1rem
 
           &--twitter
 
-            .fa
+            svg
               color: #1dcaff
 
           &--youtube
 
-            .fa
+            svg
               color: #ff0000
 
 
@@ -119,7 +129,9 @@ body.about
             transform: translate(-50%, calc(-50% - 47px))
             display: inline-flex
 
-            &:hover, &:focus
+          &:hover, &:focus
+
+            .card--event__play-icon
               color: transparentize($white, .2)
               transition: $base-transition
 
@@ -137,6 +149,7 @@ body.about
 
           &__title
             margin-bottom: 1rem
+            color: $base-font-color
 
           &__date
             color: $gray-light
@@ -148,7 +161,9 @@ body.about
 
           .card--event
             background-color: $beyond-blue
-            color: $white
+
+            &__title
+              color: lighten($beyond-blue, 40%)
 
 
 
@@ -167,7 +182,7 @@ body.about
           position: absolute
           display: block
           width: 1px
-          background: linear-gradient($whitesmoke, #cecece, #cecece, #cecece, #cecece, #cecece, #cecece, $whitesmoke)
+          background: #cecece
           height: 100%
           margin: auto
           top:    0
@@ -229,7 +244,7 @@ body.about
             display: block
 
           &__upper
-            background: #944788
+            // background: #944788
             background: $beyond-beige
             margin: -2rem -2rem 0
             padding: 1.5rem
@@ -237,19 +252,19 @@ body.about
             border-top-right-radius: $base-border-radius
 
           &__date
-            color: transparentize($white, .5)
+            // color: transparentize($white, .5)
             color: darken($beyond-beige, 20%)
 
           &__title
             font-family: $display-font-family
-            color: $white
-            color: darken($beyond-beige, 20%)
+            // color: $white
+            // color: darken($beyond-beige, 20%)
             color: $base-font-color-light
             position: relative
             bottom: -.2rem
 
           &__time
-            color: transparentize($white, .5)
+            // color: transparentize($white, .5)
             color: darken($beyond-beige, 20%)
 
           &__lower

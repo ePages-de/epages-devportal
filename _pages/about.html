@@ -31,7 +31,7 @@ header_image: about.jpg
         <div class="panel  panel--twitter">
           <a href="#">
             <div class="panel-wrap">
-              <i class="fa  fa-twitter" aria-hidden="true"></i>
+              <i class="fab  fa-twitter fa-2x" aria-hidden="true"></i>
               Follow us on Twitter
             </div>
           </a>
@@ -40,7 +40,7 @@ header_image: about.jpg
         <div class="panel  panel--youtube">
           <a href="#">
             <div class="panel-wrap">
-              <i class="fa  fa-youtube" aria-hidden="true"></i>
+              <i class="fab  fa-youtube fa-2x" aria-hidden="true"></i>
               Watch our Dev videos on Youtube
             </div>
           </a>
@@ -49,7 +49,7 @@ header_image: about.jpg
       </div>
 
       <p class="card__footer">
-        <i class="fa  fa-globe" aria-hidden="true"></i>
+        <i class="fas  fa-globe" aria-hidden="true"></i>
         <a href="https://www.epages.com">www.epages.com</a>
         <span> (Company website)</span>
       </p>
@@ -75,19 +75,25 @@ header_image: about.jpg
 
       <div class="carousel__item">
 
-        {% if ev.video %}<a href="{{ ev.video }}" style="display: block;">{% endif %}
+        {% if ev.video %}<a href="{{ ev.video }}" style="display: block;" class="lightbox__youtube">{% endif %}
 
           <div class="card  card--event">
+
             {% if ev.video %}
+
               <div class="card--event__play-icon">
                 <i class="fa fa-play" aria-hidden="true"></i>
               </div>
+
             {% endif %}
+
             <div class="card--event__image" style="background-image: url('/assets/img/pages/about/{{ ev.image }}');"></div>
+
             <div class="card--event__body">
               <h4 class="card--event__title">{{ ev.title }}</h4>
               <div class="card--event__date">{{ ev.date }}</div>
             </div>
+
           </div>
 
         </a>
