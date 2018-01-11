@@ -10,8 +10,8 @@ $(document).ready(function() {
     openPopup();
   });
 
-  // Show the popup when coming from /#register.html
-  if (window.location.hash === '#register.html') {
+  // Show the popup when coming from /#register
+  if (window.location.hash === '#register') {
     openPopup();
   }
 
