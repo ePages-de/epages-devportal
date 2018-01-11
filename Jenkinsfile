@@ -15,7 +15,7 @@ pipeline {
           gem install bundler
           bundle install
           rbenv rehash
-          jekyll build
+          bundle exec jekyll build
         '''
       }
     }
