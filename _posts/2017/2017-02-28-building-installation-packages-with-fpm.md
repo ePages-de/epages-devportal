@@ -4,10 +4,11 @@ title: "Building installation packages with FPM"
 date: 2017-02-28
 header_image: code-fpm.jpg
 category: coding
+tags: ["fpm", "ecommerce"]
 authors: ["Maik", "Wolf"]
 ---
 
-As one of the leading e-commerce companies, ePages distributes its software for Linux-based systems, such as as .rpm and .deb packages.
+As one of the leading ecommerce companies, ePages distributes its software for Linux-based systems, such as as .rpm and .deb packages.
 Building these packages is most of the time not easy and existing packages have to be modified to your own needs.
 You have to be familiar with both the Linux distribution you are working on as well as with the packaging system (e.g. rpm and/or deb) you are using.
 As part of optimizing the release process for ePages packages, we researched other ways on how to build these packages more easily.

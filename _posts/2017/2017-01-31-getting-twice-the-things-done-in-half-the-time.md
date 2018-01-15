@@ -4,6 +4,7 @@ title: "Getting twice the things done in half the time"
 date: 2017-01-31
 header_image: rugby.jpg
 category: methods-and-tools
+tags: ["agile", "scrum", "definition of done"]
 authors: ["Alejandra"]
 ---
 

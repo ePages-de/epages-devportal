@@ -4,13 +4,13 @@ title: "Making a move abroad - from Barcelona to Hamburg"
 date: 2017-07-06
 header_image: suitcase.jpg
 category: on-the-job
+tags: ["hamburg", "company"]
 authors: ["Xavi"]
 ---
 
 I've always liked interacting with people from other countries and cultures so the fact that ePages is an international
 company was one of the reasons why I joined the crew in the first place.
-That was the beginning of my software developer
-career at ePages, two and a half years ago in Barcelona.
+That was the beginning of my software developer career at ePages, two and a half years ago in Barcelona.
 
 Back in Barcelona I had the pleasure to work with many different and outstanding people from France, Italy, Spain, and
 Mexico.

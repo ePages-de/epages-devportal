@@ -4,6 +4,7 @@ title: "Elixir Meetup at ePages: What's the best vindinium bot?"
 date: 2017-03-31
 header_image: elixir.jpg
 category: events
+tags: ["elixir", "vindinium"]
 authors: ["Rose"]
 ---
 <style>
