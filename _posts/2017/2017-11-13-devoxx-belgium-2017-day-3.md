@@ -4,6 +4,7 @@ title: "devoxx Belgium 2017 - Day 3"
 date: 2017-11-13
 header_image: devoxx-be-2017-2.jpg
 category: events
+tags: ["microservice", "kubernetes", "java"]
 authors: ["Dirk"]
 ---
 

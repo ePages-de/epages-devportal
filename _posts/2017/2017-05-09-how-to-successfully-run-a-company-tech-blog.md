@@ -4,7 +4,7 @@ title: "How to successfully run a company tech blog"
 date: 2017-05-09
 header_image: social-like.jpg
 category: techcomm-and-socialmedia
-tags: ["blogging", "guideline", "twitter"]
+tags: ["blogging", "guideline", "twitter", "company"]
 authors: ["Rose"]
 ---
 

@@ -4,6 +4,7 @@ title: "When I learnt that unicorns sell vegan condoms in bags of chips"
 date: 2017-10-19
 header_image: smconf.jpg
 category: events
+tags: ["social media", "content marketing", "company culture"]
 authors: ["Birgit"]
 ---
 

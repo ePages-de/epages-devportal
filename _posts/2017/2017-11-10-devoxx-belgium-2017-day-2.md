@@ -4,6 +4,7 @@ title: "devoxx Belgium 2017 - Day 2"
 date: 2017-11-10
 header_image: devoxx-be-2017-2.jpg
 category: events
+tags: ["java", "rest", "reactive", "spring", "docker", "api"]
 authors: ["Dirk"]
 ---
 

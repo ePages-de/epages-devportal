@@ -5,6 +5,7 @@ date: 2017-10-06
 header_image: budapest-525857_1920.jpg
 image-position: top
 category: events
+tags: ["ruby", "jruby", "opal", "rubymotion", "jemalloc"]
 authors: ["Unai M."]
 ---
 
