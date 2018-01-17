@@ -8,7 +8,7 @@ tags: ["ruby", "rails", "sales analytics app", "sidekiq", "api", "heroku", "aws"
 authors: ["Unai M."]
 ---
 
-Last month, I wrote a post about [how and why we started with our Sales Analytics app](/blog/coding/creating-a-sales-analytics-app-with-ruby-on-rails/).
+Last month, I wrote a post about [how and why we started with our Sales Analytics app](/blog/tech-stories/creating-a-sales-analytics-app-with-ruby-on-rails/).
 In this post, I'd like to talk about some issues we encountered on our way and how we solved them.
 
 ## About our - slightly - bumpy development road
