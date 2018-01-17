@@ -25,7 +25,7 @@ Here are my top three:
 
 ## 1. The product strategy gets communicated across the business
 
-This is important for us, because we are currently developing three different products: ePages Base, our long-standing software on the market, ePages Now, our newest product on the market which offers amongst others a completely redesigned storefront, and a new technology platform, that is currently in development and for which we will release an MVP in September this year.
+This is important for us, because we are currently developing three different products: ePages 6, our long-standing software on the market, ePages Now, our newest product on the market which offers amongst others a completely redesigned storefront, and a new technology platform, that is currently in development and for which we will release an MVP in September this year.
 You can imagine, how important it is, that everyone in the company understands the product strategy, when you have two products on the market and a new one already in the pipeline.
 
 ## 2. The product vision is put into focus
