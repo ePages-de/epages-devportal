@@ -16,7 +16,7 @@ group :jekyll_plugins do
   gem 'neat'
   gem 'rouge'
   gem 'jekyll-twitter-plugin'
-  gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2', '1.9.0'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
