@@ -1,13 +1,14 @@
 body.default
 
-  .card:not(.card--post)
-    padding: 2rem
-    margin: 8rem -1rem
+  section
+    margin: 6rem 0
+
+    +grid-media($grid-large)
+      margin: 12rem 0
 
   .column-wrapper
     display: flex
     flex-wrap: wrap
-    justify-content: center
 
     .column
       position: relative
@@ -24,98 +25,79 @@ body.default
 
   .intro
 
-    .column
-      text-align: center
-      padding: 2rem
-      flex-basis: 100%
-
-      +grid-media($grid-medium)
-        flex-basis: calc(100% / 2 - 4rem)
-
-      svg
-        margin-bottom: 2rem
-
-
-
-
-
-  .steps
-
-    .section__title
-      margin: 2rem 0
-      text-align: center
-
-      +grid-media($grid-small)
-        width: 80%
-
-      +grid-media($grid-medium)
-        width: 100%
-
-    .column
-      padding: 2rem
-      text-align: center
-      flex-basis: 100%
-
-      +grid-media($grid-medium)
-        flex-basis: calc(100% / 3 - 4rem)
-
-      svg
-        margin-bottom: 2rem
-
-      +grid-media($grid-medium)
-
-        &:not(:last-child):after
-          content: '›'
-          font-size: 12rem
-          color: lighten($gray-light, 20%)
-          position: absolute
-          right: -2rem
-          top: 0
-
-      &__body
-        padding-bottom: 8rem
-
-        &:last-child
-          padding-bottom: 0
-
-    .column-2
-      margin: 3rem 0
-
-      +grid-media($grid-medium)
-        margin: 0
-
-
-
-
-
-  .about
-
-    .section__title
-      margin: 0 0 1rem
-
     .column-wrapper
-
-      +grid-media($grid-medium)
-        flex-wrap: nowrap
+      padding: 2rem
 
       .column
+        text-align: center
         padding: 2rem
+        flex-basis: 100%
 
-      .column-1
-        flex-basis: 10%
-        display: flex
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2 - 4rem)
+
+        svg
+          margin-bottom: 2rem
+
+
+
+
+  .app
+    display: flex
+    flex-wrap: wrap
+    margin-left: -2rem
+    margin-right: -2rem
+
+    .column-wrapper
+      flex-basis: 100%
+      padding: 2rem
+      margin: 0 2rem
+      box-sizing: border-box
+      align-content: flex-start
+
+      +grid-media($grid-large)
+        flex-basis: calc(50% - 4rem)
+
+      &:first-child
+        margin-bottom: 6rem
+
+        +grid-media($grid-large)
+          margin-bottom: 0
+
+      &:nth-child(2)
+
+        .column
+          align-items: flex-start
+
+    .section__title
+      padding: 2rem
+
+    .column
+      display: flex
+      flex-basis: 100%
+      padding: 2rem
+      align-items: flex-start
+      flex-direction: column
+
+      +grid-media($grid-small)
+        flex-direction: row
         align-items: center
-        justify-content: center
 
-      .column-2
-        flex-basis: 90%
+      &__text
+        margin-left: 0
+        margin-top: 2rem
+
+        +grid-media($grid-small)
+          margin-left: 2rem
+          margin-top: 0
 
 
 
 
 
   .news
-    margin: 8rem 0
+    margin-left: -2rem
+    margin-right: -2rem
     text-align: center
     position: relative
 
@@ -130,7 +112,7 @@ body.default
 
     .carousel
       position: relative
-      margin: 1rem -3rem 0
+      margin: 1rem 0 0
       text-align: left
 
       .card--post
@@ -169,22 +151,16 @@ body.default
           visibility: visible
 
       .prev
-        left: -4rem
+        left: -3rem
 
-        +grid-media($grid-huge)
-          left: -5rem
-
-        +grid-media($grid-max)
-          left: -6rem
+        // +grid-media($grid-huge)
+        //   left: -5rem
 
       .next
-        right: -4rem
+        right: -3rem
 
-        +grid-media($grid-huge)
-          right: -5rem
-
-        +grid-media($grid-max)
-          right: -6rem
+        // +grid-media($grid-huge)
+        //   right: -5rem
 
 
 
