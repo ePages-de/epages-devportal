@@ -29,6 +29,7 @@ pipeline {
           rbenv local 2.4.2
           gem install bundler
           bundle install
+          bundle update
           rbenv rehash
           rake test_html
           rake test_files
