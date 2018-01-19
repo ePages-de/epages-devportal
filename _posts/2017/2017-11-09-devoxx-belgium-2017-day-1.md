@@ -4,7 +4,7 @@ title: "devoxx Belgium 2017 - Day 1"
 date: 2017-11-09
 header_image: devoxx-be-2017.jpg
 category: events
-tags: ["java", "kotlin", "spring", "api"]
+tags: ["java", "kotlin", "spring", "api", "conference"]
 authors: ["Dirk"]
 ---
 

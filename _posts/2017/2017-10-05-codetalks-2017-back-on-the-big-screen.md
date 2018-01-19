@@ -5,7 +5,7 @@ date: 2017-10-05
 header_image: codetalks-2017.png
 image-position: bottom
 category: events
-tags: ["microservice", "kotlin", "css"]
+tags: ["microservice", "kotlin", "css", "conference"]
 authors: ["Mats", "Mathias"]
 ---
 

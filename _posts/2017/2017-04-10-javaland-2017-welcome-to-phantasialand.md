@@ -4,7 +4,7 @@ title: "JavaLand 2017 - Welcome to Phantasialand"
 date: 2017-04-10
 header_image: javaland-2017.jpg
 category: events
-tags: ["java", "spring"]
+tags: ["java", "spring", "conference"]
 authors: ["Benjamin, Bastian"]
 ---
 

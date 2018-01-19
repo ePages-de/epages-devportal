@@ -4,7 +4,7 @@ title: "Making a move abroad - from Barcelona to Hamburg"
 date: 2017-07-06
 header_image: suitcase.jpg
 category: on-the-job
-tags: ["hamburg", "company"]
+tags: ["hamburg"]
 authors: ["Xavi"]
 ---
 

@@ -4,7 +4,7 @@ title: "Creating a Sales Analytics App with Ruby on Rails"
 date: 2017-03-02
 header_image: hamburg-port-rails.jpg
 category: tech-stories
-tags: ["ruby", "rails", "sdk", "sales analytics app"]
+tags: ["ruby", "rails", "sdk"]
 authors: ["Unai M."]
 ---
 

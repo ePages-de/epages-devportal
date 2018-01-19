@@ -4,7 +4,7 @@ title: "SoCraTes 2017 - Order is optional"
 date: 2017-09-01
 header_image: socrates-2017-header.jpg
 category: events
-tags: ["unconference", "onboarding", "pair programming", "erlang"]
+tags: ["onboarding", "pair programming", "erlang", "conference"]
 authors: ["Oliver Z."]
 ---
 

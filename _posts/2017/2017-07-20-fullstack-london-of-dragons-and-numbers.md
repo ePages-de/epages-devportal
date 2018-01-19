@@ -4,7 +4,7 @@ title: "Fullstack London - Of dragons, numbers and IoT"
 date: 2017-07-20
 header_image: fullstack.jpg
 category: events
-tags: ["json", "javascript", "iot", "typescript", ]
+tags: ["json", "javascript", "iot", "typescript", "conference"]
 authors: ["Erik"]
 ---
 
