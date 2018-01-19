@@ -9,9 +9,9 @@ tags: ["galera", "mysql", "database"]
 authors: ["Timo H."]
 ---
 
-So now as you know what Galera Cluster is, you might want to install one.
+Now that you know [what Galera Cluster is](/blog/tech-stories/high-availability-with-mysql-galera-cluster/), you might want to install one.
 
-First you need to have three servers with CentOS/RH 7 Linux operating system, and later two more for application and loadbalancer respectively.
+First, you need three servers with CentOS/RH 7 Linux operating system, and later two more for application and load balancer respectively.
 
 "Five servers! Doesnt sound that easy!" I hear you say. But it is how galera will be ran for real applications, so it is no use to learn it other way.
 There is also a possibility to run Galera on Docker, but we wont be discussing it here. For more information visit [Galera with Docker](http://galeracluster.com/2015/05/getting-started-galera-with-docker-part-1{:target="_blank"}
