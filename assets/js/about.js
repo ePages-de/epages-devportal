@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  // Carousel
   $('.js-carousel--about').slick({
     infinite: false,
     slidesToShow: 3,
@@ -21,5 +22,9 @@ $(document).ready(function(){
         }
       }
     ]
+  });
+  // Lightbox
+  $('.js-lightbox__youtube').magnificPopup({
+    type:'iframe'
   });
 });

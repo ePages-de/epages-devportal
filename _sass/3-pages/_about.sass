@@ -3,8 +3,14 @@ body.about
   section
     margin: 8rem 0
 
+    +grid-media($grid-medium)
+      margin: 12rem 0
+
     .spacer-1
       height: 1rem
+
+  .section__title
+    margin-bottom: 1rem
 
 
 
@@ -21,7 +27,10 @@ body.about
     .card
       padding: 2rem
       margin: 1rem
-      // text-align: center
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      text-align: center
 
       +grid-media($grid-medium)
         flex-basis: calc(100% / 2)
@@ -29,38 +38,32 @@ body.about
       &__title
         margin-bottom: 1rem
 
+      &__body
+        text-align: left
+
       &__footer
-        // background-color: $beyond-blue
         background-color: $beyond-beige
-        // color: lighten($beyond-blue, 30%)
         padding: 2rem
         margin: 2rem -2rem -2rem
         border-bottom-left-radius:  $base-border-radius
         border-bottom-right-radius: $base-border-radius
 
         & > *
-          // color: lighten($beyond-blue, 40%)
           color: $base-font-color-light
-          // border-bottom-color: lighten($beyond-blue, 40%)
           border-bottom-color: $base-font-color-light
 
         A
-          // color: lighten($beyond-blue, 30%)
           border-bottom-width: 1px
           border-bottom-style: solid
           line-height: 1
 
           &:hover, &:focus
-            // color: lighten($beyond-blue, 30%)
             color: darken($base-font-color-light, 10%)
-            // border-color: lighten($beyond-blue, 30%)
             border-color: darken($base-font-color-light, 10%)
             transition: $base-transition
 
         svg
           margin-right: 1rem
-          // position: relative
-          // top: .2rem
 
 
       .panels
@@ -71,26 +74,23 @@ body.about
 
         .panel
           flex-basis: 50%
-          // text-align: center
           line-height: 1
 
           A
             display: block
             height: 100%
 
-          &:hover, &:focus
-            background-color: darken($white, 3%)
-            transition: $base-transition
-
           &-wrap
-            // font-size: 1.6rem
             color: $base-font-color
             padding: 2rem
 
+            &:hover, &:focus
+              color: $base-font-color-mid
+              transition: $base-transition
+
             svg
               display: block
-              // font-size: 4rem
-              margin-bottom: 1rem
+              margin: 0 auto 1rem
 
           &--twitter
 
@@ -108,8 +108,11 @@ body.about
 
   .events
     position: relative
+    text-align: center
 
     .carousel
+      margin-top: 2rem
+      text-align: left
 
       &__item
 
@@ -170,9 +173,11 @@ body.about
 
 
   .exhibitions
+    text-align: center
 
     .card-container--exhibition
       overflow: hidden
+      margin-top: 4rem
 
       +grid-media($grid-medium)
         position: relative
@@ -219,7 +224,7 @@ body.about
 
           &:nth-child(odd)
             float: left
-            margin-top: 40px
+            // margin-top: 40px
 
             .card
 
@@ -239,12 +244,15 @@ body.about
           padding: 2rem
           text-align: center
           line-height: 1
+          margin-bottom: 2rem
+
+          +grid-media($grid-medium)
+            margin-bottom: 0
 
           A
             display: block
 
           &__upper
-            // background: #944788
             background: $beyond-beige
             margin: -2rem -2rem 0
             padding: 1.5rem
@@ -252,19 +260,15 @@ body.about
             border-top-right-radius: $base-border-radius
 
           &__date
-            // color: transparentize($white, .5)
             color: darken($beyond-beige, 20%)
 
           &__title
             font-family: $display-font-family
-            // color: $white
-            // color: darken($beyond-beige, 20%)
             color: $base-font-color-light
             position: relative
             bottom: -.2rem
 
           &__time
-            // color: transparentize($white, .5)
             color: darken($beyond-beige, 20%)
 
           &__lower

@@ -24,24 +24,24 @@ header_image: about.jpg
 
   <div class="card">
 
-      <h2 class="card__title">Find out more...</h2>
+      <h2 class="card__title">Follow us</h2>
 
       <div class="panels">
 
         <div class="panel  panel--twitter">
-          <a href="#">
+          <a href="/">
             <div class="panel-wrap">
               <i class="fab  fa-twitter fa-2x" aria-hidden="true"></i>
-              Follow us on Twitter
+              Twitter
             </div>
           </a>
         </div>
 
         <div class="panel  panel--youtube">
-          <a href="#">
+          <a href="/">
             <div class="panel-wrap">
               <i class="fab  fa-youtube fa-2x" aria-hidden="true"></i>
-              Watch our Dev videos on Youtube
+              Youtube
             </div>
           </a>
         </div>
@@ -75,7 +75,7 @@ header_image: about.jpg
 
       <div class="carousel__item">
 
-        {% if ev.video %}<a href="{{ ev.video }}" style="display: block;" class="lightbox__youtube">{% endif %}
+        {% if ev.video %}<a href="{{ ev.video }}" style="display: block;" class="lightbox__youtube  js-lightbox__youtube">{% endif %}
 
           <div class="card  card--event">
 
@@ -96,7 +96,7 @@ header_image: about.jpg
 
           </div>
 
-        </a>
+        {% if ev.video %}</a>{% endif %}
 
       </div>
 
@@ -160,7 +160,7 @@ header_image: about.jpg
 
 
 
-
-
+<link rel="stylesheet" href="/assets/css/magnific-popup.css">
+<script src="/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="/assets/slick/slick.min.js"></script>
 <script src="/assets/js/about.js"></script>
