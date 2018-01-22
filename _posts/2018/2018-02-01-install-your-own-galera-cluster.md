@@ -3,26 +3,30 @@ layout: post
 title: How to install your own Galera Cluster
 date: 2018-02-01
 header_image: install-galera-cluster.jpg
-header_position: top
+header_position: center
 category: tech-stories
 tags: ["galera", "mysql", "database"]
 authors: ["Timo H."]
 ---
 
-Now that you know [what Galera Cluster is](/blog/tech-stories/high-availability-with-mysql-galera-cluster/), you might want to install one.
+Now that you know what a [Galera Cluster](/blog/tech-stories/high-availability-with-mysql-galera-cluster/) is, you might want to install one.
 
-First, you need three servers with CentOS/RH 7 Linux operating system, and later two more for application and load balancer respectively.
+First, you need three servers with CentOS/RH 7 Linux operating system, and later two more for application and load balancer, respectively.
 
-"Five servers! Doesnt sound that easy!" I hear you say. But it is how galera will be ran for real applications, so it is no use to learn it other way.
-There is also a possibility to run Galera on Docker, but we wont be discussing it here. For more information visit [Galera with Docker](http://galeracluster.com/2015/05/getting-started-galera-with-docker-part-1{:target="_blank"}
+"Five servers! Doesn't sound that easy!" I hear you say.
+But this is how Galera will run in real applications, so it is no use learning it another way.
+There is also a possibility to run Galera on Docker, but we will not discuss it here.
+For more information, visit [Galera with Docker](http://galeracluster.com/2015/05/getting-started-galera-with-docker-part-1){:target="_blank"}.
 
-Once you have vms installed and running, we will be referring them as vm-galera01, vm-galera02, vm-galera03, vm-lb and vm-app, regardless how you really named them. Just adapt the upcoming install instructions and config files with your real server names accordingly.
+Once you have the VMs up and running, we will be referring them as _vm-galera01_, _vm-galera02_, _vm-galera03_, _vm-lb_, and _vm-app_, regardless of how you really named them.
+Just adapt the upcoming installation instructions and config files with your real server names accordingly.
 
-In our example we will use Galera-3 with mysql-5.6. If you have own preferences, feel free to change the versions.
+In our example, we will use Galera-3 with mysql-5.6.
+If you have own preferences, feel free to change the versions.
 
 ## Repository and binaries
 
-On vm-galera01, vm-galera02 and vm-galera03 servers, add a new yum-repository:
+On _vm-galera01_, _vm-galera02_, and _vm-galera03_ servers, add a new yum-repository:
 
 ```
 cat > /etc/yum.repos.d/galera.repo <<EOF
@@ -34,19 +38,20 @@ gpgcheck = 1
 EOF
 ```
 
-After repository is in place, install the binaries:
+After the repository is in place, install the binaries:
 ```
 yum install galera-3 mysql-wsrep-5.6
 ```
-answer with 'y' when needed.
 
-Remember to repeat the process on all of your Galera servers.
+Answer with `y` if required.
+Remember to repeat the process for all of your Galera servers.
 
 Now you should have Galera binaries installed on your servers.
 
 ## Data directories
 
-Because we want to know where our data will be saved, we shall now create a directory named /opt/eproot/mysqldata, /opt/eproot/mysqltmp for temporary data and /var/run/mysqld for the standard processid file. Also lets change their owner to mysql with group mysql:
+As we want to know where our data will be saved, we will now create a directory named _/opt/eproot/mysqldata_, _/opt/eproot/mysqltmp_ for temporary data and _/var/run/mysqld_ for the standard processed file.
+Also, lets change their owner to _mysql_ with group mysql:
 
 ```
 mkdir /opt/eproot/mysqldata/mysql -p
@@ -57,23 +62,28 @@ mkdir /var/run/mysqld/ -p
 chown mysql:mysql /var/run/mysqld -R
 ```
 
-Remember to repeat the process on all of your Galera servers.
+Remember to repeat the process for all of your Galera servers.
 
 ## MySQL configuration
-Then we need to configure mysql to form a Galera cluster with three nodes.
 
-In this example, we will create three configuration files in directory /etc/my.cnf.d/, one for general Galera-, one for Galera node- and one for general Mysql-configuration.
+Next, we need to configure mySQL to form a Galera cluster with three nodes.
 
-It begins with mysql config file, which we will use only to include other config files in directory /etc/my.cnf.d:
+In this example, we will create three configuration files in directory _/etc/my.cnf.d/_: one for the general Galera configuration, one for the Galera node configuration, and one for the general MySQL configuration.
+
+It starts with the mysql config file, which we will use only to include other config files in the directory _/etc/my.cnf.d_:
+
 ```
 cat > /etc/my.cnf <<EOF
 ## all mysql configuration files are in /etc/my.cnf.d directory
 !includedir /etc/my.cnf.d/
 EOF
 ```
+
 ## General Galera configuration
 
-This configuration file defines where Galera can find the nodes. Please change here the ips "192.168.0.101,192.168.0.102,192.168.0.103" with the real ips of your vm-galera01, vm-galera02 and vm-galera03 respectively:
+This configuration file defines where Galera can find the nodes.
+Change here the IPs `192.168.0.101`, `192.168.0.102`, and `192.168.0.103` with the real IPs of your _vm-galera01_, _vm-galera02_ and _vm-galera03_ respectively:
+
 ```
 cat > /etc/my.cnf.d/gcluster.cnf <<EOF
 [mysqld]
@@ -87,11 +97,13 @@ EOF
 
 ## Galera node config
 
-Every node (vm-galera01, vm-galera02, vm-galera03) will need its own configuration file.
-Please replace again the ip addresses with the real ip address of your vm-galera01, vm-galera02 or vm-galera03 respectively.
-Server-ids are required only if you are planning to replicate into galera, as will be shown later in "Data migration into a Galera cluster" article
+Every node (_vm-galera01_, _vm-galera02_, _vm-galera03_) will need its own configuration file.
+Please replace again the IP addresses with the real IP address of your _vm-galera01_, _vm-galera02_ or _vm-galera03_ respectively.
+Server IDs are required only if you are planning to replicate into Galera.
+This will be shown in the next post about "Data migration into a Galera cluster".
 
-On vm-galera01:
+On _vm-galera01_:
+
 ```
 cat > /etc/my.cnf.d/gnode.galera01.cnf <<EOF
 [mysqld]
@@ -103,7 +115,8 @@ server-id=1001
 EOF
 ```
 
-On vm-galera02:
+On _vm-galera02_:
+
 ```
 cat > /etc/my.cnf.d/gnode.galera02.cnf <<EOF
 [mysqld]
@@ -115,7 +128,8 @@ server-id=1002
 EOF
 ```
 
-And on vm-galera03:
+And on _vm-galera03_:
+
 ```
 cat > /etc/my.cnf.d/gnode.galera03.cnf <<EOF
 [mysqld]
@@ -127,11 +141,11 @@ server-id=1003
 EOF
 ```
 
-## General Mysql config
+## General MySQL config
 
-Finally there is a configuration file for general Mysql settings.
-You can add here all your Mysql settings from your current installation.
-Settings given here are not examined in detail within this article, and their optimal values might vary depending on your application.
+Finally, there is a configuration file for general MySQL settings.
+You can add here all your MySQL settings from your current installation.
+Settings given here are not examined in detail within this post, and their optimal values might vary depending on your application.
 
 ```
 cat > /etc/my.cnf.d/mysql.cnf <<EOF
@@ -204,52 +218,63 @@ EOF
 
 ## Galera bootup
 
-Now all of your configs are in place, you are ready to start and initialize the galera cluster.
+Now that all of your configs are in place, you are ready to start and initialize the Galera cluster.
 
-The first node must be started with option --wsrep-new-cluster
+The first node must be started with the option `--wsrep-new-cluster`.
 It will initialize the completely new cluster.
 
-On vm-galera01:
+On _vm-galera01_:
+
 ```
 service mysql start --wsrep-new-cluster
 ```
 
-First node should be now running. When in doubt, execute following line:
+The first node should be running now.
+When in doubt, execute this:
+
 ```
 service mysql status
 ```
 
-as result you should get following:
+As a result you should get the following:
+
 ```
 # SUCCESS! MySQL running (pid of your galera-mysql process)
 ```
 
-If you encounter problems, please refer to error log:
+If you encounter problems, refer to the error log:
+
 ```
 less /var/lib/mysql/*.err
 ```
 
 ## Galera user policy
 
-As first, you should change the root password for your cluster. Current auto-generated password is available in /root/.mysql_secret
-for viewing it, type:
+At first you should change the root password for your cluster.
+The current autogenerated password is available in _/root/.mysql_secret_.
+To view it, type:
+
 ```
 cat /root/.mysql_secret
 ```
 
-then replace it with YOURNEWPASSWORD which you must create by yourselves
+Replace it with `YOURNEWPASSWORD`:
+
 ```
 /usr/bin/mysqladmin -u root password 'YOURNEWPASSWORD' -p
 ```
-It will ask your old password, which was saved in .mysql_secret. Just type it in.
 
-Now you can log in to your Galera database by typing in your new password:
+You will be asked for your old password, which was saved in _.mysql_secret_.
+Just type it in.
+
+Now you can log in to your Galera database by entering your new password:
+
 ```
 mysql -uroot -p
 ```
 
-For making things simple, lets delete all users except one root user which has access from everywhere.
-Please be cautious as a mistake might lock you out of your database.
+For making things simple, lets delete all users except for one root user which has access from everywhere.
+Be careful as a mistake might lock you out of your database.
 
 ```
 select user,host,password from mysql.user;
@@ -267,7 +292,7 @@ FLUSH PRIVILEGES;
 select user,host,password from mysql.user;
 ```
 
-You should end up with only line, your root user:
+You should end up with only one line, which is your root user:
 ```
 #+------+------+---------------------------------------------+
 #| user | host | password                                    |
@@ -285,14 +310,20 @@ Congratulations, your first Galera cluster node is now up and running.
 
 ## Full Galera cluster
 
-Now go to your vm-galera02 and vm-galera03 and start the mysql process there with:
+Go to your _vm-galera02_ and _vm-galera03_, and start the mySQL process with:
+
 ```
 service mysql start
 ```
-If you encounter problems, please refer to error log:
-tail -f /var/lib/mysql/*.err
 
-After successful start, log in to the Galera node and check the Galera cluster size and status with following command:
+If you encounter problems, refer to the error log:
+
+```
+tail -f /var/lib/mysql/*.err
+```
+
+After successful start, log in to the Galera node, and check the Galera cluster size and status with the following command:
+
 ```
 mysql -uroot -p
 ```
@@ -300,7 +331,8 @@ mysql -uroot -p
 SHOW GLOBAL STATUS WHERE Variable_name IN ('wsrep_ready', 'wsrep_cluster_size', 'wsrep_cluster_status', 'wsrep_connected');
 ```
 
-After your status looks like the following, you have successfully installed a Galera cluster:
+Once your status looks like the following, you have successfully installed a Galera cluster:
+
 ```
 #+----------------------+---------+
 #| Variable_name        | Value   |
