@@ -6,6 +6,7 @@ header_image: workshop.jpg
 header_position: bottom
 header_overlay: true
 category: methods-and-tools
+tags: ["gradle", "java"]
 authors: ["Thomas"]
 ---
 

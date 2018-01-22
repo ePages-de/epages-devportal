@@ -4,6 +4,7 @@ title: "Programming beyond the comfort zone: The Phoenix Framework"
 date: 2017-02-09
 header_image: phoenix.jpg
 category: coding
+tags: ["phoenix", "javascript", "api"]
 authors: ["Erik"]
 ---
 

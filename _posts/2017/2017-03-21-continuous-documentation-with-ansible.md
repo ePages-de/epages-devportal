@@ -4,6 +4,7 @@ title: "Continuous Documentation with Ansible"
 date: 2017-03-21
 header_image: blog-forest-park-walk-trail.png
 category: methods-and-tools
+tags: ["ansible", "agile", "docker", "jenkins", "playbook"]
 authors: ["Thomas"]
 ---
 

@@ -4,6 +4,7 @@ title: "Tracing the suspect - a microservices murder mystery"
 date: 2017-08-17
 header_image: tracing-the-suspect.jpg
 category: tech-stories
+tags: ["microservice", "json", "stackdriver", "spring", "sleuth", "zipkin", "logging"]
 authors: ["Jens"]
 ---
 

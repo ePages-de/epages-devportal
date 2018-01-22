@@ -4,6 +4,7 @@ title: "5 compelling reasons why you should manage your terminology"
 date: 2017-09-12
 header_image: jellybears.jpg
 category: language-and-localization
+tags: ["localization", "terminology"]
 authors: ["Birgit"]
 ---
 
