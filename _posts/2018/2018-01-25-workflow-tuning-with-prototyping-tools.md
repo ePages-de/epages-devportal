@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workflow tuning with Prototyping tools
-date: 2018-01-19
+date: 2018-01-25
 header_image: workflow-tuning-with-prototyping-tools.jpg
 header_overlay: true
 category: methods-and-tools
@@ -11,15 +11,15 @@ authors: ["Anne"]
 
 The requirements for screen design are higher than ever, as screen design is an important component in the overall design workflow.
 So it is no wonder, that nowadays static design is sometimes not enough to represent a whole concept, e.g. the exact function of single UI elements.
-Thats's why you as a designer will someday face the following question: What's the benefit of a terrific concept with an amazing design, if your dear colleagues, the developers, do not understand how they should finally implement your creative brainchild?
-This is also an issue at ePages as UX experts, UI designers and a huge number of developers work closely together to create our great product.
+That's why you as a designer will someday face the following question: What's the benefit of a terrific concept with an amazing design, if your dear colleagues, the developers, do not understand how they should finally implement your creative brainchild?
+This is also an issue at ePages, as UX experts, UI designers, and a huge number of developers work closely together to create our great product.
 Thus, we need a good workflow to make handovers easier.
 
 But help is on the way… Let’s talk about prototyping tools.
 
 ## Our 3 favorite prototyping tools in action
 
-A prototyping tool is a software that supports you in building a functional click dummy instead of a simple, and static design. You can click around, fill input fields, animate toggle elements, or build user flows for mobile or desktop devices — depending which prototyping tool you use and which visual design software you need to combine with. Thus, a prototype can help to create the perfect workflow between you and the developers.
+A prototyping tool is a software that supports you in building a functional click dummy instead of a simple, and static design. You can click around, fill input fields, animate toggle elements, or build user flows for mobile, or desktop devices — depending on which prototyping tool you use and which visual design software you need to combine with. Thus, a prototype can help to create the perfect workflow between you and the developers.
 
 But be careful: A prototyping tool can probably change your working life forever… 😉
 
@@ -28,8 +28,8 @@ But be careful: A prototyping tool can probably change your working life forever
 To be honest, I only worked with the limited version, but let me say something at the very beginning: Prototyping with InVision is fun!
 
 I guess it is the perfect tool for impatient people who want to see results as soon as possible. Just after a few minutes you already know how the tool and its functions are supposed to work.
-Let's assume you are a greenhorn and just want to build a simple website click dummy: It might take you about 15 minutes to export your final screen design, upload it to InVision and link your pages to each other with smooth crossings. You will be amazed by the result!
-But the thing is: That's almost it. You can only work with a few functions and animations and sooner or later you sadly will reach the limit.    
+Let's assume you are a greenhorn, and just want to build a simple website click dummy: It might take you about 15 minutes to export your final screen design, upload it to InVision, and link your pages to each other with smooth crossings. You will be amazed by the result!
+But the thing is: That's almost it. You can only work with a few functions and animations, and sooner or later you will sadly reach the limit.    
 
 Let's sum up the pros and cons (of the limited version):
 
@@ -61,7 +61,7 @@ Let's sum up the pros and cons:
 __Pros:__
 -	Comes with big library of UI elements for different devices
 -	Powerful tool relating to animations, functions & interactions
--	Easy to change from one page to another
+-	Easy to jump from one page to another
 -	Import of Sketch & Photoshop files with a plugin
 -	Project export into PDF, PNG & HTML
 -	Authentic prototype (feels like a real website/app)
@@ -103,6 +103,6 @@ __Link:__	[Adobe XD](http://www.adobe.com/products/xd/features.html){:target="_b
 
 ## Conclusion
 
-The thing is: There is no perfect tool for our team right now. But we decided to go with proto.io and use it for some features we want to implement in the next months.  Right now, Proto.io is the best choice for us because of its huge range of functions and animations, but we still have to discover a lot.
+The thing is: There is no perfect tool for our team right now. But we decided to go with Proto.io, and use it for some features we want to implement in the next months.  Right now, Proto.io is the best choice for us because of its huge range of functions and animations, but we still have to discover a lot.
 
 __So, now it is up to you to choose a prototyping tool for your project…😊__
