@@ -6,26 +6,23 @@
 
   <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
 
-  {% capture url_base %}{{ page.url | split: '/' | second }}{% endcapture %}
-  {% if site.data.seo.[url_base].description %}<meta name="description" content="{{ site.data.seo.[url_base].description }}">{% endif %}
-  {% if site.data.seo.[url_base].keywords %}<meta name="keywords" content="{{ site.data.seo.[url_base].keywords | join: ', ' }}">{% endif %}
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i">
-
-  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-  {% if page.url == '/' or '/about/' %}
-  <link rel="stylesheet" href="/assets/slick/slick.css"/>
-  {% endif %}
-  <link rel="stylesheet" href="/assets/css/main.css" />
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   {% if page.url == '/' %}
     {% assign base_url = '/' %}
   {% else %}
     {% assign base_url = page.url | split: '/' %}
     {% assign base_url = base_url[1] %}
   {% endif %}
+
+  {% if site.data.seo.[base_url].description %}<meta name="description" content="{{ site.data.seo.[base_url].description }}">{% endif %}
+  {% if site.data.seo.[base_url].keywords %}<meta name="keywords" content="{{ site.data.seo.[base_url].keywords | join: ', ' }}">{% endif %}
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   {% assign ga_paths = "['/', 'blog', 'devjobs']" %}
 
