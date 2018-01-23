@@ -20,7 +20,7 @@ That means, we used a Java application as a layer between the ePages Perl code a
 In this approach we used the Java layer as a plain communication adapter in order to be able to use the PayPal Java SDK. Understanding the Java layer as a plain communication adapter we were strictly avoiding any business logic there.
 The Java layer is only transferring information between the ePages Perl core and the Paypal API.
 
-{% image_lightbox image="/assets/img/pages/blog/images/paypalplus-approach.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/paypalplus-approach.jpg" width="50" lightbox %}
 
 The main reason to keep all the business logic in the ePages Perl core was that PayPal Plus as a payment required a deep integration in the checkout process.
 We also wanted to avoid spreading business logic over two systems.
@@ -35,7 +35,7 @@ As an error handling strategy we decided to use an approach of status reflection
 The Java layer exposes the status of each individual shop and order through an internal REST API.
 This way the view-layer can obtain the status to provide feedback on the outcome of a certain operation.
 
-{% image_lightbox image="/assets/img/pages/blog/images/sageone-approach.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/sageone-approach.jpg" width="50" lightbox %}
 
 Shifting the business logic to Java had big advantages.
 Especially in terms of coding speed, test-coverage and maintainability, since the refactoring facilities in Java are way superior compared to Perl.
