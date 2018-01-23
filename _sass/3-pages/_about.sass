@@ -9,31 +9,19 @@ body.about
     .spacer-1
       height: 1rem
 
-  .section__title
-    margin-bottom: 1rem
+    .section__title
+      margin-bottom: 1rem
+      text-align: center
+
 
 
 
 
   .about
-    display: flex
-    flex-direction: column
-    margin-left:  -1rem
-    margin-right: -1rem
-
-    +grid-media($grid-medium)
-      flex-direction: row
 
     .card
-      padding: 2rem
-      margin: 1rem
-      display: flex
-      flex-direction: column
-      justify-content: space-between
-      text-align: center
-
-      +grid-media($grid-medium)
-        flex-basis: calc(100% / 2)
+      padding: 4rem
+      margin-top: 4rem
 
       &__title
         margin-bottom: 1rem
@@ -41,66 +29,47 @@ body.about
       &__body
         text-align: left
 
-      &__footer
-        background-color: $beyond-beige
-        padding: 2rem
-        margin: 2rem -2rem -2rem
-        border-bottom-left-radius:  $base-border-radius
-        border-bottom-right-radius: $base-border-radius
-
-        & > *
-          color: $base-font-color-light
-          border-bottom-color: $base-font-color-light
-
-        A
-          border-bottom-width: 1px
-          border-bottom-style: solid
-          line-height: 1
-
-          &:hover, &:focus
-            color: darken($base-font-color-light, 10%)
-            border-color: darken($base-font-color-light, 10%)
-            transition: $base-transition
+        &:first-child
+          margin-bottom: 1rem
 
         svg
           margin-right: 1rem
 
+    .cta
+      margin-top: 4rem
+      margin-left: auto
+      margin-right: auto
+      display: table
 
-      .panels
+
+
+
+  .channels
+
+    .card
+      padding: 4rem
+      margin-top: 4rem
+
+      ul
         display: flex
-        margin-left:   -2rem
-        margin-right:  -2rem
-        margin-bottom: -2rem
+        justify-content: space-between
+        flex-direction: column
 
-        .panel
-          flex-basis: 50%
-          line-height: 1
+        +grid-media($grid-medium)
+          flex-direction: row
 
-          A
-            display: block
-            height: 100%
+        li
+          display: flex
+          align-items: center
+          margin-bottom: 1rem
 
-          &-wrap
-            color: $base-font-color
-            padding: 2rem
+          +grid-media($grid-medium)
+            margin-bottom: 0
 
-            &:hover, &:focus
-              color: $base-font-color-mid
-              transition: $base-transition
-
-            svg
-              display: block
-              margin: 0 auto 1rem
-
-          &--twitter
-
-            svg
-              color: #1dcaff
-
-          &--youtube
-
-            svg
-              color: #ff0000
+          svg
+            margin-right: 1.25rem
+            color: $base-font-color-light
+            width: 40px
 
 
 
@@ -111,7 +80,7 @@ body.about
     text-align: center
 
     .carousel
-      margin-top: 2rem
+      margin-top: 3rem
       text-align: left
 
       &__item
@@ -131,6 +100,7 @@ body.about
             top:  50%
             transform: translate(-50%, calc(-50% - 47px))
             display: inline-flex
+            z-index: 1
 
           &:hover, &:focus
 
@@ -143,9 +113,23 @@ body.about
             width: 100%
             background-size: cover
             background-repeat: no-repeat
-            background-position: center bottom
+            background-position: center
             border-top-left-radius:  $base-border-radius
             border-top-right-radius: $base-border-radius
+            position: relative
+
+            &:after
+              content: ''
+              position: absolute
+              top: 0
+              left: 0
+              width: 100%
+              height: 100%
+              background: linear-gradient(120deg, $beyond-blue, $beyond-green)
+              opacity: .6
+              border-top-left-radius:  $base-border-radius
+              border-top-right-radius: $base-border-radius
+
 
           &__body
             padding: 2rem
@@ -160,15 +144,6 @@ body.about
             font-size: 1.8rem
 
 
-        &:first-child
-
-          .card--event
-            background-color: $beyond-blue
-
-            &__title
-              color: lighten($beyond-blue, 40%)
-
-
 
 
 
@@ -177,7 +152,7 @@ body.about
 
     .card-container--exhibition
       overflow: hidden
-      margin-top: 4rem
+      margin-top: 3rem
 
       +grid-media($grid-medium)
         position: relative
@@ -188,7 +163,7 @@ body.about
           display: block
           width: 1px
           background: #cecece
-          height: 100%
+          height: calc(100% - 8rem)
           margin: auto
           top:    0
           left:   0
@@ -224,7 +199,6 @@ body.about
 
           &:nth-child(odd)
             float: left
-            // margin-top: 40px
 
             .card
 

@@ -27,4 +27,8 @@ $(document).ready(function(){
   $('.js-lightbox__youtube').magnificPopup({
     type:'iframe'
   });
+
+  $('.js-lightbox__image').magnificPopup({
+    type:'image'
+  });
 });

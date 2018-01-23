@@ -8,53 +8,46 @@ header_image: about.jpg
 
 <section class="about">
 
-  <div class="card">
+  <h2 class="section__title">Who we are</h2>
 
-    <h2 class="card__title">Who we are</h2>
+  <div class="card">
 
     <p class="card__body">As a team of software developers, designers, UX experts, technical writers and scrum masters we are a group of creative minds that strives to provide our customers with a great online shop software.</p>
 
     <p class="card__body">Our developer portal is a platform from developers for developers, and comprises a combination of REST API documentation for our products, blog posts with topics from our tech stack, as well as job vacancies.</p>
 
-    <p class="card__footer">
-      <a href="/devjobs/">Jump into a new adventure and become an ePages Dev ›</a>
-    </p>
-
   </div>
+
+  <a href="/devjobs/" class="cta  cta--beyond">Become an ePages dev ›</a>
+
+</section>
+
+
+
+
+
+<section class="channels">
+
+  <h2 class="section__title">Our channels</h2>
 
   <div class="card">
 
-      <h2 class="card__title">Follow us</h2>
+    <ul>
+      <li>
+        <i class="fab  fa-fw  fa-twitter  fa-2x" aria-hidden="true"></i>
+        <p>Follow us on <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a></p>
+      </li>
+      <li>
+        <i class="fab  fa-fw  fa-youtube  fa-2x" aria-hidden="true"></i>
+        <p>See what we've been up to on <a href="https://youtube.com/channel/{{site.youtube_username}}">YouTube</a></p>
+      </li>
+      <li>
+        <i class="fas  fa-fw  fa-globe  fa-2x" aria-hidden="true"></i>
+        <p>Visit our <a href="https://epages.com" target="_blank">company website</a></p>
+      </li>
+    </ul>
 
-      <div class="panels">
-
-        <div class="panel  panel--twitter">
-          <a href="/">
-            <div class="panel-wrap">
-              <i class="fab  fa-twitter fa-2x" aria-hidden="true"></i>
-              Twitter
-            </div>
-          </a>
-        </div>
-
-        <div class="panel  panel--youtube">
-          <a href="/">
-            <div class="panel-wrap">
-              <i class="fab  fa-youtube fa-2x" aria-hidden="true"></i>
-              Youtube
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-      <p class="card__footer">
-        <i class="fas  fa-globe" aria-hidden="true"></i>
-        <a href="https://www.epages.com">www.epages.com</a>
-        <span> (Company website)</span>
-      </p>
-
-    </div>
+  </div>
 
 </section>
 
@@ -75,14 +68,22 @@ header_image: about.jpg
 
       <div class="carousel__item">
 
-        {% if ev.video %}<a href="{{ ev.video }}" style="display: block;" class="lightbox__youtube  js-lightbox__youtube">{% endif %}
+        {% if ev.video %}
+
+          <a href="{{ ev.video }}" style="display: block;" class="lightbox__youtube  js-lightbox__youtube">
+
+        {% else %}
+
+          <a href="/assets/img/pages/about/{{ ev.image }}" style="display: block;" class="lightbox__image  js-lightbox__image">
+
+        {% endif %}
 
           <div class="card  card--event">
 
             {% if ev.video %}
 
               <div class="card--event__play-icon">
-                <i class="fa fa-play" aria-hidden="true"></i>
+                <i class="fas  fa-play" aria-hidden="true"></i>
               </div>
 
             {% endif %}
@@ -96,7 +97,7 @@ header_image: about.jpg
 
           </div>
 
-        {% if ev.video %}</a>{% endif %}
+        {% if ev.video or ev.image %}</a>{% endif %}
 
       </div>
 
@@ -105,8 +106,8 @@ header_image: about.jpg
   </div>
 
   <div class="carousel__paginator">
-    <div class="prev">‹</div>
-    <div class="next">›</div>
+    <div class="prev"><i class="fas  fa-3x  fa-angle-left"></i></div>
+    <div class="next"><i class="fas  fa-3x  fa-angle-right"></i></div>
   </div>
 
 </section>
@@ -160,6 +161,7 @@ header_image: about.jpg
 
 
 
+<link rel="stylesheet" href="/assets/slick/slick.css"/>
 <link rel="stylesheet" href="/assets/css/magnific-popup.css">
 <script src="/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="/assets/slick/slick.min.js"></script>

@@ -7,38 +7,21 @@
 
 .carousel__paginator
   position: absolute
-  bottom: 25rem
+  bottom: 50%
   left: 0
   right: 0
 
   .prev, .next
-    visibility: hidden
+    transform: translateY(50%)
     position: absolute
-    top: 0
-    font-size: 8rem
     cursor: pointer
     color: lighten($gray-light, 20%)
 
     &.slick-disabled
-      visibility: hidden
-
-    +grid-media($grid-medium)
-      visibility: visible
+      color: lighten($gray-light, 30%)
 
   .prev
     left: -4rem
 
-    +grid-media($grid-huge)
-      left: -5rem
-
-    +grid-media($grid-max)
-      left: -6rem
-
   .next
     right: -4rem
-
-    +grid-media($grid-huge)
-      right: -5rem
-
-    +grid-media($grid-max)
-      right: -6rem
