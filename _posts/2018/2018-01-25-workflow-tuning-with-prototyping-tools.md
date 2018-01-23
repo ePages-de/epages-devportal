@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workflow tuning with Prototyping tools
+title: Workflow tuning with prototyping tools
 date: 2018-01-25
 header_image: workflow-tuning-with-prototyping-tools.jpg
 header_overlay: true
