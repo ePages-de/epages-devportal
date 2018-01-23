@@ -3,7 +3,8 @@ layout: post
 title: "The pros and cons of an e-learning course about continuous deployment"
 date: 2017-05-11
 header_image: learning.jpg
-category: tech-stories
+category: methods-and-tools
+tags: ["capistrano", "agile", "continuous deployment"]
 authors: ["Jan"]
 ---
 
