@@ -1,18 +1,29 @@
-- title: About us
-  date: '&nbsp;'
-  image: placeholder.jpg
+- title: Meet the team
+  image: meet-the-team.png
   video: https://www.youtube.com/watch?v=FbE2FyqTJCY
 
-- title: Commerce Summit 2017
-  date: 21. - 22. Sep 2017
-  image: placeholder.jpg
-
 - title: Hackathon 2017
-  date: 23. Mar 2017
-  image: placeholder.jpg
+  # date: 23. Mar 2017
+  image: hackathon_2017_2.png
   video: https://www.youtube.com/watch?v=j-qMUo8_ChQ
 
+- title: R&D day 2016
+  image: rnd_2016_1.jpg
+  video: https://www.youtube.com/watch?v=wNQ7B0rIB3g
+
 - title: Hackathon 2016
-  date: 24. Mar 2016
-  image: placeholder.jpg
+  # date: 24. Mar 2016
+  image: rnd_2016_2.jpg
   video: https://www.youtube.com/watch?v=2UdyQma76IA
+
+- title: Lunch in the park
+  image: lunch-in-the-park.jpg
+
+- title: Tech meetup & pizzaaaa
+  image: meetup.jpg
+
+- title: Great team workshop
+  image: you_2016_1.jpg
+
+- title: After-work fun
+  image: you_2016_2.jpg
