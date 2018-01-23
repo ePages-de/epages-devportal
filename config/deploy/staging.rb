@@ -1,61 +1,77 @@
-# server-based syntax
-# ======================
-# Defines a single server with a list of roles and multiple properties.
-# You can define all roles on a single server, or split them:
+# config valid for current version and patch releases of Capistrano
+lock "~> 3.8.1"
 
-# server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
-# server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
-# server "db.example.com", user: "deploy", roles: %w{db}
+server '18.196.120.61', roles: [:web, :app, :db], primary: true
 
+set :application, "epages_devblog"
+set :repo_url, "git@github.com:ePages-de/epages-devblog.git"
+set :rbenv_ruby, '2.4.2'
+set :user, 'deploy'
+set :branch, 'develop'
+set :pty,             true
+set :use_sudo,        false
+set :stage,           :production
+set :deploy_via,      :remote_cache
+set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
+set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
 
+namespace :deploy do
+  after :updated, :jekyll_tasks do
+    on roles(:app)do
+      invoke 'jekyll:prepare_files'
+    end
+  end
+end
 
-# role-based syntax
-# ==================
+namespace :jekyll do
+  desc 'Move needed files to current'
+  task :prepare_files do
+    on roles(:app)do
+      execute("cd #{release_path}; rm -f Gemfile.lock")
+      execute("cd #{release_path}; rm -f Gemfile")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/build-production.sh #{release_path}/build-production.sh")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/docker-compose.production.yml #{release_path}/docker-compose.production.yml")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Dockerfile-production #{release_path}/Dockerfile-production")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Gemfile #{release_path}/Gemfile")
+      execute("chmod 755 #{release_path}/build-production.sh")
+      execute("chmod 755 #{release_path}/docker-compose.production.yml")
+      execute("chmod 755 #{release_path}/Dockerfile-production")
+      execute("chmod 755 #{release_path}/Gemfile")
+    end
+  end
 
-# Defines a role with one or multiple servers. The primary server in each
-# group is considered to be the first unless any hosts have the primary
-# property set. Specify the username and a domain or IP for the server.
-# Don't use `:all`, it's a meta role.
+  desc 'Build and generate _site with jekyll'
+  task :build do
+    on roles(:app) do
+      execute("cd '#{release_path}'; docker-compose -f docker-compose.production.yml build")
+      execute("cd '#{release_path}'; docker-compose -f docker-compose.production.yml up")
+      execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps/#{fetch(:application)}")
+    end
+  end
 
-# role :app, %w{deploy@example.com}, my_property: :my_value
-# role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
-# role :db,  %w{deploy@example.com}
+  desc 'Add the old docs to _site'
+  task :include_old_docs do
+    on roles(:app) do
+      execute("mkdir #{release_path}/_site/apps")
+      execute("mkdir #{release_path}/_site/soap")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/apps/* #{release_path}/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/soap/* #{release_path}/_site/soap")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/assets/* #{release_path}/_site/assets")
+      execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps")
+    end
+  end
 
+  desc 'Remove images and not needed folders and files'
+  task :clean_up do
+    on roles(:app)do
+      execute("cd '#{release_path}'; rm -fr assets")
+      execute("cd '#{release_path}'; rm -fr _posts")
+      execute("docker rmi -f $(docker images -a -q); true")
+      execute("docker system prune -f; true")
+    end
+  end
 
-
-# Configuration
-# =============
-# You can set any configuration variable like in config/deploy.rb
-# These variables are then only loaded and set in this stage.
-# For available Capistrano configuration variables see the documentation page.
-# http://capistranorb.com/documentation/getting-started/configuration/
-# Feel free to add new variables to customise your setup.
-
-
-
-# Custom SSH Options
-# ==================
-# You may pass any option but keep in mind that net/ssh understands a
-# limited set of options, consult the Net::SSH documentation.
-# http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start
-#
-# Global options
-# --------------
-#  set :ssh_options, {
-#    keys: %w(/home/rlisowski/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
-#
-# The server-based syntax can be used to override options:
-# ------------------------------------
-# server "example.com",
-#   user: "user_name",
-#   roles: %w{web app},
-#   ssh_options: {
-#     user: "user_name", # overrides user setting above
-#     keys: %w(/home/user_name/.ssh/id_rsa),
-#     forward_agent: false,
-#     auth_methods: %w(publickey password)
-#     # password: "please use keys"
-#   }
+  after :prepare_files, :build
+  after :build, :include_old_docs
+  after :include_old_docs, :clean_up
+end
