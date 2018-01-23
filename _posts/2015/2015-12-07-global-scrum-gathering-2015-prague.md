@@ -3,6 +3,7 @@ layout: post
 title: "Global Scrum Gathering 2015 Prague"
 date: 2015-12-07
 header_image: scrum-prague-2015.jpg
+header_overlay: true
 category: events
 authors: ["Anja B."]
 ---
@@ -24,7 +25,7 @@ He also had a whole slide with example companies (big ones!) that are already wo
 
 One really interesting point was when he started to talk about the theory of X- and Y-people.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-gsg-2.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-gsg-2.jpg" width="50" lightbox %}
 
 Everyone in the room wrote on a sticky note if they thinks whether they are an X or a Y person and on a second sticky note they put a guess of percentage of people who think they are an X person.
 Then we exchanged notes and those holding an X were supposed to raise their hands.
@@ -89,7 +90,7 @@ His advice to tackle TD was to make it visible.
 Use a special kind of ticket either on the backlog or a separate board.
 Plan it in the sprint or take a certain percentage of the sprint (e.g. one day per sprint) to only work on TD.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-gsg-4.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-gsg-4.jpg" width="50" lightbox %}
 
 ## Pavel Dabrytski - Scrum Economics 101: Contracts, Budgets, Capitalization
 
