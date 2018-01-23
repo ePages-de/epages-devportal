@@ -1,9 +1,9 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.8.1"
 
-server '18.196.113.5', roles: [:web, :app, :db], primary: true
+server '18.195.76.160', roles: [:web, :app, :db], primary: true
 
-set :application, "epages_devblog"
+set :application, "epages_devblog_staging"
 set :repo_url, "git@github.com:ePages-de/epages-devblog.git"
 set :rbenv_ruby, '2.4.2'
 set :user, 'deploy'
@@ -29,10 +29,10 @@ namespace :jekyll do
     on roles(:app)do
       execute("cd #{release_path}; rm -f Gemfile.lock")
       execute("cd #{release_path}; rm -f Gemfile")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/build-production.sh #{release_path}/build-production.sh")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/docker-compose.production.yml #{release_path}/docker-compose.production.yml")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Dockerfile-production #{release_path}/Dockerfile-production")
-      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}/shared/Gemfile #{release_path}/Gemfile")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}_staging/shared/build-production.sh #{release_path}/build-production.sh")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}_staging/shared/docker-compose.production.yml #{release_path}/docker-compose.production.yml")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}_staging/shared/Dockerfile-production #{release_path}/Dockerfile-production")
+      execute("cp /home/#{fetch(:user)}/apps/#{fetch(:application)}_staging/shared/Gemfile #{release_path}/Gemfile")
       execute("chmod 755 #{release_path}/build-production.sh")
       execute("chmod 755 #{release_path}/docker-compose.production.yml")
       execute("chmod 755 #{release_path}/Dockerfile-production")
@@ -54,9 +54,9 @@ namespace :jekyll do
     on roles(:app) do
       execute("mkdir #{release_path}/_site/apps")
       execute("mkdir #{release_path}/_site/soap")
-      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/apps/* #{release_path}/_site/apps")
-      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/soap/* #{release_path}/_site/soap")
-      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs/current/_site/assets/* #{release_path}/_site/assets")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs_staging/current/_site/apps/* #{release_path}/_site/apps")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs_staging/current/_site/soap/* #{release_path}/_site/soap")
+      execute("cp -r /home/#{fetch(:user)}/apps/epages_docs_staging/current/_site/assets/* #{release_path}/_site/assets")
       execute("sudo chown -R deploy:deploy /home/#{fetch(:user)}/apps")
     end
   end
