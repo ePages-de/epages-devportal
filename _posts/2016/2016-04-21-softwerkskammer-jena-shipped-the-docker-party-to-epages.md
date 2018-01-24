@@ -36,14 +36,14 @@ The second part considered some best practises for writing your own Dockerfile, 
 This was a nice opportunity to also show some typical use cases at ePages, e.g. the Continuous Delivery Pipeline for integration testing, or that both, the ePages and the provider infrastructure are already based partly on [Kubernetes](http://kubernetes.io){:target="_blank"}.
 The talk finished with some typical base images as well as a discussion about official app environment images.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-docker-presentation.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-presentation.jpg" width="50" lightbox %}
 
 ## Containers, containers, con... er workshops!
 
 Upfront, all necessary material and code for the workshops was hosted on the jenadevs [GitHub](https://github.com/jenadevs){:target="_blank"} account, which even offers the [complete presentation](https://github.com/jenadevs/jenadevs-meetup-001-docker-party){:target="_blank"}.
 Good news: all material of [jenadevs](https://github.com/jenadevs){:target="_blank"} is free and will always be open-source!
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-docker-workflow.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-workflow.jpg" width="40" lightbox %}
 
 ### Beginners workshop
 
