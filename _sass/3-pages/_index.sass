@@ -12,6 +12,24 @@ body.default
   .section__title
     margin-bottom: 1rem
 
+  .card-wrapper
+    display: flex
+    flex-wrap: wrap
+    box-sizing: border-box
+    margin: 4rem -1rem 0
+
+    .card
+      padding: 2rem
+      margin: 1rem
+      flex-direction: column
+      align-items: center
+      text-align: center
+      flex-basis: 100%
+
+      svg
+        color: $cat-coding
+        margin-bottom: 2rem
+
   .column-wrapper
     display: flex
     flex-wrap: wrap
@@ -51,19 +69,12 @@ body.default
 
   .business
 
-    .cta
-      margin-top: 4rem
-      margin-left: auto
-      margin-right: auto
-      display: table
+    .card-wrapper
 
-    .column-wrapper
-
-      .column
-        flex-direction: column
+      .card
 
         +grid-media($grid-medium)
-          flex-basis: calc(100% / 4 - 4rem)
+          flex-basis: calc(100% / 4 - 6rem)
           align-items: center
 
 
@@ -123,12 +134,27 @@ body.default
         +grid-media($grid-medium)
           min-height: 350px
 
+      .card--background
+        // background-image: url(/assets/img/pages/index/posts.jpg)
+        // background-image: linear-gradient(120deg, rgba(28,54,70,.7), rgba(78,183,168,.7)), url(/assets/img/pages/index/posts.jpg)
+        // background-position: center
+        // background-size: cover
+        // background-repeat: no-repeat
+
       &__link
         display: flex
         justify-content: center
         align-items: center
 
-        &:hover, &:focus
-          box-shadow: none
+      &__item
+
+        A
+          display: block
+
+          span
+            // color: $white
+            font-size: 2.4rem
+            font-family: $display-font-family
+            // text-shadow: $base-text-shadow
 
 
