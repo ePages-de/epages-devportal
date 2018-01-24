@@ -30,7 +30,7 @@ We did our best...
 
 {% image_custom image="/assets/img/pages/blog/images/blog-company-cup-6.jpg" width="50" lightbox %}
 
-... but unfortunately the other teams had too.
+... but unfortunately, the other teams did too.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-company-cup-7.jpg" width="50" lightbox %}
 
