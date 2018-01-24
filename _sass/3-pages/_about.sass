@@ -20,26 +20,23 @@ body.about
   .about
 
     .card
-      padding: 4rem
+      padding: 4rem 8rem
       margin-top: 4rem
+      text-align: center
 
       &__title
         margin-bottom: 1rem
 
       &__body
-        text-align: left
 
         &:first-child
-          margin-bottom: 1rem
+          margin-bottom: 2rem
 
         svg
           margin-right: 1rem
 
-    .cta
-      margin-top: 4rem
-      margin-left: auto
-      margin-right: auto
-      display: table
+      .cta
+        margin-top: 3rem
 
 
 
@@ -118,17 +115,17 @@ body.about
             border-top-right-radius: $base-border-radius
             position: relative
 
-            &:after
-              content: ''
-              position: absolute
-              top: 0
-              left: 0
-              width: 100%
-              height: 100%
-              background: linear-gradient(120deg, $beyond-blue, $beyond-green)
-              opacity: .6
-              border-top-left-radius:  $base-border-radius
-              border-top-right-radius: $base-border-radius
+            // &:after
+            //   content: ''
+            //   position: absolute
+            //   top: 0
+            //   left: 0
+            //   width: 100%
+            //   height: 100%
+            //   background: linear-gradient(120deg, $beyond-blue, $beyond-green)
+            //   opacity: .6
+            //   border-top-left-radius:  $base-border-radius
+            //   border-top-right-radius: $base-border-radius
 
 
           &__body
@@ -227,23 +224,20 @@ body.about
             display: block
 
           &__upper
-            background: $beyond-beige
+            background: darken($beyond-beige, 25%)
             margin: -2rem -2rem 0
             padding: 1.5rem
             border-top-left-radius:  $base-border-radius
             border-top-right-radius: $base-border-radius
 
           &__date
-            color: darken($beyond-beige, 20%)
+            color: darken($beyond-beige, 5%)
 
           &__title
             font-family: $display-font-family
-            color: $base-font-color-light
+            color: $white
             position: relative
             bottom: -.2rem
-
-          &__time
-            color: darken($beyond-beige, 20%)
 
           &__lower
             background: $white

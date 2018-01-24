@@ -16,9 +16,9 @@ header_image: about.jpg
 
     <p class="card__body">Our developer portal is a platform from developers for developers, and comprises a combination of REST API documentation for our products, blog posts with topics from our tech stack, as well as job vacancies.</p>
 
-  </div>
+    <a href="/devjobs/" class="cta  cta--beyond">Become an ePages dev ›</a>
 
-  <a href="/devjobs/" class="cta  cta--beyond">Become an ePages dev ›</a>
+  </div>
 
 </section>
 
@@ -39,7 +39,7 @@ header_image: about.jpg
       </li>
       <li>
         <i class="fab  fa-fw  fa-youtube  fa-2x" aria-hidden="true"></i>
-        <p>See what we've been up to on <a href="https://youtube.com/channel/{{site.youtube_username}}">YouTube</a></p>
+        <p>See what we're up to on <a href="https://youtube.com/channel/{{site.youtube_username}}">YouTube</a></p>
       </li>
       <li>
         <i class="fas  fa-fw  fa-globe  fa-2x" aria-hidden="true"></i>
@@ -131,14 +131,12 @@ header_image: about.jpg
 
         <div class="card  card--exhibition">
 
-          <a target="_blank" href="{{ event.link }}">
+          {% if ex.link %}<a target="_blank" href="{{ ex.link }}">{% endif %}
 
             <div class="card--exhibition__upper">
-              <div class="card--exhibition__date       ">{{ ex.date }}</div>
+              <div class="card--exhibition__date       ">{{ ex.date }} {% if ex.time %}| {{ ex.time }}{% endif %}</div>
               <div class="spacer-1"></div>
               <div class="card--exhibition__title      ">{{ ex.title }}</div>
-              <div class="spacer-1"></div>
-              <div class="card--exhibition__time       ">{{ ex.time }}</div>
             </div>
 
             <div class="card--exhibition__lower">
@@ -147,7 +145,7 @@ header_image: about.jpg
               <div class="card--exhibition__address    ">{{ ex.address }}</div>
             </div>
 
-          </a>
+          {% if ex.link %}</a>{% endif %}
 
         </div>
 
