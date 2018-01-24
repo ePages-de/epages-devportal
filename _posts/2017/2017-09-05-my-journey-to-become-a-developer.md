@@ -5,6 +5,7 @@ date: 2017-09-05
 header_image: journey-developer.jpg
 image-position: bottom
 category: on-the-job
+tags: ["html", "css", "ruby", "rails", "git", "javascript"]
 authors: ["Christoph"]
 ---
 My name is Christoph, and since the beginning of the year I am working as a frontend developer at ePages.

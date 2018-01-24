@@ -23,7 +23,7 @@ On the next day, we went on a road trip with the team van to Sa Calobra in the n
 We were impressed by the majestic mountains and the bluish tonalities of the Mediterranean Sea.
 When cruising along the bay area, we also found various [Geocaching](https://www.geocaching.com){:target="_blank"} possibilities to explore.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-mallorca-1.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-mallorca-1.jpg" width="50" lightbox %}
 
 ## Living as a team
 
@@ -34,7 +34,7 @@ This kick-starting routine often blended nicely into the warming sunrise over th
 That's why the offsite time was a **BIG** chance to gain trust into the capabilities of our team.
 We totally adopted this magical present. Unsurprisingly, we soon recognised that living the team spirit can be a lot of fun!
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-mallorca-2.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-mallorca-2.jpg" width="50" lightbox %}
 
 ## Learning from your peers
 
@@ -52,7 +52,7 @@ Next, the coding partner should lean into the position of an _“evil programmer
 Afterwards he gives back the keyboard to the radically stressed writer of the unit test, who has to enforce the desired implementation with the addition of another test case.
 In this rotary principle we trained our sense for writing high quality tests. This hands-on approach delivered a lot of amusements as well as practical benefits for our programming skills.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-mallorca-3.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-mallorca-3.jpg" width="100" lightbox %}
 
 ## Inspiring one another
 
@@ -68,7 +68,7 @@ The consistent execution of this method over and over again rapidly helped us to
 Firstly, we want to return a lot of responsibilities to those teams that strongly depend on us these days.
 Secondly, we would like to establish a fast and secure mechanism to permanently keep the latest build of the next ePages version in a releasable state.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-mallorca-4.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-mallorca-4.jpg" width="100" lightbox %}
 
 ## Summary
 

@@ -3,6 +3,7 @@ layout: post
 title: "ePagees face the Tough Mudder challenge"
 date: 2015-07-17
 header_image: tough-mudder.jpg
+header_overlay: true
 category: events
 authors: ["Ludger"]
 ---
@@ -19,11 +20,11 @@ It was raining throughout the day, so it was really slimy and muddy, that means 
 The Tough Mudder is a 16 to 18km Cross-Country Run through the wilderness with about 15 different obstacles.
 Six of these obstacles were tougher ones such as the Birth Canal, Berlin Walls ...
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-tough-mudder-5.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-tough-mudder-5.jpg" width="50" lightbox %}
 
 ...Hangin' Tough...
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-tough-mudder-1.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-tough-mudder-1.jpg" width="50" lightbox %}
 
 ...Arctic Enema (diving into 4-degree-cold water) and Kiss of Mud (tasty!).
 
@@ -31,13 +32,13 @@ Tough Mudder is not a competition or a race. It's a challenge without time measu
 The ePagees participating in this event showed great team spirit.
 The team consisted of six colleagues from four different departments.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-tough-mudder-2.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-tough-mudder-2.jpg" width="50" lightbox %}
 
 Some of these colleagues had never ran that far before, especially on muddy ground - making it an even more spectacular performance!
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-tough-mudder-4.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-tough-mudder-4.jpg" width="50" lightbox %}
 
 Starting from the very back row we were all running fast and overtaking quite a few of the other attendees, but still supporting each other until the very last obstacle.
 It was called Electroshock therapy which we all ran through arm in arm together.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-tough-mudder-3.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-tough-mudder-3.jpg" width="50" lightbox %}

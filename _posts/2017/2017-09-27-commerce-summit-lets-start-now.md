@@ -5,6 +5,7 @@ date: 2017-09-27
 header_image: commerce-summit-2017.jpg
 image-position: top
 category: events
+tags: ["commerce summit", "ecommerce"]
 authors: ["Christina"]
 ---
 <style>

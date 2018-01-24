@@ -83,7 +83,7 @@ On the project folder you could use:
 This will provide you the list of available tasks.
 
 -----------------------
-{% image_lightbox image="/assets/img/pages/blog/images/blog-gradlew_tasks.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-gradlew_tasks.jpg" width="50" lightbox %}
 -----------------------
 {% highlight bash %}
 ./gradlew validateJenkinsItems
@@ -97,7 +97,7 @@ This will validate local changes with your Jenkins.
 This will update your Jenkins installation with the DSL defined locally.
 
 -----------------------
-{% image_lightbox image="/assets/img/pages/blog/images/blog-gradlew_update_jenkins_items.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-gradlew_update_jenkins_items.jpg" width="50" lightbox %}
 -----------------------
 
 ## Conclusions
