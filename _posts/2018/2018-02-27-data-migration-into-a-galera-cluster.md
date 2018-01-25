@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data migration into a Galera Cluster
+title: How to migrate data to a Galera Cluster
 date: 2018-02-27
 header_image: galera-data-migration.jpg
 header_position: center
@@ -9,30 +9,38 @@ tags: ["galera", "mysql", "database"]
 authors: ["Timo H."]
 ---
 
-Your own Galera cluster is proudly up and running, but there is no data on it.
+You proudly managed to [install your own Galera cluster](/blog/tech-stories/how-to-install-your-own-galera-cluster/).
+Nice!
+But there is no data on it.
 
-If you have a new application, you can count yourself lucky and could deploy it straight away on your Galera cluster as if it were a normal Mysql database.
+If you have a new application, you can count yourself lucky, and can deploy it straight away on your Galera Cluster, as if it were a normal MySQL database.
 
-However, sooner or later you will have a situation, where you have to import old data into a Galera cluster. If it is live-data, it should be doable without downtime.
+However, sooner or later you will have a situation, where you have to import old data into a Galera Cluster.
+If it is live data, it should be doable without downtime.
 
 ## Plan
 
 {% highlight italic %}
-"Well planned is halfway done, and halfway done is mostly enough"
--old Finnish proverb
+"Well planned is halfway done, and halfway done is mostly enough."
+- old Finnish proverb -
 {% endhighlight %}
 
-Normally if MySQL database is running as replication slave, it cannot be configured as replication slave for an another MySQL master. Galera replication is however not MySQL replication, so in addition to Galera multi-master replication, we can have normal MySQL replication, either to feed data into the cluster, or source the data to external database, in example for business intelligence uses.
+Normally, if a MySQL database is running as replication slave, it cannot be configured as replication slave for another MySQL master.
+Galera replication is however not MySQL replication.
+So, in addition to Galera multi-master replication, we can have a normal MySQL replication.
+Either to feed data into the cluster, or to source the data to an external database, e.g. for business intelligence uses.
 
-We will thus initialize a replication from current live-MySQL towards Galera cluster, and after replication is running nicely, we will point application towards the loadbalancer of galera cluster, minimizing the downtime of the operation to mere seconds.
+We will thus initialize a replication from the current live MySQL towards the Galera Cluster, and after replication is running nicely, we will point the application towards the load balancer of the Galera Cluster, minimizing the downtime of the operation to mere seconds.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-galera-migration.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-galera-migration.png" width="100" %}
 
-MySQL replication can replicate into one Galera cluster node, which then replicates the changes through Galera replication to all other cluster nodes. Please note that during the replication process you have to connect directly on that one Galera cluster node, because the replicaton configuration can exist only on one node at the time, it is not cluster wide configuration.
+MySQL replication can replicate into one Galera Cluster node, which then replicates the changes through Galera replication to all other cluster nodes.
+Note that during the replication process you have to connect directly to that one Galera Cluster node, because the replication configuration can exist only on one node at the same time; it is not a cluster wide configuration.
 
 ## Replication initialization
 
-Target Galera cluster has alread its own mysql-, information_schema- and performance_schema-databases, so we want to omit those from the replication dump.
+The target Galera Cluster has already its own mysql-, information_schema- and performance_schema-databases, so we want to omit those from the replication dump.
+
 ```
 DBS=$( mysql --defaults-file=/etc/my.cnf --column-names=0 \
 -e "select schema_name from information_schema.schemata \
@@ -40,24 +48,30 @@ DBS=$( mysql --defaults-file=/etc/my.cnf --column-names=0 \
 echo $ALL_DBS_FOR_INSTANCE
 ```
 
-Then a dump must be created from current live database:
+Then a dump must be created from the current live database:
 ```
 mysqldump --defaults-file=/etc/my.cnf --databases ${DBS} --master-data=1 \  --single-transaction --ignore-table=mysql.inventory  | gzip -c1 > dump_for_replication.dmp.gz
 ```
 
 **Note**:
-If you have views which use direct mysql-users in your databases, you should at this point create those users also temporarily on the Galera cluster. Otherwise missing users might lead to dump loading errors. If you do, please remember to remove those temporary users at the end of the migration.
+If you have views which use direct MySQL users in your databases, you should at this point create those users also temporarily on the Galera Cluster.
+Otherwise, missing users might lead to dump loading errors.
+If you do, please remember to remove those temporary users at the end of the migration.
 
-Before loading the replication-dump on Galera cluster, lets configure first galera node to have the current liveserver as replication master. In reverse it means that first galera node becomes replication slave to current liveserver.
+Before loading the replication dump on the Galera cluster, let's configure the first Galera node to have the current live server as a replication master.
+In reverse, it means that the first Galera node becomes a replication slave to the current live server.
 
-In the CHANGE MASTER command below, please change IPOFLIVEDATABASE with the ip of your live database. Also replace REPLICATIONUSERNAME and REPLICATIONPASSWORD with your user name and password of your mysql replication user. If you do not have a mysql replication user on your live database, please create it with following command:
+In the CHANGE MASTER command below, change IPOFLIVEDATABASE with the IP of your live database.
+Also, replace REPLICATIONUSERNAME and REPLICATIONPASSWORD with your user name and password of your MySQL replication user.
+If you do not have a MySQL replication user on your live database, create it with the following command:
+
 ```
 CREATE USER 'REPLICATIONUSERNAME'@'%' IDENTIFIED BY 'REPLICATIONPASSWORD';
 GRANT REPLICATION SLAVE ON *.* TO 'REPLICATIONUSERNAME'@'%';
 ```
 If you do not want to replicate the full database, limit the user above accordingly.
 
-After all previous prerequisites are fulfilled, you may configure your first galera node to have a replication master:
+After all previous prerequisites are fulfilled, you may configure your first Galera node to have a replication master:
 
 ```
 CHANGE MASTER TO
@@ -67,9 +81,10 @@ CHANGE MASTER TO
           MASTER_PASSWORD='REPLICATIONPASSWORD';
 ```
 
-As replication is prepared on first galera node, lets go back on your live database server.
+As the replication is prepared on the first Galera node, let's go back to your live database server.
 
-If you have a large database-dump, like they usually are, it is recommended to use nohup utility program for avoiding disturbances while loading the data. Therefore we will create a small loading script, which in turn will be ran with nohup.
+If you have a large database dump, like they usually are, it is recommended to use the `nohup` utility program for avoiding disturbances while loading the data.
+Therefore, we will create a small loading script, which in turn will be ran with `nohup`.
 
 ```
 cat >> loadDump.sh < "EOF
@@ -79,8 +94,8 @@ gzip -cd  < ${dumpfile} |  mysql --defaults-file=/tmp/galera01.cnf --host=10.12.
 EOF
 ```
 
-In the defaults-file /tmp/galera01.cnf you must have proper creditentials for root user on your first galera node.
-Please replace again IPOFFIRSTGALERANODE, USERNAMEONFIRSTGALERANODE and PASSWORDONFIRSTGALERANODE with your first galera node ip, username and password respectively.
+In the defaults-file _/tmp/galera01.cnf_ you must have the proper credentials for the root user on your first Galera node.
+Replace again IPOFFIRSTGALERANODE, USERNAMEONFIRSTGALERANODE and PASSWORDONFIRSTGALERANODE with your first Galera node IP, user name, and password respectively.
 
 ```
 cat >> /tmp/galera01.cnf < "EOF
@@ -92,63 +107,70 @@ password='PASSWORDONFIRSTGALERANODE'
 EOF
 ```
 
-When all bits and pieces are in place, begin the dump loading with nohup:
+When all bits and pieces are in place, begin the dump loading with `nohup`:
 
 ```
 nohup /opt/eproot/Shared/Packages/loadDump.sh dump_for_replication.dmp.gz > loadDump.log 2>&1 &
 ```
 
-You can observe the dump loading process by tailing the logfile:
+You can observe the dump loading process by tailing the log file:
+
 ```
 tail -f loadDump.log
 ```
 
-## Essence of Time itself
+## Essence of time itself
 
-[Time](https://en.wikipedia.org/wiki/Time){:target="_blank"}
-
-Be patient, loading can take very long time.
+Be patient, loading can take a very long [time](https://en.wikipedia.org/wiki/Time){:target="_blank"}.
 
 ## Start replicating
 
-After replication dump is finally loaded, you can check that your replication is properly configured:
+After the replication dump is finally loaded, you can check that your replication is properly configured:
+
 ```
 mysql --defaults-file=/tmp/galera01.cnf
 SHOW SLAVE STATUS\G
 ```
 
 If everything matches to the settings configured earlier, you can start the replication:
+
 ```
 mysql --defaults-file=/tmp/galera01.cnf
 START SLAVE;
 ```
 
-After replication slave status item "seconds behind master" reaches 0, your replication is running orderly.
-You may now choose a suitable date for switching the application towards loadbalancer of galera cluster.
+After the replication slave status item "seconds behind master" reaches 0, your replication is running orderly.
+You may now choose a suitable date for switching the application towards the load balancer of the Galera Cluster.
 
 ## Switch
 
-You should train the following procedure on your testsystem, for having minimal downtime.
+You should execute the following procedure on your test system for minimal downtime.
 
-First close your live application. This can mean either shutting down your application completely, or configuring maintenance web page on your weblayer loadbalancer.
+First close your live application.
+This can mean either shutting down your application completely, or configuring the maintenance web page on your web layer load balancer.
 
-After all application-related database connections are closed towards your live-database you can stop your replication.
+After all application-related database connections are closed towards your live database, you can stop your replication.
+
 ```
 mysql --defaults-file=/tmp/galera01.cnf
 STOP SLAVE;
 ```
-All changes to your live-database after this point will be lost, so make sure the application database activity is really off.
 
-If you have some special database views, which depend on mysql users, now is your time to fix them on galera side. If you dont, they will be causing problem later on. Preferably plan beforehand all actions through, to keep things quick.
+All changes to your live database after this point will be lost, so make sure the application database activity is really off.
 
-After all last-minute actions are done, you should reset the replication.
+If you have some special database views, which depend on MySQL users, it's now the time to fix them on Galera side.
+If you don't fix them, they will be causing problems later.
+Preferably, plan all actions thoroughly beforehand to keep things quick.
+
+After all last-minute actions are done, reset the replication.
 
 ```
 mysql --defaults-file=/tmp/galera01.cnf
 RESET SLAVE;
 ```
 
-For being sure, that no false data will be replicated, point replication master to non-existing source:
+To ensure that no false data will be replicated, point the replication master to a non-existing source:
+
 ```
 mysql --defaults-file=/tmp/galera01.cnf
 CHANGE MASTER TO
@@ -158,19 +180,23 @@ CHANGE MASTER TO
           MASTER_PASSWORD='NOPASS';
  ```
 
-If you dont have further databases to migrate, you might also just restart your galera cluster node after RESET SLAVE, for cleaning the replication configuration.
+If you don't have further databases to migrate, you might also just restart your Galera Cluster node after RESET SLAVE, for cleaning the replication configuration.
 
-Now old live-database can be shut down, and application can be pointed towards loadbalancer of your galera cluster.
+Now the old live database can be shut down, and the application can be pointed towards the load balancer of your Galera Cluster.
 
-Congratulations, you have successfully migrated your data to Galera cluster!
+Congratulations, you have successfully migrated your data to Galera Cluster!
 
-If you happen to have further database, feel free to repeat the process as often as you need to. Please notice that replicating into Galera will affect the cluster performance, especially during loading the replication dump.
+If you happen to have further databases, feel free to repeat the process as often as you need to. Note that replicating into Galera will affect the cluster performance, especially during loading the replication dump.
 
-Every scenario should be tested thoroughly on properly configured testsystem. Galera replication is a delicate construction and things can go awry when using unorthodox methods like extra replication discussed here.
+Every scenario should be tested thoroughly on a properly configured test system.
+Galera replication is a delicate construction, and things can go awry when using unorthodox methods like extra replication discussed here.
 
-## All's Well That Ends Well
+## All's well that ends well
 
-Having your live-data now running in Galera-cluster, you can be proud for eliminating yet another risk to your platform. No need to worry about faults on single components.
+Having your live data now running on a Galera Cluster, you can be proud of having eliminated yet another risk to your platform.
+No need to worry about faults on single components.
 
-Galera is no silver bullet. All components will still need normal maintenance, and you should still take regular backups of your data.
-Difference is however, that you may now decide more freely, when the maintenance should take place, and it will be invisible for the end customer. Except if they happen to read about it on a dev-blog article ;)
+Galera is no silver bullet.
+All components will still need normal maintenance, and you should still take regular backups of your data.
+The difference is however, that you may now decide more freely, when the maintenance should take place, and it will be invisible for the end customer.
+Except if they happen to read about it on a devblog post 😉.
