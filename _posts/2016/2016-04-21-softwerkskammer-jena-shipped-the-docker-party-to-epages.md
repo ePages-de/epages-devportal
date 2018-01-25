@@ -4,6 +4,7 @@ title: "Guest post: Softwerkskammer Jena shipped the Docker Party to ePages!"
 date: 2016-04-21
 header_image: docker-party.jpg
 category: events
+tags: ["meetup", "docker", "workshop", "container", "kubernetes"]
 authors: ["Softwerkskammer Jena", "Oliver", "Benjamin"]
 ---
 

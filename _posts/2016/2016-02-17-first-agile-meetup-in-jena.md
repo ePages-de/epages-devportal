@@ -4,6 +4,7 @@ title: "First Agile Meetup in Jena"
 date: 2016-02-17
 header_image: agile-meetup.jpg
 category: events
+tags: ["meetup", "agile", "scrum"]
 authors: ["Anja B.", "Fouad-Steffen"]
 ---
 

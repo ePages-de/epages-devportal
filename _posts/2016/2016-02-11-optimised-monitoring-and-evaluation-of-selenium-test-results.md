@@ -4,7 +4,8 @@ title: "Optimised monitoring and evaluation of Selenium test results"
 date: 2016-02-11
 header_image: test-automation-1.jpg
 category: tech-stories
-authors: ["Benjamin N.", "Bastian K."]
+tags: ["selenium", "monitoring", "continuous delivery"]
+authors: ["Benjamin", "Bastian"]
 ---
 
 Today we want to share with you the first of two blog posts on a recent project concerning an optimised workflow for the monitoring and evaluation of the Selenium integration test results from multiple environments in our pipeline. This initial article should serve as brief introduction to the business context, encompass the major pain points of the established test evaluation process and constitute the essential requirements for a technical solution. Furthermore, we will envision two solution approaches and discuss which option fits best our needs and therefore will be implemented.

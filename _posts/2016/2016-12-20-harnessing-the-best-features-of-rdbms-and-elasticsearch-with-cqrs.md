@@ -4,6 +4,7 @@ title: "Harnessing the best features of RDBMS and Elasticsearch with CQRS"
 date: 2016-12-20
 header_image: searching.jpg
 category: tech-stories
+tags: ["rdbms", "elasticsearch", "cqrs", "patterns", "data models"]
 authors: ["Jens"]
 ---
 

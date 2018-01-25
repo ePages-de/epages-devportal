@@ -4,6 +4,7 @@ title: "The battle of the operating systems"
 date: 2016-12-22
 header_image: apple-pear-choose.jpg
 category: tech-stories
+tags: ["operating system", "macos", "windows", "linux", "statistics"]
 authors: ["Ivan"]
 ---
 

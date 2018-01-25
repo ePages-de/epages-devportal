@@ -4,10 +4,11 @@ title: "7 steps to consider when building a Web API"
 date: 2016-12-02
 header_image: construction.jpg
 category: api-experience
+tags: ["api", "rest", "tdd", "authorization", "concepts"]
 authors: ["David", "Ulf B."]
 ---
 
-Today's e-commerce software is more and more connected with services offered by other companies,
+Today's ecommerce software is more and more connected with services offered by other companies,
 e.g. payment and delivery providers, ERP systems or website builders.
 The communication between these different services is happening via Web API's.
 If you plan to start a new software, having an API is kind of essential.
