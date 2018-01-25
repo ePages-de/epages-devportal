@@ -63,24 +63,23 @@ header_image: about.jpg
 
   <div class="carousel  js-carousel--about">
 
-    {% assign events = site.data.events %}
-    {% for ev in events %}
+    {% for event in site.data.events %}
 
       <div class="carousel__item">
 
-        {% if ev.video %}
+        {% if event.video %}
 
-          <a href="{{ ev.video }}" style="display: block;" class="lightbox__youtube  js-lightbox__youtube">
+          <a href="{{ event.video }}" style="display: block;" class="lightbox__youtube  js-lightbox__youtube">
 
         {% else %}
 
-          <a href="/assets/img/pages/about/{{ ev.image }}" style="display: block;" class="lightbox__image  js-lightbox__image">
+          <a href="/assets/img/pages/about/{{ event.image }}" style="display: block;" class="lightbox__image  js-lightbox__image">
 
         {% endif %}
 
           <div class="card  card--event">
 
-            {% if ev.video %}
+            {% if event.video %}
 
               <div class="card--event__play-icon">
                 <i class="fas  fa-play" aria-hidden="true"></i>
@@ -88,16 +87,16 @@ header_image: about.jpg
 
             {% endif %}
 
-            <div class="card--event__image" style="background-image: url('/assets/img/pages/about/{{ ev.image }}');"></div>
+            <div class="card--event__image" style="background-image: url('/assets/img/pages/about/{{ event.image }}');"></div>
 
             <div class="card--event__body">
-              <h4 class="card--event__title">{{ ev.title }}</h4>
-              <div class="card--event__date">{{ ev.date }}</div>
+              <h4 class="card--event__title">{{ event.title }}</h4>
+              <div class="card--event__date">{{ event.date }}</div>
             </div>
 
           </div>
 
-        {% if ev.video or ev.image %}</a>{% endif %}
+        {% if event.video or event.image %}</a>{% endif %}
 
       </div>
 
@@ -124,28 +123,27 @@ header_image: about.jpg
 
   <div class="card-container  card-container--exhibition">
 
-    {% assign exhibitions = site.data.exhibitions %}
-    {% for ex in exhibitions %}
+    {% for exhibition in site.data.exhibitions %}
 
       <div class="card--float">
 
         <div class="card  card--exhibition">
 
-          {% if ex.link %}<a target="_blank" href="{{ ex.link }}">{% endif %}
+          {% if exhibition.link %}<a target="_blank" href="{{ exhibition.link }}">{% endif %}
 
             <div class="card--exhibition__upper">
-              <div class="card--exhibition__date       ">{{ ex.date }} {% if ex.time %}| {{ ex.time }}{% endif %}</div>
+              <div class="card--exhibition__date       ">{{ exhibition.date }} {% if exhibition.time %}| {{ exhibition.time }}{% endif %}</div>
               <div class="spacer-1"></div>
-              <div class="card--exhibition__title      ">{{ ex.title }}</div>
+              <div class="card--exhibition__title      ">{{ exhibition.title }}</div>
             </div>
 
             <div class="card--exhibition__lower">
-              <div class="card--exhibition__description">{{ ex.description }}</div>
+              <div class="card--exhibition__description">{{ exhibition.description }}</div>
               <div class="spacer-1"></div>
-              <div class="card--exhibition__address    ">{{ ex.address }}</div>
+              <div class="card--exhibition__address    ">{{ exhibition.address }}</div>
             </div>
 
-          {% if ex.link %}</a>{% endif %}
+          {% if exhibition.link %}</a>{% endif %}
 
         </div>
 
