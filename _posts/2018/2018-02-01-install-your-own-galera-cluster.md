@@ -66,7 +66,7 @@ Remember to repeat the process for all of your Galera servers.
 
 ## MySQL configuration
 
-Next, we need to configure mySQL to form a Galera cluster with three nodes.
+Next, we need to configure mySQL to form a Galera Cluster with three nodes.
 
 In this example, we will create three configuration files in directory _/etc/my.cnf.d/_: one for the general Galera configuration, one for the Galera node configuration, and one for the general MySQL configuration.
 
@@ -100,7 +100,7 @@ EOF
 Every node (_vm-galera01_, _vm-galera02_, _vm-galera03_) will need its own configuration file.
 Please replace again the IP addresses with the real IP address of your _vm-galera01_, _vm-galera02_ or _vm-galera03_ respectively.
 Server IDs are required only if you are planning to replicate into Galera.
-This will be shown in the next post about "Data migration into a Galera cluster".
+This will be shown in the next post about "How to migrate data into a Galera Cluster".
 
 On _vm-galera01_:
 
@@ -218,7 +218,7 @@ EOF
 
 ## Galera bootup
 
-Now that all of your configs are in place, you are ready to start and initialize the Galera cluster.
+Now that all of your configs are in place, you are ready to start and initialize the Galera Cluster.
 
 The first node must be started with the option `--wsrep-new-cluster`.
 It will initialize the completely new cluster.
@@ -306,9 +306,9 @@ You should test it with an another terminal:
 mysql -uroot -p
 ```
 
-Congratulations, your first Galera cluster node is now up and running.
+Congratulations, your first Galera Cluster node is now up and running.
 
-## Full Galera cluster
+## Full Galera Cluster
 
 Go to your _vm-galera02_ and _vm-galera03_, and start the mySQL process with:
 
@@ -322,7 +322,7 @@ If you encounter problems, refer to the error log:
 tail -f /var/lib/mysql/*.err
 ```
 
-After successful start, log in to the Galera node, and check the Galera cluster size and status with the following command:
+After successful start, log in to the Galera node, and check the Galera Cluster size and status with the following command:
 
 ```
 mysql -uroot -p
@@ -331,7 +331,7 @@ mysql -uroot -p
 SHOW GLOBAL STATUS WHERE Variable_name IN ('wsrep_ready', 'wsrep_cluster_size', 'wsrep_cluster_status', 'wsrep_connected');
 ```
 
-Once your status looks like the following, you have successfully installed a Galera cluster:
+Once your status looks like the following, you have successfully installed a Galera Cluster:
 
 ```
 #+----------------------+---------+
@@ -343,3 +343,7 @@ Once your status looks like the following, you have successfully installed a Gal
 #| wsrep_ready          | ON      |
 #+----------------------+---------+
 ```
+
+## Related posts
+
+[High availability with MySQL Galera Cluster](/blog/tech-stories/high-availability-with-mysql-galera-cluster/)
