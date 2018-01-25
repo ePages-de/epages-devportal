@@ -4,6 +4,7 @@ title: "Why UX and Technical Writing make a dream team"
 date: 2016-06-16
 header_image: dream-team.jpg
 category: techcomm-and-socialmedia
+tags: ["techcomm", "ux", "team", "ui texts", "terminology"]
 authors: ["Birgit"]
 ---
 

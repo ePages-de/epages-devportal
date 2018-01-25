@@ -4,6 +4,7 @@ title: "Working as a UI Designer at ePages"
 date: 2016-12-15"
 header_image: ui-designer.jpg
 category: on-the-job
+tags: ["ux", "ui", "onboarding", "job", "design"]
 authors: ["Rose", "Serena", "Verena"]
 ---
 

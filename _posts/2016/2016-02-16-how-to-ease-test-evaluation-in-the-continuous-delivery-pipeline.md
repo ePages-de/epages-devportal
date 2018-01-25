@@ -4,7 +4,8 @@ title: "How to ease test evaluation in the Continuous Delivery Pipeline"
 date: 2016-02-16
 header_image: test-automation-2.jpg
 category: tech-stories
-authors: ["Benjamin N.", "Bastian K."]
+tags: ["continuous delivery", "elasticsearch", "docker", "circleci"]
+authors: ["Benjamin", "Bastian"]
 ---
 
 We implemented a Selenium test report database with Elasticsearch, Logstash, Docker, CircleCI and Jenkins to ease the test evaluation process in our Continuous Delivery Pipeline. Last week we already introduced you to the [background of the project](/blog/tech-stories/optimised-monitoring-and-evaluation-of-selenium-test-results/) and today we want to get your hands on the actual development steps. Hence, this post showcases the various parts of the implemented solution and discusses the pragmatic benefits for our pipeline and our speed-up for massive regression test evaluation.
