@@ -4,6 +4,7 @@ title: "How to find out what your target group needs"
 date: 2016-08-23
 header_image: target.jpg
 category: techcomm-and-socialmedia
+tags: ["techcomm", "api", "documentation", "target group", "analysis", "audience"]
 authors: ["Birgit"]
 ---
 

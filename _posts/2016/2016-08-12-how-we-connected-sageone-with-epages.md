@@ -4,10 +4,11 @@ title: "How we connected Sage One with ePages"
 date: 2016-08-12
 header_image: bridge.jpg
 category: tech-stories
+tags: ["third-party", "api", "ecommerce", "rest", "java"]
 authors: ["Mats"]
 ---
 
-In my team the recent and still ongoing project is the implementation of an application serving as a connector between the ePages e-commerce solution and [Sage One](https://developer.sageone.com){:target="_blank"}, an Accounting software.
+In my team the recent and still ongoing project is the implementation of an application serving as a connector between the ePages ecommerce solution and [Sage One](https://developer.sageone.com){:target="_blank"}, an Accounting software.
 The main purpose of this connector-application is to transfer the orders being created in the ePages shop into the Sage One accounting application.
 
 ## The initial plan

@@ -4,6 +4,7 @@ title: "Multitenancy and Elasticsearch"
 date: 2016-11-21
 header_image: multitenant.jpg
 category: tech-stories
+tags: ["multitenancy", "elasticsearch", "index"]
 authors: ["Ulf S."]
 ---
 
