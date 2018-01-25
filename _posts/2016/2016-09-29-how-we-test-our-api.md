@@ -176,7 +176,7 @@ After running all tests, Serenity generates a HTML test report.
 On its homepage, the report offers a pie chart showing the test results of every featured category.
 The following image shows how this diagram currently looks like in our project:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-rat-serenity-results.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-rat-serenity-results.png" width="50" lightbox %}
 
 We try to work test-driven.
 Therefore, there are a few test cases in a *pending* state (To do so, Serentity offers a *@Pending* annotation).
@@ -186,7 +186,8 @@ As soon as everything is in place, they can be activated.
 In order to check on the kind of test case, you can click on a feature.
 Every test case may consist of multiple steps, which can be displayed in detail:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-rat-serenity-results-slideshow.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-rat-serenity-results-slideshow.png" width="50" lightbox %}
+
 
 In this particular test case we wanted to check on whether an image, that was uploaded for a product, appears on the product slideshow.
 Within the first step a DemoShop is created (which is either newly created or is already used in other read-only test cases).
