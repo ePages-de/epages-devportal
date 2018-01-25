@@ -200,3 +200,8 @@ Galera is no silver bullet.
 All components will still need normal maintenance, and you should still take regular backups of your data.
 The difference is however, that you may now decide more freely, when the maintenance should take place, and it will be invisible for the end customer.
 Except if they happen to read about it on a devblog post 😉.
+
+## Related posts
+
+* [High availability with MySQL Galera Cluster](/blog/tech-stories/high-availability-with-mysql-galera-cluster/)
+* [How to install your own Galera Cluster](/blog/tech-stories/how-to-install-your-own-galera-cluster/)
