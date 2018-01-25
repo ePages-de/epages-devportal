@@ -103,6 +103,6 @@ __Link:__	[Adobe XD](http://www.adobe.com/products/xd/features.html){:target="_b
 
 ## Conclusion
 
-The thing is: There is no perfect tool for our team right now. But we decided to go with Proto.io, and use it for some features we want to implement in the next months.  Right now, Proto.io is the best choice for us because of its huge range of functions and animations, but we still have to discover a lot.
+The thing is: There is no perfect tool for our team right now. But we decided to go with Proto.io, and use it for some features we want to implement in the next months. Right now, Proto.io is the best choice for us because of its huge range of functions and animations, but we still have to discover a lot.
 
 __So, now it is up to you to choose a prototyping tool for your project…😊__
