@@ -1,0 +1,238 @@
+body.about
+
+  section
+    margin: 8rem 0
+
+    +grid-media($grid-medium)
+      margin: 12rem 0
+
+    .section__title
+      margin-bottom: 1rem
+      text-align: center
+
+
+
+
+
+  .about
+
+    .card
+      padding: 4rem 8rem
+      margin-top: 4rem
+      text-align: center
+
+      &__title
+        margin-bottom: 1rem
+
+      &__body
+
+        &:first-child
+          margin-bottom: 2rem
+
+        svg
+          margin-right: 1rem
+
+      .cta
+        margin-top: 3rem
+
+
+
+
+  .channels
+
+    .card
+      padding: 4rem
+      margin-top: 4rem
+
+      ul
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+
+        +grid-media($grid-medium)
+          flex-direction: row
+
+        li
+          display: flex
+          align-items: center
+          margin-bottom: 1rem
+
+          +grid-media($grid-medium)
+            margin-bottom: 0
+
+          svg
+            margin-right: 1.25rem
+            color: $base-font-color-light
+            width: 40px
+
+
+
+
+
+  .events
+    position: relative
+    text-align: center
+
+    .carousel
+      margin-top: 3rem
+      text-align: left
+
+      &__item
+
+        .card--event
+          position: relative
+          margin: 1rem
+          line-height: 1
+
+          &__play-icon
+            cursor: pointer
+            position: absolute
+            color: transparentize($white, .4)
+            font-size: 5rem
+            line-height: 1
+            left: 50%
+            top:  50%
+            transform: translate(-50%, calc(-50% - 47px))
+            display: inline-flex
+            z-index: 1
+
+          &:hover, &:focus
+
+            .card--event__play-icon
+              color: transparentize($white, .2)
+              transition: $base-transition
+
+          &__image
+            height: 250px
+            width: 100%
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+            border-top-left-radius:  $base-border-radius
+            border-top-right-radius: $base-border-radius
+            position: relative
+
+          &__body
+            padding: 2rem
+
+          &__title
+            color: $base-font-color
+
+
+
+
+
+  .exhibitions
+    text-align: center
+
+    .card-container--exhibition
+      overflow: hidden
+      margin-top: 3rem
+
+      +grid-media($grid-medium)
+        position: relative
+
+        &::before
+          content: ''
+          position: absolute
+          display: block
+          width: 1px
+          background: #cecece
+          height: calc(100% - 8rem)
+          margin: auto
+          top:    0
+          left:   0
+          right:  0
+          bottom: 0
+
+
+      .card--float
+        width: 100%
+
+        +grid-media($grid-medium)
+          width: 50%
+          position: relative
+          box-sizing: border-box
+          padding: 4rem
+
+          &:nth-child(even)
+            float: right
+            margin-top: 80px
+
+            .card
+
+              &::after
+                content: ''
+                position: absolute
+                display: block
+                width: 4rem
+                background: #cecece
+                height: 1px
+                margin: auto
+                top:  7.2rem
+                left: 0
+
+          &:nth-child(odd)
+            float: left
+
+            .card
+
+              &::after
+                content: ''
+                position: absolute
+                display: block
+                width: 4rem
+                background: #cecece
+                height: 1px
+                margin: auto
+                top:   7.2rem
+                right: 0
+
+
+        .card--exhibition
+          padding: 2rem
+          text-align: center
+          line-height: 1
+          margin-bottom: 2rem
+
+          +grid-media($grid-medium)
+            margin-bottom: 0
+
+          a
+            display: block
+
+          &__upper
+            background: darken($beyond-beige, 25%)
+            margin: -2rem -2rem 0
+            padding: 1.5rem
+            border-top-left-radius:  $base-border-radius
+            border-top-right-radius: $base-border-radius
+
+          &__date
+            color: darken($beyond-beige, 5%)
+            margin-bottom: 1rem
+
+          &__title
+            font-family: $display-font-family
+            color: $white
+            position: relative
+            bottom: -.2rem
+
+          &__lower
+            background: $white
+            margin: 0 -2rem -2rem
+            padding: 1.5rem
+            border-bottom-left-radius:  $base-border-radius
+            border-bottom-right-radius: $base-border-radius
+
+          &__description
+            color: $base-font-color-light
+            margin-top: 3rem
+
+          &__address
+            color: darken($beyond-beige, 25%)
+            line-height: 1.2
+
+          &:hover, &:focus
+            box-shadow: $hover-box-shadow
+            transition: $base-transition

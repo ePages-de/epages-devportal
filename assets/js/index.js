@@ -9,7 +9,7 @@ $(document).ready(function(){
    ***  SLIDER  ***
    ****************/
 
-  $('.carousel').slick({
+  $('.js-carousel--index').slick({
     infinite: false,
     slidesToShow: 2,
     slidesToScroll: 2,
