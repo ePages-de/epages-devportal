@@ -5,6 +5,7 @@ date: 2016-05-03
 header_image: ecmascript.jpg
 image-position: top
 category: tech-stories
+tags: ["isparta", "ecmascript", "javascript", "istanbul"]
 authors: ["Christian H."]
 ---
 

@@ -4,6 +4,7 @@ title: "What it's like to be an agile technical writer"
 date: 2016-11-30
 header_image: agile-techwriter.jpg
 category: methods-and-tools
+tags: ["techcomm", "documentation", "agile", "api", "jekyll", "ruby"]
 authors: ["Birgit"]
 ---
 

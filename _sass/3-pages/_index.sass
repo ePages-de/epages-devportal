@@ -1,19 +1,51 @@
 body.default
 
-  .card:not(.card--post)
-    padding: 2rem
-    margin: 8rem -1rem
+  section
+    margin: 8rem 0
+
+    +grid-media($grid-large)
+      margin: 12rem 0
+
+  .section__title, .section__body
+    text-align: center
+
+  .section__title
+    margin-bottom: 1rem
+
+  .card-wrapper
+    display: flex
+    flex-wrap: wrap
+    box-sizing: border-box
+    margin: 4rem -1rem 0
+
+    .card
+      padding: 2rem
+      margin: 1rem
+      flex-direction: column
+      align-items: center
+      text-align: center
+      flex-basis: 100%
+
+      svg
+        color: $cat-coding
+        margin-bottom: 2rem
 
   .column-wrapper
     display: flex
     flex-wrap: wrap
-    justify-content: center
+    padding: 2rem
+    box-sizing: border-box
+    margin-top: 4rem
 
     .column
       position: relative
+      padding: 2rem
+      flex-basis: 100%
+      text-align: center
 
       svg
         color: $cat-coding
+        margin-bottom: 2rem
 
       &__title
         margin-bottom: 1rem
@@ -24,113 +56,76 @@ body.default
 
   .intro
 
-    .column
-      text-align: center
-      padding: 2rem
-      flex-basis: 100%
+    .column-wrapper
 
-      +grid-media($grid-medium)
-        flex-basis: calc(100% / 2 - 4rem)
+      .column
 
-      svg
-        margin-bottom: 2rem
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2 - 4rem)
 
 
 
 
 
-  .steps
+  .business
 
-    .section__title
-      margin: 2rem 0
-      text-align: center
+    .card-wrapper
 
-      +grid-media($grid-small)
-        width: 80%
+      .card
 
-      +grid-media($grid-medium)
-        width: 100%
-
-    .column
-      padding: 2rem
-      text-align: center
-      flex-basis: 100%
-
-      +grid-media($grid-medium)
-        flex-basis: calc(100% / 3 - 4rem)
-
-      svg
-        margin-bottom: 2rem
-
-      +grid-media($grid-medium)
-
-        &:not(:last-child):after
-          content: '›'
-          font-size: 12rem
-          color: lighten($gray-light, 20%)
-          position: absolute
-          right: -2rem
-          top: 0
-
-      &__body
-        padding-bottom: 8rem
-
-        &:last-child
-          padding-bottom: 0
-
-    .column-2
-      margin: 3rem 0
-
-      +grid-media($grid-medium)
-        margin: 0
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 4 - 6rem)
+          align-items: center
 
 
 
 
 
-  .about
-
-    .section__title
-      margin: 0 0 1rem
+  .app
 
     .column-wrapper
 
-      +grid-media($grid-medium)
-        flex-wrap: nowrap
-
       .column
-        padding: 2rem
 
-      .column-1
-        flex-basis: 10%
-        display: flex
-        align-items: center
-        justify-content: center
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 3 - 4rem)
+
+        +grid-media($grid-medium)
+
+          &:not(:last-child):after
+            content: '›'
+            font-size: 12rem
+            color: lighten($gray-light, 30%)
+            position: absolute
+            right: -2rem
+            top: 0
 
       .column-2
-        flex-basis: 90%
+        margin: 3rem 0
+
+        +grid-media($grid-medium)
+          margin: 0
 
 
 
 
 
   .news
-    margin: 8rem 0
-    text-align: center
+    margin-left: -2rem
+    margin-right: -2rem
     position: relative
 
-    .section__title
-      margin: 0 0 1rem
+    .section__title, .section__body
+      margin-left: 2rem
+      margin-right: 2rem
 
-    .section__body
-
-      +grid-media($grid-large)
-        width: 70%
-        margin: 0 auto
+      +grid-media($grid-medium)
+        margin-left: 8rem
+        margin-right: 8rem
 
     .carousel
-      margin: 1rem -3rem 0
       text-align: left
+      margin-top: 3rem
 
       .card--post
         margin: 2rem
@@ -143,18 +138,13 @@ body.default
         display: flex
         justify-content: center
         align-items: center
+        
+      &__item
 
-        &:hover, &:focus
-          box-shadow: none
+        A
+          display: block
 
-
-
-
-
-  .more
-    text-align: center
-    margin: 8rem -1rem
-
-    .section__title
-      margin: 2rem 0 1rem
+          span
+            font-size: 2.4rem
+            font-family: $display-font-family
 

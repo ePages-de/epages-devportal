@@ -4,6 +4,7 @@ title: "Microservices Meetup: Service Discovery"
 date: 2016-02-09
 header_image: microservice-meetup.jpg
 category: events
+tags: ["microservices", "meetup", "service discovery"]
 authors: ["Mathias"]
 ---
 
