@@ -4,6 +4,7 @@ title: "How to set up a HA Kubernetes cluster: master components"
 date: 2016-10-18
 header_image: kubernetes-master-logo.jpg
 category: tech-stories
+tags: ["kubernetes", "cluster", "setup", "components", "api", "nodes"]
 authors: ["Karsten P."]
 ---
 

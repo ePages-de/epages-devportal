@@ -4,7 +4,8 @@ title: "How to ease test evaluation in the Continuous Delivery Pipeline"
 date: 2016-02-16
 header_image: test-automation-2.jpg
 category: tech-stories
-authors: ["Benjamin N.", "Bastian K."]
+tags: ["continuous delivery", "elasticsearch", "docker", "circleci"]
+authors: ["Benjamin", "Bastian"]
 ---
 
 We implemented a Selenium test report database with Elasticsearch, Logstash, Docker, CircleCI and Jenkins to ease the test evaluation process in our Continuous Delivery Pipeline. Last week we already introduced you to the [background of the project](/blog/tech-stories/optimised-monitoring-and-evaluation-of-selenium-test-results/) and today we want to get your hands on the actual development steps. Hence, this post showcases the various parts of the implemented solution and discusses the pragmatic benefits for our pipeline and our speed-up for massive regression test evaluation.
@@ -15,7 +16,7 @@ Furthermore, this article should serve as an outline of the consolidated technic
 
 To get the big picture for splitting the Scrum epic into several stories with tasks and acceptance criteria we created a visualisation, which could distinctly highlight the various parts that needed to be implemented. The first draft of the blueprint was sketched by hand and looked similar to this:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-blueprint.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-blueprint.png" width="50" lightbox %}
 
 As you can see above, several components of our infrastructure will be affected and also involved throughout the development of this project. The middle tier shows the essential interdigitation of the underlying job chain in our pipeline. Usually, a CDP run involves several prepare jobs; then a huge amount of install and patch jobs are run in parallel on the various VMs of the vCenter (top tier). Afterwards a fingerprint of all machines is created and finally the ESF testsuite (and others) are run onto all vCenter VMs. Sometimes the testsuite is even running against an ePages VM before, during and after patching has started (zero-down-time tests), so don't take the blueprint to literally.
 
@@ -259,7 +260,7 @@ For our Elasticsearch Docker cluster we configured a new Jenkins job, which ensu
 
 In the current state we use the [Elasticsearch Client](https://github.com/rdpatil4/ESClient){:target="_blank"} to monitor and analyse the test results. Here you can browse and filter the documents via dropdown menus for the index, which is our test object type (e.g. cdp-ui-tests) and the document type, which is the ePages repo id (e.g. 6.17.39). You can then narrow down the search with simple matches in the search field (e.g. only show tests with result FAILURE) or use the official [Lucence Query](http://www.lucenetutorial.com/lucene-query-syntax.html){:target="_blank"}, which supports boolean operators, range matchers and more advanced features similar to a regex. It is possible to edit every single test object within the client by double-clicking a tabular row. Therefore, the `note` field can be used to add information about the error, like the cause of the error and the corresponding JIRA issue id.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-client.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-client.png" width="100" lightbox %}
 
 Additionally, we also take advantage of three other ways to access our Elasticsearch cluster:
 

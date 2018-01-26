@@ -4,6 +4,7 @@ title: "How to test event-based services using contracts"
 date: 2017-01-17"
 header_image: testing-async-interactions.jpg
 category: tech-stories
+tags: ["spring cloud", "testing"]
 authors: ["Mathias"]
 ---
 

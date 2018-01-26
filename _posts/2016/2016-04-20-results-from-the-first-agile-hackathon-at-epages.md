@@ -4,6 +4,7 @@ title: "Results from the first Agile Hackathon at ePages"
 date: 2016-04-20
 header_image: agile.jpg
 category: methods-and-tools
+tags: ["hackathon", "agile", "roles", "scrum"]
 authors: ["Anja B."]
 ---
 

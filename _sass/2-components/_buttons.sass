@@ -6,7 +6,7 @@
   padding: 9px 20px 7px
   margin: 0
   transition: background-color 0.125s ease-in
-  font-weight: bold
+  font-family: $base-font-family-bold
   color: $white
   cursor: pointer
   letter-spacing: .1rem
@@ -17,6 +17,17 @@
   &:hover
     color: $white
     box-shadow: $hover-box-shadow
+
+  &--ghost
+    background-color: transparent
+    border: 1px solid $beyond-green
+    color: $beyond-green
+    box-shadow: none
+
+    &:hover
+      background-color: $beyond-green
+      color: $white
+      box-shadow: none
 
   &--beyond
     background-color: $beyond-green

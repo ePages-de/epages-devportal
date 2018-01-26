@@ -4,6 +4,7 @@ title: "ePages Hackathon 2017"
 date: 2017-03-29
 header_image: blue-sky.jpg
 category: events
+tags: ["hackathon", "api", "alexa"]
 authors: ["Rose"]
 ---
 <style>

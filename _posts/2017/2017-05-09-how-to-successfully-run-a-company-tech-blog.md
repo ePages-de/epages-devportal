@@ -4,10 +4,11 @@ title: "How to successfully run a company tech blog"
 date: 2017-05-09
 header_image: social-like.jpg
 category: techcomm-and-socialmedia
+tags: ["blogging", "guideline", "twitter", "company"]
 authors: ["Rose"]
 ---
 
-At [ePages](https://www.epages.com/us/){:target="_blank"} we develop e-commerce solutions.
+At [ePages](https://www.epages.com/us/){:target="_blank"} we develop ecommerce solutions.
 Thus, we had enough techies around that supported us setting up a [company tech blog](/blog).
 Our [API documentation](/apps) was already [Jekyll](https://jekyllrb.com/){:target="_blank"}-based.
 As Jekyll is a blog engine, it came natural to use it also as a platform for our tech blog.
@@ -26,7 +27,7 @@ Furthermore, we are establishing new APIs, actively live Scrum and agile process
 Not to forget that we're proud of our company culture and familiar working atmosphere.
 Having this in mind, made us come up with the following main categories for our blog:
 
-* [API Expereince](/blog/api-experience/)
+* [API Experience](/blog/api-experience/)
 * [Coding](/blog/coding/)
 * [Events](/blog/events/)
 * [Language & Localization](/blog/language-and-localization/)
@@ -41,7 +42,8 @@ Usually, we have a rough content plan for the next two months and try to publish
 We soon created a rotating system to make sure that our different development teams take turns in writing blog posts.
 Here is an example snapshot of our editorial calendar:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-editorial-calendar.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-editorial-calendar.png" width="50" %}
+
 
 ## Define guidelines for tech blog contributors
 
