@@ -4,6 +4,7 @@ title: "Implementing Capistrano as Configuration Management Tool"
 date: 2016-03-30
 header_image: platform.jpg
 category: tech-stories
+tags: ["capistrano", "tools", "configuration management", "ruby"]
 authors: ["Karsten P."]
 ---
 
@@ -80,7 +81,7 @@ Since these and all other requirements are met, Capistrano was chosen as a Confi
 
 Capistrano requires some additional configuration in various files in a pre-defined folder structure.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-capistrano.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-capistrano.jpg" width="50" lightbox %}
 
 #### Capfile
 

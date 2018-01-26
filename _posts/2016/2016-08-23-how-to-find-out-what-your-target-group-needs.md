@@ -4,6 +4,7 @@ title: "How to find out what your target group needs"
 date: 2016-08-23
 header_image: target.jpg
 category: techcomm-and-socialmedia
+tags: ["techcomm", "api", "documentation", "target group", "analysis", "audience"]
 authors: ["Birgit"]
 ---
 
@@ -52,13 +53,13 @@ As we expected differences in the required information with regards to interest 
 Then we got right down to business and tackled questions regarding the content.
 Here's an excerpt of what that looked like:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-api-survey-1.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-api-survey-1.png" width="50" lightbox %}
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-api-survey-2.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-api-survey-2.png" width="50" lightbox %}
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-api-survey-3.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-api-survey-3.png" width="50" lightbox %}
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-api-survey-4.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-api-survey-4.png" width="50" lightbox %}
 
 ## Enlightened
 
@@ -66,7 +67,7 @@ In the last part of the survey we put a link to the current documentation versio
 We asked how they would rate the ePages REST API documentation.
 The result made me jump for joy as it showed that I was already on a good way:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-api-survey-5.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-api-survey-5.png" width="100" %}
 
 People were also asked to give us a hint of what could be improved.
 Amongst others they'd like to see:

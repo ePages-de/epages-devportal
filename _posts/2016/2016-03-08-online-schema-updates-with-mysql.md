@@ -4,6 +4,7 @@ title: "Online Schema Updates with MySQL"
 date: 2016-03-08
 header_image: database.jpg
 category: tech-stories
+tags: ["mysql", "schema", "database", "oracle"]
 authors: ["Mario"]
 ---
 
@@ -28,7 +29,7 @@ For example, the command `ADD FULLTEXT INDEX` does not allow simultaneous writin
 Changing the data type of a column is also restricted.
 These restrictions can be partially managed via a special patch flow:
 
-![](/assets/img/pages/blog/images/blog-online-schema-1.jpg)
+{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-1.jpg" width="50" lightbox %}
 
 We use an interim version for preparatory and follow-up work on the database.
 
@@ -38,7 +39,7 @@ Interim conclusion: most of the DDL commands in MySQL 5.6 meet the requirements.
 
 ## Quantity
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-online-schema-2.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-2.jpg" width="50" lightbox %}
 
 As we're working with Scrum processes at ePages, we have a new software release every two weeks.
 The database changes accordingly.
@@ -54,18 +55,18 @@ To summarise the results:
 
 Within a wider context we had three different test scenarios:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-3.jpg" width="100" caption="Test scenario - wider context" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-3.jpg" width="50" lightbox %}
 
 The first results show this:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-4.jpg" width="100" caption="Test results - execution times of DDL commands" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-4.jpg" width="50" lightbox %}
 
 You can see clear improvement from version 5.1 to version 5.5.
 But only from the results there's no significant difference between MySQL 5.5 and 5.6.
 So why definitely 5.6?
 Taking a look at the occurred errors, log entries as well as the runtimes of the user test and the patch makes things clearer:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-5.jpg" width="100" caption="Test results - number of errors, log entries and run times - user tests and patch" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-online-schema-5.jpg" width="50" lightbox %}
 
 In particular, this means:
 

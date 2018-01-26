@@ -4,6 +4,7 @@ title: "Getting twice the things done in half the time"
 date: 2017-01-31
 header_image: rugby.jpg
 category: methods-and-tools
+tags: ["agile", "scrum", "definition of done"]
 authors: ["Alejandra"]
 ---
 
@@ -65,13 +66,13 @@ My team dedicated one hour to write a Definition of Done (DoD).
 I offered the team an explanation of what a DoD is good for and gave them some hints as in what to pay attention to.
 Every team member had the chance to individually collect the elements they would include in their definition of done:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-def-of-done.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-def-of-done.png" width="100" %}
 
 Later on, we did some magic out of our conversation skills and ...
 Eventually, the team agreed on the following flow and I visualized the new team agreement in our room, in our Confluence space and on our screen.
 See the mega cool result, which of course should be revised whenever needed.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-def-of-done-chart.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-def-of-done-chart.png" width="100" %}
 
 If you want to get things Done-Done as a team, agree first on what Done takes.
 Apart from that, DONE is a pure matter of effort.

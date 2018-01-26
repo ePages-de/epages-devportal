@@ -4,6 +4,7 @@ title: "How to set up a HA Kubernetes cluster: preparing the nodes"
 date: 2016-09-08
 header_image: kubernetes-docker-flanneld-logo.jpg
 category: tech-stories
+tags: ["kubernetes", "cluster", "setup", "nodes", "haproxy", "flannel"]
 authors: ["Karsten P."]
 ---
 

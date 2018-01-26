@@ -4,6 +4,7 @@ title: "Fullstack London - Of dragons, numbers and IoT"
 date: 2017-07-20
 header_image: fullstack.jpg
 category: events
+tags: ["json", "javascript", "iot", "typescript", "conference"]
 authors: ["Erik"]
 ---
 
@@ -77,7 +78,6 @@ There were two talks I attended that dealt with performance and how to measure i
 
 > Sometimes measuring performance is art rather than science.
 
-<!-- change the next sentence somehow -->
 The above quote's author [Ahmad Nassri](https://twitter.com/AhmadNassri){:target="_blank"} laid out a pretty relevant case of measuring function call performance especially in the time of AWS, Azure and GCE.
 The faster your function executes in these environments the lesser you pay.
 It's that easy.

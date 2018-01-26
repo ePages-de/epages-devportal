@@ -4,6 +4,7 @@ title: "How to set up a HA Kubernetes cluster: worker components and SkyDNS"
 date: 2016-11-08
 header_image: kubernetes-worker-logo.jpg
 category: tech-stories
+tags: ["kubernetes", "cluster", "setup", "skydns", "certificates", "ssl"]
 authors: ["Karsten P."]
 ---
 

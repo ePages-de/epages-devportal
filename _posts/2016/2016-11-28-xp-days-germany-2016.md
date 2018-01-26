@@ -4,6 +4,7 @@ title: "XP Days Germany 2016"
 date: 2016-11-28"
 header_image: hamburg-docks.jpg
 category: events
+tags: ["conference", "elasticsearch", "docker", "architecture"]
 authors: ["Benjamin", "Bastian"]
 ---
 <style>
