@@ -2,7 +2,7 @@
 layout: post
 title: "SoCraTes 2017 - Order is optional"
 date: 2017-09-01
-header_image: socrates-2017-header.jpg
+header_image: public/socrates-2017-header.jpg
 category: events
 tags: ["onboarding", "pair programming", "erlang", "conference"]
 authors: ["Oliver Z."]

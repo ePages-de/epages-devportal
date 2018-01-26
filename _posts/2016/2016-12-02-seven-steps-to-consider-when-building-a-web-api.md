@@ -2,7 +2,7 @@
 layout: post
 title: "7 steps to consider when building a Web API"
 date: 2016-12-02
-header_image: construction.jpg
+header_image: public/construction.jpg
 category: api-experience
 tags: ["api", "rest", "tdd", "authorization", "concepts"]
 authors: ["David", "Ulf B."]

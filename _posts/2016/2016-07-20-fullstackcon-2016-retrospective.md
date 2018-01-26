@@ -2,7 +2,7 @@
 layout: post
 title: "ePages goes FullStack JavaScript conference"
 date: 2016-07-19
-header_image: javascript.png
+header_image: public/javascript.png
 category: events
 tags: ["conference", "javascript", "react", "nodejs"]
 authors: ["Paolo"]

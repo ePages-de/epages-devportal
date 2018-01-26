@@ -2,7 +2,7 @@
 layout: post
 title: "The ePages Selenium Framework"
 date: 2015-07-23
-header_image: selenium-framework.jpg
+header_image: public/selenium-framework.jpg
 header_overlay: true
 category: tech-stories
 authors: ["Jan M.", "Martin K.", "Kay A."]
