@@ -49,6 +49,7 @@ background_image: index.jpg
 
 
 
+
 <section class="business">
 
   <h2 class="section__title">The icing on your business solution</h2>
@@ -88,6 +89,7 @@ background_image: index.jpg
   </div>
 
 </section>
+
 
 
 
@@ -138,18 +140,18 @@ background_image: index.jpg
 
   <p class="section__body">We regularly share knowledge about the latest topics, and challenges that drive our work. See what we're up to, and check out our latest blog posts:</p>
 
-  <div class="carousel">
+  <div class="carousel  js-carousel--index">
 
     {% for post in site.posts limit:5 %}
 
       <div class="carousel__item">
-        {% include components/post-card.html
-          category=post.category
-          header_image=post.header_image
-          title=post.title
-          authors=post.authors
-          date=post.date
-          url=post.url %}
+          {% include components/post-card.html
+            category=post.category
+            header_image=post.header_image
+            title=post.title
+            authors=post.authors
+            date=post.date
+            url=post.url %}
       </div>
 
     {% endfor %}
@@ -181,6 +183,7 @@ background_image: index.jpg
   <p class="section__body">If you're developing for our Now platform, <a href="/apps/">check the REST documentation </a>, and <a href="#signup">sign up for a test shop.</a></p>
 
 </section>
+
 
 
 
