@@ -290,7 +290,8 @@ task :test_html do
                  /.*\/ProximaNovaScOsf-RegularIt.html/]
 
   url_ignore = [/.*apps.*/,
-                /.*signup/]
+                /.*signup/,
+                /.*terms-and-conditions.*/]
 
   options = { disable_external: true,
               file_ignore: file_ignore,
