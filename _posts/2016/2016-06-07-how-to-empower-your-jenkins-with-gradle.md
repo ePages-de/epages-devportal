@@ -2,7 +2,7 @@
 layout: post
 title: "How to empower your Jenkins with Gradle"
 date: 2016-06-07
-header_image: public/gradle-jenkins-tools.jpg
+header_image: gradle-jenkins-tools.jpg
 category: tech-stories
 tags: ["jenkins", "gradle", "dsl", "deployment", "groovy"]
 authors: ["Renato"]

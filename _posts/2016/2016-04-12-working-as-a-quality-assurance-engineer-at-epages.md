@@ -2,7 +2,7 @@
 layout: post
 title: "Working as a QA Engineer at ePages"
 date: 2016-04-12
-header_image: public/qa-dev.jpg
+header_image: qa-dev.jpg
 category: on-the-job
 tags: ["qa", "onboarding", "job", "relocation"]
 authors: ["Birgit", "Serena", "Vlad"]

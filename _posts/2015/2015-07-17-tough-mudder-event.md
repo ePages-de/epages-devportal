@@ -2,7 +2,7 @@
 layout: post
 title: "ePagees face the Tough Mudder challenge"
 date: 2015-07-17
-header_image: public/tough-mudder.jpg
+header_image: tough-mudder.jpg
 header_overlay: true
 category: events
 authors: ["Ludger"]

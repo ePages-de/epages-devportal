@@ -2,7 +2,7 @@
 layout: post
 title: "5 steps to make you feel comfortable in your new job"
 date: 2016-08-04
-header_image: public/onboarding.jpg
+header_image: onboarding.jpg
 category: on-the-job
 tags: ["job", "onboarding", "hr", "team"]
 authors: ["Birgit", "Leana", "Serena"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Local meetup for i-doit users at ePages"
 date: 2017-03-07
-header_image: public/it-docs.jpg
+header_image: it-docs.jpg
 category: events
 tags: ["i-doit", "meetup"]
 authors: ["Karsten P."]

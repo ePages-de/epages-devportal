@@ -2,7 +2,7 @@
 layout: post
 title: Workflow tuning with prototyping tools
 date: 2018-01-25
-header_image: public/workflow-tuning-with-prototyping-tools.jpg
+header_image: workflow-tuning-with-prototyping-tools.jpg
 header_overlay: true
 category: methods-and-tools
 tags: ["UX", "UI", "design"]

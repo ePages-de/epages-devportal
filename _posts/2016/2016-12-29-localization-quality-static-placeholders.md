@@ -2,7 +2,7 @@
 layout: post
 title: "Guest post: Higher localization quality with static placeholders"
 date: 2016-12-29
-header_image: public/quality.jpg
+header_image: quality.jpg
 category: language-and-localization
 tags: ["localization", "placeholder", "translation", "qa", "terminology"]
 authors: ["Frederik"]

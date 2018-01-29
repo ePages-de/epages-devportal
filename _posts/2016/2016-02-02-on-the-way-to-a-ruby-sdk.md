@@ -2,7 +2,7 @@
 layout: post
 title: "On the way to a Ruby SDK"
 date: 2016-02-02
-header_image: public/ruby.png
+header_image: ruby.png
 category: tech-stories
 tags: ["ruby", "rails", "sdk", "api"]
 authors: ["Domingo"]

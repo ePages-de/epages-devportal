@@ -2,7 +2,7 @@
 layout: post
 title: "App development: ePages Partner Training in Hamburg"
 date: 2016-08-30
-header_image: public/partner-training-2.jpg
+header_image: partner-training-2.jpg
 category: events
 tags: ["training", "apps", "development", "ecommerce", "api", "rest"]
 authors: ["Birgit"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Design of a continuous delivery pipeline"
 date: 2017-05-30
-header_image: public/microservices-pipeline-1.jpg
+header_image: microservices-pipeline-1.jpg
 category: tech-stories
 tags: ["continuous delivery", "microservice", "jenkins", "kubernetes", "docker"]
 authors: ["Benjamin", "Nicole"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Scrum Basics: Practicing it!"
 date: 2016-03-22
-header_image: public/plane.jpg
+header_image: plane.jpg
 category: methods-and-tools
 tags: ["scrum", "agile"]
 authors: ["Anja B."]

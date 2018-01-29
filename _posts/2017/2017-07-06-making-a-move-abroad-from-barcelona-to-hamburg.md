@@ -2,7 +2,7 @@
 layout: post
 title: "Making a move abroad - from Barcelona to Hamburg"
 date: 2017-07-06
-header_image: public/suitcase.jpg
+header_image: suitcase.jpg
 category: on-the-job
 tags: ["hamburg"]
 authors: ["Xavi"]

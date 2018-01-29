@@ -2,7 +2,7 @@
 layout: post
 title: "ePages REST API out of beta"
 date: 2016-01-21
-header_image: public/api-out-of-beta.jpg
+header_image: api-out-of-beta.jpg
 category: api-experience
 tags: ["api", "rest", "apps"]
 authors: ["Birgit"]

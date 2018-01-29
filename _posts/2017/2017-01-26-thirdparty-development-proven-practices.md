@@ -2,7 +2,7 @@
 layout: post
 title: "6 proven practices that make third-party development fun"
 date: 2017-01-24
-header_image: public/thirdparty-weapons.jpg
+header_image: thirdparty-weapons.jpg
 category: tech-stories
 tags: ["third-party", "ecommerce", "testing"]
 authors: ["Mats"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Spring I/O 2017 - What it was really like"
 date: 2017-05-23
-header_image: public/spring-io-header.jpg
+header_image: spring-io-header.jpg
 category: events
 tags: ["spring", "reactive", "kotlin", "angular", "conference"]
 authors: ["Mathias", "Manel"]

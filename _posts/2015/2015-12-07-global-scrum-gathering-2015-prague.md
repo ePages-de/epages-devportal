@@ -2,7 +2,7 @@
 layout: post
 title: "Global Scrum Gathering 2015 Prague"
 date: 2015-12-07
-header_image: public/scrum-prague-2015.jpg
+header_image: scrum-prague-2015.jpg
 header_overlay: true
 category: events
 authors: ["Anja B."]
