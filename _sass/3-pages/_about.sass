@@ -17,9 +17,12 @@ body.about
   .about
 
     .card
-      padding: 4rem 8rem
+      padding: 2rem
       margin-top: 4rem
       text-align: center
+
+      +grid-media($grid-medium)
+        padding: 4rem 8rem
 
       &__title
         margin-bottom: 1rem
@@ -41,9 +44,11 @@ body.about
   .channels
 
     .card
-      padding: 4rem
+      padding: 2rem
       margin-top: 4rem
 
+      +grid-media($grid-medium)
+        padding: 4rem
       ul
         display: flex
         justify-content: space-between

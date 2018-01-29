@@ -17,10 +17,13 @@
       padding: 1.3rem 1.5rem
 
     .search-input
-      width: 400px
+      width: auto
       padding: .5em 1em .5em 3em
       background-color: $white
       border-radius: $base-border-radius
       box-shadow: $base-box-shadow
       outline: none
       border: 0
+
+      +grid-media($grid-large)
+        width: 400px
