@@ -8,6 +8,10 @@
 
   .input-wrapper
     position: relative
+    width: 100%
+
+    +grid-media($grid-medium)
+      width: auto
 
     .fa-search
       color: $gray-light
@@ -17,7 +21,8 @@
       padding: 1.3rem 1.5rem
 
     .search-input
-      width: auto
+      width: 100%
+      box-sizing: border-box
       padding: .5em 1em .5em 3em
       background-color: $white
       border-radius: $base-border-radius
@@ -25,5 +30,5 @@
       outline: none
       border: 0
 
-      +grid-media($grid-large)
-        width: 400px
+      +grid-media($grid-medium)
+        width: 40rem
