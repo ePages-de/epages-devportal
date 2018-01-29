@@ -2,7 +2,7 @@
 layout: post
 title: "On the essence of the task"
 date: 2015-11-24
-header_image: public/task.jpg
+header_image: task.jpg
 category: methods-and-tools
 authors: ["Timo H."]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Gradle Workshop
 date: 2017-12-07
-header_image: public/workshop.jpg
+header_image: workshop.jpg
 header_position: bottom
 header_overlay: true
 category: methods-and-tools

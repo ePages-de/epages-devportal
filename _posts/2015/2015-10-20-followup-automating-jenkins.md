@@ -2,7 +2,7 @@
 layout: post
 title: "Follow-up: Automating Jenkins"
 date: 2015-10-22
-header_image: public/infrastructure.jpg
+header_image: infrastructure.jpg
 category: tech-stories
 authors: ["Dirk"]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Implementing Capistrano as Configuration Management Tool"
 date: 2016-03-30
-header_image: public/platform.jpg
+header_image: platform.jpg
 category: tech-stories
 tags: ["capistrano", "tools", "configuration management", "ruby"]
 authors: ["Karsten P."]

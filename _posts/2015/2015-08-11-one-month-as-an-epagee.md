@@ -2,7 +2,7 @@
 layout: post
 title: "One month as an ePagee"
 date: 2015-08-11
-header_image: public/one-month-epagee.jpg
+header_image: one-month-epagee.jpg
 header_position: top
 category: on-the-job
 authors: ["Mathias", "Mats"]

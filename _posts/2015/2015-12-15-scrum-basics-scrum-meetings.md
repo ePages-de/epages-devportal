@@ -2,7 +2,7 @@
 layout: post
 title: "Scrum Basics: Scrum Meetings"
 date: 2015-12-15
-header_image: public/meeting.jpg
+header_image: meeting.jpg
 category: methods-and-tools
 authors: ["Anja B."]
 ---

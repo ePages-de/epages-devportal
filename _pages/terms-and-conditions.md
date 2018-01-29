@@ -2,7 +2,7 @@
 layout: page
 permalink: /terms-and-conditions/
 title: Terms and Conditions
-header_image: public/blog.jpg
+header_image: blog.jpg
 ---
 
 ## Developer Program

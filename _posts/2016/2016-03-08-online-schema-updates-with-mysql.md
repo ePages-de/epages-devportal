@@ -2,7 +2,7 @@
 layout: post
 title: "Online Schema Updates with MySQL"
 date: 2016-03-08
-header_image: public/database.jpg
+header_image: database.jpg
 category: tech-stories
 tags: ["mysql", "schema", "database", "oracle"]
 authors: ["Mario"]

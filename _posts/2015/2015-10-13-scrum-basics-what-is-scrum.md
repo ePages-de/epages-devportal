@@ -2,7 +2,7 @@
 layout: post
 title: "Scrum Basics: What is Scrum?"
 date: 2015-10-13
-header_image: public/agile.jpg
+header_image: agile.jpg
 category: methods-and-tools
 authors: ["Anja B."]
 ---

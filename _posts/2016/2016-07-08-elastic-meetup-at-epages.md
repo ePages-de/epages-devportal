@@ -2,7 +2,7 @@
 layout: post
 title: "Elastic Meetup at ePages"
 date: 2016-07-08
-header_image: public/elastic-meetup.jpg
+header_image: elastic-meetup.jpg
 category: events
 tags: ["meetup", "elasticsearch", "open data", "delivery pipeline"]
 authors: ["Christian K.", "Jens", "Benjamin"]

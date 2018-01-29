@@ -2,7 +2,7 @@
 layout: post
 title: "4 pain points in third-party software development"
 date: 2017-01-05
-header_image: public/challenge-cube.jpg
+header_image: challenge-cube.jpg
 category: tech-stories
 tags: ["api","third-party","ecommerce"]
 authors: ["Mats"]

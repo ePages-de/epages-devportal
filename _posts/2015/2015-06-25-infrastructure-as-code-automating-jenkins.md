@@ -2,7 +2,7 @@
 layout: post
 title: "Infrastructure as code: automating Jenkins"
 date: 2015-06-25
-header_image: public/infrastructure.jpg
+header_image: infrastructure.jpg
 header_overlay: true
 category: tech-stories
 authors: ["Jens", "Dirk"]

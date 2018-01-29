@@ -2,7 +2,7 @@
 layout: post
 title: "ePages talks code"
 date: 2015-04-02
-header_image: public/code.jpg
+header_image: code.jpg
 category: events
 authors: ["Birgit"]
 ---

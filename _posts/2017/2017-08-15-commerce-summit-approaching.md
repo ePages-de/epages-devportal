@@ -2,7 +2,7 @@
 layout: post
 title: Commerce Summit approaching
 date: 2017-08-15
-header_image: public/commerce-summit.jpg
+header_image: commerce-summit.jpg
 image-position: bottom
 category: events
 tags: ["commerce summit", "ecommerce"]
