@@ -2,7 +2,7 @@
 layout: post
 title: "Where's the bug in my microservices haystack?"
 date: 2017-07-13
-header_image: needle-in-a-haystack.jpg
+header_image: public/needle-in-a-haystack.jpg
 category: tech-stories
 tags: ["microservice", "docker", "logback", "slf4j", "java", "nginx", "logging"]
 authors: ["Jens"]

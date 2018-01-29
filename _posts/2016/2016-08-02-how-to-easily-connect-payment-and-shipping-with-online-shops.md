@@ -2,7 +2,7 @@
 layout: post
 title: "How to easily connect payment and shipping with online shops"
 date: 2016-08-02
-header_image: next-gen-webservices.jpg
+header_image: public/next-gen-webservices.jpg
 category: tech-stories
 tags: ["webservices", "third-party", "ecommerce", "payment", "shipping", "api"]
 authors: ["Manel"]

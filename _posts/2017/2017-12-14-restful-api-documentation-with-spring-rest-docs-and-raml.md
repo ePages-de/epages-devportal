@@ -2,7 +2,7 @@
 layout: post
 title: RESTful API documentation with Spring REST Docs and RAML
 date: 2017-12-14
-header_image: restdocs-raml.jpg
+header_image: public/restdocs-raml.jpg
 header_overlay: true
 header_position: top
 category: api-experience
