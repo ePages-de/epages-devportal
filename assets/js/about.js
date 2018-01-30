@@ -1,7 +1,7 @@
 $(document).ready(function(){
   // Carousel
   $('.js-carousel--about').slick({
-    infinite: false,
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: $('.prev'),

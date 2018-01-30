@@ -129,16 +129,15 @@ body.default
 
       .card--post
         margin: 1rem 3rem
-        min-height: 320px
         width: calc(100% - 6rem)
-
-        +grid-media($grid-medium)
-          min-height: 350px
 
       &__link
         display: flex
         justify-content: center
         align-items: center
+
+        &:hover
+          box-shadow: none
 
       &__item
 
@@ -149,3 +148,17 @@ body.default
             font-size: 2.4rem
             font-family: $display-font-family
 
+
+
+
+
+// Override slick slider styles for the index page (I know it's dirty)
+
+body.default .slick-track
+  display: flex !important
+
+body.default .slick-initialized .slick-slide
+  display: flex !important
+
+body.default .slick-slide
+  height: auto !important
