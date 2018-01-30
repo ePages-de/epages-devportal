@@ -269,7 +269,7 @@ task :test_files do
                                './.sass_cache',
                                './.tweet-cache',
                                './assets/font-awesome',
-                               './assets/fonts_new',
+                               './assets/fonts',
                                './vendor']).run
 end
 

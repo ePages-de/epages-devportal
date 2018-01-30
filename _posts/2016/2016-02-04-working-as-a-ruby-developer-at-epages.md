@@ -4,6 +4,7 @@ title: "Working as a Ruby Developer at ePages"
 date: 2016-02-04
 header_image: ruby-dev.jpg
 category: on-the-job
+tags: ["ruby", "rails", "developer", "job", "relocation"]
 authors: ["Birgit", "Serena", "Domingo"]
 ---
 

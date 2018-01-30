@@ -4,6 +4,7 @@ title: "Harnessing the best features of RDBMS and Elasticsearch with CQRS"
 date: 2016-12-20
 header_image: searching.jpg
 category: tech-stories
+tags: ["rdbms", "elasticsearch", "cqrs", "patterns", "data models"]
 authors: ["Jens"]
 ---
 
@@ -19,7 +20,7 @@ A merchant uses the administration area to manage all aspects of their shop, in 
 This product data is stored in a relational database ([RDBMS][rdbms]), where transactions and database constraints guarantee consistency and integrity.
 A simplified relational data model looks like this:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-cqrs-elasticsearch-database.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-cqrs-elasticsearch-database.png" width="100" %}
 
 ### The read model
 

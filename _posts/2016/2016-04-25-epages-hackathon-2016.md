@@ -4,6 +4,7 @@ title: "ePages Hackathon 2016"
 date: 2016-04-25
 header_image: hackathon-2016.jpg
 category: events
+tags: ["hackathon", "coding", "apps"]
 authors: ["Birgit"]
 ---
 

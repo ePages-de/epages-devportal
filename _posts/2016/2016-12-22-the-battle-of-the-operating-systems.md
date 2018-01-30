@@ -4,6 +4,7 @@ title: "The battle of the operating systems"
 date: 2016-12-22
 header_image: apple-pear-choose.jpg
 category: tech-stories
+tags: ["operating system", "macos", "windows", "linux", "statistics"]
 authors: ["Ivan"]
 ---
 
@@ -39,7 +40,8 @@ But on the other hand most of the virus and malware attacks goes against Windows
 
 Leaving fanaticisms aside and bringing to the front some statistics on what’s the current market share all over the World in November 2016, we’ll probably have a surprise on what is the real percentage of utilization for each OS. The world of desktop operating systems is not divided between a bunch of competitors but divided between Windows and the others:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-os_market_share_01.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-os_market_share_01.png" width="50" %}
+
 
 If we have a look at the colors of the chart we will see, in a very first place, an evident domain of Windows platforms (89.79% of the market). There are two Windows versions which are the most popular ones: 7 and 10 in that order, covering almost 70% of the market.
 Bill should be happy indeed watching at that numbers.
@@ -56,7 +58,7 @@ Here we can also find the three big players: Ubuntu, MacOS X, and Windows.
 
 A quick look at the numbers will show us that ePages has a nicely mixed ecosystem of OS:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-os_market_share_02.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-os_market_share_02.png" width="50" %}
 
 If we take a look at the status of OS installations by departments, we can find out that Product Management, Sales, and Marketing are the ones where Windows is more extensively used.
 Graphic designers have a natural tendency to using Mac.
@@ -64,7 +66,7 @@ And within R&amp;D, there is the biggest mix of systems with Windows as the most
 A closer look to Ocean Teams shows that in this case Linux has a bigger piece of the cake (35.9%) than in previous charts and on the other hand MacOS X has a little bit less weight between developers (26.6%).
 But Windows still is the most used platform (37.5%).
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-os_market_share_03.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-os_market_share_03.png" width="50" %}
 
 Development environments with virtual machines are completely another world in terms of the operating systems they are running.
 In this case, [Debian](https://www.debian.org/){:target="_blank"} and [CentOS](https://www.centos.org/){:target="_blank"} are the most commonly used Linux distributions to work with the ePages platform.

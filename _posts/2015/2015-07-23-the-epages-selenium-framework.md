@@ -3,6 +3,7 @@ layout: post
 title: "The ePages Selenium Framework"
 date: 2015-07-23
 header_image: selenium-framework.jpg
+header_overlay: true
 category: tech-stories
 authors: ["Jan M.", "Martin K.", "Kay A."]
 ---
@@ -84,7 +85,7 @@ information from the page or interacting with it. The tests
 are then using these service methods to fulfil defined
 test specifications. The following picture shows this structure.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-selenium-01.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-selenium-01.png" width="50" lightbox %}
 
 Here you can see a short test script for the search functionality.
 The test scripts are always derived from the base class `TestBaseEp6`.
