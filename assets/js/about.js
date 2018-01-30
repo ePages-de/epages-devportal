@@ -1,7 +1,7 @@
 $(document).ready(function(){
   // Carousel
   $('.js-carousel--about').slick({
-    infinite: false,
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: $('.prev'),
@@ -11,7 +11,8 @@ $(document).ready(function(){
         breakpoint: 769,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          dots: true
         }
       },
       {
