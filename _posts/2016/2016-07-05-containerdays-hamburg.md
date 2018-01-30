@@ -4,6 +4,7 @@ title: "ContainerDays Hamburg"
 date: 2016-07-05
 header_image: container2.jpg
 category: events
+tags: ["conference", "docker", "kubernetes", "containers"]
 authors: ["Christian K."]
 ---
 

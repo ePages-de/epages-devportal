@@ -4,6 +4,7 @@ title: "A coffee with the CTO of ePages"
 date: 2017-01-12
 header_image: cto-coffee.jpg
 category: on-the-job
+tags: ["api", "agile", "microservice", "docker", "kubernetes", "java", "ecommerce"]
 authors: ["Rose", "Harm"]
 ---
 

@@ -6,12 +6,18 @@ main_title: We're hiring
 header_image: devjobs.jpg
 ---
 
+
 <section class="job-openings">
+
   <h2 class="section__title">Exciting. Challenging. Grow with us.</h2>
+
   <p class="section__body">Do you love coding? Are you keen for a new challenge? We are offering various job opportunities especially for experienced web developers.</p>
+
   <div class="card-wrapper">
+
     {% assign jobs = site.data.jobs %}
     {% for job in jobs %}
+
       <div class="card  card--jobs">
         <a target="_blank" href="{{ job.link }}">
           <h4 class="card__title  card--jobs__title">{{ job.title }}</h4>
@@ -19,73 +25,119 @@ header_image: devjobs.jpg
           <p class="card__footer  card--jobs__footer">{{ job.location }}</p>
         </a>
       </div>
+
     {% endfor %}
+
   </div>
+
   <a href="https://epages.com/career" class="cta  cta--beyond">More developer jobs</a>
+
 </section>
+
+
+
+
 
 <section class="contact">
+
   <h2 class="section__title">Get in touch with us!</h2>
+
   <p class="section__body">Find out more about your career opportunities at ePages.</p>
+
+
   <div class="card  contact-wrapper">
+
+
     <div class="contact-wrapper--inner  contact-wrapper--left">
+
       <div class="contact__group-1">
+
         <div class="contact__option">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <i class="fas  fa-envelope  fa-lg  fa-fw" aria-hidden="true"></i>
           <a href="mailto:hr@epages.com">hr@epages.com</a>
         </div>
+
         <div class="contact__option">
-          <i class="fa fa-phone" aria-hidden="true"></i>
+          <i class="fas  fa-phone  fa-lg  fa-fw" aria-hidden="true"></i>
           <span>+49-40-350 188-0</span>
         </div>
+
         <div class="contact__option">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fab  fa-twitter  fa-lg  fa-fw" aria-hidden="true"></i>
           <a href="https://twitter.com/epagesdevs" target="_blank">@epagesdevs</a>
         </div>
+
         <div class="contact__option">
-          <i class="fa fa-rss" aria-hidden="true"></i>
+          <i class="fas  fa-rss  fa-lg  fa-fw" aria-hidden="true"></i>
           <a href="/blog/" target="_blank">ePages DevBlog</a>
         </div>
+
       </div>
+
     </div>
+
+
     <div class="contact-wrapper--inner  contact-wrapper--right">
+
       <div class="contact__group-2">
+
         <div class="contact__option">
-          <i class="fa fa-black-tie" aria-hidden="true"></i>
+          <i class="fab  fa-black-tie  fa-lg  fa-fw" aria-hidden="true"></i>
           <span>Harm Behrens | CTO</span>
         </div>
+
         <div class="contact__option">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fab  fa-twitter  fa-lg  fa-fw" aria-hidden="true"></i>
           <a href="https://twitter.com/netzfisch" target="_blank">@netzfisch</a>
         </div>
+
         <div class="contact__option">
-          <i class="fa fa-comment fa-flip-horizontal" aria-hidden="true"></i>
+          <i class="fas  fa-comment fa-flip-horizontal  fa-lg  fa-fw" aria-hidden="true"></i>
           <span class="info__text">Harm shares the “bike2work” passion of many ePagees. He’s an e-commerce-addict, internet enthusiast and Ruby evangelist.</span>
         </div>
+
       </div>
+
       <img src="/assets/img/pages/jobs/harm-behrens.png" alt="Harm Behrens | CTO" class="image-harm">
+
     </div>
+
+
   </div>
+
+
 </section>
 
+
+
+
+
 <section class="about">
-  <img src="/assets/img/pages/jobs/devs-logo.svg" alt="ePages Developer Logo" class="developer-logo">
+
+  <img src="/assets/img/logos/devs-logo.svg" alt="ePages Developer Logo" class="developer-logo">
+
   <h2 class="section__title">Join the Force!</h2>
+
   <div class="card  column-wrapper">
+
     <div class="column  column-1">
-      <i class="fa fa-code" aria-hidden="true"></i>
+      <i class="fas  fa-code  fa-3x" aria-hidden="true"></i>
       <h4 class="column__title">Shape the ePages software with us</h4>
       <p class="column__body">With our online shop software, a merchant receives a complete package to hit the ground running in commerce. We are constantly working on our solution to keep it up-to-date with new market developments, for example by integrating new features.</p>
     </div>
+
     <div class="column  column-2">
-      <i class="fa fa-cogs" aria-hidden="true"></i>
+      <i class="fas  fa-cogs  fa-3x" aria-hidden="true"></i>
       <h4 class="column__title">What working at ePages means</h4>
       <p class="column__body">Being part of an international team of ecommerce experts who are passionate about web development. Our backend is based on a Java, MongoDB, SpringBoot, and Docker tech stack decoupled from a ReactJs frontend via a REST API. We also work with cloud tools such as GitHub, CircleCI, or Google Cloud Engine.</p>
     </div>
+
     <div class="column  column-3">
-      <i class="fa fa-handshake-o" aria-hidden="true"></i>
+      <i class="fas  fa-handshake  fa-3x" aria-hidden="true"></i>
       <h4 class="column__title">Make the step: Join the ePages team</h4>
       <p class="column__body">We are looking for dedicated developers to join our team. Bring your ideas and be involved in exciting projects. Benefit from the <a href="https://www.epages.com/career/why-epages/">full load of advantages</a> ePages is offering you.</p>
     </div>
+
   </div>
+
 </section>

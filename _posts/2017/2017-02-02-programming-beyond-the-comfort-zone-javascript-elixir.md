@@ -4,6 +4,7 @@ title: "Programming beyond the comfort zone: JavaScript |> Elixir"
 date: 2017-02-02
 header_image: drink.jpg
 category: coding
+tags: ["javascript", "elixir", "phoenix", "erlang"]
 authors: ["Erik"]
 ---
 

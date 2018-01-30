@@ -3,7 +3,33 @@
 
 {% capture signup_html %}{% include components/signup-form.html %}{% endcapture%}
 
-$(document).ready(function() {
+$(document).ready(function(){
+
+  /****************
+   ***  SLIDER  ***
+   ****************/
+
+  $('.js-carousel--index').slick({
+    infinite: false,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+  /*******************
+   **  POPUP MODAL  **
+   *******************/
+
   // Show the popup when you click on the popup button
   $('a[href="#signup"]').click(function(e) {
     e.preventDefault();

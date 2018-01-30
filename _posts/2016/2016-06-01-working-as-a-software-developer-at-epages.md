@@ -4,6 +4,7 @@ title: "Working as a Software Developer at ePages"
 date: 2016-06-01
 header_image: david.jpg
 category: on-the-job
+tags: ["onboarding", "job", "developer"]
 authors: ["Birgit", "Serena", "David"]
 ---
 
