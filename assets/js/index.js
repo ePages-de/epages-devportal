@@ -4,10 +4,7 @@
 {% capture signup_html %}{% include components/signup-form.html %}{% endcapture%}
 
 $(document).ready(function(){
-
-  /****************
-   ***  SLIDER  ***
-   ****************/
+  // Carousel
 
   $('.js-carousel--index').slick({
     infinite: false,
@@ -20,15 +17,14 @@ $(document).ready(function(){
         breakpoint: 769,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          dots: true
         }
       }
     ]
   });
 
-  /*******************
-   **  POPUP MODAL  **
-   *******************/
+  // Lightbox
 
   // Show the popup when you click on the popup button
   $('a[href="#signup"]').click(function(e) {
