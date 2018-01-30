@@ -2,7 +2,7 @@
 layout: post
 title: "API writing - just copy and paste?"
 date: 2017-06-01
-header_image: api-journey.jpg
+header_image: public/api-journey.jpg
 category: techcomm-and-socialmedia
 tags: ["api", "ux", "rest"]
 authors: ["Birgit"]

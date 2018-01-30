@@ -2,7 +2,7 @@
 layout: post
 title: "Improving the development workflow with Docker"
 date: 2015-06-11
-header_image: container.jpg
+header_image: public/container.jpg
 category: tech-stories
 authors: ["Christian"]
 ---

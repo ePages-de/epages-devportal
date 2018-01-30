@@ -2,7 +2,7 @@
 layout: post
 title: "How to do code coverage with ECMAScript 6"
 date: 2016-05-03
-header_image: ecmascript.jpg
+header_image: public/ecmascript.jpg
 image-position: top
 category: tech-stories
 tags: ["isparta", "ecmascript", "javascript", "istanbul"]

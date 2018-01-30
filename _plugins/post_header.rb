@@ -9,10 +9,10 @@ module Jekyll
       # Get the image name
       image_name = lookup(context, @key)
       # Check if the image exists. If not, return default value
-      if File.file?('./assets/img/pages/blog/headers/' + image_name.to_s)
+      if File.file?('./assets/img/pages/headers/' + image_name.to_s)
         image_name
       else
-        'default.png'
+        'public/default.png'
       end
     end
 

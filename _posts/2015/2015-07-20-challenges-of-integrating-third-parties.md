@@ -2,7 +2,7 @@
 layout: post
 title: "Challenges of integrating third-parties"
 date: 2015-07-20
-header_image: puzzle.jpg
+header_image: public/puzzle.jpg
 header_overlay: true
 category: tech-stories
 authors: ["Ulf B."]

@@ -85,7 +85,7 @@ task :test_posts do
         if f_m['header_image'].nil?
           errors << LinterError.new(post, nil, 'Post must have a header_image')
         else
-          unless File.file?('./assets/img/pages/blog/headers/' + f_m['header_image'])
+          unless File.file?('./assets/img/pages/headers/' + f_m['header_image'])
             errors << LinterError.new(post, nil, 'Post header_image doesn\'t exist')
           end
         end
