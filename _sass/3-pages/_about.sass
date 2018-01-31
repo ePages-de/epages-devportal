@@ -58,7 +58,7 @@ body.about
         +grid-media($grid-medium)
           flex-direction: row
 
-        li a
+        li
           display: flex
           align-items: center
           margin-bottom: 1rem
@@ -68,8 +68,12 @@ body.about
 
           svg
             margin-right: 1.25rem
-            color: $base-font-color-light
+            color: $beyond-green
             width: 40px
+
+            &:hover, &:focus
+              color: darken($beyond-green, 10%)
+              transition: $base-transition
 
 
 
