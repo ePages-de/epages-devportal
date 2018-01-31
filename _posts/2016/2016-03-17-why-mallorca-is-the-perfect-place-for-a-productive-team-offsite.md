@@ -2,7 +2,7 @@
 layout: post
 title: "Why Mallorca is the perfect place for a productive team offsite"
 date: 2016-03-17
-header_image: public/offsite.jpg
+header_image: private/offsite.jpg
 category: events
 tags: ["offsite", "team", "workshop"]
 authors: ["Alejandra", "Benjamin", "Heiko"]

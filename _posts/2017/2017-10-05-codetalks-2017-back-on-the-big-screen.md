@@ -2,7 +2,7 @@
 layout: post
 title: "code.talks 2017 - Back on the big screen"
 date: 2017-10-05
-header_image: public/codetalks-2017.png
+header_image: private/codetalks-2017.png
 image-position: bottom
 category: events
 tags: ["microservice", "kotlin", "css", "conference"]
