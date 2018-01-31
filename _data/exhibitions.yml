@@ -23,7 +23,14 @@
   description: We are hosting this event.
   link:
   date: 27. Feb 2018
-  time:
+  time: '18:30'
+  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+
+- title: Kubernetes / Cloud Native Meetup
+  description: We are hosting this event.
+  link:
+  date: 08. Mar 2018
+  time: '18:00'
   address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
 
 - title: Ruby Unconference
