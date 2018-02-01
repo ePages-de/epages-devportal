@@ -2,7 +2,7 @@
 layout: post
 title: How to install your own Galera Cluster
 date: 2018-02-01
-header_image: install-galera-cluster.jpg
+header_image: public/install-galera-cluster.jpg
 header_position: center
 category: tech-stories
 tags: ["galera", "mysql", "database"]

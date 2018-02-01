@@ -2,7 +2,7 @@
 layout: post
 title: "What is buzzing in Berlin 2017?"
 date: 2017-06-22
-header_image: berlin-buzzwords-2017.jpg
+header_image: private/berlin-buzzwords-2017.jpg
 category: events
 tags: ["elasticsearch", "microservice", "conference"]
 authors: ["Jens"]

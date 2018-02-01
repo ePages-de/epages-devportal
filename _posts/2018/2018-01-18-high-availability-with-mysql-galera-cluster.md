@@ -2,7 +2,7 @@
 layout: post
 title: High availability with MySQL Galera Cluster
 date: 2018-01-18
-header_image: galera-cluster-high-availability.jpg
+header_image: public/galera-cluster-high-availability.jpg
 header_position: top
 category: tech-stories
 tags: ["galera", "mysql", "database"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Karlsruher Entwicklertag 2016"
 date: 2016-06-23
-header_image: karlsruhe.jpg
+header_image: private/karlsruhe.jpg
 category: events
 tags: ["conference", "microservices", "continuous delivery", "scrum", "katas"]
 authors: ["Benjamin", "Birgit"]

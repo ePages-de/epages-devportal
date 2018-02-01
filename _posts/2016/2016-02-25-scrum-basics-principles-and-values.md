@@ -2,7 +2,7 @@
 layout: post
 title: "Scrum Basics: Principles and Values"
 date: 2016-02-25
-header_image: agile.jpg
+header_image: public/agile.jpg
 category: methods-and-tools
 tags: ["scrum", "agile"]
 authors: ["Anja B."]

@@ -2,7 +2,7 @@
 layout: post
 title: How to create awesome UI texts
 date: 2017-12-21
-header_image: pencil.jpg
+header_image: public/pencil.jpg
 header_overlay: true
 category: language-and-localization
 tags: ["UX", "UI", "wording"]

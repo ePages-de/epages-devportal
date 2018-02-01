@@ -2,7 +2,7 @@
 layout: post
 title: "#refugeehackathon"
 date: 2015-10-27
-header_image: code.jpg
+header_image: public/code.jpg
 header_overlay: true
 category: events
 authors: ["Jan"]

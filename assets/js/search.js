@@ -10,7 +10,7 @@ $(window).on('load', function() {
         var appendString = appendString + '\
           <div class="card  card--post"> \
             <a class="card--post__post-link" href="' + post.url + '"> \
-              <div class="card--post__header" style="background-image: url(/assets/img/pages/blog/headers/' + post.header_image + '); background-position: center ' + post.header_position + '"></div> \
+              <div class="card--post__header" style="background-image: url(/assets/img/pages/headers/' + post.header_image + '); background-position: center ' + post.header_position + '"></div> \
               <div class="card--post__body"> \
                 <h3 class="card--post__title">' + post.title + '</h3> \
                 <div class="card--post__footer"> \
