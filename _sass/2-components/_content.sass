@@ -1,6 +1,12 @@
 html
   background-color: $document-background-color
 
+  *:target:before
+    content: ""
+    display: block
+    height: 90px
+    margin: -90px 0 0
+
   .content-wrapper
     width: 90%
     max-width: 1080px

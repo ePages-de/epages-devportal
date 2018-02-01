@@ -2,7 +2,7 @@
 layout: post
 title: "How we connected Sage One with ePages"
 date: 2016-08-12
-header_image: bridge.jpg
+header_image: public/bridge.jpg
 category: tech-stories
 tags: ["third-party", "api", "ecommerce", "rest", "java"]
 authors: ["Mats"]

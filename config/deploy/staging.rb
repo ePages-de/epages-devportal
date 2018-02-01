@@ -4,7 +4,7 @@ lock "~> 3.8.1"
 server '35.158.240.55', roles: [:web, :app, :db], primary: true
 
 set :application, "epages_devblog_staging"
-set :repo_url, "git@github.com:ePages-de/epages-devblog.git"
+set :repo_url, "git@github.com:ePages-de/epages-devportal.git"
 set :rbenv_ruby, '2.4.2'
 set :user, 'deploy'
 set :branch, 'develop'

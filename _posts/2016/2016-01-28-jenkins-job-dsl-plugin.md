@@ -2,7 +2,7 @@
 layout: post
 title: "Jenkins jobs as code: the Job DSL plugin"
 date: 2016-01-28
-header_image: code.jpg
+header_image: public/code.jpg
 header_overlay: true
 category: tech-stories
 tags: ["jenkins", "automation", "groovy", "job dsl"]

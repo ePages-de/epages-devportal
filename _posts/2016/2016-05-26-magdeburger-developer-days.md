@@ -2,7 +2,7 @@
 layout: post
 title: "Magdeburger Developer Days"
 date: 2016-05-26
-header_image: magdeburg-dev.jpg
+header_image: private/magdeburg-dev.jpg
 category: events
 tags: ["conference", "java", "javascript", "ddd"]
 authors: ["Bastian", "Benjamin"]
