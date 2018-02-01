@@ -16,6 +16,7 @@ kramdown:
 
 include:
   - _pages
+  - beyond-essence
 
 plugins:
   - jekyll-feed
