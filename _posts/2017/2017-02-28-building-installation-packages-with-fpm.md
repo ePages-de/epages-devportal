@@ -2,7 +2,7 @@
 layout: post
 title: "Building installation packages with FPM"
 date: 2017-02-28
-header_image: code-fpm.jpg
+header_image: public/code-fpm.jpg
 category: tech-stories
 tags: ["fpm", "ecommerce"]
 authors: ["Maik", "Wolf"]

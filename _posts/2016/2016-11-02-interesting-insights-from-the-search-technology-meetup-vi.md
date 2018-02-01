@@ -2,7 +2,7 @@
 layout: post
 title: "Interesting insights from the Search Technology Meetup VI"
 date: 2016-11-02
-header_image: search.jpg
+header_image: public/search.jpg
 category: events
 tags: ["meetup", "elasticsearch", "data science"]
 authors: ["Rose"]

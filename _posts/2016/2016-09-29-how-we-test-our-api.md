@@ -2,7 +2,7 @@
 layout: post
 title: "How we test our API"
 date: 2016-09-29
-header_image: heartbeat.jpg
+header_image: public/heartbeat.jpg
 category: api-experience
 tags: ["api", "testing", "rest", "framework"]
 authors: ["Ulf B."]

@@ -2,7 +2,7 @@
 layout: post
 title: "How to ease test evaluation in the Continuous Delivery Pipeline"
 date: 2016-02-16
-header_image: test-automation-2.jpg
+header_image: public/test-automation-2.jpg
 category: tech-stories
 tags: ["continuous delivery", "elasticsearch", "docker", "circleci"]
 authors: ["Benjamin", "Bastian"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Guest post: Smart localization formats in i18n"
 date: 2016-12-08
-header_image: smart.jpg
+header_image: public/smart.jpg
 category: language-and-localization
 tags: ["localization", "i18n", "translation", "software", "gettext"]
 authors: ["Frederik"]
