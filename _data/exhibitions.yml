@@ -1,19 +1,47 @@
+- title: Smashing Conference London 2018
+  description: We are participating in this event.
+  link: https://smashingconf.com/
+  date: 7. - 9. Feb 2018
+  time:
+  address: LSO St Luke’s<br>161 Old St<br>London EC1V 9NG, UK
+
 - title: JeffConf Hamburg 2018
-  description: We are participating at this event.
+  description: We are participating in this event.
   link: https://hamburg.jeffconf.com/agenda
   date: 16. Feb 2018
   time:
   address: Altonaer Museum<br>Museumstraße 23<br>22765 Hamburg
 
+- title: WebAPI Meetup - RAML with Spring REST Docs
+  description: We are hosting this event.
+  link:
+  date: 27. Feb 2018
+  time: '18:30'
+  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+
+- title: Kubernetes / Cloud Native Meetup
+  description: We are hosting this event.
+  link:
+  date: 08. Mar 2018
+  time: '18:00'
+  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+
 - title: Ruby Unconference
   description: We are sponsoring this event.
-  link:
+  link: http://rubyunconf.eu/
   date: 5. - 6. May 2018
   time:
   address: Hamburg
 
+- title: Spring I/O 2018
+  description: We are participating in this event.
+  link: https://2018.springio.net/
+  date: 24. - 25. May 2018
+  time:
+  address: Palau de Congressos<br>Avinguda de la Reina Maria Cristina, s/n<br>08004 Barcelona, ES
+
 - title: Scrum Alliance Gathering
-  description: We are participating at this event.
+  description: We are participating in this event.
   link:
   date: 8. - 10. Oct 2018
   time:
