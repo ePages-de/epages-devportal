@@ -8,7 +8,7 @@ header_image: about.jpg
 
 <section class="about">
 
-  <h2 class="section__title">Who we are</h2>
+  <h2 class="section__title" id="about">Who we are</h2>
 
   <div class="card">
 
@@ -28,22 +28,28 @@ header_image: about.jpg
 
 <section class="channels">
 
-  <h2 class="section__title">Our channels</h2>
+  <h2 class="section__title" id="channels">Our channels</h2>
 
   <div class="card">
 
     <ul>
       <li>
-        <i class="fab  fa-fw  fa-twitter  fa-2x" aria-hidden="true"></i>
-        <p>Follow us on <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a></p>
+        <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">
+          <i class="fab  fa-fw  fa-twitter  fa-2x" aria-hidden="true"></i>
+          <p>Follow us on <span>Twitter</span></p>
+        </a>
       </li>
       <li>
-        <i class="fab  fa-fw  fa-youtube  fa-2x" aria-hidden="true"></i>
-        <p>See what we're up to on <a href="https://youtube.com/channel/{{site.youtube_username}}">YouTube</a></p>
+        <a href="https://youtube.com/channel/{{site.youtube_username}}">
+          <i class="fab  fa-fw  fa-youtube  fa-2x" aria-hidden="true"></i>
+          <p>See what we're up to on <span>YouTube</span></p>
+        </a>
       </li>
       <li>
-        <i class="fas  fa-fw  fa-globe  fa-2x" aria-hidden="true"></i>
-        <p>Visit our <a href="https://epages.com" target="_blank">company website</a></p>
+        <a href="https://epages.com" target="_blank">
+          <i class="fas  fa-fw  fa-globe  fa-2x" aria-hidden="true"></i>
+          <p>Visit our <span>company website</span></p>
+        </a>
       </li>
     </ul>
 
@@ -57,7 +63,7 @@ header_image: about.jpg
 
 <section class="events">
 
-  <h2 class="section__title">Great team - Great events!</h2>
+  <h2 class="section__title" id="team-events">Great team - Great events!</h2>
 
   <p class="section__body">Pictures say more than words: Take a sneak peek at some of the videos and pictures we collected from recent events.</p>
 
@@ -117,7 +123,7 @@ header_image: about.jpg
 
 <section class="exhibitions">
 
-  <h2 class="section__title">Let's meet!</h2>
+  <h2 class="section__title" id="lets-meet">Let's meet!</h2>
 
   <p class="section__body">We're at various conferences, meetups and job fairs throughout the year. Get in touch with us!</p>
 
