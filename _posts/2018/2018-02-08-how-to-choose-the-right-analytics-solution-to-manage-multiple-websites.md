@@ -3,6 +3,7 @@ layout: post
 title: How to choose the right analytics solution to manage multiple websites
 date: 2018-02-08
 header_image: public/analytics.jpeg
+header_overlay: true
 header_position: center
 category: methods-and-tools
 tags: ["analytics", "statistics", "dashboard"]
