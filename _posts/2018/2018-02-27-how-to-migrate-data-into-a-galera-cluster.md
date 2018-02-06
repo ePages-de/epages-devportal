@@ -2,7 +2,7 @@
 layout: post
 title: How to migrate data to a Galera Cluster
 date: 2018-02-27
-header_image: galera-data-migration.jpg
+header_image: public/galera-data-migration.jpg
 header_position: center
 category: tech-stories
 tags: ["galera", "mysql", "database"]
