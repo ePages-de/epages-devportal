@@ -1,0 +1,10 @@
+---
+layout: post
+title: How we use wiremock for testing our microservices
+date: 2018-02-13
+header_image: public/install-galera-cluster.jpg
+header_position: center
+category: tech-stories
+tags: ["microservices", "testing", "wirmeock"]
+authors: ["Jan, Benjamin"]
+---
