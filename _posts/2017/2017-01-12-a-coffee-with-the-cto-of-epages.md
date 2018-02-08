@@ -23,7 +23,7 @@ Furthermore, we had to hire a lot of developers and established a new developmen
 
 ePages 6 is our very first and core product, which has a wide range of features and functionalities that our customers highly appreciate.
 Over the past two years, we extended and enhanced ePages 6 with the [REST API](/apps), which consequently allowed us to facilitate an [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/){:target="_blank"} as well as a [Theme Store](https://themes.epages.com/en/){:target="_blank"}.
-Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/){:target="_blank"} through the [REST API]/apps) and launched the beta phase by the end of last year.
+Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/){:target="_blank"} through the [REST API](/apps) and launched the beta phase by the end of last year.
 
 ### How did you come up with the idea of ePages Now - a product with improved usability?
 
