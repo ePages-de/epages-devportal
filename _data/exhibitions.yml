@@ -5,6 +5,13 @@
   time:
   address: LSO St Luke’s<br>161 Old St<br>London EC1V 9NG, UK
 
+- title: Kubernetes / Cloud Native Meetup - Building a multi-tenant K8s Container Cloud
+  description: We are hosting this event.
+  link:
+  date: 13. Feb 2018
+  time: '18:30'
+  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+
 - title: JeffConf Hamburg 2018
   description: We are participating in this event.
   link: https://hamburg.jeffconf.com/agenda
