@@ -1,10 +1,67 @@
 ---
 layout: post
-title: How we use wiremock for testing our microservices
+title: How Wiremock and Docker can ease the microservices pipeline pain
 date: 2018-02-13
-header_image: public/install-galera-cluster.jpg
+header_image: public/microservices-wiremock.jpg
 header_position: center
 category: tech-stories
-tags: ["microservices", "testing", "wirmeock"]
+tags: ["microservices", "testing", "continuous delivery"]
 authors: ["Jan, Benjamin"]
 ---
+
+In our microservices architecture we are keen on testing our system to make sure that it is working fine on every layer.
+Therefore, we have local unit tests, local integration test but also a global test suite which validates the interplay of several services.
+
+In the days of the internet, such a platform is not a self-contained system but rather comes to life through the communication with external services.
+For example, we integrate third-parties like intercom to provide a better user experience, google shopping to advertise products externally, or amazon marketplaces to sell elsewhere as well.
+
+These sometimes insufficiently reliable connections are tricky to stabilize or even create throughout the build and deployment phases until production.
+Hence, we decided to use [wiremock](http://wiremock.org) so that we can take away some pain in our continuous delivery pipeline by mocking some APIs.
+
+This article outlines the steps how we integrated an automated solution including some design decisions along the way.
+
+## General workflow
+
+The diagram shows our pipeline, which consists basically of four stages.
+The acceptance stage is parallelized and one of the most often failures are caused by call timeouts to external services when the API test suite is run.
+The integration of wiremock consists of 6 parts, which will be in the next sections.
+
+{% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-wiremock.png" width="50" %}
+
+## Part 1: Generate Wiremock Stubs
+
+In the build stage (also locally and during Pull request tests) our microservice fires against the real API of the external service.
+Here we want to record what requests were accepted and how the repsonse in particular looks like. This data will be saved as Wiremock stubs.
+
+To achieve this goal we needed to create several classes in a new `wiremock` integration test package of our microservice.
+First we need to launch the wiremock server which acts a proxy inbetween of our microservice and the external API.
+
+
+```
+@Override
+public void requestReceived(Request request, Response response) {
+    RequestPattern requestPattern = createTemplatedRequestPattern(request);
+    StubMapping stubMapping = createStubMapping(requestPattern, toResponseDefinition(response));
+    writeToDisk(stubMapping, uniqueFileName(request, stubMapping));
+}
+```
+
+## 2 Build and Push Docker Images
+
+- single image
+- multiple images (tags vs separate repos on docker hub)
+
+## 3 Deploy Wiremock
+
+
+## 4 Configure a service to use the Mock server
+
+
+## 5 Run API tests
+
+
+## 6 QA and Prod Environment
+
+## Conclusion
+
+Overall, there is quite an amount of effort that needs to be put into using wiremock but it is totally worth it.
