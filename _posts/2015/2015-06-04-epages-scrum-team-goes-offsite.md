@@ -4,6 +4,7 @@ title: "ePages scrum team goes offsite"
 date: 2015-06-04
 header_image: public/offsite-1.jpg
 category: events
+tags: ["offsite", "team", "workshop"]
 authors: ["Fouad-Steffen"]
 ---
 

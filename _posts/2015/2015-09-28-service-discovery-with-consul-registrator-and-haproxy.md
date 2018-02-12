@@ -5,6 +5,7 @@ date: 2015-09-28
 header_image: public/discovery.jpg
 header_overlay: true
 category: tech-stories
+tags: ["microservices", "consul", "haproxy", "service discovery"]
 authors: ["Dirk"]
 ---
 
