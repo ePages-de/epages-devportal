@@ -5,6 +5,7 @@ date: 2015-08-03"
 header_image: public/pipelines.jpg
 header_overlay: true
 category: tech-stories
+tags: ["jenkins", "network", "environment", "idoit"]
 authors: ["Carsten", "Karsten"]
 ---
 
