@@ -2,7 +2,7 @@
 layout: post
 title: Hamburg Kubernetes Meetup - Building a Multi-Tenant Kubernetes Container Cloud
 date: 2018-02-15
-header_image: public/TODOTODOTODOTODOTODOTODOTODOTODOTODOTODO.jpg
+header_image: public/container-cloud.jpg
 header_position: center
 category: events
 tags: ["kubernetes", "meetup"]
@@ -10,7 +10,7 @@ authors: ["Oliver Z.", "Dirk"]
 ---
 
 Smooth sailing with Kubernetes?
-That is certainly possible, except if you want to setup a multi-tenant Kubernetes container cloud on your own hardware, like [Christian](https://twitter.com/chrishuen) [Hüning](https://github.com/christianhuening) and the Hamburg University of Applied Sciences (HAW Hamburg) did.
+That is certainly possible, except if you want to setup a multi-tenant Kubernetes container cloud on your own hardware, like [Christian](https://twitter.com/chrishuen){:target="_blank"} [Hüning](https://github.com/christianhuening){:target="_blank"} and the Hamburg University of Applied Sciences (HAW Hamburg) did.
 
 In a very entertaining talk Christian shared experiences they learned the hard way.
 
@@ -32,7 +32,7 @@ To solve the AAA-Problem (Authentication, Authorization and Admission) they reli
 
 Using a simple utility script, students or HAW employees are obtaining `kubectl` credentials using their LDAP accounts.
 
-## ["We are in the large cluster business"](https://github.com/coreos/etcd/blob/master/Documentation/op-guide/hardware.md)
+## ["We are in the large cluster business"](https://github.com/coreos/etcd/blob/master/Documentation/op-guide/hardware.md){:target="_blank"}
 
 Christian and the HAW Hamburg did not solve the Admission problem, yet. So currently all resources are free-for-all.
 In the future they intend to introduce a leasing mechanism and let tenants self-service resources.
