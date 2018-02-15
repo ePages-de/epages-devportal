@@ -1,16 +1,20 @@
 ---
 layout: post
-title: Hamburg Kubernetes Meetup - Building a Multi-Tenant Kubernetes Container Cloud
+title: Hamburg Kubernetes / Cloud Native Meetup - Building a Multi-Tenant Kubernetes Container Cloud
 date: 2018-02-15
-header_image: public/container-cloud.jpg
+header_image: private/k8s-meetup-2018-02.jpg
 header_position: center
 category: events
 tags: ["kubernetes", "meetup"]
 authors: ["Oliver Z.", "Dirk"]
 ---
 
-Smooth sailing with Kubernetes?
-That is certainly possible, except if you want to setup a multi-tenant Kubernetes container cloud on your own hardware, like [Christian](https://twitter.com/chrishuen){:target="_blank"} [Hüning](https://github.com/christianhuening){:target="_blank"} and the Hamburg University of Applied Sciences (HAW Hamburg) did.
+This week ePages hosted the Hamburg Kubernetes / Cloud Native Meetup. With 46 participants actually showing up, the room was full but not yet packed
+with Kubernauts being eager to learn & discuss.
+
+## Smooth sailing with Kubernetes?
+
+That is certainly possible, except if you want to setup a multi-tenant Kubernetes cluster on your own hardware, like [Christian](https://twitter.com/chrishuen){:target="_blank"} [Hüning](https://github.com/christianhuening){:target="_blank"} and the Hamburg University of Applied Sciences (HAW Hamburg) did.
 
 In a very entertaining talk Christian shared experiences they learned the hard way.
 
@@ -41,7 +45,16 @@ They highlighted additional challenges like losing access to the cluster (`kubec
 Or `etcd` running out of memory, causing a sychronization cascade that kept the whole cluster busy for nearly a day.
 Also they struggled with multi-tenant logging, since all available open-source solutions are either *you-see-everything* or *you-see-nothing*.
 
-## Summary TODO
+## Eat & greet
+
+Just in time when the presentation was finished, pizza arrived, generously sponsored by [Loodse](https://twitter.com/Loodse){:target="_blank"}. Combined with the usual drinks & snacks provided by ePages, the networking and discussion part of the meetup brought very interesting conversations.
+It even lasted more than twice as long as the talk itself, which made it a real community event.
+
+{% image_lightbox image="/assets/img/pages/blog/images/blog-k8s-multitenant-1.jpg" caption="Developer_heaven" %}
+
+## Summary
 
 * Entertaining talk with great insights
-* We are hiring a DevOps Engineer? ;)
+* The Kubernetes community in Hamburg is buzzing 
+* Even for devOps there is something like "too much pizza"
+* We are hiring a [DevOps Engineer](https://www.epages.com/de/karriere/jobs/?jh=yh9sa5545lniif5q8f0oqlsmssytutc) ;)
