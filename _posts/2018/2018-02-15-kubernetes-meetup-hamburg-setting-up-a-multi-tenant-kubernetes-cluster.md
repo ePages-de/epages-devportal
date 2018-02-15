@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: events
 tags: ["kubernetes", "meetup"]
-authors: ["Oliver", "Dirk"]
+authors: ["Oliver Z.", "Dirk"]
 ---
 
 This week ePages hosted the Hamburg Kubernetes/Cloud Native Meetup.
