@@ -10,7 +10,7 @@ tags: ["kubernetes", "meetup"]
 authors: ["Oliver", "Dirk"]
 ---
 
-This week ePages hosted the Hamburg Kubernetes/ loud Native Meetup.
+This week ePages hosted the Hamburg Kubernetes/Cloud Native Meetup.
 With 46 participants actually showing up, the room was full but not yet packed
 with Kubernauts being eager to learn and discuss.
 
