@@ -4,6 +4,7 @@ title: "Setting up a Linux Development Environment for Ruby (on Rails)"
 date: 2015-10-01
 header_image: public/ruby.png
 category: tech-stories
+tags: ["linux", "ruby", "rails"]
 authors: ["Declan"]
 ---
 

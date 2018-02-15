@@ -5,6 +5,7 @@ date: 2015-07-20
 header_image: public/puzzle.jpg
 header_overlay: true
 category: tech-stories
+tags: ["api", "third-party", "ecommerce"]
 authors: ["Ulf B."]
 ---
 

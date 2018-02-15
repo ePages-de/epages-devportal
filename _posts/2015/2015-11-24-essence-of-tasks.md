@@ -4,6 +4,7 @@ title: "On the essence of the task"
 date: 2015-11-24
 header_image: public/task.jpg
 category: methods-and-tools
+tags: ["workshop", "prioritization"]
 authors: ["Timo H."]
 ---
 
@@ -17,7 +18,7 @@ Some mathematician could say which infinite, but pretty much anyway.
 
 The point is that they cannot all be done, definitely not at once.
 Some tasks are actually preventing others being done.
-Even the number of the tasks for some limited subareas, for example, bringing the best e-commerce platform to small businesses who could not manage it alone, is in terms of human lifespan infinite.
+Even the number of the tasks for some limited subareas, for example, bringing the best ecommerce platform to small businesses who could not manage it alone, is in terms of human lifespan infinite.
 And next subsection of it, for example perfect customer satisfaction, likewise.
 
 You need some kind of system, to find out which tasks are the most important, which are best for reaching the end goal, and prioritising those you do first.
