@@ -5,6 +5,7 @@ date: 2015-07-23
 header_image: public/selenium-framework.jpg
 header_overlay: true
 category: tech-stories
+tags: ["selenium", "automation", "framework"]
 authors: ["Jan", "Martin", "Kay"]
 ---
 
