@@ -49,6 +49,7 @@ body.about
 
       +grid-media($grid-medium)
         padding: 4rem
+
       ul
         display: flex
         justify-content: space-between
@@ -57,18 +58,33 @@ body.about
         +grid-media($grid-medium)
           flex-direction: row
 
-        li
+        li a
           display: flex
           align-items: center
           margin-bottom: 1rem
+          color: $gray-dark
 
           +grid-media($grid-medium)
             margin-bottom: 0
 
           svg
             margin-right: 1.25rem
-            color: $base-font-color-light
+            color: $gray-light
+            color: $beyond-green
             width: 40px
+
+          span
+            color: $beyond-green
+
+          &:hover, &:focus
+
+            svg
+              color: darken($beyond-green, 10%)
+              transition: $base-transition
+
+            span
+              color: darken($beyond-green, 10%)
+              transition: $base-transition
 
 
 

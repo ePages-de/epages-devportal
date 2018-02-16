@@ -2,7 +2,7 @@
 layout: post
 title: "Does your heart beat for {code}?"
 date: 2015-04-16
-header_image: heartbeat.jpg
+header_image: public/heartbeat.jpg
 category: on-the-job
 authors: ["Birgit"]
 ---

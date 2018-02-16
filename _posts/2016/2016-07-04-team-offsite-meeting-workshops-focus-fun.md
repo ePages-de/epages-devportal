@@ -2,7 +2,7 @@
 layout: post
 title: "Team offsite meeting: workshops, focus, and fun"
 date: 2016-07-04
-header_image: ep6offsite2016.jpg
+header_image: private/ep6offsite2016.jpg
 category: events
 tags: ["offsite", "team", "workshops"]
 authors: ["Sandra", "Oliver Z."]

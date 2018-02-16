@@ -2,7 +2,7 @@
 layout: post
 title: "Recap tekom conference 2017"
 date: 2017-10-26
-header_image: tekom17.jpg
+header_image: private/tekom17.jpg
 header_position: bottom
 category: events
 tags: ["localization", "technical communication", "api", "conference"]

@@ -2,7 +2,7 @@
 layout: post
 title: "ePages at EuRuKo - Is Ruby still alive?"
 date: 2017-10-06
-header_image: budapest-525857_1920.jpg
+header_image: public/budapest-525857_1920.jpg
 image-position: top
 category: events
 tags: ["ruby", "jruby", "rails", "opal", "rubymotion", "jemalloc", "conference"]

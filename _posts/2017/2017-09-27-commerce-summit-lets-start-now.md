@@ -2,7 +2,7 @@
 layout: post
 title: "Commerce Summit - Let's start NOW"
 date: 2017-09-27
-header_image: commerce-summit-2017.jpg
+header_image: private/commerce-summit-2017.jpg
 image-position: top
 category: events
 tags: ["commerce summit", "ecommerce"]

@@ -2,7 +2,7 @@
 layout: post
 title: "Why I love working as a Scrum Master"
 date: 2017-02-23
-header_image: scrum-ann-katrin.jpg
+header_image: private/scrum-ann-katrin.jpg
 category: on-the-job
 tags: ["scrum", "agile"]
 authors: ["Rose", "Ann-Katrin"]

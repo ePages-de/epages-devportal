@@ -2,7 +2,7 @@
 layout: post
 title: Solving the puzzle of debugging microservices
 date: 2017-12-05
-header_image: debugging-microservices.jpg
+header_image: public/debugging-microservices.jpg
 header_overlay: true
 category: tech-stories
 tags: ["microservice", "docker", "debugging", "logging", "tracing", "sleuth", "zipkin", "nginx", "lua"]
