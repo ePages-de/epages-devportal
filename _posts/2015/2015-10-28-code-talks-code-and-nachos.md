@@ -2,7 +2,7 @@
 layout: post
 title: "code.talks: code & nachos"
 date: 2015-10-28
-header_image: nachos.jpg
+header_image: public/nachos.jpg
 category: events
 authors: ["Erik"]
 ---

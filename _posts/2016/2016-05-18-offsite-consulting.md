@@ -2,7 +2,7 @@
 layout: post
 title: "Consulting offsite meeting"
 date: 2016-05-18
-header_image: consulting-offsite.jpg
+header_image: private/consulting-offsite.jpg
 category: events
 tags: ["team", "offsite", "workshop"]
 authors: ["Pavlo", "Tobias"]

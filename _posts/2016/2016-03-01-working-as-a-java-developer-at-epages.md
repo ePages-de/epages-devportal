@@ -2,7 +2,7 @@
 layout: post
 title: "Working as a Java Developer at ePages"
 date: 2016-03-01
-header_image: coffee.jpg
+header_image: public/coffee.jpg
 category: on-the-job
 tags: ["java", "developer", "onboarding", "job"]
 authors: ["Birgit", "Serena", "Jens"]

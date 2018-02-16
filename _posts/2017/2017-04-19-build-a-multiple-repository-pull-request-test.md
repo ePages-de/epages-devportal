@@ -2,7 +2,7 @@
 layout: post
 title: "Build a multiple repository pull request test"
 date: 2017-04-19
-header_image: challenge-cube.jpg
+header_image: public/challenge-cube.jpg
 category: tech-stories
 tags: ["testing", "jenkins", "github"]
 authors: ["Florian Z."]

@@ -2,7 +2,7 @@
 layout: post
 title: "Optimised monitoring and evaluation of Selenium test results"
 date: 2016-02-11
-header_image: test-automation-1.jpg
+header_image: public/test-automation-1.jpg
 category: tech-stories
 tags: ["selenium", "monitoring", "continuous delivery"]
 authors: ["Benjamin", "Bastian"]
