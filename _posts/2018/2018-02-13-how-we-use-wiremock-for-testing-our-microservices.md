@@ -15,29 +15,25 @@ Therefore, we have local unit tests, local integration test but also a global te
 In the days of the internet, such a platform is not a self-contained system but rather comes to life through the communication with external services.
 For example, we integrate third-parties like Intercom to provide a direct customer service, Google Shopping to advertise products externally, or Amazon Marketplace to sell elsewhere as well.
 
-These sometimes insufficiently reliable connections are tricky to stabilize or even create throughout the build and deployment phases until production.
-Hence, we decided to use [WireMock](http://wiremock.org) so that we can take away some pain in our continuous delivery pipeline by mocking APIs.
+Testing those integrations involves to a number of challenges. One of them is that the sandbox systems of the external services may be unreliable which leads to false negatives in the tests. In other cases there is no sandbox available at all and the tests need to run against a test account on the production system which is complicated and not always possible.
 
-This article outlines the steps how we integrated our WireMock solution including some design decisions along the way.
+This article outlines the steps we did to solve the problems with the connection to third-party systems in our API tests.
 
 ## General workflow
 
-The diagram below shows a simplified draft our pipeline including our solution, which consists basically of four stages. The build stage happens decoupled for each service.
+The diagram below shows a simplified draft our pipeline including our solution. The build stage happens decoupled for each service.
 The acceptance stage then consolidates the different origins but has the capability to run parallelized.
-In this stage the API test suite runs are the cause of the most often failures due to timeouts and limitations of instable external services.
-These shortcomings have been resolved with the integration of WireMock.
-Our current implementation consists of 6 parts, which will be outlined in the next sections.
+In this stage the API test suite runs are we often had failures due to timeouts and limitations of instable external services.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-wiremock.png" width="100" %}
 
 ## Part 1: Generate WireMock Stubs
 
-In the build stage (also locally and during pull request tests) our microservice fires against the real API of the external service.
-Our mission is to record the send out requests and their corresponding response from the external API.
+In the build stage our microservice fires against the real API of the external service.
+We are recording the interaction with the API and are replacing things like UUIDs in the requests with regular expressions.
 This data will then be persisted as WireMock stubs.
 
-To achieve this goal we needed to create several classes in a new `wiremock` integration test package of our microservice.
-First we need to launch the WireMock server which acts as a proxy in between our microservice and the external API.
+First we need to launch the WireMock server which acts as a proxy in between our microservice and the external API and then add a request listener for the customized recording.
 
 ```java
 public class TemplatedMappingsRecorder implements RequestListener {
@@ -64,7 +60,7 @@ public class TemplatedMappingsRecorder implements RequestListener {
 }
 ```
 
-The recorder can then be used by the IntercomProxyTest.
+The WireMock proxy can then be used by the Intercom API contract test.
 
 ```java
 @WireMockTest
@@ -137,14 +133,40 @@ public class IntercomUrlPatterns extends UrlPatternRegistry {
 }
 ```
 
+For the request body matcher we are just keeping the JSON path elements without their values. The recorded WireMock mappings then look like this:
+
+```
+{
+  "id" : "26633bee-4b12-4f95-883e-23c559374797",
+  "request" : {
+    "urlPattern" : "/users",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$.signed_up_at"
+    }, {
+      "matchesJsonPath" : "$.user_id"
+    }, {
+      "matchesJsonPath" : "$.phone"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : <json-response-body>,
+    "headers" : {
+      "Cache-Control" : "max-age=0, private, must-revalidate",
+      ...
+    }
+  }
+}
+```
+
 ## Part 2: Build and Push WireMock Docker Image
 
 Here we had multiple possibilities. We could either create a new Docker Hub repository for each service for which we would like to add WireMock in the future or we could have a single repo and just differentiate by tags.
-The later one has the advantage that our whole automation can be extended quite easily by just adding some more keys. So, we decided to go this route.
+The later one has the advantage that our whole automation can be extended quite easily by just adding some more keys. So we decided to go this route.
 
-For creating the WireMock image we extended our Gradle plugins repos and added a new task chain.
-The `WiremockConventionPlugin` is based on the Docker Plugin and follows the general process of pull base image, create a new service dockerfile that depends on the base image, building the service image and pushing it to Docker Hub.
-Note that the base image and the service image which is enriched with the generated WireMock stubs live in the same Docker Hub repo.
+For creating the WireMock image we forked the [wiremock-docker](https://github.com/rodolpheche/wiremock-docker) project and extended our Gradle plugins repos with a new task chain.
+The `WiremockConventionPlugin` is based on the [Gradle Docker Plugin](https://github.com/bmuschko/gradle-docker-plugin) and follows the general process of pull base image, create a new service dockerfile that depends on the base image, building the service image and pushing it to Docker Hub.
 
 ```java
 
@@ -152,57 +174,14 @@ class WiremockConventionPlugin implements Plugin<Project> {
 
     private static final String STUB_DIRECTORY = 'build/wiremock-stubs'
 
-    private static final String PULL_BASE_IMAGE_TASK = 'pullWiremockBaseDockerImage'
-    private static final String CREATE_SERVICE_DOCKERFILE_TASK = 'createWiremockServiceDockerfile'
-    private static final String BUILD_SERVICE_IMAGE_TASK = 'buildWiremockServiceDockerImage'
-    private static final String PUSH_SERVICE_IMAGE_TASK = 'pushWiremockServiceDockerImage'
-    private static final String REMOVE_SERVICE_IMAGE_TASK = 'removeWiremockServiceDockerImage'
-    private static final String REMOVE_BASE_IMAGE_TASK = 'removeWiremockBaseDockerImage'
-    private static final String PUBLISH_WIREMOCK_TASK = 'publishWiremock'
-
-    private static final String DEFAULT_TASK_GROUP = 'Wiremock'
+    ...
 
     @Override
     void apply(Project project) {
 
         project.apply(plugin: DockerRemoteApiPlugin)
 
-        def dockerImageName = "epages/ng-wiremock"
-        def dockerImageTagLatest = "latest"
-        def dockerImageTagService = project.name
-        def gitCommit = System.env.GIT_COMMIT
-
-        project.extensions.docker.with {
-            if (System.env.DOCKER_HOST) {
-                url = "$System.env.DOCKER_HOST".replace("tcp", "https")
-                if (System.env.DOCKER_CERT_PATH) {
-                    certPath = new File(System.env.DOCKER_CERT_PATH)
-                }
-            } else {
-                url = 'unix:///var/run/docker.sock'
-            }
-            registryCredentials {
-                if (System.env.DOCKER_REGISTRY_URL) {
-                    url = System.env.DOCKER_REGISTRY_URL
-                }
-                if (System.env.DOCKER_REGISTRY_USERNAME) {
-                    username = System.env.DOCKER_REGISTRY_USERNAME
-                }
-                if (System.env.DOCKER_REGISTRY_PASSWORD) {
-                    password = System.env.DOCKER_REGISTRY_PASSWORD
-                }
-                if (System.env.DOCKER_REGISTRY_EMAIL) {
-                    email = System.env.DOCKER_REGISTRY_EMAIL
-                }
-            }
-        }
-
-        project.task(PULL_BASE_IMAGE_TASK, type: DockerPullImage) {
-            description = 'Pulls our wiremock base docker image'
-            group = DEFAULT_TASK_GROUP
-            repository = "$dockerImageName"
-            tag = "$dockerImageTagLatest"
-        }
+        ...
 
         project.task(CREATE_SERVICE_DOCKERFILE_TASK) << {
             description = 'Creates a new dockerfile for the generation of the layer with the wiremock stubs.'
@@ -215,82 +194,29 @@ class WiremockConventionPlugin implements Plugin<Project> {
             dockerfile.text = "FROM epages/ng-wiremock\nCOPY . /home/wiremock"
         }
 
-        project.task(BUILD_SERVICE_IMAGE_TASK, type: DockerBuildImage) {
-            description = 'Build a new wiremock service image.'
-            group = DEFAULT_TASK_GROUP
-            dependsOn project.tasks."$CREATE_SERVICE_DOCKERFILE_TASK"
-            dependsOn project.tasks."$PULL_BASE_IMAGE_TASK"
-            inputDir = project.file(STUB_DIRECTORY)
-            if (gitCommit) {
-                labels = ["git-commit": gitCommit]
-            }
-            tag = "$dockerImageName:$dockerImageTagService"
-        }
-
-        project.task(PUSH_SERVICE_IMAGE_TASK, type: DockerPushImage) {
-            description = 'Push the docker image to your docker repository. All tags are included.'
-            group = DEFAULT_TASK_GROUP
-            dependsOn project.tasks."$BUILD_SERVICE_IMAGE_TASK"
-            imageName = "$dockerImageName"
-            tag = "$dockerImageTagService"
-        }
-
-        project.task(REMOVE_SERVICE_IMAGE_TASK, type:DockerRemoveImage) {
-            description = 'Remove the wiremock service image from the local filesystem.'
-            group = DEFAULT_TASK_GROUP
-            imageId = "$dockerImageName:$dockerImageTagService"
-        }
-
-        project.task(REMOVE_BASE_IMAGE_TASK, type:DockerRemoveImage) {
-            description = 'Remove the wiremock base image from the local filesystem.'
-            group = DEFAULT_TASK_GROUP
-            imageId = "$dockerImageName:$dockerImageTagLatest"
-        }
-
-        project.task(PUBLISH_WIREMOCK_TASK) {
-            description = 'Push and remove wiremock images.'
-            group = DEFAULT_TASK_GROUP
-            dependsOn project.tasks."$PUSH_SERVICE_IMAGE_TASK"
-            dependsOn project.tasks."$REMOVE_SERVICE_IMAGE_TASK"
-            dependsOn project.tasks."$REMOVE_BASE_IMAGE_TASK"
-        }
-
-        project.tasks."$PULL_BASE_IMAGE_TASK".mustRunAfter(project.tasks.intTest)
-
-        project.tasks."$REMOVE_SERVICE_IMAGE_TASK".mustRunAfter(project.tasks."$PUSH_SERVICE_IMAGE_TASK")
-        project.tasks."$REMOVE_BASE_IMAGE_TASK".mustRunAfter(project.tasks."$PUSH_SERVICE_IMAGE_TASK")
-
+        ...
     }
 }
 ```
 
 ## Part 3: Deploy WireMock Docker Container
 
-Our pipeline consists of several stages and in each stage a new Kubernetes cluster is deployed.
+Our pipeline consists of several stages and in the Accpetance stage a new Kubernetes cluster is deployed.
 Hence we added a new `intercom-mock-deployment.yaml` so that the according WireMock image is pulled from Docker Hub and rolled out to the Acceptance Stage cluster.
 
 ```yaml
 containers:
 - name: intercom-mock
-  image: epages/ng-wiremock:${externalapi}
+  image: epages/ng-wiremock:intercom
   ports:
   - containerPort: 8080
 ```
 
-To access the container from the outside. Like from our API test suite, which runs against the freshly created cluster,
-we need to create a [Kubernetes service](https://kubernetes.io/docs/concepts/services-networking/service) for the mocked external API docker image as well.
-
-```yaml
-ports:
-  - port: 8000
-    targetPort: 8080
-    protocol: TCP
-    name: ${externalapi}
-```
+To access the container from the outside for the test verifications we also need to create a [Kubernetes service](https://kubernetes.io/docs/concepts/services-networking/service) and [nginx configuration](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/#server-virtual-domains-configuration).
 
 ## Part 4: Configure service to use the WireMock server
 
-When the mock server is deployed we can the link our connector service against it by adapting the `${servicename}-connector-configMap.override.yaml`.
+When the mock server is deployed we can the link our connector service against it by adapting the `intercom-connector-configMap.yaml`.
 
 ```yaml
 data:
@@ -299,14 +225,10 @@ data:
 
 ## Part 5: Run API tests
 
-In the API test suite which is based on [Serenity BDD](https://github.com/serenity-bdd/serenity-junit-starter) we have a dedicated test class for each service.
-In each test, we can check that the according WireMock verification is invoked for a number of times.
+In the API test suite, which is based on [Serenity BDD](https://github.com/serenity-bdd/serenity-junit-starter), we have a dedicated test class for each service.
+In each test, we can check that expected requests where requested on the WireMock server.
 
 ```java
-@Before
-public void setup() {
-    wiremockVerifications = new WiremockVerifications("intercom-mock");
-}
 
 @Test
 public void should_create_intercom_user() {
@@ -314,31 +236,18 @@ public void should_create_intercom_user() {
     provisioningSteps.provisionMinimalShop();
 
     String userCreationRequest = userCreationRequest(shopSteps.getShopId());
+
     assertThat(String.format("Failed to match '%s'", userCreationRequest),
             wiremockVerifications.numberOfInvocations(userCreationRequest).equals(1));
 }
 ```
 
-Here are the important parts of the `WiremockVerifications.java` verifications class.
-
-```java
-public Integer numberOfInvocations(String requestMatcher) {
-    return requestWiremock(requestMatcher, wiremockBaseUri + WIREMOCK_COUNT_URI_PATTERN).path("count");
-}
-
-private Response requestWiremock(String body, String wiremockUri) {
-    return given()
-            .content(body)
-            .when()
-            .post(wiremockUri)
-            .thenReturn();
-}
-```
-
 ## Part 6: QA and Prod Environment
 
-In the stages after the acceptance stage we opted for using the real API again. This makes the Pre-Prod/QA environment more realistic.
+In the stages after the acceptance stage we opted for using the real API again.
 
 ## Conclusion
 
-Overall, there is quite an amount of effort that needs to be put into using WireMock but it is totally worth it.
+Building this solution required a significant amount of effort.
+In our Community of Practice we discussed the costs and benefits and unanimously agreed that it was worth it and we should continue to go that route.
+Other teams have started to use this concept for their integrations and improved it by decoupling the stub-recording from the Build stage and running a scheduled Jenkins job for this purpose.
