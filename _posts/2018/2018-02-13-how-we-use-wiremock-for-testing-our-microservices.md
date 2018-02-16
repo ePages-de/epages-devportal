@@ -13,7 +13,7 @@ In our microservices architecture we are keen on testing our system to make sure
 Therefore, we have local unit tests, local integration test but also a global test suite which validates the interplay of several services in the backend.
 
 In the days of the internet, such a platform is not a self-contained system but rather comes to life through the communication with external services.
-For example, we integrate third-parties like intercom to provide a direct customer service, google shopping to advertise products externally, or amazon marketplaces to sell elsewhere as well.
+For example, we integrate third-parties like Intercom to provide a direct customer service, Google Shopping to advertise products externally, or Amazon Marketplace to sell elsewhere as well.
 
 These sometimes insufficiently reliable connections are tricky to stabilize or even create throughout the build and deployment phases until production.
 Hence, we decided to use [WireMock](http://wiremock.org) so that we can take away some pain in our continuous delivery pipeline by mocking APIs.
@@ -25,7 +25,7 @@ This article outlines the steps how we integrated our WireMock solution includin
 The diagram below shows a simplified draft our pipeline including our solution, which consists basically of four stages. The build stage happens decoupled for each service.
 The acceptance stage then consolidates the different origins but has the capability to run parallelized.
 In this stage the API test suite runs are the cause of the most often failures due to timeouts and limitations of instable external services.
-This shortcomings have been work around with the integration of WireMock.
+These shortcomings have been resolved with the integration of WireMock.
 Our current implementation consists of 6 parts, which will be outlined in the next sections.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-wiremock.png" width="100" %}
@@ -37,7 +37,7 @@ Our mission is to record the send out requests and their corresponding response 
 This data will then be persisted as WireMock stubs.
 
 To achieve this goal we needed to create several classes in a new `wiremock` integration test package of our microservice.
-First we need to launch the WireMock server which acts as a proxy inbetween of our microservice and the external API.
+First we need to launch the WireMock server which acts as a proxy in between our microservice and the external API.
 
 ```java
 public class TemplatedMappingsRecorder implements RequestListener {
@@ -119,7 +119,7 @@ public abstract class IntercomProxyTest {
 
 ```
 
-The patterns to record need to be defined separatly:
+The patterns to record need to be defined separately:
 ```
 public class IntercomUrlPatterns extends UrlPatternRegistry {
 
@@ -140,11 +140,11 @@ public class IntercomUrlPatterns extends UrlPatternRegistry {
 ## Part 2: Build and Push WireMock Docker Image
 
 Here we had multiple possibilities. We could either create a new Docker Hub repository for each service for which we would like to add WireMock in the future or we could have a single repo and just differentiate by tags.
-The later one has the advatage that our whole automation can be extended quite easily by just adding some more keys. So we decided to go this route.
+The later one has the advantage that our whole automation can be extended quite easily by just adding some more keys. So, we decided to go this route.
 
-For creating the WireMock we extended our gradle plugins repos and added a new task chain.
-The `WiremockConventionPlugin` is based on the DockerPlugin and follows the gerneral process of pull base image, create a new service dockerfile that depends on the base image, building the service image and pushing it to docker hub.
-Note that the base image and the service image which is enriched with the generated WireMock stubs live in the same docker hub repo.
+For creating the WireMock image we extended our Gradle plugins repos and added a new task chain.
+The `WiremockConventionPlugin` is based on the Docker Plugin and follows the general process of pull base image, create a new service dockerfile that depends on the base image, building the service image and pushing it to Docker Hub.
+Note that the base image and the service image which is enriched with the generated WireMock stubs live in the same Docker Hub repo.
 
 ```java
 
@@ -267,7 +267,7 @@ class WiremockConventionPlugin implements Plugin<Project> {
 ## Part 3: Deploy WireMock Docker Container
 
 Our pipeline consists of several stages and in each stage a new Kubernetes cluster is deployed.
-Hence we added a new `intercom-mock-deployment.yaml` so that the according WireMock imagae is pulled  from Docker hub and rolled out to the Acceptance Stage cluster.
+Hence we added a new `intercom-mock-deployment.yaml` so that the according WireMock image is pulled from Docker Hub and rolled out to the Acceptance Stage cluster.
 
 ```yaml
 containers:
@@ -277,8 +277,8 @@ containers:
   - containerPort: 8080
 ```
 
-To access the container from the outside. Like from our our api test suite, which runs against the freshly created cluster,
-we need to create a [Kubernetes service](https://kubernetes.io/docs/concepts/services-networking/service) for the mocked external api docker image as well.
+To access the container from the outside. Like from our API test suite, which runs against the freshly created cluster,
+we need to create a [Kubernetes service](https://kubernetes.io/docs/concepts/services-networking/service) for the mocked external API docker image as well.
 
 ```yaml
 ports:
@@ -286,15 +286,6 @@ ports:
     targetPort: 8080
     protocol: TCP
     name: ${externalapi}
-```
-
-To forward the requests to the correct service we need to also enhance our cluster gateway by adding a configuration: vhost.${externalapi}.conf
-
-```
-location ~ /([a-z-]*-mock)/(.*) {
-  set $upstream "http://$1.default.svc.cluster.local:8000/$2$is_args$query_string";
-  ...
-}
 ```
 
 ## Part 4: Configure service to use the WireMock server
@@ -308,7 +299,7 @@ data:
 
 ## Part 5: Run API tests
 
-In the api test suite which is based on [Serenity BDD](https://github.com/serenity-bdd/serenity-junit-starter) we have a dedicated test class for each service.
+In the API test suite which is based on [Serenity BDD](https://github.com/serenity-bdd/serenity-junit-starter) we have a dedicated test class for each service.
 In each test, we can check that the according WireMock verification is invoked for a number of times.
 
 ```java
