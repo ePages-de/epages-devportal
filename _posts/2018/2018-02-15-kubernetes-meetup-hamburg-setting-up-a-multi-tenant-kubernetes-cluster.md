@@ -59,7 +59,7 @@ It even lasted more than twice as long as the talk itself, which made it a real 
 
 ## Summary
 
-* Entertaining talk with great insights.
+* Entertaining talk with great insights. [You can find the slides here.](https://www.slideshare.net/loodse/one-cluster-to-serve-them-all){:target="_blank"}
 * The Kubernetes community in Hamburg is buzzing.
 * Even for DevOps there is something like "too much pizza".
 * We are hiring a [DevOps Engineer](https://www.epages.com/de/karriere/jobs/?jh=yh9sa5545lniif5q8f0oqlsmssytutc){:target="_blank"} 😉.
