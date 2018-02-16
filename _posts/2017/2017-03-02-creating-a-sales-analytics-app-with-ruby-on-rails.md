@@ -66,23 +66,23 @@ For simplicity we mimicked more or less the API models and added a bit of Rails 
 After that, we created all the sections of the app: Dashboard, Sales, Products, and Customers.
 All these parts are bound to two dates (start date and end date) so the merchant can get even more useful data faster.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-dashboard.png" width="50" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-dashboard.png" width="50" caption="Dashboard_of_Sales_Analytics_App" %}
 
 The main purpose of the Dashboard was to have all the basic information about a shop at a glance.
 So we decided to include a graph of sales, the amount of sales and orders, as well as the top products, and last orders.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-sales.png" width="50" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-sales.png" width="50" caption="Sales_view" %}
 
 Then we included three charts on the Sales section.
 The first is the same as in the Dashboard, the second one represents the orders on the selected time frame and the last is the revenue per order, the calculation between the first two graphs.
 We also added the option to export the data to an `xlsx` file so the merchant doesn't need an internet connection to review the sales.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-customers.png" width="50" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-customers.png" width="50" caption="Customers_view" %}
 
 The Customers section is a simple table including all the merchant's customers ordered by number of orders or the total amount spent.
 Above the table we can see all the customers for the specified time frame and and the number of returning customers.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-products.png" width="50" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-sales-app-products.png" width="50" caption="Products_view" %}
 
 The last part are the Products.
 In this view, we have the products ordered by revenue or amount of units sold.

@@ -12,7 +12,7 @@ Today we want to share with you the first of two blog posts on a recent project 
 
 The second post will seamlessly follow up and elaborate in-depth on the technical aspects of the implementation, but now let us start digging towards the core of the business challenge.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-report.png" width="25" lightbox align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-report.png" width="25" lightbox align="right" caption="The_report_index_of_a_set" %}
 
 ## Background story
 

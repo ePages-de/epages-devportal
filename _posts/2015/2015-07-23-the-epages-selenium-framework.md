@@ -5,7 +5,8 @@ date: 2015-07-23
 header_image: public/selenium-framework.jpg
 header_overlay: true
 category: tech-stories
-authors: ["Jan M.", "Martin K.", "Kay A."]
+tags: ["selenium", "automation", "framework"]
+authors: ["Jan", "Martin", "Kay"]
 ---
 
 With the help of Selenium we create and run automated test scripts for
