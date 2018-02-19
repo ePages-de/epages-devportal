@@ -13,6 +13,7 @@ background_image: index.jpg
 |---------------|---------------|
 | **Are you sure** you want to delete this product?| **Delete this** product? |
 | Sorry, **the page you're looking for** does not exist.| **That page** does not exist.|
+| Did you forget your password?| Forgot password?|
 
 #### Use terminology that our merchants understand.
 
