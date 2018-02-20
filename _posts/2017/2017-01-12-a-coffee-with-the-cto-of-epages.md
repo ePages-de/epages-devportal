@@ -23,7 +23,7 @@ Furthermore, we had to hire a lot of developers and established a new developmen
 
 ePages 6 is our very first and core product, which has a wide range of features and functionalities that our customers highly appreciate.
 Over the past two years, we extended and enhanced ePages 6 with the [REST API](/apps), which consequently allowed us to facilitate an [App Store](https://blog.epages.com/us/2016/05/14/the-epages-app-store-everything-for-your-e-commerce-success/){:target="_blank"} as well as a [Theme Store](https://themes.epages.com/en/){:target="_blank"}.
-Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/){:target="_blank"} through the [REST API]/apps) and launched the beta phase by the end of last year.
+Only then, we integrated the new storefront [ePages Now](https://www.epages.com/sell-online/now/){:target="_blank"} through the [REST API](/apps) and launched the beta phase by the end of last year.
 
 ### How did you come up with the idea of ePages Now - a product with improved usability?
 
@@ -111,7 +111,7 @@ Then I check new emails and try to attend as many [team reviews](/blog/methods-a
 
 Furthermore, I attempt to keep myself up-to-date on the latest technology trends, and news.
 I regularly have dedicated meetings concerning various technology approaches as well as lunch with different teams.
-My office door is always open to ensure that everyone can proactively approach me with ideas, concerns, or whatsoever ... and "whatsoever" can also eat up a lot of time 😠.
+My office door is always open to ensure that everyone can proactively approach me with ideas, concerns, or whatsoever... and "whatsoever" can also eat up a lot of time.
 
 I am in permanent exchange with HR and my colleague who is in charge of the development teams in Jena.
 Therefore, I also try to visit the office in Jena every two months and in Barcelona every four months.
