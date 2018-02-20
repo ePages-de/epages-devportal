@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How WireMock, Docker and K8s can ease the microservices pipeline pain
+title: Mocking external services for API tests
 date: 2018-02-13
 header_image: public/microservices-wiremock.jpg
 header_position: center
@@ -29,111 +29,10 @@ In this stage the API test suite runs are we often had failures due to timeouts 
 
 ## Part 1: Generate WireMock Stubs
 
-In the build stage our microservice fires against the real API of the external service.
+In the build stage our microservice fires against the real API of the external service which is proxied by a WireMock server.
 We are recording the interaction with the API and are replacing things like UUIDs in the requests with regular expressions.
-This data will then be persisted as WireMock stubs.
-
-First we need to launch the WireMock server which acts as a proxy in between our microservice and the external API and then add a request listener for the customized recording.
-
-```java
-public class TemplatedMappingsRecorder implements RequestListener {
-
-    private final File mappingsSourceDir;
-    private final FileSource mappingsFileSource;
-    private final UrlPatternRegistry urlPatternRegistry;
-
-  public TemplatedMappingsRecorder(File stubTargetDir, UrlPatternRegistry urlPatternRegistry) {
-      this.mappingsSourceDir = new File(stubTargetDir, "mappings");
-      this.mappingsFileSource = new SingleRootFileSource(mappingsSourceDir.getAbsolutePath());
-      this.urlPatternRegistry = urlPatternRegistry;
-  }
-
-  @Override
-  public void requestReceived(Request request, Response response) {
-      RequestPattern requestPattern = createTemplatedRequestPattern(request);
-      StubMapping stubMapping = createStubMapping(requestPattern, toResponseDefinition(response));
-      writeToDisk(stubMapping, uniqueFileName(request, stubMapping));
-  }
-
-  // ...
-
-}
-```
-
-The WireMock proxy can then be used by the Intercom API contract test.
-
-```java
-@WireMockTest
-public abstract class IntercomProxyTest {
-
-    // ...
-
-    @BeforeClass
-    public static void resetDirectoriesForGeneratedStubs() {
-        FileUtils.deleteRecursive(WIREMOCK_MAPPINGS_DIR, true);
-        FileUtils.deleteRecursive(WIREMOCK_FILES_DIR, true);
-
-        FileUtils.createDirectories(WIREMOCK_MAPPINGS_DIR);
-        FileUtils.createDirectories(WIREMOCK_FILES_DIR);
-    }
-
-    @Before
-    public void configureWiremockProxy() {
-        FileUtils.createDirectories(WIREMOCK_MAPPINGS_DIR);
-        MappingsSource resource = new JsonFileMappingsSource(new SingleRootFileSource(WIREMOCK_MAPPINGS_DIR));
-        FileSource fileSource = new SingleRootFileSource(WIREMOCK_FILES_DIR);
-
-        wiremock = new WireMockServer(
-                options()
-                        .port(9999)
-                        .fileSource(fileSource)
-                        .mappingSource(resource)
-
-        );
-
-        wiremock.addMockServiceRequestListener(
-                new TemplatedMappingsRecorder(WIREMOCK_ROOT_DIR, new IntercomUrlPatterns()));
-        wiremock.start();
-        wiremock.startRecording(new RecordSpecBuilder().forTarget(RECORDING_TARGET_URL));
-
-        Intercom.setApiBaseURI(URI.create("http://localhost:" + wiremock.port()));
-        Intercom.setAppID(INTERCOM_APP_ID);
-        Intercom.setToken(INTERCOM_TOKEN);
-    }
-
-    @After
-    @SneakyThrows
-    public void cleanup() {
-        wiremock.stopRecording();
-        wiremock.stop();
-    }
-
-    protected Stream<LoggedRequest> findAllRequests() {
-        return wiremock.findAll(RequestPatternBuilder.allRequests()).stream();
-    }
-}
-
-```
-
-The patterns to record need to be defined separately:
-```
-public class IntercomUrlPatterns extends UrlPatternRegistry {
-
-    private static final String UUID_REGEX = "[0-9a-f-]+";
-
-    public IntercomUrlPatterns() {
-        super(Arrays.asList(
-                "/users",
-                "/users/" + UUID_REGEX,
-                "/users\\?user_id=" + UUID_REGEX,
-                "/conversations\\?type=user&user_id=" + UUID_REGEX,
-                "/events"
-        ));
-    }
-}
-```
-
-For the request body matcher we are just keeping the JSON path elements without their values. The recorded WireMock mappings then look like this:
+For the request body we are just checking that all fields as present in the request.
+Our WireMock stubs will then look like this:
 
 ```
 {
@@ -160,6 +59,78 @@ For the request body matcher we are just keeping the JSON path elements without 
 }
 ```
 
+The WireMock proxy is included in the respective JUnit tests via a `@ClassRule`:
+
+```java
+public class WireMockStubGeneration extends ExternalResource {
+    ...
+    @Override
+    public void before() {
+        initializeWireMockServer();
+        wireMock.start();
+        wireMock.startRecording(new RecordSpecBuilder().forTarget(proxiedBaseUrl));
+    }
+
+    @Override
+    public void after() {
+        wireMock.stopRecording();
+        wireMock.stop();
+    }
+
+    private void initializeWireMockServer() {
+        ...
+        wireMock = new WireMockServer(
+                options()
+                        .port(wireMockPort)
+                        .fileSource(fileSource)
+                        .mappingSource(mappingSource)
+                        .extensions(new TemplatedRequestMappingsTransformer(urlPatternRegistry))
+        );
+    }
+}
+```
+
+The templating is achieved with a custom WireMock server extension:
+
+```
+public class TemplatedRequestMappingsTransformer extends StubMappingTransformer {
+    ...
+    @Override
+    public StubMapping transform(StubMapping stubMapping, FileSource files, Parameters parameters) {
+        RequestPattern templatedRequest = createTemplatedRequestPattern(stubMapping.getRequest());
+        ResponseDefinition originalResponse = stubMapping.getResponse();
+
+        return createStubMapping(templatedRequest, originalResponse);
+    }
+    ...
+    private RequestPattern createTemplatedRequestPattern(RequestPattern request) {
+        RequestPatternBuilder requestPatternBuilder = RequestPatternBuilder
+                .newRequestPattern(request.getMethod(), urlPatternRegistry.getUrlPattern(request.getUrl()));
+        addHeaders(requestPatternBuilder, request);
+        getJsonPathList(request).forEach(jsonPath ->
+            requestPatternBuilder.withRequestBody(matchingJsonPath(jsonPath))
+        );
+        return requestPatternBuilder.build();
+    }
+}
+```
+
+In order to exchange the exact request URL with a regular expression we are storing the supported URIs in a registry and then find the matching one via trial and error:
+```
+public class IntercomUrlPatterns extends UrlPatternRegistry {
+    ...
+    public IntercomUrlPatterns() {
+        super(Arrays.asList(
+                "/users",
+                "/users/" + UUID_REGEX,
+                "/users\\?user_id=" + UUID_REGEX,
+                "/conversations\\?type=user&user_id=" + UUID_REGEX,
+                "/events"
+        ));
+    }
+}
+```
+
 ## Part 2: Build and Push WireMock Docker Image
 
 Here we had multiple possibilities. We could either create a new Docker Hub repository for each service for which we would like to add WireMock in the future or we could have a single repo and just differentiate by tags.
@@ -170,33 +141,17 @@ The `WiremockConventionPlugin` is based on the [Gradle Docker Plugin](https://gi
 
 ```java
 
-class WiremockConventionPlugin implements Plugin<Project> {
+project.task(CREATE_SERVICE_DOCKERFILE_TASK) << {
+    description = 'Creates a new dockerfile for the generation of the layer with the wiremock stubs.'
+    group = DEFAULT_TASK_GROUP
 
-    private static final String STUB_DIRECTORY = 'build/wiremock-stubs'
+    new File(STUB_DIRECTORY).mkdirs()
 
-    ...
-
-    @Override
-    void apply(Project project) {
-
-        project.apply(plugin: DockerRemoteApiPlugin)
-
-        ...
-
-        project.task(CREATE_SERVICE_DOCKERFILE_TASK) << {
-            description = 'Creates a new dockerfile for the generation of the layer with the wiremock stubs.'
-            group = DEFAULT_TASK_GROUP
-
-            new File(STUB_DIRECTORY).mkdirs()
-
-            def dockerfile = new File("$STUB_DIRECTORY/Dockerfile")
-            dockerfile.createNewFile()
-            dockerfile.text = "FROM epages/ng-wiremock\nCOPY . /home/wiremock"
-        }
-
-        ...
-    }
+    def dockerfile = new File("$STUB_DIRECTORY/Dockerfile")
+    dockerfile.createNewFile()
+    dockerfile.text = "FROM epages/ng-wiremock\nCOPY . /home/wiremock"
 }
+
 ```
 
 ## Part 3: Deploy WireMock Docker Container
