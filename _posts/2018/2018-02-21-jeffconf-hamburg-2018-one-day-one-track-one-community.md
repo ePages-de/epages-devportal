@@ -37,6 +37,6 @@ Another speaker, Yan Cui, shared his successful experience of using the serverle
 It is not a secret, that the popularity of a technology is also influenced by the frameworks, and tools building an environment around it.
 For me, the most noticeable framework, which helps developers to be productive, and to manage a lifecycle of their serverless application is ...  [serverless](https://github.com/serverless/serverless){:target="_blank"}.
 
-I believe with the upcoming ePages [hackathon](blog/events/epages-hackathon-2017/), there will be a nice use case, where serverless architecture principles can be applied.
+I believe with the upcoming ePages [hackathon](/blog/events/epages-hackathon-2017/), there will be a nice use case, where serverless architecture principles can be applied.
 
 Looking forward to trying serverless!
