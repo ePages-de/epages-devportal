@@ -10,7 +10,7 @@ authors: ["Oleksandr"]
 ---
 
 Hamburg is not only a Free and Hanseatic City, the second-largest city of Germany, it is also a nice place where a lot of interesting events, and conferences take place.
-Such as the [JeffConf](https://hamburg.jeffconf.com/) I recently attended.
+Such as the [JeffConf](https://hamburg.jeffconf.com/){:target="_blank"} I recently attended.
 The conference was fully dedicated to "serverless" architecture.
 Yet another buzzword becoming more and more popular nowadays.
 
@@ -35,7 +35,7 @@ Another speaker, Yan Cui, shared his successful experience of using the serverle
 {% twitter https://twitter.com/goserverless/status/964538515915771904 %}
 
 It is not a secret, that the popularity of a technology is also influenced by the frameworks, and tools building an environment around it.
-For me, the most noticeable framework, which helps developers to be productive, and to manage a lifecycle of their serverless application is ...  [serverless](https://github.com/serverless/serverless).
+For me, the most noticeable framework, which helps developers to be productive, and to manage a lifecycle of their serverless application is ...  [serverless](https://github.com/serverless/serverless){:target="_blank"}.
 
 I believe with the upcoming ePages [hackathon](blog/events/epages-hackathon-2017/), there will be a nice use case, where serverless architecture principles can be applied.
 
