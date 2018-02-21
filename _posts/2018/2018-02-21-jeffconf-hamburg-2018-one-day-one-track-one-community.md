@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JeffConf Hamburg 2018 - One Day. One Track. One Community.
-date: 2018-02-22
+date: 2018-02-21
 header_image: public/milky-way.jpg
 header_position: bottom
 category: events
