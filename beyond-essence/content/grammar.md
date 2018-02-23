@@ -9,34 +9,33 @@ background_image: index.jpg
 
 #### For call-to-action words or phrases, use the infinitive.
 
-| <i class="fas fa-times fa-lg" style="color:Tomato"></i> | <i class="fas fa-check-square fa-lg" style="color:green"></i>  |
+| <i class="fas fa-check-square fa-lg" style="color:green"></i> | <i class="fas fa-times fa-lg" style="color:Tomato"></i>  |
 |---------------|---------------|
-|  Page element **should be inserted**. | **Insert** page element. |
-|  **You can register** now.  | **Register** now. |
+| **Insert** page element. | Page element **should be inserted**. |
+| **Register** now.  | **You can register** now. |
 
 #### Avoid modals.
 
-| <i class="fas fa-times fa-lg" style="color:Tomato"></i> | <i class="fas fa-check-square fa-lg" style="color:green"></i>  |
+| <i class="fas fa-check-square fa-lg" style="color:green"></i> | <i class="fas fa-times fa-lg" style="color:Tomato"></i>  |
 |---------------|---------------|
-| xxx | xxx |
-| xxx  | xxx |
+| This is supposed to work correctly. | This should work correctly. |
 
 #### Use the present tense.
 
-| <i class="fas fa-times fa-lg" style="color:Tomato"></i> | <i class="fas fa-check-square fa-lg" style="color:green"></i>  |
+| <i class="fas fa-check-square fa-lg" style="color:green"></i> | <i class="fas fa-times fa-lg" style="color:Tomato"></i>  |
 |---------------|---------------|
-| Changes **have been saved**. | Changes **saved**. |
-| On the Settings page you will find the Downloads section.  | Click Settings, and scroll down to the Downloads section. |
+| Changes **saved**. | Changes **have been saved**. |
+| Click Settings, and scroll down to the Downloads section. | On the Settings page you will find the Downloads section. |
 
 #### Use active voice in instructions.
 
-| <i class="fas fa-times fa-lg" style="color:Tomato"></i> | <i class="fas fa-check-square fa-lg" style="color:green"></i>  |
+| <i class="fas fa-check-square fa-lg" style="color:green"></i> | <i class="fas fa-times fa-lg" style="color:Tomato"></i>  |
 |---------------|---------------|
-| Your website can be optimized. | Optimize your website. |
-| The message was sent by Betty.  | Betty sent a message. |
+| Optimize your website. | Your website can be optimized. |
+| Betty sent a message.  | The message was sent by Betty. |
 
 #### Use singular or plural consistently.
 
-| <i class="fas fa-times fa-lg" style="color:Tomato"></i> | <i class="fas fa-check-square fa-lg" style="color:green"></i>  |
+| <i class="fas fa-check-square fa-lg" style="color:green"></i> | <i class="fas fa-times fa-lg" style="color:Tomato"></i>  |
 |---------------|---------------|
-| Upload an image. Assign the images to your product. | Upload an image. Assign the image to your product. |
+| Upload an image. Assign the image to your product. | Upload an image. Assign the images to your product. |

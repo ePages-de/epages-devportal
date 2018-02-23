@@ -23,7 +23,7 @@ Show them that you're familiar with their situation, by making the interface tex
 With `beyond-essence` we aim to introduce texts that are understandable by anyone, anywhere, regardless of their cultural background, or language.
 
 Clear, accurate, and concise text makes interfaces more usable, and build trust.
-We've composed some basic text standards that guides you through this.
+We've composed some basic text standards that guide you through this.
 
 * [Language and Tone](/beyond-essence/content/language-tone/)
 * [Spelling and Punctuation](/beyond-essence/content/spelling-punctuation/)
