@@ -98,7 +98,7 @@ public class WireMockStubGeneration extends ExternalResource {
 
 The templating is achieved with a custom WireMock server extension:
 
-```
+```java
 public class TemplatedRequestMappingsTransformer extends StubMappingTransformer {
     ...
     @Override
@@ -123,7 +123,7 @@ public class TemplatedRequestMappingsTransformer extends StubMappingTransformer 
 
 In order to exchange the exact request URL with a regular expression, we store the supported URIs in a registry, and then find the matching one via trial and error:
 
-```
+```java
 public class IntercomUrlPatterns extends UrlPatternRegistry {
     ...
     public IntercomUrlPatterns() {
