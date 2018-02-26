@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to mock out external services for API tests
-date: 2018-02-13
+date: 2018-03-06
 header_image: public/microservices-wiremock.jpg
 header_position: center
 header_overlay: true
