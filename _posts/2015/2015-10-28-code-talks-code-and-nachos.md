@@ -4,6 +4,7 @@ title: "code.talks: code & nachos"
 date: 2015-10-28
 header_image: public/nachos.jpg
 category: events
+tags: ["conference", "javascript", "nodejs", "ecmascript", "devops"]
 authors: ["Erik"]
 ---
 

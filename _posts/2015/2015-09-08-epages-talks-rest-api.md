@@ -4,6 +4,7 @@ title: "ePages talks REST API"
 date: 2015-09-08
 header_image: public/talk.jpg
 category: events
+tags: ["conference", "microservices", "testing"]
 authors: ["Birgit"]
 ---
 
