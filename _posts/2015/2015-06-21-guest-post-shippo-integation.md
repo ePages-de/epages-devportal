@@ -4,11 +4,12 @@ title: "Guest post: A Shippo developer gives an insight on the technical integra
 date: 2015-06-21
 header_image: public/puzzle.jpg
 category: tech-stories
+tags: ["ecommerce", "api", "third-party"]
 authors: ["Shippo"]
 ---
 
 Shippo is excited to support ePages merchants thanks to a new partnership.
-ePages helps businesses set up their online shop via channel partners and offers them tools like Shippo to simplify the e-commerce experience.
+ePages helps businesses set up their online shop via channel partners and offers them tools like Shippo to simplify the ecommerce experience.
 This collaboration benefits the ePages channel partners because they need not build carrier shipping integrations themselves, trusting in companies like Shippo to provide the technology, service, and expertise in complicated markets like shipping.
 
 By integrating Shippo with ePages stores, merchants will save time and money on their shipping.
@@ -18,7 +19,7 @@ Merchants track packages, send notification emails, print packing slips, and muc
 Here is insight into the technical aspect of this integration from one of our developers:
 
 With this ePages integration, the need to refactor our abstraction layer for shop integrations became necessary.
-We previously integrated with third-party e-commerce platforms using an interface that worked flawlessly.
+We previously integrated with third-party ecommerce platforms using an interface that worked flawlessly.
 However, the previous abstraction was susceptible to schema changes in the database, which, on occasion, meant a database migration.
 We decided to design a more flexible layer to streamline our integrations and, at the same time, create an interface that is also independent of any common schema or data migrations.
 

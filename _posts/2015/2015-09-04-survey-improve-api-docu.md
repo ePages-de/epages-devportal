@@ -4,6 +4,7 @@ title: "Help us improve our API documentation"
 date: 2015-09-04
 header_image: public/tools.jpg
 category: api-experience
+tags: ["api", "documentation", "survey"]
 authors: ["Birgit"]
 ---
 

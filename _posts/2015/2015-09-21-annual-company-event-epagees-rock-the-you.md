@@ -4,6 +4,7 @@ title: "Annual company event: ePagees rock the YOU"
 date: 2015-09-21
 header_image: private/you-2015.jpg
 category: events
+tags: ["team", "workshop", "company"]
 authors: ["Birgit"]
 ---
 

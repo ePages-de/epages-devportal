@@ -4,6 +4,7 @@ title: "The first ePages hackathon is over"
 date: 2015-04-01
 header_image: public/first-hackathon.jpg
 category: events
+tags: ["hackathon", "docker", "gradle"]
 authors: ["Anja", "Birgit"]
 ---
 
