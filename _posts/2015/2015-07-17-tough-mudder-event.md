@@ -5,6 +5,7 @@ date: 2015-07-17
 header_image: public/tough-mudder.jpg
 header_overlay: true
 category: events
+tags: ["team", "challenge"]
 authors: ["Ludger"]
 ---
 
