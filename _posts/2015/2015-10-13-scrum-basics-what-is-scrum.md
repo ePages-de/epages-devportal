@@ -4,6 +4,7 @@ title: "Scrum Basics: What is Scrum?"
 date: 2015-10-13
 header_image: public/agile.jpg
 category: methods-and-tools
+tags: ["scrum", "agile"]
 authors: ["Anja B."]
 ---
 

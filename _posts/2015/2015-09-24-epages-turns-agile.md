@@ -4,6 +4,7 @@ title: "ePages turns agile"
 date: 2015-09-24
 header_image: public/agile.jpg
 category: methods-and-tools
+tags: ["agile", "scrum", "ecommerce"]
 authors: ["Anja B."]
 ---
 

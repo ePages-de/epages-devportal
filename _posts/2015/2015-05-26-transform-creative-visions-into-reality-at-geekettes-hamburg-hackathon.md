@@ -5,6 +5,7 @@ date: 2015-05-28
 header_image: private/geekettes-2015.png
 header_overlay: true
 category: events
+tags: ["hackathon", "apps", "api"]
 authors: ["Andreas"]
 ---
 

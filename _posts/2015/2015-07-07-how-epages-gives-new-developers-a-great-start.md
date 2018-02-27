@@ -4,6 +4,7 @@ title: "How ePages gives new developers a great start"
 date: 2015-07-07
 header_image: public/great-start.jpg
 category: on-the-job
+tags: ["employee", "onboarding", "job"]
 authors: ["Birgit"]
 ---
 

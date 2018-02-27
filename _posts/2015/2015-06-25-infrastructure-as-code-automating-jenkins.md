@@ -5,6 +5,7 @@ date: 2015-06-25
 header_image: public/infrastructure.jpg
 header_overlay: true
 category: tech-stories
+tags: ["jenkins", "ci", "infrastructure", "ansible", "vagrant"]
 authors: ["Jens", "Dirk"]
 ---
 
