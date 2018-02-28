@@ -16,7 +16,7 @@ As this was my first meetup ever, I was already pretty excited how everything wi
 Let me share my impressions with you (to be honest: it's from a Technical Writing perspective but I will provide you with as much technical content and links as possible 😉).
 
 Birgit (our Technical Writer) and Mathias (our backend developer) started their talk with our Spring Rest Docs approach and demonstrated the advantages of the tool and the challenges towards our [current documentation status](http://docs.beyondshop.cloud/).
-The way towards this status has been showcased with a small dialogue between Mathias and Birgit, demonstrating the wishes of Technical Writers and the ideas our developer came up with.
+The way towards this status has been showcased with a small dialogue between Mathias and Birgit, demonstrating the wishes of Technical Writers and the ideas our developers came up with.
 I quickly sum up the most important aspects of this dialogue:
 
 ## Can we compile a complete documentation?
@@ -34,7 +34,7 @@ That's why the developers came up with a notification system via email to achiev
 ## Can we separate descriptions from the code?
 
 Descriptions are part of the editorial content in the documentation.
-But how to create awesome descriptions without touching the code and thus avoiding problems because Technical Writing unwittingly breaks something?
+But how to create awesome descriptions without touching the code and thus avoiding problems because Technical Writing unwittingly break something?
 Our solution: externalize the related texts from the tests by using centralized YAML files.
 
 ## Can we create realistic example responses?
@@ -47,9 +47,9 @@ That's why our developers came up with a test data catalog that is maintained by
 Having this kind of a static documentation is great, but we would like to come up with an interactive documentation in the nearer future.
 For this approach, RAML seems to be a great choice from developer perspective.
 The reasons for RAML and the possibilities it offers has been part two the presentation.
-If you are more interested in this part, just check the [presentation slides](https://mduesterhoeft.github.io/spring-restdocs-raml-talk) and get some more ideas of what is planned or check our blog post about [RESTful API documentation with Spring REST Docs and RAML](https://developer.epages.com/blog/api-experience/restful-api-documentation-with-spring-rest-docs-and-raml/).
+If you are more interested in this part, just check the [presentation slides](https://mduesterhoeft.github.io/spring-restdocs-raml-talk) and get some more ideas of what is planned, or check our blog post about [RESTful API documentation with Spring REST Docs and RAML](https://developer.epages.com/blog/api-experience/restful-api-documentation-with-spring-rest-docs-and-raml/).
 
-So next to all these interesting information, both, from technical and from technical writing perspective, what else came up to my mind?
+So next to all these interesting information, both, from developer and from technical writing perspective, what else came up to my mind?
 In my opinion, this meetup has been a great chance to present our approach, get some feedback and have a chat about it over some delicious snacks and drinks.
 I've noticed, that the attendees have been quite interested and that getting some feedback always helps to improve and realize different mindsets.
 That's why I've become a meetup fan 🙂!
