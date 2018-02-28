@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hamburgs's first WebAPI meetup 2018 - a recap from a meetup newbie
+title: Web API meetup - A recap from a newbie
 date: 2018-03-01
 header_image: public/web-api-meetup.jpeg
 header_position: center
@@ -9,47 +9,38 @@ category: events
 tags: ["meetup", "API", "RAML", "Spring"]
 authors: ["Christina"]
 ---
-
-On Tuesday, we had the pleasure to host the first [WebAPI meetup](https://www.meetup.com/de-DE/webapi-hamburg) in 2018.
+On Tuesday, ePages had the pleasure to host the first [WebAPI meetup](https://www.meetup.com/de-DE/webapi-hamburg) in Hamburg in 2018.
 Having recently made some good progress with our API, we took this chance and presented our way to to create an API using Spring REST Docs and RAML.
 As this was my first meetup ever, I was already pretty excited how everything will be.
 Let me share my impressions with you (to be honest: it's from a Technical Writing perspective but I will provide you with as much technical content and links as possible 😉).
 
-Birgit (our Technical Writer) and Mathias (our backend developer) started their talk with our Spring Rest Docs approach and demonstrated the advantages of the tool and the challenges towards our [current documentation status](http://docs.beyondshop.cloud/).
-The way towards this status has been showcased with a small dialogue between Mathias and Birgit, demonstrating the wishes of Technical Writers and the ideas our developers came up with.
-I quickly sum up the most important aspects of this dialogue:
+## The project
 
-## Can we compile a complete documentation?
+As our backend developer Mathias already explained in his previous [blog post](https://developer.epages.com/blog/api-experience/restful-api-documentation-with-spring-rest-docs-and-raml/), we started using Spring REST Docs for our documentation.
+As this tool is strongly connected to our tests, we could always be sure, that our documentation is up-to-date.
+This way, we didn't have to worry about undocumented new fields or features.
+What makes Spring REST Docs even more better: You can easily create an HTML-based documentation, such as our current [public API](http://docs.beyondshop.cloud/).
+Birgit (our Technical Writer) and Mathias started their talk with this Spring Rest Docs approach and demonstrated the advantages of it.
 
-Only a complete documentation is a good documentation.
-That's why the first requirement has been, that we automatically compile the whole documentation.
-This issue was solved by a repository that composes all public documentation from the relevant microservices.
+## The journey is the reward
+The way towards this status has been showcased with a short dialog between Mathias and Birgit, demonstrating the wishes of Technical Writers and the ideas our developers came up with.
+They "discussed" about how to separate editorial content from the code, and how to implement a notification system to keep the Technical Writer (and thus the documentation) always up-to-date.
+That means no busy Technical Writer who always tries to keep up with the changes.
+Hooray!
+Last but not least they tackled the "realistic example response" issue.
+As our Technical Writer didn't want to include some Luke Skywalkers next to Obi-Wan Kenobis as customers in the example responses, we needed to come up with a way to create consistent and realistic test data. The solution: A test data catalog.
 
-## Can I be automatically informed about changes?
+## Future plans
 
-As already stated above, we want our API documentation to be always up-to-date.
-Without a busy Technical Writer that always tries to keep up with the changes.
-That's why the developers came up with a notification system via email to achieve this automatic information system.
+Currently, having this kind of a static documentation live is great, but we would like to come up with an interactive documentation in the nearer future.
+For this approach, [RAML](https://raml.org/) seems to be a great choice from developer perspective.
+The main reason for choosing RAML is, that we can keep the benefits of Spring REST docs by building [restdocs-raml](https://github.com/ePages-de/restdocs-raml).
+So, in combination with some other open source projects, RAML offers great possibilities to build an interactive documentation.
+If you are more interested in this part, check the [presentation slides](https://mduesterhoeft.github.io/spring-restdocs-raml-talk) or the [sample project](https://github.com/mduesterhoeft/spring-restdocs-raml-talk) and get some more ideas of what is planned.
 
-## Can we separate descriptions from the code?
+## My overall impression
 
-Descriptions are part of the editorial content in the documentation.
-But how to create awesome descriptions without touching the code and thus avoiding problems because Technical Writing unwittingly break something?
-Our solution: externalize the related texts from the tests by using centralized YAML files.
-
-## Can we create realistic example responses?
-
-As our Technical Writer didn't want to include some Luke Skywalkers next to Obi-Wan Kenobis as customers in the example responses, we needed to come up with a way to create consistent and realistic test data.
-That's why our developers came up with a test data catalog that is maintained by our Tech Writing team.
-
-## Can we make our documentation more interactive?
-
-Having this kind of a static documentation is great, but we would like to come up with an interactive documentation in the nearer future.
-For this approach, RAML seems to be a great choice from developer perspective.
-The reasons for RAML and the possibilities it offers has been part two the presentation.
-If you are more interested in this part, just check the [presentation slides](https://mduesterhoeft.github.io/spring-restdocs-raml-talk) and get some more ideas of what is planned, or check our blog post about [RESTful API documentation with Spring REST Docs and RAML](https://developer.epages.com/blog/api-experience/restful-api-documentation-with-spring-rest-docs-and-raml/).
-
-So next to all these interesting information, both, from developer and from technical writing perspective, what else came up to my mind?
-In my opinion, this meetup has been a great chance to present our approach, get some feedback and have a chat about it over some delicious snacks and drinks.
-I've noticed, that the attendees have been quite interested and that getting some feedback always helps to improve and realize different mindsets.
-That's why I've become a meetup fan 🙂!
+Next to all these interesting information, both, from developer and from technical writing perspective, what else came up to my mind when joining this meetup?
+In my opinion, the meetup has been a great chance to present our approach, get some feedback and have a chat about it over some delicious snacks and drinks.
+I've noticed, that the attendees that made it through the current wave of flu and the snowy weather have been quite interested and that getting some feedback always helps to improve and realize different mindsets.
+So, I've definitely become a meetup fan and look forward to my next one 🙂!
