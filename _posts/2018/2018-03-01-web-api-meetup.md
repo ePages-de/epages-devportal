@@ -9,17 +9,17 @@ category: events
 tags: ["meetup", "api", "raml", "spring"]
 authors: ["Christina"]
 ---
-On Tuesday, ePages had the pleasure to host the first [WebAPI meetup](https://www.meetup.com/de-DE/webapi-hamburg) in Hamburg in 2018.
+On Tuesday, ePages had the pleasure to host the first [WebAPI meetup](https://www.meetup.com/de-DE/webapi-hamburg){:target="_blank"} in Hamburg in 2018.
 Having recently made some good progress with our API, we took this chance and presented our way to to create an API using Spring REST Docs and RAML.
 As this was my first meetup ever, I was already pretty excited how everything will be.
 Let me share my impressions with you (to be honest: it's from a Technical Writing perspective but I will provide you with as much technical content and links as possible 😉).
 
 ## The project
 
-As our backend developer Mathias already explained in his previous [blog post](https://developer.epages.com/blog/api-experience/restful-api-documentation-with-spring-rest-docs-and-raml/), we started using Spring REST Docs for our documentation.
+As our backend developer Mathias already explained in his previous [blog post](/blog/api-experience/restful-api-documentation-with-spring-rest-docs-and-raml/), we started using Spring REST Docs for our documentation.
 As this tool is strongly connected to our tests, we could always be sure, that our documentation is up-to-date.
 This way, we didn't have to worry about undocumented new fields or features.
-What makes Spring REST Docs even more better: You can easily create an HTML-based documentation, such as our current [public API](http://docs.beyondshop.cloud/).
+What makes Spring REST Docs even more better: You can easily create an HTML-based documentation, such as our current [public API](http://docs.beyondshop.cloud/){:target="_blank"}.
 Birgit (our Technical Writer) and Mathias started their talk with this Spring Rest Docs approach and demonstrated the advantages of it.
 
 ## The journey is the reward
@@ -33,10 +33,10 @@ As our Technical Writer didn't want to include some Luke Skywalkers next to Obi-
 ## Future plans
 
 Currently, having this kind of a static documentation live is great, but we would like to come up with an interactive documentation in the nearer future.
-For this approach, [RAML](https://raml.org/) seems to be a great choice from developer perspective.
-The main reason for choosing RAML is, that we can keep the benefits of Spring REST docs by building [restdocs-raml](https://github.com/ePages-de/restdocs-raml).
+For this approach, [RAML](https://raml.org/){:target="_blank"} seems to be a great choice from developer perspective.
+The main reason for choosing RAML is, that we can keep the benefits of Spring REST docs by building [restdocs-raml](https://github.com/ePages-de/restdocs-raml){:target="_blank"}.
 So, in combination with some other open source projects, RAML offers great possibilities to build an interactive documentation.
-If you are more interested in this part, check the [presentation slides](https://mduesterhoeft.github.io/spring-restdocs-raml-talk) or the [sample project](https://github.com/mduesterhoeft/spring-restdocs-raml-talk) and get some more ideas of what is planned.
+If you are more interested in this part, check the [presentation slides](https://mduesterhoeft.github.io/spring-restdocs-raml-talk){:target="_blank"} or the [sample project](https://github.com/mduesterhoeft/spring-restdocs-raml-talk){:target="_blank"} and get some more ideas of what is planned.
 
 ## My overall impression
 
