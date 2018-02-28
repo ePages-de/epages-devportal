@@ -6,7 +6,7 @@ header_image: public/web-api-meetup.jpeg
 header_position: center
 header_overlay: true
 category: events
-tags: ["meetup", "api", "raml, "spring"]
+tags: ["meetup", "api", "raml", "spring"]
 authors: ["Christina"]
 ---
 On Tuesday, ePages had the pleasure to host the first [WebAPI meetup](https://www.meetup.com/de-DE/webapi-hamburg) in Hamburg in 2018.
