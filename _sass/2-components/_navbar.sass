@@ -8,6 +8,9 @@
   z-index: 9999
   transition: $base-transition
 
+  +grid-media($grid-medium)
+    height: auto
+
   &-wrapper
     width: 90%
     max-width: 1080px
@@ -20,7 +23,7 @@
     display: block
 
     &--devportal
-      height: 3rem
+      width: 23rem
 
   .navigation
     $navigation-width: 75%
@@ -50,11 +53,13 @@
         flex-direction: row
 
     &__item
+      position: relative
       border-bottom: $navbar-border
-      display: inherit
+      display: flex
+      flex-direction: column
+      // display: inherit
 
       +grid-media($grid-medium)
-        padding: 1em 0
         border-bottom: none
 
         &:not(:last-child)
@@ -63,16 +68,24 @@
         &--hidden
           display: none
 
+      &:hover .dropdown
+        display: block
+
     &__link
       color: $base-font-color-white
       display: block
       width: 100%
       padding: 1em
+      box-sizing: border-box
 
       +grid-media($grid-medium)
-        padding: 0
+        padding: 1em 0
 
-      &:hover,
+      &--disabled
+        pointer-events: none
+        cursor: default
+
+      &:hover:not(.navigation__link--disabled),
       &:focus,
       &--active
         text-decoration: none
@@ -107,3 +120,40 @@
 
   &--dark
     background: $navbar-background-color
+
+.dropdown
+
+  +grid-media($grid-medium)
+    +border-bottom-radius(4px)
+    background-color: $beyond-green
+    display: none
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    top: 100%
+    padding: 5px 0
+
+    &::before
+      +triangle('up', 2rem, 1rem, $beyond-green)
+      +position(absolute, -1rem 50% null null)
+      transform: translateX(50%)
+      content: ''
+
+    &--border
+      +border-top-radius(4px)
+
+  &__link
+    width: 100%
+    white-space: nowrap
+    color: $white
+    padding: 1em 1em 1em 2em
+    box-sizing: border-box
+    border-top: $navbar-border
+
+    +grid-media($grid-medium)
+      border-top: 0
+      padding: .6rem 1.8rem
+
+    &:hover
+      background-color: darken($beyond-green, 10%)
+      color: $white

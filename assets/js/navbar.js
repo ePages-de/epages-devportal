@@ -11,8 +11,10 @@ $(document).ready(function() {
 
     if ($(window).scrollTop() < vh) {
       $('body > .navbar').removeClass('navbar--dark').addClass('navbar--transparent');
+      $('.dropdown').addClass('dropdown--border');
     } else {
       $('body > .navbar').removeClass('navbar--transparent').addClass('navbar--dark');
+      $('.dropdown').removeClass('dropdown--border');
     }
   }
 
