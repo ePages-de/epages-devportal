@@ -57,7 +57,6 @@
       border-bottom: $navbar-border
       display: flex
       flex-direction: column
-      // display: inherit
 
       +grid-media($grid-medium)
         border-bottom: none
@@ -68,22 +67,30 @@
         &--hidden
           display: none
 
-      &:hover .dropdown
+        &:hover .dropdown
+          display: block
+
+      svg
         display: block
+
+        +grid-media($grid-medium)
+          display: none
 
     &__link
       color: $base-font-color-white
-      display: block
       width: 100%
       padding: 1em
       box-sizing: border-box
+      display: flex
+      justify-content: space-between
+      align-items: center
 
       +grid-media($grid-medium)
         padding: 1em 0
 
-      &--disabled
-        pointer-events: none
-        cursor: default
+        &--disabled
+          pointer-events: none
+          cursor: default
 
       &:hover:not(.navigation__link--disabled),
       &:focus,
@@ -122,11 +129,12 @@
     background: $navbar-background-color
 
 .dropdown
+  background-color: lighten($beyond-blue, 3%)
+  display: none
 
   +grid-media($grid-medium)
     +border-bottom-radius(4px)
     background-color: $beyond-green
-    display: none
     position: absolute
     left: 50%
     transform: translateX(-50%)
@@ -146,7 +154,7 @@
     width: 100%
     white-space: nowrap
     color: $white
-    padding: 1em 1em 1em 2em
+    padding: 1em
     box-sizing: border-box
     border-top: $navbar-border
 
