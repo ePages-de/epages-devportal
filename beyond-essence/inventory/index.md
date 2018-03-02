@@ -11,3 +11,4 @@ Navigate through our UI inventory:
 * [Empty states](/beyond-essence/inventory/empty-states/)
 * [Form validation](/beyond-essence/inventory/form-validation/)
 * [Notifications](/beyond-essence/inventory/notifications/)
+* [Toast messages](/beyond-essence/inventory/toast-messages/)
