@@ -22,8 +22,8 @@ Example 1
 {% image_custom image="/assets/img/pages/essence/checkbox_02.png" align="center" width="40" %}
 
 Example 2
-{% image_custom image="/assets/img/pages/essence/checkbox_03.png" align="center" width="60" %}
-{% image_custom image="/assets/img/pages/essence/checkbox_04.png" align="center" width="60" %}
+{% image_custom image="/assets/img/pages/essence/checkbox_03.png" align="center" width="50" %}
+{% image_custom image="/assets/img/pages/essence/checkbox_04.png" align="center" width="50" %}
 
 
 ## Wording
