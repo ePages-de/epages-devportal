@@ -124,6 +124,43 @@ body.default
 
 
 
+  .more
+
+    .section__body
+      margin-bottom: 2rem
+
+    .column-wrapper
+      margin-top: 6rem
+
+      .column
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2 - 4rem)
+
+        &-1
+          align-items: center
+          display: flex
+          justify-content: center
+
+          svg
+            font-size: 12rem
+
+        &-2
+          text-align: left
+
+          .section__list
+            text-align: left
+            margin-bottom: 2rem
+
+            li
+              display: flex
+              margin-bottom: .1em
+
+          svg
+            margin: .2em .4em 0 0
+
+
+
 
   .news
     margin-left: -2rem
