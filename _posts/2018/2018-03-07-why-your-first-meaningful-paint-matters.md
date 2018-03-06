@@ -2,8 +2,9 @@
 layout: post
 title: Why your first meaningful paint matters
 date: 2018-03-07
-header_image: public/
-header_position: center
+header_image: public/meaningful-paint-matters.jpg
+header_position: top
+header_overlay: true
 category: events
 tags: ["conference", "design", "performance"]
 authors: ["Katja"]
@@ -12,7 +13,7 @@ authors: ["Katja"]
 Have you ever heard of a meaningful paint?
 Maybe?
 No?
-Me neither.
+Me neither ¯\\_(ツ)_/¯.
 Is it an image with worthwhile content you have created your first time with a graphic tool?
 Something that you can see on big house walls like the street art paints in Brussels so that everybody needs to look at it and think about the meaningful content?
 Or maybe your first sketch, or an animated essential SVG?
@@ -24,16 +25,16 @@ So the definition of the page's primary content depends on what shall be shown o
 Let me give you an example:
 A customer wants to buy a new treat for his dog.
 He is visiting the product page of a fitting online shop.
-In this case, the primary content elements are the product image, the headline, the product description, as well as the buy button.
+In this case, the primary content elements are the product image, the headline, the price, the product description, as well as the buy button.
 
 ## So, why does this matter?
 
-As I have learned from my visit of the [Smashing Conference](https://smashingconf.com/london-2018/) in London, performance should not be a side project.
+As I have learned from my visit of the [Smashing Conference](https://smashingconf.com/london-2018/){:target="_blank"} in London, performance should not be a side project.
 It should be part of your daily work and should be reflected on your roadmap.
 Why?
 Just imagine how potential customers are sitting in the tube - with bad internet connection - and your homepage is not visible because your web font is not loading.
 Bad user experience, isn’t it?
-That's why you should regularly measure the performance of your website with helpful tools like [webpagetest](https://www.webpagetest.org/) and under real conditions.
+That's why you should regularly measure the performance of your website with helpful tools like [webpagetest](https://www.webpagetest.org/){:target="_blank"} and under real conditions.
 Doing this, you should ask yourself: Who is the average user and which device is he using?
 A shiny iPhone generation or a 7-year old Android phone with terrible CPU and hardly any memory?
 
@@ -45,57 +46,58 @@ Therefore, I listened carefully to every single of the 18 talks of the conferenc
 But as a college of mine always says: Long story short.
 That's why I have summarized the most interesting techniques and helpful tools to measure and improve performance.
 
-## Image optimization techniques
+## [Image optimization techniques](https://vimeo.com/254736788){:target="_blank"}
 
 Depending on the website your are working with, some of these techniques can be helpful to optimize your images:
 
-* Use MozJPEG (as a library in graphics programs), and image processing tools, or OPTIPNG to improve filtering and remove redundancy. Tip: Both tools are wrapped together in img-loader.
+* Use [MozJPEG](https://github.com/ePages-de/epages-devportal/pull/238/files) or OPTIPNG to improve filtering and remove redundancy. Tip: Both tools are wrapped together in img-loader.
 * Blur up partials or whole images to reduce image size.
 * Also helpful: Greyscale images with filter, mix-blend-mode or duo tone coloring.
 * Use the contrast swap effect by reducing the contrast of an image and apply them again with CSS.
 * Send different image sizes based on the client's device (<picture> + srcset or srcset + sizes, media queries + different image sizes).
 * Keep in mind: Videos (without audio) plus blend mode can be smaller than gifs.
 
-If you want to have a closer look at image examples with filters and css blend modes have a look at this [CSSgram page](una.im/CSSgram).
+If you want to have a closer look at image examples with filters and css blend modes, have a look at this [CSSgram page](una.im/CSSgram){:target="_blank"}.
 
-## Performance monitoring with DevTools
+## [Performance monitoring with DevTools](https://vimeo.com/254733177){:target="_blank"}
 
 _„DevTools can help you quantify the performance webpage“ - Umar Hansa_
 
 Until now, I used DevTools mainly to inspect elements and to manipulate css styles.
-Sometimes, I also checked errors in the Console tab (together with my JavaScript developer colleagues) and partially used the Network Panel to check the image size and what’s actually loaded.
+Sometimes, I also checked errors in the _Console_ tab (together with my JavaScript developer colleagues) and partially used the _Network_ panel to check the image size and what’s actually loaded.
 But there is more for Chrome DevTools — have a look:
 
-* Compare screenshots side by side. Especially the first meaningful paint can be compared this way by only ticking a checkmark at the Network panel.
-* Awesome tool in the Source panel: Local overrides of HTML, CSS, JS persist after reloading the page.
-* Use  the Performance Panel to quantify the damage of third-party scripts.
-* Work with the Command Menu to quickly enable or disable functionalities in the DevTool (for Mac:Cmd+Shift+P, for Windows and Linux: Ctrl+Shift+P).
-* Use product badges as a nice indicator for third party products in performance and network panel. Just run the "Show third party badges" command in the Command Menu.
-* Click on the Format icon {} in the Source panel workspace for pretty printing of minified CSS.
+* Compare screenshots side by side. Especially the first meaningful paint can be compared this way by only ticking a checkmark at the _Network_ panel.
+* Awesome tool in the _Source_ panel: Local overrides of HTML, CSS, JS persist after reloading the page.
+* Use  the _Performance_ panel to quantify the damage of third-party scripts.
+* Work with the _Command_ menu to quickly enable or disable functionalities in the DevTool (for Mac:Cmd+Shift+P, for Windows and Linux: Ctrl+Shift+P).
+* Use product badges as a nice indicator for third party products in the _Performance_ and _Network_ panel. Just run the ``Show third party badge`` command in the _Command_ menu.
+* Click on the Format icon {} in the _Source_ panel workspace for pretty printing of minified CSS.
 
-## Web font improvements
+## [Web font improvements](https://vimeo.com/254727749){:target="_blank"}
 
 _„Web fonts are progressive enhancement“ - Zach Leatherman_
 
 You are wondering why your web font is not loading or your italic style is not visible?
 The answer is easy: The way how web browsers load web fonts differs.
-Some of them use FOIT (Flash of invisible text), some use FOUC (Flash of unstyled content), and others use FOUT (Flash of unstyled text).
+Some of them use FOIT (Flash of invisible text), and others use FOUT (Flash of unstyled text).
 This leads to different loading behaviors.
 But don't worry, there are also some techniques to improve these behaviors.
 
-* Use SVG instead of fonts with icons to reduce loading time and to avoid FOIT
-* Improve your performance by preloading or a font loading api
-* Combine multiple font files into one when using variable fonts
+* Use SVGs instead of icon fonts to reduce loading time and to avoid FOIT.
+* Improve your performance by using ``rel="preload"`` in the link tag to fetch your font in a faster way.
+* Use a CSS font loading API to get a better overview of already loaded fonts.
+* Combine multiple font files into one when using variable fonts.
 * Use the font-display property. It doesn’t change the loading time but changes how the pages are rendered while the font is loading.
+* Fake a web font by using font-synthesis. Instead of using different web fonts for bold or italic, you can use a roman font type with font-weight bold or font-style italic.
 
-If you want to dive deeper than my key points, check the related links or have a look at the [conference videos](https://smashingconf.com/london-2018/).
+If you want to dive deeper than my key points, check the related links or have a look at the [conference videos](https://smashingconf.com/london-2018/){:target="_blank"}.
 
 ## Don't panic
 
 For me the conference was an information explosion and I often asked myself: How shall I make this happen?
 You don't need to do this on your own!
 It's definitely a team challenge and there are many potential ways to tackle this topic.
-
-I can't wait to check which technique is best for us.
-But the aim is clear: Optimize the performance of our software and create an even better user experience for our users.
+But nevertheless, I can't wait to check which technique is best for us.
+The aim is clear: Optimize the performance of our software and create an even better user experience for our users.
 And of course, I will start with the definition of our first meaningful paint 😉.
