@@ -50,7 +50,7 @@ That's why I have summarized the most interesting techniques and helpful tools t
 
 Depending on the website your are working with, some of these techniques can be helpful to optimize your images:
 
-* Use [MozJPEG](https://github.com/ePages-de/epages-devportal/pull/238/files) or OPTIPNG to improve filtering and remove redundancy. Tip: Both tools are wrapped together in img-loader.
+* Use [MozJPEG](https://github.com/ePages-de/epages-devportal/pull/238/files){:target="_blank"} or OPTIPNG to improve filtering and remove redundancy. Tip: Both tools are wrapped together in img-loader.
 * Blur up partials or whole images to reduce image size.
 * Also helpful: Greyscale images with filter, mix-blend-mode or duo tone coloring.
 * Use the contrast swap effect by reducing the contrast of an image and apply them again with CSS.
