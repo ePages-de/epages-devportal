@@ -42,18 +42,8 @@ I’m a designer for frontend pages and backend software.
 I like to create colorful illustrations and therefore always browse on websites for content that has good chances to slow down the website loading.
 So I have first-hand experiences with bad performances.
 Therefore, I listened carefully to every single of the 18 talks of the conference to get the most output of it and create better performance experiences for our users.
-
-For me it was an information explosion and I often asked myself: How shall I make this happen?
-Alone?
-Never.
-With a team?
-Yes.
-Together with the PO and CTO on board?
-Of course, yes!
-So it's definitely a team challenge and there are many potential ways to tackle this topic.
 But as a college of mine always says: Long story short.
 That's why I have summarized the most interesting techniques and helpful tools to measure and improve performance.
-If want to dive deeper than my key points, check the related links or have a look at the [conference videos](https://smashingconf.com/london-2018/).
 
 ## Image optimization techniques
 
@@ -98,6 +88,14 @@ But don't worry, there are also some techniques to improve these behaviors.
 * Combine multiple font files into one when using variable fonts
 * Use the font-display property. It doesn’t change the loading time but changes how the pages are rendered while the font is loading.
 
-After getting to know all these techniques and tools, I can't wait to check which one is best for us.
+If you want to dive deeper than my key points, check the related links or have a look at the [conference videos](https://smashingconf.com/london-2018/).
+
+## Don't panic
+
+For me the conference was an information explosion and I often asked myself: How shall I make this happen?
+You don't need to do this on your own!
+It's definitely a team challenge and there are many potential ways to tackle this topic.
+
+I can't wait to check which technique is best for us.
 But the aim is clear: Optimize the performance of our software and create an even better user experience for our users.
 And of course, I will start with the definition of our first meaningful paint 😉.
