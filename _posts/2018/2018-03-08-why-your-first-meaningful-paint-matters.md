@@ -2,10 +2,9 @@
 layout: post
 title: Why your first meaningful paint matters
 date: 2018-03-08
-header_image: public/meaningful-paint-matters.jpg
-header_position: top
-header_overlay: true
-category: events
+header_image: public/meaningful-paint-matters.jpeg
+header_position: center
+category: methods-and-tools
 tags: ["conference", "design", "performance"]
 authors: ["Katja"]
 ---
@@ -22,14 +21,16 @@ Let me enlighten you.
 A first meaningful paint is related to the user-perceived loading experience and the whole page performance.
 It is the moment, the user notices that every important content (the so-called primary content) on the screen is loaded.
 So the definition of the page's primary content depends on what's to be shown on the screen first.
+
+{% image_custom image="/assets/img/pages/blog/images/blog-meaningful-paint.jpg" width="50" caption="A_meaningful_paint" lightbox%}
+
 Let me give you an example:
 A customer wants to buy a new treat for his dog.
 They visit the product page of a fitting online shop.
 In this case, the primary content elements are the product image, the headline, the price, the product description, as well as the buy button.
 
-##
+## Performance is king
 
-So, why does a meaningful paint matters?
 As I have learned from my visit at the [Smashing Conference](https://smashingconf.com/london-2018/){:target="_blank"} in London, performance should not be a side project.
 It should be part of your daily work and reflected on your roadmap.
 Why?
@@ -83,7 +84,7 @@ You are wondering why your web font is not loading or your italic style is not v
 The answer is easy: The way how web browsers load web fonts differs.
 Some of them use FOIT (Flash of invisible text), and others use FOUT (Flash of unstyled text).
 This leads to different loading behaviors.
-But don't worry, there are also some techniques to improve these behaviors.
+But don't worry, there are also some techniques to improve these behaviors:
 
 * Use SVGs instead of icon fonts to reduce loading time and to avoid FOIT.
 * Improve your performance by using ``rel="preload"`` in the link tag to fetch your font in a faster way.
