@@ -276,28 +276,15 @@ end
 task :test_html do
   require 'html-proofer'
 
-  file_ignore = [/.*\/ProximaNova-Bold.html/,
-                 /.*\/ProximaNova-BoldIt.html/,
-                 /.*\/ProximaNova-Regular.html/,
-                 /.*\/ProximaNova-RegularIt.html/,
-                 /.*\/ProximaNovaAlt-Bold.html/,
-                 /.*\/ProximaNovaAlt-BoldIt.html/,
-                 /.*\/ProximaNovaAlt-Regular.html/,
-                 /.*\/ProximaNovaAlt-RegularIt.html/,
-                 /.*\/ProximaNovaScOsf-Bold.html/,
-                 /.*\/ProximaNovaScOsf-BoldIt.html/,
-                 /.*\/ProximaNovaScOsf-Regular.html/,
-                 /.*\/ProximaNovaScOsf-RegularIt.html/]
-
   url_ignore = [/.*apps.*/,
                 /.*signup/,
                 /.*terms-and-conditions.*/]
 
   options = { disable_external: true,
-              file_ignore: file_ignore,
               url_ignore: url_ignore,
               empty_alt_ignore: true,
-              check_html: true }
+              check_html: true,
+              allow_hash_href: true }
 
   sh 'bundle exec jekyll build'
 
