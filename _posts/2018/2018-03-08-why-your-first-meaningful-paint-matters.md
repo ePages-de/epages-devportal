@@ -11,7 +11,7 @@ authors: ["Katja"]
 
 Have you ever heard of a meaningful paint?
 No?
-Me neither ¯\\_(ツ)_/¯.
+Me neither ¯\\\_(ツ)\_/¯.
 It's neither an image with worthwhile content you have created for the first time with a graphic tool.
 Nor is it something that you can see on big house walls like the street art paints in Brussels so that everybody needs to look at it and think about the meaningful content.
 So, is it your first sketch, or an animated essential SVG?
@@ -27,7 +27,7 @@ So the definition of the page's primary content depends on what's to be shown on
 Let me give you an example:
 A customer wants to buy a new treat for his dog.
 They visit the product page of a fitting online shop.
-In this case, the primary content elements are the product image, the headline, the price, the product description, as well as the buy button.
+In this case, the primary content elements are the product image, the headline, the price, as well as the buy button.
 
 ## Performance is king
 
@@ -72,8 +72,8 @@ But there is more for Chrome DevTools — have a look:
 * Compare screenshots side by side. Especially the first meaningful paint can be compared this way by only ticking a checkbox at the _Network_ panel.
 * Awesome tool in the _Source_ panel: Local overrides of HTML, CSS, JS persist after reloading the page.
 * Use  the _Performance_ panel to quantify the damage of third-party scripts.
-* Work with the _Command_ menu to quickly enable or disable functionalities in the DevTool (for Mac: Cmd+Shift+P, for Windows and Linux: Ctrl+Shift+P).
-* Use product badges as a nice indicator for third party products in the _Performance_ and _Network_ panel. Just run the ``Show third party badge`` command in the _Command_ menu.
+* Work with the _Command Menu_ to quickly enable or disable functionalities in the DevTool (for Mac: Cmd+Shift+P, for Windows and Linux: Ctrl+Shift+P).
+* Use product badges as a nice indicator for third party products in the _Performance_ and _Network_ panel. Just run the ``Show third party badge`` command in the _Command Menu_.
 * Click on the Format icon {} in the _Source_ panel workspace for pretty printing of minified CSS.
 
 ## [Web font improvements](https://vimeo.com/254727749){:target="_blank"}
@@ -89,7 +89,7 @@ But don't worry, there are also some techniques to improve these behaviors:
 * Use SVGs instead of icon fonts to reduce loading time and to avoid FOIT.
 * Improve your performance by using ``rel="preload"`` in the link tag to fetch your font in a faster way.
 * Use a CSS font loading API to get a better overview of already loaded fonts.
-* Combine multiple font files into one when using variable fonts.
+* Combine multiple font files into one when using _variable fonts_.
 * Use the font-display property. It doesn’t change the loading time, but changes how the pages are rendered while the font is loading.
 * Fake a web font by using font-synthesis. Instead of using different web fonts for bold or italic, you can use a roman font type with font-weight bold or font-style italic.
 
