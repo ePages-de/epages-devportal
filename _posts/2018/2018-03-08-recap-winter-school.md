@@ -55,7 +55,7 @@ Although the first hype about design thinking seems to be almost cooled down, it
 This workshop impressively demonstrated how a vague idea can turn into a cool and innovative product vision, by simply using the right mix of methods.
 In our case, this mix consisted of an experience interview, the development of a persona, sketching a customer journey map, brainstorming and formulating a design challenge.
 A "movie match" - the Tinder of tomorrow's TV culture.
-Why not?
+Why not?!
 
 
 ## With 6-3-5 on your way to the breakthrough
