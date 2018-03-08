@@ -15,7 +15,7 @@ authors: ["Lena"]
 Once a year, twelve young UX professionals from all across Germany gather in the idyllic Taubertal, more precisely in the monastery Bronnbach, to exchange views and experiences, to make new contacts and to enlarge their expert knowledge.
 Who is responsible for this gathering?
 
-Initiator is the [German UPA](https://www.germanupa.de/), the association for professionals working in the domain of usability and user experience.
+Initiator is the [German UPA](https://www.germanupa.de/){:target="_blank"}, the association for professionals working in the domain of usability and user experience.
 Behind this stands a growing network of UX experts, who support employees in regard to their daily user-centered work, who engage in specific UX-related topics, such as user research or quality standard, and who represent the whole bunch of UX topics to the general public.
 Some of their 15.000 members are especially engaged in junior development and tadaa: One day, the idea of the so called Winter School was born.
 This year, I was one of the happy 12 chosen participants - Hooray!
@@ -26,14 +26,14 @@ The conditions for our two intensive days of workshops were simply fantastic.
 The housing next to the monastery was really beautiful, the staff was very cordial and courteous and not to forget: the vinothek!
 Especially for "UX evangelists", the monastery is of course the place to be for training sessions 😇.
 
-A special thanks goes to Ludwig Fichte, Senior User Researcher at [SAP SE](https://www.sap.de).
+A special thanks goes to Ludwig Fichte, Senior User Researcher at [SAP SE](https://www.sap.de){:target="_blank"}.
 He headed us competently through the days and moderated in between the workshops.
 
 {% image_lightbox image="/assets/img/pages/blog/images/winter-school-monastery.jpg" align="center" %}
 
 ## It's all about the right mix of methods
 
-Maria Händler, UX Consultant at [m-pathy GmbH](https://www.m-pathy.com/de/), made the glorious start.
+Maria Händler, UX Consultant at [m-pathy GmbH](https://www.m-pathy.com/de/){:target="_blank"}, made the glorious start.
 She introduced us to the topic of **Live User Tracking**.
 Although many people might assume, this is not about simply reading out click counts ☝️.
 The secret lies in the right mix of quantitative and qualitative methods!
@@ -48,7 +48,7 @@ As our devs at ePages are currently working on implementing user tracking in our
 {% image_lightbox image="/assets/img/pages/blog/images/winter-school-notes.jpg" align="center" %}
 
 
-Kilian Jäger, Senior Usability Engineer at [1&1 Telekom GmbH](https://1und1.de/), continued with a workshop about **Service Design Thinking**.
+Kilian Jäger, Senior Usability Engineer at [1&1 Telekom GmbH](https://1und1.de/){:target="_blank"}, continued with a workshop about **Service Design Thinking**.
 Although the first hype about design thinking seems to be almost cooled down, it is still highly topical and immensely useful - Not only in the daily work as a UX Manager.
 This workshop impressively demonstrated how a vague idea can turn into a cool and innovative product vision, by simply using the right mix of methods.
 In our case, this mix consisted of an _experience interview_, the development of a _persona_, sketching a _customer journey map_, _brainstorming_ and formulating a _design challenge_.
@@ -58,7 +58,7 @@ Why not?
 
 ## With 6-3-5 on your way to the breakthrough
 
-After a practical workshop headed by Frederik Bader, Usability Engineer at [Verivox GmbH](https://www.verivox.de/), about little tips and tricks using the prototyping tool Axure, Christian Grieger und Sven Fackert (UX Manager and UX Researcher at [Ergosign GmbH](https://www.ergosign.de/en/)), made the great final.
+After a practical workshop headed by Frederik Bader, Usability Engineer at [Verivox GmbH](https://www.verivox.de/){:target="_blank"}, about little tips and tricks using the prototyping tool Axure, Christian Grieger und Sven Fackert (UX Manager and UX Researcher at [Ergosign GmbH](https://www.ergosign.de/en/){:target="_blank"}), made the great final.
 Have you ever asked yourself how to pimp your dusty existing product, but did not get to any innovative ideas yet?
 The secret could lie in a structured brainstorming session 💡!
 Many brainstormings culminate in broad discussions which do not lead to any results.
