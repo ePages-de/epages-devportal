@@ -59,7 +59,7 @@ Depending on the website your are working with, some of these techniques can be 
 * Send different image sizes based on the client's device (<picture> + srcset or srcset + sizes, media queries + different image sizes).
 * Keep in mind: Videos (without audio) plus blend mode can be smaller than gifs.
 
-If you want to have a closer look at image examples with filters and CSS blend modes, have a look at this [CSSgram page](una.im/CSSgram){:target="_blank"}.
+If you want to have a closer look at image examples with filters and CSS blend modes, have a look at this [CSSgram page](https://una.im/CSSgram){:target="_blank"}.
 
 ## [Performance monitoring with DevTools](https://vimeo.com/254733177){:target="_blank"}
 
