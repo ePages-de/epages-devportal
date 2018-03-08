@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Do you know what a UX Manager does all day?
+title: Do you know what User Experience is about?
 date: 2018-04-12
 header_image: public/ux-manager.jpg
 category: on-the-job
-tags: ["ux", "usability", "database"]
+tags: ["ux", "usability", "ecommerce"]
 authors: ["Birgit"]
 ---
 
