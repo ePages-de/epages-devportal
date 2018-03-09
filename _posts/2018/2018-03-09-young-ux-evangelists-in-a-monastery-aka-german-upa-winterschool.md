@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Young UX evangelists in a monastery aka German UPA Winter School
-date: 2018-03-01
+date: 2018-03-09
 header_image: public/winter-school.jpg
 header_position: center
 header_overlay: true
@@ -9,8 +9,6 @@ category: events
 tags: ["ux", "conference"]
 authors: ["Lena"]
 ---
-
-
 
 Once a year, twelve young UX professionals from all across Germany gather in the idyllic Taubertal, more precisely in the monastery Bronnbach, to exchange views and experiences, to make new contacts and to enlarge their expert knowledge.
 Who is responsible for this gathering?
