@@ -8,10 +8,20 @@ So, this is also the right repo in case you want to write a new blog post for ou
 
 This project comprises different licenses. The editorial content in the folders
 
-assets/img/pages/ and
-_data/,
-_pages/,
-_posts/ and
-_site/
+* assets/img/pages/headers/public,
+* posts/ and
+* site/
+* beyond-essence
 
-is licensed under CC-BY-4.0. The logos in the folder assets/img/logos/ may not be shared or adapted. The different fonts in the assets/fonts_new/ and assets/fonts-awesome/ folders are licensed under their own respective licenses. All other content is licensed under MIT.
+is licensed under CC-BY-4.0.
+
+The content in the folders
+
+* assets/img/logos/,
+* assets/img/pages/headers/private,
+* assets/img/pages/blog/images
+* resources
+
+may not be shared or adapted.
+
+The different fonts in the assets/fonts folder are licensed under their own respective licenses. All other content is licensed under MIT.
