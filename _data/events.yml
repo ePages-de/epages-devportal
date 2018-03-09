@@ -1,8 +1,27 @@
-- title: WIK HTWK Leipzig
-  description: We are exhibiting at this event.
-  link: http://www.wikway.de/wik-leipzig-htwk
-  location: 29. Nov 2017<br>10am - 4pm<br>HTKW Leipzig - Foyer NIEPER-Bau<br>Karl-Liebknecht-Straße 134<br>04277 Leipzig
-- title: academix Thüringen
-  description: We are exhibiting at this event.
-  link: http://www.thaff-thueringen.de/academix-thueringen/
-  location: 2. Dez 2017<br>10am - 6pm<br>Messe Erfurt<br>Gothaer Straße 34<br>99084 Erfurt
+- title: Meet the team
+  image: meet-the-team.png
+  video: https://www.youtube.com/watch?v=FbE2FyqTJCY
+
+- title: Hackathon 2017
+  image: hackathon_2017_2.png
+  video: https://www.youtube.com/watch?v=j-qMUo8_ChQ
+
+- title: R&amp;D day 2016
+  image: rnd_2016_1.jpg
+  video: https://www.youtube.com/watch?v=wNQ7B0rIB3g
+
+- title: Hackathon 2016
+  image: rnd_2016_2.jpg
+  video: https://www.youtube.com/watch?v=2UdyQma76IA
+
+- title: Lunch in the park
+  image: lunch-in-the-park.jpg
+
+- title: Tech meetup & pizzaaaa
+  image: meetup.jpg
+
+- title: Great team workshop
+  image: you_2016_1.jpg
+
+- title: After-work fun
+  image: you_2016_2.jpg

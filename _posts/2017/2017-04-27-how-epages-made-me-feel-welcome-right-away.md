@@ -2,8 +2,9 @@
 layout: post
 title: How ePages made me feel welcome right away
 date: 2017-04-26
-header_image: jump.jpg
+header_image: public/jump.jpg
 category: on-the-job
+tags: ["onboarding", "localization"]
 authors: ["Christina"]
 ---
 

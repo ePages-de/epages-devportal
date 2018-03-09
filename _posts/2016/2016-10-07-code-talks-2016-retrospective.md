@@ -2,8 +2,9 @@
 layout: post
 title: "code.talks 2016 retrospective"
 date: 2016-10-07
-header_image: codetalks2016.jpg
+header_image: private/codetalks2016.jpg
 category: events
+tags: ["conference", "functional programming", "cloud", "java"]
 authors: ["Jens", "Mathias"]
 ---
 

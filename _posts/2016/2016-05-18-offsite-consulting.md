@@ -2,8 +2,9 @@
 layout: post
 title: "Consulting offsite meeting"
 date: 2016-05-18
-header_image: consulting-offsite.jpg
+header_image: private/consulting-offsite.jpg
 category: events
+tags: ["team", "offsite", "workshop"]
 authors: ["Pavlo", "Tobias"]
 ---
 
@@ -11,7 +12,7 @@ On 1st of May 2016, the ePages Consulting team set off on a journey to Bad Sulzb
 After a six-hour drive from Jena, we were welcomed by the nice staff of the Waldhotel, which is situated in a quiet spot of the Black Forest.
 A good place for us to reflect on what works well in the team and what could be improved.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-consulting-offsite-1.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-consulting-offsite-1.jpg" width="50" lightbox %}
 
 The purpose of this particular trip was to talk about opportunities and challenges faced by our team over time as well as to come up with strategic plans for the future.
 
@@ -19,26 +20,26 @@ The purpose of this particular trip was to talk about opportunities and challeng
 
 To strengthen the team spirit and escape from office life, we decided to go hiking and enjoy the exceptional diversity and grandiose views of the Black Forest landscape.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-consulting-offsite-2.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-consulting-offsite-2.jpg" width="50" lightbox %}
 
 On the next day, after countless meetings, we played Kubb to reduce stress and to draw fresh inspiration.
 Kubb is an exciting team game from Sweden with a very long tradition.
 The goal of each team is to overturn the wooden figures of the opposing team by throwing wooden sticks.
 The king with the red crown in the middle of the field must be taken last.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-consulting-offsite-3.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-consulting-offsite-3.jpg" width="50" lightbox %}
 
 ## Meetings
 
 During the meetings we worked together on all issues. Each topic had its own presenter.
 We discussed many different topics, analysed the work from the previous two quarters, and developed a plan to reduce some internal expenses in order to focus on work that creates more profit.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-consulting-offsite-4.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-consulting-offsite-4.jpg" width="50" lightbox %}
 
 On the next day, we had a very important meeting with a new customer.
 We received feedback on already completed work, and set milestones for the future collaboration.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-consulting-offsite-5.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-consulting-offsite-5.jpg" width="50" lightbox %}
 
 As the work of the Consulting team is to customise the standard ePages software according to customer-specific requirements, one of our topic was the continuous delivery pipeline.
 This pipeline should ensure that, each time that a new version is released, the customer-specific adaptations still work and that no side effects occur.

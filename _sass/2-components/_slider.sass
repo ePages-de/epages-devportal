@@ -1,0 +1,35 @@
+.carousel
+  position: relative
+  margin: 0 -1rem
+
+.carousel__item
+  outline: 0
+
+.carousel__paginator
+  position: absolute
+  bottom: 50%
+  left: 0
+  right: 0
+
+  .prev, .next
+    transform: translateY(50%)
+    position: absolute
+    cursor: pointer
+    color: lighten($gray-light, 20%)
+
+    &.slick-disabled
+      color: lighten($gray-light, 30%)
+
+  .prev
+    visibility: hidden
+
+    +grid-media($grid-medium)
+      visibility: visible
+      left: -4rem
+
+  .next
+    visibility: hidden
+
+    +grid-media($grid-medium)
+      visibility: visible
+      right: -4rem

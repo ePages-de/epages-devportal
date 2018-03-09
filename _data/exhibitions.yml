@@ -1,0 +1,34 @@
+- title: WebAPI Meetup - RAML with Spring REST Docs
+  description: We are hosting this event.
+  link:
+  date: 27. Feb 2018
+  time: '18:30'
+  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+
+- title: Kubernetes / Cloud Native Meetup
+  description: We are hosting this event.
+  link:
+  date: 08. Mar 2018
+  time: '18:00'
+  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+
+- title: Ruby Unconference
+  description: We are sponsoring this event.
+  link: http://rubyunconf.eu/
+  date: 5. - 6. May 2018
+  time:
+  address: Hamburg
+
+- title: Spring I/O 2018
+  description: We are participating in this event.
+  link: https://2018.springio.net/
+  date: 24. - 25. May 2018
+  time:
+  address: Palau de Congressos<br>Avinguda de la Reina Maria Cristina, s/n<br>08004 Barcelona, ES
+
+- title: Scrum Alliance Gathering
+  description: We are participating in this event.
+  link:
+  date: 8. - 10. Oct 2018
+  time:
+  address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK

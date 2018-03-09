@@ -2,8 +2,9 @@
 layout: post
 title: "One development environment to rule them all"
 date: 2017-03-14
-header_image: ring.jpg
+header_image: public/ring.jpg
 category: tech-stories
+tags: ["container", "vm", "docker", "vagrant"]
 authors: ["Jordi"]
 ---
 

@@ -2,8 +2,9 @@
 layout: post
 title: "RESTful API documentation @ePages"
 date: 2015-05-28
-header_image: compass.jpg
+header_image: public/compass.jpg
 category: api-experience
+tags: ["api", "rest", "techcom", "raml"]
 authors: ["Birgit"]
 ---
 

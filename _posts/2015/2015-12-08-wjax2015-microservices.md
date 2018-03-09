@@ -2,8 +2,9 @@
 layout: post
 title: "W-JAX 2015 Retrospect Part 2: Microservices"
 date: 2015-12-08
-header_image: wjax-conf.jpg
+header_image: public/wjax-conf.jpg
 category: events
+tags: ["conference", "microservices"]
 authors: ["David"]
 ---
 

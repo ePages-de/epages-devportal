@@ -2,12 +2,13 @@
 layout: post
 title: "6 proven practices that make third-party development fun"
 date: 2017-01-24
-header_image: thirdparty-weapons.jpg
+header_image: public/thirdparty-weapons.jpg
 category: tech-stories
+tags: ["third-party", "ecommerce", "testing"]
 authors: ["Mats"]
 ---
 
-In my [previous post](/blog/tech-stories/painpoints-with-thirdparty-software/) I talked about the pain points in third-party software development and the different challenges we're facing when connecting our e-commerce software to a third-party service.
+In my [previous post](/blog/tech-stories/painpoints-with-thirdparty-software/) I talked about the pain points in third-party software development and the different challenges we're facing when connecting our ecommerce software to a third-party service.
 
 Today, I will follow up on this and give an insight into our "weapons of choice" that simplify our work.
 These workflows and best practices have been developed over a longer period of time and are continuously updated.
@@ -46,7 +47,7 @@ In order to minimize the chance of bugs while also sharing knowledge within the 
 Ideally every member of our team should know each module of the implementation we created.
 
 When it comes to automated testing there is another concept that can help identifying changes in external services.
-Create automated tests which runs against the their API and verify all functionalities you are using in your application.
+Create automated tests which run against their API and verify all functionalities you are using in your application.
 Of course you then also need to run these tests on a regular basis.
 Your own test pipeline will then instantly notify you about changes your integration partner introduced to their API.
 This of course is especially helpful in case the communication with your integration partner is not ideal.

@@ -2,9 +2,10 @@
 layout: post
 title: "How to do code coverage with ECMAScript 6"
 date: 2016-05-03
-header_image: ecmascript.jpg
+header_image: public/ecmascript.jpg
 image-position: top
 category: tech-stories
+tags: ["isparta", "ecmascript", "javascript", "istanbul"]
 authors: ["Christian H."]
 ---
 
@@ -178,11 +179,11 @@ When using ES6 in combination with code coverage reports, then _isparta_ can hel
 
 ### Code coverage with isparta
 
-{% image_custom image="/assets/img/pages/blog/images/blog-es6-coverage-old.png" width="100" caption="Code coverage with isparta" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-es6-coverage-old.png" width="100" %}
 
 ### Code coverage with babel-plugin-\_\_coverage\_\_
 
-{% image_custom image="/assets/img/pages/blog/images/blog-es6-coverage-new.png" width="100" caption="Code coverage with babel-plugin-\_\_coverage\_\_ isparta" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-es6-coverage-new.png" width="100" %}
 
 [demo-project]: https://github.com/ePages-de/codecoverage-with-es6
 [istanbul]: https://github.com/gotwarlost/istanbul

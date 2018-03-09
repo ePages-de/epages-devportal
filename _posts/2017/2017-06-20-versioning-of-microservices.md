@@ -2,8 +2,9 @@
 layout: post
 title: "Versioning of microservices"
 date: 2017-06-20
-header_image: microservices-pipeline-2.jpg
+header_image: public/microservices-pipeline-2.jpg
 category: tech-stories
+tags: ["continuous delivery", "microservice", "gradle", "jenkins", "docker"]
 authors: ["Benjamin", "Nicole"]
 ---
 

@@ -16,6 +16,7 @@ kramdown:
 
 include:
   - _pages
+  - beyond-essence
 
 plugins:
   - jekyll-feed
@@ -46,6 +47,10 @@ exclude:
   - Capfile
   - _pages/url-map
   - resources
+  - README.md
+  - run_tests.sh
+  - config/
+  - log/
 
 feed:
   path: /blog/feed.xml

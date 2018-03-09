@@ -2,8 +2,9 @@
 layout: post
 title: "Reactive streams"
 date: 2017-06-13
-header_image: water-rocks.jpg
-category: tech-stories
+header_image: public/water-rocks.jpg
+category: coding
+tags: ["reactive", "microservice", "java", "akka"]
 authors: ["Christian H."]
 ---
 

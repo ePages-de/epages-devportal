@@ -1,77 +1,213 @@
-.section
+body.default
 
-  &__text
+  section
+    margin: 8rem 0
+
+    +grid-media($grid-large)
+      margin: 12rem 0
+
+  .section__title, .section__body
     text-align: center
-    font-size: 2rem
 
-    &--margin-bottom
-      margin-bottom: 1em
+  .section__title
+    margin-bottom: 1rem
 
-  .tiles
-    +grid-container
-    +grid-collapse($tile-grid)
-    margin-top: $card-margin-mobile
+  .section__center
+    text-align: center
+
+  .section__margin--bottom
+    margin-bottom: 2rem
+
+  .section__list
+    display: inline-block
+    text-align: center
+
+  .card-wrapper
+    display: flex
+    flex-wrap: wrap
     box-sizing: border-box
+    margin: 4rem -1rem 0
 
-    +grid-media($grid-medium)
-      margin-top: $card-margin-desktop
-      display: flex
+    .card
+      padding: 2rem
+      margin: 1rem
+      flex-direction: column
+      align-items: center
+      text-align: center
+      flex-basis: 100%
 
-  .tile
-    +grid-column(12, $tile-grid)
+      svg
+        color: $cat-coding
+        margin-bottom: 2rem
+
+  .column-wrapper
+    display: flex
+    flex-wrap: wrap
+    padding: 2rem
+    box-sizing: border-box
+    margin-top: 4rem
+
+    .column
+      position: relative
+      padding: 2rem
+      flex-basis: 100%
+      text-align: center
+
+      svg
+        color: $cat-coding
+        margin-bottom: 2rem
+
+      &__title
+        margin-bottom: 1rem
+
+
+
+
+
+  .intro
+    text-align: center
+
+    .section__body
+      margin-bottom: 2rem
+
+    .column-wrapper
+      margin-top: 6rem
+
+      .column
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2 - 4rem)
+
+
+
+
+
+  .business
+
+    .card-wrapper
+
+      .card
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 4 - 6rem)
+          align-items: center
+
+
+
+
+
+  .app
+
+    .column-wrapper
+
+      .column
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 3 - 4rem)
+
+        +grid-media($grid-medium)
+
+          &:not(:last-child):after
+            content: '›'
+            font-size: 12rem
+            color: lighten($gray-light, 30%)
+            position: absolute
+            right: -2rem
+            top: 0
+
+      .column-2
+        margin: 3rem 0
+
+        +grid-media($grid-medium)
+          margin: 0
+
+
+
+
+  .more
+
+    .column-wrapper
+      margin-top: 4rem
+
+      .column
+
+        +grid-media($grid-medium)
+          flex-basis: calc(100% / 2 - 4rem)
+
+        &-1
+          align-items: center
+          display: flex
+          justify-content: center
+
+          svg
+            font-size: 12rem
+
+        &-2
+          text-align: left
+
+          .section__list
+            text-align: left
+            margin-bottom: 2rem
+
+            li
+              display: flex
+              margin-bottom: .3em
+
+          svg
+            margin: .2em .4em 0 0
+
+
+
+
+  .news
+    margin-left: -2rem
+    margin-right: -2rem
     position: relative
-    padding-bottom: 7rem
 
-    &:last-child
-      margin-top: $card-margin-mobile
+    .section__title, .section__body
+      margin-left: 2rem
+      margin-right: 2rem
 
       +grid-media($grid-medium)
-        margin-top: 0
+        margin-left: 8rem
+        margin-right: 8rem
 
-    +grid-media($grid-medium)
-      +grid-column(6, $tile-grid)
+    .carousel
+      text-align: left
+      margin-top: 3rem
 
-    &__header
-      width: 100%
-      text-align: center
-      padding: 3rem 0
-      color: $white
-      border-top-left-radius: 4px
-      border-top-right-radius: 4px
+      .card--post
+        margin: 1rem 3rem
+        width: calc(100% - 6rem)
 
-      &--now
-        background-color: lighten($beyond-blue, 5%)
+      &__link
+        display: flex
+        justify-content: center
+        align-items: center
 
-      &--beyond
-        background-color: $beyond-green
+        &:hover
+          box-shadow: none
 
-    &__body
-      padding: 3rem
+      &__item
 
-    &__list
-      list-style: initial
-      margin: .2em 0 .8em 3rem
+        a
+          display: block
 
-    &__flag
-      background-color: #c7c7c7
-      color: #4c4c4c
-      font-size: 1.4rem
-      letter-spacing: .05em
-      box-shadow: $hover-box-shadow
-      padding: .4em .8em
-      position: absolute
-      top: 80px
-      right: -1rem
-      border-top-left-radius: 4px
-      border-bottom-left-radius: 4px
+          span
+            font-size: 2.4rem
+            font-family: $display-font-family
 
-      &::before
-        content: ''
-        position: absolute
-        right: 0
-        bottom: -1rem
-        width: 0
-        height: 0
-        border-style: solid
-        border-width: 1rem 1rem 0 0
-        border-color: darken(#c7c7c7, 10%) transparent transparent transparent
+
+
+
+
+// Override slick slider styles for the index page (I know it's dirty)
+
+body.default .slick-track
+  display: flex !important
+
+body.default .slick-initialized .slick-slide
+  display: flex !important
+
+body.default .slick-slide
+  height: auto !important

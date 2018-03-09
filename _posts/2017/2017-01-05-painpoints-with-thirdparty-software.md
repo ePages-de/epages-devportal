@@ -2,8 +2,9 @@
 layout: post
 title: "4 pain points in third-party software development"
 date: 2017-01-05
-header_image: challenge-cube.jpg
+header_image: public/challenge-cube.jpg
 category: tech-stories
+tags: ["api","third-party","ecommerce"]
 authors: ["Mats"]
 ---
 
@@ -13,7 +14,7 @@ As soon as different interests, ideas, concepts, or mindsets meet, finding a sat
 The same translates to communication between different software systems.
 Once you need to interact with external software services you have to adapt your implementation and sometimes make compromises.
 
-In this article I will talk about the different challenges we faced as a software development team in e-commerce, working with plenty of different third-party services in the past years.
+In this article I will talk about the different challenges we faced as a software development team in ecommerce, working with plenty of different third-party services in the past years.
 
 ### 1. Missing knowledge about the service
 

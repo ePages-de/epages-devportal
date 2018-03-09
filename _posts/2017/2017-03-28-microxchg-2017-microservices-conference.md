@@ -2,8 +2,9 @@
 layout: post
 title: "microXchg 2017 - The Microservices Conference"
 date: 2017-03-28
-header_image: microxchg-2017.jpg
+header_image: private/microxchg-2017.jpg
 category: events
+tags: ["microservice", "conference"]
 authors: ["Benjamin"]
 ---
 

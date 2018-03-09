@@ -2,9 +2,11 @@
 layout: post
 title: "How to set up a CoreOS Cluster on Windows and CentOS"
 date: 2016-01-19
-header_image: windows-coreos.jpg
+header_image: public/windows-coreos.jpg
+header_overlay: true
 category: tech-stories
-authors: ["Andreas G."]
+tags: ["coreos", "windows", "centos"]
+authors: ["Andreas"]
 ---
 
 This post deals with setting up a 3-Cluster CoreOS installation using [Vagrant](https://www.vagrantup.com/){:target="_blank"} and [VirtualBox](https://www.virtualbox.org/){:target="_blank"} on Windows and CentOS.
@@ -89,7 +91,7 @@ $ vagrant up
 
 If everything works fine three VirtualBox windows appear and your shell should look like this:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-coreos-winsetup-01.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-coreos-winsetup-01.jpg" width="50" lightbox %}
 
 #### 4. Stop clusters
 
@@ -119,7 +121,7 @@ to this:
 $num_instances=10
 {% endhighlight %}
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-coreos-winsetup-02.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-coreos-winsetup-02.jpg" width="50" lightbox %}
 
 Now switch to your PowerShell 3.0 and execute the following commands:
 
@@ -130,7 +132,7 @@ $ vagrant up
 
 If everything works properly, you should see something like this:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-coreos-winsetup-03.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-coreos-winsetup-03.jpg" width="50" lightbox %}
 
 #### 6. Remove clusters
 

@@ -2,9 +2,10 @@
 layout: post
 title: "Test-driven development with Java"
 date: 2016-04-05
-header_image: java.jpg
+header_image: public/java.jpg
 category: tech-stories
-authors: ["Jan M."]
+tags: ["java", "training", "tdd", "programming"]
+authors: ["Jan"]
 ---
 
 Test-driven development is a programming technique in which the validation of the correctness of the source code is implemented before the actual source code itself.

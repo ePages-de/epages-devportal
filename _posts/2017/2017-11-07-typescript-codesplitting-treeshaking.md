@@ -2,8 +2,9 @@
 layout: post
 title: "Code splitting and tree shaking with Typescript and Webpack"
 date: 2017-11-07
-header_image: sunny-road.jpg
+header_image: public/sunny-road.jpg
 category: tech-stories
+tags: ["javascript", "typescript", "webpack", "babel"]
 authors: ["Christian H."]
 ---
 

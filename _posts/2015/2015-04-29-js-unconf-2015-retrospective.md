@@ -2,8 +2,9 @@
 layout: post
 title: "JS Unconf 2015 Retrospective"
 date: 2015-04-29
-header_image: javascript.png
+header_image: public/javascript.png
 category: events
+tags: ["javascript", "conference"]
 authors: ["Paolo"]
 ---
 

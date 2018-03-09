@@ -2,8 +2,9 @@
 layout: post
 title: Why the grass is NOT always greener on the other side
 date: 2017-11-21
-header_image: greengrass.jpg
+header_image: public/greengrass.jpg
 category: on-the-job
+tags: ["onboarding", "company culture"]
 authors: ["Romy", "Christina"]
 ---
 

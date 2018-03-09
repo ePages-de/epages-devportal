@@ -2,8 +2,10 @@
 layout: post
 title: "#refugeehackathon"
 date: 2015-10-27
-header_image: code.jpg
+header_image: public/code.jpg
+header_overlay: true
 category: events
+tags: ["hackathon", "volunteer"]
 authors: ["Jan"]
 ---
 
@@ -29,7 +31,7 @@ It is an online platform which enables volunteers to sign up for tasks identifie
 by different aid organisations and is created by a handful of programmers, designers and project managers.
 Though the project is only three month old and thus not yet feature complete they already have 19,354 registered users and 51,286 completed volunteer work hours.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-refugeehackathon-volunteer-planner.jpg" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-refugeehackathon-volunteer-planner.jpg" width="50" lightbox %}
 
 ## What we achieved
 

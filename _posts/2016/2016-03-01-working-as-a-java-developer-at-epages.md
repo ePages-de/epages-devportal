@@ -2,8 +2,9 @@
 layout: post
 title: "Working as a Java Developer at ePages"
 date: 2016-03-01
-header_image: coffee.jpg
+header_image: public/coffee.jpg
 category: on-the-job
+tags: ["java", "developer", "onboarding", "job"]
 authors: ["Birgit", "Serena", "Jens"]
 ---
 
@@ -46,11 +47,11 @@ I was shown what they're currently working on, how the sprint is going - and of 
 
 I just jumped into the cold water.
 Originally, I was hired to start developing a new software architecture together with other colleagues.
-But I started first with supporting the development of the ePages App & Theme Store.
+But I started first with supporting the development of the ePages App Store.
 I also visited the Jena office to build a connection to the colleagues I would be closely working with in the future.
 Communication is way easier, when you've already spent some time together.
 
-### The App & Theme Store is launched. What are you focussing on now?
+### The App Store is launched. What are you focussing on now?
 
 To being able to completely focus on the new architecture, we had to decouple this topic from the other tasks in the team.
 We split the team into two.

@@ -3,15 +3,37 @@
 
 {% capture signup_html %}{% include components/signup-form.html %}{% endcapture%}
 
-$(document).ready(function() {
+$(document).ready(function(){
+  // Carousel
+
+  $('.js-carousel--index').slick({
+    infinite: false,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true
+        }
+      }
+    ]
+  });
+
+  // Lightbox
+
   // Show the popup when you click on the popup button
   $('a[href="#signup"]').click(function(e) {
     e.preventDefault();
     openPopup();
   });
 
-  // Show the popup when coming from /#register.html
-  if (window.location.hash === '#register.html') {
+  // Show the popup when coming from /#register
+  if (window.location.hash === '#register') {
     openPopup();
   }
 

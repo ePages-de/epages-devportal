@@ -2,8 +2,9 @@
 layout: post
 title: Why you should invest time on translation keys
 date: 2017-08-08
-header_image: translation-keys.jpg
+header_image: public/translation-keys.jpg
 category: language-and-localization
+tags: ["localization", "translation", "key value", "json"]
 authors: ["Christina"]
 ---
 Let me guess.

@@ -2,8 +2,9 @@
 layout: post
 title: "Go'ing forward"
 date: 2017-08-01
-header_image: golang-library.jpg
+header_image: public/golang-library.jpg
 category: coding
+tags: ["i-doit", "go", "jenkins", "api", "rest"]
 authors: ["Carsten", "Karsten"]
 ---
 

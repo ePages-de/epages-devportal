@@ -2,16 +2,17 @@
 layout: post
 title: "Optimised monitoring and evaluation of Selenium test results"
 date: 2016-02-11
-header_image: test-automation-1.jpg
+header_image: public/test-automation-1.jpg
 category: tech-stories
-authors: ["Benjamin N.", "Bastian K."]
+tags: ["selenium", "monitoring", "continuous delivery"]
+authors: ["Benjamin", "Bastian"]
 ---
 
 Today we want to share with you the first of two blog posts on a recent project concerning an optimised workflow for the monitoring and evaluation of the Selenium integration test results from multiple environments in our pipeline. This initial article should serve as brief introduction to the business context, encompass the major pain points of the established test evaluation process and constitute the essential requirements for a technical solution. Furthermore, we will envision two solution approaches and discuss which option fits best our needs and therefore will be implemented.
 
 The second post will seamlessly follow up and elaborate in-depth on the technical aspects of the implementation, but now let us start digging towards the core of the business challenge.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-report.png" width="25" align="right" caption="The report index of a set" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-pipeline-elk-test-evaluation-report.png" width="25" lightbox align="right" caption="The_report_index_of_a_set" %}
 
 ## Background story
 

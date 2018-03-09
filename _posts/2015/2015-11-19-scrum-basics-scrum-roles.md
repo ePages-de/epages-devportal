@@ -2,8 +2,9 @@
 layout: post
 title: "Scrum Basics: Scrum Roles"
 date: 2015-11-19
-header_image: roles.jpg
+header_image: public/roles.jpg
 category: methods-and-tools
+tags: ["scrum", "agile"]
 authors: ["Anja B."]
 ---
 

@@ -2,8 +2,10 @@
 layout: post
 title: "Mockify - A mocking framework for Perl"
 date: 2016-02-23
-header_image: mocking-bird.jpg
+header_image: public/mocking-bird.jpg
+header_overlay: true
 category: coding
+tags: ["perl", "framework"]
 authors: ["Christian B."]
 ---
 

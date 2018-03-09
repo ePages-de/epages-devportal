@@ -2,8 +2,9 @@
 layout: post
 title: "Setting up a Linux Development Environment for Ruby (on Rails)"
 date: 2015-10-01
-header_image: ruby.png
+header_image: public/ruby.png
 category: tech-stories
+tags: ["linux", "ruby", "rails"]
 authors: ["Declan"]
 ---
 
@@ -159,7 +160,7 @@ Otherwise the IDE will give obscure error messages and fail, when you try to deb
 - You start the IDE in your custom (chruby) environment.
 - You configure the rails sdk in the IDE's project settings - see the screenshot below.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-intellij-rails.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-intellij-rails.png" width="50" lightbox %}
 
 ### .gitignore
 

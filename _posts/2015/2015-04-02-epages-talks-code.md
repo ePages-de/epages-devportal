@@ -2,8 +2,9 @@
 layout: post
 title: "ePages talks code"
 date: 2015-04-02
-header_image: code.jpg
+header_image: public/code.jpg
 category: events
+tags: ["conference", "java"]
 authors: ["Birgit"]
 ---
 

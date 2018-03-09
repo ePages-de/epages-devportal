@@ -2,8 +2,10 @@
 layout: post
 title: "Challenges of integrating third-parties"
 date: 2015-07-20
-header_image: puzzle.jpg
+header_image: public/puzzle.jpg
+header_overlay: true
 category: tech-stories
+tags: ["api", "third-party", "ecommerce"]
 authors: ["Ulf B."]
 ---
 
@@ -13,7 +15,7 @@ Read more to find out why it is not the easiest thing to integrate third-parties
 
 ## The use case
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-third-party-overview.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-third-party-overview.png" width="50" lightbox %}
 
 Example: If a customer buys a product in an ePages online shop, they could choose e.g. PayPal as payment method and DHL as delivery method.
 The customer could also obtain an insurance with Trusted Shops.

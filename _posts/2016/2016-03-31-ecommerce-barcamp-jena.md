@@ -2,8 +2,9 @@
 layout: post
 title: "A report from the eCommerceCamp in Jena"
 date: 2016-03-31
-header_image: barcamp-jena.jpg
+header_image: private/barcamp-jena.jpg
 category: events
+tags: ["ecommerce", "barcamp", "conference"]
 authors: ["Benjamin"]
 ---
 

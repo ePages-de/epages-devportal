@@ -2,12 +2,13 @@
 layout: post
 title: "Design of a continuous delivery pipeline"
 date: 2017-05-30
-header_image: microservices-pipeline-1.jpg
+header_image: public/microservices-pipeline-1.jpg
 category: tech-stories
+tags: ["continuous delivery", "microservice", "jenkins", "kubernetes", "docker"]
 authors: ["Benjamin", "Nicole"]
 ---
 
-This is the first post of a three-part blog post series about the foundation pillars for the [ePages](https://www.epages.com/en/){:target="_blank"} next generation e-commerce platform, where we'll talk about the Continuous Delivery Pipeline (CDP) of our new Microservices Architecture.
+This is the first post of a three-part blog post series about the foundation pillars for the [ePages](https://www.epages.com/en/){:target="_blank"} next generation ecommerce platform, where we'll talk about the Continuous Delivery Pipeline (CDP) of our new Microservices Architecture.
 
 In these posts we will answer the 4 most important questions that show how to continuously deliver new microservices, feature updates, and bug fixes to our customers within less time than the average lunch break.
 To deploy in under 45 minutes, with highest confidence, and without quality compromises we need to apply several advanced techniques for building a solid and high-performance continuous delivery pipeline that is capable of handling all our demands with ease.

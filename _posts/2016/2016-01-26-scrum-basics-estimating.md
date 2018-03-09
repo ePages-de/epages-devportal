@@ -2,8 +2,9 @@
 layout: post
 title: "Scrum Basics: Estimating"
 date: 2016-01-26
-header_image: estimation.jpg
+header_image: public/estimation.jpg
 category: methods-and-tools
+tags: ["scrum", "agile"]
 authors: ["Anja B."]
 ---
 

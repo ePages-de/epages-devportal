@@ -2,8 +2,10 @@
 layout: post
 title: "Infrastructure as code: automating Jenkins"
 date: 2015-06-25
-header_image: infrastructure.jpg
+header_image: public/infrastructure.jpg
+header_overlay: true
 category: tech-stories
+tags: ["jenkins", "ci", "infrastructure", "ansible", "vagrant"]
 authors: ["Jens", "Dirk"]
 ---
 
@@ -13,7 +15,7 @@ A mixed language stack mainly composed of `Java`, `JavaScript` and `Perl` spread
 We do not run all build jobs on a single Jenkins instance, but already spread out different jobs to dedicated Jenkins servers.
 Nevertheless some teams still share their build infrastructure, thus lacking independence e.g. when it comes to introducing new Jenkins plugins or other tools needed for their build process.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-jenkins-polyglot.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-jenkins-polyglot.png" width="50" lightbox %}
 
 ## Jenkins configuration
 

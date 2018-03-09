@@ -2,8 +2,9 @@
 layout: post
 title: "Why I love working as a Scrum Master"
 date: 2017-02-23
-header_image: scrum-ann-katrin.jpg
+header_image: private/scrum-ann-katrin.jpg
 category: on-the-job
+tags: ["scrum", "agile"]
 authors: ["Rose", "Ann-Katrin"]
 ---
 
@@ -13,7 +14,7 @@ To get further insights into our work with Scrum, we have interviewed our Scrum 
 ### Hi Ann-Katrin. Many thanks for taking the time to do this interview. Could you please give us an introduction of yourself?
 
 Hi, I am Ann-Katrin, the Scrum Master here at ePages.
-I started my career at an e-commerce agency, here in Hamburg, where I worked for about seven years, before I moved to London.
+I started my career at an ecommerce agency, here in Hamburg, where I worked for about seven years, before I moved to London.
 In London, I worked for two big retailers, namely [Arcadia](https://www.arcadiagroup.co.uk/){:target="_blank"} and [Debenhams](http://www.debenhams.com/){:target="_blank"}.
 At the beginning, I was dedicated more towards the operational business, but then moved more and more in the direction of agile project management.
 Although I liked the project management side of my job, my real passion was more working with agile teams and being the one helping them to coordinate their work.
@@ -24,7 +25,7 @@ At one point, it was time for me to move back to Germany, because I simply wante
 I first worked for a small agency that was specialized in App development, which was fun, yet I really missed working with bigger teams.
 
 Now, that I am working at ePages I get to work with different cross-functional teams again, which is fun.
-It’s also great to be working in e-commerce again.
+It’s also great to be working in ecommerce again.
 
 ### What are the main differences between agile and traditional project management?
 

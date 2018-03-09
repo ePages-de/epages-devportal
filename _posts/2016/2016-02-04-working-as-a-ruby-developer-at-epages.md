@@ -2,8 +2,9 @@
 layout: post
 title: "Working as a Ruby Developer at ePages"
 date: 2016-02-04
-header_image: ruby-dev.jpg
+header_image: private/ruby-dev.jpg
 category: on-the-job
+tags: ["ruby", "rails", "developer", "job", "relocation"]
 authors: ["Birgit", "Serena", "Domingo"]
 ---
 
@@ -94,7 +95,7 @@ The colleagues are amazing.
 And ePages does great company events.
 We had a great [YOU](/blog/events/annual-company-event-epagees-rock-the-you/) and a very funny New Year's Kick-off.
 We do internal hackathons.
-And there was an [R&amp;D day](/blog/tech-stories/rnd-day-2015/), where all developers from all locations came together for knowledge exchange.
+And there was an [R&amp;D day](/blog/events/rnd-day-2015/), where all developers from all locations came together for knowledge exchange.
 
 ### What qualities does an applicant need to fit into the team?
 

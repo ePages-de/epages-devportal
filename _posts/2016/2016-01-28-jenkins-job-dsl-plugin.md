@@ -2,8 +2,10 @@
 layout: post
 title: "Jenkins jobs as code: the Job DSL plugin"
 date: 2016-01-28
-header_image: code.jpg
+header_image: public/code.jpg
+header_overlay: true
 category: tech-stories
+tags: ["jenkins", "automation", "groovy", "job dsl"]
 authors: ["Ulf B."]
 ---
 
@@ -14,7 +16,7 @@ The idea of the project is to describe Jenkins jobs with a [Groovy](http://www.g
 
 Since a job description is just a Groovy script, it can be kept together with your project in source control.
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-jobdsl-jenkins-jobs-groovy.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-jobdsl-jenkins-jobs-groovy.png" width="50" lightbox %}
 
 ### Describing jobs with the DSL
 
@@ -67,7 +69,7 @@ By choosing the first option, you can enter the DSL script directly in a text ar
 That's nice if you want to play a bit with the Job DSL to try things.
 Since we want to put the job scripts under source control, we choose **Look on Filesystem**:
 
-{% image_lightbox image="/assets/img/pages/blog/images/blog-jobdsl-lookonfilesystem.png" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-jobdsl-lookonfilesystem.png" width="50" lightbox %}
 
 You can now enter the paths to the DSL scripts (relative to the project's root directory) line by line into the text area.
 
