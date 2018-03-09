@@ -10,22 +10,22 @@ tags: ["ux", "conference"]
 authors: ["Lena"]
 ---
 
-Once a year, twelve young UX professionals from all across Germany gather in the idyllic Taubertal, more precisely in the monastery Bronnbach, to exchange views and experiences, to make new contacts and to enlarge their expert knowledge.
+Once a year, twelve young UX professionals from all across Germany gather in the idyllic Taubertal, more precisely in the monastery Bronnbach, to exchange views and experiences, to make new contacts, and to enlarge their expert knowledge.
 Who is responsible for this gathering?
 
 Initiator is the [German UPA](https://www.germanupa.de/){:target="_blank"}, the association for professionals working in the domain of usability and user experience.
-Behind this stands a growing network of UX experts, who support employees in regard to their daily user-centered work, who engage in specific UX-related topics, such as user research or quality standard, and who represent the whole bunch of UX topics to the general public.
-Some of their 15.000 members are especially engaged in junior development and tadaa: One day, the idea of the so called Winter School was born.
-This year, I was one of the happy 12 chosen participants - Hooray!
+Behind this stands a growing network of UX experts, who support employees in regard to their daily user-centered work, who engage in specific UX-related topics, such as user research or quality standards, and who represent the whole bunch of UX topics to the general public.
+Some of their 15.000 members are especially engaged in junior development, and tadaa: one day, the idea of the so-called Winter School was born.
+This year, I was one of the happy 12 chosen participants - hooray!
 
 ## Perfect learning environment
 
 The conditions for our two intensive days of workshops were simply fantastic.
-The housing next to the monastery was really beautiful, the staff was very cordial and courteous and not to forget: the vinothek!
+The housing next to the monastery was really beautiful, the staff was very cordial and courteous, and not to forget: the wine house!
 Especially for "UX evangelists", the monastery is of course the place to be for training sessions 😇.
 
 A special thanks goes to Ludwig Fichte, Senior User Researcher at [SAP SE](https://www.sap.de){:target="_blank"}.
-He headed us competently through the days and moderated in between the workshops.
+He headed us competently through the days and moderated between the workshops.
 
 {% image_lightbox image="/assets/img/pages/blog/images/winter-school-monastery.jpg" align="center" %}
 
