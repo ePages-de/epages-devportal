@@ -24,14 +24,14 @@ The conditions for our two intensive days of workshops were simply fantastic.
 The housing next to the monastery was really beautiful, the staff was very cordial and courteous, and not to forget: the wine house!
 So, especially for "UX evangelists", the monastery is definitely the place to be for training sessions 😇.
 
-A special thanks goes to Ludwig Fichte, Senior User Researcher at [SAP SE](https://www.sap.de){:target="_blank"}.
+A special thanks goes to Ludwig Fichte, Senior User Researcher at [SAP SE](https://www.sap.com/index.html){:target="_blank"}.
 He headed us competently through the days and moderated between the workshops.
 
 {% image_lightbox image="/assets/img/pages/blog/images/winter-school-monastery.jpg" align="center" %}
 
 ## It's all about the right mix of methods
 
-Maria Händler, UX Consultant at [m-pathy GmbH](https://www.m-pathy.com/de/){:target="_blank"}, made the glorious start.
+Maria Händler, UX Consultant at [m-pathy GmbH](https://www.m-pathy.com/en/){:target="_blank"}, made the glorious start.
 She introduced us to the topic of **Live User Tracking**.
 Although many people might assume, this is not about simply reading out click counts ☝️.
 The secret lies in the right mix of quantitative and qualitative methods!
@@ -46,7 +46,7 @@ As our devs at ePages are currently working on implementing user tracking in our
 {% image_lightbox image="/assets/img/pages/blog/images/winter-school-notes.jpg" align="center" %}
 
 
-Kilian Jäger, Senior Usability Engineer at [1&1 Telekom GmbH](https://1und1.de/){:target="_blank"}, continued with a workshop about **Service Design Thinking**.
+Kilian Jäger, Senior Usability Engineer at [1&1 Telekom GmbH](https://www.1and1.com/){:target="_blank"}, continued with a workshop about **Service Design Thinking**.
 Although the first hype about design thinking seems to be almost cooled down, it is still highly topical and immensely useful - not only in the daily work as a UX Manager.
 This workshop impressively demonstrated how a vague idea can turn into a cool and innovative product vision, by simply using the right mix of methods.
 In our case, this mix consisted of an _experience interview_, the development of a _persona_, sketching a _customer journey map_, _brainstorming_ and formulating a _design challenge_.
