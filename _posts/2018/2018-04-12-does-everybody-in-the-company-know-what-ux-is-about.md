@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do you know what User Experience is about?
+title: Does everybody in the company know what UX is about?
 date: 2018-04-12
 header_image: public/ux-manager.jpg
 category: on-the-job
@@ -38,15 +38,14 @@ For optimum product placement, they also talk a lot with Marketing and Sales, as
 ## Embracing change.. ugh.. challenges
 
 I have a gut feeling that collaborating with so many different departments is not always rose-colored.
-And the ladies confirmed it: doing the groundwork for so many different teams makes it hard to keep up in terms of communication, accompanying the UX processes, and being agile.
+And the ladies confirm it: doing the groundwork for so many different teams makes it hard to keep up in terms of communication, accompanying the UX processes, and being agile.
 UXers have so many awesome ideas that can make our customer's heart skip a beat.
 But putting these ideas into practice is quite challenging, as it has to be aligned with other company priorities and resource planning.
 
 ## There is nothing like usability
 
 I grin, because besides this, I totally feel that they're in love with what they are able to create.
-And when I directly ask them, what UX means to them, Anja and Lena unanimously answered:
-"The key for user experience is usability."
+And when I directly ask them, what UX means to them, the unanimous answer is: "The key for user experience is usability."
 
 Let's talk facts: UX goes far beyond that.
 For our UX Managers, the aim of UX is to make the moment of use special.
@@ -69,7 +68,10 @@ But in general, it matches with the common psychological and cognitive requireme
 ## Hand on heart
 
 From what I learnt during the talk with our UX ladies, I doubt that everybody in the company knows, what UX is about.
-
-They definitely got me interested.
+Our UX Managers definitely got **me** interested.
 And I want to know more about user experience.
+About their daily working routine.
+And which tools they work with.
+I will share it with you.
+Soon.
 Stay tuned.
