@@ -9,7 +9,7 @@ So, this is also the right repo in case you want to write a new blog post for ou
 This project comprises different licenses. The editorial content in the folders
 
 * assets/img/pages/headers/public,
-* assets/img/pages/index,
+* assets/img/pages/common,
 * posts/,
 * beyond-essence,
 
@@ -22,7 +22,6 @@ The content in the folders
 * assets/img/pages/headers/private,
 * assets/img/pages/blog/images,
 * assets/img/pages/jobs,
-* data,
 * resources
 
 may not be shared or adapted.
