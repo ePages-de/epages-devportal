@@ -17,14 +17,11 @@ And what is it that makes UX such a buzzword these days?
 
 ## Where it all begins
 
-Our Usability Expert Anja holds a Master in Media and Communication Science.
-This course of studies has many interfaces with UX, e.g. psychology or design, but also sets great focus on user research.
-It also covers a broad spectrum of human-machine interaction topics, and combines content from the fields of economic sciences and law.
+Our UX experts Anja and Lena studied two pretty different programs: [Media and Communication Science](https://www.tu-ilmenau.de/studieninteressierte/en/fields-of-study/master/media-and-communication-science-ma/){:target="_blank"} and [Information Science](https://www.uni-hildesheim.de/studium/studienangebot/masterstudium/internationales-informationsmanagement-informationswissenschaft-master-of-arts-ma/){:target="_blank"}. But in fact, as the girls affirm, the programs have two major things in common:
 
-Also for Lena, our UX Manager, interdisciplinary orientation was key in her studies.
-She has a Master in Information Science.
-The content of her study courses is also very varied: linguistics, communication, online marketing, human-machine interaction, computer science...
-Being a bit worried about what to do with all these different areas, the professors always reassured them "Don't worry. You will be the perfect interface!"
+* Settled in Ilmenau and Hildesheim, you can study them in two of the smallest and most adorable student towns in Germany (This is, of course, an almost neutral judgement).
+* Both programs have a highly interdisciplinary focus. The students learn diverse topics from, e.g. linguistics to economics or technology and thus have a broad background. The professors always preached “Don’t worry. You will be the perfect interface!” And they were right…
+
 
 ## Talking about interfaces
 
