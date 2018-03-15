@@ -6,16 +6,7 @@ In order to write a blog post for the DevBlog, we've collected all required info
 
 ## License
 
-This project comprises different licenses. The editorial content in the folders
-
-* assets/img/pages/headers/public,
-* assets/img/pages/common,
-* posts/,
-* beyond-essence,
-
-and the related .html files are licensed under CC-BY-4.0.
-
-The content in the folders
+This project comprises different licenses. The content in the folders
 
 * assets/img/logos/,
 * assets/img/pages/about,
@@ -24,7 +15,15 @@ The content in the folders
 * assets/img/pages/jobs,
 * resources
 
-may not be shared or adapted.
+may not be shared or adapted.  
 
-The different fonts in the assets/fonts folder are licensed under their own respective licenses.  
-All other content is licensed under MIT.
+The different fonts in the assets/fonts folder are licensed under their own respective licenses.
+
+The content in the folders
+
+* assets/img/pages/headers/public,
+* assets/img/pages/common,
+* posts/,
+* beyond-essence,
+
+the related .html files, and all other content is licensed under CC-BY-4.0.
