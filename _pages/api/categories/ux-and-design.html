@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /api/blog/ux-and-design/
+pagination:
+  enabled: true
+  category: ux-and-design
+---
+
+{
+  "posts": "{%- for post in paginator.posts -%}
+    {%- capture posts_html -%}
+      {% include components/post-card.html
+                 category=post.category
+                 header_image=post.header_image
+                 title=post.title
+                 authors=post.authors
+                 date=post.date
+                 url=post.url %}
+    {%- endcapture -%}
+    {{ posts_html | strip_newlines }}
+  {%- endfor -%}",
+  "next_page": {% if paginator.next_page %}"{{ paginator.next_page_path | xml_escape }}"{% else %}null{% endif %}
+}
