@@ -40,6 +40,8 @@
       {% assign other_post = site.categories['coding'][0] %}
     {% when 'techcomm-and-socialmedia' %}
       {% assign other_post = site.categories['tech-stories'][0] %}
+    {% when 'ux-and-design' %}
+      {% assign other_post = site.categories['methods-and-tools'][0] %}
   {% endcase %}
 
   {% if next_post %}
