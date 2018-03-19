@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do YOU know what UX is about?
-date: 2018-04-12
+date: 2018-03-20
 header_image: public/ux-manager.jpg
 category: on-the-job
 tags: ["ux", "usability", "ecommerce"]
@@ -20,10 +20,11 @@ And what is it that makes UX such a buzzword these days?
 Our UX experts Anja and Lena studied two pretty different programs: [Media and Communication Science](https://www.tu-ilmenau.de/studieninteressierte/en/fields-of-study/master/media-and-communication-science-ma/){:target="_blank"} and [Information Science](https://www.uni-hildesheim.de/studium/studienangebot/masterstudium/internationales-informationsmanagement-informationswissenschaft-master-of-arts-ma/){:target="_blank"}.
 But I learnt that the programs have two major things in common:
 
-* If it's either Ilmenau or Hildesheim: you can study the programs in two of the smallest and most adorable student towns in Germany. (This is, of course, an almost neutral judgement.)
+* If it's either Ilmenau or Hildesheim: you can study the programs in two of the smallest and most adorable student towns in Germany.
+(This is, of course, an almost neutral judgement.)
 * Both programs have a highly interdisciplinary focus.
-The students learn diverse topics from, e.g. linguistics to economics or technology, and thus have a broad background.
-Being a bit overwhelmed with what to do with all these different areas, the professors always reassured them "Don't worry. You will be the perfect interface!"The professors always preached “Don’t worry. You will be the perfect interface!”
+The students tackle diverse topics from, e.g. linguistics to economics or technology, and thus have a broad background.
+Being a bit overwhelmed with what to do with all these different areas, the professors always reassured them "Don't worry. You will be the perfect interface!"
 
 ## Talking about interfaces
 
@@ -41,7 +42,7 @@ For optimum product placement, they also talk a lot with Marketing and Sales, as
 I have a gut feeling that collaborating with so many different departments is not always rose-colored.
 And the ladies confirm it: doing the groundwork for so many different teams makes it hard to keep up in terms of communication, accompanying the UX processes, and being agile.
 UXers have so many awesome ideas that can make our customer's heart skip a beat.
-But putting these ideas into practice is quite challenging, as it has to be aligned with other company priorities and resource planning.
+But putting these ideas into practice is quite challenging, as it has to be aligned with other company priorities and resource planning as well.
 
 ## There is nothing like usability
 
@@ -51,7 +52,8 @@ And when I directly ask them, what UX means to them, the unanimous answer is: "T
 Let's talk facts: UX goes far beyond that.
 For our UX Managers, the aim of UX is to make the moment of use special.
 Our customers should enjoy using our product, they should be able to work with it in a focused and goal-oriented manner without having the product itself blocking them.<br>
-Their statement is pretty clear: everybody should create user-friendly products. And: don't just develop the product further, but also it's experience.
+Their statement is pretty clear: everybody should create user-friendly products.
+And: don't just develop the product further, but also it's experience.
 
 My bottom line: if you have UXers in the company, your product gets the icing on the cake.
 If you don't have UXers, you don't even have a tasty cake at all 😉.
@@ -66,14 +68,15 @@ For example, you expect the cart in an online shop always at the top right.
 
 I also learn, that we face a special setup at ePages: two target groups are involved.
 The merchant, who works with the software, and their customers, who shall buy in the actual online shop.
+Thus, our UX Managers always have to take both sides of the coin into account.
 
 ## Hand on heart
 
 From what I learnt during the talk with our UX ladies, I doubt that everybody - even in our company - knows, what UX is about.
 As for me, our UX Managers definitely got me interested.
 About their daily working routine.
-Or which tools they work with.
-And what else comes to my mind.
+And which tools they work with.
+Or how they create UX concepts.
 We will share it with you.
 Soon.
 Stay tuned.
