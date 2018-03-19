@@ -3,7 +3,7 @@ layout: post
 title: Do YOU know what UX is about?
 date: 2018-03-20
 header_image: public/ux-manager.jpg
-category: on-the-job
+category: ux-and-design
 tags: ["ux", "usability", "ecommerce"]
 authors: ["Birgit"]
 ---
