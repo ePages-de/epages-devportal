@@ -11,7 +11,7 @@ authors: ["Birgit"]
 Phew.
 I didn't.
 Until now.
-I was curious, so I met for a coffee with our UX Managers here at ePages.
+I was curious, so I met for a coffee with our UX experts here at ePages.
 Where did they get their superpower?
 And what is it that makes UX such a buzzword these days?
 
@@ -24,6 +24,7 @@ But I learnt that the programs have two major things in common:
 (This is, of course, an almost neutral judgement.)
 * Both programs have a highly interdisciplinary focus.
 The students tackle diverse topics from, e.g. linguistics to economics or technology, and thus have a broad background.
+
 Being a bit overwhelmed with what to do with all these different areas, the professors always reassured them "Don't worry. You will be the perfect interface!"
 
 ## Talking about interfaces
@@ -33,7 +34,7 @@ It's a hell of a lot - if not all.
 Anja and Lena both belong to the Product Management team.
 Sure thing, they are involved in shaping the product strategy.
 This also comprises making Product Managers and Product owners aware of the next steps and decisions, particularly with regard to user requirements.<br>
-And of course, they have a core functionality within the Research and Development team, which means supporting all software development teams.
+And of course, they have a core functionality within the Research and Development team, which means supporting all software development teams with UI concepts and usability tests.
 Here, the core is developing UX concepts, and supporting the design and implementation of these concepts.
 For optimum product placement, they also talk a lot with Marketing and Sales, as well as with Customer Support and Service Center to manage and include customer feedback.
 
@@ -50,7 +51,7 @@ I grin, because besides this, I totally feel that they're in love with what they
 And when I directly ask them, what UX means to them, the unanimous answer is: "The basis for a good UX is usability - the ease of use of a product."
 
 Let's talk facts: UX goes far beyond that.
-For our UX Managers, the aim of UX is to make the moment of use special.
+For our UX experts, the aim of UX is to make the moment of use special.
 Our customers should enjoy using our product, they should be able to work with it in a focused and goal-oriented manner without having the product itself blocking them.<br>
 Their statement is pretty clear: everybody should create user-friendly products.
 And: don't just develop the product further, but also it's experience.
@@ -68,15 +69,15 @@ For example, you expect the cart in an online shop always at the top right.
 
 I also learn, that we face a special setup at ePages: two target groups are involved.
 The merchant, who works with the software, and their customers, who shall buy in the actual online shop.
-Thus, our UX Managers always have to take both sides of the coin into account.
+Thus, our UX experts always have to take both sides of the coin into account.
 
 ## Hand on heart
 
 From what I learnt during the talk with our UX ladies, I doubt that everybody - even in our company - knows, what UX is about.
-As for me, our UX Managers definitely got me interested.
+As for me, our UXers definitely got me interested.
 About their daily working routine.
 And which tools they work with.
 Or how they create UX concepts.
-We will share it with you.
+I will find out more and share it with you.
 Soon.
 Stay tuned.
