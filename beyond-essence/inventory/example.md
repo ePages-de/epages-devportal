@@ -6,14 +6,14 @@ background_image: index.jpg
 ---
 General description of the inventory element with focus on the purpose of the element.
 
-## Usage & types
+## Use cases
 
 ## Structure
 
-## Placement
+## Position
 
 ## Behavior
 
-## Copy rules
+## Copy writing
 
 ## Design
