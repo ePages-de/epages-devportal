@@ -5,40 +5,63 @@ title: Toast messages
 background_image: index.jpg
 ---
 {% image_custom image="/assets/img/pages/essence/example_toasts.png" width="30" align="right" %}
-Toast messages provide brief feedback about an action through a message at the upper right corner of the screen.
+Toast messages briefly provide feedback about an action through a short message.
+Merchants are quickly informed about important actions that they or the system performed.
 
-## Usage
-In the Beyond cockpit toast messages are used for four use cases:
+## Use cases
 
-* **Success**, e.g. "Product created"
-* **Information**, e.g. "Incoming order"
-* **Warning**, e.g.  
-* **Error**, e.g. "No network connection"
+In the Beyond cockpit we provide three types of toast messages:
 
+* Success. Appears if an action or operation was successfully completed.
+* Information. Appears if an event occurred.
+* Error. Appears in case of errors. 
 
+{% image_custom image="/assets/img/pages/essence/toast_structure.png" width="30" align="right" %}
 ## Structure
-Toast messages always contain an icon, indicating the message type, and a short sentence stating the feedback for the users.
-A toast message may contain a single action, e.g. "Open".
 
+Toast messages are characterized by the following elements:
+
+* an icon indicating the message type
+* a short sentence stating the feedback for the merchant
+* optional: the next action.
+
+## Position
+
+Toast messages appear at the upper right corner of the screen.
+{% image_custom image="/assets/img/pages/essence/notification_success.gif"  width="50" %}
 
 ## Behavior
-{% image_custom image="/assets/img/pages/essence/notification_success.gif" width="50" %}
 
-* Toast messages swipe in from the right to the left.
-* Multiple toast messages are displayed below each other.
+* Toast messages fly into the screen from the right side.
+* Multiple toast messages are displayed one below the other.
 
-Depending on the type of message, the notification disappear automatically or need to be closed by the merchant.
+Depending on the type of message, notifications disappear automatically or have to be actively closed by the merchant.
 
 * Success messages automatically disappear after XX seconds.
-* Information messages do not disappear automatically, but need to be closed by the merchant.
-* Error messages are shown until the error has been resolved.
+* Information messages automatically disappear after XX seconds.
+* Error messages are displayed until the error has been resolved.
 
 
-## Wording guidelines
-### Body text
-Use dots for whole sentences incl. at least subject, predicate, object
+## Copy writing
 
-### Call-to-action links
-Be as precise as possible (Do not always use the verb save, but rather create/update)
+Reduced and efficient.
 
-## Design guidelines
+* Concise. Keep the content short and sweet.
+* Precise. Put your message in a nutshell.
+* Neutral. Get the message across in a factual, but not emotional style.
+
+```
+Product created | Create next
+Incoming order | View
+No network connection
+```
+
+Exception: In case merchants have been through more complex configuration steps, reward them with a positive tone.
+
+```
+Congrats! Successfully connected with Google Shopping.
+```
+
+## Design
+
+Coming soon.
