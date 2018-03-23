@@ -24,6 +24,6 @@ The content in the folders
 * assets/img/pages/headers/public,
 * assets/img/pages/common,
 * posts/,
-* beyond-essence,
+* beyond-essence
 
-the related .html files, and all other content is licensed under CC-BY-4.0.
+the related .html files, and all other content is licensed under [CC-BY-4.0](/LICENSE-CC-BY-40.txt).
