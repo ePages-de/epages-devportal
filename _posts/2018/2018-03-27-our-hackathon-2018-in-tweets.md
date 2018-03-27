@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "The ePages hackathon in tweets"
+title: "Our hackathon 2018 in tweets"
 date: 2018-03-27
 header_image: private/hackathon-2018.jpg
 category: events
 header_position: center
 header_overlay: true
-tags: ["hackathon", "api", "raml"]
+tags: ["hackathon", "api", "raml" "spring"]
 authors: ["Birgit"]
 ---
 
