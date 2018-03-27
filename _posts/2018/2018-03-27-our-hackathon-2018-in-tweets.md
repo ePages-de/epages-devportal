@@ -6,7 +6,7 @@ header_image: private/hackathon-2018.jpg
 category: events
 header_position: center
 header_overlay: true
-tags: ["hackathon", "api", "raml" "spring"]
+tags: ["hackathon", "api", "raml", "spring"]
 authors: ["Birgit"]
 ---
 
