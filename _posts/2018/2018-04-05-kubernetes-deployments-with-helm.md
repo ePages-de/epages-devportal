@@ -1,21 +1,23 @@
 ---
 layout: post
-title: Kubernetes Deployments with Helm, part 1
+title: Kubernetes Deployments with Helm - Basic features
 date: 2018-04-05
-header_image: public/helm-header.png
+header_image: public/helm-header.jpg
 header_position: center
+header_overlay: true
 category: tech-stories
 tags: ["kubernetes", "helm", "cloud"]
-authors: ["Dirk Jablonski"]
+authors: ["Dirk"]
 ---
 
 [Kubernetes](https://kubernetes.io){:target="_blank"} is a great tool for orchestrating all your containers in a 
-microservices based application, but managing all the YAML files (generically called *manifests* in the following) 
-for deployments, configmaps, secrets, services etc. can quickly turn into a nightmare.
+microservices-based application.
+But managing all the YAML files (generically called *manifests* in the following) for deployments, configmaps, secrets, 
+services etc. can quickly turn into a nightmare.
 
 This is the point at which *[Helm](https://helm.sh){:target="_blank"}*, which calls itself "the package manager for 
-Kubernetes", comes to the rescue.
-In this first part of a nulti-part blog post series, you'll be introduced to the basic features & benefits of Helm.
+Kubernetes", comes to your rescue.
+In this first part of a multi-part blog post series, you'll be introduced to the basic features & benefits of Helm.
 
 ## What does Helm do?
 
@@ -26,15 +28,15 @@ Charts bundle together the different manifest files that are required to deploy 
 * `deployment.yaml`
 * `service.yaml`
 
-Instead of just bundling those manifest files in a package, with Helm you create *templates* within the chart, which are
+Instead of just bundling those manifest files in a package, Helm enables you to create *templates* within the chart, which are
 combined with *default values* from a file called `values.yaml`, and, optionally, additional values provided at
 installation time of the chart.
 
 Like every good package manager, Helm also provides the functionality to *install*, *upgrade* and *delete* charts.
-When installing a chart into your Kubernetes cluster, you create a *release*. This is different from other package
-managers you might be familiar with, e.g. `apt` or `dnf`, but looking at the use case, it totally fits.
-When installing a `.deb` on your machine, you definitely want this package to exist only once on your machine.
-Installating an application like MySQL into your Kubernetes cluster, it's not rare that you want to install multiple
+By installing a chart into your Kubernetes cluster, you create a *release*.
+This is different from other package managers you might be familiar with, e.g. `apt` or `dnf`, but looking at the use case, it totally fits.
+When installing a `.deb` locally, you definitely want this package to exist only once on your machine.
+Installating an application like MySQL into your Kubernetes cluster, it's not uncommon that you want to install multiple
 instances in parallel, each with a different configuration.
 Here, multiple releases created from the same chart, but with different values applied to the templates, solve the
 problem easily.
@@ -47,11 +49,11 @@ The first is to utilize *community charts*, i.e. charts made publicly available 
 [MySQL](https://github.com/kubernetes/charts/tree/master/stable/mysql){:target="_blank"},
 [Prometheus](https://github.com/kubernetes/charts/tree/master/stable/prometheus){:target="_blank"} or
 [Jenkins](https://github.com/kubernetes/charts/tree/master/stable/jenkins){:target="_blank"}.
-When using these charts, you get a quick start to using these application within your cluster, ofter with sophisticated
-configuration options like clustering etc.
+These charts enable a quick start to using these application within your cluster, often with sophisticated configuration options
+like clustering etc.
 
-The second use case (and the one we at ePages mostly focus on) is to manage your own applications, for example we manage
-all of our microservice deployments with Helm charts.
+The second use case (and the one we at ePages mostly focus on) is to manage your own applications.
+For example we manage all of our microservice deployments with Helm charts.
 In this use case, you create your own charts for your own, mostly internal applications, but still benefit from the
 templating, value-override and installation features.
 
@@ -62,7 +64,7 @@ called `helm`, and a server-side component called `tiller`, which lives within y
 
 ### Installation
 
-To get started, simply download hte latest Helm release from 
+To get started, simply download the latest Helm release from 
 [GitHub](https://github.com/kubernetes/helm/releases){:target="_blank"}.
 Unpack the archive and add the `helm` binary to your `PATH`, and you're ready to go.
 
@@ -91,9 +93,9 @@ With this command, you create a release named `my-release` using version `0.8.4`
 repository with the alias `stable`.
 If you leave out the `--name` parameter, Helm will give your release a random name, which is nice for playing around,
 but definitely not something you want to use in production.
-The `version` parameter also be left out, and it will automatically pick the latest available version (it was only
+When leaving out the `version` parameter, Helm will automatically pick the latest available version (it was only
 included in this example to support the *upgrade* in the next section).
-The chart repository `stable` has automatically been added to your local configuration the you ran "`helm init`".
+The chart repository `stable` has automatically been added to your local configuration when you ran "`helm init`".
 
 Congratulations, you just installed [Grafana](https://grafana.com/){:target="_blank"} into your cluster with a single 
 command! You can check the result with
@@ -105,8 +107,8 @@ kubectl get pods
 
 ### Upgrading a Release
 
-We just installed version `0.8.4` of the `grafana` chart, but as of the time of writing, the latest release is `0.8.5`.
-So let's upgrade to this version:
+We just installed version `0.8.4` of the `grafana` chart, but as of the time of writing, the latest release is `0.8.5`, let's
+upgrade to this version:
 
 ```
 helm upgrade --version 0.8.5 my-release stable/grafana
@@ -133,7 +135,7 @@ Now that you've played around a bit with Helm and created your first release, it
 Let's have a closer look at what a chart actually is.
 
 Technically, a chart is just a gzipped tar file containing a few mandatory, some optional standard files plus, also
-optionlly, additional custom files.
+optional, additional custom files.
 
 The best way to start is looking at a simple example, which you can easily create yourself using the following command:
 
@@ -170,21 +172,21 @@ version: 0.1.0
 ```
 
 The `apiVersion` is currently always fixed to `v1`.
-The `description` and `name` properties are pretty self-explaining, as the `version`.
+The `description` and `name` properties are pretty self-explaining, as well as the `version`.
 Versions of Helm charts mandatorily need to follow the [SemVer 2](https://semver.org/){:target="_blank"} specification, i.e.
 they must consist of a `MAJOR`, `MINOR` and `PATCH` version part, delimited by dots.
 An additional pre-release version, e.g. `rc1` could also be appended with a dash (`-`).
 Although SemVer versions can also include even more information (e.g. build info), those are not considered when
 determining version ordering.
 
-In addition to the above properties which are mandatory, the `Chart.yaml` could contain an arbitrary number of
+In addition to the above mentioned ones, which are mandatory, the `Chart.yaml` could contain an arbitrary number of
 additional properties, some pre-defined, and whatever custom properties you need to describe your chart. Have a look at
 the [docs](https://docs.helm.sh/developing_charts/#charts){:target="_blank"} for a detailed list of standard properties.
 
 ### The charts folder
 
 Charts can depend on other charts, i.e. include their templates and inherit from them.
-When you use these dependencies, the charts your currrent chart depends upon will be placed in the `charts` folder,
+When you use these dependencies, the charts your current chart depends upon, will be placed in the `charts` folder,
 either automatically, when using Helm's dependency management, or manually by the chart developer.
 
 We'll leave this topic out for the moment, and have a slightly closer look at it below when discussing the
@@ -215,22 +217,22 @@ Let's have a look at one of the helpers generated by default as an example:
 ```
 
 You can use the template function defined here in any manifest template you create, which highly reduces duplication.
-Please don't care about the syntax too much for now, as we will have a much closer look at it in the next part.
+Please don't care too much about the syntax for now, as we will have a much closer look at it in the next part.
 
 The already mentioned `NOTES.txt` file is used for documentation purposes.
 It can contain template expressions and will be rendered to the command line after you installed the chart into your
 cluster.
-Its purpose is to help the users of your chart find their way through the installed artifacts, and tell them how to
+Its purpose is to help the users of your chart to find their way through the installed artifacts, and tell them how to
 use them.
 
 ### values.yaml
 
 The `values.yaml` in your chart is the second mandatory file.
-It contains the default values to be used in your templates, so they can be (at least mostly) be rendered without the
+It contains the default values to be used in your templates, so they can (at least mostly) be rendered without the
 need to override values.
 
-The contents of the `values.yaml` is an arbitrary YAML structure, which you can define however you want, although there
-are some advices on how to structure them for ease of use that will will see in the next blog post.
+The content of the `values.yaml` is an arbitrary YAML structure, which you can define however you want, although there
+are some advices on how to structure them for ease of use that you will see in the next blog post.
 
 ```yaml
 # Default values for my-example-chart.
@@ -253,7 +255,7 @@ service:
 When your chart gets more complicated, or the application you want to deploy consists of multiple components, then
 it's time for a `requirements.yaml`.
 This file contains a list of other charts on which your chart depends.
-Let's have a look at dependencies are described in the file:
+Let's have a look at how dependencies are described in the file:
 
 ```yaml
 dependencies:
@@ -267,29 +269,26 @@ dependencies:
 
 In this case, our application consists of at least two parts: an Apache web server, which will be deployed using the
 defined chart in version `1.2.3`, and a MySQL database, using the corresponding chart in version `3.2.1`.
-They are downloaded form different chart repositories, the first one defined by the actual URL, the second one by an
+They are downloaded from different chart repositories, the first one defined by the actual URL, the second one by an
 alias `stable`, which you can define using the `helm repo` commands (see `helm repo --help` for details).
-
-Once again, for more details on how dependencies work on how you could utilize them, I referring you to one of the next
-parts, as this post is already quite lengthy.
 
 ### Other optional files
 
-On top of the files and folders discussed so far, a chart can also contain aditional files.
+On top of the files and folders discussed so far, a chart can also contain additional files.
 Two of them can be considered "optional standard files" for documentation, and these are:
 
-Filename    | Description
+File name   | Description
 ------------|------------
 `LICENSE`   | A plain text file containing the license for the chart
 `README.md` | A human-readable README file
 
-Furthermore, you can also add any other files you need, e.g. files containing static data to be used within your
+Furthermore, you can also add any other file you need, e.g. files containing static data to be used within your
 templates, although this is (at least in my experience) not a very common requirement.
 
-## Lookout
+## Outlook
 
 So far, we've had a look at the basic features of Helm and got a high-level overview on how it works.
-Also you learned  about the structure of charts and how to create them.
+You also learned about the structure of charts and how to create them.
 The next part of this series will show you how to write templates, how overriding values works, and provide some
 (hopefully) useful tips & tricks.
 
