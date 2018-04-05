@@ -2,19 +2,19 @@
 layout: post
 title: Kubernetes Deployments with Helm, part 1
 date: 2018-04-05
-header_image: public/helm-header.jpg
+header_image: public/helm-header.png
 header_position: center
 category: tech-stories
 tags: ["kubernetes", "helm", "cloud"]
 authors: ["Dirk Jablonski"]
 ---
 
-[Kubernetes](https://kubernetes.io) is a great tool for orchestrating all your containers in a microservices based
-application, but managing all the YAML files (generically called *manifests* in the following) for deployments,
-configmaps, secrets, services etc. can quickly turn into a nightmare.
+[Kubernetes](https://kubernetes.io){:target="_blank"} is a great tool for orchestrating all your containers in a 
+microservices based application, but managing all the YAML files (generically called *manifests* in the following) 
+for deployments, configmaps, secrets, services etc. can quickly turn into a nightmare.
 
-This is the point at which *[Helm](https://helm.sh)*, which calls itself "the package manager for Kubernetes", comes to
-the rescue.
+This is the point at which *[Helm](https://helm.sh){:target="_blank"}*, which calls itself "the package manager for 
+Kubernetes", comes to the rescue.
 In this first part of a nulti-part blog post series, you'll be introduced to the basic features & benefits of Helm.
 
 ## What does Helm do?
@@ -44,9 +44,9 @@ problem easily.
 Speaking of use cases, there are two main usages of Helm charts.
 
 The first is to utilize *community charts*, i.e. charts made publicly available for standard applications like
-[MySQL](https://github.com/kubernetes/charts/tree/master/stable/mysql),
-[Prometheus](https://github.com/kubernetes/charts/tree/master/stable/prometheus) or
-[Jenkins](https://github.com/kubernetes/charts/tree/master/stable/jenkins).
+[MySQL](https://github.com/kubernetes/charts/tree/master/stable/mysql){:target="_blank"},
+[Prometheus](https://github.com/kubernetes/charts/tree/master/stable/prometheus){:target="_blank"} or
+[Jenkins](https://github.com/kubernetes/charts/tree/master/stable/jenkins){:target="_blank"}.
 When using these charts, you get a quick start to using these application within your cluster, ofter with sophisticated
 configuration options like clustering etc.
 
@@ -62,7 +62,8 @@ called `helm`, and a server-side component called `tiller`, which lives within y
 
 ### Installation
 
-To get started, simply download hte latest Helm release from [GitHub](https://github.com/kubernetes/helm/releases).
+To get started, simply download hte latest Helm release from 
+[GitHub](https://github.com/kubernetes/helm/releases){:target="_blank"}.
 Unpack the archive and add the `helm` binary to your `PATH`, and you're ready to go.
 
 For the installation of `tiller`, you need a running Kubernetes cluster and a `KUBE_CONFIG` pointing to the cluster you
@@ -94,8 +95,8 @@ The `version` parameter also be left out, and it will automatically pick the lat
 included in this example to support the *upgrade* in the next section).
 The chart repository `stable` has automatically been added to your local configuration the you ran "`helm init`".
 
-Congratulations, you just installed [Grafana](https://grafana.com/) into your cluster with a single command! You can
-check the result with
+Congratulations, you just installed [Grafana](https://grafana.com/){:target="_blank"} into your cluster with a single 
+command! You can check the result with
 
 ```
 helm list
@@ -170,15 +171,15 @@ version: 0.1.0
 
 The `apiVersion` is currently always fixed to `v1`.
 The `description` and `name` properties are pretty self-explaining, as the `version`.
-Versions of Helm charts mandatorily need to follow the [SemVer 2](https://semver.org/) specification, i.e. they must
-consist of a `MAJOR`, `MINOR` and `PATCH` version part, delimited by dots.
+Versions of Helm charts mandatorily need to follow the [SemVer 2](https://semver.org/){:target="_blank"} specification, i.e.
+they must consist of a `MAJOR`, `MINOR` and `PATCH` version part, delimited by dots.
 An additional pre-release version, e.g. `rc1` could also be appended with a dash (`-`).
 Although SemVer versions can also include even more information (e.g. build info), those are not considered when
 determining version ordering.
 
 In addition to the above properties which are mandatory, the `Chart.yaml` could contain an arbitrary number of
 additional properties, some pre-defined, and whatever custom properties you need to describe your chart. Have a look at
-the [docs](https://docs.helm.sh/developing_charts/#charts) for a detailed list of standard properties.
+the [docs](https://docs.helm.sh/developing_charts/#charts){:target="_blank"} for a detailed list of standard properties.
 
 ### The charts folder
 
