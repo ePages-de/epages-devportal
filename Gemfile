@@ -18,5 +18,3 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin', '2.0.0'
   gem 'jekyll-paginate-v2', '1.9.0'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
