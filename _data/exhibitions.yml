@@ -1,23 +1,30 @@
-- title: WebAPI Meetup - RAML with Spring REST Docs
-  description: We are hosting this event.
-  link:
-  date: 27. Feb 2018
-  time: '18:30'
-  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
-
-- title: Kubernetes / Cloud Native Meetup
-  description: We are hosting this event.
-  link:
-  date: 08. Mar 2018
-  time: '18:00'
-  address: ePages GmbH<br>Holstenwall 5<br>20355 Hamburg
+- title: IT KOM
+  description: We are participating in this event.
+  link: https://www.ai.fh-erfurt.de/itk/
+  date: 26. Apr 2018
+  time: '9:30 - 14:30'
+  address: FH Erfurt<br>Haus 8<br>Altonaer Straße 25<br>99085 Erfurt
 
 - title: Ruby Unconference
   description: We are sponsoring this event.
   link: http://rubyunconf.eu/
   date: 5. - 6. May 2018
   time:
-  address: Hamburg
+  address: HAW Hamburg<br>Finkenau 35<br>22081 Hamburg
+
+- title: Karrieremesse Hochschule Schmalkalden
+  description: We are participating in this event.
+  link: http://www.karrieremesse-schmalkalden.de/
+  date: 15. May 2018
+  time: '11:00 - 16:00'
+  address: Hochschule Schmalkalden<br>Blechhammer 5-9<br>98574 Schmalkalden
+
+- title: Stellenwerk Jobmesse
+  description: We are participating in this event.
+  link: https://www.uni-hamburg.de/career-center/unternehmen/stellenwerk-jobmesse.html
+  date: 16. May 2018
+  time:
+  address: Universität Hamburg<br>Edmund-Siemers-Allee 1<br>20146 Hamburg
 
 - title: Spring I/O 2018
   description: We are participating in this event.
@@ -26,9 +33,44 @@
   time:
   address: Palau de Congressos<br>Avinguda de la Reina Maria Cristina, s/n<br>08004 Barcelona, ES
 
+- title: Firmenkontaktmesse Wedel
+  description: We are participating in this event.
+  link:
+  date: 30. May 2018
+  time: '10:00 - 16:00'
+  address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
+
+- title: Firmenkontaktbörse Uni Jena
+  description: We are participating in this event.
+  link: http://www.sft.uni-jena.de/Firmenkontaktboerse.html
+  date: 6. Jun 2018
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Fürstengraben 1<br>07743 Jena
+
+- title: JBCN Conference
+  description: We are participating in this event.
+  link: https://www.jbcnconf.com/2018/
+  date: 11. - 13. Jun 2018
+  time:
+  address: Centro Comercial Heron City<br>Cines Cinesa<br>Passeig d'Andreu Nin, s/n<br>08016 Barcelona
+
 - title: Scrum Alliance Gathering
   description: We are participating in this event.
   link:
   date: 8. - 10. Oct 2018
   time:
   address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
+
+- title: INOVA Ilmenau
+  description: We are participating in this event.
+  link: https://inova-ilmenau.de/inova/
+  date: 23. - 24. Oct 2018
+  time: '10:00 - 16:00'
+  address: TU Ilmenau<br>Ehrenbergstraße 51<br>98693 Ilmenau
+
+- title: Academix Thüringen
+  description: We are participating in this event.
+  link: https://www.thaff-thueringen.de/academix-thueringen
+  date: 1. Dec 2018
+  time: '10:00 - 17:00'
+  address: Messe Erfurt<br>Gothaer Straße 34<br>99084 Erfurt
