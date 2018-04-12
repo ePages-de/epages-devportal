@@ -10,7 +10,7 @@ tags: ["jekyll", "blog", "gem"]
 authors: ["Unai A."]
 ---
 
-As explained on the [Jekyll pagination docs](https://jekyllrb.com/docs/pagination/), the usual way of paginating the posts on your blog is to create different pages (i.e. `/blog/page-1/`, `/blog/page-2/`, ...) and then putting the typical **Next** and **Prev** buttons on those pages to navigate between them. This solution works perfectly but it can be tedious if a visitor wants to check your first blogpost.
+As explained on the [Jekyll pagination docs](https://jekyllrb.com/docs/pagination/){:target="_blank"}, the usual way of paginating the posts on your blog is to create different pages (i.e. `/blog/page-1/`, `/blog/page-2/`, ...) and then putting the typical **Next** and **Prev** buttons on those pages to navigate between them. This solution works perfectly but it can be tedious if a visitor wants to check your first blogpost.
 
 To avoid this situation, on this post you are going to learn how to implement an API with which you can create a JavaScript endless scroll functionality for your blog index page as well as for your category pages. Let's get started.
 
@@ -18,8 +18,8 @@ To avoid this situation, on this post you are going to learn how to implement an
 
 For this tutorial I am using:
 
-* [Jekyll](https://jekyllrb.com/) version 3.7.2
-* [Jekyll Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2) version 1.9.0
+* [Jekyll](https://jekyllrb.com/){:target="_blank"} version 3.7.2
+* [Jekyll Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2){:target="_blank"} version 1.9.0
 
 ## Gem installation and configuration
 
