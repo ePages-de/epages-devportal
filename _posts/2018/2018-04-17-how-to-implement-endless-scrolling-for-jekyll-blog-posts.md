@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Endless scroll for your Jekyll posts
-date: 2018-04-12
+title: How to implement endless scrolling for Jekyll blog posts
+date: 2018-04-17
 header_image: public/endless-scroll-for-jekyll-posts.jpg
 header_position: center
 header_overlay: true
