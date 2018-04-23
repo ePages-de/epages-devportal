@@ -157,16 +157,6 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
           &.custom-image--width-#{$wdth}
             width: unquote("#{$wdth}%")
 
-      &--center
-
-        .custom-image__caption
-          margin-left: $card-margin-mobile
-          margin-right: $card-margin-mobile
-
-          +grid-media($grid-medium)
-            margin-left: $card-margin-desktop
-            margin-right: $card-margin-desktop
-
       &--left
         float: left
         margin-right: $card-margin-mobile
@@ -174,30 +164,12 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
         +grid-media($grid-medium)
           margin-right: 4rem
 
-        .custom-image__caption
-          text-align: left
-          margin-left: $card-margin-mobile
-          margin-right: $card-margin-mobile
-
-          +grid-media($grid-medium)
-            margin-left: $card-margin-desktop
-            margin-right: 4rem
-
       &--right
         float: right
         margin-left: $card-margin-mobile
 
         +grid-media($grid-medium)
           margin-left: 4rem
-
-        .custom-image__caption
-          text-align: right
-          margin-left: $card-margin-mobile
-          margin-right: $card-margin-mobile
-
-          +grid-media($grid-medium)
-            margin-left: 4rem
-            margin-right: $card-margin-desktop
 
       &__image
         width: 100%
@@ -211,7 +183,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       &__caption
         font-size: 1.4rem
         color: $gray-light
-        margin: .5em 0 0
+        margin: .5em $card-margin-mobile 0
 
     .youtube-video
       width: 100%
