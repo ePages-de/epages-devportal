@@ -152,12 +152,12 @@ The emitted log message `fetching tax rates` does not give us enough details abo
 
 In order to attach a debugger to a running microservice, we need to setup our favorite IDE by providing the correct JDWP settings:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea-setup.png" width="50" caption="Setting up debugging" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea-setup.png" width="50" caption="Setting_up_debugging" lightbox %}
 
 When the next request is being served by our microservice, our IDE will automatically interrupt the execution at a breakpoint that we have explicitly provided.
 Now we can step through single lines of code execution in order to inspect runtime variables and find out if our code is already prepared for an upcoming Brexit tax rate change 😉
 
-{% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea.gif"  width="100" caption="Debugging a breakpoint" lightbox  %}
+{% image_custom image="/assets/img/pages/blog/images/blog-debugging-microservices-idea.gif"  width="100" caption="Debugging_a_breakpoint" lightbox  %}
 
 ## The loot of our heist: pearls of wisdom
 
