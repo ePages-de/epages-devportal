@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A day in the life of a UX team
-date: 2018-04-26
+date: 2018-04-27
 header_image: public/ux-day.jpg
 header_overlay: true
 header_position: bottom
@@ -106,4 +106,4 @@ Communication is king in the life of my UX colleagues, and is definitely require
 
 ## Related posts
 
-[Do you know what UX is about](/blog/tech-stories/do-you-know-what-ux-is-about/)
+[Do you know what UX is about](/blog/ux-and-design/do-you-know-what-ux-is-about/)
