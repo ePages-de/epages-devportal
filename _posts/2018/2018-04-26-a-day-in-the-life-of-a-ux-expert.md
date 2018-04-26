@@ -16,12 +16,13 @@ When I learnt what [UX is about](/blog/ux-and-design/do-you-know-what-ux-is-abou
 In a nutshell: there's no average.
 Every day is different.
 Varied and exciting rather than humdrum.
-
 Apart from their morning routine, maybe 😉.
+
+That's why the following just represents an example day in the life of our UX team.
 
 #### 8:00 am
 
-Anja gets herself some water, checks her emails and the team's JIRA board to see what's up for the day.
+Anja gets herself some water, checks her emails as well as the team's JIRA board to see what's up for the day.
 
 #### 8:30 am
 
@@ -29,10 +30,10 @@ Focus time!
 If there's no early UI text session, Anja can concentrate on her scheduled tasks.
 Later in the day this becomes difficult, as colleagues check back on UX concepts, bring up questions, or discuss stuff.
 
-#### 9:25 am
+#### 9:00 am
 
 Lena enters the office.
-She quickly grabs a coffee, and her day shoots off.
+She grabs a coffee, checks her mails, and discusses the tasks for the day with Anja.
 
 #### 9:30 am
 
@@ -42,11 +43,11 @@ Afterwards, they might make some quick arrangements and scheduling together with
 
 #### 9:40 am
 
-The ladies have 20 minutes for alignments or last meeting preparations.
+The ladies have some time for alignments, meeting preparations, and also to focus on tasks.
 
-#### 10:00 am
+#### 11:00 am
 
-Usually, the meeting marathon starts off at 10.
+Usually, the meeting marathon starts off at 11.
 If it's a UX meeting, PM meeting, UI text session, roadmap meetings or development team review - there's no time to breathe until lunch.
 
 #### 12:00 am
@@ -54,11 +55,13 @@ If it's a UX meeting, PM meeting, UI text session, roadmap meetings or developme
 Around 12 am the stomach rumbles.
 Time for a lunch break.
 If the weather is nice, they grab something from one of the many restaurants around and have a picnic in the park or go for a walk.
-If not, our social room is also a great choice for lunch.
+Sometimes they bring their own food and eat in our social room, which is also a great choice for lunch.
 
-But Thursdays are different.
-Anja attends lunch yoga.
-An awesome distraction from the busy morning.
+Thursdays are a bit different.
+Anja attends the yoga session together with many other colleagues.
+Yeah, you've read that right.
+We can show off a bit - we have our private yoga trainer.<br>
+Yoga is an awesome distraction right in the middle of a work day.
 
 #### 1:00 pm
 
@@ -66,7 +69,7 @@ The afternoon starts as varied as the morning.
 If they are lucky, our UX ladies have some focus time for their scheduled tasks.
 Or there are periods, where they have time blockers to plan and conduct usability tests.
 Or they sit together and discuss UX concepts, do research or contextual inquiries.
-If they get stuck on something or need advice, they go over to our designers and ask them to walk through the issue with together.
+If they get stuck on something or need advice, they go over to our designers and ask them to walk through the issue together.
 
 #### 2:00 pm
 
@@ -91,16 +94,15 @@ Every month, this will perhaps be the time to discuss topics to show in their te
 Anja says goodbye, and heads towards the train station to enjoy the evening at home.
 Whereas Lena takes the advantage of the calmer office hours to tackle her scheduled tasks.
 
-#### 7:00 pm
+#### 6:30 pm
 
 Time for Lena to switch the light off and go home.
 
 #### Boring job? No way!
 
-As I said in the teaser, every day is different.
+As I said, every day is different.
 And this makes the job exciting and colorful.
-Communication is king in the life of my UX colleagues.
-And a robust attitude towards meetings, as well as enough patience to survive a meeting marathon week is required on a UXers' set card.
+Communication is king in the life of my UX colleagues, and is definitely required on a UXers' set card together with creativity and open-mindedness.
 
 ## Related posts
 
