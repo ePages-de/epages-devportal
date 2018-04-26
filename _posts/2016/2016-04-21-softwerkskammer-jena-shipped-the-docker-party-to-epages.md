@@ -100,6 +100,6 @@ PS: The Docker shirts and stickers finally arrived yesterday after persistent ne
 You may catch yours at the next meetup!
 See you there.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-jenadevs-orga.jpg" width="30" align="left" caption="The orga team" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-jenadevs-orga.jpg" width="30" align="left" caption="The_orga_team" %}
 
-{% image_custom image="/assets/img/pages/blog/images/blog-docker-stickers.jpg" width="30" align="right" caption="The Docker shirts and stickers" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-docker-stickers.jpg" width="30" align="right" caption="The_Docker_shirts_and_stickers" %}
