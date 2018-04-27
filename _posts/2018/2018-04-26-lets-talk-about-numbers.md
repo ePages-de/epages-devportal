@@ -11,4 +11,4 @@ authors: ["Anne", "Christina"]
 ---
 We've recently talked to our software developers, designers, UX experts, technical writers, and scrum masters about stuff we do and like here at ePages. So, here is an authentic impression of who we are and what we stand for:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-survey-results.png" width="100" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-survey-result.png" width="100" %}
