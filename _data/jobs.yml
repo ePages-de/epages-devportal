@@ -1,7 +1,7 @@
-- title: Senior Java Developer
+- title: (Senior) Java Developer
   link: http://www.epages.com/en/career/?jh=2zr2s8sjxdwkvny4wmv8294nn0dc7j3
   description: As a Senior Java Developer based in Hamburg, you will be part of a tight-knit Scrum team working on a microservice-based architecture.
-  location: Hamburg
+  location: Hamburg / Jena
 
 - title: (Senior) JavaScript Engineer
   link: http://www.epages.com/en/career/?jh=0ml7dxc8s5o3bno9e2tfamouig39b86
@@ -13,19 +13,17 @@
   description: As our Process Automation Engineer based in Hamburg, you will be part of a tight-knit Agile Scrum team, who is working on a microservice-based architecture.
   location: Hamburg
 
-- title: UX Designer
-  link: https://www.epages.com/en/career/?jh=r8i5kl3hriex6e5gyr677wmowlyepy2
-  description: As part of our Product Management Team you will be our UX expert. Your focus will be on developing user-friendly interaction concepts.
+- title: User Experience Manager
+  link: https://www.epages.com/de/karriere/jobs/?jh=ljbhczh3vtlrfesk78wunm15ir4nqq9
+  description: Besides developing interaction concepts, you will be the contact for the UX of all products, drive user needs, and ensure the user focus in product strategies.
   location: Hamburg
 
-- title: Ecommerce Developer
-  link: https://www.epages.com/career/jobs/?jh=3guijs41891ppdzqt0u0fhufovetyp7
-  description: As an ecommerce developer based in Jena, you are part of our Scrum team, and responsible for the further development of our ecommerce platform.
-  location: Jena
+- title: Usability Engineer
+  link: https://www.epages.com/de/karriere/jobs/?jh=n0e5bz9kgnh75a6m5urh5fdjutk6dnr
+  description: Based on the results from user research and usability tests you will develop use cases, workflows and wireframes.
+  location: Hamburg
 
-- title: Java Developer
-  link: https://www.epages.com/career/jobs/?jh=bo6dp88of7sn4vuj9cyn2k9vde0v1vh
-  description: As a Java Developer based in Jena you will contribute to plan and implement features for our standard product.
-  location: Jena
-
-
+- title: Ruby Developer
+  link: https://www.epages.com/de/karriere/jobs/?jh=3r12t9pp853d18z17601z39yc7tzgqs
+  description: As part of our small, but vital, Internal Tools team, you are responsible for the further development and maintenance of all of our crucial in-house tools.
+  location: Hamburg
