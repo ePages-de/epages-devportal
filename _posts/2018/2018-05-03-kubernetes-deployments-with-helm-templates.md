@@ -60,7 +60,7 @@ volumes:
     secretName: {{ .secretName }}
 {{- end }}
 {{- end }}
-{%- endraw %}
+{% endraw %}
 ```
 
 Additionally, there is also a the `with` block, which is about narrowing the scope of the context for better
@@ -76,7 +76,7 @@ strategy:
 revisionHistoryLimit: {{ .revisionHistoryLimit }}
 minReadySeconds: {{ .minReadySeconds }}
 {{- end }}
-{%- endraw %}
+{% endraw %}
 ```
 
 ### Functions
@@ -100,7 +100,7 @@ Here's an example again:
 ```go
 {%- raw %}
 database.readonly: {{ .Values.database.readOnly | default false | quote | base64enc }}
-{%- endraw %}
+{% endraw %}
 ```
 
 ### Checking the results
@@ -144,7 +144,7 @@ In the template, e.g. a `service.yaml`, it would be used like this:
   type: TCP
   name: {{ .name }}
 {{- end }}
-{%- endraw %}
+{% endraw %}
 ```
 
 Now think about how you're going to add a third port in your own chart.
@@ -189,7 +189,7 @@ Your template wil get a little more complex, as you'll need to get access to the
   type: TCP
   name: {{ $key }}
 {{- end }}
-{%- endraw %}
+{% endraw %}
 ```
 
 If you now add your fancy admin port setting in the same way within your chart, like this:
