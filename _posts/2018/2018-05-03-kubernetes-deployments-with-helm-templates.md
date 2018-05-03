@@ -51,6 +51,7 @@ Without going into details, you should know that Go templates provide the typica
 nearly all templating languages: `if / else`, and `range` (loop). Here's a simple example:
 
 ```go
+{% raw %}
 {{- if .Values.deployment.volumes }}
 volumes:
 {{- range .Values.deployment.volumes }}
@@ -59,12 +60,14 @@ volumes:
     secretName: {{ .secretName }}
 {{- end }}
 {{- end }}
+{% endraw %}
 ```
 
 Additionally, there is also a the `with` block, which is about narrowing the scope of the context for better
 readability and more expressive template blocks.
 
 ```go
+{% raw %}
 {{- with .Values.deployment }}
 strategy:
   rollungUpdate:
@@ -73,6 +76,7 @@ strategy:
 revisionHistoryLimit: {{ .revisionHistoryLimit }}
 minReadySeconds: {{ .minReadySeconds }}
 {{- end }}
+{% endraw %}
 ```
 
 ### Functions
@@ -94,7 +98,9 @@ sophisticated transformations.
 Here's an example again:
 
 ```go
+{% raw %}
 database.readonly: {{ .Values.database.readOnly | default false | quote | base64enc }}
+{% endraw %}
 ```
 
 ### Checking the results
@@ -131,12 +137,14 @@ This is the "standard way" you'll find in several examples.
 In the template, e.g. a `service.yaml`, it would be used like this:
 
 ```go
+{% raw %}
 {{- range .Values.ports }}
 - port: {{ .externalPort }}
   targetPort: {{ .internalPort }}
   type: TCP
   name: {{ .name }}
 {{- end }}
+{% endraw %}
 ```
 
 Now think about how you're going to add a third port in your own chart.
@@ -174,12 +182,14 @@ ports:
 Your template wil get a little more complex, as you'll need to get access to the key and the value of the hash:
 
 ```go
+{% raw %}
 {{- range $key, $value .Values.ports }}
 - port: {{ $value.externalPort }}
   targetPort: {{ $value.internalPort }}
   type: TCP
   name: {{ $key }}
 {{- end }}
+{% endraw %}
 ```
 
 If you now add your fancy admin port setting in the same way within your chart, like this:
