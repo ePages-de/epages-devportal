@@ -1,10 +1,3 @@
-- title: IT KOM
-  description: We are participating in this event.
-  link: https://www.ai.fh-erfurt.de/itk/
-  date: 26. Apr 2018
-  time: '9:30 - 14:30'
-  address: FH Erfurt<br>Haus 8<br>Altonaer Straße 25<br>99085 Erfurt
-
 - title: Ruby Unconference
   description: We are sponsoring this event.
   link: http://rubyunconf.eu/
@@ -32,6 +25,13 @@
   date: 24. - 25. May 2018
   time:
   address: Palau de Congressos<br>Avinguda de la Reina Maria Cristina, s/n<br>08004 Barcelona, ES
+
+- title: Elixir Meetup
+  description: We are hosting this event.
+  link: https://www.meetup.com/de-DE/Elixir-Hamburg/events/xhxpkpyxhbmc/
+  date: 29. May 2018
+  time: '18:30'
+  address: ePages GmbH<br>Brahms Kontor<br>Holstenwall 5<br>22355 Hamburg
 
 - title: Firmenkontaktmesse Wedel
   description: We are participating in this event.
