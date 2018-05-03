@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kubernetes Deployments with Helm - Templates & Values
-date: 2018-04-05
+date: 2018-05-03
 header_image: public/helm-header.jpg
 header_position: center
 header_overlay: true
