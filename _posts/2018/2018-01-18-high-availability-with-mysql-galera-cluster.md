@@ -64,3 +64,8 @@ For running Galera Cluster, three or more MySQL nodes with Galera-plugin are rec
 A load balancer will be set between Galera and application to distribute database requests to Galera nodes.
 
 In case of failure on any of the nodes in the cluster, the remaining nodes will keep the cluster running normally, and the application as well as the end customers will live happily ever after.
+
+## Related posts
+
+* [How to install your own Galera Cluster](/blog/tech-stories/how-to-install-your-own-galera-cluster/)
+* [How to migrate data to a Galera Cluster](/blog/tech-stories/how-to-migrate-data-into-a-galera-cluster/)
