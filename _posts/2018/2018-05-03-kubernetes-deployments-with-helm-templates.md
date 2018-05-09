@@ -194,3 +194,7 @@ In this part, we had a quick look at the basics of writing templates for your ch
 The final part of this mini-series, which will be written by my colleague Alex, will cover another interesting topic:
 How to keep your secrets a secret, i.e. managing values for secrets with encryption.
 It's a very interesting topic, so tune in again...
+
+## Related posts
+
+[Kubernetes Deployments with Helm - Basic features](/blog/tech-stories/kubernetes-deployments-with-helm/)

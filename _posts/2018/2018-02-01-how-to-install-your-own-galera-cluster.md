@@ -346,4 +346,5 @@ Once your status looks like the following, you have successfully installed a Gal
 
 ## Related posts
 
-[High availability with MySQL Galera Cluster](/blog/tech-stories/high-availability-with-mysql-galera-cluster/)
+* [High availability with MySQL Galera Cluster](/blog/tech-stories/high-availability-with-mysql-galera-cluster/)
+* [How to migrate data to a Galera Cluster](/blog/tech-stories/how-to-migrate-data-into-a-galera-cluster/)
