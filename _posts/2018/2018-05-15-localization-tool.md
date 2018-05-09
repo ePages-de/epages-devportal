@@ -35,7 +35,8 @@ That's why I asked for the details.
 I was wondering about the translation quality, where all the source texts come from, and how they were maintained.
 As we didn't have a dedicated translation manager - who took care of costs, and 100% matches, or terminology?<br>
 So I talked to process owners, developers, controlling, and any potential stakeholders.
-I managed to get a UX colleague on board, and together we dived deeper into how UI texts and XML files were created, dictionaries were used, learnt about automation scripts, and how language packages were composed.
+I managed to get a UX colleague on board.
+Together we dived deeper into how UI texts and XML files were created, dictionaries were used, learnt about automation scripts, and how language packages were composed.
 Wow!
 That took us quite a while.
 
@@ -43,17 +44,16 @@ That took us quite a while.
 
 (I'll spare you the nitty-gritty details.)
 
+The translation process was perfectly automated, and the workflows were well-established.
+But from a translator's perspective I found that the one or other issue could be optimized.
+
 * The teams were handling XML translation files.
-* The process was pretty much automated - internally.
-* Translation were handled via email.
-* The language for the the source files was German - in a company with international teams.
+* Translations were handled via email.
+* The language for the the source files was German.
 * The translations were processed from German to English, then English to 13 further languages.
 * The whole translation process took about 3 weeks.
 * There were translation dependencies between all teams.
 * The translators did not receive context or reference material for their jobs.
-
-Over the years, nobody complained.
-But then I did 🤔.
 
 ## The fine line
 
@@ -72,13 +72,14 @@ We tried to tackle some issues internally, such as collecting reference material
 And then send it via email to the translation agency.
 We invited the translation agency again, and explained our software in detail as well as recurring translation relevant issues.<br>
 Most of all, we needed to find a solution for the German source files.
-With an international team, it was not possible to make proper German texts available.
-So we came up with the idea to maintain German and English as source files (internal native speakers), and make English the source file for the translation agency.
+With an international team, it was not possible to come up with proper German texts.
+So we came up with the idea to maintain German and English as source files with the help of internal native speakers.
+This way we could make English the source file for the translation agency.
 
 ## The refurbishment phase
 
 Great approaches.
-But after a while it turned out, that all this did not lead to the desired success.
+But after a while it turned out that all this did not lead to the desired success.
 It was simply too much preparation, and overhead work to keep track of all the steps.
 And for an agile software company like ePages, we still needed faster and more efficient translation rounds.
 We needed another solution.
@@ -91,6 +92,6 @@ But it was clear that we wanted this to work.
 
 We knew that besides our main job it was not possible to do a comprehensive research on localization tools.
 But it turned out to be a great task for a master thesis.
-We hired a master student from the field of linguistics and translation.<br>
+We hired a master's student from the field of linguistics and translation.<br>
 What she did for us, she will explain you herself in the next post.
 Stay tuned.
