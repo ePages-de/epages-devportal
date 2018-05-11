@@ -39,15 +39,15 @@ Afterwards, the two conference days followed more or less the same schedule: pre
 - UX Sketching 101 by Fabian
 - The Crystal Language from ~scratch~ ruby by Sérgio Gil
 
-There was also catering during lunch time so we didn't have to find any restaurant near by and, trust me, the food was delicious.
+There was also catering during lunch time so we didn't have to find any restaurant nearby and, trust me, the food was delicious.
 
 ## Party time!
 
 Yes, we are developers, but we also like to party 🎉.
 
-At the end of the first conference day, the event continued at the Bidges & Sons bar on the Reeperbahn strip. There we met a lot of people from different parts of the world. We were having some interesting talks with them over some cocktails.
+At the end of the first conference day, the event continued at the Bidges & Sons bar on the Reeperbahn strip. There, we met a lot of people from different parts of the world. We were having some interesting talks with them over some cocktails.
 
-## Two Unais is not enough
+## Two Unais are not enough
 
 People from our company were surprised when I joined ePages and we became two Unais working in the same team. They haven't heard that name before.
 
