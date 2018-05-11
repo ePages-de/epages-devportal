@@ -31,7 +31,7 @@ Afterwards, the two conference days followed more or less the same schedule: pre
 
 - Background Jobs at Scale by Kerstin Puschke
 - The (even longer) Road from Capistrano to Kubernetes by Tobias Schwab
-- Ruby is Full of Suprises by Jan Lelis
+- Ruby is Full of Surprises by Jan Lelis
 - Property Testing by Ana Maria Martinez Gomez
 - Preconnect, prefetch, preload, pre-what? How to speed up websites with Resource hints by Robin Drexler
 - An MP3 player for very small, small and big kids by Christoph
