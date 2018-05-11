@@ -53,7 +53,7 @@ This means, that these changes are therefore already merged on the master branch
 To apply a fix for the current failure therefore not only includes the required changes but also all changes already merged on the master branch.
 The applying of the fix will be on a fast-lane that is able to overtake all other current builds in the CDP:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-2.png" caption="Fast-Lane_approach" width="100" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-microservices-pipeline-fast-lane-2.png" caption="Fast_Lane_approach" width="100" %}
 
 After successfully passing the acceptance and pre-production stage in the fast-lane, these changes are rolled out to the actual pre-production stage of the CDP.
 To avoid changes of the same service to be rolled out again it is necessary to cancel builds regarding the same microservice the fix was deployed with.
