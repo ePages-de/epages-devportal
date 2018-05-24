@@ -17,15 +17,15 @@ That's where it gets tricky.
 You want to render your first page view on the server (for SEO reasons), and afterwards continue navigation as an SPA on the client.
 This means that you need some kind of synchronization between your client-side routes and your server-side routes.
 Of course you only want to define them once.
-As you only want to write your views once too, you probably end up designing the backend for your frontend (BFF) as some kind of node.js app, since that's the only way to render (and route) your React components.
-Although node.js lets you create apps and APIs pretty fast and straightforward, it lacks concurrency, and proper failover strategies out of the box.
+As you only want to write your views once too, you probably end up designing the backend for your frontend (BFF) as some kind of Node.js app, since that's the only way to render (and route) your React components.
+Although Node.js lets you create apps and APIs pretty fast and straightforward, it lacks concurrency, and proper failover strategies out of the box.
 Moreover, the NPM ecosystem hasn't had the best reputation recently.
 Let's say we want to create a more resilient backend and use Elixir as an example implementation.
 This leaves us with a couple of challenges for our undertaking to be solved.
 
 * Have one place to define our routes used by client and server.
 * Render our react components on client and server.
-* Use something else than node.js on the backend (also because it would be too easy otherwise).
+* Use something else than Node.js on the backend (also because it would be too easy otherwise).
 
 There's some stuff to do.
 So let's go to work, shall we?
@@ -129,9 +129,9 @@ Prepare for some awesomeness.
 ## JSON is your new best friend
 
 Michael Jackson (the react guy, not the pop guy) created a little project called [react-stdio](https://github.com/ReactTraining/react-stdio){:target="_blank"}.
-It let's you render react components by passing the path to the component together with a `props` object via STDIN, and get back the rendered output through STDOUT.
-This lets you use React with every language that can spawn process and communicate through standard streams with a JSON protocol.
-Luckily, [Roman Chvanikov wrote a great article](https://medium.com/@chvanikoff/lets-refactor-std-json-io-e444b6f2c580){:target="_blank"} on the refactoring of [std_json_io](https://github.com/hassox/std_json_io){:target="_blank"}, a convinient library for communicating with an external script.
+It lets you render react components by passing the path to the component together with a `props` object via STDIN, and get back the rendered output through STDOUT.
+This lets you use React with every language that can spawn processes and communicate through standard streams with a JSON protocol.
+Luckily, [Roman Chvanikov wrote a great article](https://medium.com/@chvanikoff/lets-refactor-std-json-io-e444b6f2c580){:target="_blank"} on the refactoring of [std_json_io](https://github.com/hassox/std_json_io){:target="_blank"}, a convenient library for communicating with an external script.
 Via JSON.
 This is no coincidence since `std_json_io` was [originally written for react-stdio](https://evalcode.com/render-react-with-phoenix/){:target="_blank"}.
 
@@ -166,7 +166,7 @@ end
 Instead of just returning our template we're going to return the rendered match of our routing definition.
 For a react-router to be working correctly we only need one prop.
 The current request path.
-We're telling `StdJsonIo` to render our entry point JavaScript (see below), and pass the current location (the request path we got as a prop).
+We're telling `StdJsonIo` to render our entry point JavaScript (see below), and pass the current location (the request path we got as a prop):
 
 ```javascript
 const { createElement: h } = require('react')
@@ -220,4 +220,4 @@ You can find the complete code on [Github](https://github.com/erikmueller/luke){
 
 <br>
 <br>
-Erik Müller is JavaScript Engineer, node.js lover, and Elixir alchemist.
+Erik Müller is JavaScript Engineer, Node.js lover, and Elixir alchemist.
