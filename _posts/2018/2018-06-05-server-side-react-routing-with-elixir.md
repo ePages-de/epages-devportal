@@ -220,4 +220,4 @@ You can find the complete code on [Github](https://github.com/erikmueller/luke){
 
 <br>
 <br>
-Erik Müller is JavaScript Engineer, Node.js lover, and Elixir alchemist.
+Erik Müller is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
