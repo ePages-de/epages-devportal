@@ -98,8 +98,8 @@ Speaking of which... now would be a good time to write that one.
 ## Creating a simple React (frontend) app using react-router
 
 We'll be using react-router v4 for client-side routing.
-It comes with components that let you declaratively define your routes in JSX.
-Since I wanted to keep the boilerplate small, I decided to write the frontend part in vanilla JS instead of using JSX.
+It comes with components that let you declaratively define your routes in JS(X).
+Since I wanted to keep the boilerplate small, I decided to write the frontend part in vanilla JS.
 Consider the following setup:
 
 ```javascript
