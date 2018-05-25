@@ -42,4 +42,4 @@ It was a great time, and I'm looking forward to the next year!
 
 <br>
 <br>
-Oleksandr Vynogradov is software engineer, Kotlin enthusiast, passionate about automation.
+Oleksandr Vynogradov is a software engineer, Kotlin enthusiast, and passionate about automation.
