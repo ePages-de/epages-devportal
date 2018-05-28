@@ -3,7 +3,6 @@ layout: post
 title: Spring in Barcelona - Spring I/O 2018
 date: 2018-05-29
 header_image: public/spring-io-18-header.jpg
-header_position: center
 category: events
 tags: ["spring", "conference", "java"]
 authors: ["Mathias"]
