@@ -211,7 +211,7 @@ Every (GET) request (that is not `/api/*`) is forwarded to our `react_router.ex`
 Here we're rendering our `react-router.js` entrypoint which uses the same `app` as the frontend.
 `StdJsonIo` takes care of serialising and deserialising our JSON communication with `react-stdio`.
 We can then render our EEx template with the delivered render output, and set the response's status according to the react-router's matching result (via `context`).
-Besides having had a lot of fun experimanting there are some advantages over using a Node.js app.
+Besides having had a lot of fun experimenting there are some advantages over using a Node.js app.
 With the external renderer script we can prevent the whole server from crashing when rendering 3rd party generated content on the server (3rd party themes in our special case).
 But there's more.
 I did a little (naive) benchmark with [wrk](https://github.com/wg/wrk).
