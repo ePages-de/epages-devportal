@@ -32,7 +32,7 @@ You can indulge in a Twitter story instead 🙃.
 
 {% twitter https://twitter.com/DataDuke/status/976478470963433482 %}
 
-## Video making in progess...
+## Video making in progress...
 
 {% twitter https://twitter.com/DataDuke/status/976787472922365952 %}
 
