@@ -81,3 +81,7 @@ Or how they create UX concepts.
 I will find out more and share it with you.
 Soon.
 Stay tuned.
+
+## Related posts
+
+[A day in the life of a UX team](/blog/ux-and-design/a-day-in-the-life-of-a-ux-team/)
