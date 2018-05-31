@@ -2,7 +2,7 @@
 layout: post
 title: Why we go Beyond - insights from our CTO
 date: 2018-06-07
-header_image: public/CTOpost.jpeg
+header_image: public/cto-post.jpeg
 header_position: center
 category: tech-stories
 tags: ["javascript", "java", "kubernetes", "architecture", "api"]
@@ -79,7 +79,7 @@ They can sell customized services to them, while getting core ecommerce function
 
 The extent of the customization is up to them.
 Either they build upon our cockpit, come up with their own custom one, or create an app.
-Additionally, they are free to build their own buy button, CMS integration, standalone storefront, or whatever is demanded by their clients.
+Additionally, they sre free to build their own buy button, CMS integration, standalone storefront, or whatever is demanded by their clients.
 
 Think about it - as a transparent resource, focused around the capabilities of ecommerce.
 They don't need to take care of maintenance, updates, security, scalability, etc.
