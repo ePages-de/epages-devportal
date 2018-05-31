@@ -85,15 +85,15 @@ Think about it - as a transparent resource, focused around the capabilities of e
 They don't need to take care of maintenance, updates, security, scalability, etc.
 By using our ecommerce platform Beyond, they can purely focus on adding value for their clients.
 
-To get started, we offer a simple [guide](https://developer.epages.com) for developers.
+To get started, we offer a simple [guide](https://developer.epages.com){:target="_blank"} for developers.
 If you need a number of shops to start with, just contact us.
 Depending on your plans, we can agree on different API-packages with 1, 5, 50, etc. shops.
 
-So have fun, build great apps, integrations or storefronts ... and do not forget to [tell us](https://www.twitter.com/epagesdevs).
+So have fun, build great apps, integrations or storefronts ... and do not forget to [tell us](https://www.twitter.com/epagesdevs){:target="_blank"}.
 
 ### About the author
 
 {% image_custom image="/assets/img/pages/blog/images/author-harm-behrens.jpg" width="10" align="left" circle %}
 
 <br>
-Harm Behrens is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an e-commerce-addict, internet enthusiast and Ruby/Docker evangelist. Find his tweets [@netzfisch](https://twitter.com/netzfisch).
+Harm Behrens is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an e-commerce-addict, internet enthusiast and Ruby/Docker evangelist. Find his tweets [@netzfisch](https://twitter.com/netzfisch){:target="_blank"}.
