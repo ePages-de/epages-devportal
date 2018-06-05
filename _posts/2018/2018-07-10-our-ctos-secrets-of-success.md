@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our CTO's secrets of success
-date: 2018-06-14
+date: 2018-07-10
 header_image: public/secrets-of-success.jpg
 category: on-the-job
 tags: ["technology", "efficiency", "people management"]
