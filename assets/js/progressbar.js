@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  $('.progress').css('top', $('.navbar').outerHeight() + 'px');
   progressShow();
 
   $(window).scroll(function() {
