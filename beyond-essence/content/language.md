@@ -1,7 +1,7 @@
 ---
 layout: page
 header_image: private/main.jpg
-title: Language and Tone
+title: Language
 background_image: index.jpg
 ---
 
@@ -22,9 +22,6 @@ background_image: index.jpg
 |---------------|---------------|
 | Click **Save**. | Click the **Save button**.|
 | Click **Add page**. | Click the **button** for adding a page.|
-
-
-## Tone
 
 #### Don't exaggerate.
 

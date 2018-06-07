@@ -25,6 +25,7 @@ With `beyond-essence` we aim to introduce texts that are understandable by anyon
 Clear, accurate, and concise text makes interfaces more usable, and build trust.
 We've composed some basic text standards that guide you through this.
 
-* [Language and Tone](/beyond-essence/content/language-tone/)
+* [Tone of voice](/beyond-essence/content/tone-of-voice/)
+* [Language](/beyond-essence/content/language/)
 * [Spelling and Punctuation](/beyond-essence/content/spelling-punctuation/)
 * [Grammar](/beyond-essence/content/grammar/)
