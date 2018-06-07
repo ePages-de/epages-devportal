@@ -1,23 +1,9 @@
-- title: Spring I/O 2018
-  description: We are participating in this event.
-  link: https://2018.springio.net/
-  date: 24. - 25. May 2018
-  time:
-  address: Palau de Congressos<br>Avinguda de la Reina Maria Cristina, s/n<br>08004 Barcelona, ES
-
-- title: Elixir Meetup
+- title: GraphQL Hamburg Meetup
   description: We are hosting this event.
-  link: https://www.meetup.com/de-DE/Elixir-Hamburg/events/xhxpkpyxhbmc/
-  date: 29. May 2018
+  link: https://www.meetup.com/de-DE/GraphQL-Hamburg/events/250832536/
+  date: 6. Jun 2018
   time: '18:30'
   address: ePages GmbH<br>Brahms Kontor<br>Holstenwall 5<br>22355 Hamburg
-
-- title: Firmenkontaktmesse Wedel
-  description: We are participating in this event.
-  link:
-  date: 30. May 2018
-  time: '10:00 - 16:00'
-  address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
 
 - title: Firmenkontaktbörse Uni Jena
   description: We are participating in this event.
@@ -35,7 +21,7 @@
 
 - title: Scrum Alliance Gathering
   description: We are participating in this event.
-  link:
+  link: https://events.scrumalliance.org/london-2018
   date: 8. - 10. Oct 2018
   time:
   address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
