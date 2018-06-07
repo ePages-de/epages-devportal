@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Server-side React routing with Elixir
-date: 2018-06-05
+date: 2018-06-07
 header_image: public/space.jpg
 category: coding
 tags: ["react", "javascript", "elixir"]
@@ -235,7 +235,7 @@ You can find the complete code on [Github](https://github.com/erikmueller/luke){
 
 ### About the author
 
-{% image_custom image="/assets/img/pages/blog/images/emueller.jpg" width="10" align="left" circle %}
+{% image_custom image="/assets/img/pages/blog/images/author-emueller.jpg" width="10" align="left" circle %}
 
 <br>
 <br>
