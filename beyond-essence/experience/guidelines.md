@@ -14,9 +14,3 @@ The wide target group reaches from absolute beginners with only few e-commerce k
 However, all users have one shared intention in common:
 _„I want to bring my idea to life.
 I have the dream that one day, my idea will become a success.“_
-
-## H2
-
-text
-
-### 

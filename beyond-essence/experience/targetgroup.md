@@ -9,8 +9,6 @@ background_image: index.jpg
 
 ## A wide target group
 
-
-
 However, all merchants have one shared intention in common:
 _„I want to bring my idea to life.
 I have the dream that one day, my idea will become a success.“_
@@ -30,3 +28,5 @@ _“I dream of having success with this idea. Maybe I could even give up my main
 
 
 ## What this means for Beyond
+
+Coming soon.

@@ -14,9 +14,10 @@ In the Beyond cockpit we provide three types of toast messages:
 
 * Success. Appears if an action or operation was successfully completed.
 * Information. Appears if an event occurred.
-* Error. Appears in case of errors. 
+* Error. Appears in case of errors.
 
 {% image_custom image="/assets/img/pages/essence/toast_structure.png" width="30" align="right" %}
+
 ## Structure
 
 Toast messages are characterized by the following elements:
@@ -40,7 +41,6 @@ Depending on the type of message, notifications disappear automatically or have 
 * Success messages automatically disappear after XX seconds.
 * Information messages automatically disappear after XX seconds.
 * Error messages are displayed until the error has been resolved.
-
 
 ## Copy writing
 

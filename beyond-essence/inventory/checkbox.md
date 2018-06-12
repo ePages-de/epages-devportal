@@ -7,8 +7,8 @@ layout: page
 The checkbox is part of the group of selection controls.
 It allows the user to select and unselect one or multiple specific options.
 
-
 ## Behavior
+
 A checkbox consists of the box itself as well as one label.
 * The box can can whether have a checked or unchecked status.
 * The label is located on the right side of the checkbox.
@@ -25,12 +25,11 @@ Example 2
 {% image_custom image="/assets/img/pages/essence/checkbox_03.png" align="center" width="50" %}
 {% image_custom image="/assets/img/pages/essence/checkbox_04.png" align="center" width="50" %}
 
-
 ## Wording
+
 * Use positive and active wording for checkbox labels, so that it’s clear what will happen if the user turns on the checkbox.
 * Avoid negations such as “Don’t send me more emails,” which would mean that the user would have to check the box in order for something not to happen.
 
-
-
-
 ## Design
+
+Coming soon.
