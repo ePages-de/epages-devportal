@@ -14,7 +14,7 @@ In the first two parts of this mini-series ([part 1](/blog/tech-stories/kubernet
 
 In this final part we will look into how we can work with secrets. I will show you a way to work with encrypted values so that secrets can be checked into version control alongside the chart without any concern.
 
-For this purpose we will use the plugin [helm-secrets](https://github.com/futuresimple/helm-secrets) because there is no secret management included in helm itself. I will show you what it can do and how to use it in your daily work.
+For this purpose we will use the plugin [helm-secrets](https://github.com/futuresimple/helm-secrets){:target="_blank"} because there is no secret management included in helm itself. I will show you what it can do and how to use it in your daily work.
 
 ## Motivation
 
@@ -27,7 +27,7 @@ That's where helm-secrets comes in as it allows you to encrypt your values so th
 What this plugin offers is to encrypt values files with a secret key of your choosing. It is also be possible to edit the encrypted files without extra effort. And there is a wrapper so that using this encrypted values file in helm is done transparently. All in all this means you just have the initial effort of creating a key, and encrypting your values file. Afterwards working with the encrypted files is transparent.
 The Plugin supports yaml structure encryption per value, that means it only encrypts the values. That way you can still see the structure of the file and what keys are in there even if you don't have the secret key. This is helpful for version control and diffs.
 
-There is also a good documentation on the [github page](https://github.com/futuresimple/helm-secrets) of the plugin. So if you want more information please feel free to read it.
+There is also a good documentation on the [github page](https://github.com/futuresimple/helm-secrets){:target="_blank"} of the plugin. So if you want more information please feel free to read it.
 
 ## How to install
 
@@ -38,7 +38,7 @@ helm plugin install https://github.com/futuresimple/helm-secrets
 ```
 
 This will install everything that is needed, including sops and the helm-wrapper.
-For some operating systems it might be necessary to install sops manually. Please see the helm-secrets [readme](https://github.com/futuresimple/helm-secrets) for further information.
+For some operating systems it might be necessary to install sops manually. Please see the helm-secrets [readme](https://github.com/futuresimple/helm-secrets){:target="_blank"} for further information.
 
 ## How to work with secret files
 
