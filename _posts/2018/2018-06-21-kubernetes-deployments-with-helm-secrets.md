@@ -10,7 +10,7 @@ tags: ["kubernetes", "helm", "cloud"]
 authors: ["Alex"]
 ---
 
-In the first two parts of this mini-series ([part 1](/blog/tech-stories/kubernetes-deployments-with-helm), [part 2](/blog/tech-stories/kubernetes-deployments-with-helm-templates)) my colleague Dirk wrote an introduction to Helm, he explained how to create Charts and work with Templates and Values.
+In the first two parts of this mini-series, my colleague Dirk gave an introduction to Helm where he explained how to [create charts](/blog/tech-stories/kubernetes-deployments-with-helm), and how to work with [templates and values](/blog/tech-stories/kubernetes-deployments-with-helm-templates).
 
 In this final part we will look into how we can work with secrets. I will show you a way to work with encrypted values so that secrets can be checked into version control alongside the chart without any concern.
 
@@ -148,6 +148,5 @@ In the final part of this mini-series we had a quick overview of the helm plugin
 
 ## Related posts
 
-[Kubernetes Deployments with Helm - Basic features](/blog/tech-stories/kubernetes-deployments-with-helm/)
-
-[Kubernetes Deployments with Helm - Templates & Values](/blog/tech-stories/kubernetes-deployments-with-helm-templates)
+* [Kubernetes Deployments with Helm - Basic features](/blog/tech-stories/kubernetes-deployments-with-helm/)
+* [Kubernetes Deployments with Helm - Templates & Values](/blog/tech-stories/kubernetes-deployments-with-helm-templates)
