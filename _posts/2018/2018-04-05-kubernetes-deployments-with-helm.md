@@ -297,4 +297,3 @@ Stay tuned...
 ## Related posts
 
 * [Kubernetes Deployments with Helm - Templates & Values](/blog/tech-stories/kubernetes-deployments-with-helm-templates)
-* [Kubernetes Deployments with Helm - Secrets](/blog/tech-stories/kubernetes-deployments-with-helm-secrets/)
