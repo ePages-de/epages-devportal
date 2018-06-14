@@ -135,7 +135,7 @@ helm secrets edit secrets.yaml
 ```
 
 to edit the secrets.
-This will open vim (Being able to use a different editor seems to be a feature that will come in the future) and let you edit the secrets file like a normal file.
+This will open vim (Being able to use a different editor seems to be a feature that will come in the future) and lets you edit the `secrets` file like a normal file.
 In the background `helm-secrets` will decrypt the file and encrypt it again after closing it.
 
 
@@ -187,4 +187,4 @@ Together with the other two parts you should have a good overview of Helm, and s
 {% image_custom image="/assets/img/pages/blog/images/author-asandau.jpg" width="10" align="left" circle %}
 
 <br>
-Alexander Sandau is a Java developer who is passionate about clean code, keen on open source, and is a movement enthusiast.
+Alexander Sandau is a Java developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
