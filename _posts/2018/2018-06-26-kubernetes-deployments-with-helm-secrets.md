@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Kubernetes Deployments with Helm - Secrets
-date: 2018-06-21
+date: 2018-06-26
 header_image: public/helm-header-3.jpg
 header_position: center
 header_overlay: true
 category: tech-stories
 tags: ["kubernetes", "helm", "cloud"]
-authors: ["Alex"]
+authors: ["Alexander"]
 ---
 
 In the first two parts of this mini-series, my colleague Dirk gave an introduction to [Helm](https://helm.sh){:target="_blank"} where he explained how to [create charts](/blog/tech-stories/kubernetes-deployments-with-helm), and how to work with [templates and values](/blog/tech-stories/kubernetes-deployments-with-helm-templates).
@@ -135,8 +135,9 @@ helm secrets edit secrets.yaml
 ```
 
 to edit the secrets.
-This will decrypt the file, open your <s>favorite editor</s> vim (Being able to use a different editor seems to be a feature that will come in the future), and after you close the file encrypt it again automatically.
-For you it will look like editing a normal file.
+This will open vim (Being able to use a different editor seems to be a feature that will come in the future) and let you edit the secrets file like a normal file.
+In the background `helm-secrets` will decrypt the file and encrypt it again after closing it.
+
 
 And now for the most important part: Applying the `secrets` file when installing a helm chart.
 To do so, you need the helm-wrapper that is automatically installed when you install the plugin.
@@ -186,4 +187,4 @@ Together with the other two parts you should have a good overview of Helm, and s
 {% image_custom image="/assets/img/pages/blog/images/author-asandau.jpg" width="10" align="left" circle %}
 
 <br>
-Alexander Sandau is a Java developer, passionate about xxxx, keen on xxxx, and loves sports.
+Alexander Sandau is a Java developer who is passionate about clean code, keen on open source, and is a movement enthusiast.
