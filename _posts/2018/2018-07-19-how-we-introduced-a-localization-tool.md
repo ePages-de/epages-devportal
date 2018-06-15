@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Our journey towards a localization tool
-date: 2018-06-07
+title: How we introduced a localization tool
+date: 2018-07-19
 header_image: public/localization-tool.jpeg
 header_overlay: true
 category: language-and-localization
