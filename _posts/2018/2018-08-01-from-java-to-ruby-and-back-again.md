@@ -21,7 +21,7 @@ Knowing your clients and having direct communication channels to them is invalua
 My team is in a very lucky position, because our main client is another team of ePages developers.
 They just recently started developing a new user-friendly web application called _Krypton_ using Ruby on Rails, which will allow resellers of our _Beyond_ product to create and manage shops.
 
-{% image_lightbox image="/assets/img/pages/blog/images/krypton-shop-view-cr.png" width="50" %}
+{% image_lightbox image="/assets/img/pages/blog/images/blog-krypton-shop-view.png" width="5" %}
 
 Although we already provide a very rich [Beyond API documentation](http://docs.beyondshop.cloud/), guiding developers new to our API with tailor-made support will speed up their learning curve.
 Our conclusion was to offer exclusive access to this API knowledge by embedding one of our Java developers into this Ruby team.
