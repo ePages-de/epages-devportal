@@ -117,7 +117,7 @@ Stay tuned how we solved them 😉.
 
 ## Related post
 
-* [Why the heck would we need a software localization tool?](https://developer.epages.com/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/)
+* [Why the heck would we need a software localization tool?](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/)
 
 ### About the author
 
