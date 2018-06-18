@@ -61,7 +61,7 @@ With this knowledge the team was able to deliver the first technical spike of _K
 
 ## An unexpected journey
 
-While talking about future features to be implemented in _Krypton_, I came to realize that there's a lot of funtionality still missing in our REST API.
+While talking about future features to be implemented in _Krypton_, I came to realize that there's a lot of functionality still missing in our REST API.
 So talking to my customer was uncovering undetected dependencies between these two teams, which allowed us to plan and synchronize both backlogs to deliver the right functionality at the right time.
 We also trained the communication channels between both teams.
 Even after my returning to the Java team, we kept a constant feedback loop of things to improve and ensuring development dependencies were taken care of.
