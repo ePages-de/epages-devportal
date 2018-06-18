@@ -26,7 +26,7 @@ So I talked to Product owners, UI writers, UX experts, developers, and colleague
 To sum it up: To everyone who gets somehow in touch with translations.
 I tried to figure out their needs and wishes concerning a localization tool.
 
-## The rating list
+## The rating scheme
 
 The discovery tour ended up in a prioritized list of feature wishes:
 
@@ -51,7 +51,7 @@ The entries of this database should also be used in the localization tool.
 Besides this feature list, we also had an eye on the overall feature set, the pricing, available users, and key limitations.
 What can I say?
 It wasn't an easy decision.
-There are plenty of tools out there and we could have worked with most of them.
+We could have worked with nearly all of them.
 But some test accounts and discussions later, we decided to go with [PhraseApp](https://phraseapp.com/){:target="_blank"}.
 
 ## So far so good
@@ -65,11 +65,11 @@ First you need to build a new localization process around this tool.
 ### Single point of trust
 
 If you plan to work with a localization tool as successful as possible, you need to keep an eye on it.
-Not only on the tool itself but also on keeping it up to date and make use of the features.
+Not only on the tool itself but also on keeping it up-to-date and make use of the features.
 So first of all, it's reasonable to fill the Glossary and add existing translations to enable the Translation Memory.
-Then the In-Context Editor and the Git Synchronization need to be implemented.
-This also needs some developer effort.
-But who should take care of all this and handle future translations?
+Afterwards, the In-Context Editor and the Git Synchronization need to be implemented.
+This of course needs some developer effort.
+But who can take care of all this and handle future translations?
 It's not possible to tackle this next to another full time job.
 That's why we've introduced a dedicated Localization Manager.
 
@@ -77,28 +77,28 @@ That's why we've introduced a dedicated Localization Manager.
 
 Do you remember?
 Our whole translation process took about 3 weeks.
-That's far away from an agile translation.
+That's far away from the agile translation we aimed for.
 So we had a deeper look at our interal processes.
 
 We covered topics like:
 * At which point do we provide the translations for the developers?
-* How regulary do we create wordings?
+* How regulary do we create wordings internally?
 * For how many keys do we create an order for the translation agency?
 
 Long story short:
-* First developers need to create the keys. Afterwards, the keys will be automatically uploaded to PhraseApp (keyword: Git Synchronization). Translations are only delivered at this point. Only in this way, we can make use of all the features PhraseApp offers.
+* First developers need to create the keys. Afterwards, the keys will be automatically uploaded to PhraseApp (keyword: Git Synchronization). The finals internal is delivered at this point. Only in this way, we can make use of all the features PhraseApp offers.
 * Twice a week.
 * If necessary, after each wording session.
 
-This way (and through some further minor changes) we reduced everything from 3 weeks down to a maximum of 1 week. Great!
+This way (and through some further minor changes), we reduced everything from 3 weeks down to a maximum of 1 week. Great!
 
 ### Unexpected stumbling blocks
 
 We thought that our translation agency would jump for joy when we tell them about the new localiztion tool.
 Finally, we would be able to provide really great context for all our translation keys with the In-Context Editor.
-We don't need to handle our communication via email and XML files.
-They could simply get their own PhraseApp account and start off translating.
-But we forgot that translators are used to the typical translator tools and not to dedicated software localization tools.
+We don't need to handle our communication via email and XML files anymore.
+The agency could simply get their own PhraseApp account and start off translating.
+But we forgot that translators are used to the typical translator tools and not yet to dedicated software localization tools.
 They would need to spend some time to get used to this new tool.
 And unfortunatelly, not every translation agency is willing to do so.
 So maybe it will be necessary to change your translation agency if you decide to improve your localization process.
@@ -107,11 +107,11 @@ And it's just great to work in the same tool and so close together.
 
 ### What else to think of?
 
-Within the first test translations we soon noticed, that translation keys got more important for us.
-They are a perfect source of information in case you need some more context.
+Within the first test translations, we soon noticed that translation keys got more important for us.
+They are a perfect source of information in case you need even more context.
 That's why we [adapted them to our needs](/blog/language-and-localization/why-you-should-invest-time-on-translation-keys/).
-Furthermore, we noticed that a localization tools cannot solve all our problems.
-And that it even caused some new ones.
+Furthermore, we noticed that a localization tool cannot solve all our problems.
+And that it can even cause some new ones.
 But that's another topic I will tackle in my next blog post.
 Stay tuned how we solved them 😉.
 
