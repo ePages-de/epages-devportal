@@ -56,7 +56,7 @@ Rails 5.1.4
 {% endhighlight %}
 
 Also my new product owner was able to quickly introduce me to _Krypton_'s product backlog and his vision about what this web application should offer in functionality.
-Now it was my turn to give back: using comand line clients like [httpie](https://httpie.org/) I showed the team how to craft the necessary REST calls against our _Beyond_ system in order to access the available backend functionality required for implementing the most important use cases.
+Now it was my turn to give back: using command line clients like [httpie](https://httpie.org/) I showed the team how to craft the necessary REST calls against our _Beyond_ system in order to access the available backend functionality required for implementing the most important use cases.
 With this knowledge the team was able to deliver the first technical spike of _Krypton_ talking to our backend far quicker than anticipated.
 
 ## An unexpected journey
@@ -64,5 +64,5 @@ With this knowledge the team was able to deliver the first technical spike of _K
 While talking about future features to be implemented in _Krypton_, I came to realize that there's a lot of funtionality still missing in our REST API.
 So talking to my customer was uncovering undetected dependencies between these two teams, which allowed us to plan and synchronize both backlogs to deliver the right functionality at the right time.
 We also trained the communication channels between both teams.
-Even after my returning to the Java team, we kept a constant feedback loop of things to improve and ensuring development dependencies were taking care of.
+Even after my returning to the Java team, we kept a constant feedback loop of things to improve and ensuring development dependencies were taken care of.
 My internship failed to deliver only one result: transforming me into a Rails fanboy :-) That's mainly because of my recent love for Kotlin as programming language, so let's see if this mindset will change again in a couple of months!
