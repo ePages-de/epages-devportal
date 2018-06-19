@@ -28,8 +28,7 @@ Afterwards, everyone was ready for diving into technical talks.
 
 ## Asynchronous programming with Kotlin coroutines
 
-[Kotlin coroutines](https://kotlinlang.org/docs/reference/coroutines.html){:target="_blank"} are a new Kotlin feature that already existed in other programming languages but which was lately introduced in Kotlin 1.1. 
-Coroutines are usually
+[Kotlin coroutines](https://kotlinlang.org/docs/reference/coroutines.html){:target="_blank"} are a new Kotlin feature that already existed in other programming languages but which was lately introduced in Kotlin 1.1.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="pl" dir="ltr">Konrad Kamiński is talking about asynchronous programing with kotlin! <a href="https://twitter.com/hashtag/jbcn18?src=hash&amp;ref_src=twsrc%5Etfw">#jbcn18</a> <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a> <a href="https://twitter.com/hashtag/corutines?src=hash&amp;ref_src=twsrc%5Etfw">#corutines</a> <a href="https://t.co/Kg6xQrE9Qz">pic.twitter.com/Kg6xQrE9Qz</a></p>&mdash; JBCNconf (@jbcnconf) <a href="https://twitter.com/jbcnconf/status/1006433642728558592?ref_src=twsrc%5Etfw">12 June 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
