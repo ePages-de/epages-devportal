@@ -1,8 +1,8 @@
 ---
 layout: post
 title: JBCNConf 2018 - The largest JVM conference in Spain
-date: 2018-06-18
-header_image: private/jbcnconf-2018-header.jpeg
+date: 2018-06-19
+header_image: public/jbcnconf-2018-header.jpeg
 header_position: bottom
 header_overlay: true
 category: events
@@ -10,16 +10,16 @@ tags: ["kotlin", "java", "jvm", "conference"]
 authors: ["Xavi"]
 ---
 
-62 talks, 16 workshops and more than 500 attendees.
-These are some of the numbers of [JBCN Conf2018](https://www.jbcnconf.com/2018/){:target="_blank"}, the largest JVM related conference in Spain.
+62 talks, 16 workshops, and more than 500 attendees.
+These are some of the numbers of [JBCNConf 2018](https://www.jbcnconf.com/2018/){:target="_blank"}, the largest JVM related conference in Spain.
 It took place - as my header image has already revealed - in Barcelona from 11th to 13th of June.
-Fortunately, I had the pleasure to attend this congress and will take this chance to loose a couple of words about my favourite sessions.
+Fortunately, I had the pleasure to attend this congress and will take this chance to lose a couple of words about my favorite sessions.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">The biggest <a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> lovers gathering in Spain is ON!! Only in <a href="https://twitter.com/hashtag/Jbcn18?src=hash&amp;ref_src=twsrc%5Etfw">#Jbcn18</a> 😎👏🏻 <a href="https://t.co/349Prr0xk8">pic.twitter.com/349Prr0xk8</a></p>&mdash; JBCNconf (@jbcnconf) <a href="https://twitter.com/jbcnconf/status/1006072751248068608?ref_src=twsrc%5Etfw">11 June 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The event kicked off with a non-technical but very interesting talk about science in movies by UPC physics professor Jordi José.
-In my opinion it was a great way to break the ice and as sci-fi fan I particularly enjoyed this talk.
+In my opinion, it was a great way to break the ice and as a sci-fi fan, I particularly enjoyed this talk.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Jordi Jose explains in the <a href="https://twitter.com/hashtag/jbcn18?src=hash&amp;ref_src=twsrc%5Etfw">#jbcn18</a> talk “Surfing through Spacetime” why you shouldn’t trust Bruce Willis when it comes to science in movies 😂 <a href="https://t.co/BU5iqNikmi">pic.twitter.com/BU5iqNikmi</a></p>&mdash; JBCNconf (@jbcnconf) <a href="https://twitter.com/jbcnconf/status/1006085056392257536?ref_src=twsrc%5Etfw">11 June 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
