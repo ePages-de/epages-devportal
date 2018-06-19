@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Java to Ruby and back again
-date: 2018-08-01
+date: 2018-07-26
 header_image: public/erasmus.jpg
 header_position: center
 header_overlay: true
@@ -24,7 +24,7 @@ They just recently started developing a new user-friendly web application called
 {% image_custom image="/assets/img/pages/blog/images/blog-krypton-shop-view.png" width="50" lightbox%}
 
 Although we already provide a very rich [Beyond API documentation](http://docs.beyondshop.cloud/){:target="_blank"}, guiding new developers to our API with tailor-made support will speed up their learning curve.
-Our conclusion was to offer exclusive access to this API knowledge by embedding one of our Java developers into this Ruby team.
+Our conclusion was to offer exclusive access to this API knowledge by embedding one of our Java developers into this Ruby team - who was me!
 That was the beginning of my adventure of collaborating with another team for a full sprint, which lasts 14 days in our Scrum process.
 We jokingly called this experiment my [Erasmus student exchange programme](https://esn.org/erasmus){:target="_blank"} 😉.
 
@@ -70,8 +70,8 @@ That's mainly because of my recent love for Kotlin as a programming language, so
 
 ### About the author
 
-{% image_custom image="/assets/img/pages/blog/images/author-emueller.jpg" width="10" align="left" circle %}
+{% image_custom image="/assets/img/pages/blog/images/author-jfischer.jpg" width="10" align="left" circle %}
 
 <br>
 <br>
-Jens Fischer is a Java Developer, SpringBoot enthusiast, and just recently discovered his love for Kotlin.
+Jens Fischer is a Java Developer, Spring Boot enthusiast, and just recently discovered his love for Kotlin.
