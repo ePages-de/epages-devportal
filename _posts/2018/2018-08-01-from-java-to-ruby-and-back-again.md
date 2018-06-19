@@ -66,3 +66,11 @@ So talking to my customer was uncovering undetected dependencies between these t
 We also trained the communication channels between both teams.
 Even after my returning to the Java team, we kept a constant feedback loop of things to improve and ensuring development dependencies were taken care of.
 My internship failed to deliver only one result: transforming me into a Rails fanboy :-) That's mainly because of my recent love for Kotlin as programming language, so let's see if this mindset will change again in a couple of months!
+
+### About the author
+
+{% image_custom image="/assets/img/pages/blog/images/author-emueller.jpg" width="10" align="left" circle %}
+
+<br>
+<br>
+Jens Fischer is a Java Developer, SpringBoot enthusiast, and just recently discovered his love for Kotlin.
