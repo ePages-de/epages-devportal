@@ -23,10 +23,10 @@ They just recently started developing a new user-friendly web application called
 
 {% image_lightbox image="/assets/img/pages/blog/images/blog-krypton-shop-view.png" width="5" %}
 
-Although we already provide a very rich [Beyond API documentation](http://docs.beyondshop.cloud/), guiding developers new to our API with tailor-made support will speed up their learning curve.
+Although we already provide a very rich [Beyond API documentation](http://docs.beyondshop.cloud/){:target="_blank"}, guiding developers new to our API with tailor-made support will speed up their learning curve.
 Our conclusion was to offer exclusive access to this API knowledge by embedding one of our Java developers into this Ruby team.
 That was the beginning of my adventure of collaborating with another team for a full sprint, which lasts 14 days in our Scrum process.
-We jokingly called this experiment my [Erasmus student exchange programme](https://esn.org/erasmus) ;-)
+We jokingly called this experiment my [Erasmus student exchange programme](https://esn.org/erasmus){:target="_blank"} ;-)
 
 ## Leaving my comfort zone
 
@@ -56,7 +56,7 @@ Rails 5.1.4
 {% endhighlight %}
 
 Also my new product owner was able to quickly introduce me to _Krypton_'s product backlog and his vision about what this web application should offer in functionality.
-Now it was my turn to give back: using command line clients like [httpie](https://httpie.org/) I showed the team how to craft the necessary REST calls against our _Beyond_ system in order to access the available backend functionality required for implementing the most important use cases.
+Now it was my turn to give back: using command line clients like [httpie](https://httpie.org/){:target="_blank"} I showed the team how to craft the necessary REST calls against our _Beyond_ system in order to access the available backend functionality required for implementing the most important use cases.
 With this knowledge the team was able to deliver the first technical spike of _Krypton_ talking to our backend far quicker than anticipated.
 
 ## An unexpected journey
