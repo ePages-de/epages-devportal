@@ -1,0 +1,59 @@
+.author
+
+  &s
+    margin-top: $card-margin-mobile
+
+    +grid-media($grid-medium)
+      margin-top: $card-margin-desktop
+
+  &__container
+    +grid-collapse
+    +grid-container
+
+  &__card
+    +grid-column(12)
+    background: #eee
+    padding: calc(#{$card-margin-mobile} / 2) $card-margin-mobile
+    box-sizing: border-box
+    display: flex
+    margin-bottom: $card-margin-mobile
+
+    +grid-media($grid-medium)
+      padding: calc(#{$card-margin-desktop} / 2) $card-margin-desktop
+
+    &--2
+
+      +grid-media($grid-medium)
+        +grid-column(6)
+        margin-bottom: 0
+
+    &--3
+
+      +grid-media($grid-large)
+        +grid-column(4)
+        margin-bottom: 0
+
+  &__image
+    border-radius: 100%
+    overflow: hidden
+
+    &--1
+      +size(10rem)
+      min-height: 10rem
+      min-width: 10rem
+
+    &--2
+      +size(5.6rem)
+      min-height: 5.6rem
+      min-width: 5.6rem
+
+    &--3
+      +size(4rem)
+      min-height: 4rem
+      min-width: 4rem
+
+    img
+      +size(100%)
+
+  &__description
+    margin: 1rem 2rem
