@@ -13,13 +13,19 @@
   &__card
     +grid-column(12)
     background: #eee
-    padding: calc(#{$card-margin-mobile} / 2) $card-margin-mobile
+    padding: $card-margin-mobile
     box-sizing: border-box
     display: flex
+    flex-direction: column
+    align-items: center
     margin-bottom: $card-margin-mobile
 
     +grid-media($grid-medium)
       padding: calc(#{$card-margin-desktop} / 2) $card-margin-desktop
+
+    &--1, &--2
+      flex-direction: row
+      align-items: flex-start
 
     &--2
 
@@ -36,21 +42,18 @@
   &__image
     border-radius: 100%
     overflow: hidden
+    margin-bottom: 1rem
 
     &--1
       +size(10rem)
       min-height: 10rem
       min-width: 10rem
 
-    &--2
+    &--2, &--3
       +size(5.6rem)
       min-height: 5.6rem
       min-width: 5.6rem
 
-    &--3
-      +size(4rem)
-      min-height: 4rem
-      min-width: 4rem
 
     img
       +size(100%)
