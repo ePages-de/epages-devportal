@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kubernetes Deployments with Helm - Secrets
-date: 2018-06-26
+date: 2018-06-28
 header_image: public/helm-header-3.jpg
 header_position: center
 header_overlay: true
