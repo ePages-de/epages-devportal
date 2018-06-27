@@ -1,4 +1,4 @@
-{% for author in page.authors %}
+{% for author in page.about_authors %}
   {% assign author_data = site.data.authors | where:"id", author | first %}
   {% unless author_data %}
     {% assign no_author = true %}
@@ -12,7 +12,7 @@
     <h2 class="author__title">About the author{% if page.authors.size > 1 %}s{% endif %}</h2>
 
     <div class="author__container">
-      {% for author in page.authors %}
+      {% for author in page.about_authors %}
         {% assign author_data = site.data.authors | where:"id", author | first %}
         <div class="author__card  author__card--{{ page.authors.size }}">
           <a class="author__image  author__image--{{ page.authors.size }}" href="/assets/img/pages/blog/authors/{{ author_data.image }}" data-lightbox="/assets/img/authors/{{ author_data.image }}">
