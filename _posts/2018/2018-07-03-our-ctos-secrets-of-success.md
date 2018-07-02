@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Our CTO's secrets of success
-date: 2018-07-10
+date: 2018-07-03
 header_image: private/cto-laptop.jpg
+header_overlay: true
 category: on-the-job
 tags: ["technology", "efficiency", "people management"]
 authors: ["Birgit"]
