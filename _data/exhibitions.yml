@@ -1,23 +1,9 @@
-- title: GraphQL Hamburg Meetup
-  description: We are hosting this event.
-  link: https://www.meetup.com/de-DE/GraphQL-Hamburg/events/250832536/
-  date: 6. Jun 2018
-  time: '18:30'
-  address: ePages GmbH<br>Brahms Kontor<br>Holstenwall 5<br>22355 Hamburg
-
-- title: Firmenkontaktbörse Uni Jena
+- title: SoCraTes
   description: We are participating in this event.
-  link: http://www.sft.uni-jena.de/Firmenkontaktboerse.html
-  date: 6. Jun 2018
+  link: https://www.socrates-conference.de/home
+  date: 23. - 26. Aug 2018
   time:
-  address: Friedrich-Schiller-Universität Jena<br>Fürstengraben 1<br>07743 Jena
-
-- title: JBCN Conference
-  description: We are participating in this event.
-  link: https://www.jbcnconf.com/2018/
-  date: 11. - 13. Jun 2018
-  time:
-  address: Centro Comercial Heron City<br>Cines Cinesa<br>Passeig d'Andreu Nin, s/n<br>08016 Barcelona
+  address: Hotel Park Soltau<br>Winsener Straße 111<br>29614 Soltau
 
 - title: Scrum Alliance Gathering
   description: We are participating in this event.
