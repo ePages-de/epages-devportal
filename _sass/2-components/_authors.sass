@@ -25,7 +25,7 @@
 
     &--1, &--2
       flex-direction: row
-      align-items: flex-start
+      align-items: center
 
     &--2
 
@@ -42,21 +42,23 @@
   &__image
     border-radius: 100%
     overflow: hidden
-    margin-bottom: 1rem
+    margin-bottom: 2rem
 
     &--1
       +size(10rem)
       min-height: 10rem
       min-width: 10rem
 
+    &--1, &--2
+      margin-bottom: 0
+
     &--2, &--3
       +size(5.6rem)
       min-height: 5.6rem
       min-width: 5.6rem
 
-
     img
       +size(100%)
 
   &__description
-    margin: 1rem 2rem
+    margin: 0 2rem
