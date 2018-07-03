@@ -37,7 +37,7 @@ Fun to try out new frameworks myself, a good technical understanding paired with
 I make decisions quickly, comprehensibly, and transparently.
 Employees can contact me anytime.
 I'd like to be up to the pulse of the organization, and to be able at any time to act instead of react.
-We put a lot of effort into hiring new employees.
+We put a lot of effort into [hiring new employees](/devjobs/).
 Of course, everyone does, but we really invest a lot of time, and involve the teams intensively with trial working days.
 And if a team member says no to a candidate, then that's the "law"!
 
