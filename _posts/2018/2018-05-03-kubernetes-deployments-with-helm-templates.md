@@ -197,4 +197,5 @@ It's a very interesting topic, so tune in again...
 
 ## Related posts
 
-[Kubernetes Deployments with Helm - Basic features](/blog/tech-stories/kubernetes-deployments-with-helm/)
+* [Kubernetes Deployments with Helm - Basic features](/blog/tech-stories/kubernetes-deployments-with-helm/)
+
