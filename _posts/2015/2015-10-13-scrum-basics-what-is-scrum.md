@@ -41,7 +41,7 @@ Solutions can be found faster if you have more experience in the room and people
 And let's not forget the much faster feedback cycle with the testers when they are right inside the team!
 No ticket is really done until it has been tested.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-scrum1-waterfall-project-trap.jpg" width="30" align="right" caption="Waterfall-projects-trap" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum1-waterfall-project-trap.jpg" width="30" align="right" caption="Waterfall_projects_trap" %}
 
 ## How is Scrum made for developing complex products or systems?
 
@@ -62,7 +62,7 @@ You don’t need to be afraid of the “waterfall-projects-trap”.
 All that may sound more difficult than it actually is.
 In contrary, the Scrum framework is so simple that it easily fits on one sheet of paper.
 
-{% image_custom image="/assets/img/pages/blog/images/blog-scrum1-scrum-framework.jpg" width="30" align="left" caption="Scrum artefacts" %}
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum1-scrum-framework.jpg" width="30" align="left" caption="Scrum_artefacts" %}
 
 Two important artefacts in Scrum are the Product Backlog and the Sprint Backlog.
 The Product Backlog is an estimated, prioritised list of tickets (stories, bugs, tasks) that is sorted by the Product Owner according to the business value of these tickets.
