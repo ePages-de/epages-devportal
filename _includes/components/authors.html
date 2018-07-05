@@ -1,15 +1,6 @@
-{% for author in page.about_authors %}
-  {% assign author_data = site.data.authors | where:"id", author | first %}
-  {% unless author_data %}
-    {% assign no_author = true %}
-  {% endunless %}
-{% endfor %}
-
-{% if no_author %}
-  <hr class="separator">
-{% else %}
+{% if page.about_authors %}
   <div class="authors">
-    <h2 class="author__title">About the author{% if page.about_authors.size > 1 %}s{% endif %}</h2>
+    <h2 class="author__title">{{no_author}} About the author{% if page.about_authors.size > 1 %}s{% endif %}</h2>
 
     <div class="author__container">
       {% for author in page.about_authors %}
@@ -25,4 +16,6 @@
       {% endfor %}
     </div>
   </div>
+{% else %}
+  <hr class="separator">
 {% endif %}
