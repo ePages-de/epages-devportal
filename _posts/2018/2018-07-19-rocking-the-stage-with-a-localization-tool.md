@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How we introduced a localization tool
+title: Rocking the stage with a localization tool
 date: 2018-07-19
 header_image: public/localization-tool.jpeg
 header_overlay: true
@@ -33,7 +33,7 @@ My discovery tour ended up in a prioritized list of feature wishes:
 1.*In-Context Editor*   
 Translators cannot provide high-quality translations without context.
 But the manual effort to provide screenshots for every key is very high.
-With an In-Context editor, you can directly translate the keys in the UI.
+With an In-Context Editor, you can directly translate the keys in the UI.
 
 2.*Git Synchronization*   
 Our developers should be able to focus on their main task: Developing our software.
@@ -41,7 +41,7 @@ Their effort on the translation process should be as low as possible.
 
 3.*Translation Memory*   
 This memory supports our UI writers when creating new UI texts.
-They can easily check how they worded similar phrases before, and if they can simply reuse the old wording.
+They can easily check how they worded similar phrases before, and if they can simply reuse the existing texts.
 And of course, nobody would like to pay a translation agency for translating the exact same sentence twice...😉.
 
 4.*Glossary*   
@@ -64,7 +64,7 @@ We could not simply start using it.
 First we needed to build a new localization process around this tool.
 
 When planning a successful implementation of a localization tool, we would need to keep an eye on it.
-Not only on the tool itself, but also on keeping it up-to-date, and make use of its features.
+Not only on the tool itself, but also on keeping it up-to-date, and making use of its features.
 For the beginning, it's reasonable to fill the Glossary and add existing translations to enable the Translation Memory.
 Afterwards, the In-Context Editor and the Git Synchronization need to be implemented.
 This, of course, requires some developer effort.
@@ -81,17 +81,17 @@ So we had a deeper look at our interal processes.
 Long story short, these are the most important Q&As we tackled:
 
 **Q**: Do we provide our developers with final UI texts before or after they develop a feature?   
-**A**: First, the developers have to create the keys while they are coding, but without any final texts. Afterwards, these keys will be automatically uploaded to PhraseApp (keyword: Git Synchronization). The final UI texts will only be delivered by our UI writers at this point in time. In this way, we can make use of all the features PhraseApp offers.
+**A**: First, the developers have to create the keys while they are coding, but without any final texts. Afterwards, these keys will be automatically uploaded to PhraseApp (keyword: Git Synchronization). The final UI texts will only be delivered by our UI writers at this point in time. Thus, we can make use of all the features PhraseApp offers.
 
 **Q**: How often do we create UI texts?   
 **A**: Twice a week.
 
 **Q**: How many translation keys do we want to collect until we finally create an order for the translation agency?   
-**A**: No minimum number of keys required. If necessary,  we create an order after each wording session. 
+**A**: No minimum number of keys required. If necessary,  we create an order after each UI text session. 
 
 With this (and some further minor changes), we reduced the localization and translation schedule from 3 weeks to a maximum of 1 week. Great!
 
-### Translation agencies and localization tools...
+## Translation agencies and localization tools...
 
 We thought that our translation agency would jump for joy when we tell them about the new localiztion tool.
 Finally, we would be able to provide really great context for all our translation keys with the In-Context Editor.
@@ -103,16 +103,16 @@ They would need to spend some time to get used to this new tool.
 And unfortunatelly, not every translation agency is willing to do so.
 So maybe it will be necessary to change your translation agency if you decide to improve your localization process.
 But to embold you: We've found one.
-And it's just great to work in the same tool and so close together.
+And it's just great to work in the same tool, and so closely together.
 
-### That ain't all
+## That ain't all
 
 Within the first test translations, we soon noticed that translation keys got more important for us.
 They are a perfect source of information in case you need even more context.
 That's why we [adapted them to our needs](/blog/language-and-localization/why-you-should-invest-time-on-translation-keys/).
 Furthermore, we noticed that with a localization tool, we cannot tackle all of our challenges.
 And that it can even cause some new ones.
-But that's another topic I will tackle in my next blog post.
+But that's another topic I will discuss in my next blog post.
 Stay tuned on how we made this work 😉.
 
 ## Related post
