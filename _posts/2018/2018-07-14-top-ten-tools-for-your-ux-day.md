@@ -2,7 +2,7 @@
 layout: post
 title: Top ten tools for your UX routine
 date: 2018-06-14
-header_image: public/uxtools.jpg
+header_image: public/ux-tools.jpg
 category: ux-and-design
 tags: ["ux", "usability", "ecommerce"]
 authors: ["Anja"]
@@ -26,13 +26,13 @@ Now, let's dive into the first UX phase: Every good UX concept starts with user 
 
 ### Polldaddy, SurveyMonkey and Typeform
 
-[Polldaddy](https://polldaddy.com/) is our company tool to run surveys. It has a rather basic feature set, but you can easily conduct simple surveys to get quantitative (and qualitative) feedback from users. Conducting surveys is especially helpful, if you already have a broad understanding on the users' requirements and want to collect a high number of answers to confirm your assumptions. Moreover surveys are a great way to get feedback on different features.
+[Polldaddy](https://polldaddy.com/){:target="_blank"} is our company tool to run surveys. It has a rather basic feature set, but you can easily conduct simple surveys to get quantitative (and qualitative) feedback from users. Conducting surveys is especially helpful, if you already have a broad understanding on the users' requirements and want to collect a high number of answers to confirm your assumptions. Moreover surveys are a great way to get feedback on different features.
 
 Although we are mainly using Polldaddy to conduct surveys, I recommend you to have a look into SurveyMonkey. It is great for complex surveys with the need of logical links and it has a good integrated tool to analyze the results. For small surveys, I like to use Typeform as they have a really modern looking and appealing design. Small surveys are quickly done and look awesome on mobile devices.
 
 ### Recording device
 
-A recording device may sound a little old-fashioned, but it is a great tool for accompanying field studies, like qualitative interviews or [contextual inquires](https://www.interaction-design.org/literature/article/contextual-interviews-and-how-to-handle-them). If you record your interviews, you can easily write a protocol or transcript when you are back in your office. You don't need to note every single information and can instead concentrate on the interactions and the answers from your interview partner. This increases the quality of the talk. And if you move the recording device out of the participants view, it's quickly forgotten. For our studies we always have a dedicated recording device and don't use a mobile phone. It's feels less obtrusive and more professional.
+A recording device may sound a little old-fashioned, but it is a great tool for accompanying field studies, like qualitative interviews or [contextual inquires](https://www.interaction-design.org/literature/article/contextual-interviews-and-how-to-handle-them){:target="_blank"}. If you record your interviews, you can easily write a protocol or transcript when you are back in your office. You don't need to note every single information and can instead concentrate on the interactions and the answers from your interview partner. This increases the quality of the talk. And if you move the recording device out of the participants view, it's quickly forgotten. For our studies we always have a dedicated recording device and don't use a mobile phone. It's feels less obtrusive and more professional.
 
 ### Post-its and index cards
 {% image_lightbox image="/assets/img/pages/blog/images/postits.jpg" align="center" %}
@@ -44,7 +44,7 @@ In UX we love post-its and index cards. We have several use cases for them and m
 * Cardsorting (e.g. build a information architecture)
 * Notes during usability tests (e.g. write down first observations and obstacles)
 
-Of course there also exist digital ways to e.g. do a cardsorting. [OptimalSort](https://www.optimalworkshop.com/optimalsort) comes into mind. Compared to paper index cards, it has the advantages that users at other places can contribute and that it's easier to analyze, when you have a high number of participants. However, for a simple start we always prefer the good old index cards.
+Of course there also exist digital ways to e.g. do a cardsorting. [OptimalSort](https://www.optimalworkshop.com/optimalsort){:target="_blank"} comes into mind. Compared to paper index cards, it has the advantages that users at other places can contribute and that it's easier to analyze, when you have a high number of participants. However, for a simple start we always prefer the good old index cards.
 
 ### Whiteboard
 
@@ -68,7 +68,7 @@ Of course you can instead of drawing every screen also print out some wireframes
 
 Link everthing together
 
-Further prototyping tools: https://developer.epages.com/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/
+Further prototyping tools: /blog/methods-and-tools/workflow-tuning-with-prototyping-tools/
 
 
 ### Atlassian confluence
@@ -80,7 +80,7 @@ Add text to explain mockups, interactions and the whole background.
 
 A big part of our daily routine is supporting the development teams during the implementation of the UX concepts. In this phase it's all about communication and clarification. We often give feedback, discuss details that are not defined or smaller issues that could be improved. Most of the discussions take place in meetings or directly at our desk. Also many of the already presented tools are used in the implementation phase, most important the mockups and interaction concepts in confluence. But also our beloved whiteboard is present to define some nitty-gritty details.
 
-Besides supporting our teams, we have another role during the implementation phase. Together with our Technical Writers we provide UI texts for our products. If you want to know more about this great alliance, please have a look at Birgit's post ["Why UX and Technical Writing make a dream team"](https://developer.epages.com/blog/techcomm-and-socialmedia/why-ux-and-technical-writing-make-a-dream-team/)!
+Besides supporting our teams, we have another role during the implementation phase. Together with our Technical Writers we provide UI texts for our products. If you want to know more about this great alliance, please have a look at Birgit's post ["Why UX and Technical Writing make a dream team"](/blog/techcomm-and-socialmedia/why-ux-and-technical-writing-make-a-dream-team/)!
 
 Writing UI texts is much easier (and makes much more fun), if you have the right tooling in place.
 
@@ -99,11 +99,11 @@ For Usability Testing we have two different tools in place - one for in-house us
 ### Morae
 {% image_lightbox image="/assets/img/pages/blog/images/ulab.jpg" align="bottom" %}
 
-Our in-house usability testing is done with [Morae](https://www.techsmith.com/morae.html). Morae provides a great set of different tools to observe, record and analyze usability tests. In our usability lab we placed two computers. One for the user and one for the moderator. On the user's computer we installed Morae recorder. It records the whole usability test: Screen, voice, face, mouse movement and when needed additional inputs. The moderator works with Morae observer so that he can see the users's screen, set markers and write notes for his observations. Depending on our testing plan additional observers can watch the usability test from another room also using the Morae observer. In the end all recordings are loaded in the Morae Manager to analyze them and prepare highlight videos for the final report and the different development teams.   
+Our in-house usability testing is done with [Morae](https://www.techsmith.com/morae.html){:target="_blank"}. Morae provides a great set of different tools to observe, record and analyze usability tests. In our usability lab we placed two computers. One for the user and one for the moderator. On the user's computer we installed Morae recorder. It records the whole usability test: Screen, voice, face, mouse movement and when needed additional inputs. The moderator works with Morae observer so that he can see the users's screen, set markers and write notes for his observations. Depending on our testing plan additional observers can watch the usability test from another room also using the Morae observer. In the end all recordings are loaded in the Morae Manager to analyze them and prepare highlight videos for the final report and the different development teams.   
 
 ### RapidUsertests
 
-If we quickly need test results, don't want to recruit participants ourselves or would like that the users work in their home environment, we do remote usability tests with [RapidUsertests](https://rapidusertests.com/). With RapidUsertests you can create usability tests and define characteristics for your testers. Testers fitting to your target group then test your created tasks at home. The result is also a screen capture including voice and mouse movement. We then analyze the video files again in Morae Manager. If you like, you can also commission the RapidUsertests team to write your test scenario and tasks and to analyze the recordings. This comes in handy if you don't have in-house usability researchers, but still would like to test your product.
+If we quickly need test results, don't want to recruit participants ourselves or would like that the users work in their home environment, we do remote usability tests with [RapidUsertests](https://rapidusertests.com/){:target="_blank"}. With RapidUsertests you can create usability tests and define characteristics for your testers. Testers fitting to your target group then test your created tasks at home. The result is also a screen capture including voice and mouse movement. We then analyze the video files again in Morae Manager. If you like, you can also commission the RapidUsertests team to write your test scenario and tasks and to analyze the recordings. This comes in handy if you don't have in-house usability researchers, but still would like to test your product.
 
 
 

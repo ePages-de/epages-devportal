@@ -27,7 +27,7 @@ Of course you can instead of drawing every screen also print out some wireframes
 
 Link everthing together
 
-Further prototyping tools: https://developer.epages.com/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/
+Further prototyping tools: /blog/methods-and-tools/workflow-tuning-with-prototyping-tools/
 
 
 ### Atlassian confluence
