@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rocking the stage with a localization tool
+title: Rocking the stage with a software localization tool
 date: 2018-07-19
 header_image: public/localization-tool.jpeg
 header_overlay: true
@@ -30,21 +30,21 @@ I tried to figure out their needs and wishes concerning a localization tool.
 
 My discovery tour ended up in a prioritized list of feature wishes:
 
-1.*In-Context Editor*   
+**In-Context Editor**   
 Translators cannot provide high-quality translations without context.
 But the manual effort to provide screenshots for every key is very high.
 With an In-Context Editor, you can directly translate the keys in the UI.
 
-2.*Git Synchronization*   
+**Git Synchronization**   
 Our developers should be able to focus on their main task: Developing our software.
 Their effort on the translation process should be as low as possible.
 
-3.*Translation Memory*   
+**Translation Memory**   
 This memory supports our UI writers when creating new UI texts.
 They can easily check how they worded similar phrases before, and if they can simply reuse the existing texts.
 And of course, nobody would like to pay a translation agency for translating the exact same sentence twice...😉.
 
-4.*Glossary*   
+**Glossary**   
 We already have a terminology database in place.
 The entries of this database should also be used in the localization tool.
 
