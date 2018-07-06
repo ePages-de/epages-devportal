@@ -124,4 +124,4 @@ Stay tuned on how we made this work 😉.
 {% image_custom image="/assets/img/pages/blog/images/author-cgebken.png" width="10" align="left" circle %}
 
 <br>
-Christina Gebken is a Localization Manager and TechWriter. She loves working agile, and is keen on writing new help articles for our software.
+Christina Gebken is a Localization Manager and TechWriter. She loves working agile, and writing new help articles for our software.
