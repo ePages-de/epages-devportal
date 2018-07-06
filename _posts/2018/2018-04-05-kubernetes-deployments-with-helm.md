@@ -10,12 +10,12 @@ tags: ["kubernetes", "helm", "cloud"]
 authors: ["Dirk"]
 ---
 
-[Kubernetes](https://kubernetes.io){:target="_blank"} is a great tool for orchestrating all your containers in a 
+[Kubernetes](https://kubernetes.io){:target="_blank"} is a great tool for orchestrating all your containers in a
 microservices-based application.
-But managing all the YAML files (generically called *manifests* in the following) for deployments, configmaps, secrets, 
+But managing all the YAML files (generically called *manifests* in the following) for deployments, configmaps, secrets,
 services etc. can quickly turn into a nightmare.
 
-This is the point at which *[Helm](https://helm.sh){:target="_blank"}*, which calls itself "the package manager for 
+This is the point at which *[Helm](https://helm.sh){:target="_blank"}*, which calls itself "the package manager for
 Kubernetes", comes to your rescue.
 In this first part of a multi-part blog post series, you'll be introduced to the basic features & benefits of Helm.
 
@@ -64,7 +64,7 @@ called `helm`, and a server-side component called `tiller`, which lives within y
 
 ### Installation
 
-To get started, simply download the latest Helm release from 
+To get started, simply download the latest Helm release from
 [GitHub](https://github.com/kubernetes/helm/releases){:target="_blank"}.
 Unpack the archive and add the `helm` binary to your `PATH`, and you're ready to go.
 
@@ -97,7 +97,7 @@ When leaving out the `version` parameter, Helm will automatically pick the lates
 included in this example to support the *upgrade* in the next section).
 The chart repository `stable` has automatically been added to your local configuration when you ran "`helm init`".
 
-Congratulations, you just installed [Grafana](https://grafana.com/){:target="_blank"} into your cluster with a single 
+Congratulations, you just installed [Grafana](https://grafana.com/){:target="_blank"} into your cluster with a single
 command! You can check the result with
 
 ```
@@ -293,3 +293,7 @@ The next part of this series will show you how to write templates, how overridin
 (hopefully) useful tips & tricks.
 
 Stay tuned...
+
+## Related posts
+
+* [Kubernetes Deployments with Helm - Templates & Values](/blog/tech-stories/kubernetes-deployments-with-helm-templates)
