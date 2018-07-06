@@ -1,0 +1,21 @@
+{% if page.about_authors %}
+  <div class="authors">
+    <h2 class="author__title">{{no_author}} About the author{% if page.about_authors.size > 1 %}s{% endif %}</h2>
+
+    <div class="author__container">
+      {% for author in page.about_authors %}
+        {% assign author_data = site.data.authors | where:"id", author | first %}
+        <div class="author__card  author__card--{{ page.about_authors.size }}">
+          <a class="author__image  author__image--{{ page.about_authors.size }}" href="/assets/img/pages/blog/authors/{{ author_data.image }}" data-lightbox="/assets/img/authors/{{ author_data.image }}">
+            <img src="/assets/img/pages/blog/authors/{{ author_data.image }}">
+          </a>
+          <div class="author__description">
+            <strong>{{ author_data.full_name }}</strong> {{ author_data.description }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% else %}
+  <hr class="separator">
+{% endif %}
