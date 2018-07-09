@@ -7,6 +7,7 @@ header_position: bottom
 category: events
 tags: ["conference", "serverless", "cloud", "faas", "lambda-functions" ]
 authors: ["Oleksandr"]
+about_authors: ["ovynogradov"]
 ---
 
 Hamburg is not only a Free and Hanseatic City, the second-largest city of Germany, it is also a nice place where a lot of interesting events, and conferences take place.
