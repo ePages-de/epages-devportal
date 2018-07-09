@@ -28,17 +28,17 @@ I don't want to miss it anymore: the Kanban board in Jira.
 It turned out that the statuses "To do", "On hold", "In progress", "Review", and "Done" work best for our work process.
 And we have a backlog that contains further tasks yet to come.
 
-Every week we have a replenishment meeting together with our Technical Writers, and our Scrum Master. Beforehand, the Product Owners of every development team submit us tasks that need to be done in the next week, e.g. if an implementation starts soon.
+Every week we have a planning together with our Technical Writers, and our Scrum Master. Beforehand, the Product Owners of every development team submit us tasks that need to be done in the next week, e.g. if an implementation starts soon.
 Together with this list and our backlog, we plan the upcoming week.
 A major part of our work is supporting development, and therefore, talking to developers, and product managers - planning the week is a though job...
 You'll never know the amount of support talks per week.
-That's why we decided to have a "sprint" planning (aka replenishment), but also to drag tasks from the backlog.
+That's why we decided to have a dedicated planning, but also to drag tasks from the backlog.
 To be honest, it happens more often that one or the other task remains in the "To do" column.
 And here lies the strength of the board: a task never gets lost, and everyone in the process is informed about the current status.
 
-So if you also have to work with a lot of different teams, and need to prioritize a lot of tasks, I recommend you to try out a Jira board that is public to your stakeholders.
+So if you also have to work with a lot of different teams, and need to prioritize a lot of tasks, I recommend you to try out a [Jira](https://www.atlassian.com/software/jira){:target="_blank"} board that is public to your stakeholders.
 
-## Polldaddy, SurveyMonkey and Typeform
+## Polldaddy, SurveyMonkey, and Typeform
 
 [Polldaddy](https://polldaddy.com/){:target="_blank"} is our company tool to run surveys.
 It has a rather basic feature set, but you can easily conduct simple surveys to get quantitative (and qualitative) feedback from users.
