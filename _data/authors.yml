@@ -19,11 +19,11 @@
 - id: hbehrens
   name: Harm
   full_name: Harm Behrens
-  description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast and Ruby/Docker evangelist.
+  description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast, and Ruby/Docker evangelist.
   image: hbehrens.jpg
 
 - id: xalvarez
   name: Xavi
   full_name: Xavier Alvarez
   description: is a Java and Kotlin backend developer, and an Ubuntu fanboy.
-  image: male_avatar.jpg
+  image: avatar_male.jpg
