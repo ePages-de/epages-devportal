@@ -6,6 +6,7 @@ header_image: public/smconf.jpg
 category: events
 tags: ["social media", "content marketing", "company culture", "conference"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 <style>

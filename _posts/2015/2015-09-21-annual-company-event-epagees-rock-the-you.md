@@ -6,6 +6,7 @@ header_image: private/you-2015.jpg
 category: events
 tags: ["team", "workshop", "company"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Creative team presentations, team building activities, workshops and lots of fun: last weeks' activities and corridor talks at ePages all revolved around the ePages annual company event: the YOU.

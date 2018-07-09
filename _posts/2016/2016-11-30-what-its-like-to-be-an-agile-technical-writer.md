@@ -6,6 +6,7 @@ header_image: public/agile-techwriter.jpg
 category: methods-and-tools
 tags: ["techcomm", "documentation", "agile", "api", "jekyll", "ruby"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Two years ago, I started my work as a technical writer in an agile development environment.

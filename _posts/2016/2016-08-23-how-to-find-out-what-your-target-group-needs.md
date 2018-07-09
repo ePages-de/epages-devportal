@@ -6,6 +6,7 @@ header_image: public/target.jpg
 category: techcomm-and-socialmedia
 tags: ["techcomm", "api", "documentation", "target group", "analysis", "audience"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Can we assume that technical writers know the target audience they are writing for?

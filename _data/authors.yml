@@ -1,5 +1,29 @@
-- id: uabrisketa
-  name: Unai A.
-  full_name: Unai Abrisketa
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- id: asandau
+  name: Alexander
+  full_name: Alexander Sandau
+  description: is a Java developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
+  image: asandau.jpg
+
+- id: bbader
+  name: Birgit
+  full_name: Birgit Bader
+  description: is a Technical Communicator. Her heart beats for UI writing, localization, and API documentation.
+  image: bbader.jpg
+
+- id: emueller
+  name: Erik
+  full_name: Erik Müller
+  description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
+  image: emueller.jpg
+
+- id: hbehrens
+  name: Harm
+  full_name: Harm Behrens
+  description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast and Ruby/Docker evangelist.
+  image: hbehrens.jpg
+
+- id: xalvarez
+  name: Xavi
+  full_name: Xavier Alvarez
+  description: is a Java and Kotlin backend developer, and an Ubuntu fanboy.
   image: male_avatar.jpg
