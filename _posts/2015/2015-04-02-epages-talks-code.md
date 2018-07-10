@@ -6,6 +6,7 @@ header_image: public/code.jpg
 category: events
 tags: ["conference", "java"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 **Come and meet us in real life @ code.talks, Hamburg!**

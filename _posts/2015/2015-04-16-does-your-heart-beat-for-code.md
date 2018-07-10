@@ -6,6 +6,7 @@ header_image: public/heartbeat.jpg
 category: on-the-job
 tags: ["coding", "jobs"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Do you love coding?

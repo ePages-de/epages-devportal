@@ -8,6 +8,7 @@ header_position: top
 category: api-experience
 tags: ["api", "documentation", "raml"]
 authors: ["Mathias"]
+about_authors: ["mduesterhoeft"]
 ---
 
 [Spring REST Docs](https://projects.spring.io/spring-restdocs/){:target="_blank"} is a great tool to produce documentation for your RESTful services that is accurate and readable.

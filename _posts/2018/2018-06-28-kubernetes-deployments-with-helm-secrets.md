@@ -8,6 +8,7 @@ header_overlay: true
 category: tech-stories
 tags: ["kubernetes", "helm", "cloud"]
 authors: ["Alexander"]
+about_authors: ["asandau"]
 ---
 
 In the first two parts of this mini-series, my colleague Dirk gave an introduction to [Helm](https://helm.sh){:target="_blank"} where he explained how to [create charts](/blog/tech-stories/kubernetes-deployments-with-helm), and how to work with [templates and values](/blog/tech-stories/kubernetes-deployments-with-helm-templates).
@@ -181,10 +182,3 @@ Together with the other two parts you should have a good overview of Helm, and s
 
 * [Kubernetes Deployments with Helm - Basic features](/blog/tech-stories/kubernetes-deployments-with-helm/)
 * [Kubernetes Deployments with Helm - Templates & Values](/blog/tech-stories/kubernetes-deployments-with-helm-templates)
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-asandau.jpg" width="10" align="left" circle %}
-
-<br>
-Alexander Sandau is a Java developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.

@@ -6,6 +6,7 @@ header_image: public/suitcase.jpg
 category: on-the-job
 tags: ["hamburg"]
 authors: ["Xavi"]
+about_authors: ["xalvarez"]
 ---
 
 I've always liked interacting with people from other countries and cultures so the fact that ePages is an international
