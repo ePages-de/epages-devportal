@@ -6,6 +6,7 @@ header_image: public/api-journey.jpg
 category: techcomm-and-socialmedia
 tags: ["api", "ux", "rest"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 For many, API documentation is a very abstract topic.

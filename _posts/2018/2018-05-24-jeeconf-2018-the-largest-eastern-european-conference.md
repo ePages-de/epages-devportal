@@ -7,6 +7,7 @@ image-position: bottom
 category: events
 tags: ["kotlin", "java", "jvm", "spring", "jeeconf", "conference"]
 authors: ["Oleksandr"]
+about_authors: ["ovynogradov"]
 ---
 
 Last weekend I had the chance to spend a great time with great people, learn something new and get some inspiration on the [Jeeconf](https://jeeconf.com){:target="_blank"} in Kyiv.
@@ -35,11 +36,3 @@ The BOF session was prolonged due to the high interest of the audience who rose 
 This meeting format is a great opportunity for everyone to get an easy access to the key people of the software industry and get some insights and details about key decisions made in the past, as well as plans for the future.
 
 It was a great time, and I'm looking forward to the next year!
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-oleksandr-vynogradov.jpg" width="10" align="left" circle %}
-
-<br>
-<br>
-Oleksandr Vynogradov is a software engineer, Kotlin enthusiast, and passionate about automation.

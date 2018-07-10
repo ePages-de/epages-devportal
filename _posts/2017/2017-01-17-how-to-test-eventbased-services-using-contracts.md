@@ -6,6 +6,7 @@ header_image: public/testing-async-interactions.jpg
 category: tech-stories
 tags: ["spring cloud", "testing"]
 authors: ["Mathias"]
+about_authors: ["mduesterhoeft"]
 ---
 
 In a distributed architecture, we strive to build self-contained services.

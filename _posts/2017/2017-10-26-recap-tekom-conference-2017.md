@@ -7,6 +7,7 @@ header_position: bottom
 category: events
 tags: ["localization", "technical communication", "api", "conference"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 While the impressions of [tekom conference 2017](http://tagungen.tekom.de/h17/tekom-jahrestagung-2017/){:target="_blank"} are still fresh in my mind, I'd like to share some positive reminders with you.

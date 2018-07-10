@@ -6,6 +6,7 @@ header_image: public/drink.jpg
 category: coding
 tags: ["javascript", "elixir", "phoenix", "erlang"]
 authors: ["Erik"]
+about_authors: ["emueller"]
 ---
 
 I'm a JavaScript Engineer.
