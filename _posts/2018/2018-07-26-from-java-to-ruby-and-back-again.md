@@ -8,6 +8,7 @@ header_overlay: true
 category: on-the-job
 tags: ["java", "kotlin", "ruby", "api", "teamwork", "agile"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 [I work as a Java developer](/blog/on-the-job/working-as-a-java-developer-at-epages/) in one of our teams focussing on our new product called _Beyond_.
@@ -67,11 +68,3 @@ We also trained the communication channels between both teams.
 Even after my returning to the Java team, we kept a constant feedback loop of things to improve, and ensuring that development dependencies were taken care of.
 My internship failed to deliver only one result: transforming me into a Rails fanboy 🙂.
 That's mainly because of my recent love for Kotlin as a programming language, so let's see if this mindset will change again in a couple of months!
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-jfischer.jpg" width="10" align="left" circle %}
-
-<br>
-<br>
-Jens Fischer is a Java Developer, Spring Boot enthusiast, and just recently discovered his love for Kotlin.
