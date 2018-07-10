@@ -6,6 +6,7 @@ header_image: public/code-talks-2015.jpg
 category: events
 tags: ["conference", "microservices", "ecommerce"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 For the fifth time about 1,500 developers gathered for the yearly `code.talks` conference in Hamburg:

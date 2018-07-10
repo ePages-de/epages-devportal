@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["microservice", "docker", "debugging", "logging", "tracing", "sleuth", "zipkin", "nginx", "lua"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 [Structured log events](/blog/tech-stories/where-is-the-bug-in-my-microservices-haystack/) and [distributed tracing](/blog/tech-stories/tracing-the-suspect-a-microservices-murder-mystery/) were covered in the first two posts of our series about debugging microservices.
