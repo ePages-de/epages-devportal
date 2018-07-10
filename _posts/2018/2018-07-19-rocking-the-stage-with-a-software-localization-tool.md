@@ -7,6 +7,7 @@ header_overlay: true
 category: language-and-localization
 tags: ["localization", "localization tool", "agile"]
 authors: ["Christina"]
+about_authors: ["cgebken"]
 ---
 
 In the [first part](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/) of this series, we've put our existing software localization process under the microscope.
@@ -118,10 +119,3 @@ Stay tuned on how we made this work 😉.
 ## Related post
 
 * [Why the heck would we need a software localization tool?](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/)
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-cgebken.png" width="10" align="left" circle %}
-
-<br>
-Christina Gebken is a Localization Manager and TechWriter. She loves working agile, and writing new help articles for our software.

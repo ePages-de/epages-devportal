@@ -10,6 +10,12 @@
   description: is a Technical Communicator. Her heart beats for UI writing, localization, and API documentation.
   image: bbader.jpg
 
+- id: cgebken
+  name: Christina
+  full_name: Christina Gebken
+  description: is a Localization Manager and TechWriter. She loves working agile, and writing new help articles for our software.
+  image: cgebken.png
+
 - id: emueller
   name: Erik
   full_name: Erik Müller
