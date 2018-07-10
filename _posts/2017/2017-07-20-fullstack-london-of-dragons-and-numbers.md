@@ -6,6 +6,7 @@ header_image: public/fullstack.jpg
 category: events
 tags: ["json", "javascript", "iot", "typescript", "conference"]
 authors: ["Erik"]
+about_authors: ["emueller"]
 ---
 
 <style>

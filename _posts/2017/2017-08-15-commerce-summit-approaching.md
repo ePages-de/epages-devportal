@@ -7,6 +7,7 @@ image-position: bottom
 category: events
 tags: ["commerce summit", "ecommerce"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 A bit more than a month, and we're right in the middle of the Commerce Summit 2017.

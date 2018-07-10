@@ -7,6 +7,7 @@ header_position: bottom
 category: events
 tags: ["spring", "conference", "java"]
 authors: ["Mathias"]
+about_authors: ["mduesterhoeft"]
 ---
 
 The Spring community gathered again in Barcelona for the largest Spring conference in Europe.
@@ -72,11 +73,3 @@ And by the way - Barcelona is really not the worst city for a few conference day
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">A great <a href="https://twitter.com/hashtag/springio18?src=hash&amp;ref_src=twsrc%5Etfw">#springio18</a> is over - great work by  <a href="https://twitter.com/sergialmar?ref_src=twsrc%5Etfw">@sergialmar</a> and his team 💯🚀 thanks for having me.</p>&mdash; Mathias Dpunkt (@zaddo) <a href="https://twitter.com/zaddo/status/1000071583778639872?ref_src=twsrc%5Etfw">25. Mai 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-mathias-duesterhoeft.jpg" width="10" align="left" circle %}
-
-<br>
-Mathias Düsterhöft is a passionate software engineer with focus on Java and Kotlin, and a lot of experience in the Spring ecosystem.
-He loves open source and is the maintainer of [restdocs-raml](https://github.com/ePages-de/restdocs-raml){:target="_blank"}.
