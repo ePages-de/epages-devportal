@@ -8,6 +8,7 @@ header_overlay: true
 category: events
 tags: ["kotlin", "java", "jvm", "conference"]
 authors: ["Xavi"]
+about_authors: ["xalvarez"]
 ---
 
 62 talks, 16 workshops, and more than 500 attendees.
@@ -59,11 +60,3 @@ All in all, I enjoyed my experience at JBCNConf.
 I had the chance to listen to other people's opinions and experiences and compare them to mine.
 Which is great!
 Additionally, I met some former colleagues and enjoyed the beautiful weather and food.
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-avatar-male.jpg" width="10" align="left" circle %}
-
-<br>
-<br>
-Xavier Alvarez is a Java and Kotlin backend developer, and an Ubuntu fanboy.

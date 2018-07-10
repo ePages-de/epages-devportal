@@ -6,6 +6,7 @@ header_image: public/great-start.jpg
 category: on-the-job
 tags: ["employee", "onboarding", "job"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Most likely, everyone reading this has already had the experience of starting at a new company.

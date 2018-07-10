@@ -6,6 +6,7 @@ header_image: public/why-loc-tool.jpg
 category: language-and-localization
 tags: ["localization", "translation"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 If you're thinking about putting your existing software localization process under the microscope, our new blog post series might come in handy for you.

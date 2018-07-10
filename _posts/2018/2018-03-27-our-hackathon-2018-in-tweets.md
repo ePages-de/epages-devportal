@@ -8,6 +8,7 @@ header_position: center
 header_overlay: true
 tags: ["hackathon", "api", "raml", "spring"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 With a stunning view from our conference room to St. Michael's Church, Hamburg, we started off into our yearly internal hackathon.

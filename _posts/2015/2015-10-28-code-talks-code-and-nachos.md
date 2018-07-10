@@ -6,6 +6,7 @@ header_image: public/nachos.jpg
 category: events
 tags: ["conference", "javascript", "nodejs", "ecmascript", "devops"]
 authors: ["Erik"]
+about_authors: ["emueller"]
 ---
 
 Some weeks ago we attended the `code.talks` developer conference in Hamburg.

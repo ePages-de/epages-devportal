@@ -6,6 +6,7 @@ header_image: private/microservice-meetup.jpg
 category: events
 tags: ["microservices", "meetup", "service discovery"]
 authors: ["Mathias"]
+about_authors: ["mduesterhoeft"]
 ---
 
 Full house at ePages in Hamburg!
