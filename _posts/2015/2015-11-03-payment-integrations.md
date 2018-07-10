@@ -6,6 +6,7 @@ header_image: public/money.jpg
 category: tech-stories
 tags: ["third-party", "api", "integration", "rest"]
 authors: ["Xavi"]
+about_authors: ["xalvarez"]
 ---
 
 Bank transfers and credit cards aren't the only payment methods available when buying a product from an ePages shop.

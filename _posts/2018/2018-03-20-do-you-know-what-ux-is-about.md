@@ -6,6 +6,7 @@ header_image: public/ux-manager.jpg
 category: ux-and-design
 tags: ["ux", "usability", "ecommerce"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Phew.

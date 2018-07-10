@@ -7,6 +7,7 @@ header_overlay: true
 category: on-the-job
 tags: ["technology", "efficiency", "people management"]
 authors: ["Birgit", "Harm"]
+about_authors: ["bbader"]
 ---
 
 Just recently, I've talked to our CTO, Harm Behrens, about his secrets of success.
@@ -47,11 +48,3 @@ The requirements are broadly diversified.
 It ranges from pure technical knowledge to decision-making competence and organizational orientation, hiring and leadership of employees as well as representing ePages at conferences, strategic partners, and potential new resellers in the USA.
 My morning bike ride to work helps me to start the day with a lot of energy.
 And with good time management, simple priorities, pragmatism, and common sense, you can master it all very well.
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-bbader.jpg" width="10" align="left" circle %}
-
-<br>
-Birgit Bader is a Technical Communicator.
-Her heart beats for UI writing, localization, <br> and API documentation.

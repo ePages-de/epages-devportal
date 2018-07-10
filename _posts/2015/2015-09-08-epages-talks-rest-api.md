@@ -6,6 +6,7 @@ header_image: public/talk.jpg
 category: events
 tags: ["conference", "microservices", "testing"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Have you signed up for the [`code.talks`](https://www.codetalks.de/){:target="_blank"} 2015 in Hamburg?

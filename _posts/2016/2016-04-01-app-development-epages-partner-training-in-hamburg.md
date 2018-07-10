@@ -6,6 +6,7 @@ header_image: public/partner-training.jpg
 category: events
 tags: ["training", "apps", "development", "ecommerce"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 You are an ePages partner already?

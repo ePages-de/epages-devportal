@@ -6,6 +6,7 @@ header_image: public/tools.jpg
 category: api-experience
 tags: ["api", "documentation", "survey"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Opinions, views and also tastes differ on how an API documentation should be structured, which information should be provided and in which level of detail is appropriate.
