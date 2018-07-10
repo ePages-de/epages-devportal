@@ -9,11 +9,11 @@ A Switch button represents a physical switch that allows merchants to turn featu
 The general use of a switch button is to represent an action.
 Toggling the switch button provides immediate results.
 
-#### Feature disabled 
+#### Disabled switch button
 
 {% image_custom image="/assets/img/pages/essence/switch-button-off.png" width="100" %}
 
-#### Feature enabled 
+#### Enabled switch button
 
 {% image_custom image="/assets/img/pages/essence/switch-button-on.png" width="100" %}
 
@@ -40,20 +40,24 @@ Whereas an active switch button comes with additional content that is displayed 
 
 ## Position
 
-Switch buttons may be positioned on a card togehter with further UI elements that relate to a specific feature. 
+Switch buttons may be positioned on a card together with further UI elements that relate to a specific feature. 
 
 ## Behavior
 
-* Toast messages fly into the screen from the right side.
-* Multiple toast messages are displayed one below the other.
+By toggling the switch button it changes its state:
 
-Depending on the type of message, notifications disappear automatically or have to be actively closed by the merchant.
-
-* Success messages automatically disappear after XX seconds.
-* Information messages automatically disappear after XX seconds.
-* Error messages are displayed until the error has been resolved.
+{% image_custom image="/assets/img/pages/essence/switch-button.gif" width="100" %}
 
 ## Choosing between switch button and checkbox
+
+For some actions, either a switch button or a checkbox might work.
+To decide which component would work better, here are some clues:
+
+* Use a switch button for binary settings when actions become effective immediately after the user made them.
+* Use a switch button if the feature has a significant effect on the users work and further work steps.
+* Use checkboxes when the user can select multiple items that are related to a single setting or feature.
+* Use checkboxes for optional or additional items.
+* Use a checkbox when the user has to perform extra steps for changes to be effective.
 
 ## Design
 
