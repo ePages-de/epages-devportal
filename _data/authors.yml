@@ -1,0 +1,41 @@
+- id: asandau
+  name: Alexander
+  full_name: Alexander Sandau
+  description: is a Java developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
+  image: asandau.jpg
+
+- id: bbader
+  name: Birgit
+  full_name: Birgit Bader
+  description: is a Technical Communicator. Her heart beats for UI writing, localization, and API documentation.
+  image: bbader.jpg
+
+- id: emueller
+  name: Erik
+  full_name: Erik Müller
+  description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
+  image: emueller.jpg
+
+- id: hbehrens
+  name: Harm
+  full_name: Harm Behrens
+  description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast, and Ruby/Docker evangelist.
+  image: hbehrens.jpg
+
+- id: mduesterhoeft
+  name: Mathias
+  full_name: Mathias Düsterhöft
+  description: is a passionate software engineer with focus on Java and Kotlin, and a lot of experience in the Spring ecosystem. He loves open source and is the maintainer of restdocs-raml.
+  image: mduesterhoeft.jpg
+
+- id: ovynogradov
+  name: Oleksandr
+  full_name: Oleksandr Vynogradov
+  description: is a software engineer, Kotlin enthusiast, and passionate about automation.
+  image: ovynogradov.jpg
+
+- id: xalvarez
+  name: Xavi
+  full_name: Xavier Alvarez
+  description: is a Java and Kotlin backend developer, and an Ubuntu fanboy.
+  image: avatar_male.jpg

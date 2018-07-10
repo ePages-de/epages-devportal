@@ -8,6 +8,7 @@ header_overlay: true
 category: tech-stories
 tags: ["javascript", "java", "kubernetes", "architecture", "api"]
 authors: ["Harm"]
+about_authors: ["hbehrens"]
 ---
 
 We've been working on a new backend architecture for quite a while now.
@@ -94,10 +95,3 @@ If you need a number of shops to start with, just contact us.
 Depending on your plans, we can agree on different API-packages with 1, 5, 50, etc. shops.
 
 So have fun, build great apps, integrations or storefronts ... and do not forget to [tell us](https://www.twitter.com/epagesdevs){:target="_blank"}.
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-hbehrens.jpg" width="10" align="left" circle %}
-
-<br>
-Harm Behrens is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast and Ruby/Docker evangelist.

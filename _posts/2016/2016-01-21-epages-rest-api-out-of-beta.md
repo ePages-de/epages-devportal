@@ -6,6 +6,7 @@ header_image: public/api-out-of-beta.jpg
 category: api-experience
 tags: ["api", "rest", "apps"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Great news at the beginning of the new year: we are happy to announce that the ePages REST API is now officially out of beta!

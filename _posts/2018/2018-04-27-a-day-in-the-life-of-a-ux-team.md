@@ -8,6 +8,7 @@ header_position: bottom
 category: ux-and-design
 tags: ["ux", "usability", "ecommerce"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Remember that I promised you to reveal more about the work of my UX colleagues?

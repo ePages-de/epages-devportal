@@ -6,6 +6,7 @@ header_image: private/hackathon-2016.jpg
 category: events
 tags: ["hackathon", "coding", "apps"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Another year, another ePages hackathon.
