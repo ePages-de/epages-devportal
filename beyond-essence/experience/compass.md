@@ -1,15 +1,15 @@
 ---
 layout: page
 header_image: private/main.jpg
-title: Design principles
+title: Experience compass
 background_image: index.jpg
 ---
 
-Our design principles are the compass for the development of the Commerce Cockpit user interface.
-Design principles are a set of guidelines and generally applicable rules that serve as a starting point and vision for the creation of every new design.
+Our experience compass is the design directive for the development of the Commerce Cockpit user interface.
+This compass is set of guidelines and generally applicable rules that serve as a starting point and vision for the creation of every new design.
 In our work we strive for the following qualities and use them as shared vision to reach a common goal:
 
-## Essential experience
+## Core
 
 ### Empowering
 
@@ -22,12 +22,12 @@ By communicating the interdependencies, merchants understand the importance of c
 With our Commerce Cockpit we strive to support efficient and goal-oriented commerce workflows.
 Merchants are able to complete recurring working routines quickly and without disturbances.
 No matter if they run their business as a side project or full-time, the Commerce Cockpit allows them to work on tasks intuitively and with the least possible effort.
-We make sure that our merchants can focus on their business and that they are not distracted by obligatory tasks.
+We make sure that our merchants can focus on their business, and that they are not distracted by obligatory tasks.
 
 ### Customized
 
 Our merchants are diverse.
-They have different business cases, sell a variety of products, come from various backgrounds and have different levels of knowledge.
+They have different business cases, sell a variety of products, come from various backgrounds, and have different levels of knowledge.
 One cockpit that serves highly diverse needs and is suitable for different knowledge levels at the same time does not exist.
 Our Commerce Cockpit adapts to the merchants' needs.
 Each of them receives the function, the assistance, and the personalized suggestions they need in their current context and with their current knowledge level.
@@ -62,7 +62,7 @@ We regularly provide joyful moments, for example through joyous messages, illust
 
 ## How it all relates
 
-The essential experience describes the highest goals that the Commerce Cockpit strives for.
+The core describes the highest goals that the Commerce Cockpit strives for.
 As the control center for the merchants' online business, it is empowering, efficient, and customized at all times to focus on their individual success.
 
 This experience is embedded in an always prevailing, simple, and friendly working atmosphere.
