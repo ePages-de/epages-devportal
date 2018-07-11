@@ -67,5 +67,3 @@ To decide which component would work better, here are some clues:
 ## Design
 
 Coming soon.
-
-
