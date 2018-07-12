@@ -46,6 +46,12 @@
   description: is a software engineer, Kotlin enthusiast, and passionate about automation.
   image: ovynogradov.jpg
 
+- id: thaapakoski
+  name: Timo
+  full_name: Timo Haapakoski
+  description: keeps ePages backends tidy and running in all situations.
+  image: avatar_male.jpg
+
 - id: xalvarez
   name: Xavi
   full_name: Xavier Alvarez
