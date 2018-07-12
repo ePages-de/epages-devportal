@@ -58,6 +58,12 @@
   description: is a Software Engineer and wizard programmer. He practices katas not just in coding dojos.
   image: avatar_male.jpg
 
+- id: ppriotto
+  name: Paolo
+  full_name: Priotto
+  description: is a Web Developer for all things frontend. Although being everything but a designer, he never really gave up his passion for CSS.
+  image: ppriotto.jpg
+
 - id: thaapakoski
   name: Timo
   full_name: Timo Haapakoski
