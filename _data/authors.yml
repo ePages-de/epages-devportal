@@ -10,6 +10,12 @@
   description: is a Java developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asandau.jpg
 
+- id: azwick
+  name: Anne
+  full_name: Anne Zwick
+  description: is a Frontend Designer. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
+  image: azwick.jpg
+
 - id: bbader
   name: Birgit
   full_name: Birgit Bader
