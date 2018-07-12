@@ -6,6 +6,7 @@ header_image: public/water-rocks.jpg
 category: coding
 tags: ["reactive", "microservice", "java", "akka"]
 authors: ["Christian H."]
+about_authors: ["choffmeister"]
 ---
 
 **Reactive** is one of the buzzwords of our time.

@@ -7,6 +7,7 @@ image-position: top
 category: tech-stories
 tags: ["isparta", "ecmascript", "javascript", "istanbul"]
 authors: ["Christian H."]
+about_authors: ["choffmeister"]
 ---
 
 In his fabulous blog post [On the way to full stack ECMAScript 6][prev-blog-post] my dear colleague Paolo described the benefits that we gain from migrating to ES6. But as always, where there is light there is shadow and so today I want to address one loose end of the last post. Namely, that is the problem of code coverage with ES6. See this [Demo Project][demo-project] to try out everything explained in this post yourself.

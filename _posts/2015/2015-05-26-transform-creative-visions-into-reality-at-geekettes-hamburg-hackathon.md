@@ -7,6 +7,7 @@ header_overlay: true
 category: events
 tags: ["hackathon", "apps", "api"]
 authors: ["Andreas"]
+about_authors: ["agrohmann"]
 ---
 
 Lie-in on the long weekend?!

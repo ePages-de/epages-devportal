@@ -6,6 +6,7 @@ header_image: public/search.jpg
 category: events
 tags: ["meetup", "elasticsearch", "data science"]
 authors: ["Rose"]
+about_authors: ["rritter"]
 ---
 
 <style>

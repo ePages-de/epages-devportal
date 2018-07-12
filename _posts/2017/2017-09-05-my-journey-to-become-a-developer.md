@@ -7,6 +7,7 @@ image-position: bottom
 category: on-the-job
 tags: ["html", "css", "ruby", "rails", "git", "javascript"]
 authors: ["Christoph"]
+about_authors: ["cmueller"]
 ---
 My name is Christoph, and since the beginning of the year I am working as a frontend developer at ePages.
 I originally started at the company in August 2015 with an apprenticeship as a media designer.

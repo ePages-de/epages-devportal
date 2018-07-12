@@ -6,6 +6,7 @@ header_image: public/agile.jpg
 category: methods-and-tools
 tags: ["scrum", "agile"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 This part of our Scrum Basics Series will take a look at the Principles and Values Scrum is trying to implement in your company.
