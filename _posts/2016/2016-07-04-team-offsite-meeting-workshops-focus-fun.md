@@ -6,6 +6,7 @@ header_image: private/ep6offsite2016.jpg
 category: events
 tags: ["offsite", "team", "workshops"]
 authors: ["Sandra", "Oliver Z."]
+about_authors: ["ozscheyge"]
 ---
 
 Mid June, the ePages 6 team went on a two-day offsite meeting -- in Jena! How is it an offsite if you stay in the city you work in? Well, due to the size of the team and various team members having family obligations it was difficult to find a date and a location for this offsite.
