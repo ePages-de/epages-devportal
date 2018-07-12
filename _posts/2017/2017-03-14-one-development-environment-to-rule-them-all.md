@@ -6,6 +6,7 @@ header_image: public/ring.jpg
 category: tech-stories
 tags: ["container", "vm", "docker", "vagrant"]
 authors: ["Jordi"]
+about_authors: ["jviladoms"]
 ---
 
 A usual problem developers are facing, is to work with a common development environment.

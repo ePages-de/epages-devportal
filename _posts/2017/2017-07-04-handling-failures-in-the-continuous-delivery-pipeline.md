@@ -6,6 +6,7 @@ header_image: public/microservices-pipeline-3.jpg
 category: tech-stories
 tags: ["continuous delivery", "microservice"]
 authors: ["Benjamin", "Nicole"]
+about_authors: ["bnothdurft", "nstender"]
 ---
 
 In our last posts you learned about the design of a continuous delivery pipeline as well as versioning of microservices.

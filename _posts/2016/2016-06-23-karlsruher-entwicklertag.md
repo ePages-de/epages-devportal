@@ -6,6 +6,7 @@ header_image: private/karlsruhe.jpg
 category: events
 tags: ["conference", "microservices", "continuous delivery", "scrum", "katas"]
 authors: ["Benjamin", "Birgit"]
+about_authors: ["bnothdurft", "bbader"]
 ---
 
 From the 15th to 17th of June, the [Karlsruher Entwicklertag](https://entwicklertag.de/karlsruhe/2016/){:target="_blank"} took place at the [IHK Karlsruhe](https://www.karlsruhe.ihk.de/){:target="_blank"}.

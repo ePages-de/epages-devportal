@@ -7,6 +7,7 @@ header_position: bottom
 category: events
 tags: ["conference", "microservices", "continuous delivery"]
 authors: ["Ángel"]
+about_authors: ["agarcia"]
 ---
 The Codemotion conference took place in Madrid on November 28 and 29. With more than 1900 software enthusiasts, Codemotion is the biggest IT event in Spain.
 This conference was sponsored by companies such as IBM, Microsoft, Arsys, Mozilla and Google...

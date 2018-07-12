@@ -6,6 +6,7 @@ header_image: public/sunny-road.jpg
 category: tech-stories
 tags: ["javascript", "typescript", "webpack", "babel"]
 authors: ["Christian H."]
+about_authors: ["choffmeister"]
 ---
 
 These days, single page applications are all around and bring application-like user experience to the browser.
