@@ -1,5 +1,5 @@
 - id: aortmann
-  name: Anja
+  name: Anja O.
   full_name: Anja Ortmann
   description: is a UX Expert with strong focus on great usability for our customers. She loves creating UX concepts, and intuitive user guidance.
   image: aortmann.jpg
@@ -60,14 +60,14 @@
 
 - id: ppriotto
   name: Paolo
-  full_name: Priotto
-  description: is a Web Developer for all things frontend. Although being everything but a designer, he never really gave up his passion for CSS.
+  full_name: Paolo Priotto
+  description: is a Web Developer for all things in frontend. Although being everything but a designer, he never really gave up his passion for CSS.
   image: ppriotto.jpg
 
 - id: thaapakoski
   name: Timo
   full_name: Timo Haapakoski
-  description: keeps ePages backends tidy and running in all situations.
+  description: keeps ePages' backends tidy and running in all situations.
   image: avatar_male.jpg
 
 - id: uabrisketa
