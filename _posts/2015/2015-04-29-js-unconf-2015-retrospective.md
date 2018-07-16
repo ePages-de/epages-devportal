@@ -6,6 +6,7 @@ header_image: public/javascript.png
 category: events
 tags: ["javascript", "conference"]
 authors: ["Paolo"]
+about_authors: ["ppriotto"]
 ---
 
 **A whole weekend full of JavaScript!** Last weekend I had the chance of attending the `JS Unconf` in Hamburg to gather the latest information on JavaScript. Here is a summary of what it was all about:

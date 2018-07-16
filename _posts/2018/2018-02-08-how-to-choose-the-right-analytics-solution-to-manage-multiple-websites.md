@@ -8,6 +8,7 @@ header_position: center
 category: methods-and-tools
 tags: ["analytics", "statistics", "dashboard"]
 authors: ["Xavi"]
+about_authors: ["xalvarez"]
 ---
 There are many, many, many (did I say "many"?) analytics tools out there and, as it usually is the case in software development, there isn't any _one-size-fits-all_ solution. For that reason, in order to choose one of them to integrate it with our online shops we first had to carry out some research.
 

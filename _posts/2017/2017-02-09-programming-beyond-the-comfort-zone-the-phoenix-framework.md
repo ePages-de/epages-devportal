@@ -6,6 +6,7 @@ header_image: public/phoenix.jpg
 category: coding
 tags: ["phoenix", "javascript", "api"]
 authors: ["Erik"]
+about_authors: ["emueller"]
 ---
 
 In the [last post](/blog/coding/programming-beyond-the-comfort-zone-javascript-elixir/) we checked why you should learn some more languages and why Elixir might help you becoming a better JavaScript developer.

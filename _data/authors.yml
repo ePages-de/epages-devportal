@@ -1,5 +1,83 @@
+- id: aortmann
+  name: Anja O.
+  full_name: Anja Ortmann
+  description: is a UX Expert with strong focus on great usability for our customers. She loves creating UX concepts, and intuitive user guidance.
+  image: aortmann.jpg
+
+- id: asandau
+  name: Alexander
+  full_name: Alexander Sandau
+  description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
+  image: asandau.jpg
+
+- id: azwick
+  name: Anne
+  full_name: Anne Zwick
+  description: is a Frontend Designer. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
+  image: azwick.jpg
+
+- id: bbader
+  name: Birgit
+  full_name: Birgit Bader
+  description: is a Technical Communicator. Her heart beats for UI writing, localization, and API documentation.
+  image: bbader.jpg
+
+- id: emueller
+  name: Erik
+  full_name: Erik Müller
+  description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
+  image: emueller.jpg
+
+- id: hbehrens
+  name: Harm
+  full_name: Harm Behrens
+  description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast, and Ruby/Docker evangelist.
+  image: hbehrens.jpg
+
+- id: jmewes
+  name: Jan
+  full_name: Jan Mewes
+  description: is a Software Developer with a passion for all things that involve lean processes.
+  image: avatar_male.jpg
+
+- id: mduesterhoeft
+  name: Mathias
+  full_name: Mathias Düsterhöft
+  description: is a passionate Software Engineer with focus on Java and Kotlin, and a lot of experience in the Spring ecosystem. He loves open source and is the maintainer of restdocs-raml.
+  image: mduesterhoeft.jpg
+
+- id: ovynogradov
+  name: Oleksandr
+  full_name: Oleksandr Vynogradov
+  description: is a Software Engineer, Kotlin enthusiast, and passionate about automation.
+  image: ovynogradov.jpg
+
+- id: ozscheyge
+  name: Oliver Z.
+  full_name: Oliver Zscheyge
+  description: is a Software Engineer. He practices katas not just in coding dojos.
+  image: avatar_male.jpg
+
+- id: ppriotto
+  name: Paolo
+  full_name: Paolo Priotto
+  description: is a Web Developer for all things in frontend. Although being everything but a designer, he never really gave up his passion for CSS.
+  image: ppriotto.jpg
+
+- id: thaapakoski
+  name: Timo
+  full_name: Timo Haapakoski
+  description: keeps ePages' backends tidy and running in all situations.
+  image: avatar_male.jpg
+
 - id: uabrisketa
   name: Unai A.
   full_name: Unai Abrisketa
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: male_avatar.jpg
+  description: is a Ruby on Rails Developer. He is fond of clean code, and always eager to learn new technologies.
+  image: uabrisketa.jpg
+
+- id: xalvarez
+  name: Xavi
+  full_name: Xavier Alvarez
+  description: is a Java and Kotlin Backend Developer, and an Ubuntu fanboy.
+  image: avatar_male.jpg
