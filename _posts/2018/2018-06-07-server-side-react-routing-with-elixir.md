@@ -6,6 +6,7 @@ header_image: public/space.jpg
 category: coding
 tags: ["react", "javascript", "elixir"]
 authors: ["Erik"]
+about_authors: ["emueller"]
 ---
 
 Whether you love it or hate it, you can hardly ignore React and its ecosystem nowadays.
@@ -232,11 +233,3 @@ config :std_json_io,
 Together with all the nifty little things from the BEAM and the elixir/erlang ecosystem I'm sure there's some interesting possibilities to explore.
 
 You can find the complete code on [Github](https://github.com/erikmueller/luke){:target="_blank"} together with links to all the resources mentioned here.
-
-### About the author
-
-{% image_custom image="/assets/img/pages/blog/images/author-emueller.jpg" width="10" align="left" circle %}
-
-<br>
-<br>
-Erik Müller is a JavaScript Engineer, Node.js lover, and Elixir alchemist.

@@ -6,6 +6,7 @@ header_image: public/jellybears.jpg
 category: language-and-localization
 tags: ["localization", "terminology"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Communicating in a clear and consistent manner, and saving money at the same time.

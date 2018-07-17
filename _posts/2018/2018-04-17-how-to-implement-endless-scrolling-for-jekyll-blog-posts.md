@@ -8,6 +8,7 @@ header_overlay: true
 category: coding
 tags: ["jekyll", "blog", "gem"]
 authors: ["Unai A."]
+about_authors: ["uabrisketa"]
 ---
 
 As explained on the [Jekyll pagination docs](https://jekyllrb.com/docs/pagination/){:target="_blank"}, the usual way of paginating the posts on your blog is to create different pages (i.e. `/blog/page-1/`, `/blog/page-2/`, ...), and then putting the typical **Next** and **Prev** buttons on those pages to navigate between them.

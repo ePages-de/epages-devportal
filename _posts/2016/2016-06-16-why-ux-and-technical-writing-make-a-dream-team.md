@@ -6,6 +6,7 @@ header_image: public/dream-team.jpg
 category: techcomm-and-socialmedia
 tags: ["techcomm", "ux", "team", "ui texts", "terminology"]
 authors: ["Birgit"]
+about_authors: ["bbader"]
 ---
 
 Technical communication is an essential part of UX.
