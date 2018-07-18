@@ -7,6 +7,7 @@ header_position: top
 category: tech-stories
 tags: ["galera", "mysql", "database"]
 authors: ["Timo H."]
+about_authors: ["thaapakoski"]
 ---
 
 Your online shop is perfect, it has a nice theme, and excellent products.

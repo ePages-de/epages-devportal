@@ -6,6 +6,7 @@ header_image: private/socrates-2017-header.jpg
 category: events
 tags: ["onboarding", "pair programming", "erlang", "conference"]
 authors: ["Oliver Z."]
+about_authors: ["ozscheyge"]
 ---
 
 What happens if you gather approximately 250 people in one place for four days, provide them with shelter, food, and drinks?
