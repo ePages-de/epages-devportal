@@ -6,6 +6,7 @@ header_image: public/roles.jpg
 category: methods-and-tools
 tags: ["scrum", "agile"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 Welcome to part two of our Scrum Basics Series.

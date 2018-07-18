@@ -6,6 +6,7 @@ header_image: public/thirdparty-weapons.jpg
 category: tech-stories
 tags: ["third-party", "ecommerce", "testing"]
 authors: ["Mats"]
+about_authors: ["mandresen"]
 ---
 
 In my [previous post](/blog/tech-stories/painpoints-with-thirdparty-software/) I talked about the pain points in third-party software development and the different challenges we're facing when connecting our ecommerce software to a third-party service.

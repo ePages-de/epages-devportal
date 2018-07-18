@@ -6,6 +6,7 @@ header_image: public/hamburg-docks.jpg
 category: events
 tags: ["conference", "elasticsearch", "docker", "architecture"]
 authors: ["Benjamin", "Bastian"]
+about_authors: ["bnothdurft", "bklein"]
 ---
 <style>
 .twitter-tweet {

@@ -6,6 +6,7 @@ header_image: public/hamburg-port-rails.jpg
 category: tech-stories
 tags: ["ruby", "rails", "sdk"]
 authors: ["Unai M."]
+about_authors: ["umartinez"]
 ---
 
 One of the languages that we use the most in my team is [Ruby](https://www.ruby-lang.org){:target="_blank"}.

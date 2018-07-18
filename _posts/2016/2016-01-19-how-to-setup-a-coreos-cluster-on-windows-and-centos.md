@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["coreos", "windows", "centos"]
 authors: ["Andreas"]
+about_authors: ["agrohmann"]
 ---
 
 This post deals with setting up a 3-Cluster CoreOS installation using [Vagrant](https://www.vagrantup.com/){:target="_blank"} and [VirtualBox](https://www.virtualbox.org/){:target="_blank"} on Windows and CentOS.

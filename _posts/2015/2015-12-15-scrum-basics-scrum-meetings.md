@@ -6,6 +6,7 @@ header_image: public/meeting.jpg
 category: methods-and-tools
 tags: ["scrum", "agile"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 Welcome back to part three of our Scrum Basics Series which deals with Scrum Meetings.

@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["jenkins", "automation", "groovy", "job dsl"]
 authors: ["Ulf B."]
+about_authors: ["ubiallas"]
 ---
 
 In [Follow-up: Automating Jenkins](/blog/tech-stories/followup-automating-jenkins/), Dirk mentioned already the [Job DSL Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin){:target="_blank"} for creating and managing Jenkins jobs.

@@ -6,6 +6,7 @@ header_image: private/magdeburg-dev.jpg
 category: events
 tags: ["conference", "java", "javascript", "ddd"]
 authors: ["Bastian", "Benjamin"]
+about_authors: ["bklein", "bnothdurft"]
 ---
 
 On May, 18th 2016, the first [Developer Days](http://md-devdays.de/){:target="_blank"} took place in the exhibition halls of Magdeburg, Germany.

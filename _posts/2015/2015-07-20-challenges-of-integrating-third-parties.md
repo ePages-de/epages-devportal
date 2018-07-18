@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["api", "third-party", "ecommerce"]
 authors: ["Ulf B."]
+about_authors: ["ubiallas"]
 ---
 
 Third-party applications are an important part of the service that ePages offers.
