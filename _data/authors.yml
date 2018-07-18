@@ -124,7 +124,7 @@
   description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast, and Ruby/Docker evangelist.
   image: hbehrens.jpg
 
- id: imolera
+- id: imolera
   name: Ivan
   full_name: Ivan
   description: belongs to the epagesdevs content team.
@@ -175,12 +175,6 @@
 - id: mriess
   name: Mario
   full_name: Mario
-  description: belongs to the epagesdevs content team.
-  image: avatar_male.jpg
-
-- id: nfranke
-  name: Norman
-  full_name: Norman
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
@@ -244,6 +238,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: thaapakoski
+  name: Timo
+  full_name: Timo Haapakoski
+  description: keeps ePages' backends tidy and running in all situations.
+  image: avatar_male.jpg
+
 - id: ubiallas
   name: Ulf
   full_name: Ulf
@@ -260,12 +260,6 @@
   name: Vlad
   full_name: Vlad
   description: belongs to the epagesdevs content team.
-  image: avatar_male.jpg
-
-- id: thaapakoski
-  name: Timo
-  full_name: Timo Haapakoski
-  description: keeps ePages' backends tidy and running in all situations.
   image: avatar_male.jpg
 
 - id: uabrisketa
