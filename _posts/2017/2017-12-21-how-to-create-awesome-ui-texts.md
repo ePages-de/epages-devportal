@@ -7,6 +7,7 @@ header_overlay: true
 category: language-and-localization
 tags: ["UX", "UI", "wording"]
 authors: ["Christina"]
+about_authors: ["cgebken"]
 ---
 
 Great UI texts are crucial for a great software product.

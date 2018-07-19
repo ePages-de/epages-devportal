@@ -64,6 +64,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: cgebken
+  name: Christina
+  full_name: Christina Gebken
+  description: is a Localization Manager and TechWriter. She loves working agile, and writing new help articles for our software.
+  image: cgebken.png
+
 - id: choffmeister
   name: Christian H.
   full_name: Christian H.

@@ -8,6 +8,7 @@ header_overlay: true
 category: events
 tags: ["meetup", "api", "raml", "spring"]
 authors: ["Christina"]
+about_authors: ["cgebken"]
 ---
 On Tuesday, ePages had the pleasure to host a [WebAPI meetup](https://www.meetup.com/de-DE/webapi-hamburg){:target="_blank"}.
 Having recently made some good progress with our API, we took this chance, and presented our way to create an API documentation using Spring REST Docs and RAML.
