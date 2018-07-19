@@ -6,6 +6,7 @@ header_image: public/ruby.png
 category: tech-stories
 tags: ["linux", "ruby", "rails"]
 authors: ["Declan"]
+about_authors: ["dmoran"]
 ---
 
 There's a confusing plethora of ways to install and setup [Ruby][Ruby] and [Rails][Rails].

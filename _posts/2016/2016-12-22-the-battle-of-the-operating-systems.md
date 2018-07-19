@@ -6,6 +6,7 @@ header_image: public/apple-pear-choose.jpg
 category: tech-stories
 tags: ["operating system", "macos", "windows", "linux", "statistics"]
 authors: ["Ivan"]
+about_authors: ["imolera"]
 ---
 
 When we discuss about operating systems, we can often find people who show a kind of evangelism to the one or other OS.

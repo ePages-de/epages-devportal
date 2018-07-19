@@ -6,6 +6,7 @@ header_image: public/microservices-pipeline-1.jpg
 category: tech-stories
 tags: ["continuous delivery", "microservice", "jenkins", "kubernetes", "docker"]
 authors: ["Benjamin", "Nicole"]
+about_authors: ["bnothdurft", "nstender"]
 ---
 
 This is the first post of a three-part blog post series about the foundation pillars for the [ePages](https://www.epages.com/en/){:target="_blank"} next generation ecommerce platform, where we'll talk about the Continuous Delivery Pipeline (CDP) of our new Microservices Architecture.

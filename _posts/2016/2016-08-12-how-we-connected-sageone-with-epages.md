@@ -6,6 +6,7 @@ header_image: public/bridge.jpg
 category: tech-stories
 tags: ["third-party", "api", "ecommerce", "rest", "java"]
 authors: ["Mats"]
+about_authors: ["mandresen"]
 ---
 
 In my team the recent and still ongoing project is the implementation of an application serving as a connector between the ePages ecommerce solution and [Sage One](https://developer.sageone.com){:target="_blank"}, an Accounting software.

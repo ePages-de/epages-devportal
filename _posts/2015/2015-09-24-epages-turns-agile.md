@@ -6,6 +6,7 @@ header_image: public/agile.jpg
 category: methods-and-tools
 tags: ["agile", "scrum", "ecommerce"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 Have you ever wonder how companies that are going the agile way are developing further over time?

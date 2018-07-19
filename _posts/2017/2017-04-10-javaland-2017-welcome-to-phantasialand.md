@@ -6,6 +6,7 @@ header_image: private/javaland-2017.jpg
 category: events
 tags: ["java", "spring", "conference"]
 authors: ["Benjamin, Bastian"]
+about_authors: ["bnothdurft", "bklein"]
 ---
 
 The [JavaLand 2017](https://www.javaland.eu/en/javaland-2017/){:target="_blank"} conference took place for the 4th time in the famous [Phantasialand](http://www.phantasialand.de/en/){:target="_blank"} holiday park in Brühl, near Cologne.

@@ -7,6 +7,7 @@ image-position: bottom
 category: events
 tags: ["microservice", "kotlin", "css", "conference"]
 authors: ["Mats", "Mathias"]
+about_authors: ["mandresen", "mduesterhoeft"]
 ---
 
 <style>

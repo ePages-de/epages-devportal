@@ -6,6 +6,7 @@ header_image: public/agile.jpg
 category: methods-and-tools
 tags: ["hackathon", "agile", "roles", "scrum"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 For two days Scrum Masters, Product Owners and some representatives of developers met at ePages headquarter Hamburg to discuss about the status quo of how agile ePages is.
