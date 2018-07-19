@@ -1,14 +1,44 @@
+- id: aamendariz
+  name: Alejandra
+  full_name: Alejandra
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: abaericke
+  name: Anja B.
+  full_name: Anja B.
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: agarcia
+  name: Ángel
+  full_name: Ángel
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: agrohmann
+  name: Andreas
+  full_name: Andreas
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
 - id: aortmann
-  name: Anja
+  name: Anja O.
   full_name: Anja Ortmann
-  description: is a UX expert with strong focus on great usability for our customers. She loves creating UX concepts, and intuitive user guidance.
+  description: is a UX Expert with strong focus on great usability for our customers. She loves creating UX concepts, and intuitive user guidance.
   image: aortmann.jpg
 
 - id: asandau
   name: Alexander
   full_name: Alexander Sandau
-  description: is a Java developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
+  description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asandau.jpg
+
+- id: azwick
+  name: Anne
+  full_name: Anne Zwick
+  description: is a Frontend Designer. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
+  image: azwick.jpg
 
 - id: bbader
   name: Birgit
@@ -16,11 +46,59 @@
   description: is a Technical Communicator. Her heart beats for UI writing, localization, and API documentation.
   image: bbader.jpg
 
+- id: bklein
+  name: Bastian
+  full_name: Bastian
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: bnothdurft
+  name: Benjamin
+  full_name: Benjamin
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: cbreitkreuz
+  name: Christian B.
+  full_name: Christian B.
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
 - id: cgebken
   name: Christina
   full_name: Christina Gebken
   description: is a Localization Manager and TechWriter. She loves working agile, and writing new help articles for our software.
   image: cgebken.png
+
+- id: choffmeister
+  name: Christian H.
+  full_name: Christian H.
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: cmueller
+  name: Christoph
+  full_name: Christoph
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: dcividanes
+  name: Domingo
+  full_name: Domingo
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: dmoran
+  name: Declan
+  full_name: Declan
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: dpauli
+  name: David
+  full_name: David
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
 
 - id: emueller
   name: Erik
@@ -28,26 +106,176 @@
   description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
   image: emueller.jpg
 
+- id: fvollert
+  name: Frederik
+  full_name: Frederik
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: fziller
+  name: Florian
+  full_name: Florian
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: jviladoms
+  name: Jordi
+  full_name: Jordi
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
 - id: hbehrens
   name: Harm
   full_name: Harm Behrens
   description: is CTO at ePages, and shares the “bike2work” passion of many ePagees. He’s an ecommerce-addict, internet enthusiast, and Ruby/Docker evangelist.
   image: hbehrens.jpg
 
+- id: imolera
+  name: Ivan
+  full_name: Ivan
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: jblankenburg
+  name: Julia
+  full_name: Julia
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: jmewes
+  name: Jan
+  full_name: Jan Mewes
+  description: is a Software Developer with a passion for all things that involve lean processes.
+  image: avatar_male.jpg
+
+- id: kabendroth
+  name: Kay
+  full_name: Kay
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: lbrandt
+  name: Lena
+  full_name: Lena
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: mandresen
+  name: Mats
+  full_name: Mats
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
 - id: mduesterhoeft
   name: Mathias
   full_name: Mathias Düsterhöft
-  description: is a passionate software engineer with focus on Java and Kotlin, and a lot of experience in the Spring ecosystem. He loves open source and is the maintainer of restdocs-raml.
+  description: is a passionate Software Engineer with focus on Java and Kotlin, and a lot of experience in the Spring ecosystem. He loves open source and is the maintainer of restdocs-raml.
   image: mduesterhoeft.jpg
+
+- id: mkohl
+  name: Martin
+  full_name: Martin
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: mriess
+  name: Mario
+  full_name: Mario
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: nstender
+  name: Nicole
+  full_name: Nicole
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: otrosien
+  name: Oliver T.
+  full_name: Oliver T.
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
 
 - id: ovynogradov
   name: Oleksandr
   full_name: Oleksandr Vynogradov
-  description: is a software engineer, Kotlin enthusiast, and passionate about automation.
+  description: is a Software Engineer, Kotlin enthusiast, and passionate about automation.
   image: ovynogradov.jpg
+
+- id: ozscheyge
+  name: Oliver Z.
+  full_name: Oliver Zscheyge
+  description: is a Software Engineer. He practices katas not just in coding dojos.
+  image: avatar_male.jpg
+
+- id: ppriotto
+  name: Paolo
+  full_name: Paolo Priotto
+  description: is a Web Developer for all things in frontend. Although being everything but a designer, he never really gave up his passion for CSS.
+  image: ppriotto.jpg
+
+- id: rdomenech
+  name: Roger
+  full_name: Roger
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: rritter
+  name: Rose
+  full_name: Rose
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: rteixeira
+  name: Renato
+  full_name: Renato
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: shippo
+  name: Shippo
+  full_name: Shippo
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: skoenig
+  name: Silvio
+  full_name: Silvio
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: thaapakoski
+  name: Timo
+  full_name: Timo Haapakoski
+  description: keeps ePages' backends tidy and running in all situations.
+  image: avatar_male.jpg
+
+- id: ubiallas
+  name: Ulf
+  full_name: Ulf
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: umartinez
+  name: Unai M.
+  full_name: Unai M.
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: vmytysk
+  name: Vlad
+  full_name: Vlad
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: uabrisketa
+  name: Unai A.
+  full_name: Unai Abrisketa
+  description: is a Ruby on Rails Developer. He is fond of clean code, and always eager to learn new technologies.
+  image: uabrisketa.jpg
 
 - id: xalvarez
   name: Xavi
   full_name: Xavier Alvarez
-  description: is a Java and Kotlin backend developer, and an Ubuntu fanboy.
+  description: is a Java and Kotlin Backend Developer, and an Ubuntu fanboy.
   image: avatar_male.jpg
