@@ -19,6 +19,15 @@ jobs:
       - run:
           name: Bundle Install
           command: bundle install
+      - run:
+          name: Test posts
+          command: bundle exec rake test_posts
+      - run:
+          name: Test files
+          command: bundle exec rake test_files
+      - run:
+          name: Test html
+          command: bundle exec rake test_html
       - save_cache:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
@@ -30,57 +39,6 @@ jobs:
           root: ./
           paths:
             - ./_site
-
-  test_posts:
-    <<: *defaults
-    docker:
-      - image: circleci/ruby:2.4.2
-    environment:
-      BUNDLE_PATH: ~/repo/vendor/bundle
-    steps:
-      - attach_workspace:
-          at: ./
-      - restore_cache:
-          keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
-      - run:
-          name: Test posts
-          command: bundle exec rake test_posts
-
-  test_files:
-    <<: *defaults
-    docker:
-      - image: circleci/ruby:2.4.2
-    environment:
-      BUNDLE_PATH: ~/repo/vendor/bundle
-    steps:
-      - attach_workspace:
-          at: ./
-      - restore_cache:
-          keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
-      - run:
-          name: Test files
-          command: bundle exec rake test_files
-
-  test_html:
-    <<: *defaults
-    docker:
-      - image: circleci/ruby:2.4.2
-    environment:
-      BUNDLE_PATH: ~/repo/vendor/bundle
-    steps:
-      - attach_workspace:
-          at: ./
-      - restore_cache:
-          keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
-      - run:
-          name: Test html
-          command: bundle exec rake test_html
 
   deploy_production:
     <<: *defaults
@@ -119,28 +77,15 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - test_posts:
-          requires:
-            - build
-      - test_files:
-          requires:
-            - build
-      - test_html:
-          requires:
-            - build
       - deploy_production:
           requires:
-            - test_posts
-            - test_files
-            - test_html
+            - build
           filters:
             branches:
               only: master
       - deploy_staging:
           requires:
-            - test_posts
-            - test_files
-            - test_html
+            - build
           filters:
             branches:
               only: develop
