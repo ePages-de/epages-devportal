@@ -27,7 +27,7 @@ jobs:
       - persist_to_workspace:
           root: ./
           paths:
-            - _site
+            - ./
 
   test_posts:
     <<: *defaults
