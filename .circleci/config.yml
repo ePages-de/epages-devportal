@@ -8,6 +8,8 @@ jobs:
     <<: *defaults
     docker:
       - image: circleci/ruby:2.5
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
       - restore_cache:
@@ -37,8 +39,8 @@ jobs:
       - attach_workspace:
           at: ./
       - run:
-        name: Test posts
-        command: bundle exec rake test_posts
+          name: Test posts
+          command: bundle exec rake test_posts
 
   test_files:
     <<: *defaults
@@ -48,8 +50,8 @@ jobs:
       - attach_workspace:
           at: ./
       - run:
-        name: Test files
-        command: bundle exec rake test_files
+          name: Test files
+          command: bundle exec rake test_files
 
   test_html:
     <<: *defaults
@@ -59,8 +61,8 @@ jobs:
       - attach_workspace:
           at: ./
       - run:
-        name: Test html
-        command: bundle exec rake test_html
+          name: Test html
+          command: bundle exec rake test_html
 
   deploy_production:
     <<: *defaults
