@@ -6,6 +6,7 @@ header_image: public/module.jpg
 category: coding
 tags: ["javascript", "ecmascript", "webpack"]
 authors: ["Paolo"]
+about_authors: ["ppriotto"]
 ---
 
 **JavaScript is moving fast these days.** With all the languages out there compiling to it, JS itself is making a big leap forwards with the standardisation of its next version called _ECMAScript 6_ (or _ES6_, or _ECMAScript 2015_, or _ES2015_. [Naming is probably the hardest programming related task](https://twitter.com/a_ramella/status/656522461480099840){:target="_blank"}, and if you think that _ECMAScript sounds like a skin disease_, you're [in good company with the inventor of JavaScript himself](https://mail.mozilla.org/pipermail/es-discuss/2006-October/000133.html){:target="_blank"}).

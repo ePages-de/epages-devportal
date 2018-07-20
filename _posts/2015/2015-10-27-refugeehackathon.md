@@ -7,6 +7,7 @@ header_overlay: true
 category: events
 tags: ["hackathon", "volunteer"]
 authors: ["Jan"]
+about_authors: ["jmewes"]
 ---
 
 Lots of refugees arrived in Germany.

@@ -6,6 +6,7 @@ header_image: public/elixir.jpg
 category: events
 tags: ["elixir", "vindinium", "meetup"]
 authors: ["Rose"]
+about_authors: ["rritter"]
 ---
 <style>
 .twitter-tweet {

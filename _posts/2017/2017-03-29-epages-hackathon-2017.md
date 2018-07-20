@@ -6,6 +6,7 @@ header_image: public/blue-sky.jpg
 category: events
 tags: ["hackathon", "api", "alexa"]
 authors: ["Rose"]
+about_authors: ["rritter"]
 ---
 <style>
 .twitter-tweet {

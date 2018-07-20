@@ -7,6 +7,7 @@ header_overlay: true
 category: methods-and-tools
 tags: ["UX", "UI", "design"]
 authors: ["Anne"]
+about_authors: ["azwick"]
 ---
 
 The requirements for screen design are higher than ever, as screen design is an important component in the overall design workflow.

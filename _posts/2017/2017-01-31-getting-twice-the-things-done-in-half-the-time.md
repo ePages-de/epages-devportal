@@ -6,6 +6,7 @@ header_image: public/rugby.jpg
 category: methods-and-tools
 tags: ["agile", "scrum", "definition of done"]
 authors: ["Alejandra"]
+about_authors: ["aamendariz"]
 ---
 
 ## First things first: what actually lies behind the idea of agile development?

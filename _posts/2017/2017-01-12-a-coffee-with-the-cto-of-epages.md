@@ -6,6 +6,7 @@ header_image: private/cto-coffee.jpg
 category: on-the-job
 tags: ["api", "agile", "microservice", "docker", "kubernetes", "java", "ecommerce"]
 authors: ["Rose", "Harm"]
+about_authors: ["rritter", "hbehrens"]
 ---
 
 [Harm Behrens](https://archive.epages.com/de/unternehmen/newsroom/news/Harm-Behrens-ist-neuer-CTO-bei-ePages.php){:target="_blank"} joined [ePages](https://www.epages.com/){:target="_blank"} as CTO in September 2014.

@@ -7,7 +7,8 @@ header_position: center
 header_overlay: true
 category: events
 tags: ["ux", "conference"]
-authors: ["Lena"]
+authors: ["Lena B."]
+about_authors: ["lbrandt"]
 ---
 
 Once a year, twelve young UX professionals from all across Germany gather in the idyllic Taubertal, more precisely in the monastery Bronnbach, to exchange views and experiences, to make new contacts, and to enlarge their expert knowledge.

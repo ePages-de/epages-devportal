@@ -6,6 +6,7 @@ header_image: public/ruby.png
 category: tech-stories
 tags: ["ruby", "rails", "sdk", "api"]
 authors: ["Domingo"]
+about_authors: ["dcividanes"]
 ---
 
 As a member of the ePages Tools team, I take care of the development and maintenance of internal tools.

@@ -6,6 +6,7 @@ header_image: public/wjax-conf.jpg
 category: events
 tags: ["conference", "microservices"]
 authors: ["David"]
+about_authors: ["dpauli"]
 ---
 
 With this follow-up article of the W-JAX retrospect, I'd like to concentrate on the microservices part of the conference.
