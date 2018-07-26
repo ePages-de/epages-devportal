@@ -6,6 +6,7 @@ header_image: public/tracing-the-suspect.jpg
 category: tech-stories
 tags: ["microservice", "json", "stackdriver", "spring", "sleuth", "zipkin", "logging"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 <style>

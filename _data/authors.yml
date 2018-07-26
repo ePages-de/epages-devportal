@@ -106,6 +106,12 @@
   description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
   image: emueller.jpg
 
+- id: jfischer
+  name: Jens
+  full_name: Jens Fischer
+  description: is an experienced Java developer. He is passionate about Kotlin and Spring Boot, and loves to contribute to Open Source projects.
+  image: jfischer.jpg
+
 - id: fvollert
   name: Frederik
   full_name: Frederik
