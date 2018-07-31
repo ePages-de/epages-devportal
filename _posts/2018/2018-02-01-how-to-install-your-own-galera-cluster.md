@@ -7,6 +7,7 @@ header_position: center
 category: tech-stories
 tags: ["galera", "mysql", "database"]
 authors: ["Timo H."]
+about_authors: ["thaapakoski"]
 ---
 
 Now that you know what a [Galera Cluster](/blog/tech-stories/high-availability-with-mysql-galera-cluster/) is, you might want to install one.

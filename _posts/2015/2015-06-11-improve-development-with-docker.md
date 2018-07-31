@@ -6,6 +6,7 @@ header_image: public/container.jpg
 category: tech-stories
 tags: ["docker", "workflow", "devops"]
 authors: ["Christian H."]
+about_authors: ["choffmeister"]
 ---
 
 At the moment [Docker][docker] is one of the hottest topics for devops as well as for developers.

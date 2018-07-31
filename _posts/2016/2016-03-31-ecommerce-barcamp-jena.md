@@ -6,6 +6,7 @@ header_image: private/barcamp-jena.jpg
 category: events
 tags: ["ecommerce", "barcamp", "conference"]
 authors: ["Benjamin"]
+about_authors: ["bnothdurft"]
 ---
 
 This march the [eCommerceCamp](http://www.ecommerce-camp.de){:target="_blank"}, an annual [BarCamp](http://barcamp.org){:target="_blank"} took place for the 4th time in Jena, Germany.

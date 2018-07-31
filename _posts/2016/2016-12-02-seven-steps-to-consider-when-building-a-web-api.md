@@ -6,6 +6,7 @@ header_image: public/construction.jpg
 category: api-experience
 tags: ["api", "rest", "tdd", "authorization", "concepts"]
 authors: ["David", "Ulf B."]
+about_authors: ["dpauli", "ubiallas"]
 ---
 
 Today's ecommerce software is more and more connected with services offered by other companies,

@@ -6,6 +6,7 @@ header_image: public/microservices-pipeline-2.jpg
 category: tech-stories
 tags: ["continuous delivery", "microservice", "gradle", "jenkins", "docker"]
 authors: ["Benjamin", "Nicole"]
+about_authors: ["bnothdurft", "nstender"]
 ---
 
 In the first post of our series "The Continuous Delivery Pipeline (CDP) of our Microservices Architecture" you learned about how we designed our continuous delivery pipeline to support our microservices architecture.

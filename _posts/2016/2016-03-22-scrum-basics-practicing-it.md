@@ -6,6 +6,7 @@ header_image: private/plane.jpg
 category: methods-and-tools
 tags: ["scrum", "agile"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 In the last part of the Scrum Basics Series I'd like to step away from all the theory and give you a small exercise on how you can practice the Scrum Basics with a new Scrum Team.

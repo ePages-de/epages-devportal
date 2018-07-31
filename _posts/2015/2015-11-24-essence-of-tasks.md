@@ -6,6 +6,7 @@ header_image: public/task.jpg
 category: methods-and-tools
 tags: ["workshop", "prioritization"]
 authors: ["Timo H."]
+about_authors: ["thaapakoski"]
 ---
 
 {% highlight text %}

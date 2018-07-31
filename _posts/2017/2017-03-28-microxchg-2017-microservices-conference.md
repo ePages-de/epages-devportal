@@ -6,6 +6,7 @@ header_image: private/microxchg-2017.jpg
 category: events
 tags: ["microservice", "conference"]
 authors: ["Benjamin"]
+about_authors: ["bnothdurft"]
 ---
 
 In mid February the [microXchg conference](http://microxchg.io){:target="_blank"} ([Twitter](https://twitter.com/microXchg){:target="_blank"}) took place in Berlin.

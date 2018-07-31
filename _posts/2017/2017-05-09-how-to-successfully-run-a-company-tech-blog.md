@@ -6,6 +6,7 @@ header_image: public/social-like.jpg
 category: techcomm-and-socialmedia
 tags: ["blogging", "guideline", "twitter", "company"]
 authors: ["Rose"]
+about_authors: ["rritter"]
 ---
 
 At [ePages](https://www.epages.com/us/){:target="_blank"} we develop ecommerce solutions.

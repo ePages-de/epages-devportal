@@ -7,6 +7,7 @@ image-position: top
 category: events
 tags: ["ruby", "jruby", "rails", "opal", "rubymotion", "jemalloc", "conference"]
 authors: ["Unai M."]
+about_authors: ["umartinez"]
 ---
 
 Last week my team (Internal tools team) attended the European Ruby Conference in Budapest. Although we use other languages, we love working with Ruby. It's the base of our team, so it felt natural to be there.

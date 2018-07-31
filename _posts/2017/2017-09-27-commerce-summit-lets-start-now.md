@@ -7,6 +7,7 @@ image-position: top
 category: events
 tags: ["commerce summit", "ecommerce"]
 authors: ["Christina"]
+about_authors: ["cgebken"]
 ---
 <style>
 

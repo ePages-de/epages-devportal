@@ -7,7 +7,7 @@ header_overlay: true
 category: on-the-job
 tags: ["technology", "efficiency", "people management"]
 authors: ["Birgit", "Harm"]
-about_authors: ["bbader"]
+about_authors: ["bbader", "hbehrens"]
 ---
 
 Just recently, I've talked to our CTO, Harm Behrens, about his secrets of success.

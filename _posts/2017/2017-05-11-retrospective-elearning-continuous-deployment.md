@@ -6,6 +6,7 @@ header_image: public/learning.jpg
 category: methods-and-tools
 tags: ["capistrano", "agile", "continuous deployment"]
 authors: ["Jan"]
+about_authors: ["jmewes"]
 ---
 
 New versions of our ePages software are currently released every three weeks.
