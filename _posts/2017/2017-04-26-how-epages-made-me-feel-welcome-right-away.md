@@ -6,6 +6,7 @@ header_image: public/jump.jpg
 category: on-the-job
 tags: ["onboarding", "localization"]
 authors: ["Christina"]
+about_authors: ["cgebken"]
 ---
 
 <style>

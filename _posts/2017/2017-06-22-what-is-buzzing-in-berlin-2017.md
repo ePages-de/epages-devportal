@@ -6,6 +6,7 @@ header_image: private/berlin-buzzwords-2017.jpg
 category: events
 tags: ["elasticsearch", "microservice", "conference"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 <style>

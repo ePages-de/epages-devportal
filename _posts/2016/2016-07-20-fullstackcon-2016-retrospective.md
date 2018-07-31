@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "ePages goes FullStack JavaScript conference"
-date: 2016-07-19
+date: 2016-07-20
 header_image: public/javascript.png
 category: events
 tags: ["conference", "javascript", "react", "nodejs"]
 authors: ["Paolo"]
+about_authors: ["ppriotto"]
 ---
 
 The Brexit is coming, the pound sterling is low, and my fellow colleague Erik and I took the opportunity to visit a conference in London ~~before we'll need a visa for that~~. It was called [_FullStack - the conference on JavaScript, Node & Internet of Things_][fullstack-website] and featured, among others, speakers from Google, Microsoft, and Facebook.

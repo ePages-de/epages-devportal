@@ -6,6 +6,7 @@ header_image: public/heartbeat.jpg
 category: api-experience
 tags: ["api", "testing", "rest", "framework"]
 authors: ["Ulf B."]
+about_authors: ["ubiallas"]
 ---
 
 A few years ago, at the time when the development of the [ePages REST API](/apps) started,

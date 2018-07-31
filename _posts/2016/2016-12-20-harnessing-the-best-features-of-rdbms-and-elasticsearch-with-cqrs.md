@@ -6,6 +6,7 @@ header_image: public/searching.jpg
 category: tech-stories
 tags: ["rdbms", "elasticsearch", "cqrs", "patterns", "data models"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 After having explained how we use [Multitenancy and Elasticsearch][prev-blog-post], we will continue our series of search-related blog posts by looking at a software architecture pattern called `Command and Query Responsibility Segregation` ([CQRS][fowler-cqrs]) and how we embrace it for managing and accessing product data in our ePages shops.

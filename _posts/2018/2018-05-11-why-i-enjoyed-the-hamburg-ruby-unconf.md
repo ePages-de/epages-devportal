@@ -7,6 +7,7 @@ header_position: bottom
 category: events
 tags: ["ruby", "rails", "conference"]
 authors: ["Unai A."]
+about_authors: ["uabrisketa"]
 ---
 Where do I start?
 There was nothing I enjoyed most.

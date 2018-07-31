@@ -6,6 +6,7 @@ header_image: public/smart.jpg
 category: language-and-localization
 tags: ["localization", "i18n", "translation", "software", "gettext"]
 authors: ["Frederik"]
+about_authors: ["fvollert"]
 ---
 From our work with hundreds of companies localizing software here at [PhraseApp](https://phraseapp.com/){:target="_blank"}, I want to share some insights in the usage of gettext and advanced translation message format features.
 I'll share my point of view on which features to use and which to rather avoid.

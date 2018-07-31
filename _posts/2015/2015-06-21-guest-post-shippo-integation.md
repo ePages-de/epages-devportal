@@ -6,6 +6,7 @@ header_image: public/puzzle.jpg
 category: tech-stories
 tags: ["ecommerce", "api", "third-party"]
 authors: ["Shippo"]
+about_authors: ["shippo"]
 ---
 
 Shippo is excited to support ePages merchants thanks to a new partnership.

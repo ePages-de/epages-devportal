@@ -6,6 +6,7 @@ header_image: public/gradle-jenkins-tools.jpg
 category: tech-stories
 tags: ["jenkins", "gradle", "dsl", "deployment", "groovy"]
 authors: ["Renato"]
+about_authors: ["rteixeira"]
 ---
 
 Since the [last blog post](/blog/tech-stories/jenkins-job-dsl-plugin/) post we did some updates in our Jenkins environments and today I'm going to talk a bit about it.

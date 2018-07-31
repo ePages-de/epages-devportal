@@ -7,6 +7,7 @@ header_position: center
 category: tech-stories
 tags: ["galera", "mysql", "database"]
 authors: ["Timo H."]
+about_authors: ["thaapakoski"]
 ---
 
 You proudly managed to [install your own Galera cluster](/blog/tech-stories/how-to-install-your-own-galera-cluster/).
