@@ -51,6 +51,7 @@ exclude:
   - run_tests.sh
   - config/
   - log/
+  - vendor
 
 feed:
   path: /blog/feed.xml
