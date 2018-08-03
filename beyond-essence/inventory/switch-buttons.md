@@ -4,29 +4,31 @@ header_image: private/main.jpg
 title: Switch buttons
 background_image: index.jpg
 ---
+{% image_custom image="/assets/img/pages/essence/switch-on-off.png" width="25" align="right" %}
+A switch button works like a physical switch, which can be used to e.g. turn the light ON and OFF. In the cockpit we show switch buttons, when a merchant can turn a feature on or off and when he can enhance cards with additional features.
 
-A Switch button represents a physical switch that allows merchants to turn features on or off, just like when using a light switch.
-The general use of a switch button is to represent an action.
-Toggling the switch button provides immediate results.
-
-#### Disabled switch button
-
-{% image_custom image="/assets/img/pages/essence/switch-button-off.png" width="100" %}
-
-#### Enabled switch button
-
-{% image_custom image="/assets/img/pages/essence/switch-button-on.png" width="100" %}
+The UI element "checkbox" is used quite similar. Check the section "Choosing between switch button and checkbox" and have look in the inventory entry for checkbox to find the right element for your use case.
 
 ## Use cases
 
-In the Beyond cockpit we use switch buttons for binary settings when changes become effective immediately after the merchant has made them.
+**Turn a feature on / off**
 
-Implement switch buttons to give merchants two mutually exclusive options:
+has an big impact on further workflows: example stock level tracking
 
-* off: the feature is disabled/inactive
-* on: the feature is enabled/active
+**Enhance cards with extensions**
+The cockpit will be customizable. To allow merchants to adapt the cockpit to their needs, they can turn features on or off. This will for example be possible on single cards.
 
-Thus, a switch button makes particularly clear if a feature is active or not.
+Example: Add the feature "product properties"
+
+* If the feature is enabled, the merchant can add a list of product properties to e.g. use them in search filters.
+* If the feature is disabled, the merchant doesn't see this option, but can only use the description. For merchants with few and simple products this is sufficient and the UI is less cluttered.
+
+
+
+
+
+💡 _Note: this use case is not available yet._
+
 
 ## Structure
 
@@ -38,9 +40,18 @@ What's more, a switch button comes with a UI label on the right side, that clear
 An inactive switch button is displayed without any content.
 Whereas an active switch button comes with additional content that is displayed prominently in a beige-highlighted area right below the switch button.
 
+Implement switch buttons to give merchants two mutually exclusive options:
+
+* off: the feature is disabled/inactive
+* on: the feature is enabled/active
+
+Thus, a switch button makes particularly clear if a feature is active or not.
+
+that the states of the switch should be visibly clear and distinctive so that the merchant could avoid applying effort to understand if the option is active or not
+
 ## Position
 
-Switch buttons may be positioned on a card together with further UI elements that relate to a specific feature. 
+Switch buttons may be positioned on a card together with further UI elements that relate to a specific feature.
 
 ## Behavior
 
