@@ -285,3 +285,10 @@
   full_name: Xavier Alvarez
   description: is a Java and Kotlin Backend Developer, and an Ubuntu fanboy.
   image: avatar_male.jpg
+
+- id: cseeger
+  name: Carsten
+  full_name: Carsten Seeger
+  description: Application Engineer, Sysadmin, Automation Developer. Golang code nerd. Keeps stuff running.
+  image: cseeger.jpg
+
