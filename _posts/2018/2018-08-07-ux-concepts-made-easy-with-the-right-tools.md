@@ -11,7 +11,8 @@ about_authors: ["aortmann"]
 ---
 
 Today we will continue with our small series about using the right tools for different UX phases.
-We already talked about the first phase ["User research and UX groundwork"](https://developer.epages.com/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/){:target="_blank"}. In this article we will have a closer look at the second phase: concepts.
+We already talked about the first phase ["User research and UX groundwork"](/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/).
+In this article we will have a closer look at the second phase: concepts.
 In this phase it's all about processing the gained information and make a shiny concept.
 Let's start clean and very basic with a good old pen and a sheet of paper:
 
@@ -57,13 +58,13 @@ In our UX team we use [InVision](https://www.invisionapp.com/){:target="_blank"}
 In InVision we import our wireframes, define click areas and then link different screens.
 To a certain degree this is also possible in Balsamiq, but we prefer InVision for it.
 It's easier and has more options. Additionally, InVision can be used to link mockups or screen designs to create a basic prototype.
-Have a look into [this great post](https://developer.epages.com/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/){:target="_blank"} from Anne, to learn more about the advantages and disadvantages of InVision and to get some info on further prototyping tools.  
+Have a look into [this great post](/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/) from Anne, to learn more about the advantages and disadvantages of InVision and to get some info on further prototyping tools.  
 
 ## Atlassian Confluence
 
 Another tool we use in this phase is [Atlassian Confluence](https://www.atlassian.com/software/confluence){:target="_blank"}.
 It is in use across the whole company as a knowledge base and to communicate internal information.
-We also have a connection to Jira to link to our tasks (see the [first article](https://developer.epages.com/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/){:target="_blank"} of this series).
+We also have a connection to Jira to link to our tasks (see the [first article](/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/) of this series).
 In Confluence we publish our UX concepts.
 We have a Balsamiq integration in place so that we can directly create the wireframes online in the final concept.
 
@@ -79,5 +80,5 @@ Stay tuned for the implementation and testing phase and respective tools!
 
 ## Related posts
 
-* [Useful UX tools for research and groundwork](https://developer.epages.com/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/){:target="_blank"}
-* [Workflow tuning with prototyping tools](https://developer.epages.com/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/){:target="_blank"}
+* [Useful UX tools for research and groundwork](/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/)
+* [Workflow tuning with prototyping tools](/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/)
