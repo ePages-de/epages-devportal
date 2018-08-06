@@ -28,7 +28,7 @@ So we created our first system to issue certificates for shop domains using lets
 ### Technical Summary:
 
 First of a word about HTTP-01 challenge defined in the [ACME](https://github.com/ietf-wg-acme/acme/){:target="_blank"} protocol. 
-In general these challenges are designed to check if the requesting instance is valid for creating a certificate for the requested domain. The HTTP-01 challenge assumes that you have control over the webroot of the webserver where a domain points to. 
+In general these challenges are designed to check if the requesting instance is valid for creating a certificate for the requested domain. The HTTP-01 challenge assumes that the webroot of the webserver where a domain points to is under your control. 
 You have to put a challenge into your webroot folder `<path/to/webroot>/.well-known/acme-challenges/...` to prove you are trustworthy to get a certificate for your domain.
 
 But there were some steps to go to automate the whole issueing process for a shared plattform running in a big cluster with lots of loadbalancing in the background. 
@@ -68,7 +68,7 @@ With these templates you can do basically all magic you want to do for your soft
 We have several templates designed for our use cases depending on what shop our customers have.
 
 The certificate and configurations get [rsynced](https://en.wikipedia.org/wiki/Rsync){:target="_blank"} to the NLB. 
-Before the configurations goes live everything gets tested and integrated after successfully checking that nothing is wrong. 
+Before the configurations goes into production everything gets tested and integrated after successfully checking that nothing is wrong. 
 Here is a simplified picture showing what happens:
 
 {% image_custom image="/assets/img/pages/blog/images/blog-letsencrypt-http-01.svg"" width="50" caption="http-01" lightbox %}
@@ -93,7 +93,7 @@ Here is how it works!
 
 ### Technical Summary:
 
-Using DNS-01 challenge of the ACME protocol requires that you have control over creating, updating (and deleting) [TXT records](https://en.wikipedia.org/wiki/TXT_record){:target="_blank"} for your [domain zone](https://en.wikipedia.org/wiki/Domain_Name_System){:target="_blank"}. 
+Using DNS-01 challenge of the ACME protocol requires that you can create, update (and delete) [TXT records](https://en.wikipedia.org/wiki/TXT_record){:target="_blank"} for your [domain zone](https://en.wikipedia.org/wiki/Domain_Name_System){:target="_blank"}. 
 For example if you want a wildcard certificate for `*.example.com` you have to create a specific subdomain with a TXT record. 
 This subdomain for our example would be `_acme-challenge.example.com` and the TXT record would contain a validation string created within the issueing process 
 (Btw it doesn't matter if there are "some" more TXT records. Let's encrypt loops over all of them to check .. at least until bad things happen). 
@@ -109,7 +109,7 @@ If your setup is simpler by using some kind of domain provider having a standard
 To overcome our TXT creation problem there is a common practice called [CNAMES](https://en.wikipedia.org/wiki/CNAME_record){:target="_blank"} that is supported by the ACME protocoll. 
 Let's assume we want a wildcard certificate for `*.ourfancy.domain`. 
 So we create the `_acme-challenge.ourfancy.domain` and CNAME it to `_acme-challeenge-cname.some.other.domain` where we have better options to manage TXT records. 
-In our case the `some.other.domain` zone is managed by a DNS server we have control over.
+In our case the `some.other.domain` zone is managed by a DNS server we have under our control.
 
 So we CNAME the `_acme-challenge` domains to domains managed by our DNS server and create TXT records using [nsupdate](https://en.wikipedia.org/wiki/Nsupdate){:target="_blank"} magic (*we are using [BIND](https://wikipedia.org/wiki/BIND){:target="_blank"} here for the DNS part*). 
 All you have to do is set up one initial CNAME and the rest is done by **bash magic**.
