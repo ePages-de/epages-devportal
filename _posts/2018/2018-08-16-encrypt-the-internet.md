@@ -27,7 +27,7 @@ So we created our first system to issue certificates for shop domains using lets
 
 ### Technical Summary:
 
-First of a word about HTTP-01 challenge defined in the [ACME](https://github.com/ietf-wg-acme/acme/){:target="_blank"} protocol. 
+First of a word about [HTTP-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.3){:target="_blank"} challenge defined in the [ACME](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html){:target="_blank"} protocol. 
 In general these challenges are designed to check if the requesting instance is valid for creating a certificate for the requested domain. The HTTP-01 challenge assumes that the webroot of the webserver where a domain points to is under your control. 
 You have to put a challenge into your webroot folder `<path/to/webroot>/.well-known/acme-challenges/...` to prove you are trustworthy to get a certificate for your domain.
 
@@ -80,7 +80,7 @@ This was a huge step forward because our new **ePages Now** product was also des
 
 ## Into the wild...card
 
-In May 2018 Let's Encrypt started supporting wildcard domains using DNS-01 challenge and we thought ... **NICE** ! 
+In May 2018 Let's Encrypt started supporting wildcard domains using [DNS-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.4){:target="_blank"} challenge and we thought ... **NICE** ! 
 As an internet company we need many wildcard certificates especially for all newly created shops. 
 These shops perhaps don't have an own domain at the beginning. 
 So they get a standard domain that looks like `shopalias.some.domain`, where `some.domain` is one of our domains. 
@@ -93,7 +93,7 @@ Here is how it works!
 
 ### Technical Summary:
 
-Using DNS-01 challenge of the ACME protocol requires that you can create, update (and delete) [TXT records](https://en.wikipedia.org/wiki/TXT_record){:target="_blank"} for your [domain zone](https://en.wikipedia.org/wiki/Domain_Name_System){:target="_blank"}. 
+Using DNS-01 challenge of the ACME protocol requires you to create, update (and delete) [TXT records](https://en.wikipedia.org/wiki/TXT_record){:target="_blank"} for your [domain zone](https://en.wikipedia.org/wiki/Domain_Name_System){:target="_blank"}. 
 For example if you want a wildcard certificate for `*.example.com` you have to create a specific subdomain with a TXT record. 
 This subdomain for our example would be `_acme-challenge.example.com` and the TXT record would contain a validation string created within the issueing process 
 (Btw it doesn't matter if there are "some" more TXT records. Let's encrypt loops over all of them to check .. at least until bad things happen). 
@@ -193,7 +193,7 @@ The following picture describes the complete process a bit more abstract:
 
 So for the not so technical interested person who really made it all the way down to read this ... all you have to know is:
 
-**You're safe now, everything is encrypted ! 😁 **
+**You're safe now, everything is encrypted ! 😁**
 
 That's it folks for now. 
 I hope you enjoyed our special ride through the Let's Encrypt world and make the internet more secure by encrypting your own services.
