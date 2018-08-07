@@ -29,7 +29,7 @@ So we created our first system to issue certificates for shop domains using lets
 
 First of a word about [HTTP-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.3){:target="_blank"} challenge defined in the [ACME](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html){:target="_blank"} protocol. 
 In general these challenges are designed to check if the requesting instance is valid for creating a certificate for the requested domain. The HTTP-01 challenge assumes that the webroot of the webserver where a domain points to is under your control. 
-You have to put a challenge into your webroot folder `<path/to/webroot>/.well-known/acme-challenges/...` to prove you are trustworthy to get a certificate for your domain.
+You have to put a challenge into your webroot folder `<path/to/webroot>/.well-known/acme-challenges/...` to prove you are trustworthy to get a certificate for your domain. Let's Encrypt checks this challenge using the domain, the standard path `.well-known/acme-challenges/` and the generated challenge to validate your request.
 
 But there were some steps to go to automate the whole issueing process for a shared plattform running in a big cluster with lots of loadbalancing in the background. 
 Our scenario is a bit different from the standard case. But sometimes pictures say more than words:
@@ -40,7 +40,7 @@ First thing we need is a list of domains we want to issue.
 This list comes from our epages software and includes all domains with their certification status.
 
 Our [network load balancer (NLB)](https://www.nginx.com/){:target="_blank"} (the orange thing) is configured to proxy requests going to `/.well-known` to a system where our certbot puts the challenges in place (the blue service system). 
-Now we were able to issue certificates for any shopdomain on the platform, because every such domain points now to our loadbalancer IP address (if not ... nobody can buy something from your shop :O).
+Now we were able to issue certificates for any shopdomain on the platform, because every such domain points now to our loadbalancer IP address (if not ... nobody can buy something from your shop 😮).
 Now you may ask why not just do the whole letsencrypt stuff on the loadbalancer. 
 Yes you can do it but our Loadbalancers are rented from a service provider so we don't have this option.
 
