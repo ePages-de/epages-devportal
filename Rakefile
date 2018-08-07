@@ -55,8 +55,8 @@ task :test_posts do
     def check_front_matter(post)
       errors = []
 
-      config = YAML.load(File.open('./_config.yml') { |f| f.read })
-      categories = config['category_list'].keys
+      categories = YAML.load(File.open('./_config.yml') { |f| f.read })['category_list'].keys
+      authors = YAML.load(File.open('./_data/authors.yml') { |f| f.read }).map(&:first).map(&:last)
 
       if ['.md'].include? File.extname(post)
         f_m = YAML.load(File.open(post) { |f| f.read }[/---(.*?)---/m, 1])
@@ -80,6 +80,14 @@ task :test_posts do
         else
           unless f_m['authors'].is_a?(Array)
             errors << LinterError.new(post, nil, 'Post authors must be an Array')
+          end
+        end
+        unless f_m['about_authors'].nil?
+          unless f_m['about_authors'].is_a?(Array)
+            errors << LinterError.new(post, nil, 'Post about_authors must be an Array')
+          end
+          unless (f_m['about_authors'] - authors).empty?
+            errors << LinterError.new(post, nil, 'Post about_authors ids must exist on \'_data/authors.yml\'')
           end
         end
         if f_m['header_image'].nil?
@@ -298,7 +306,6 @@ task :test do
 end
 
 task :write do
-  config_file = '_config.yml'
   write_file  = '_config_write.yml'
   date_from   = Date.new(2015)
   date_to     = Date.today.prev_month.prev_month
