@@ -7,6 +7,7 @@ header_overlay: true
 category: events
 tags: ["conference", "scrum", "agile"]
 authors: ["Anja B."]
+about_authors: ["abaericke"]
 ---
 
 This November I visited the Global Scrum Gathering in Prague.

@@ -6,6 +6,7 @@ header_image: public/database.jpg
 category: tech-stories
 tags: ["mysql", "schema", "database", "oracle"]
 authors: ["Mario"]
+about_authors: ["mriess"]
 ---
 
 Avoiding the planned downtime during software maintenance is a requirement of one of our major customers.

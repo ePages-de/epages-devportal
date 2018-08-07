@@ -5,18 +5,17 @@ date: 2015-04-01
 header_image: public/first-hackathon.jpg
 category: events
 tags: ["hackathon", "docker", "gradle"]
-authors: ["Anja", "Birgit"]
+authors: ["Anja B.", "Birgit"]
+about_authors: ["abaericke", "bbader"]
 ---
 
 **2 days - 50 ePagees - 8 teams.** On March 24 and 25, 2015 all signs in the ePages Jena office pointed to exploratory programming.
 
 The rules were simple:
 
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-thumb-tack"></i>Work on a solution for something that bothers in daily work, is time consuming or even would make our work life easier.</li>
-  <li><i class="fa-li fa fa-thumb-tack"></i>Achievable in two days.</li>
-  <li><i class="fa-li fa fa-thumb-tack"></i>Developed in cross-functional teams.</li>
-</ul>
+* Work on a solution for something that bothers in daily work, is time consuming or even would make our work life easier.
+* Achievable in two days.
+* Developed in cross-functional teams.
 
 After two days of "blood, sweat, tears" and lots of fun, we had awesome results:
 

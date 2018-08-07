@@ -6,6 +6,7 @@ header_image: public/challenge-cube.jpg
 category: tech-stories
 tags: ["testing", "jenkins", "github"]
 authors: ["Florian Z."]
+about_authors: ["fziller"]
 ---
 
 Did you ever face the problem of building a feature over multiple repositories?

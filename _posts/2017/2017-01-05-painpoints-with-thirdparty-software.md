@@ -6,6 +6,7 @@ header_image: public/challenge-cube.jpg
 category: tech-stories
 tags: ["api","third-party","ecommerce"]
 authors: ["Mats"]
+about_authors: ["mandresen"]
 ---
 
 Anyone will probably know the challenge of making a decision as a member of a group.

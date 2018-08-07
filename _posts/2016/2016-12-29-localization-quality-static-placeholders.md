@@ -6,6 +6,7 @@ header_image: public/quality.jpg
 category: language-and-localization
 tags: ["localization", "placeholder", "translation", "qa", "terminology"]
 authors: ["Frederik"]
+about_authors: ["fvollert"]
 ---
 In the prior article on [smart localization formats](/blog/language-and-localization/smart-localization-formats/), I tried to shed some light on some of the possible features of the commonly used localization format [gettext](https://www.gnu.org/software/gettext/){:target="_blank"} and to give a quick introduction to the [ICU Message Format](http://userguide.icu-project.org/formatparse/messages){:target="_blank"}.
 

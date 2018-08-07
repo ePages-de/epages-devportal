@@ -6,6 +6,7 @@ header_image: public/rails-train-path-straight.jpg
 category: tech-stories
 tags: ["ruby", "rails", "sales analytics app", "sidekiq", "api", "heroku", "aws"]
 authors: ["Unai M."]
+about_authors: ["umartinez"]
 ---
 
 Last month, I wrote a post about [how and why we started with our Sales Analytics app](/blog/tech-stories/creating-a-sales-analytics-app-with-ruby-on-rails/).

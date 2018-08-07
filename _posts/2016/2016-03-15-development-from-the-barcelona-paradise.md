@@ -6,6 +6,7 @@ header_image: private/barbecue.jpg
 category: on-the-job
 tags: ["job", "barcelona", "team", "development"]
 authors: ["Roger"]
+about_authors: ["rdomenech"]
 ---
 
 If you check our [ePages](http://www.epages.com){:target="_blank"} website you will see that we have an office in Barcelona, wow!
