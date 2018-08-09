@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 header_image: private/main.jpg
 title: Spelling and Punctuation
 background_image: index.jpg

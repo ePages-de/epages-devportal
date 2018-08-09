@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 ---
 
 Form validation is an important part of guiding a user through entry fields.

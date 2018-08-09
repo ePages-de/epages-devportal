@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 header_image: main.jpg
 title: Target Group
 background_image: index.jpg
