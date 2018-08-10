@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 ---
 
 Empty states can have a more experimental and personal design and language.
