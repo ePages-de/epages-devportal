@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 header_image: main.jpg
 title: Beyond essence
 background_image: index.jpg

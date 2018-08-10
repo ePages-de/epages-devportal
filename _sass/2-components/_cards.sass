@@ -26,11 +26,36 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
     table, th, td
       border: $base-border
 
+    th, td
+      padding: .3em .6em
+
+      p
+        margin: 0
+
+    table
+      table-layout: fixed
+      width: calc(100% - 2 * #{$card-margin-mobile})
+
+      +grid-media($grid-medium)
+        width: calc(100% - 2 * #{$card-margin-desktop})
+
+      thead
+        font-family: $base-font-family-bold
+        font-weight: normal
+        background: $whitesmoke
+
+      tbody
+
+        td
+          overflow: auto
+          word-break: break-word
+
+          code
+            padding: 0
+
     table
       th
         font-weight: bold
-      td, th
-        padding: .2em .4em
 
     ul
       list-style-type: disc

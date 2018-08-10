@@ -22,7 +22,7 @@
             <a href="/blog/search/?query={{ author }}" class="header__author">
               {{ author }}
             </a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}&nbsp; — &nbsp;{{ page.date | date: "%B %d, %Y" }}&nbsp; — &nbsp;<a href="/blog/{{ page.category }}" class="header__category">{{ page.category | category_name }}</a>&nbsp; — &nbsp;<i class='far fa-clock' style='font-size: 1.6rem'></i><span> {{ reading_time }} min.</span>
+          {% endfor %}&nbsp; — &nbsp;{{ page.date | date: "%B %d, %Y" }}&nbsp; — &nbsp;<a href="/blog/{{ page.category }}" class="header__category">{{ page.category | category_name }}</a>&nbsp; — &nbsp;<i class='far fa-clock' style='font-size: 1.6rem'></i><span> {{ reading_time }} min. read</span>
         </div>
       {% endif %}
 
