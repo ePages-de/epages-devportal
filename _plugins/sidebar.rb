@@ -12,8 +12,6 @@ module Jekyll
       @result = ""
 
       loop_entries(entries)
-
-      @result += "</ul>"
     end
 
     def loop_entries(entries)
