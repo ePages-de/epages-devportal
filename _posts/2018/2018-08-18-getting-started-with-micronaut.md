@@ -27,17 +27,19 @@ Our microservices contain a number of tests, and most of them include at least a
 
 The reason behind this is that before executing our integration tests, Spring Boot needs to carry out some additional work such as [loading Spring's ApplicationContext and WebApplicationContext](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#testing-ctx-management){:target="_blank"}.
 
-Now think about a developer who is working on a new feature and running tests over and over again. Can you picture their desperation while waiting for the the test execution to finish?
+Now think about a developer who is working on a new feature and running tests over and over again. Can you picture their desperation while waiting for the test execution to finish?
 
 ### Slow application start-up
 
-Similarly, starting a microservice is relatively slow, and one of the reasons is that there are lots of things happening on runtime. For example, the bytecode of each and every [Spring bean](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-introduction){:target="_blank"} is read, and that of course adds up to the start-up time.
+Similarly, starting a microservice is relatively slow, and one of the reasons is that there are lots of things happening at runtime. For example, the bytecode of each and every [Spring bean](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-introduction){:target="_blank"} is read, and that of course adds up to the start-up time.
 
-In a microservices environment, where individual applications need to be deployed quite often, specially when following some kind of [*continuous deployment*](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd){:target="_blank"} approach, this may become an inconvenient.
+In a microservices environment, where individual applications need to be deployed quite often, specially when following some kind of [*continuous deployment*](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd){:target="_blank"} approach, this may become inconvenient.
 
 ### Memory consumption
 
-Although Spring Boot memory performance can be improved for example by playing with different JVM parameters, in general Spring Boot applications have a relatively high memory footprint. In our environment, a microservice requires a couple hundred megabytes of memory, and just like time is money, so is memory. In other words, the memory microservices you have, the more memory you need, and that doesn't come for free.
+Although Spring Boot memory performance can be improved for example by playing with different JVM parameters, in general Spring Boot applications have a relatively high memory footprint.
+
+In our environment, a microservice requires a couple hundred megabytes of memory, and just like time is money, so is memory. In other words, the more microservices you have, the more memory you need, and that doesn't come for free.
 
 To address these disadvantages we used our last [*brown bag* session](https://www.investopedia.com/terms/b/brown-bag-meeting.asp){:target="_blank"} to fiddle with [Micronaut](http://micronaut.io/){:target="_blank"}.
 
@@ -47,11 +49,11 @@ To address these disadvantages we used our last [*brown bag* session](https://ww
 
 This is how Micronaut tackles the disadvantages above:
 
-- **Test execution.** A lot of the heavy work that Spring Boot does on runtime is done on compile time on Micronaut. As a consequence, test suite setup is minimal and way faster.
+- **Test execution.** A lot of the heavy work that Spring Boot does at runtime is done at compile time on Micronaut. As a consequence, test suite setup is minimal and way faster.
 - **Application start-up.** For the same reason as above, starting an application only takes a couple seconds, and that doesn't change dramatically when increasing the number of classes.
-- **Memory consumption.** While on Spring Boot we talk about a couple hundred megabytes per microservice, on Micronaut is happy with tens of megabytes.
+- **Memory consumption.** While with Spring Boot we talk about a couple hundred megabytes per microservice, Micronaut is happy with tens of megabytes.
 
-Unfortunately there aren't many benchmarks out there yet but I can recommend the following Micronaut presentation, where some interesting numbers are explained:
+Unfortunately there aren't many benchmarks out there yet, but I can recommend the following Micronaut presentation, where some interesting numbers are explained:
 
 {% youtube_video video_id="56j_f3OCg6E" %}
 
@@ -90,7 +92,7 @@ interface GithubClient {
 }
 {% endhighlight %}
 
-The class above defines an `@Client` annotated interface that points to a specific API (https://api.github.com/) and contains a `@Post` annotated method which takes three parameters: the GraphQL query we want to execute, an Authorization header that should be fed with our GitHub API token and a mandatory User-Agent header.
+The class above defines an `@Client` annotated interface that points to a specific API (https://api.github.com/) and contains a `@Post` annotated method which takes three parameters: the GraphQL query we want to execute, an Authorization header that should be fed with our GitHub API token, and a mandatory User-Agent header.
 
 #### Configuration file
 
@@ -151,7 +153,7 @@ Here we're exposing a `/github/licenses` endpoint that will call the GitHub clie
 
 #### Execution
 
-Now we have everything we need to try out our new REST client. First, we need to start the application, which **in my laptop takes 1843 milliseconds**:
+Now we have everything we need to try out our new REST client. First, we need to start the application, which **on my laptop takes 1843 milliseconds**:
 
 ```
 [main] INFO  io.micronaut.runtime.Micronaut - Startup completed in 1843ms. Server Running: http://localhost:8080
@@ -188,9 +190,9 @@ And this is the result:
 
 ## Conclusion
 
-Carrying out too much work on runtime is a downside that has certain downsides that need to be taken into account. The concepts software developers work with nowadays are different from the ones that were considered when some of the most popular frameworks kicked off.
+Carrying out too much work at runtime is a downside that has certain implications that need to be taken into account. The concepts software developers work with nowadays are different from the ones that were considered when some of the most popular frameworks kicked off.
 
-However, I would like to stress the fact that Micronaut is just starting. It was announced a couple months ago and it may not feel production ready yet. Other frameworks such as Spring Boot have an impressible set of features and community support that can't be overlooked. Nevertheless, Micronaut is an interesting piece of technology that is definitely worth keeping track of.
+However, I would like to stress the fact that Micronaut is just starting. It was announced a couple months ago and it may not feel production ready yet. Other frameworks such as Spring Boot have an impressibe set of features and community support that can't be overlooked. Nevertheless, Micronaut is an interesting piece of technology that is definitely worth keeping track of.
 
 ## Resources
 
