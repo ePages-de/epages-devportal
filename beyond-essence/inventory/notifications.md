@@ -1,3 +1,3 @@
 ---
-layout: page
+layout: beyond-essence
 ---

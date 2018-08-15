@@ -1,4 +1,4 @@
-<div class="navbar  {% if page.layout == 'no-header' %}navbar--dark{% else %}navbar--transparent{% endif %}">
+<div class="navbar  {% if page.layout == 'no-header' or page.layout == 'beyond-essence' %}navbar--dark{% else %}navbar--transparent{% endif %}">
   <div class="navbar-wrapper">
 
     <a href="/">
@@ -45,6 +45,6 @@
   </div>
 </div>
 
-{% unless page.layout == 'no-header' %}
+{% unless page.layout == 'no-header' or page.layout == 'beyond-essence' %}
   <script src="/assets/js/navbar.js"></script>
 {% endunless %}

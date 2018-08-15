@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 ---
 
 Buttons are basic elements in user interfaces.

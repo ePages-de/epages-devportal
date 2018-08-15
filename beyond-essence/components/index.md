@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 ---
 
 We've collected a variety of interface elements, that are being reused throughout the `beyond` platform.

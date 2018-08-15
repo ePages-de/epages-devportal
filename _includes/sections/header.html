@@ -16,11 +16,13 @@
 
       {% if page.layout == 'post' %}
         <div class="header__post-info">
+          {%- assign reading_time = page.content | strip_html | split: ' ' | size | divided_by: 200.0 | ceil -%}
+
           {% for author in page.authors %}
             <a href="/blog/search/?query={{ author }}" class="header__author">
               {{ author }}
             </a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %} — {{ page.date | date: "%B %d, %Y" }} — <a href="/blog/{{ page.category }}" class="header__category">{{ page.category | category_name }}</a>
+          {% endfor %}&nbsp; — &nbsp;{{ page.date | date: "%B %d, %Y" }}&nbsp; — &nbsp;<a href="/blog/{{ page.category }}" class="header__category">{{ page.category | category_name }}</a>&nbsp; — &nbsp;<i class='far fa-clock' style='font-size: 1.6rem'></i><span> {{ reading_time }} min. read</span>
         </div>
       {% endif %}
 
