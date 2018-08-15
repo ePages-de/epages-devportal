@@ -11,40 +11,36 @@ authors: ["Carsten S."]
 about_authors: ["cseeger"]
 ---
 
-Hey people and welcome back to our blog.
+This post is all about a very nice thing that revolutionized encryption on the internet. 
+In 2015, the famous organisation [Let's Encrypt](https://letsencrypt.org/){:target="_blank"} made the decision to throw out [TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security){:target="_blank"} certificates for free to everyone who needed them. In September 2015, the [first certificate](https://letsencrypt.org/2015/09/14/our-first-cert.html){:target="_blank"} was issued, and in May 2018, Let's Encrypt took the next step, and started supporting [wildcard certificates](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579){:target="_blank"}.
 
-Today it's all about a very nice thing that revolutionised encryption on the internet. 
-In 2015 the famous organisation [Let's Encrypt](https://letsencrypt.org/){:target="_blank"} made the decision to throw out [TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security){:target="_blank"} certificates for free to everybody who needs them. On September 2015 the [first certificate](https://letsencrypt.org/2015/09/14/our-first-cert.html){:target="_blank"} was issued and on May 2018 Let's Encrypt took the next step and started supporting [wildcard certificates](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579){:target="_blank"}.
+Let's talk about getting certificates from Let's Encrypt.
 
-So let's talk about getting certificates from Let's Encrypt.
+## Why this is important for us
 
-## Hey but why is this important here
+Back in January last year we had the dream to support Let's Encrypt as a standard certificate for our customers on our WhiteLabel platform. 
+We created our first system to issue certificates for shop domains using Let's Encrypt's [certbot script](https://certbot.eff.org/){:target="_blank"}, [http-01 challenge](http://letsencrypt.readthedocs.io/en/latest/challenges.html){:target="_blank"}, and some templating magic to create configurations for our loadbalancer.
 
-Back in January last year we had the dream to support letsencrypt as standard certificate for our customers on our own WhiteLabel plattform. 
-So we created our first system to issue certificates for shop domains using letsencrypts [certbot script](https://certbot.eff.org/){:target="_blank"},[http-01 challenge](http://letsencrypt.readthedocs.io/en/latest/challenges.html){:target="_blank"} and some templating magic to create configurations for our loadbalancer.
+### Technical summary
 
----
+First off a word about [HTTP-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.3){:target="_blank"} challenge defined in the [ACME](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html){:target="_blank"} protocol. 
+In general, these challenges are designed to check if the requesting instance is valid for creating a certificate for the requested domain. The HTTP-01 challenge assumes that the webroot of the webserver a domain points to is under your control. 
+You have to put a challenge into your webroot folder `<path/to/webroot>/.well-known/acme-challenges/...` to prove you are trustworthy to get a certificate for your domain. Let's Encrypt checks this challenge using the domain, the standard path `.well-known/acme-challenges/`, as well as the generated challenge to validate your request.
 
-### Technical Summary:
-
-First of a word about [HTTP-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.3){:target="_blank"} challenge defined in the [ACME](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html){:target="_blank"} protocol. 
-In general these challenges are designed to check if the requesting instance is valid for creating a certificate for the requested domain. The HTTP-01 challenge assumes that the webroot of the webserver where a domain points to is under your control. 
-You have to put a challenge into your webroot folder `<path/to/webroot>/.well-known/acme-challenges/...` to prove you are trustworthy to get a certificate for your domain. Let's Encrypt checks this challenge using the domain, the standard path `.well-known/acme-challenges/` and the generated challenge to validate your request.
-
-But there were some steps to go to automate the whole issueing process for a shared plattform running in a big cluster with lots of loadbalancing in the background. 
+But there were some steps to go to automate the whole issuing process for a shared platform running in a big cluster with lots of loadbalancing in the background. 
 Our scenario is a bit different from the standard case. But sometimes pictures say more than words:
 
 {% image_custom image="/assets/img/pages/blog/images/blog-letsencrypt-http-01-simple.svg"" width="50" caption="http-01-simple" lightbox %}
 
-First thing we need is a list of domains we want to issue. 
-This list comes from our epages software and includes all domains with their certification status.
+First we needed a list of domains we wanted to issue. 
+This list comes from our ePages software, and includes all domains with their certification status.
 
-Our [network load balancer (NLB)](https://www.nginx.com/){:target="_blank"} (the orange thing) is configured to proxy requests going to `/.well-known` to a system where our certbot puts the challenges in place (the blue service system). 
-Now we were able to issue certificates for any shopdomain on the platform, because every such domain points now to our loadbalancer IP address (if not ... nobody can buy something from your shop 😮).
-Now you may ask why not just do the whole letsencrypt stuff on the loadbalancer. 
-Yes you can do it but our Loadbalancers are rented from a service provider so we don't have this option.
+Our [Network LoadBalancer (NLB)](https://www.nginx.com/){:target="_blank"} (the orange thing) is configured to proxy requests going to `/.well-known`, and then to a system where our certbot puts the challenges in place (the blue service system). 
+Now we were able to issue certificates for any shopdomain on the platform, because every such domain points now to our loadbalancer IP address (if not ... nobody can buy something from the ePages online shops 😮).
+Now you may ask why not just do the whole Let's Encrypt stuff on the loadbalancer. 
+Yes, you can do that. But our loadbalancers are rented from a service provider, so we don't have this option.
 
-Now we have to create nginx configuration files from a template using the new certificate, since the Loadbalancer using Nginx terminates the SSL/TLS. 
+Next, we have to create nginx configuration files from a template using the new certificate, since the loadbalancer using Nginx terminates the SSL/TLS. 
 The templates often look similar to this:
 
 {% highlight bash %}
@@ -64,57 +60,53 @@ server {
 }
 {% endhighlight %}
 
-With these templates you can do basically all magic you want to do for your software stack, like proxy stuff, setting additional headers or including special configurations. 
-We have several templates designed for our use cases depending on what shop our customers have.
+With these templates you can do basically all the magic you want to do for your software stack, such as proxy stuff, setting additional headers or including special configurations. 
+We have several templates designed for our use cases depending on what a shop our customers have.
 
 The certificate and configurations get [rsynced](https://en.wikipedia.org/wiki/Rsync){:target="_blank"} to the NLB. 
-Before the configurations goes into production everything gets tested and integrated after successfully checking that nothing is wrong. 
-Here is a simplified picture showing what happens:
+Before the configurations go into production, everything gets tested and integrated after having checked successfully that nothing is broken. 
+Here is a simplified picture that shows what happens:
 
 {% image_custom image="/assets/img/pages/blog/images/blog-letsencrypt-http-01.svg"" width="50" caption="http-01" lightbox %}
 
----
-
-Now we are able to create automatically all certificates for our customer shops. 
-This was a huge step forward because our new **ePages Now** product was also designed by using protected internet communication and requires therefore a valid certificate by default.
+Now we are able to automatically create all certificates for our customers' online shops. 
+This was a huge step forward, because our new [ePages Now](https://www.epages.com/ecommerce-website-builder/now/){:target="_blank"} product was also designed by using protected internet communication, and therefore requires a valid certificate by default.
 
 ## Into the wild...card
 
-In May 2018 Let's Encrypt started supporting wildcard domains using [DNS-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.4){:target="_blank"} challenge and we thought ... **NICE** ! 
-As an internet company we need many wildcard certificates especially for all newly created shops. 
+In May 2018, Let's Encrypt started supporting wildcard domains using [DNS-01](https://ietf-wg-acme.github.io/acme/draft-ietf-acme-acme.html#rfc.section.8.4){:target="_blank"} challenge and we thought ... NICE! 
+As an internet company, we need many wildcard certificates, especially for all newly created shops. 
 These shops perhaps don't have an own domain at the beginning. 
-So they get a standard domain that looks like `shopalias.some.domain`, where `some.domain` is one of our domains. 
+They get a standard domain that looks like `shopalias.some.domain`, where `some.domain` is one of our domains. 
 In the past we bought all these `*.some.domain` certificates. 
-But now we can automate the issueing process for wildcards. 
-There is also no need any more to get your hands dirty by changing old expired certificates. 
+But now we can automate the issuing process for wildcards. 
+There is also no longer the need to get your hands dirty by changing old expired certificates. 
 Here is how it works!
 
----
+### Technical summary
 
-### Technical Summary:
-
-Using DNS-01 challenge of the ACME protocol requires you to create, update (and delete) [TXT records](https://en.wikipedia.org/wiki/TXT_record){:target="_blank"} for your [domain zone](https://en.wikipedia.org/wiki/Domain_Name_System){:target="_blank"}. 
-For example if you want a wildcard certificate for `*.example.com` you have to create a specific subdomain with a TXT record. 
-This subdomain for our example would be `_acme-challenge.example.com` and the TXT record would contain a validation string created within the issueing process 
-(Btw it doesn't matter if there are "some" more TXT records. Let's encrypt loops over all of them to check .. at least until bad things happen). 
+Using DNS-01 challenge of the ACME protocol requires you to create, update, (and delete) [TXT records](https://en.wikipedia.org/wiki/TXT_record){:target="_blank"} for your [domain zone](https://en.wikipedia.org/wiki/Domain_Name_System){:target="_blank"}. 
+For example, if you want a wildcard certificate for `*.example.com` you have to create a specific subdomain with a TXT record. 
+This subdomain for our example would be `_acme-challenge.example.com`, and the TXT record would contain a validation string created within the issuing process. 
+(Btw, it doesn't matter if there are "some" more TXT records. Let's Encrypt loops over all of them to check .. at least until bad things happen). 
 You can also issue normal certificates this way.
 
-Here we faced our first problem: 
+Here we faced our first challenge: 
 
 We have many such domain zones we control for our wildcard domains, but there's no neat way to automate the TXT creation process. 
-This happens if your domain control is just a webinterface and no API is implemented (creating creapy curl -X POST requests to fake a user using the webinterface to create TXT records was not really an option ... but anyway we did that as a first try  😁).
+This happens if your domain control is just a webinterface, and no API is implemented. (Creating creapy curl -X POST requests to fake a user using the webinterface to create TXT records was not really an option ..., but anyway we did that as a first try 😁).
 
-If your setup is simpler by using some kind of domain provider having a standard API implementation for letsencrypt you don't have to do such workaround and should be able to create the TXT record directly.
+If your setup is simpler by using some kind of domain provider having a standard API implementation for Let's Encrypt, you don't have to do such workaround, and should be able to create the TXT record directly.
 
-To overcome our TXT creation problem there is a common practice called [CNAMES](https://en.wikipedia.org/wiki/CNAME_record){:target="_blank"} that is supported by the ACME protocoll. 
+To overcome our TXT creation problem there is a common practice called [CNAMES](https://en.wikipedia.org/wiki/CNAME_record){:target="_blank"} that is supported by the ACME protocol. 
 Let's assume we want a wildcard certificate for `*.ourfancy.domain`. 
-So we create the `_acme-challenge.ourfancy.domain` and CNAME it to `_acme-challeenge-cname.some.other.domain` where we have better options to manage TXT records. 
-In our case the `some.other.domain` zone is managed by a DNS server we have under our control.
+So we create the `_acme-challenge.ourfancy.domain`, and CNAME it to `_acme-challeenge-cname.some.other.domain` where we have better options to manage TXT records. 
+In our case the `some.other.domain` zone is managed by a DNS server that we have under our control.
 
-So we CNAME the `_acme-challenge` domains to domains managed by our DNS server and create TXT records using [nsupdate](https://en.wikipedia.org/wiki/Nsupdate){:target="_blank"} magic (*we are using [BIND](https://wikipedia.org/wiki/BIND){:target="_blank"} here for the DNS part*). 
-All you have to do is set up one initial CNAME and the rest is done by **bash magic**.
+So we CNAME the `_acme-challenge` domains to domains managed by our DNS server, and create TXT records using [nsupdate](https://en.wikipedia.org/wiki/Nsupdate){:target="_blank"} magic (*we are using [BIND](https://wikipedia.org/wiki/BIND){:target="_blank"} here for the DNS part*). 
+All you have to do is to set up one initial CNAME, and the rest is done by **bash magic**.
 
-Setting these TXT record using nsupdate:
+This is how to these TXT records using nsupdate:
 
 {% highlight bash %}
 #!/bin/bash
@@ -161,7 +153,7 @@ send
 
 Setting an `.empty` TXT record here prevents some caching problems.
 
-To use nsupdate on a BIND DNS server you need to add a key and an update-policy. 
+To use nsupdate on a BIND DNS server, you need to add a key and an update-policy. 
 This may look like this:
 
 {% highlight bash %}
@@ -183,19 +175,17 @@ key "my.nsupdate.key" {
 _**Important notice:** 
 For this setup you only have to setup the CNAME from `_acme-challenge.ourfancy.domain` to `_acme-challenge-cname.some.other.domain` once. 
 The renew will go the same way as the issue as long as the CNAME exists. 
-You may also noticed that the `my.nsupdate.key` is only allowed to update TXT records and nothing more to prevent breaking other record types._
+You may have also noticed that the `my.nsupdate.key` is only allowed to update TXT records, and nothing more, to prevent breaking other record types._
 
 The following picture describes the complete process a bit more abstract:
 
 {% image_custom image="/assets/img/pages/blog/images/blog-letsencrypt-dns-01.svg"" width="50" caption="http-01-simple" lightbox %}
 
----
-
-So for the not so technical interested person who really made it all the way down to read this ... all you have to know is:
+Now, for the not so tech-savvy readers who really made it all the way through this post ... all you have to know is:
 
 **You're safe now, everything is encrypted ! 😁**
 
-That's it folks for now. 
-I hope you enjoyed our special ride through the Let's Encrypt world and make the internet more secure by encrypting your own services.
+That's it for now, folks. 
+I hope you enjoyed our special ride through the Let's Encrypt world, and you have an incentive to make the internet more secure by encrypting your own services.
 
-See yah soon on our DevBlog !
+Stay tuned!
