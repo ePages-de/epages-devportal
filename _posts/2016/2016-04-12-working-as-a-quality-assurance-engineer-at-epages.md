@@ -6,6 +6,7 @@ header_image: private/qa-dev.jpg
 category: on-the-job
 tags: ["qa", "onboarding", "job", "relocation"]
 authors: ["Birgit", "Serena", "Vlad"]
+about_authors: ["bbader", "stansil", "vmytysk"]
 ---
 
 In our latest posts, you already learned about what it’s like to work as a [Ruby Developer](/blog/on-the-job/working-as-a-ruby-developer-at-epages/) and a [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/) at ePages.

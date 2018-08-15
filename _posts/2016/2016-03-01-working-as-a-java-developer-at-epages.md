@@ -6,6 +6,7 @@ header_image: public/coffee.jpg
 category: on-the-job
 tags: ["java", "developer", "onboarding", "job"]
 authors: ["Birgit", "Serena", "Jens"]
+about_authors: ["bbader", "stansil", "jfischer"]
 ---
 
 In one of our latest posts, you already learned about what it’s like to be a [Ruby Developer at ePages](/blog/on-the-job/working-as-a-ruby-developer-at-epages/).

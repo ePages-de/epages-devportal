@@ -6,6 +6,7 @@ header_image: public/raspberry-pi.jpg
 category: tech-stories
 tags: ["raspberry pi", "icinga"]
 authors: ["Katharina", "Norman"]
+about_authors: ["kullmann", "nfranke"]
 ---
 
 Setting up a Raspberry PI to send SMS notifications was my task within a two-weeks student internship at ePages.

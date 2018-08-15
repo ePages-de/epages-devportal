@@ -6,6 +6,7 @@ header_image: public/techrecruiting.jpg
 category: on-the-job
 tags: ["recruiting", "onboarding", "hr", "job", "application"]
 authors: ["Julia, Serena"]
+about_authors: ["jblankenburg", "stansil"]
 ---
 
 In the last months, you have learned about what it’s like to be a developer at ePages.

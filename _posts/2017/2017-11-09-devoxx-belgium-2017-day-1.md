@@ -6,6 +6,7 @@ header_image: private/devoxx-be-2017.jpg
 category: events
 tags: ["java", "kotlin", "spring", "api", "conference"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 Being at the devoxx for the first time, but having heard so much praise already, and seeing all those high-profile

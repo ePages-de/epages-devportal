@@ -6,6 +6,7 @@ header_image: public/agile-roadmap.jpg
 category: methods-and-tools
 tags: ["roadmap", "planning", "agile", "company"]
 authors: ["Ann-Katrin"]
+about_authors: ["aarndt"]
 ---
 
 At ePages we regularly do plannings for our product roadmap, where we define the roadmap for an iteration of three months.
