@@ -92,7 +92,7 @@ interface GithubClient {
 }
 {% endhighlight %}
 
-The class above defines an `@Client` annotated interface that points to a specific API (https://api.github.com/) and contains an `@Post` annotated method which takes three parameters: the *GraphQL query* we want to execute, an *Authorization header* that should be fed with our GitHub API token, and a mandatory +User-Agent header*.
+The class above defines an `@Client` annotated interface that points to a specific API (https://api.github.com/) and contains an `@Post` annotated method which takes three parameters: the *GraphQL query* we want to execute, an *Authorization header* that should be fed with our GitHub API token, and a mandatory *User-Agent header*.
 
 #### Configuration file
 
