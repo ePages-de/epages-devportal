@@ -82,6 +82,13 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: cseeger
+  name: Carsten
+  full_name: Carsten Seeger
+  description: is an Application Engineer, Sysadmin, Automation Developer, and Golang code nerd. He keeps stuff running.
+  image: cseeger.jpg
+
+
 - id: dcividanes
   name: Domingo
   full_name: Domingo
