@@ -6,6 +6,7 @@ header_image: private/devoxx-be-2017-2.jpg
 category: events
 tags: ["java", "rest", "reactive", "spring", "docker", "api", "conference"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 Second day.

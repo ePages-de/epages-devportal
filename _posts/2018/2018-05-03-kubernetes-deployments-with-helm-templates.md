@@ -8,6 +8,7 @@ header_overlay: true
 category: tech-stories
 tags: ["kubernetes", "helm", "cloud"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 In the [first post](/blog/tech-stories/kubernetes-deployments-with-helm) of this small series I wrote about the basic features of Helm, and how it works.

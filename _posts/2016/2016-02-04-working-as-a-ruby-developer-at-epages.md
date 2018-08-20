@@ -6,6 +6,7 @@ header_image: private/ruby-dev.jpg
 category: on-the-job
 tags: ["ruby", "rails", "developer", "job", "relocation"]
 authors: ["Birgit", "Serena", "Domingo"]
+about_authors: ["bbader", "stansil", "dcividanes"]
 ---
 
 Do you want to learn more about what it’s like working as an ePages developer?

@@ -8,6 +8,7 @@ header_overlay: true
 category: tech-stories
 tags: ["kubernetes", "helm", "cloud"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 [Kubernetes](https://kubernetes.io){:target="_blank"} is a great tool for orchestrating all your containers in a
