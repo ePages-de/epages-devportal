@@ -5,9 +5,8 @@ title: Checkboxes
 background_image: index.jpg
 ---
 
-Checkboxes belong to the selection controls and are used to enable or disable action items.
-They allow the user to make a concious choice for or against an action.
-Checkboxes may also serve as an indicator to agree to specific terms and conditions.
+Checkboxes belong to the selection controls and are used to enable or disable functions.
+They allow the user to make a concious choice to use or not to use a specific function.
 
 ## Use cases
 
@@ -16,12 +15,18 @@ With checkboxes we allow the user activate or deactivate a function.
 ## Structure
 
 Checkboxes are characterized by a checkbox icon, that is either enabled or disabled.
-An enabled checkbox comes with a green checkmark icon, whereas a disabled checkbox is just a beige box icon.
 The UI label is in any case on the right side of the checkbox.
 
 ## Position
 
-Checkboxes may be positioned on a card together with further UI elements that relate to a specific feature.
+Checkboxes may be positioned on a card together with further UI elements that relate to a specific function.
+If a merchant enables a checkbox, the new function will appear below:
+
+{% image_custom image="/assets/img/pages/essence/checkbox-function-below.gif" width="100" %}
+
+There might be cases, in which the checkbox and enabling a new function has such a close relation, that the new function appears next to it:
+
+{% image_custom image="/assets/img/pages/essence/checkbox-function-aside.gif" width="100" %}
 
 ## Behavior
 
@@ -66,4 +71,6 @@ To decide which component would work better, here are some clues:
 
 ## Design
 
-Coming soon.
+An enabled checkbox comes with a green checkmark icon on a beige background, whereas a disabled checkbox is just a beige box icon.
+
+More content coming soon.
