@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["microservices", "consul", "haproxy", "service discovery"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 As ePages heads towards a new microservice-based architecture, new challenges arise. In this kind of architecture, there are a lot of services, which are usually deployed redundantly for high availability. But from a client perspective, all these service instances should be transparent. The client should not need to care about multiple instances of a service, their different locations on the network or if they are operational, down for maintenance or in a failure state. A client should only need to deal with a single address of the service.

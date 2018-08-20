@@ -6,6 +6,7 @@ header_image: public/greengrass.jpg
 category: on-the-job
 tags: ["onboarding", "company culture"]
 authors: ["Romy", "Christina"]
+about_authors: ["rbeer", "cgebken"]
 ---
 
 If you are already an "old hand" in your company, or you are looking for a change and new experiences, you might consider a job change.

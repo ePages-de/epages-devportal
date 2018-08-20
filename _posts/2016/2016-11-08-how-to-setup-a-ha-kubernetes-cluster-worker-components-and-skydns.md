@@ -6,6 +6,7 @@ header_image: public/kubernetes-worker-logo.jpg
 category: tech-stories
 tags: ["kubernetes", "cluster", "setup", "skydns", "certificates", "ssl"]
 authors: ["Karsten P."]
+about_authors: ["kpeskova"]
 ---
 
 The fourth part of this blog post series deals with the worker nodes.

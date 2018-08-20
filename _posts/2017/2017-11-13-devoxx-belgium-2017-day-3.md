@@ -6,6 +6,7 @@ header_image: private/devoxx-be-2017-2.jpg
 category: events
 tags: ["microservice", "kubernetes", "java", "conference"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 Final day of devoxx Belgium 2017.

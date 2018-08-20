@@ -6,6 +6,7 @@ header_image: public/infrastructure.jpg
 category: tech-stories
 tags: ["jenkins", "docker", "groovy", "infrastructure", "ci"]
 authors: ["Dirk"]
+about_authors: ["djablonski"]
 ---
 
 Some weeks ago, we published [Infrastructure as Code: automating Jenkins](/blog/tech-stories/infrastructure-as-code-automating-jenkins/).

@@ -6,6 +6,7 @@ header_image: public/platform.jpg
 category: tech-stories
 tags: ["capistrano", "tools", "configuration management", "ruby"]
 authors: ["Karsten P."]
+about_authors: ["kpeskova"]
 ---
 
 The ePages Application Management Team (AM) maintains a lot of (internal and external) shop platforms worldwide.

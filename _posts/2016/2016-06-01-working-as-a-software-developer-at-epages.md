@@ -6,6 +6,7 @@ header_image: private/david.jpg
 category: on-the-job
 tags: ["onboarding", "job", "developer"]
 authors: ["Birgit", "Serena", "David"]
+about_authors: ["bbader", "stansil", "dpauli"]
 ---
 
 In the last months, you learned about what it’s like to be a [Ruby Developer](/blog/on-the-job/working-as-a-ruby-developer-at-epages/), a [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/), or a [QA engineer](/blog/on-the-job/working-as-a-quality-assurance-engineer-at-epages/) at ePages in Hamburg.

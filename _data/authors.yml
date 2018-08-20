@@ -4,6 +4,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: aarndt
+  name: Ann-Katrin
+  full_name: Ann-Katrin Arndt
+  description: is a certified Advanced Scrum Master. She is all about agile values and principles and has a passion for team and personal development.
+  image: aarndt.jpg
+
 - id: abaericke
   name: Anja B.
   full_name: Anja B.
@@ -82,11 +88,24 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: cseeger
+  name: Carsten
+  full_name: Carsten Seeger
+  description: is an Application Engineer, Sysadmin, Automation Developer, and Golang code nerd. He keeps stuff running.
+  image: cseeger.jpg
+
+
 - id: dcividanes
   name: Domingo
   full_name: Domingo
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+
+- id: djablonski
+  name: Dirk
+  full_name: Dirk Jablonski
+  description: is an experienced Java developer. He has deep DevOps knowledge and a strong passion for Kubernetes and cloud technologies.
+  image: djablonski.jpg
 
 - id: dmoran
   name: Declan
@@ -106,12 +125,6 @@
   description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
   image: emueller.jpg
 
-- id: jfischer
-  name: Jens
-  full_name: Jens Fischer
-  description: is an experienced Java developer. He is passionate about Kotlin and Spring Boot, and loves to contribute to Open Source projects.
-  image: jfischer.jpg
-
 - id: fvollert
   name: Frederik
   full_name: Frederik
@@ -121,12 +134,6 @@
 - id: fziller
   name: Florian
   full_name: Florian
-  description: belongs to the epagesdevs content team.
-  image: avatar_male.jpg
-
-- id: jviladoms
-  name: Jordi
-  full_name: Jordi
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
@@ -148,10 +155,22 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: jfischer
+  name: Jens
+  full_name: Jens Fischer
+  description: is an experienced Java developer. He is passionate about Kotlin and Spring Boot, and loves to contribute to Open Source projects.
+  image: jfischer.jpg
+
 - id: jmewes
   name: Jan
   full_name: Jan Mewes
   description: is a Software Developer with a passion for all things that involve lean processes.
+  image: avatar_male.jpg
+
+- id: jviladoms
+  name: Jordi
+  full_name: Jordi
+  description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
 - id: kabendroth
@@ -160,9 +179,27 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: kpeskova
+  name: Karsten P.
+  full_name: Karsten Peskova
+  description: is a qualified civil engineer and has held a variety of different jobs since joining the software industry many years ago. He enjoys working directly with our customers, but also solving technical problems of all kinds.
+  image: kpeskova.jpg
+
+- id: kullmann
+  name: Katharina
+  full_name: Katharina
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
 - id: lbrandt
   name: Lena
   full_name: Lena
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: lharder
+  name: Leana
+  full_name: Leana
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
@@ -188,6 +225,12 @@
   name: Mario
   full_name: Mario
   description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: nfranke
+  name: Norman
+  full_name: Norman Franke
+  description: keeps ePages’ shops running - day and night - and is not afraid of standby duty.
   image: avatar_male.jpg
 
 - id: nstender
@@ -220,6 +263,12 @@
   description: is a Web Developer for all things in frontend. Although being everything but a designer, he never really gave up his passion for CSS.
   image: ppriotto.jpg
 
+- id: rbeer
+  name: Romy
+  full_name: Romy
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
 - id: rdomenech
   name: Roger
   full_name: Roger
@@ -250,11 +299,29 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: stansil
+  name: Serena
+  full_name: Serena
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: szetzsche
+  name: Sandra
+  full_name: Sandra
+  description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
 - id: thaapakoski
   name: Timo
   full_name: Timo Haapakoski
   description: keeps ePages' backends tidy and running in all situations.
   image: avatar_male.jpg
+
+- id: uabrisketa
+  name: Unai A.
+  full_name: Unai Abrisketa
+  description: is a Ruby on Rails Developer. He is fond of clean code, and always eager to learn new technologies.
+  image: uabrisketa.jpg
 
 - id: ubiallas
   name: Ulf
@@ -274,11 +341,11 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
-- id: uabrisketa
-  name: Unai A.
-  full_name: Unai Abrisketa
-  description: is a Ruby on Rails Developer. He is fond of clean code, and always eager to learn new technologies.
-  image: uabrisketa.jpg
+- id: wfilss
+  name: Wolf
+  full_name: Wolf-Dietrich Filss
+  description: is a Software Engineer and Linux expert. He is keen on Perl, Bash, and all DevOps-related tools.
+  image: avatar_male.jpg
 
 - id: xalvarez
   name: Xavi

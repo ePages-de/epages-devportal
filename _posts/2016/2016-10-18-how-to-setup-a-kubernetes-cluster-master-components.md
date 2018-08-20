@@ -6,6 +6,7 @@ header_image: public/kubernetes-master-logo.jpg
 category: tech-stories
 tags: ["kubernetes", "cluster", "setup", "components", "api", "nodes"]
 authors: ["Karsten P."]
+about_authors: ["kpeskova"]
 ---
 
 The third part of this blog post series deals with master nodes and its components.
