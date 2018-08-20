@@ -8,7 +8,7 @@
   name: Ann-Katrin
   full_name: Ann-Katrin Arndt
   description: is a certified Advanced Scrum Master. She is all about agile values and principles and has a passion for team and personal development.
-  image: avatar_female.jpg
+  image: aarndt.jpg
 
 - id: abaericke
   name: Anja B.
@@ -105,7 +105,7 @@
   name: Dirk
   full_name: Dirk Jablonski
   description: is an experienced Java developer. He has deep DevOps knowledge and a strong passion for Kubernetes and cloud technologies.
-  image: avatar_male.jpg
+  image: djablonski.jpg
 
 - id: dmoran
   name: Declan
@@ -344,8 +344,8 @@
 - id: wfilss
   name: Wolf
   full_name: Wolf-Dietrich Filss
-  description: is a Software Engineer and a Linux expert. He is keen on Perl, Bash, and all DevOps-related tools.
-  image: uabrisketa.jpg
+  description: is a Software Engineer and Linux expert. He is keen on Perl, Bash, and all DevOps-related tools.
+  image: avatar_male.jpg
 
 - id: xalvarez
   name: Xavi
