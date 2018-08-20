@@ -7,6 +7,7 @@ header_overlay: true
 category: coding
 tags: ["perl", "framework"]
 authors: ["Christian B."]
+about_authors: ["cbreitkreuz"]
 ---
 
 When reading the title of this post, you may ask yourself why THE hell do they deal with Perl?

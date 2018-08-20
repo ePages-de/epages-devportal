@@ -1,0 +1,34 @@
+- title: Option 1
+  entries:
+    - title: Option 1.1
+      link: beyond-essence/content/grammar.md
+
+    - title: Option 1.2
+      entries:
+        - title: Option 1.2.1
+          link: beyond-essence/content/grammar.md
+
+        - title: Option 1.2.2
+          entries:
+            - title: Option 1.2.2.1
+              link: beyond-essence/content/grammar.md
+
+            - title: Option 1.2.2.2
+              link: beyond-essence/content/grammar.md
+
+        - title: Option 1.2.3
+          link: beyond-essence/content/grammar.md
+
+    - title: Option 1.3
+      link: beyond-essence/content/grammar.md
+
+- title: Option 2
+  entries:
+    - title: Option 2.1
+      link: beyond-essence/content/grammar.md
+
+    - title: Option 2.2
+      link: beyond-essence/content/grammar.md
+
+- title: Option 3
+  link: beyond-essence/content/index.md

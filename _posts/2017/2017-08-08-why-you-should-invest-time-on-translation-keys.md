@@ -6,6 +6,7 @@ header_image: public/translation-keys.jpg
 category: language-and-localization
 tags: ["localization", "translation", "key value", "json"]
 authors: ["Christina"]
+about_authors: ["cgebken"]
 ---
 Let me guess.
 You believe that translation keys are not important at all?

@@ -7,6 +7,7 @@ header_position: top
 category: on-the-job
 tags: ["employee", "onboarding", "job"]
 authors: ["Mathias", "Mats"]
+about_authors: ["mduesterhoeft", "mandresen"]
 ---
 
 Starting a new job is always an adventure. You made a careful decision for a new job and now the first day is approaching. This day is especially exciting because it will give you the first impression if the decision for this particular position was the right one.
