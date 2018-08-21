@@ -6,6 +6,7 @@ header_image: public/kubernetes-logo.jpg
 category: tech-stories
 tags: ["kubernetes", "cluster", "setup", "ssl"]
 authors: ["Karsten P."]
+about_authors: ["kpeskova"]
 ---
 
 This is the first of a four-part blog post series about how we install a high-availability (HA) [Kubernetes](http://kubernetes.io/){:target="_blank"} cluster for testing purposes with [Debian](https://www.debian.org/){:target="_blank"} 8.

@@ -294,12 +294,16 @@ task :test_html do
               check_html: true,
               allow_hash_href: true }
 
-  sh 'bundle exec jekyll build'
-
   HTMLProofer.check_directory('./_site', options).run
 end
 
 task :test do
+  sh 'bundle exec jekyll build'
+
+  sh 'rake test_ci'
+end
+
+task :test_ci do
   sh 'rake test_html'
   sh 'rake test_files'
   sh 'rake test_posts'
