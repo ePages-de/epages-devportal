@@ -57,8 +57,7 @@ Did you like something in particular? What can we do to make Beyond even easier 
 
 A merchant just opened their online shop. Time to celebrate and give them further advice:
 
-*We’re thrilled! You’ve opened your shop for customers. We are curious when the first orders will come in. 💰💰💰
-Are you already familiar with Search Engine Optimization (SEO)? Ask the Internet about it.*
+*We’re thrilled! You’ve opened your shop for customers. We are curious when the first orders will come in. 💰💰💰*
 
 #### Channel connection
 
@@ -70,7 +69,7 @@ A merchant has successfully integrated a third-party.
 
 *Oops, what's going on? Your shop is not connected with this payment method. Contact our support so that you can be reconnected.*
 
-Oops, we broke it. {{Not your fault.}}
+*Oops, we broke it. (Not your fault.)*
 
 #### List of keywords/slogans
 
