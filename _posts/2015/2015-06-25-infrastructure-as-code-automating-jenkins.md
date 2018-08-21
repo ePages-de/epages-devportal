@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["jenkins", "ci", "infrastructure", "ansible", "vagrant"]
 authors: ["Jens", "Dirk"]
+about_authors: ["jfischer", "djablonski"]
 ---
 
 Here at ePages we heavily rely on [Continuous Integration (CI)](http://www.martinfowler.com/articles/continuousIntegration.html){:target="_blank"} to make sure our code is always in a good shape.

@@ -6,6 +6,7 @@ header_image: private/scrum-ann-katrin.jpg
 category: on-the-job
 tags: ["scrum", "agile"]
 authors: ["Rose", "Ann-Katrin"]
+about_authors: ["rritter", "aarndt"]
 ---
 
 As already discussed in our previous [blog post](/blog/methods-and-tools/getting-twice-the-things-done-in-half-the-time/), the agile process framework [Scrum](https://www.scrum.org/resources/what-is-scrum){:target="_blank"} is our preferred methodology when it comes to managing the product development at ePages.

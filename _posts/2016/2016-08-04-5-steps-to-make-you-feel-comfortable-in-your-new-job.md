@@ -6,6 +6,7 @@ header_image: public/onboarding.jpg
 category: on-the-job
 tags: ["job", "onboarding", "hr", "team"]
 authors: ["Birgit", "Leana", "Serena"]
+about_authors: ["bbader", "lharder", "stansil"]
 ---
 
 You've spent days and weeks perfecting your resume, preparing for interviews, and making a good impression at personal meetings.

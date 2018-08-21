@@ -6,6 +6,7 @@ header_image: public/kubernetes-docker-flanneld-logo.jpg
 category: tech-stories
 tags: ["kubernetes", "cluster", "setup", "nodes", "haproxy", "flannel"]
 authors: ["Karsten P."]
+about_authors: ["kpeskova"]
 ---
 
 The second part of this blog post series deals with the preparation of the Kubernetes and service nodes.

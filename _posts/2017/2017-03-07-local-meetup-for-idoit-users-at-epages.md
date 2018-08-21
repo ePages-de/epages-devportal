@@ -6,6 +6,7 @@ header_image: public/it-docs.jpg
 category: events
 tags: ["i-doit", "meetup"]
 authors: ["Karsten P."]
+about_authors: ["kpeskova"]
 ---
 
 On February 16th 2017 the 12th local meetup of [i-doit](https://www.i-doit.com/){:target="_blank"} users (i-doit user meeting) took place in the [ePages](https://www.epages.com/en/){:target="_blank"} office in Jena.
