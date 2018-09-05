@@ -1,10 +1,47 @@
 .sidebar
-  width: 22rem
-  position: absolute
-  left: 22rem
+  background: #fff
+  box-shadow: 0 2px 7px rgba(0,0,0,0.15)
+  border-radius: 4px
+  padding: 2rem
+  margin-bottom: 3rem
+
+  +grid-media($grid-large)
+    min-width: 22rem
+    margin-right: 2rem
+    padding: 0
+    box-shadow: none
+    border-radius: 0
+    background: transparent
+
+  +grid-media($grid-sidebar)
+    position: absolute
+    left: -24rem
+
+  &__button
+    text-transform: uppercase
+    color: #6E808C
+    font-weight: bold
+    padding: 2rem 0
+    border-bottom: 1px solid #e1e1e1
+
+    &:first-of-type
+      padding-top: 0
+
+    &:last-of-type
+      padding-bottom: 0
+      border: 0
+
+    +grid-media($grid-large)
+      padding: 0
+      border: 0
 
   &__section
     padding-left: 2rem
+    margin: .5rem 0 2rem
+    display: none
+
+    +grid-media($grid-large)
+      display: block
 
   &__link
     line-height: 2
