@@ -37,9 +37,14 @@
       display: none
 
   &__section
-    padding: .5rem 0 .5rem 2rem
+    padding: .5rem 0
     display: none
     border-bottom: 1px solid #e1e1e1
+
+    +grid-media($grid-large)
+      display: block
+      padding: .5rem 0 2rem
+      border: 0
 
     &:last-of-type
       border-top: 1px solid #e1e1e1
@@ -47,13 +52,10 @@
       +grid-media($grid-large)
         border: 0
 
-    +grid-media($grid-large)
-      display: block
-      padding: .5rem 0 2rem 2rem
-      border: 0
-
   &__link
     line-height: 2
+    padding-left: 2rem
+    position: relative
 
     a
       color: #99B5C6
@@ -62,3 +64,14 @@
 
       a
         color: #6E808C
+
+      &::before
+
+        +grid-media($grid-large)
+          content: ""
+          height: 100%
+          width: 4px
+          background: #4EB7A8
+          position: absolute
+          left: 0
+          top: 0
