@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 header_image: private/main.jpg
 title: Switch buttons
 background_image: index.jpg
