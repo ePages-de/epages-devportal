@@ -2,8 +2,7 @@
 layout: post
 title: Write the Docs Prague - It's not just about writing skills
 date: 2018-09-13
-header_image: public/socrates-2018.jpg
-header_position: bottom
+header_image: private/wtd-conference.jpg
 header_overlay: true
 category: events
 tags: ["write the docs", "conference", "technical communication", "documentation"]
