@@ -12,5 +12,25 @@ about_authors: ["jschnegotzki"]
 
 ## R&D Day 2018
 
-Once a year, ePages offers its employees the unique opportunity to extend their knowledge of the technologies they or their colleagues use on a daily basis, speak up about things that interest them and just get to know people that work too far away to have met them by any other means than Google Hangouts.
-After
+Once a year, ePages offers its employees the unique opportunity to extend their knowledge of the technologies they or their colleagues use on a daily basis, speak up about things that interest them and just get to know people that normally work too far away to have met them by any other means than Google Hangouts.
+After having had to yield its slot in the ePages annual schedule to the eCommerce summit in 2017, the ePages R&D Day returned in full splendour this year.
+
+### The morning
+
+An ample assortment of fruit, pastries and drinks provided as (second) breakfast guaranteed a nice start into the day, which then was kicked off by ePages' CTO, welcoming everybody and giving some information about what the company was up to lately. The first talk of the day was held by one of our scrum masters, who talked about possible dysfunctions of a team and how to overcome them, followed by a talk from the developer's point of view on the infrastructure of the next generation of ePages' software, thus offering a nice mixture of technical and organizational topics.
+The morning was wrapped up by a pair of lightning talks, presenting in short two seemingly unrelated but surprisingly relevant topics in the context of software development: The basics of design principles we all live by through our use of (sometimes somewhat trivial) everyday objects and the patterns in which we communicate.
+In preparation of the talks that were to follow in the afternoon, everyone took a thorough lunch break and came back invigorated to hear more of what the presenters would have to tell.
+
+### The afternoon
+
+While the speakers of the morning talks had enjoyed the privilege of the audience's undivided attention, gloves were off in the afternoon, as there were two or three talks held simultaneously at all times, competing to draw interested listeners in.
+The decision on what talk one was going to attend was a tough one, as all the topics covered seemed so inviting and worthy of further discussion, but in the end, an even distribution of all ePagees over the conference rooms was achieved. As in the morning, the organizers of the event and the speakers had managed to prepare a rich variety of topics ranging from API documentation to methods of learning new technologies, from mobile coding to company-internal technologies and much more.
+
+### The workshops
+
+After having taken in so much, the attendants of the event got a chance to get at it themselves in the final part of the day, as three workshops were provided that not only sought to teach one or the other useful skill to the audience, but also provided a glimpse of the toil developers around the world are facing each and every day: One workshop was about how to build an OAuth client, the second one introduced the basics of shell commands/scripts (bearing a name prone to one or the other [nerdy reference](https://en.wikipedia.org/wiki/Ghost_in_the_Shell){target:_blank}) and the third one gave an insight into Ansible.
+
+### Conclusion
+
+After a long and highly instructive day, I think everyone who had taken part in the event went home a little more knowledgeable about what happens under the hood of so many applications we have come to take for granted and a little more aware of what should be down to make working together more productive and delightful.
+And to think that this hadn't been all, because two days of the ePages (YO)U were still ahead of us!
