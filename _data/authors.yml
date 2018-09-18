@@ -167,6 +167,12 @@
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg
 
+- id: jschnegotzki
+  name: Jan S.
+  full_name: Jan Schnegotzki
+  description: is a Linguist gone TechWriter whose interest in languages somehow extended to programming languages along the way.
+  image: jschnegotzki.png
+
 - id: jviladoms
   name: Jordi
   full_name: Jordi
