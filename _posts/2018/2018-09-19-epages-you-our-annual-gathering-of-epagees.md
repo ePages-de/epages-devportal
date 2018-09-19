@@ -5,7 +5,7 @@ date: 2018-09-19
 header_image: private/epages-you.jpg
 header_overlay: true
 category: events
-tags: ["you", "company culture", "conference"]
+tags: ["team", "workshop", "company culture", "conference"]
 authors: ["Efe"]
 about_authors: ["eacunaz"]
 ---
@@ -14,7 +14,7 @@ Our colleagues from ePages offices across the world got together last week for o
 This is an excellent opportunity for our colleagues to catch up with everyone in the company, attend interesting sessions, get creative, and have lots of fun! 
 
 As in the case of every YOU, we’ve had a series of stimulating presentations, icebreakers and several workshops, followed by a fun team event.
-During our team event this year, we went sailing at the Alster, a beautiful tributary of the Elbe river. 
+During our team event this year, we went sailing on the Alster, a beautiful tributary of the Elbe river. 
 
 ## What makes it a great event?
 
@@ -44,13 +44,13 @@ Workshop topics were as follows:
 * Flat hierarchies & company culture
 * How to improve internal communication
 
-Time was up for the workshop sessions, but of course we had to share with the rest of ePagees how creative we have been in our workshop!
-So, we proceeded back to the conference hall to make short presentations with our workshop results.
+When time was up for the workshop sessions, we of course had to share with the rest of the ePagees how creative we have been in our workshop!
+So, we proceeded back to the conference hall to make short presentations of our workshop results.
 
-## Team Event: Sailing at the Alster
+## Team Event: Sailing on the Alster
 
 Having conquered the world with sessions packed with productivity, we were ready to get some fresh air and have some fun!
-Our team event this year was a sailing competition at the Alster.
+Our team event this year was a sailing competition on the Alster.
 Some of us have never been sailing, while some ePagees are certified skippers.
 Just as we were preparing to take off for the sailing school, our CEO spontaneously got on stage to give us all a briefing about the most important rules in sailing, and we were ready to race!
 
@@ -59,7 +59,7 @@ It was lots of fun and the weather was excellent (at least for most of us)!
 
 {% image_custom image="/assets/img/pages/blog/images/sailing.jpg" width="50" lightbox %}
 
-After enjoying a couple of beers at the dock of the sailing school, we’ve proceeded to our dinner location,where we had some delicious burgers, and enjoyed cocktails, while catching up with others.
+After enjoying a couple of beers at the dock of the sailing school, we’ve proceeded to our dinner location, where we had some delicious burgers, and enjoyed cocktails, while catching up with others.
 
 ## Day Two: It’s the Product! 
 
@@ -70,12 +70,12 @@ Our Product Owners presented the latest updates and functionalities of their res
 {% twitter https://twitter.com/efecommerce/status/1040510771019620353 %}
 
 The Sales Team took the floor to present their latest news and progress with our partners.
-Last but not least, we were inspired by a presentation on the adventures of ePages merchants, whereby successful ePages merchants with exceptional business ideas were featured. 
+Last but not least, we were inspired by a presentation of the adventures of ePages merchants, whereby successful ePages merchants with exceptional business ideas were featured. 
 
 We wrapped up the day with a Q&A session, and it was already lunch time! We went to one of the many delicious neighborhood restaurants to eat some Asian food and to say goodbye to colleagues before they departed Hamburg!
 
 ## A big thank YOU! 
 
-Is it too early to already look forward to the next YOU? Well we do it either way! It has been a great time! See you next September! 
+Is it too early to already look forward to the next YOU? Well, we do it either way! It has been a great time! See you next September! 
 
 
