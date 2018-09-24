@@ -119,6 +119,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: eacunaz
+  name: Efe
+  full_name: Efe Acunaz
+  description: is a PR Manager at ePages. He is a curious learner and a keen networker.
+  image: eacunaz.jpg
+
 - id: emueller
   name: Erik
   full_name: Erik Müller
@@ -166,6 +172,12 @@
   full_name: Jan Mewes
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg
+
+- id: jschnegotzki
+  name: Jan S.
+  full_name: Jan Schnegotzki
+  description: is a Linguist gone TechWriter whose interest in languages somehow extended to programming languages along the way.
+  image: jschnegotzki.png
 
 - id: jviladoms
   name: Jordi

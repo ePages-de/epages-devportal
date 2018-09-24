@@ -1,23 +1,10 @@
-- title: SoCraTes
-  description: We are participating in this event.
-  link: https://www.socrates-conference.de/home
-  date: 23. - 26. Aug 2018
-  time:
-  address: Hotel Park Soltau<br>Winsener Straße 111<br>29614 Soltau
 
-- title: Write the Docs Prague
+- title: Cloud Native
   description: We are participating in this event.
-  link: http://www.writethedocs.org/conf/prague/2018/
-  date: 10. - 11. Sept 2018
+  link: https://skillsmatter.com/conferences/10160-cloudnative-london-2018#overview
+  date: 26. - 28. Sept 2018
   time:
-  address: Auto Klub<br>Opletalova 29<br>Prague 1
-
-- title: R&amp;D Day 2018
-  description: We are hosting this event.
-  link:
-  date: 12. Sept 2018
-  time:
-  address: ePages offices<br>Pilatuspool 2<br>20355 Hamburg
+  address: CodeNode<br>10 South Place<br>London EC2M 7EB, UK
 
 - title: Scrum Alliance Gathering
   description: We are participating in this event.
@@ -26,12 +13,40 @@
   time:
   address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
 
+- title: Code.Talks
+  description: We are participating in this event.
+  link: https://www.codetalks.de/
+  date: 18. - 19. Oct 2018
+  time:
+  address: CinemaXX Hamburg-Dammtor<br>Dammtordamm 1<br>20354 Hamburg
+
 - title: INOVA Ilmenau
   description: We are participating in this event.
   link: https://inova-ilmenau.de/inova/
   date: 23. - 24. Oct 2018
   time: '10:00 - 16:00'
   address: TU Ilmenau<br>Ehrenbergstraße 51<br>98693 Ilmenau
+
+- title: dotCSS
+  description: We are participating in this event.
+  link: https://www.dotcss.io/
+  date: 08. Nov 2018
+  time:
+  address: Dock Pullman<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
+
+- title: dotJS
+  description: We are participating in this event.
+  link: https://www.dotjs.io/
+  date: 09. Nov 2018
+  time:
+  address: Dock Pullman<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
+
+- title: React Day Berlin
+  description: We are participating in this event.
+  link: https://reactday.berlin/
+  date: 30. Nov 2018
+  time:
+  address: KOSMOS<br>Karl-Marx-Allee 131A<br>10243 Berlin
 
 - title: Academix Thüringen
   description: We are participating in this event.
