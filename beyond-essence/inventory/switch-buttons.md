@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beyond-essence
 header_image: private/main.jpg
 title: Switch buttons
 background_image: index.jpg
@@ -9,7 +9,7 @@ A switch button works like a physical switch, that can be used e.g. to turn the 
 In the cockpit we display switch buttons to enable merchants to turn a feature on or off, and to enhance cards with additional features.
 
 The UI element "checkbox" is used quite similarly.
-Check the section "Choosing between switch button and checkbox", and have a look at the inventory entry [Checkbox](/beyond-essence/inventory/checkbox/) to find the right element for your use case.
+Check the section "Choosing between switch button and checkbox", and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
 
 ## Use cases
 
