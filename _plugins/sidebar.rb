@@ -21,7 +21,7 @@ module Jekyll
           page = @context.registers[:site].pages.detect { |p| p.path == entry['link'] }
           @result += "<li class='sidebar__link'><a href='#{page.permalink || page.url}'>#{entry['title']}</a></li>"
         else
-          @result += "<li class='sidebar__button'>#{entry['title']}</li>"
+          @result += "<li class='sidebar__button'>#{entry['title']}<i class='fas fa-caret-down sidebar__arrow'></i></li>"
           loop_entries(entry['entries'])
         end
       end
