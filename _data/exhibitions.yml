@@ -1,15 +1,15 @@
 
-- title: Cloud Native
-  description: We are participating in this event.
-  link: https://skillsmatter.com/conferences/10160-cloudnative-london-2018#overview
-  date: 26. - 28. Sept 2018
-  time:
-  address: CodeNode<br>10 South Place<br>London EC2M 7EB, UK
-
 - title: Scrum Alliance Gathering
   description: We are participating in this event.
   link: https://events.scrumalliance.org/london-2018
   date: 8. - 10. Oct 2018
+  time:
+  address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
+
+- title: Google Cloud Next ’18
+  description: We are participating in this event.
+  link: https://cloud.withgoogle.com/next18/london
+  date: 10. - 11. Oct 2018
   time:
   address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
 
