@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Krazy KotlinKonf 2018 in Amsterdam
+title: Krazy KotlinConf 2018 in Amsterdam
 date: 2018-10-11
 header_image: private/kotlinconf2018-venue.jpg
 header_position: center
