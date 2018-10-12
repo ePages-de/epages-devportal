@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Working as a Product Owner in a Scrum team
+title: Responsabilities of a product owner
 date: 2018-10-18
-header_image: public/product-owner-post.jpeg
+header_image: public/product-owner.jpg
 header_overlay: true
 category: on-the-job
 tags: ["scrum", "product management"]
