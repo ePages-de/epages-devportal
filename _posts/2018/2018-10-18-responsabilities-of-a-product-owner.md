@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Responsabilities of a product owner
+title: Responsabilities of a Product Owner
 date: 2018-10-18
 header_image: public/product-owner.jpg
 header_overlay: true
