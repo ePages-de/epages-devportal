@@ -6,8 +6,8 @@ header_image: public/ux-concept.jpg
 header_overlay: true
 category: ux-and-design
 tags: ["ux", "usability", "ecommerce"]
-authors: ["Anja", "Birgit"]
-about_authors: ["aortmann", "bbader"]
+authors: ["Anja"]
+about_authors: ["aortmann"]
 ---
 
 In the last part of our series about using the right tools for different UX phases, the implementation phase is in the spotlight.
@@ -23,19 +23,31 @@ But, there's more that helps us in the implementation phase of our concepts.
 ## Getting user interface texts right
 
 Besides supporting our teams, we have another role during the implementation phase.
-Together with our Technical Writers we provide UI texts for our products. If you want to know more about this great alliance, please have a look at Birgit's post ["Why UX and Technical Writing make a dream team"](/blog/techcomm-and-socialmedia/why-ux-and-technical-writing-make-a-dream-team/)!
+Together with our Technical Writers we provide UI texts for our products.
+If you want to know more about this great alliance, have a look at Birgit's post ["Why UX and Technical Writing make a dream team"](/blog/techcomm-and-socialmedia/why-ux-and-technical-writing-make-a-dream-team/)!
 
-Writing UI texts is much easier (and makes much more fun), if you have the right tooling in place.
+Crafting UI texts is much easier (and much more fun), if you have the right tooling in place.
 
 ### Terminology database
-{% image_lightbox image="/assets/img/pages/blog/images/terminology_database.png" align="center" %}
 
+Our internal terminology database is a great support for us when it comes to using terms that have already been defined, and thus creating consistent UI texts. 
 
+{% image_custom image="/assets/img/pages/blog/images/terminology_database.png" width="100" lightbox %}
+
+We've put quite some initial effort into setting up this database.
+It involved a lot of research, discussions, and agreements in advance, but the effort was absolutely worth it!
+Our head can only remember limited terms that we defined and agreed months or even years ago.
+It's a lot easier for us to ask the database and easily find out the right one as all of the entries come with definitions, context, and screenshots. 
 
 ### PhraseApp
 
+Our localization tool is worth its weight in gold.
+It not only helps us to have our software translated into other languages, but it is also a great support when it comes to creating the source texts.
+Once the development teams have implemented our UX concepts, we have access to the preliminary texts from our mockups in PhraseApp.
+This way, we can see the texts in their entire context directly in the user interface, and we can adapt them or create new phrases uniformly.
+What's more, the tool shows us matching terminology so that we don't have to reinvent the wheel.
 
-## 4. Usability Testing
+## Usability testing
 
 For Usability Testing we have two different tools in place - one for in-house usability testing and one for remote usability testing.
 
