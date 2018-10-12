@@ -9,7 +9,7 @@ tags: ["scrum", "product management"]
 authors: ["Kerstin"]
 about_authors: ["kdeharde"]
 ---
-We've introduced you to almost all Scrum roles in our company:
+We've introduced you to many roles in our company already:
 the different roles of [developers](/blog/on-the-job/working-as-a-java-developer-at-epages/){:target="_blank"}, our [Designers](/blog/on-the-job/working-as-a-ui-designer-at-epages/){:target="_blank"}, the [UX team](/blog/ux-and-design/a-day-in-the-life-of-a-ux-team/), and our [Scrum Masters](/blog/on-the-job/why-i-love-working-as-a-scrum-master/){:target="_blank"} - but we never talked about Product Owners, or in short - POs, until now.
 
 According to the Scrum framework, the job of a Product Owner might appear as a clearly defined role which is occupied with less obstacles than others.
