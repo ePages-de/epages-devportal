@@ -1,8 +1,6 @@
 ---
-layout: page
-header_image: private/main.jpg
+layout: beyond-essence
 title: Checkboxes
-background_image: index.jpg
 ---
 
 Checkboxes belong to the selection controls and are used to enable or disable functions.
@@ -19,20 +17,23 @@ The UI label is in any case on the right side of the checkbox.
 
 ## Position
 
-Checkboxes may be positioned on a card together with further UI elements that relate to a specific function.
+Checkboxes are positioned on a card together with further UI elements that relate to a specific function.
+
+{% image_custom image="/assets/img/pages/essence/checkbox-card.png" width="100" %}
+
 If a merchant enables a checkbox, the new function will appear below:
 
-{% image_custom image="/assets/img/pages/essence/checkbox-function-below.gif" width="100" %}
+{% image_custom image="/assets/img/pages/essence/checkbox-below.png" width="100" %}
 
-There might be cases, in which the checkbox and enabling a new function has such a close relation, that the new function appears next to it:
+If the checkbox is to represent an extended function of a higher-level element, it is set at a close distance to this element.
+This emphasizes that the action of the checkbox refers to the previous element.
+In this example, the new function is displayed on the right:
 
-{% image_custom image="/assets/img/pages/essence/checkbox-function-aside.gif" width="100" %}
+{% image_custom image="/assets/img/pages/essence/checkbox-aside.png" width="100" %}
 
 ## Behavior
 
-A checkbox can either have an enabled or disabled status.
-
-Checkboxes may either simply activate or deactivate a function:
+A checkbox can either have an enabled or disabled status, and can either activate or deactivate a function:
 
 {% image_custom image="/assets/img/pages/essence/checkbox-simple.gif" width="100" %}
 
@@ -71,6 +72,4 @@ To decide which component would work better, here are some clues:
 
 ## Design
 
-An enabled checkbox comes with a green checkmark icon on a beige background, whereas a disabled checkbox is just a beige box icon.
-
-More content coming soon.
+An enabled checkbox comes with a white checkmark icon on a green background, whereas a disabled checkbox is just a beige-outlined box.
