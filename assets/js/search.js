@@ -55,7 +55,6 @@ $(window).on('load', function() {
         this.field('category');
         this.field('tags');
         this.field('authors');
-        this.field('content');
       });
 
       for (var key in window.store) {
@@ -64,8 +63,7 @@ $(window).on('load', function() {
           'title': window.store[key].title,
           'category': window.store[key].category,
           'tags': window.store[key].tags,
-          'authors': window.store[key].authors,
-          'content': window.store[key].content
+          'authors': window.store[key].authors
         });
 
         var results = idx.search(searchTerm);
