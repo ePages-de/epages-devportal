@@ -80,6 +80,7 @@ But if a PO manages to tackle this, not only the product, but also the personal 
 
 ## Challenge accepted!
 
-I have been working in product management for several years now and it is a very exciting and varied field of work.
-I wouldn't want to miss a single bit of it, as you never stop learning, and are in a constant communiction flow. 
-I like it very much!
+All the mentioned points above may sound like being a PO is a struggle - but this is not about complaining.
+Sure, all these aspects are challenges, but they are also the reason that gives the job its attraction.
+You are working with your team on a very exciting and varied field of work.
+By involving lots of people you never stop learning and gain new perspectives and ways of solutions.
