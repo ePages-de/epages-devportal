@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
 
-gem 'jekyll', '3.7.2'
+gem 'jekyll', '3.8.4'
 gem 'rake', '12.3.0'
 gem 'colorize', '0.8.1'
 gem 'html-proofer', '3.8.0'

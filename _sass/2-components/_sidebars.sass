@@ -1,13 +1,77 @@
 .sidebar
-  width: 22rem
-  position: absolute
-  left: 22rem
+  background: #fff
+  box-shadow: 0 2px 7px rgba(0,0,0,0.15)
+  border-radius: 4px
+  margin-bottom: 3rem
+
+  +grid-media($grid-large)
+    min-width: 22rem
+    margin-right: 2rem
+    box-shadow: none
+    border-radius: 0
+    background: transparent
+
+  +grid-media($grid-sidebar)
+    position: absolute
+    left: -24rem
+
+  &__button
+    text-transform: uppercase
+    color: #6E808C
+    font-weight: bold
+    padding: 2rem
+    border-bottom: 1px solid #e1e1e1
+    display: flex
+    justify-content: space-between
+
+    &:last-of-type
+      border: 0
+
+    +grid-media($grid-large)
+      padding: 0
+      border: 0
+
+  &__arrow
+
+    +grid-media($grid-large)
+      display: none
 
   &__section
-    padding-left: 2rem
+    padding: .5rem 0
+    display: none
+    border-bottom: 1px solid #e1e1e1
+
+    +grid-media($grid-large)
+      display: block
+      padding: .5rem 0 2rem
+      border: 0
+
+    &:last-of-type
+      border-top: 1px solid #e1e1e1
+
+      +grid-media($grid-large)
+        border: 0
 
   &__link
     line-height: 2
+    padding-left: 2rem
+    position: relative
 
     a
       color: #99B5C6
+
+    &--active
+
+      a
+        color: #6E808C
+
+      &::before
+
+        +grid-media($grid-large)
+          content: ""
+          height: 100%
+          width: 4px
+          background: #4EB7A8
+          position: absolute
+          left: 0
+          top: 0
