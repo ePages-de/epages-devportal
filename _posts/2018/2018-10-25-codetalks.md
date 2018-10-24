@@ -9,7 +9,11 @@ tags: []
 authors: ["Natalia", "Oliver Z."]
 about_authors: ["nzolotova", "ozscheyge"]
 ---
-Code Talks is one of the largest developer conferences in Europe. It takes place once a year and ePages developers regularly participate and enjoy the event. The conference lasted two days with various and exciting topics on different themes distributed across ten tracks. A broad range of topics covered IT Management, DevOps, Security, Backend and Frontend Development, Software Architecture, and UX Design.
+Code Talks is one of the largest developer conferences in Europe. It takes place once a year and ePages developers regularly participate and enjoy the event. The conference takes place in a cinema where all attendees are provided by a free popcorn and cola.
+
+[picture of the cinema with pop corn]
+
+It lasted two days with various and exciting topics on different themes distributed across ten tracks. A broad range of topics covered IT Management, DevOps, Security, Backend and Frontend Development, Software Architecture, and UX Design.
 It is a good opportunity to talk with other developers from different companies, share work and life experience, learn something new, have fun and dance at the  evening party.
 
 ## Blub
@@ -66,5 +70,8 @@ TALK TO USERS! (5 interviews, 30 - 60 min each are enough)
 * "Usability lunch"
 
 ## Summary
+- We are on the right tracks
+- common microservices architecture approach: event driven Design.
+-
 
 I gained more from last year's technical and management talks. But it is still nice to meet with the developer community once a year and recognize regulars!
