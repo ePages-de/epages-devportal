@@ -19,7 +19,7 @@ header_image: private/devjobs.jpg
     {% for job in jobs %}
 
       <div class="card  card--jobs">
-        <a target="_blank" href="{{ job.link }}" onClick="ga(send, event, Jobs, Click, {{ job.title }});">
+        <a target="_blank" href="{{ job.link }}" onClick="gtag('event', 'click', { event_category: 'Jobs', event_action: 'click', event_label: '{{ job.title }}' });">
           <h4 class="card__title  card--jobs__title">{{ job.title }}</h4>
           <p class="card__body  card--jobs__body">{{ job.description | truncate: 160, '' }}</p>
           <p class="card__footer  card--jobs__footer">{{ job.location }}</p>
