@@ -1,7 +1,7 @@
 ---
 layout: post
 title: code.talks 2018 - popcorn & code
-date: 2018-10-25
+date: 2018-10-29
 header_image: public/popcorn_code.jpg
 header_overlay: true
 category: events
