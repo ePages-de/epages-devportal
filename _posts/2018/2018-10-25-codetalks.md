@@ -14,18 +14,7 @@ ePages developers with an office in walking distance are Code.talks regulars, ap
 The diverse topics are distributed across ten tracks covering Management, DevOps, Security, Backend/Frontend Development, Software Architecture, and UX Design.
 It is a good opportunity to talk with other developers from different companies, share work and life experience, learn something new, have fun and dance at the evening party.
 
-## All your money belongs to us - Denis Hamann
-
-* App hacking
-
-## Live a happier life with a pull request everyday - Felix Eckhardt
-
-* PR should be small: big PR is hard to review, issues can be skipped and eventually bring failures in the system that hard to reveal
-* Split task into smaller tasks
-* Small PRs let to delivery quickly, avoid big amount of merge conflicts and not to lose a track of the story and motivation.
-* Small PRs bring self satisfaction: small victory every day.
-
-## Olli's notes
+(The most interesting topics)
 
 1. "Software-Qualität === Gesundheit" - Roland Golla (never code alone)
 
@@ -69,6 +58,15 @@ TALK TO USERS! (5 interviews, 30 - 60 min each are enough)
 * Crowd test! Try kickstarter!
 * "Usability lunch" is great opportunity to test your idea, receive feedback AND lunch :)
 
+4. Live a happier life with a pull request everyday - Felix Eckhardt(CTO at RISK.IDENT)
+
+* PR should be small so that the review could be done within one day
+* Big PR is hard to review, issues can be skipped and eventually bring failures in the system that hard to reveal
+* Avoid big tasks and split them into smaller
+* Small PRs let to delivery quickly, avoid big amount of merge conflicts and not to lose a track of the story and motivation.
+* Small PRs bring self satisfaction: small victory every day.
+
+
 Overall I gained more from last year's technical and management talks. But it is still nice to meet with the developer community once a year and recognize regulars!
 
 ## Summary
@@ -76,5 +74,3 @@ Overall I gained more from last year's technical and management talks. But it is
 For us the conference was not only an event with interesting talks and tasty food but it also influenced on our personal impression of what we are doing in the company. We are more convinced that we are moving in the right direction by choosing microservices architecture, applying
 Event Driven Design (https://martinfowler.com/articles/201701-event-driven.html) in the service communication in order to improve scalability and data reconciliation and using the stack of popular technologies that helped also other companies to improve their business and development processes. It was very interesting to know their opinion and experience and compare with ours.
 We enjoyed the event and looking forward to take part the next year.
-
-- Kotlin/Java
