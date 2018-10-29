@@ -16,7 +16,7 @@ It is a good opportunity to talk with other developers from different companies,
 
 In the following we've summarized the talks that most impressed us.
 
-## Software-Qualität === Gesundheit
+### Software-Qualität === Gesundheit
 by Roland Golla (Never Code Alone)
 
 * Focus on good software, good code base quality not just for your users or professional sake, but for the sake of your health as well!
@@ -25,7 +25,7 @@ by Roland Golla (Never Code Alone)
 * At the end it is good for business too: less developer turn-over, more deployments and only prod deployments make $$$, faster time to market
 * Work together, do not take work home, get into the flow and have fun!
 
-## Service Workers: The Technology Behind Progressive Web Apps
+### Service Workers: The Technology Behind Progressive Web Apps
 by Felix Gessert (Baqend)
 
 * Learned about manifest.json to configure a Progressive Web App (PWA)
@@ -35,7 +35,7 @@ by Felix Gessert (Baqend)
 
 As a result I will definitely try to create my first own PWA!
 
-## Mit dem Fahrrad gegen die Wand fahren
+### Mit dem Fahrrad gegen die Wand fahren
 by Nils Langner (Leankoala) + Marcel Semmler (Bauer Xcel Media)
 
 * Premise: Most projects fail, your projects included
@@ -45,7 +45,6 @@ Key findings:
 
 * Pick a good name, that people can find (written the same way it is spoken)
 * User usually use only 20% of an application's features
-
 * You need problems, not solutions
 * Focus on "jobs to be done" -- what are your customers buying/renting your product for?
 * Value proposition design, try design sprints
@@ -57,8 +56,8 @@ TALK TO USERS! (5 interviews, 30 - 60 min each are enough)
 * Crowd test! Try kickstarter!
 * "Usability lunch" is great opportunity to test your idea, receive feedback AND lunch :)
 
-## Live a happier life with a pull request everyday
-by Felix Eckhardt(CTO at RISK.IDENT)
+### Live a happier life with a pull request everyday
+by Felix Eckhardt (CTO at RISK.IDENT)
 
 * PR should be small so that the review could be done within one day
 * Big PR is hard to review, issues can be skipped and eventually bring failures in the system that hard to reveal
@@ -72,5 +71,5 @@ Overall I gained more from last year's technical and management talks. But it is
 ## Summary
 
 For us the conference was not only an event with interesting talks and tasty food but it also influenced on our personal impression of what we are doing in the company. We are more convinced that we are moving in the right direction by choosing microservices architecture, applying
-Event Driven Design (https://martinfowler.com/articles/201701-event-driven.html) in the service communication in order to improve scalability and data reconciliation and using the stack of popular technologies that helped also other companies to improve their business and development processes. It was very interesting to know their opinion and experience and compare with ours.
+[Event Driven Design](https://martinfowler.com/articles/201701-event-driven.html){:target="_blank"} in the service communication in order to improve scalability and data reconciliation and using the stack of popular technologies that helped also other companies to improve their business and development processes. It was very interesting to know their opinion and experience and compare with ours.
 We enjoyed the event and looking forward to take part the next year.
