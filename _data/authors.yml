@@ -257,6 +257,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: nzolotova
+  name: Natalia
+  full_name: Natalia
+  description: is a Java developer. She loves team work and developing our microservices.
+  image: nzolotova.jpg
+
 - id: otrosien
   name: Oliver T.
   full_name: Oliver T.
