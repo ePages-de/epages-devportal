@@ -2,7 +2,7 @@
 layout: post
 title: From zero to Rails Credentials
 date: 2018-10-22
-header_image: public/product-owner.jpg
+header_image: public/rails-credentials.jpg
 header_overlay: true
 category: coding
 tags: ["rails", "ruby", "credentials", "secrets"]
