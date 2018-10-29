@@ -16,7 +16,7 @@ For us this means a lot of communication and clarification.
 We give feedback, discuss details that are not defined, or come up with smaller issues that can be improved.
 Most of the discussions take place in meetings or directly at the developers' desk.
 
-Many of the tools that we have presented in our posts ["Useful tools for user research and UX groundwork"](/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/) and ["UX concepts made easy with the right tools"](/blog/ux-and-design/ux-concepts-made-easy-with-the-right-tools/) we do use during implementation as well; most importantly the mockups and interaction concepts in Confluence.
+Many of the tools that we have presented in our posts ["Useful tools for user research and UX groundwork"](/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/) and ["UX concepts made easy with the right tools"](/blog/ux-and-design/ux-concepts-made-easy-with-the-right-tools/) we do use during implementation as well; most importantly the wireframes and interaction concepts in Confluence.
 Our beloved whiteboard is also still there to define some nitty-gritty details.
 
 ## Getting user interface texts right
@@ -30,7 +30,7 @@ Crafting UI texts is just so much easier (and much more fun), if you have the ri
 
 ### Terminology database
 
-Our internal terminology database is a great support for us when it comes to using terms that have already been defined, and thus helps us to create consistent UI texts. 
+Our internal Confluence-based terminology database is a great support for us when it comes to using terms that have already been defined, and thus helps us to create consistent UI texts. 
 
 {% image_custom image="/assets/img/pages/blog/images/terminology_database.png" width="50" lightbox %}
 
@@ -42,19 +42,18 @@ It's a lot easier for us to ask the database, and easily find out the right term
 ### PhraseApp
 
 Our localization tool is worth its weight in gold.
-It not only helps us to have our software translated into other languages, but it is also a great support when it comes to creating the source texts. <br>
+It not only helps our translation agency to translate our software into other languages, but it is also a great support when it comes to creating the source texts. <br>
 Once the development teams have implemented a new feature, we have access to the preliminary texts in PhraseApp that ideally come from our wireframes.
 
 {% image_custom image="/assets/img/pages/blog/images/incontext-editor.png" width="50" lightbox %}
 
 This way, we can see the texts in their entire context directly in the user interface, and we can adapt them, or create new phrases uniformly.
 What's more, the tool shows us matching terminology so that we don't have to reinvent the wheel.
-(We have some nice posts related to the topic of localization: check out ["Why the heck would we need a software localization tool"](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/).)
 
 ## Usability testing
 
 Let’s finish with one of the most important parts in our UX work: Usability testing. 
-Latest after implementing a new feature, we of course need to test, whether our users understand it.
+Latest after implementing a new feature, we of course need to test whether our users understand it.
 We have two different tools in place - one for in-house usability testing, and one for remote usability testing.
 
 ### Morae
@@ -64,13 +63,13 @@ Morae provides a great set of different tools to observe, record, and analyze us
 In our usability lab we placed two computers.
 One for the user and one for the moderator.
 On the user's computer we installed Morae recorder.
+It records the whole usability test: screen, voice, face, mouse movement, and when needed, additional inputs.
 
 {% image_custom image="/assets/img/pages/blog/images/ulab.jpg" width="50" lightbox %}
 
-It records the whole usability test: screen, voice, face, mouse movement, and when needed, additional inputs.
 The moderator works with Morae observer, so that they can see the user's screen, set markers, and write notes for their observations. 
 Depending on our testing plan, additional observers can watch the usability test from another room also using the Morae observer.
-At the end all recordings are loaded in the Morae Manager to analyze them, and prepare highlight videos for the final report, and the different development teams.   
+At the end, all recordings are loaded in the Morae Manager to analyze them, and prepare highlight videos for the final report, and the different development teams.   
 
 ### RapidUsertests
 
