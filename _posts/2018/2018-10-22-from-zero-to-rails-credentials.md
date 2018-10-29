@@ -12,13 +12,13 @@ about_authors: ["uabrisketa"]
 
 ## Before Rails 5.1 - Gems
 
-Before Rails 5.1, secret management was a hassle. Developers had to use different gems like [dotenv-rails](https://github.com/bkeepers/dotenv) or [figaro](https://github.com/laserlemon/figaro) to make application secrets work.
+Before Rails 5.1, secret management was a hassle. Developers had to use different gems like [dotenv-rails](https://github.com/bkeepers/dotenv){:target="_blank"} or [figaro](https://github.com/laserlemon/figaro){:target="_blank"} to make application secrets work.
 
 This solution had also another problem: you could not commit your secrets to your repository. Doing so you were going to be exposing the content of those files.
 
 ## Rails 5.1 - Rails Secrets
 
-Rails 5.1 introduced a new way of working with your app secrets, called [Rails Secrets](https://guides.rubyonrails.org/5_1_release_notes.html#encrypted-secrets).
+Rails 5.1 introduced a new way of working with your app secrets, called [Rails Secrets](https://guides.rubyonrails.org/5_1_release_notes.html#encrypted-secrets){:target="_blank"}.
 
 With this new feature you could run `bin/rails secrets:setup` command to generate 2 files:
 
@@ -29,7 +29,7 @@ This solution caused a bit of confusion because you had two different places to 
 
 ## Rails 5.2 - Rails Credentials
 
-With the release of Rails 5.2, Rails Secrets were deprecated and replaced by [Rails Credentials](https://guides.rubyonrails.org/5_2_release_notes.html#credentials).
+With the release of Rails 5.2, Rails Secrets were deprecated and replaced by [Rails Credentials](https://guides.rubyonrails.org/5_2_release_notes.html#credentials){:target="_blank"}.
 
 When you create a new rails project running `rails new` command, it will automatically generate the `config/master.key` file and this is going to be automatically added to your `.gitignore`.
 
@@ -68,6 +68,6 @@ config.require_master_key = true
 
 The future of Rails Credentials looks promising with the release of Rails 6.
 
-As you can see on [this Rails pull request](https://github.com/rails/rails/pull/33521), they are going to introduce a the possibility to generate environment based credentials.
+As you can see on [this Rails pull request](https://github.com/rails/rails/pull/33521){:target="_blank"}, they are going to introduce a the possibility to generate environment based credentials.
 
 **Looking forward to it!!**
