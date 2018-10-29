@@ -14,9 +14,10 @@ ePages developers with an office in walking distance are Code.talks regulars, ap
 The diverse topics are distributed across ten tracks covering Management, DevOps, Security, Backend/Frontend Development, Software Architecture, and UX Design.
 It is a good opportunity to talk with other developers from different companies, share work and life experience, learn something new, have fun and dance at the evening party.
 
-(The most interesting topics)
+In the following we've summarized the talks that most impressed us.
 
-## "Software-Qualität === Gesundheit" - Roland Golla (never code alone)
+## Software-Qualität === Gesundheit
+by Roland Golla (Never Code Alone)
 
 * Focus on good software, good code base quality not just for your users or professional sake, but for the sake of your health as well!
 * Without fun, you cannot do creative work
@@ -24,7 +25,8 @@ It is a good opportunity to talk with other developers from different companies,
 * At the end it is good for business too: less developer turn-over, more deployments and only prod deployments make $$$, faster time to market
 * Work together, do not take work home, get into the flow and have fun!
 
-## "Service Workers: The Technology Behind Progressive Web Apps" - Felix Gessert (Baqend)
+## Service Workers: The Technology Behind Progressive Web Apps
+by Felix Gessert (Baqend)
 
 * Learned about manifest.json to configure a Progressive Web App (PWA)
 * Learned how to preload website contents using service workers, events and lifetime
@@ -33,7 +35,8 @@ It is a good opportunity to talk with other developers from different companies,
 
 As a result I will definitely try to create my first own PWA!
 
-## "Mit dem Fahrrad gegen die Wand fahren" - Nils Langner (Leankoala) + Marcel Semmler (Bauer Xcel Media)
+## Mit dem Fahrrad gegen die Wand fahren
+by Nils Langner (Leankoala) + Marcel Semmler (Bauer Xcel Media)
 
 * Premise: Most projects fail, your projects included
 * Hypothesis: rather fail early and often, then failing late and expensive
@@ -54,7 +57,8 @@ TALK TO USERS! (5 interviews, 30 - 60 min each are enough)
 * Crowd test! Try kickstarter!
 * "Usability lunch" is great opportunity to test your idea, receive feedback AND lunch :)
 
-## Live a happier life with a pull request everyday - Felix Eckhardt(CTO at RISK.IDENT)
+## Live a happier life with a pull request everyday
+by Felix Eckhardt(CTO at RISK.IDENT)
 
 * PR should be small so that the review could be done within one day
 * Big PR is hard to review, issues can be skipped and eventually bring failures in the system that hard to reveal
