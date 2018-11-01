@@ -1,32 +1,3 @@
-
-- title: Scrum Alliance Gathering
-  description: We are participating in this event.
-  link: https://events.scrumalliance.org/london-2018
-  date: 8. - 10. Oct 2018
-  time:
-  address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
-
-- title: Google Cloud Next ’18
-  description: We are participating in this event.
-  link: https://cloud.withgoogle.com/next18/london
-  date: 10. - 11. Oct 2018
-  time:
-  address: ExCeL London<br>Royal Victoria Dock, 1 Western Gateway<br>London E16 1XL, UK
-
-- title: Code.Talks
-  description: We are participating in this event.
-  link: https://www.codetalks.de/
-  date: 18. - 19. Oct 2018
-  time:
-  address: CinemaXX Hamburg-Dammtor<br>Dammtordamm 1<br>20354 Hamburg
-
-- title: INOVA Ilmenau
-  description: We are participating in this event.
-  link: https://inova-ilmenau.de/inova/
-  date: 23. - 24. Oct 2018
-  time: '10:00 - 16:00'
-  address: TU Ilmenau<br>Ehrenbergstraße 51<br>98693 Ilmenau
-
 - title: dotCSS
   description: We are participating in this event.
   link: https://www.dotcss.io/
@@ -40,6 +11,13 @@
   date: 09. Nov 2018
   time:
   address: Dock Pullman<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
+
+- title: HackerX
+  description: We are participating in this event.
+  link: 
+  date: 29. Nov 2018
+  time: '19:00 - 22:00'
+  address: Smaato<br>Valentinskamp70<br>20355 Hamburg
 
 - title: React Day Berlin
   description: We are participating in this event.
