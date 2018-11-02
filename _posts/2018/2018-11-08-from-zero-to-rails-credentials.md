@@ -12,9 +12,11 @@ about_authors: ["uabrisketa"]
 
 ## Before Rails 5.1 - Gems
 
-Before Rails 5.1, secret management was a hassle. Developers had to use different gems like [dotenv-rails](https://github.com/bkeepers/dotenv){:target="_blank"} or [figaro](https://github.com/laserlemon/figaro){:target="_blank"} to make application secrets work.
+Before Rails 5.1, secret management was a hassle.
+Developers had to use different gems like [dotenv-rails](https://github.com/bkeepers/dotenv){:target="_blank"} or [figaro](https://github.com/laserlemon/figaro){:target="_blank"} to make application secrets work.
 
-This solution had also another problem: you could not commit your secrets to your repository. Doing so you were going to be exposing the content of those files.
+This solution had also another problem: you could not commit your secrets to your repository.
+Doing so you were going to be exposing the content of those files.
 
 ## Rails 5.1 - Rails Secrets
 
@@ -33,7 +35,9 @@ With the release of Rails 5.2, Rails Secrets were deprecated and replaced by [Ra
 
 When you create a new rails project running `rails new` command, it will automatically generate the `config/master.key` file and this is going to be automatically added to your `.gitignore`.
 
-For editing or reading your credentials, you only need to run `bin/rails credentials:edit` (or `EDITOR=vi bin/rails credentials:edit` if you don't have an editor set). This will open an unencrypted version of your credentials file (`config/credentials.yml.enc`). Then you can fill the file with your secret key-values:
+For editing or reading your credentials, you only need to run `bin/rails credentials:edit` (or `EDITOR=vi bin/rails credentials:edit` if you don't have an editor set).
+This will open an unencrypted version of your credentials file (`config/credentials.yml.enc`).
+Then you can fill the file with your secret key-values:
 
 ```yml
 secret_key_base: 2fdea1259c6660852864f9726616df64c8cd
