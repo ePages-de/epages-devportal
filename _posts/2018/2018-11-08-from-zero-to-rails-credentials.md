@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From zero to Rails Credentials
-date: 2018-10-22
+date: 2018-11-08
 header_image: public/rails-credentials.jpg
 header_overlay: true
 category: coding
