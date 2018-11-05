@@ -96,3 +96,7 @@ But it turned out to be a great task for a master thesis.
 We hired a master's student from the field of linguistics and translation.<br>
 What she did for us, she will explain you herself in the next post.
 Stay tuned.
+
+## Related post
+
+[Rocking the stage with a software localization tool](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/)
