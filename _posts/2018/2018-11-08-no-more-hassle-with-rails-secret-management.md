@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From zero to Rails Credentials
+title: No more hassle with Rails secret management
 date: 2018-11-08
 header_image: public/rails-credentials.jpg
 header_overlay: true
