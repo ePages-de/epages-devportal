@@ -30,7 +30,7 @@ And there might be a CTO who wants to see topics on the roadmap that improve the
 
 As you can see, in the worst case there are various opinions that would lead to different product directions.
 And most of the time, they are more or less ALL VALID.
-So, sometimes POs need to be an octopus with people dragging on each of its nine arms, and still come up with a good solution instead of a bad compromise.
+So, sometimes POs need to be an octopus with people dragging on each of its eight arms, and still come up with a good solution instead of a bad compromise.
 
 ## Overcoming challenges and being successful
 
@@ -70,7 +70,7 @@ Maybe even by planning whole days to tackle more technical tasks that are not pr
 ## Staying open-minded
 
 Another important aspect: A PO should stay open-minded, and try to keep a neutral perspective on the product.
-Even with a totally new project, it might only take six to ten weeks to loose this perspective, suddenly no longer being open-minded and sticking to internal restrictions.
+Even with a totally new project, it might only take six to ten weeks to lose this perspective, suddenly no longer being open-minded and sticking to internal restrictions.
 
 When coming across a cool new feature the first thought should never be: “Great feature, but we can’t do this for our product, because we have technical restrictions, and costs would be to high”.
 So, POs sometimes need to push themselves and reset to zero.

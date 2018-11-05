@@ -81,4 +81,5 @@ Stay tuned for the implementation and testing phase and respective tools!
 ## Related posts
 
 * [Useful UX tools for research and groundwork](/blog/ux-and-design/useful-ux-tools-for-research-and-groundwork/)
+* [The best UX tools to support implementation and test the UI](/blog/ux-and-design/the-best-ux-tools-to-support-implementation-and-test-the-ui/)
 * [Workflow tuning with prototyping tools](/blog/methods-and-tools/workflow-tuning-with-prototyping-tools/)
