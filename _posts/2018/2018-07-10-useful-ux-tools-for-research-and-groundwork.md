@@ -96,3 +96,8 @@ That's it.
 These tools are my personal favourites for user rearch and UX groundwork.
 You haven't had enough?
 Then be curious about my next post about UX tools for the concept phase.
+
+## Related posts
+
+* [UX concepts made easy with the right tools](/blog/ux-and-design/ux-concepts-made-easy-with-the-right-tools/)
+* [The best UX tools to support implementation and test the UI](/blog/ux-and-design/the-best-ux-tools-to-support-implementation-and-test-the-ui/)
