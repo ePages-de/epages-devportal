@@ -19,7 +19,7 @@ module Jekyll
       entries.each do |entry|
         if entry['entries'].nil?
           raise "Sidebar: You need to provide a link for title: '#{entry['title']}'" if entry['link'].nil?
-          raise "Sidebar: You need to provide a title for title: '#{entry['link']}'" if entry['title'].nil?
+          raise "Sidebar: You need to provide a title for link: '#{entry['link']}'" if entry['title'].nil?
 
           page = @context.registers[:site].pages.detect { |p| p.path == entry['link'] }
 
