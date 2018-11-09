@@ -377,6 +377,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: vzerwas
+  name: Verena
+  full_name: Verena Zerwas
+  description: is a UI Designer, and loves to create things that are beautiful and functional.
+  image: avatar_female.jpg
+
 - id: wfilss
   name: Wolf
   full_name: Wolf-Dietrich Filss
