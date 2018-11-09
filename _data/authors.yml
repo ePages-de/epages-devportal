@@ -239,6 +239,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: mmerino
+  name: Manel
+  full_name: Juan Manuel Merino
+  description: is a Software Engineer and Java enthusiast. He has a lot of experience in developing third-party connectors.
+  image: mmerino.jpg
+
 - id: mriess
   name: Mario
   full_name: Mario
@@ -259,7 +265,7 @@
 
 - id: nzolotova
   name: Natalia
-  full_name: Natalia
+  full_name: Natalia Zolotova
   description: is a Java developer. She loves team work and developing our microservices.
   image: nzolotova.jpg
 
@@ -340,6 +346,12 @@
   full_name: Timo Haapakoski
   description: keeps ePages' backends tidy and running in all situations.
   image: avatar_male.jpg
+
+- id: thirsch
+  name: Thomas
+  full_name: Thomas Hirsch
+  description: is a Software Engineer dedicated to solving the challenges of build- and test automation. Also a proponent of Open Source software.
+  image: thirsch.jpg
 
 - id: uabrisketa
   name: Unai A.

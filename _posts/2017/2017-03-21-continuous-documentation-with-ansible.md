@@ -6,6 +6,7 @@ header_image: public/blog-forest-park-walk-trail.png
 category: methods-and-tools
 tags: ["ansible", "agile", "docker", "jenkins", "playbook"]
 authors: ["Thomas"]
+about_authors: ["thirsch"]
 ---
 
 ## Introduction

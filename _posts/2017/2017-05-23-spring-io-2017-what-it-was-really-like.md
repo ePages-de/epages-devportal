@@ -6,6 +6,7 @@ header_image: private/spring-io-header.jpg
 category: events
 tags: ["spring", "reactive", "kotlin", "angular", "conference"]
 authors: ["Mathias", "Manel"]
+about_authors: ["mduesterhoeft", "mmerino"]
 ---
 
 <style>
