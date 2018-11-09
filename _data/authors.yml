@@ -209,6 +209,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: kmueller
+  name: Katja
+  full_name: Katja Müller
+  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  image: kmueller.jpg
+
 - id: lbrandt
   name: Lena
   full_name: Lena
