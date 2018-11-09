@@ -199,6 +199,8 @@ task :test_files do
         errors += check_filename(file)
       end
 
+      errors += check_sidebar('_data/beyond_essence.yml')
+
       errors.each do |error|
         if error.line
           puts "#{error.file}:#{error.line.line_num} -> #{error.message}".red
@@ -254,6 +256,22 @@ task :test_files do
 
     def check_filename(file)
       errors = []
+      unless file =~ /^[a-z0-9\-\_\.\/]+$/
+        errors << LinterError.new(file, nil, 'Filenames must only contain lower case letters, numbers, dashes, underscores or points')
+      end
+      errors
+    end
+
+    def check_sidebar(file)
+      errors = []
+
+      # Check if it's a valid yaml file
+      begin
+        YAML.parse(File.open(file))
+      rescue
+        errors << LinterError.new(file, nil, 'Not a valid YAML format')
+      end
+
       unless file =~ /^[a-z0-9\-\_\.\/]+$/
         errors << LinterError.new(file, nil, 'Filenames must only contain lower case letters, numbers, dashes, underscores or points')
       end
