@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Going interactive with Stoplight
+title: On our way to interactive documentation with Stoplight
 date: 2018-11-27
 header_image: public/green-stoplights.jpg
+header_position: top
 header_overlay: true
 category: api-experience
 tags: ["api", "reference", "documentation", "tool"]
