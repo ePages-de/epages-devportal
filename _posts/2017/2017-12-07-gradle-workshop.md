@@ -8,6 +8,7 @@ header_overlay: true
 category: methods-and-tools
 tags: ["gradle", "java"]
 authors: ["Thomas"]
+about_authors: ["thirsch"]
 ---
 
 ## Introduction

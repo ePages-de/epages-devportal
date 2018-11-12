@@ -6,6 +6,7 @@ header_image: public/next-gen-webservices.jpg
 category: tech-stories
 tags: ["webservices", "third-party", "ecommerce", "payment", "shipping", "api"]
 authors: ["Manel"]
+about_authors: ["mmerino"]
 ---
 
 In a [previous blog post](/blog/tech-stories/payment-integrations/), Xavi explained the standard payment flow model that we use for a long time.
