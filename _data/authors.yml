@@ -209,6 +209,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: kmueller
+  name: Katja
+  full_name: Katja Müller
+  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  image: kmueller.jpg
+
 - id: lbrandt
   name: Lena
   full_name: Lena
@@ -239,6 +245,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: mmerino
+  name: Manel
+  full_name: Juan Manuel Merino
+  description: is a Software Engineer and Java enthusiast. He has a lot of experience in developing third-party connectors.
+  image: mmerino.jpg
+
 - id: mriess
   name: Mario
   full_name: Mario
@@ -259,7 +271,7 @@
 
 - id: nzolotova
   name: Natalia
-  full_name: Natalia
+  full_name: Natalia Zolotova
   description: is a Java developer. She loves team work and developing our microservices.
   image: nzolotova.jpg
 
@@ -341,6 +353,12 @@
   description: keeps ePages' backends tidy and running in all situations.
   image: avatar_male.jpg
 
+- id: thirsch
+  name: Thomas
+  full_name: Thomas Hirsch
+  description: is a Software Engineer, who has accepted the challenges of build- and test automationn. Also a proponent of Open Source software.
+  image: thirsch.jpg
+
 - id: uabrisketa
   name: Unai A.
   full_name: Unai Abrisketa
@@ -364,6 +382,12 @@
   full_name: Vlad
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+
+- id: vzerwas
+  name: Verena
+  full_name: Verena Zerwas
+  description: is a UI Designer, and loves to create things that are beautiful and functional.
+  image: avatar_female.jpg
 
 - id: wfilss
   name: Wolf

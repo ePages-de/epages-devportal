@@ -53,6 +53,7 @@ exclude:
   - log/
   - vendor
   - LICENSE-CC-BY-40.txt
+  - firebase.json
 
 feed:
   path: /blog/feed.xml

@@ -7,6 +7,7 @@ header_position: center
 category: methods-and-tools
 tags: ["conference", "design", "performance"]
 authors: ["Katja"]
+about_authors: ["kmueller"]
 ---
 
 Have you ever heard of a meaningful paint?
