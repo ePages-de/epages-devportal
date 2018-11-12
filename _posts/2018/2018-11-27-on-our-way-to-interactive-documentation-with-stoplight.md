@@ -11,9 +11,9 @@ authors: ["Jan S."]
 about_authors: ["jschnegotzki"]
 ---
 
-As the next generation of our product is about to take off to give our customers a whole new experience of what it means to use ePages as the solution to sell online, we decided to try and do the same for the developers talking to our API.
-This means that we will switch from a static HTML file to [Stoplight](https://stoplight.io), a tool that automates large parts of the API reference generation, and provides interactivity in a structured and easily maintainable interface.
-This is the first of a series of posts in which we will document our migration to the new system, outlining our approach, and hinting at caveats in terms of technical challenges, writing topics and collaboration.
+As the next generation of our product is about to take off to give our customers a whole new experience of what it means to use [ePages](https://epages.com/en/){:target="_blank"}) as the solution to sell online, we decided to try and do the same for the developers talking to our API.
+This means that we will switch from a static HTML file to [Stoplight](https://stoplight.io){:target="_blank"}, a tool that automates large parts of the API reference generation, and provides interactivity in a structured and easily maintainable interface.
+This is the first of a series of posts in which we will document our migration to the new system, outlining our approach, and hinting at caveats in terms of technical challenges, writing topics, and collaboration.
 
 ## Where we stand
 
@@ -21,28 +21,30 @@ Our development teams have put considerable effort into coming up with an entire
 This means new functionality for our users and smooth integration into other services.
 To make sure that the documentation will live up to the bar we are trying to set for ourselves, we wanted to make sure it conforms to modern standards.
 This means not only restructuring what we currently have to provide an easily accessible documentation, but also a set of engaging features that communicate directly with our backend.
-We currently organise the whole collaboration and revision process over a GitHub repository and one of the challenges we were expecting when restructuring was to keep up our current processes, maybe even streamlining them upon changing to the new tool.
+We currently organise the whole collaboration and revision process over a GitHub repository.
+One of the challenges we were facing when restructuring was to keep up our current processes, maybe even streamlining them upon changing to the new tool.
 
 ## What we've seen
 
 To gain an insight into what was actually to be understood by "modern standards", we conducted some research looking at a number of documentations by other API providers.
 We had done that before to brush up our [ePages Now API documentation](/apps/), but since quite some aspects of Beyond are different and new we started this on a blank sheet to get some fresh inspiration.
-It was amazing to see how heterogenous the approach to creating docs can be and searching through what is out there, it pretty quickly boiled down to some focus points.
+It was amazing to see how heterogenous the approach to creating docs can be and searching through what is out there.
+It pretty quickly boiled down to some focus points.
 The following three major learnings from the variety of impressions gathered will be most essential in setting up the kind of docs we want:
 1. Even if at first glance it may seem to be purely aesthetic and more or less unrelated with the content, a clear and consistent visual style will be the key to user-friendliness.
 This entails, besides the obvious corporate colors, different areas like the formatting of the text, clear and self-explanatory demarkation of variables, an approachable sidebar and such.
-2. Rather than presenting your API textbook-style, it seems more or less the norm now to provide examples of requests from different programming languages instead of just the more generic command line calls.
-Ideally, this is supplemented by interactive features like a sandbox environment for developers to play around with the API.
-3. We realized that probably the biggest challenge we would be facing is to appeal to rookie developers and experienced pros alike.
+2. Rather than presenting your API textbook-style, it seems the norm now to provide examples of requests from different programming languages instead of just the more generic command line calls.
+Ideally, this is supplemented by interactive features, like a sandbox environment for developers to play around with the API.
+3. We realized that probably the biggest challenge we will be facing is to appeal to rookie developers and experienced pros alike.
 It will take a good deal of consideration to present the documentation without overwhelming newbies while still not boring professionals.
 
 ## What we want
 
-These and the other lessons we learned from our research are basically things that have to be applied and thoroughly thought out, implying a large effort to both build our solution and keep it up to date (we've been there with other products).
-However, we now knew what features we wanted our docs to have and could thus start looking around whether there was something out there to do some of the work for us.
+These and the other lessons we learned from our research are basically things that have to be applied and thoroughly thought out, implying a large effort to both, building our solution and keeping it up to date (we've been there with other products).
+However, we now knew what features we wanted our docs to have, and could thus start looking around whether there was something out there to do some of the work for us.
 Essentially, we wanted a tool that made it possible to create a user-friendly documentation which would underpin our API-first approach.
 Ideally, it would reduce the maintenance work our current doc is causing while enabling an efficient usage of parts of our infrastructure, and of our workflows.
-It has to strike the right balance between the purely technical, highly structured part of a pure reference and the textual work that would turn the document into a great piece of documentation.
+It has to strike the right balance between the purely technical, highly structured part of a pure reference, and the textual work that would turn the document into a great piece of documentation.
 It also has to provide the possibility to send REST calls and, ideally, code generation.
 
 ## How Stoplight can help us
@@ -53,10 +55,10 @@ However, all the features we currently need are already there.
 We can start publishing our docs on their site, and watch it grow alongside our work with the tool.
 The big thing with Stoplight is its JSON renderer that automatically turns an OpenAPI specification into an API Reference, allowing for grouping by tags, embedding an HTTP request maker complete with token acquisition etc.
 It also provides an editor rich in features, a CSS-customizable interface, versioning, GitHub integration, and more.
-A set of API endpoints enables integration into an automated workflow (more on that in the upcoming post).
+A set of API endpoints enables integration into an automated workflow (more on that in an upcoming post).
 
 ## What is up next?
 
-We are currently happy with our decision to finally get ourselves a tool that does a part of the work and Stoplight looks promising.
+We are currently happy with our decision to finally get ourselves a tool that does a part of the work, and Stoplight looks promising.
 Still, the plans have to be put into practise to prove our current enthusiasm is justified.
 Stay tuned to keep following us on our Stoplight journey.
