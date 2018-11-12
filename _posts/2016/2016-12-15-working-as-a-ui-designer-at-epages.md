@@ -6,6 +6,7 @@ header_image: private/ui-designer.jpg
 category: on-the-job
 tags: ["ux", "ui", "onboarding", "job", "design"]
 authors: ["Rose", "Serena", "Verena"]
+about_authors: ["rritter", "stansil", "vzerwas"]
 ---
 
 Do you want to learn more about what it's like to work as a UI Designer at ePages?
