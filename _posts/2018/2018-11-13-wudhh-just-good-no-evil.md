@@ -23,7 +23,7 @@ This talk by Dominique Winter was probably the most important for us.
 It dealt with how an organization can develop products with good UX, or in other words, what they need for a good UX.
 These are the top 5 methods to tackle this:
 
-**Workshops, Trainigs, Coaching**
+**Workshops, Trainings, Coaching**
 
 Goal: to establish social and UX method competence, as well as to get to know the domain of our target group better.
 
