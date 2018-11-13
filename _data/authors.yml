@@ -257,6 +257,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: mwawrok
+  name: Michaela
+  full_name: Michaela Wawrok
+  description: is a UX Manager with strong focus on great usability for our merchants. She loves creating UX concepts, and intuitive user guidance.
+  image: avatar_female.jpg
+
 - id: nfranke
   name: Norman
   full_name: Norman Franke
