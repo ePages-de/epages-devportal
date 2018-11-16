@@ -7,6 +7,7 @@ header_overlay: true
 category: events
 tags: ["team", "challenge"]
 authors: ["Ludger"]
+about_authors: ["lgerdes"]
 ---
 
 Weeks of preparation.

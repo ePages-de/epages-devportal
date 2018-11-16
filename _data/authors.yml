@@ -143,6 +143,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: hahnert
+  name: Heiko
+  full_name: Heiko Ahnert
+  description: is a Product Manager at ePages. He loves to share his experience, and passion all around ecommerce with the team, and gains his energy from client’s success.
+  image: hahnert.jpg
+
 - id: hbehrens
   name: Harm
   full_name: Harm Behrens
@@ -168,7 +174,7 @@
   image: jfischer.jpg
 
 - id: jmewes
-  name: Jan
+  name: Jan M.
   full_name: Jan Mewes
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg
@@ -220,6 +226,12 @@
   full_name: Lena
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
+
+- id: lgerdes
+  name: Ludger
+  full_name: Ludger Gerdes
+  description: is a Key Account Manager. He is the voice of the smaller resellers in the ePages organisation. After successfully finishing the Tough Mudder challenge, he prefers playing beach volleyball in warm sand over crawling in mud.
+  image: lgerdes.jpg
 
 - id: lharder
   name: Leana
@@ -353,6 +365,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: tgiessler
+  name: Tobias G.
+  full_name: Tobias G.
+  description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
 - id: thaapakoski
   name: Timo
   full_name: Timo Haapakoski
@@ -381,6 +399,12 @@
   name: Unai M.
   full_name: Unai M.
   description: belongs to the epagesdevs content team.
+  image: avatar_male.jpg
+
+- id: usauer
+  name: Ulf S.
+  full_name: Ulf Sauer
+  description: is a Software Developer, and functional programming enthusiast.
   image: avatar_male.jpg
 
 - id: vmytysk

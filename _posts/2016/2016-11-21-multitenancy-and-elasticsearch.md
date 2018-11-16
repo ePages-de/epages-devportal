@@ -6,6 +6,7 @@ header_image: public/multitenant.jpg
 category: tech-stories
 tags: ["multitenancy", "elasticsearch", "index"]
 authors: ["Ulf S."]
+about_authors: ["usauer"]
 ---
 
 A key requirement for our software stack at ePages is to deal with multitenancy.

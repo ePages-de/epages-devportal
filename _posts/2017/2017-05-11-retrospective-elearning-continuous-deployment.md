@@ -5,7 +5,7 @@ date: 2017-05-11
 header_image: public/learning.jpg
 category: methods-and-tools
 tags: ["capistrano", "agile", "continuous deployment"]
-authors: ["Jan"]
+authors: ["Jan M."]
 about_authors: ["jmewes"]
 ---
 
