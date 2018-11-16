@@ -6,6 +6,7 @@ header_image: public/needle-in-a-haystack.jpg
 category: tech-stories
 tags: ["microservice", "docker", "logback", "slf4j", "java", "nginx", "logging"]
 authors: ["Jens"]
+about_authors: ["jfischer"]
 ---
 
 While developing our new ePages product using a microservices architecture, we came to experience the challenges involved in operating these kinds of systems.

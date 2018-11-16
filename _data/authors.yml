@@ -143,6 +143,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: hahnert
+  name: Heiko
+  full_name: Heiko Ahnert
+  description: is a Product Manager at ePages. He loves to share his experience, and passion all around ecommerce with the team, and gains his energy from client’s success.
+  image: hahnert.jpg
+
 - id: hbehrens
   name: Harm
   full_name: Harm Behrens
@@ -168,7 +174,7 @@
   image: jfischer.jpg
 
 - id: jmewes
-  name: Jan
+  name: Jan M.
   full_name: Jan Mewes
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg

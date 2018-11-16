@@ -6,6 +6,7 @@ header_image: public/golang-library.jpg
 category: coding
 tags: ["i-doit", "go", "jenkins", "api", "rest"]
 authors: ["Carsten", "Karsten"]
+about_authors: ["cseeger", "kpeskova"]
 ---
 
 Long time no see guys.

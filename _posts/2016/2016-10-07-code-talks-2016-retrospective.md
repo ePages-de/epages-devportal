@@ -6,6 +6,7 @@ header_image: private/codetalks2016.jpg
 category: events
 tags: ["conference", "functional programming", "cloud", "java"]
 authors: ["Jens", "Mathias"]
+about_authors: ["jfischer", "mduesterhoeft" ]
 ---
 
 <style>
