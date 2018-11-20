@@ -11,7 +11,7 @@ authors: ["Jan S."]
 about_authors: ["jschnegotzki"]
 ---
 
-As the next generation of our product is about to take off to give our customers a whole new experience of what it means to use [ePages](https://epages.com/en/){:target="_blank"}) as the solution to sell online, we decided to try and do the same for the developers talking to our API.
+As Beyond, the next generation of our product, is about to take off to give our customers a whole new experience of what it means to use [ePages](https://epages.com/en/){:target="_blank"} as the solution to sell online, we decided to try and do the same for the developers talking to our API.
 This means that we will switch from a static HTML file to [Stoplight](https://stoplight.io){:target="_blank"}, a tool that automates large parts of the API reference generation, and provides interactivity in a structured and easily maintainable interface.
 This is the first of a series of posts in which we will document our migration to the new system, outlining our approach, and hinting at caveats in terms of technical challenges, writing topics, and collaboration.
 
@@ -23,6 +23,10 @@ To make sure that the documentation will live up to the bar we are trying to set
 This means not only restructuring what we currently have to provide an easily accessible documentation, but also a set of engaging features that communicate directly with our backend.
 We currently organise the whole collaboration and revision process over a GitHub repository.
 One of the challenges we were facing when restructuring was to keep up our current processes, maybe even streamlining them upon changing to the new tool.
+
+{% image_custom image="/assets/img/pages/blog/images/html-docs-status.png" width="50" lightbox %}
+
+As the current documentation does not look like what we are envisioning, a cleaner, more approachable structure is also a goal.
 
 ## What we've seen
 
@@ -40,7 +44,7 @@ It will take a good deal of consideration to present the documentation without o
 
 ## What we want
 
-These and the other lessons we learned from our research are basically things that have to be applied and thoroughly thought out, implying a large effort to both, building our solution and keeping it up to date (we've been there with other products).
+These and the other lessons we learned from our research are basically things that have to be applied and thoroughly thought out, implying a large effort both building our solution and keeping it up to date (we've been there with our current software).
 However, we now knew what features we wanted our docs to have, and could thus start looking around whether there was something out there to do some of the work for us.
 Essentially, we wanted a tool that made it possible to create a user-friendly documentation which would underpin our API-first approach.
 Ideally, it would reduce the maintenance work our current doc is causing while enabling an efficient usage of parts of our infrastructure, and of our workflows.
