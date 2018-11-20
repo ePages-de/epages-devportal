@@ -6,6 +6,7 @@ header_image: public/offsite.jpg
 category: events
 tags: ["offsite", "team", "workshop"]
 authors: ["Alejandra", "Benjamin", "Heiko"]
+about_authors: ["aamendariz", "bnothdurft", "hahnert"]
 ---
 
 Last week, the ePages release and test automation team was welcomed by the precious views, hearty people and refreshing atmosphere of Mallorca.

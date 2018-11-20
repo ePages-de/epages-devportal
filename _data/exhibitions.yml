@@ -1,17 +1,3 @@
-- title: dotCSS
-  description: We are participating in this event.
-  link: https://www.dotcss.io/
-  date: 08. Nov 2018
-  time:
-  address: Dock Pullman<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
-
-- title: dotJS
-  description: We are participating in this event.
-  link: https://www.dotjs.io/
-  date: 09. Nov 2018
-  time:
-  address: Dock Pullman<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
-
 - title: Kubernetes/Cloud-Native Meetup
   description: We are hosting this event.
   link: https://www.meetup.com/de-DE/Hamburg-Kubernetes-Meetup/events/255738291/

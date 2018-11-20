@@ -7,6 +7,7 @@ header_overlay: true
 category: tech-stories
 tags: ["jenkins", "network", "environment", "i-doit"]
 authors: ["Carsten", "Karsten"]
+about_authors: ["cseeger", "kpeskova"]
 ---
 
 If we talk about [pipelining](https://en.wikipedia.org/wiki/Pipeline_(software)) at ePages, we understand it as an automatic workflow.

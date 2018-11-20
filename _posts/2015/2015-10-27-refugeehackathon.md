@@ -6,7 +6,7 @@ header_image: public/code.jpg
 header_overlay: true
 category: events
 tags: ["hackathon", "volunteer"]
-authors: ["Jan"]
+authors: ["Jan M."]
 about_authors: ["jmewes"]
 ---
 
