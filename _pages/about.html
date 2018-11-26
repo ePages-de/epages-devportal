@@ -16,7 +16,7 @@ header_image: private/about.jpg
 
     <p class="card__body">Our developer portal is a platform from developers for developers, and comprises a combination of REST API documentation for our products, blog posts with topics from our tech stack, as well as job vacancies.</p>
 
-    <a href="/devjobs/" class="cta  cta--beyond" onClick="gtag('event', 'click', { event_category: 'Jobs', event_action: 'click', event_label: 'Become an ePages dev' });">Become an ePages dev ›</a>
+    <a href="/devjobs/" class="cta  cta--beyond" onClick="ga('send', 'event', 'Jobs', 'click', 'Become an ePages dev');">Become an ePages dev ›</a>
 
   </div>
 
@@ -34,19 +34,19 @@ header_image: private/about.jpg
 
     <ul>
       <li>
-        <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" onClick="gtag('event', 'click', { event_category: 'Channels', event_action: 'click', event_label: 'Twitter' });">
+        <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" onClick="ga('send', 'event', 'Channels', 'click', 'Twitter');">
           <i class="fab  fa-fw  fa-twitter  fa-2x" aria-hidden="true"></i>
           <p>Follow us on <span>Twitter</span></p>
         </a>
       </li>
       <li>
-        <a href="https://youtube.com/channel/{{site.youtube_username}}" target="_blank" onClick="gtag('event', 'click', { event_category: 'Channels', event_action: 'click', event_label: 'YouTube' });">
+        <a href="https://youtube.com/channel/{{site.youtube_username}}" target="_blank" onClick="ga('send', 'event', 'Channels', 'click', 'YouTube');">
           <i class="fab  fa-fw  fa-youtube  fa-2x" aria-hidden="true"></i>
           <p>See what we're up to on <span>YouTube</span></p>
         </a>
       </li>
       <li>
-        <a href="https://epages.com" target="_blank" onClick="gtag('event', 'click', { event_category: 'Channels', event_action: 'click', event_label: 'Website' });">
+        <a href="https://epages.com" target="_blank" onClick="ga('send', 'event', 'Channels', 'click', 'Website');">
           <i class="fas  fa-fw  fa-globe  fa-2x" aria-hidden="true"></i>
           <p>Visit our <span>company website</span></p>
         </a>
