@@ -1,7 +1,7 @@
 ---
 layout: beyond-essence
 header_image: private/main.jpg
-title: Switch buttons
+title: Toggle switch
 background_image: index.jpg
 ---
 {% image_custom image="/assets/img/pages/essence/switch-button-on-off.png" width="25" align="right" %}
@@ -93,4 +93,5 @@ Coming soon.
 
 ## Design
 
-Coming soon.
+A switched on toggle comes with a white checkmark icon on a green background, whereas a switched off toggle is visualised via a white close icon on a beige background.
+Immediately after switching the toggle from off to on more information and/or functionality are displayed in an area with light beige background below the toggle element.
