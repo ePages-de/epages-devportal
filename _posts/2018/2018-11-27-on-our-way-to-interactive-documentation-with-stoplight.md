@@ -46,19 +46,23 @@ It will take a good deal of consideration to present the documentation without o
 
 These and the other lessons we learned from our research are basically things that have to be applied and thoroughly thought out, implying a large effort both building our solution and keeping it up to date (we've been there with our current software).
 However, we now knew what features we wanted our docs to have, and could thus start looking around whether there was something out there to do some of the work for us.
-Essentially, we wanted a tool that made it possible to create a user-friendly documentation which would underpin our API-first approach.
-Ideally, it would reduce the maintenance work our current doc is causing while enabling an efficient usage of parts of our infrastructure, and of our workflows.
-It has to strike the right balance between the purely technical, highly structured part of a pure reference, and the textual work that would turn the document into a great piece of documentation.
+Essentially, we wanted a tool that made it possible to create a user-friendly documentation to underpin our API-first approach.
+Ideally, it will reduce the maintenance work our current doc is causing while enabling an efficient usage of parts of our infrastructure, and of our workflows.
+It has to strike the right balance between the purely technical, highly structured part of a pure reference, and the textual work that is necessary to turn the document into a great piece of documentation.
 It also has to provide the possibility to send REST calls and, ideally, code generation.
 
 ## How Stoplight can help us
 
-Luckily, Stoplight seems to provide all we were looking for and implementing its usage well would be a giant leap forward for all API documentation tasks concerning the new Beyond software.
+Luckily, Stoplight seems to provide all we were looking for and implementing its usage well will be a giant leap forward for all API documentation tasks concerning the new Beyond software.
 Stoplight Next is Stoplight's newest product and still being extended constantly.
 However, all the features we currently need are already there. 
 We can start publishing our docs on their site, and watch it grow alongside our work with the tool.
 The big thing with Stoplight is its JSON renderer that automatically turns an OpenAPI specification into an API Reference, allowing for grouping by tags, embedding an HTTP request maker complete with token acquisition etc.
-It also provides an editor rich in features, a CSS-customizable interface, versioning, GitHub integration, and more.
+
+{% image_custom image="/assets/img/pages/blog/images/stoplight-status.png" width="50" lightbox %}
+
+Even at the beginning of our usage of the tool, the API reference is a lot easier to navigate than before.
+Stoplight also provides an editor rich in features, a CSS-customizable interface, versioning, GitHub integration, and more.
 A set of API endpoints enables integration into an automated workflow (more on that in an upcoming post).
 
 ## What is up next?
