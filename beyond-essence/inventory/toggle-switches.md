@@ -1,7 +1,7 @@
 ---
 layout: beyond-essence
 header_image: private/main.jpg
-title: Toggle switch
+title: Toggle switches
 background_image: index.jpg
 ---
 {% image_custom image="/assets/img/pages/essence/switch-button-on-off.png" width="25" align="right" %}
