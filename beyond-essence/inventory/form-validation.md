@@ -11,3 +11,5 @@ Use inline validation to immediately inform the user about success or failure of
 ## Design
 
 Form validation is presented via a red vertical line on the left side of each mandatory input field. An additional validation hint is positioned below the input field. It comes with a red background and white text, and in addition has an arrow to visualise the communion between input field and validation message.
+
+{% image_custom image="/assets/img/pages/essence/form_validation.png" width="100" %}
