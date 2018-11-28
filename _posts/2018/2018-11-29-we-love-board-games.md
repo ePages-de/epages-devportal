@@ -14,7 +14,7 @@ Folks, board games are pretty darn cool.
 And winter is on the horizon.
 What could be better to eliminate the winter blues than gathering together with your colleagues, and cuddle up for a board game night?
 Just recently we did exactly that!
-We brought our favourite boad games, occupied our big confi, and ordered pizza.
+We brought our favourite board games, occupied our big conference room, and ordered pizza.
 
 ### Let the games begin
 
@@ -41,8 +41,10 @@ And that even under difficult conditions, because it was the English version.
 {% image_custom image="/assets/img/pages/blog/images/codenames.jpg" width="50" lightbox %}
 
 While the Codename gamers had to behave rather thoughtfully and quietly, the next table was a party.
-They played **GAMENAMEMISSING** very vividly, and enjoyed the fun.
+They played Cash'n Guns very vividly, and enjoyed the fun.
 
 ### Games! Give us more games!
 
 We had a blast and decided that the next board game night is already set.
+Are there games we have to try next time?
+Let us know on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}.
