@@ -38,7 +38,7 @@ And just pizza was apparently not enough, so we had to top off with nibbles to k
 One group chose to play Codenames.
 And that even under difficult conditions, because it was the English version.
 
-{% image_custom image="/assets/img/pages/blog/images/codenames.jpg" width="50" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/code_names.jpg" width="50" lightbox %}
 
 While the Codename gamers had to behave rather thoughtfully and quietly, the next table was a party.
 They played Cash'n Guns very vividly, and enjoyed the fun.
