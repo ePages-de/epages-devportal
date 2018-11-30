@@ -123,7 +123,7 @@ task :test_posts do
         lines = read_file_lines(file)
         lines.each do |line|
           if line.content =~ /(\[.*\]\(.*developer.epages.com[^ {}\(\)]+\))/
-            errors << LinterError.new(file, line, 'Linking to an internat URL. Use relative path')
+            errors << LinterError.new(file, line, 'Linking to an internal URL. Use relative path')
           end
         end
       end
