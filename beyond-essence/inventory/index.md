@@ -11,5 +11,6 @@ Navigate through our UI inventory:
 * [Checkboxes](/beyond-essence/inventory/checkboxes/)
 * [Empty states](/beyond-essence/inventory/empty-states/)
 * [Form validation](/beyond-essence/inventory/form-validation/)
-* [Switch buttons](/beyond-essence/inventory/switch-buttons/)
 * [Toast messages](/beyond-essence/inventory/toast-messages/)
+* [Toggle switches](/beyond-essence/inventory/toggle-switches/)
+

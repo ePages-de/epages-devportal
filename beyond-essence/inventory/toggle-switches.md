@@ -1,19 +1,19 @@
 ---
 layout: beyond-essence
 header_image: private/main.jpg
-title: Switch buttons
+title: Toggle switches
 background_image: index.jpg
 ---
 {% image_custom image="/assets/img/pages/essence/switch-button-on-off.png" width="25" align="right" %}
-A switch button works like a physical switch, that can be used e.g. to turn the light on and off.
-In the cockpit we display switch buttons to enable merchants to turn a feature on or off, and to enhance cards with additional features.
+A toggle switch works like a physical switch, that can be used e.g. to turn the light on and off.
+In the cockpit we display toggle switches to enable merchants to turn a feature on or off, and to enhance cards with additional features.
 
 The UI element "checkbox" is used quite similarly.
-Check the section "Choosing between switch button and checkbox", and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
+Check the section "Choosing between toggle switch and checkbox", and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
 
 ## Use cases
 
-In the cockpit, switch buttons have two main use cases:
+In the cockpit, toggle switches have two main use cases:
 
 ### Activate a feature
 
@@ -52,15 +52,15 @@ If this feature is activated, the whole structure and workflow for this specific
 
 ## Structure
 
-A switch button looks like a classical on/off switch.
-The two different states give a clear visual feedback so that the merchant is always aware if the switch is turned on or off.
+A toggle switch looks like a classical on/off switch.
+The two different states give a clear visual feedback so that the merchant is always aware if the toggle switch is turned on or off.
 
 * A checkmark on a green background, toggled to the right, represents an active feature.
 * A cross on a beige background, toggled to the left, represents a deactivated feature.
 
-On the right side of the switch button, a label clearly explains the action that can be taken.
+On the right side of the toggle switch, a label clearly explains the action that can be taken.
 
-Depending on the complexity of the feature, additional content is shown below the activated switch button.
+Depending on the complexity of the feature, additional content is shown below the activated toggle switch .
 
 {% image_custom image="/assets/img/pages/essence/switch-button-with-content.png" width="100" align="center" %}
 
@@ -68,24 +68,24 @@ For further information on the exact visualisation of addtional content, consult
 
 ## Position
 
-Switch buttons may be positioned on a card together with further UI elements that relate to a specific topic.
+Toggle switches may be positioned on a card together with further UI elements that relate to a specific topic.
 
 ## Behavior
 
-By toggling the switch button it changes its state:
+By toggling the switch it changes its state:
 
 {% image_custom image="/assets/img/pages/essence/switch-button.gif" width="100" %}
 
-## Choosing between switch button and checkbox
+## Choosing between toggle switch and checkbox
 
-Switch buttons and checkboxes seem to be quite similar as they are both used to activate some sort of "settings".
+Toggle switches and checkboxes seem to be quite similar as they are both used to activate some sort of "settings".
 
-To decide when a switch button is used, here are some clues:
+To decide when to use a toggle switch, here are some clues:
 
-* Use a switch button to allow merchants to enable features that have a significant effect on their workflow.
-* Use a switch button to enhance a card with additional content.
-* Don't use a switch button to activate small and distinct options, like an additional price field.
-* Don't use a switch button, when the merchant needs to select multiple items in a list that need to be saved afterwards.
+* Use a toggle switch to allow merchants to enable features that have a significant effect on their workflow.
+* Use a toggle switch to enhance a card with additional content.
+* Don't use a toggle switch to activate small and distinct options, like an additional price field.
+* Don't use a toggle switch, when the merchant needs to select multiple items in a list that need to be saved afterwards.
 
 ## Copy writing
 
@@ -93,4 +93,5 @@ Coming soon.
 
 ## Design
 
-Coming soon.
+An activated on toggle switch comes with a white checkmark icon on a green background, whereas a deactivated toggle switch is visualised via a white "close icon" on a beige background.
+Immediately after toggling the switch from off to on more information and/or functionality is displayed in an area with light beige background below the toggle switch.
