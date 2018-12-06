@@ -67,7 +67,7 @@
 - id: broddeck
   name: Björn
   full_name: Björn Roddeck
-  description: is a User Interface Designer who loves CSS and LESS, and is keen on video editing. 
+  description: is a User Interface Designer who loves CSS and LESS, and is keen on video editing.
   image: broddeck.jpg
 
 - id: cbreitkreuz
@@ -323,7 +323,7 @@
   description: is a Software Engineer. He practices katas not just in coding dojos.
   image: avatar_male.jpg
 
-- id: pkalashnikov 
+- id: pkalashnikov
   name: Pavlo
   full_name: Pavlo Kalashnikov
   description: is a Backend Developer experienced with languages, such as Perl, Python, and XSLT. His favorite development environment is IntelliJ IDEA.
