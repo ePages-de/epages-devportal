@@ -152,8 +152,8 @@
 - id: fstangenberger
   name: Frank
   full_name: Frank Stangenberger
-  description: is Application Engineer. He studied Computer Linguistics and also Pedagogy in Munich. He takes care of the on-time ePages software updates at our providers and is part of the 24/7 on-call service.
-  image: avatar_male.jpg
+  description: is an Application Engineer who studied Computer Linguistics and Pedagogy. He takes care of the on-time software updates at our providers, and is part of the 24/7 on-call service.
+  image: fstangenberger.jpg
 
 - id: fvollert
   name: Frederik
