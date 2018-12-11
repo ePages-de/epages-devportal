@@ -24,36 +24,48 @@ I have always worked in ecommerce and always had close relationships with the de
 I haven't thought about software architecture or APIs much._
 
 To be honest with you, there were/are some days where I felt/feel totally lost, but I never think about my non-technical background as a disadvantage.
-
 What do I do to survive as a non-technical Scrum Master in a tech company?
 
 #### I listen and take notes.
+
 Listening skills ar cruical for a Scrum Master.
 This is the same for technical and non-technical conversations.
 Whereas it comes pretty naturally to me to read between the lines during team discussions, it's hard for me to stay on track when the team is talking about super technical stuff.
-This is when I start to listen even harder and take notes to follow up on things that weren't clear to me.
-#### I observe
-I observe how the team works together and how productive they are.
-I watch their workflows and gather feedback on how happy the team is in the different stages of the process.
-Once I know where the pain points are, I can dig deeper into this part of the process and learn more about it.
-#### I ask questions
+This is when I start to listen even harder, and take notes to follow up on things that weren't clear to me.
+
+#### I observe.
+
+I observe how the team works together, and how productive they are.
+I watch their workflows, and gather feedback on how happy the team is in the different stages of the process.
+Once I know where the pain points are, I can dig deeper into this part of the process, and learn more about it.
+
+#### I ask questions.
+
 (Even if they seem 'stupid').
-I want to understand what the team is talking about and how things are connected.
+I want to understand what the team is talking about, and how things are connected.
 The only way for me to find out is by asking questions.
-This can feel quite uncomfortable from time to time because it might seem that I am showing a weakness, but think about it in a different way: If I wouldn't ask questions, the team would assume that I know more than I actually do.
+This can feel quite uncomfortable from time to time, because it might seem that I am showing a weakness.
+But think about it in a different way: If I wouldn't ask questions, the team would assume that I know more than I actually do.
 This might lead to setting wrong expectations which then leads to me not being able to be an effective Scrum Master.
-#### I ask for details
-The development teams know, that I don't have a developer background and that's ok.
+
+#### I ask for details.
+
+The development teams know, that I don't have a developer background, and that's ok.
 Whenever I ask for more details, they are more than happy to help.
-This creates a win/win situation: I gain knowledge and the dev teams gains better support.
+This creates a win-win situation: I gain knowledge, and the dev teams gain better support.
 Oftentimes this is even helpful for the process.
-When explaining things on a different level the team might discover that they were overcomplicating things... and let me tell you a little secret: Developers do not always talk code, in my experience they are pretty good at explaining things in a very simple way. ;)
+When explaining things on a different level the team might discover that they were overcomplicating things... 
+And let me tell you a little secret: Developers do not always talk code.
+In my experience they are pretty good at explaining things in a very simple way 😉.
+
 #### I learn
-I don't just enhance my knowledge in my area of expertise but also learn about the basics of software development.
-Wether it be by asking a colleague or reading things up on the internet.
-I like to figure things out and then try them out on my own - and using the terminal always makes me feel like a pro ;)
 
+I don't just enhance my knowledge in my area of expertise, but also learn about the basics of software development.
+Whether it be by asking a colleague, or reading things up on the internet.
+I like to figure things out and then try them out on my own - and using the terminal always makes me feel like a pro 😉.
 
+## That's the magic
 
 And that's most of the magic on how I thrive as a Scrum Master with a non-technical background.
-If you have an interest in software development and are not afraid of nerdy conversations you will definitely find your place as a non-technical Scrum Master in a software development team - you will probably enjoy talking about nerdy stuff too (say hello to a world of technology talk.). 
+If you have an interest in software development, and are not afraid of nerdy conversations you will definitely find your place as a non-technical Scrum Master in a software development team.
+You will probably enjoy talking about nerdy stuff too (say hello to a world of technology talk).
