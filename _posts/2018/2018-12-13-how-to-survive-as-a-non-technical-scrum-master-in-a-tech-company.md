@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Non-technical Scrum Master
+title: How to survive as a non-technical Scrum Master in a tech company?
 date: 2018-12-13
 header_image: public/non-technical-scrum-master.jpg
 header_overlay: true
@@ -11,8 +11,8 @@ about_authors: ["aarndt"]
 ---
 
 The Scrum Master role is a widely discussed role.
-If you just simply google Scrum Master you get a lot results that are based around the question what a Scrum Master actually does all day.
-The next topic that is widely discussed is the question what background a Scrum Master should have and who can actually become one.
+If you just simply google Scrum Master, you get a lot of results that are based around the question what a Scrum Master actually does all day.
+The next topic that is widely discussed is the question what background a Scrum Master should have, and who can actually become one.
 Most Scrum Masters that I met have either a developer or a project manager background (obviously there are a lot of other backgrounds, but in my experience these two are the most common ones).
 Quite naturally the question about background advantages and disadvantages for a Scrum Master who works with a software development team is widely discussed.
 
@@ -20,7 +20,7 @@ With this blog post, I don't want to compare different backgrounds with each oth
 I would like to share my experience on how to cope in a software development company without a deep technical background.*
 
 _*When I started working as a Scrum Master I wasn't completely new to software development. 
-I have always worked in eCommerce and always had close relationships with the developers, but the closest I got to working with them was to tell them what I need or amending some simple html code.
+I have always worked in ecommerce and always had close relationships with the developers. But the closest I got to working with them was to tell them what I need or amending some simple html code.
 I haven't thought about software architecture or APIs much._
 
 To be honest with you, there were/are some days where I felt/feel totally lost, but I never think about my non-technical background as a disadvantage.
