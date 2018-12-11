@@ -11,7 +11,7 @@ about_authors: ["cgebken"]
 ---
 
 In the last two posts of this series, you've accompanied us on our journey towards an improved localization process with the help of the localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}.
-We've already talked about our [former localization flow](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/), and our learnings and improvements when [integrating PhraseApp](https://developer.epages.com/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
+We've already talked about our [former localization flow](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/), and our learnings and improvements when [integrating PhraseApp](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
 But now it's time to talk about challenges that we faced during this restructuring time and in some regards still do.
 
 ## Find workarounds
