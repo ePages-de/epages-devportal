@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Non-technical Scrum Master
-date: 2018-12-03
+date: 2018-12-13
 header_image: public/non-technical-scrum-master.jpg
 header_overlay: true
 category: on-the-job
