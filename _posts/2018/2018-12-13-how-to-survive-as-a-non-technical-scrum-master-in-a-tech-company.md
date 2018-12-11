@@ -16,8 +16,10 @@ The next topic that is widely discussed is the question what background a Scrum 
 Most Scrum Masters that I met have either a developer or a project manager background (obviously there are a lot of other backgrounds, but in my experience these two are the most common ones).
 Quite naturally the question about background advantages and disadvantages for a Scrum Master who works with a software development team is widely discussed.
 
+## Let me share my wisdom with you...
+
 With this blog post, I don't want to compare different backgrounds with each other.
-I would like to share my experience on how to cope in a software development company without a deep technical background.*
+I have a project management background and would like to share my experience on how to cope in a software development company without a deep technical knowledge.*
 
 _*When I started working as a Scrum Master I wasn't completely new to software development. 
 I have always worked in ecommerce and always had close relationships with the developers. But the closest I got to working with them was to tell them what I need or amending some simple html code.
@@ -58,7 +60,7 @@ When explaining things on a different level the team might discover that they we
 And let me tell you a little secret: Developers do not always talk code.
 In my experience they are pretty good at explaining things in a very simple way 😉.
 
-#### I learn
+#### I learn.
 
 I don't just enhance my knowledge in my area of expertise, but also learn about the basics of software development.
 Whether it be by asking a colleague, or reading things up on the internet.
