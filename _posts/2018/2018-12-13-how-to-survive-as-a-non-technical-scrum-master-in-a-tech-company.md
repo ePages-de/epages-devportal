@@ -10,7 +10,7 @@ authors: ["Ann-Katrin"]
 about_authors: ["aarndt"]
 ---
 
-The Scrum Master role is a widely discussed role.
+The Scrum Master role is widely discussed.
 If you just simply google Scrum Master, you get a lot of results that are based around the question what a Scrum Master actually does all day.
 The next topic that is widely discussed is the question what background a Scrum Master should have, and who can actually become one.
 Most Scrum Masters that I met have either a developer or a project manager background (obviously there are a lot of other backgrounds, but in my experience these two are the most common ones).
@@ -22,7 +22,7 @@ With this blog post, I don't want to compare different backgrounds with each oth
 I have a project management background and would like to share my experience on how to cope in a software development company without a deep technical knowledge.*
 
 _*When I started working as a Scrum Master I wasn't completely new to software development. 
-I have always worked in ecommerce and always had close relationships with the developers. But the closest I got to working with them was to tell them what I need or amending some simple html code.
+I have always worked in ecommerce, and always had close relationships with the developers. But the closest I got to working with them was to tell them what I need or amending some simple html code.
 I haven't thought about software architecture or APIs much._
 
 To be honest with you, there were/are some days where I felt/feel totally lost, but I never think about my non-technical background as a disadvantage.
@@ -57,7 +57,7 @@ Whenever I ask for more details, they are more than happy to help.
 This creates a win-win situation: I gain knowledge, and the dev teams gain better support.
 Oftentimes this is even helpful for the process.
 When explaining things on a different level the team might discover that they were overcomplicating things... 
-And let me tell you a little secret: Developers do not always talk code.
+And let me tell you a little secret: developers do not always talk code.
 In my experience they are pretty good at explaining things in a very simple way 😉.
 
 #### I learn.
@@ -70,4 +70,4 @@ I like to figure things out and then try them out on my own - and using the term
 
 And that's most of the magic on how I thrive as a Scrum Master with a non-technical background.
 If you have an interest in software development, and are not afraid of nerdy conversations you will definitely find your place as a non-technical Scrum Master in a software development team.
-You will probably enjoy talking about nerdy stuff too (say hello to a world of technology talk).
+You will probably enjoy talking about nerdy stuff, too (say hello to a world of technology talk).
