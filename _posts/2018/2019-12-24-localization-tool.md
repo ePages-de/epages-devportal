@@ -35,9 +35,8 @@ But nevertheless, coming up with a fitting Git workflow for the new localization
 (To all the non-developers that have never worked with Git or GitHub before, just forward this section to your favorite developer 😉.
 They will know what to do and it will make your life easier!)
 
-Before we came up with the new localization process, we worked with the typical Git workflow.
-Meaning that we had a `master` and a `develop` branch.
-This separation had a downside that we haven't been aware of:
+Before we came up with the new localization process, we mainly worked with a `master` and a `develop` branch.
+This separation had a downside that we haven't been aware of so far:
 
 Everything that has been merged into `develop` was seen as "ready to be merged into `master`".
 But the Git Synchronization was also connected to the `develop` branch.
@@ -48,10 +47,10 @@ This ended up in untranslated keys seen as "ready to be merged into `master`" an
 
 Our solution was a new branch called `l10n`.
 PRs with code changes that somehow affect localization, e.g. PRs with newly added keys, now use this branch.
-This way, no untranslated key will be visiible to our merchants and code changes that are not related to localization are not blocked.
+This way, no untranslated key will be visible to our merchants and code changes that are not related to localization are not blocked.
 At the same time, the keys for needed UI texts were displayed in our localization tool and can be edited.
 
-The updated `l10n` branch is automatically merged into `master` once there is a new PR (with new translations) from PhraseApp.
+The updated `l10n` branch is automatically merged into `master` once a new PR (with new translations) from PhraseApp was merged into it.
 Afterwards, the `master` branch is merged back into `l10n` to keep the `l10n` always up-to-date.
 
 ### Improve timing
@@ -67,12 +66,12 @@ Meaning that a new PR could only be merged into the `l10n` branch, if
 Otherwise, it could occur that our UI writers just finished a session and provided translations, but we can't merge them back into `l10n` and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
 
 That's why we made it obligatory that a PR needs an approved review from our Localization Manager before it can be merged into `l10n`.
-As long as a PR is approved, it can be merged.
-But if e.g. a UI text session is about to start, the approval will be withdrawed until the translations are merged back.
+As long as a PR is approved, it can be merged at any time.
+But if e.g. a UI text session is about to start, the approval will be withdrawed until the translations from the session are merged into `l10n` and afterwards to `master`.
 
 ### Keep an overview
 
-The need to approve PRs brought up a new challenge as we needed to keep an overview of the PRs against l10n.
+The requirement to approve PRs brought up a new challenge as we needed to keep an overview of the PRs against l10n.
 How many PRs are currently open?
 How many of them are already approved?
 And how does this fit to the UI text session our UI writers have?
@@ -86,21 +85,22 @@ In our intranet, we've created an overview of approved PRs:
 Here's a little explanation for the column titles:
 
 - **PR**: A short but meaningful name for the PR so that you know what this PR is about and which keys it includes.
-- **Approved**: Add a tick once you have approved the PR.
-- **Merged**: Add a tick when the PR was merged into the `l10n` branch by the delopment team.
+- **Approved**: Add a tick once the Localizatin Manager has approved the PR.
+- **Merged**: Add a tick once the PR was merged into the `l10n` branch by the delopment team.
 - **Translation date**: The date the keys will be processed by the UI writers. 
 - **Merged back**: Add a tick once the PR of PhraseApp with new translations was merged back into the `l10n` branch by the development team.
-- **Comment**: Add comments if needed, e.g. a reminder that you need to delete keys in PhraseApp once the PR is merged.
+- **Comment**: Add comments if needed, e.g. a reminder that keys in PhraseApp need to be deleted once the PR is merged.
 
 With the help of this list, it's much easier to keep an overview of localization-related PRs and their approvals.
 
 ## Never stop improving!
 
 It's now almost one year ago that we introduced PhraseApp.
-That's why we lately had a little localization retro with our UI writers, developers, the responsible Product owner, and our Localization Manager.
+That's why we lately had a little localization retro with our UI writers, developers, the responsible Product Owner, and our Localization Manager.
 And...we are happy!
-Even though, there are still some challenges that pop up every now and then, we are able to cope with them.
-And we can enjoy so many advantages that we wouldn't have dreamt of two years ago.
+Even though, there are still some challenges that pop up every now and then.
+But we are able to cope with them.
+And we can enjoy so many advantages that we never would have dreamt of two years ago.
 Putting our localization process under the microscope, and being willing and brave enough to make big changes totally paid off for us.
 Give it a try!
 
