@@ -6,6 +6,7 @@ header_image: public/container2.jpg
 category: events
 tags: ["conference", "docker", "kubernetes", "containers"]
 authors: ["Christian K."]
+about_authors: ["ckoehler"]
 ---
 
 On the 27th and 28th of June 2016, the first ContainerDays took place in the Port of Hamburg, Germany.

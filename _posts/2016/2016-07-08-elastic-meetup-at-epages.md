@@ -6,6 +6,7 @@ header_image: public/elastic-meetup.jpg
 category: events
 tags: ["meetup", "elasticsearch", "open data", "delivery pipeline"]
 authors: ["Christian K.", "Jens", "Benjamin"]
+about_authors: ["ckoehler", "jfischer", "bnothdurft"]
 ---
 
 On the 30th of June the third [jenadevs](http://www.meetup.com/jenadevs/events/230859746){:target="_blank"} meetup took place at the ePages office in Jena.
