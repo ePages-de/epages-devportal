@@ -2,7 +2,7 @@
 layout: post
 title: How to cope with a localization tool in action
 date: 2018-12-24
-header_image: public/localization-tool-challenges.jpeg
+header_image: public/localization-tool-action.jpeg
 header_overlay: true
 category: language-and-localization
 tags: ["localization", "localization tool", "agile"]
@@ -17,65 +17,64 @@ But now it's time to talk about challenges that we faced during this restructuri
 ## There's still no way around screenshots
 
 PhraseApp offers great features such as the Git-Synchronization, or the In-Context Editor.
-If you'd like to get more detailed information on them, check back 
-But especially the Editor is not the one and only solution for us.
-We'd love to have a link next to each key that can be clicked and leads directly to the respective key in the software UI.
-This is possible for many keys, but not for the ones that aren't directly visible on the page.
-This means, that they open in an overlay, or are only displayed once you select a button or a checkbox.
-These keys are editable in the Editor, but they cannot be found via the link next to the key.
-
-As our UI writers and our translation agency have limited time, they cannot search for each of this "hidden" keys in the UI.
-That's why we still need to make screenshots for these keys which can be found next to the key instead of the link.
+If you'd like to get more detailed information on them, check back the [last post of this series](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
+Nevertheless, some of these features are not the one and only solution for us.
+This is especially true for the In-Context Editor.
+We've put a lot of hope into it as we are 100% sure that UI texts are always better when they are created with as many context information as possible.
+But as our software is sometimes quite complex and includes optional fields and overlays, we cannot make use of the full range of the In-Context Editor for all our keys.
+So, for keys that aren't directly visible on the page, e.g. because they are only displayed once you select a checkbox, we still need to come up with screenshots.
+These screenshots then provide the necessary context to our UI writers and our translation agency.
 Depending on the complexity of your UI, this can be quite some manual effort.
 
 ## Introducing l10n branch
 
-Implementing a new localization tool in a software company like [ePages](https://epages.com/en/){:target="_blank"}, is of course also related to the cooperation with the developers.
-The Git Synchronization already helped a lot. 
-But nevertheless, coming up with a fitting Git workflow for the new localization process was one of our biggest challenges.
-(To all the non-developers that have never worked with Git or GitHub before, just forward this section to your favorite developer 😉.
+Implementing a new localization tool in a software company like [ePages](https://epages.com/en/){:target="_blank"}, is of course closely related to the cooperation with the developers.
+The Git Synchronization already helped a lot to improve this cooperation. 
+But nevertheless, coming up with a fitting Git workflow for the localization process was one of our biggest challenges.
+(To all the non-developers that have never worked with Git or GitHub before, just forward this section to a developer-colleague 😉.
 They will know what to do and it will make your life easier!)
 
-Before we came up with the new localization process, we mainly worked with a `master` and a `develop` branch.
-This separation had a downside that we haven't been aware of so far:
+After setting up the Git Synchronization, we figured out that our current Git workflow no longer matches our requirements and that we need to make some changes.
+Our solution was to introduce a branch called `l10n`.
+This branch is exclusively used for PRs with code changes that somehow affect localization, e.g. PRs with newly added keys.
+In order to enable our UI writers to edit these keys, PhraseApp is also connected to the `l10n` branch.
+All other code changes will use our `master` branch, which is regulary published to our merchants.
+This way, no untranslated key will be visible in our UI, and code changes that are not related to localization are not blocked.
 
-Everything that has been merged into `develop` was seen as "ready to be merged into `master`".
-But the Git Synchronization was also connected to the `develop` branch.
-This connection was necessary as the translations need to be done BEFORE the related keys can be seen by our merchants, thus, before they are merged into `master`.
-So, PRs with keys that need to be translated had to be merged into `develop` in order to be displayed in our localization tool.
-But being merged into `develop`, they have been part of the heterogeneous mass of code changes that could be merged into `master` at any time.
-This ended up in untranslated keys seen as "ready to be merged into `master`" and a huge communication and timing issue.
+To keep both branches up-to-date, the `l10n` branch is regulary merged into `master` as soon as all keys that the `l10n` branch contains, are translated.
+On the other hand, the `master` branch is regulary merged into `l10n` so that the `l10n` branch also contains the code changes that did not affect localization.
+This merge routine is necessary, as we have a staging system running on our `l10n` branch.
+The staging system is used for the In-Context Editor.
+Running on this system, the In-Context Editor can display the untranslated keys in the `l10n` branch while representing the current state of the software with all code changes (also the ones that are not related to localization).
 
-Our solution was a new branch called `l10n`.
-PRs with code changes that somehow affect localization, e.g. PRs with newly added keys, now use this branch.
-This way, no untranslated key will be visible to our merchants and code changes that are not related to localization are not blocked.
-At the same time, the keys for needed UI texts were displayed in our localization tool and can be edited.
-
-The updated `l10n` branch is automatically merged into `master` once a new PR (with new translations) from PhraseApp was merged into it.
-Afterwards, the `master` branch is merged back into `l10n` to keep the `l10n` always up-to-date.
-
-### Code owners
+### CODEOWNERS
 
 So, now we had this great new branch.
 But this didn't solve all our challenges.
 We still needed to ensure that PRs are merged at the right time.
 Meaning that a new PR could only be merged into the `l10n` branch, if 
 
-- no UI texts are in the making.
-- no PR from PhraseApp with new translations is waiting to be merged into `l10n`.
+- no UI texts are currently in the making, 
+- no UI texts are about to be done,
+- no UI texts are done, but not yet merged into the `l10n` branch
 
-Otherwise, it could occur that our UI writers just finished a session and provided translations, but we can't merge them back into `l10n` and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
+Otherwise, it could occur that our UI writers just provided new translations, but we can't merge them back into `l10n` and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
 
-That's why we made it obligatory that a PR needs an approved review from our Localization Manager before it can be merged into `l10n`.
+To solve this issue, we made use of the GitHub feature [CODEOWNERS](https://help.github.com/articles/about-codeowners/).
+With this feature you can determine that certain parts of the code or files belong to a specific GitHub user.
+In our case, we determined that all files containing translation keys belong to our Localization Manager.
+This made it obligatory that a PR touching these files gets an approved review from our Localization Manager before it can be merged.
+
+We can now use the review functionality of a PR as a communication channel between Localization Manager and developers.
 As long as a PR is approved, it can be merged at any time.
-But if e.g. a UI text session is about to start, the approval will be withdrawed until the translations from the session are merged into `l10n` and afterwards to `master`.
+But if merging is currently not possible, the approval will be withdrawed until it's again possible.
 
 ### Overview? Definitely needed!
 
 The requirement to approve PRs brought up a new challenge as we needed to keep an overview of the PRs against l10n.
 How many PRs are currently open?
 How many of them are already approved?
-And how does this fit to the UI text session our UI writers have?
+And how does this fit to the UI text plans of our UI writers?
 
 We needed to come up with a plan.
 Literally.
@@ -103,7 +102,11 @@ Even though, there are still some challenges that pop up every now and then.
 But we are able to cope with them.
 And we can enjoy so many advantages that we never would have dreamt of two years ago.
 Putting our localization process under the microscope, and being willing and brave enough to make big changes totally paid off for us.
-Give it a try!
+
+Some of our solutions might not totally fit to your requirements and workflows.
+But that's okay.
+You will find your own ways to improve your localization process.
+Just give it a try!
 
 ## Related posts
 
