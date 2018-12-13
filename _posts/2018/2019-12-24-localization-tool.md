@@ -60,7 +60,7 @@ Meaning that a new PR could only be merged into the `l10n` branch, if
 
 Otherwise, it could occur that our UI writers just provided new translations, but we can't merge them back into `l10n` and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
 
-To solve this issue, we made use of the GitHub feature [CODEOWNERS](https://help.github.com/articles/about-codeowners/).
+To solve this issue, we made use of the GitHub feature [CODEOWNERS](https://help.github.com/articles/about-codeowners/){:target="_blank"}.
 With this feature you can determine that certain parts of the code or files belong to a specific GitHub user.
 In our case, we determined that all files containing translation keys belong to our Localization Manager.
 This made it obligatory that a PR touching these files gets an approved review from our Localization Manager before it can be merged.
