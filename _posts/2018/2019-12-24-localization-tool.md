@@ -38,11 +38,11 @@ After setting up the Git Synchronization, we figured out that our current Git wo
 Our solution was to introduce a branch called `l10n`.
 This branch is exclusively used for PRs with code changes that somehow affect localization, e.g. PRs with newly added keys.
 In order to enable our UI writers to edit these keys, PhraseApp is also connected to the `l10n` branch.
-All other code changes will use our `master` branch, which is regulary rolled out to our platforms serving our merchants and their customers.
+All other code changes will use our `master` branch, which is regularly rolled out to our live platforms serving our merchants and their customers.
 This way, no untranslated key will be visible in our UI, and code changes that are not related to localization are not blocked.
 
-To keep both branches up-to-date, the `l10n` branch is regulary merged into `master` as soon as all keys that the `l10n` branch contains, are translated.
-On the other hand, the `master` branch is regulary merged into `l10n` so that the `l10n` branch also contains the code changes that did not affect localization.
+To keep both branches up-to-date, the `l10n` branch is regularly merged into `master` as soon as all keys that the `l10n` branch contains, are translated.
+On the other hand, the `master` branch is regularly merged into `l10n` so that the `l10n` branch also contains the code changes that did not affect localization.
 This merge routine is necessary, as we have a staging system running on our `l10n` branch.
 The staging system is used for the In-Context Editor.
 Running on this system, the In-Context Editor can display the untranslated keys in the `l10n` branch while representing the current state of the software with all code changes (also the ones that are not related to localization).
