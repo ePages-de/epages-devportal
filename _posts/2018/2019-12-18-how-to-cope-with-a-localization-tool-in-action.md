@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to cope with a localization tool in action
-date: 2018-12-24
+date: 2018-12-18
 header_image: public/localization-tool-action.jpeg
 header_overlay: true
 category: language-and-localization
@@ -10,46 +10,45 @@ authors: ["Christina"]
 about_authors: ["cgebken"]
 ---
 
-In this series of blog post, you've accompanied us on our journey towards an improved localization process with the help of the localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}.
+In this series of blog posts, you've accompanied us on our journey towards an improved localization process with the help of the localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}.
 We've already talked about our [former localization flow](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/), and our learnings and improvements when [integrating PhraseApp](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
-But now it's time to talk about challenges that we faced during this restructuring time and in some regards still do.
+But now it's time to talk about challenges that we faced during this restructuring time, and in some regards are still facing.
 
 ## There's still no way around screenshots
 
-PhraseApp offers great features such as the Git-Synchronization, or the In-Context Editor.
-If you'd like to get more detailed information on them, check back the [last post of this series](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
+PhraseApp offers great features such as Git-Synchronization, or In-Context Editor.
+If you'd like to get more detailed information on these, check back on our post ["Rocking the stage with a software localization tool"](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
 Nevertheless, some of these features are not the one and only solution for us.
 This is especially true for the In-Context Editor.
-We've put a lot of hope into it as we are 100% sure that UI texts are always better when they are created with as many context information as possible.
-But as our software is sometimes quite complex and includes optional fields and overlays, we cannot make use of the full range of the In-Context Editor for all our keys.
-So, for keys that aren't directly visible on the page, e.g. because they are only displayed once you select a checkbox, we still need to come up with screenshots.
-These screenshots then provide the necessary context to our UI writers and our translation agency.
-Depending on the complexity of your UI, this can be quite some manual effort.
+We've put a lot of hope into it as we are firmly convinced that UI texts are always better if they are created with as many context information as possible.
+But as our software includes optional fields and overlays, we cannot make use of the full range of the In-Context Editor for all our keys.
+Keys that aren't directly visible on the page, e.g. because they are only displayed once you select a checkbox, still require screenshots as context for UI writers and translators.
+Depending on the complexity of the feature, this can be quite some manual effort.
 
 ## Introducing l10n branch
 
 Implementing a new localization tool in a software company like [ePages](https://epages.com/en/){:target="_blank"}, is of course closely related to the cooperation with the developers.
 The Git Synchronization already helped a lot to improve this cooperation. 
 But nevertheless, coming up with a fitting Git workflow for the localization process was one of our biggest challenges.
-(To all the non-developers that have never worked with Git or GitHub before, just forward this section to a developer-colleague 😉.
-They will know what to do and it will make your life easier!)
+(To all the non-developers that have never worked with Git or GitHub before, just forward this section to a developer colleague 😉.
+They will know what to do, and it will make your life easier!)
 
-After setting up the Git Synchronization, we figured out that our current Git workflow no longer matched our requirements and that we needed to make some changes.
+After setting up the Git Synchronization, we figured out that our current Git workflow no longer matched our requirements, and that we needed to make some changes.
 Our solution was to introduce a branch called `l10n`.
 This branch is exclusively used for PRs with code changes that somehow affect localization, e.g. PRs with newly added keys.
 In order to enable our UI writers to edit these keys, PhraseApp is also connected to the `l10n` branch.
 All other code changes will use our `master` branch, which is regularly rolled out to our live platforms serving our merchants and their customers.
-This way, no untranslated key will be visible in our UI, and code changes that are not related to localization are not blocked.
+This way, no untranslated keys will be visible in our UI, and code changes that are not related to localization are not blocked.
 
-To keep both branches up-to-date, the `l10n` branch is regularly merged into `master` as soon as all keys that the `l10n` branch contains, are translated.
-On the other hand, the `master` branch is regularly merged into `l10n` so that the `l10n` branch also contains the code changes that did not affect localization.
+To keep both branches up-to-date, the `l10n` branch is regularly merged into `master` as soon as all keys are translated that the `l10n` branch contains.
+What's more, the `master` branch is regularly merged into `l10n`, so that the `l10n` branch also contains the code changes that did not affect localization.
 This merge routine is necessary, as we have a staging system running on our `l10n` branch.
 The staging system is used for the In-Context Editor.
 Running on this system, the In-Context Editor can display the untranslated keys in the `l10n` branch while representing the current state of the software with all code changes (also the ones that are not related to localization).
 
 ### CODEOWNERS
 
-So, now we had this great new branch.
+Now we had this great new branch.
 But this didn't solve all our challenges.
 We still needed to ensure that PRs are merged at the right time.
 Meaning that a new PR could only be merged into the `l10n` branch, if 
@@ -58,7 +57,7 @@ Meaning that a new PR could only be merged into the `l10n` branch, if
 - no UI texts are about to be done,
 - no UI texts are done, but not yet merged into the `l10n` branch.
 
-Otherwise, it could occur that our UI writers just provided new translations, but we can't merge them back into `l10n` and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
+Otherwise, it could occur that our UI writers just provided new translations, but we can't merge them back into `l10n`, and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
 
 To solve this issue, we made use of the GitHub feature [CODEOWNERS](https://help.github.com/articles/about-codeowners/){:target="_blank"}.
 With this feature you can determine that certain parts of the code or files belong to a specific GitHub user.
@@ -67,11 +66,11 @@ This made it obligatory that a PR touching these files gets an approved review f
 
 We can now use the review functionality of a PR as a communication channel between Localization Manager and developers.
 As long as a PR is approved, it can be merged at any time.
-But if merging is currently not possible, the approval will be withdrawn until it's again possible.
+But if merging is currently not possible, the approval will be withdrawn until it's possible again.
 
 ### Overview? Definitely needed!
 
-The requirement to approve PRs brought up a new challenge as we needed to keep an overview of the PRs against l10n.
+The requirement to approve PRs brought up a new challenge, as we needed to keep an overview of the PRs against the `l10n` branch.
 How many PRs are currently open?
 How many of them are already approved?
 And how does this fit to the UI text plans of our UI writers?
@@ -96,14 +95,14 @@ With the help of this list, it's much easier to keep an overview of localization
 ## The effort was worth it!
 
 It's now almost one year ago that we introduced PhraseApp.
-That's why we lately had a little localization retro with our UI writers, developers, the responsible Product Owner, and our Localization Manager.
+That's why we lately had a localization retrospective with our UI writers, developers, the responsible Product Owner, and our Localization Manager.
 And...we are happy!
 Even though, there are still some challenges that pop up every now and then.
 But we are able to cope with them.
-And we can enjoy so many advantages that we never would have dreamt of two years ago.
+We can enjoy so many advantages that we never would have dreamt of two years ago.
 Putting our localization process under the microscope, and being willing and brave enough to make big changes totally paid off for us.
 
-Some of our solutions might not totally fit to your requirements and workflows.
+Some of our solutions might not totally fit to the requirements and workflows that you might be facing.
 But that's okay.
 You will find your own ways to improve your localization process.
 Just give it a try!
