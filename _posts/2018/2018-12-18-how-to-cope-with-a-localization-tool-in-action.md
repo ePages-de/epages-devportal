@@ -55,7 +55,7 @@ Meaning that a new PR could only be merged into the `l10n` branch, if
 
 - no UI texts are currently in the making, 
 - no UI texts are about to be done,
-- no UI texts are done, but not yet merged into the `l10n` branch.
+- the `l10n` branch doesn't contain translated keys that are not yet merged into the `master` branch.
 
 Otherwise, it could occur that our UI writers just provided new translations, but we can't merge them back into `l10n`, and afterwards directly to `master` because the `l10n` branch contains untranslated keys.
 
@@ -73,7 +73,7 @@ But if merging is currently not possible, the approval will be withdrawn until i
 The requirement to approve PRs brought up a new challenge, as we needed to keep an overview of the PRs against the `l10n` branch.
 How many PRs are currently open?
 How many of them are already approved?
-And how does this fit to the UI text plans of our UI writers?
+And how does this fit to the translation scheduling of our UI writers?
 
 We needed to come up with a plan.
 Literally.
