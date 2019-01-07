@@ -64,4 +64,7 @@ Congrats! Successfully connected with Google Shopping.
 
 ## Design
 
-Coming soon.
+A toast message is constructed as follows: At the beginning it comes with a white e.g. checkmark icon on a green background, directly followed by a gray text on white background. In additation there is also a gray "close icon" right aligned. 
+In general all three ingredients are vertically centered.
+
+{% image_custom image="/assets/img/pages/essence/toast_message.png" width="30" %}
