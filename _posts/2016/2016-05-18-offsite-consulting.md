@@ -6,6 +6,7 @@ header_image: private/consulting-offsite.jpg
 category: events
 tags: ["team", "offsite", "workshop"]
 authors: ["Pavlo", "Tobias"]
+about_authors: ["pkalashnikov", "tgiessler"]
 ---
 
 On 1st of May 2016, the ePages Consulting team set off on a journey to Bad Sulzburg, Germany.
