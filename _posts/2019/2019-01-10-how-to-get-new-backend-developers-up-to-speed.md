@@ -54,15 +54,10 @@ Whether you share your secret knowledge with your colleagues is up to you, but s
 ## Getting to know the tech better
 
 This introductory section is complemented by a series of presentations.
-To get everyone on the same level, this is kicked off by a talk about what RESTful architecture actually means, and how this shapes the way we construct our software.
+To get everyone on the same level, this is kicked off by a talk about what RESTful architecture actually means, and how this shapes the way we construct our software:
 
-* A concrete example for this is provided by an overview of the ePages microservice architecture, which gives a first glimpse of how everything works together.
-The vertical and the horizontal partitioning of the system will be presented visually and discussed thoroughly.
-You'll see what resources communicate with each other under the hood and what gets exposed to external providers.
-The architecture also has a bearing on the organisation of our teams, so this one has technical as well as organisational implications.
-
-* Another essential topic is how we use [**Helm**](/blog/tech-stories/kubernetes-deployments-with-helm/) in our CDP.
-To constantly roll out the newest changes to our customers, we use Kubernetes for deployment.
+* A concrete example for this is provided by an overview of the ePages microservice architecture, which gives a first glimpse of how everything works together. The vertical and the horizontal partitioning of the system will be presented visually and discussed thoroughly. You'll see what resources communicate with each other under the hood and what gets exposed to external providers. The architecture also has a bearing on the organisation of our teams, so this one has technical as well as organisational implications.
+* Another essential topic is how we use [**Helm**](/blog/tech-stories/kubernetes-deployments-with-helm/) in our CDP. To constantly roll out the newest changes to our customers, we use Kubernetes for deployment.
 Helm sits on top of this architecture for package management, so proper treatment of how we use it will be important.
 
 Presentations come from all members of the backend teams, so you'll get a richly facetted view on the architecture, the libraries, and the frameworks in place.
@@ -101,4 +96,4 @@ At ePages, cross-team communication is a vital part of iteratively improving our
 So really close contact between the backend teams that develop Beyond, the frontend team, Technical Writers and Product Management is fostered.
 We believe that this is a great driver of improvement both on the company and the personal level.
 
-If this short insight has aroused your interest, why don't you have a look at our open positions at [https://developer.epages.com/devjobs/](/devjobs/).
+If this short insight has aroused your interest, why don't you have a look at our [open positions](/devjobs/).
