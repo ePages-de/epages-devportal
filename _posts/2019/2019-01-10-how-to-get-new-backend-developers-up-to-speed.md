@@ -63,7 +63,7 @@ The architecture also has a bearing on the organisation of our teams, so this on
 
 * Another essential topic is how we use [**Helm**](/blog/tech-stories/kubernetes-deployments-with-helm/) in our CDP.
 To constantly roll out the newest changes to our customers, we use Kubernetes for deployment.
-Helm sits on top of this architecture for container management, so proper treatment of how we use it will be important.
+Helm sits on top of this architecture for package management, so proper treatment of how we use it will be important.
 
 Presentations come from all members of the backend teams, so you'll get a richly facetted view on the architecture, the libraries, and the frameworks in place.
 Next up are all the administrative tasks to get you on the road, creating all the accounts, and giving you all the permissions you need.
