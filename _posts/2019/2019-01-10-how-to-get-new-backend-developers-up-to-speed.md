@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to get new backend developers up to speed
-date: 2019-01-15
+date: 2019-01-10
 header_image: public/rocket.jpg
 header_overlay: true
 header_position: top
@@ -21,7 +21,7 @@ That's why we value a thorough onboarding process that takes into account the te
 You'll hear welcome talks by people from the whole company: Scrum Masters, the CTO, colleagues from Design or the Service Center team.
 You'll also be assigned a buddy, meaning someone who's been in the company a bit longer, and can answer the questions you might otherwise be too shy to ask.
 
-Since there are so many of them, you will probably be lucky enough to take part in one of our company events, be it a [hackathon](https://www.youtube.com/watch?v=j-bj3nC7qss) or our [ePages YOU](/blog/events/epages-you-our-annual-gathering-of-epagees/), quite soon after you start.
+Since there are so many of them, you will probably be lucky enough to take part in one of our company events, be it a [hackathon](https://www.youtube.com/watch?v=j-bj3nC7qss){:target="_blank"} or our [ePages YOU](/blog/events/epages-you-our-annual-gathering-of-epagees/), quite soon after you start.
 You can read about it all in more detail in our [5 steps to make you feel comfortable in your new job](/blog/on-the-job/5-steps-to-make-you-feel-comfortable-in-your-new-job/) and [How ePages gives new developers a great start](/blog/on-the-job/how-epages-gives-new-developers-a-great-start/) posts.
 
 This time, we focus on how our backend developers are onboarded to achieve fast productivity.
@@ -47,7 +47,9 @@ When it comes to infrastructure-independent software, everyone is free to choose
 If you want a different browser, a different text editor, or prefer some different IDE than those your colleagues use, just go for it, no explicit permission is required.
 
 And of course, every bit of software, script, or knowledge that boosts your productivity can and should be applied.
-Whether you share your secret knowledge with your colleagues is up to you, but spreading the word about some trick you've picked up somewhere is highly appreciated, and even [institutionalized](Linkt to Best of Bash post) at ePages.
+Whether you share your secret knowledge with your colleagues is up to you, but spreading the word about some trick you've picked up somewhere is highly appreciated, and even institutionalized at ePages:
+
+{% twitter https://twitter.com/epagesdevs/status/1071011696007921664 %}
 
 ## Getting to know the tech better
 
@@ -77,7 +79,7 @@ This way, you will go through a series of little exercises conceived to give a g
 This section is started off by REST calls against a set of endpoints to get a feel for how to interact with our API.
 Again, the choice of tools is all yours, whether you prefer curl, httpie, Postman, or alike.
 
-Once the API is understood at the highest abstraction level, it's time for a dive into the code introducting both the [**Lombok**](https://projectlombok.org) library and the [**Spring Framework**](https://spring.io).
+Once the API is understood at the highest abstraction level, it's time for a dive into the code introducting both the [**Lombok**](https://projectlombok.org){:target="_blank"} library and the [**Spring Framework**](https://spring.io){:target="_blank"}.
 Lombok is a library that provides automatic code generation to relieve you from tedious typing, such as defining getters and setters for every property of a class.
 Spring provides the basis much of our functionalities are built on.
 
@@ -99,4 +101,4 @@ At ePages, cross-team communication is a vital part of iteratively improving our
 So really close contact between the backend teams that develop Beyond, the frontend team, Technical Writers and Product Management is fostered.
 We believe that this is a great driver of improvement both on the company and the personal level.
 
-If this short insight has aroused your interest, why don't you have a look at our open positions at [https://developer.epages.com/devjobs/](https://developer.epages.com/devjobs/).
+If this short insight has aroused your interest, why don't you have a look at our open positions at [https://developer.epages.com/devjobs/](/devjobs/).
