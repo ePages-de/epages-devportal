@@ -115,8 +115,8 @@
 - id: csommer
   name: Carina
   full_name: Carina Sommer
-  description: is a Scrum Master. She is keen on promoting an agile working environment and motivating the teams to continuous improvement.
-  image: avatar_female.jpg
+  description: is a Scrum Master. She is keen on promoting an agile working environment, and motivating the teams to continuously improve.
+  image: csommer.jpg
 
 - id: dcividanes
   name: Domingo
@@ -157,8 +157,8 @@
 - id: ewiedmann
   name: Elisa
   full_name: Elisa Wiedmann
-  description: is a certified Scrum Master who passionately applies the knowledge of her psychology degree to the development of the teams and thereby fosters agile culture.
-  image: avatar_female.jpg
+  description: is a certified Scrum Master, who passionately applies the knowledge of her psychology degree to the development of the teams, and thereby fosters agile culture.
+  image: ewiedmann.jpg
 
 - id: fstangenberger
   name: Frank
