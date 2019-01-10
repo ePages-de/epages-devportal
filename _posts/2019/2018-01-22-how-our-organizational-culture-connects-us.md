@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How our organizational culture connects us
-date: 2019-01-17
+date: 2019-01-22
 header_image: public/company-culture.jpg
 header_overlay: true
 category: on-the-job
