@@ -23,8 +23,8 @@ This is how we do it:
 In early December, [epagesdevs](https://twitter.com/epagesdevs){:target="_blank"} host an internal tool parade called "Best of Bash", named after the [Bash Unix shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)){:target="_blank"}.
 Contrary to what the name might suggest, it is not limited to command line magic, and all departments are free to participate and contribute!
 Anything that helps to improve is welcome: be it software, methodology, or great wisdom.
-Ask yourself: which tool, methodology or productivity hack you learned last year got you an advantage over your colleagues?
-Now that the year has come to an end, you may want to share it, level the playing field and discover something new in the next year!
+You are supposed to ask yourself: which tool, methodology or productivity hack you learned last year got you an advantage over your colleagues?
+Sharing the knowledge, you level the playing field and are encouraged to discover something new in the next year!
 
 ## Benefits
 
