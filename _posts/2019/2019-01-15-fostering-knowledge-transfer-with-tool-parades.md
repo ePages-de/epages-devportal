@@ -4,7 +4,7 @@ title: Fostering knowledge transfer with tool parades
 date: 2019-01-15
 header_image: public/light-bulb.jpg
 category: tech-stories
-tags: [ "knowledge transfer", "bash", "coding" ]
+tags: [ "knowledge transfer", "tool parade" ]
 authors: ["Oliver Z."]
 about_authors: ["ozscheyge"]
 ---
