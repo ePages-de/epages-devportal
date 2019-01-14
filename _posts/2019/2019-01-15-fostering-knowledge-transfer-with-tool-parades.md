@@ -48,6 +48,4 @@ Remember to reserve some time at the beginning and end of the event to explain t
 From our experience, usually less than 4 minutes are needed to answer questions and switch to the next speaker.
 Thus, assuming you reserve 5 minutes at the beginning and end of the parade, you can probably fit more than eight talks into a 90-minute slot and should reflect this in your agenda table.
 
-## TODO: Summary, have fun etc.
-
-* Something to ease the tough lightning talk schedule, e.g. christmas lecture?
+Last but not least: do not forget to have fun! :)
