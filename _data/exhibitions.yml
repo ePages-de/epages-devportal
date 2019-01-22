@@ -1,27 +1,27 @@
-- title: Scrum Master Lean Coffee
-  description: We are hosting this event.
-  link: https://www.meetup.com/de-DE/Scrum-Master-Meetup-Hamburg/
-  date: 28. Nov 2018
-  time: '18:30 - 20:30'
-  address: ePages GmbH<br>Pilatuspool 2<br>20355 Hamburg
-
-- title: HackerX
+- title: OOP
   description: We are participating in this event.
-  link:
-  date: 29. Nov 2018
-  time: '19:00 - 22:00'
-  address: Smaato<br>Valentinskamp70<br>20355 Hamburg
-
-- title: React Day Berlin
-  description: We are participating in this event.
-  link: https://reactday.berlin/
-  date: 30. Nov 2018
+  link: https://www.oop-konferenz.de/oop2019/startseite-englisch.html
+  date: 21.-23. Jan 2019
   time:
-  address: KOSMOS<br>Karl-Marx-Allee 131A<br>10243 Berlin
+  address: ICM<br>Am Messesee 6<br>81829 München
 
-- title: Academix Thüringen
+- title: DevOps Gathering
   description: We are participating in this event.
-  link: https://www.leg-thueringen.de/academix-thueringen/
-  date: 1. Dec 2018
-  time: '10:00 - 17:00'
-  address: Messe Erfurt<br>Gothaer Straße 34<br>99084 Erfurt
+  link: https://devops-gathering.io/
+  date: 11.-13. Mar 2019
+  time:
+  address: Zentrum für IT Sicherheit<br>Lise-Meitner-Allee 4<br>44801 Bochum
+
+- title: Stellenwerk Jobmesse
+  description: We are participating in this event.
+  link: https://www.stellenwerk-jobmesse.de/hamburg/
+  date: 4. Jun 2019
+  time: '11:00 - 18:00'
+  address: Universität Hamburg<br>Edmund-Siemers-Allee 1<br>20146 Hamburg
+
+- title: Firmenkontaktmesse FH Wedel
+  description: We are participating in this event.
+  link: https://www.fh-wedel.de/studieren/international/incomings/
+  date: 13.-14. Jun 2019
+  time:
+  address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
