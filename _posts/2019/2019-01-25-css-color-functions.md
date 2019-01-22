@@ -15,7 +15,7 @@ about_authors:
 ---
 
 The CSS-in-JS debate, which is currently dominating my Twitter filter bubble, has reached a point where people can't even agree on [whether CSS is a programming language](https://twitter.com/laras126/status/1067058092083478528).
-In this post, I don't want to fuel this discussion - after all, at ePages we're using all of "traditional" CSS, CSS modules, and CSS-in-JS in our various projects.
+In this post, I don't want to fuel this discussion - after all, at ePages we've tried out all of "traditional" CSS, CSS modules, and CSS-in-JS for our various projects.
 Instead, I want to focus on how you can pair your old school calculus skills with modern CSS techniques to derive colors from a user defined palette.
 
 ## Let the users choose their colors
@@ -32,11 +32,13 @@ Compiling CSS per user sucks.
 }
 ```
 You can also set them from JS.
+Ana, Heydon, ...
 
 ## Deriving colors from a base palette
 The CSS4 color() function is great!
 Lightness, contrast, blend.
 LESS / SASS / PostCSS.
+CSS-in-JS.
 Compiling CSS per user still sucks.
 
 ## Custom properties + calc() = 🚀
@@ -70,7 +72,11 @@ And here's the result:
 </iframe>
 
 ## Could you pass me the syntactic sugar, please?
-LESS/SASS mixins to the rescue!
+Preprocessors to the rescue. I'll just leave this bunch of LESS mixins here:
+<iframe style="width: 100%;height:450px" scrolling="no" title="CSS4 color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/vbYbVp/?height=265&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/depoulo/pen/vbYbVp/'>Derive colors from user input at runtime with pre-compiled LESS mixins.</a> by Paolo Priotto
+  (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## What have we learned today?
 You can do pretty complex programming using "just" CSS.
