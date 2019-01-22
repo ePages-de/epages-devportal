@@ -6,7 +6,7 @@ header_image: public/company-culture.jpg
 header_position: center
 header_overlay: true
 category: on-the-job
-tags: ["agile"]
+tags: ["agile", "company culture"]
 authors: ["Elisa", "Carina"]
 about_authors: ["ewiedmann", "csommer"]
 ---
