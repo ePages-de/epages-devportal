@@ -23,7 +23,7 @@ Don't assume that you understand the needs of your customer by nature.
 
 ### Be empathic
 
-Empathy means understanding and being sensitive to the feelings, thoughts, and experience of another person.
+Empathy means understanding and being sensitive to the feelings, thoughts, and experiences of another person.
 In order to create a great usability for the products, take one step back and really try to see the world from the user's point of view.
 Identify their needs.
 And if you don't understand a specific requirement, go out and ask them, until you really got the point.
@@ -35,7 +35,7 @@ Only then you're able to improve the product and make the lives of your users ea
 
 * Keep the users informed about what is going on through appropriate feedback in the UI within a reasonable timeframe.
 * Don't let your users guess. Explain them where their action has led them to. For example, your users would appreciate a "Thank you" message and an order confirmation when they've completed a purchase.
-* Keep the information process going: tell the user why they're waiting, why there's an error, praise them, offer them support.
+* Keep the information process going: tell the users why they're waiting, why there's an error, praise them, offer them support.
 
 ### Be consistent and set value on standards
 
@@ -44,7 +44,7 @@ Only then you're able to improve the product and make the lives of your users ea
 
 ### Simplicity is beautiful
 
-* Make sure that your product is easy to use and that users intuitively find what they require for a specific use case. This avoids the user having to think too much, and will love to use your product.
+* Make sure that your product is easy to use, and that users intuitively find what they require for a specific use case. This avoids the user having to think too much, and they will love to use your product.
 
 ### Efficiency is king
 
