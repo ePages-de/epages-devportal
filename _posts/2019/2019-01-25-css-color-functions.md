@@ -71,8 +71,12 @@ body { background: color(var(--userColor-primary) contrast(60%)) }
 Unfortunately, no browser has implemented this proposal yet 😢. So are we left with adding some custom color modification functions to our CSS-in-JS solution?  (Ok, I'm stopping it 🤡)
 
 ## Custom properties + calc() = 🚀
-MS Edge blew my mind!
-The HSL color model.
+For a while, CSS custom properties were lacking support by Microsoft Edge.
+When it finally came, the Microsoft developer advocates did a terrific job at building [a demo](https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/custom-props/) that still looks superior in Edge today (back then, it didn't even work properly in other browsers, due to their lack of support for floating point values in `rgb()` and `hsl()` properties).
+
+Their take on applying modifiers to the single color channels immediately struck me as genius, and has been since picked up by other developers.
+
+How does this bring us closer to our goal? Well, if we have an own custom property for each color channel, we can make use of the totally underrated CSS `calc()` function for manipulating colors to our likes:
 ```css
 :root {
   --foreground-desaturated: hsl(
@@ -82,9 +86,18 @@ The HSL color model.
   );
 }
 ```
-Convert to percentage in the last step.
+What's going on here? First of all, I'm using the HSL color space.
+HSL stands for hue, saturation, and lightness, and is a way of representing colors often found in color picker widgets.
+Hue is defined on a scale from 0 to 360 degrees, 0 meaning red,  240 blue, and so on.
+Saturation and lightness are usually defined on a scale from 0 to 1, or from 0 to 100.
+
+In CSS, H is a unitless value, while S and L are written as percentages.
+In line with CSS's resilient nature (which is one of its key features!), hue values < 0 or > 360 are accepted as well (they just keep going 'round the clock), as are percentages < 0 and > 100 (they are clipped to 0 and 100 respectively).
+
+In the above example, I'm creating a muted version of the foreground color by reducing its saturation to half the original value.
 
 ### Calculating color contrast
+Yeah I'll finish this part tomorrow.
 There must be a way!
 
 And here's the result:
@@ -94,19 +107,34 @@ And here's the result:
 </iframe>
 
 ### Blending two colors
-And here's the result:
+This one's fairly easy: for each color channel, we basically calculate the average between the two colors, while factoring in the specified blend amount:
 <iframe style="width: 100%;height:450px" scrolling="no" title="CSS4 color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/oJPyad/?height=265&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/depoulo/pen/oJPyad/'>CSS4 color blend adjuster with just custom properties and calc()</a> by Paolo Priotto
   (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+If you dared to inspect the code, you might be struck by one thing though: The resulting `hsl()` statement is an _awfully_ long CSS code monster!
+So, is there a way to improve this?
 
 ## Could you pass me the syntactic sugar, please?
-Preprocessors to the rescue. I'll just leave this bunch of LESS mixins here:
+If you've made it here, you have my honest respect.
+But you might be thinking: _"Even if this actually works, who would want to write, let alone maintain, such freak code? Also, mathematic formulas give me the shivers!"_.
+
+Which is why, if you don't mind some Less, I give you a handful of mixins to hide all the ugly math and color channel bloat.
+You've well deserved them by reading your way down (__If you've skipped to here, shhh, go away! You're not worthy!__).
+
 <iframe style="width: 100%;height:450px" scrolling="no" title="CSS4 color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/vbYbVp/?height=265&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/depoulo/pen/vbYbVp/'>Derive colors from user input at runtime with pre-compiled LESS mixins.</a> by Paolo Priotto
   (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+I don't know about you, but I'm starting to think this could even work in a real project.
+
 ## What have we learned today?
-You can do pretty complex programming using "just" CSS.
-Look beyond your own nose.
+Coming back to the Twitter poll from the introductory paragraph, I think I've shown that CSS is in fact a "real" programming language, even if a very different one.
+
+We've also seen that deriving color variations from user input is achievable today, but _a lot_ harder than it would be with the CSS4 `color()` function.
+
+Generally speaking, no matter whether you're writing CSS, JavaScript, or Java for a living, I honestly encourage you to look beyond your own nose, and try to get familiar with the different programming models of various languages.
+In short: make love, not war.
+
+✌️
