@@ -89,10 +89,10 @@ To decide when to use a toggle switch, here are some clues:
 
 ## Copy writing
 
-Short and direct.
-Describe what the control will do when the swich is on.
-Don't use neutral or ambiguous phrases.
-Avoid asking questions.
+* Short and direct.
+* Describe what the control will do when the switch is on.
+* Don't use neutral or ambiguous phrases.
+* Avoid asking questions.
 
 ```
 Track stock level
