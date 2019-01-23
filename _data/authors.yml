@@ -112,6 +112,11 @@
   description: is an Application Engineer, Sysadmin, Automation Developer, and Golang code nerd. He keeps stuff running.
   image: cseeger.jpg
 
+- id: csommer
+  name: Carina
+  full_name: Carina Sommer
+  description: is a Scrum Master. She is keen on promoting an agile working environment, and motivating the teams to continuously improve.
+  image: csommer.jpg
 
 - id: dcividanes
   name: Domingo
@@ -148,6 +153,12 @@
   full_name: Erik Müller
   description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
   image: emueller.jpg
+
+- id: ewiedmann
+  name: Elisa
+  full_name: Elisa Wiedmann
+  description: is a certified Scrum Master, who passionately applies the knowledge of her psychology degree to the development of the teams, and thereby fosters agile culture.
+  image: ewiedmann.jpg
 
 - id: fstangenberger
   name: Frank
@@ -386,8 +397,8 @@
 - id: stansil
   name: Serena
   full_name: Serena
-  description: belongs to the epagesdevs content team.
-  image: avatar_female.jpg
+  description: is a passionate Tech Recruiter, who enjoys talks about technologies, and believes in creating an awesome candidate experience journey.
+  image: stansil.jpg
 
 - id: szetzsche
   name: Sandra

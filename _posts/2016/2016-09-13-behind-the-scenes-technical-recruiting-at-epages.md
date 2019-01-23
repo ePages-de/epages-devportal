@@ -3,6 +3,7 @@ layout: post
 title: "Behind the scenes: Technical recruiting at ePages"
 date: 2016-09-13
 header_image: public/techrecruiting.jpg
+header_overlay: true
 category: on-the-job
 tags: ["recruiting", "onboarding", "hr", "job", "application"]
 authors: ["Julia, Serena"]
