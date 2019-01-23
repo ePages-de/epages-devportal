@@ -60,7 +60,7 @@ The two different states give a clear visual feedback so that the merchant is al
 
 On the right side of the toggle switch, a label clearly explains the action that can be taken.
 
-Depending on the complexity of the feature, additional content is shown below the activated toggle switch .
+Depending on the complexity of the feature, additional content is shown below the activated toggle switch.
 
 {% image_custom image="/assets/img/pages/essence/switch-button-with-content.png" width="100" align="center" %}
 
@@ -89,7 +89,14 @@ To decide when to use a toggle switch, here are some clues:
 
 ## Copy writing
 
-Coming soon.
+* Short and direct.
+* Describe what the control will do when the switch is on.
+* Don't use neutral or ambiguous phrases.
+* Avoid asking questions.
+
+```
+Track stock level
+```
 
 ## Design
 
