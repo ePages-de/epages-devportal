@@ -3,6 +3,7 @@ layout: post
 title: How we won a drone at the OOP conference in Munich
 date: 2019-01-29
 header_image: public/auditorium.jpg
+header_overlay: true
 category: events
 tags: ["conference", "oop", "development", "Java"]
 authors: ["Friedrich", "Michael", "Oleksandr"]
