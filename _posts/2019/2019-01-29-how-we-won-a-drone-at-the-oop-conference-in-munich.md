@@ -1,0 +1,56 @@
+---
+layout: post
+title: How we won a drone at the OOP conference in Munich
+date: 2019-01-29
+header_image: public/auditorium.jpg
+category: events
+tags: ["conference", "oop", "development", "Java"]
+authors: ["Friedrich", "Michael", "Oleksandr"]
+about_authors: ["fgehring", "mhoehn", "ogoranskyy"]
+---
+
+From Monday to Wednesday we visited the OOP conference in Munich.
+Since for two of us this has been the first time going on a conference, this was quite a new experience.
+The OOP is located at the fair in Munich and took place there now for the 28th time.
+Concerning the topics, it focuses mainly on Sofware Architecture.
+It offered a great mixture of topics for us adoptable for our old as well as for the new product.
+Starting with an extensive Workshop about Microservices, we also joined sessions about Legacy Code, DevOps, Scalability and even had the opportunity to get to know about the latest developments in fancy topics as artificial neuronal networks or quantum computing. Despite this, we could enjoy the atmosphere in Munich in a really typical Bavarian hotel.
+
+To give you some more insights in what we learned from this conference, we shortly want to summarize the talks we took part. 
+
+### Microservices – Idee, Architektur, Umsetzung und Betrieb am Beispiel
+
+This was an extensive workshop about microservices and one of our main points of interest.
+The speaker Eberhard Wolff gave us a deep overview about the concept of domain driven design that leads to the idea of microservices. Finally he gave an example how you could implement these using a common technology stack using Docker, Kubernetes, Prometheus, Grafana, Jaeger, Elastic and Kibana.
+
+### Mit Werkzeugen von morgen Software von gestern systematisch verbessern
+
+This talk tackled the topic, how you can deal with legacy software efficiently using a modern tool set.
+The speaker gave insights what helped him to understand and improve legacy code and shared interesting ideas which tools to use when it comes to working with such code.
+
+### Sollbruchstellen in Microservices
+
+Another excellent talk about microservices, this time with focus on HOW to divide your software into microservices.
+For example, diving software into microservices means no more transactions, since every mircoservice must have its own database schema (or even separate database).
+But consistency can still be achieved, even though it almost always means the level of consistency will degrade. This talk shows how to deal with it.
+
+### Schnelligkeit und Ausdauer in Software-Projekten
+
+This talk was about productivity in the software development.
+The speaker of this talk has analyzed what affects the performance of a developer, and what the developer and the company of this developer can do to improve productivity.
+For example the team of the speaker has convinced the CTO of the company that every sprint they will, without any exception, take 15 % of the time to deal with the technical dept.
+He says it was one of the best decisions.
+
+### Open Bionics: Turning children with limb differences into bionic superheroes
+
+This fascinating keynote was about a company that produces cool bionic prostheses for kids and adults, that look like parts from superheroes. The co-founder of this company presented how by using modern technologies like 3d printing it has been possible to produce more attractive prostheses by reducing the costs for them.
+Simply go to the open Bionics Website for having a deeper look.
+
+### KI @ Cloud : Bildverabeitung mit neuronalen Netzen
+
+Here we learned what can be possible with artificial neuronal networks at the example of a transport check in the production of Volkswagen.
+Furthermore they showed how they deployed such a project using a private cloud.
+
+## Summary
+
+We really liked the whole atmosphere of this conference, the big variety of topics and talks to choose from and the location as well. On top of this, Oleksandr  returned with a drone from Munich he had won at one of the booths, where you could win lots of giveaways. With his superior skill a bit of luck he could manage to throw a ping pong ball into a little pot and was rewarded with his own drone.
