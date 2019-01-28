@@ -10,14 +10,16 @@ authors: ["Friedrich", "Michael", "Oleksandr"]
 about_authors: ["fgehring", "mhoehn", "ogoranskyy"]
 ---
 
-From Monday to Wednesday we visited the OOP conference in Munich.
-Since for two of us this has been the first time going on a conference, this was quite a new experience.
-The OOP is located at the fair in Munich and took place there now for the 28th time.
+Last week we visited the [OOP conference](https://www.oop-konferenz.de/oop2019/startseite-englisch.html){:target="_blank"} in Munich.
+Since for two of us it has been the first time attending a conference, this was quite a new experience.
+The venue was the International Congress Center in Munich where the OOP took place for the 28th time.
 Concerning the topics, it focuses mainly on Sofware Architecture.
-It offered a great mixture of topics for us adoptable for our old as well as for the new product.
-Starting with an extensive Workshop about Microservices, we also joined sessions about Legacy Code, DevOps, Scalability and even had the opportunity to get to know about the latest developments in fancy topics as artificial neuronal networks or quantum computing. Despite this, we could enjoy the atmosphere in Munich in a really typical Bavarian hotel.
+It offered a great mixture of topics which we can adopt for products ePages Base and ePages Now.
+Starting with an extensive workshop about microservices, we also joined sessions about legacy code, DevOps, or scalability.
+We even had the opportunity to get to know about the latest developments in fancy topics such as artificial neuronal networks, or quantum computing.
+Despite this, we could enjoy the atmosphere in Munich in a typical Bavarian hotel.
 
-To give you some more insights in what we learned from this conference, we shortly want to summarize the talks we took part. 
+To give you some more insights on what we learned from this conference, here's a summary of our favorite talks:
 
 ### Microservices – Idee, Architektur, Umsetzung und Betrieb am Beispiel
 
