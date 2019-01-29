@@ -43,9 +43,9 @@ Or depending on the feature, further functions may appear:
 
 ## Copy writing
 
-Reduced and efficient.
-
-* Concise. Keep the UI label short and sweet.
+* Reduced and efficient.
+* Concise. 
+* Keep the UI label short and sweet.
 
 ```
 On offer

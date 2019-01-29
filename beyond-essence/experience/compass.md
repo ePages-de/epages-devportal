@@ -6,8 +6,8 @@ background_image: index.jpg
 ---
 
 Our experience compass is the design directive for the development of the Commerce Cockpit user interface.
-This compass is set of guidelines and generally applicable rules that serve as a starting point and vision for the creation of every new design.
-In our work we strive for the following qualities and use them as shared vision to reach a common goal:
+This compass is a set of guidelines and generally applicable rules that serve as a starting point and vision for the creation of every new design.
+In our work we strive for the following qualities, and use them as shared vision to reach a common goal:
 
 ## Core
 

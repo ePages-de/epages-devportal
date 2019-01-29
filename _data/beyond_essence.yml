@@ -6,6 +6,9 @@
     - title: Target group
       link: beyond-essence/experience/targetgroup.md
 
+    - title: Usability guidelines
+      link: beyond-essence/experience/usability-guidelines.md
+
 - title: Content
   entries:
     - title: Tone of voice
@@ -22,9 +25,6 @@
 
 - title: Inventory
   entries:
-    - title: Buttons
-      link: beyond-essence/inventory/buttons.md
-
     - title: Checkboxes
       link: beyond-essence/inventory/checkboxes.md
 
