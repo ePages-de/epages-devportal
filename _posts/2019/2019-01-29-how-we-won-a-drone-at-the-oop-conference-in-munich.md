@@ -37,7 +37,7 @@ The speaker gave insights what helped him to understand and improve legacy code,
 
 Another excellent talk about microservices.
 This time with focus on HOW to divide your software into microservices.
-For example, diving software into microservices means no more transactions, since every mircoservice must have its own database schema (or even separate database).
+For example, dividing software into microservices means no more transactions, since every mircoservice must have its own database schema (or even separate database).
 But consistency can still be achieved, even though it almost always means the level of consistency will get worse.
 This talk showed us how to deal with it.
 
