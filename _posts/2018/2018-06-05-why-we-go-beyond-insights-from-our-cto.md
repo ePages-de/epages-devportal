@@ -18,7 +18,7 @@ So, why do we go this extra mile here at ePages?
 
 ## Environment changes fast
 
-The IT world changed drastically in the last years, as the amount of new open source frameworks and the speed of adoption seem to increase logarithmically.
+The IT world changed drastically in the last years, as the amount of new open source frameworks and the speed of adoption seem to increase exponentially.
 Software vendors focus more and more on their core functionalities.
 That allows them to specialize, and become best-in-class in their specific segment.
 
