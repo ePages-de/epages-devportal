@@ -1,20 +1,17 @@
 ---
 title: CSS can do that? Color manipulation for the fearless
 layout: post
-date: '2019-01-25'
+date: '2019-02-05'
 header_image: public/challenge-cube.jpg
 header_position: center
 header_overlay: true
 category: coding
-tags:
-- css
-authors:
-- Paolo
-about_authors:
-- ppriotto
+tags: ["css"]
+authors: ["Paolo"]
+about_authors: ["ppriotto"]
 ---
 
-The CSS-in-JS debate, which is currently dominating my Twitter filter bubble, has reached a point where people can't even agree on [whether CSS is a programming language](https://twitter.com/laras126/status/1067058092083478528).
+The CSS-in-JS debate, which is currently dominating my Twitter filter bubble, has reached a point where people can't even agree on [whether CSS is a programming language](https://twitter.com/laras126/status/1067058092083478528){:target="_blank"}.
 In this post, I don't want to fuel this discussion - after all, at ePages we've tried out all of "traditional" CSS, CSS modules, and CSS-in-JS for our various projects.
 
 Instead, I want to share how you can pair your old school calculus skills with modern CSS techniques to derive colors from a user defined palette.
@@ -59,7 +56,7 @@ a { color: var(--userColor-primary) }
 The above approach has one drawback: if you're as seriously into design as my designer colleagues (or just spoiled by your beloved preprocessor), you want to derive colors from a base palette, just like a real painter.
 On top of that, since we're talking about user defined colors, you'll want to make sure that if one of those is used for a background, text written on it remains readable in all cases.
 
-The [CSS4 color() function](https://www.w3.org/TR/css-color-4/#modifying-colors) aims to solve exactly that! It offers a nice syntax for modifying the hue, saturation, and lightness of any color, deriving contrast colors, or blending two colors, just to name a few.
+The [CSS4 color() function](https://www.w3.org/TR/css-color-4/#modifying-colors){:target="_blank"} aims to solve exactly that! It offers a nice syntax for modifying the hue, saturation, and lightness of any color, deriving contrast colors, or blending two colors, just to name a few.
 It's basically like the `lighten()`, `darken()` etc. functions you might know from preprocessors, but natively in the browser, and, most importantly, applicable to colors defined in custom properties.
 
 Let me give you an example:
@@ -72,7 +69,7 @@ Unfortunately, no browser has implemented this proposal yet 😢. So are we left
 
 ## Custom properties + calc() = 🚀
 For a while, CSS custom properties were lacking support by Microsoft Edge.
-When it finally came, the Microsoft developer advocates did a terrific job at building [a demo](https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/custom-props/) that still looks superior in Edge today (back then, it didn't even work properly in other browsers, due to their lack of support for floating point values in `rgb()` and `hsl()` properties).
+When it finally came, the Microsoft developer advocates did a terrific job at building [a demo](https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/custom-props/){:target="_blank"} that still looks superior in Edge today (back then, it didn't even work properly in other browsers, due to their lack of support for floating point values in `rgb()` and `hsl()` properties).
 
 Their take on applying modifiers to the single color channels immediately struck me as genius, and has been since picked up by other developers.
 
