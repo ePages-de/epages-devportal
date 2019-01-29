@@ -14,8 +14,8 @@ about_authors: ["fgehring", "mhoehn", "ogoranskyy"]
 Last week we visited the [OOP conference](https://www.oop-konferenz.de/oop2019/startseite-englisch.html){:target="_blank"} in Munich.
 Since for two of us it has been the first time attending a conference, this was quite a new experience.
 The venue was the International Congress Center in Munich where the OOP took place for the 28th time.
-Concerning the topics, it focuses mainly on Sofware Architecture.
-It offered a great mixture of topics which we can adopt for our products ePages Base and ePages Now.
+Concerning the topics, it focused mainly on Software Architecture.
+It offered a great mixture of topics which we can adopt for products ePages Base and ePages Now.
 Starting with an extensive workshop about microservices, we also joined sessions about legacy code, DevOps, or scalability.
 We even had the opportunity to get to know about the latest developments in fancy topics such as artificial neuronal networks, or quantum computing.
 Despite this, we could enjoy the atmosphere in Munich in a typical Bavarian hotel.
