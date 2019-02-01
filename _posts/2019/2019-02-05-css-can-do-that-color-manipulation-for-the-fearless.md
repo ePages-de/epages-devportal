@@ -76,7 +76,7 @@ body { background: color(var(--userColor-primary) contrast(60%)) }
 ```
 
 Unfortunately, no browser has implemented this proposal yet 😢.
-So are we left with adding some custom color modification functions to our CSS-in-JS solution?
+So are we left with adding some custom color modification functions to our CSS-in-JS solution and calculate the results in JS at runtime?
 (Ok, I'm stopping it 🤡)
 
 ## Custom properties + calc() = 🚀
