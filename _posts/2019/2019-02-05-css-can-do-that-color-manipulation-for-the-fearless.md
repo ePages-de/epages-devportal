@@ -112,21 +112,20 @@ In the above example, I'm creating a muted version of the foreground color by re
 
 ### Calculating color contrast
 
-What we just saw works  like a charm for hue rotation, (de)saturation, and lightening/darkening a color.
+What we just saw works like a charm for hue rotation, (de)saturation, and lightening/darkening a color.
 
 Deriving a contrasting color seems much harder, if not impossible to achieve.
 After all, per the CSS4 spec, it requires three steps:
 
 1. Find the minimum contrast color using an algorithm that takes into account the different RGB channels (green is brighter than blue).
 2. Find the maximum contrast color, which is essentially black (if the base color is relatively bright) or white (if the base color is relatively dark).
-3. Blend the minimum and maximum colors according to the contrast ratio specified as  parameter.
-
+3. Blend the minimum and maximum colors according to the contrast ratio specified as parameter.
 
 We can't achieve that with just CSS3, can we?
 
-Well, let's take baby steps: First of all, screw the minimum contrast color for now.
-Now, let's take a look from a different perspective: If we dramatically simplify things, only the L channel in the HSL color model is changing.
-If we see the resulting L as a mathematical function of the base color's lightness, its plot keeps growing until a certain point on the x axis, where it suddenly drops to zero, then starts growing again.
+Well, let's take baby steps: first of all, screw the minimum contrast color for now.
+Now, we take a look from a different perspective: if we dramatically simplify things, only the L channel in the HSL color model is changing.
+If we see the resulting L as a mathematical function of the base color's lightness, its plot keeps growing until a certain point on the x-axis, where it suddenly drops to zero, then starts growing again.
 The sharp drop is where the contrast color switches from white(ish) to black(ish).
 We can even pick up the part about the ratio by modifying the steepness of the curve.
 
