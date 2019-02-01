@@ -112,7 +112,15 @@ In the above example, I'm creating a muted version of the foreground color by re
 
 ### Calculating color contrast
 
-Yeah I'll finish this part tomorrow.
+What we just saw works  like a charm for hue rotation, (de)saturation, and lightening/darkening a color.
+
+Deriving a contrasting color seems much harder, if not impossible to achieve.
+After all, per the CSS4 spec, it requires three steps:
+
+1. Find the minimum contrast color using an algorithm that takes into account the different RGB channels (green is brighter than blue).
+2. Find the maximum contrast color, which is essentially black (if the base color is relatively bright) or white (if the base color is relatively dark).
+3. Blend the minimum and maximum colors according to the contrast ratio specified as  parameter.
+
 There must be a way!
 
 And here's the result:
