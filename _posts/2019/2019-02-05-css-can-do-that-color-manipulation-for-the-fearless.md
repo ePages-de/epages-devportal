@@ -12,7 +12,7 @@ about_authors: ["ppriotto"]
 ---
 
 The CSS-in-JS debate, which is currently dominating my Twitter filter bubble, has reached a point where people can't even agree on [whether CSS is a programming language](https://twitter.com/laras126/status/1067058092083478528){:target="_blank"}.
-In this post, I don't want to fuel this discussion - after all, at ePages we've tried out all of "traditional" CSS, CSS modules, and CSS-in-JS for our various projects.
+In this post, I don't want to fuel that discussion - after all, at ePages we've tried out all of "traditional" CSS, CSS modules, and CSS-in-JS for our various projects.
 
 Instead, I want to share how you can pair your old school calculus skills with modern CSS techniques to derive colors from a user defined palette.
 
