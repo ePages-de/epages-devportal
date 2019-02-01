@@ -140,6 +140,9 @@ And here's the result:
   (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+When I first got this halfway working, I was like "Holy cow, this could really work out!".
+Nota bene: results are probably quite far away from from the spec, but hey - it gets the job done pretty well in my opinion!
+
 ### Blending two colors
 
 This one's fairly easy: for each color channel, we basically calculate the average between the two colors, while factoring in the specified blend amount:
