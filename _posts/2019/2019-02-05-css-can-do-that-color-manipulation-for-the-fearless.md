@@ -121,7 +121,18 @@ After all, per the CSS4 spec, it requires three steps:
 2. Find the maximum contrast color, which is essentially black (if the base color is relatively bright) or white (if the base color is relatively dark).
 3. Blend the minimum and maximum colors according to the contrast ratio specified as  parameter.
 
-There must be a way!
+
+We can't achieve that with just CSS3, can we?
+
+Well, let's take baby steps: First of all, screw the minimum contrast color for now.
+Now, let's take a look from a different perspective: If we dramatically simplify things, only the L channel in the HSL color model is changing.
+If we see the resulting L as a mathematical function of the base color's lightness, its plot keeps growing until a certain point on the x axis, where it suddenly drops to zero, then starts growing again.
+The sharp drop is where the contrast color switches from white(ish) to black(ish).
+We can even pick up the part about the ratio by modifying the steepness of the curve.
+
+Now, let's craft such a function with the tools `calc()` offers, that is, `+ - * /`.
+This is where your school calculus skills come into play.
+Well, in my case it was more like my old school friend who now holds a professor's chair in applied physics (this is so embarrassing, I hope Chris never reads this).
 
 And here's the result:
 <iframe height="350px" style="width: 100%;" scrolling="no" title="CSS4 color contrast adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/WLGeQz/?height=265&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
