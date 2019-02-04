@@ -64,7 +64,7 @@ a { color: var(--userColor-primary) }
 The above approach has one drawback: if you're as seriously into design as my designer colleagues (or just spoiled by your beloved preprocessor), you want to derive colors from a base palette, just like a real painter.
 On top of that, since we're talking about user-defined colors, you'll want to make sure that if one of those is used for a background, text written on it remains readable in all cases.
 
-The [CSS4 color() function](https://www.w3.org/TR/css-color-4/#modifying-colors){:target="_blank"} aims to solve exactly that!
+The [CSS color() function](https://www.w3.org/TR/css-color-4/#modifying-colors){:target="_blank"} aims to solve exactly that!
 It offers a nice syntax for modifying the hue, saturation, and lightness of any color, deriving contrast colors, or blending two colors, just to name a few.
 It's basically like the `lighten()`, `darken()` etc. functions you might know from preprocessors, but natively in the browser, and, most importantly, applicable to colors defined in custom properties.
 
@@ -115,7 +115,7 @@ In the above example, I'm creating a muted version of the foreground color by re
 What we just saw works like a charm for hue rotation, (de)saturation, and lightening/darkening a color.
 
 Deriving a contrasting color seems much harder, if not impossible to achieve.
-After all, per the CSS4 spec, it requires three steps:
+After all, per the CSS spec, it requires three steps:
 
 1. Find the minimum contrast color using an algorithm that takes into account the different RGB channels (green is brighter than blue).
 2. Find the maximum contrast color, which is essentially black (if the base color is relatively bright) or white (if the base color is relatively dark).
@@ -134,8 +134,8 @@ This is where your school calculus skills come into play.
 Well, in my case it was more like my old school friend who now holds a professor's chair in applied physics (this is so embarrassing, I hope Chris never reads this).
 
 And here's the result:
-<iframe height="350px" style="width: 100%;" scrolling="no" title="CSS4 color contrast adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/WLGeQz/?height=265&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/depoulo/pen/WLGeQz/'>CSS4 color contrast adjuster with just custom properties and calc()</a> by Paolo Priotto
+<iframe height="350px" style="width: 100%;" scrolling="no" title="CSS color contrast adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/WLGeQz/?height=265&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/depoulo/pen/WLGeQz/">CSS color contrast adjuster with just custom properties and calc()</a> by Paolo Priotto
   (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -145,8 +145,8 @@ Nota bene: results are probably quite far away from from the spec, but hey - it 
 ### Blending two colors
 
 This one's fairly easy: for each color channel, we basically calculate the average between the two colors, while factoring in the specified blend amount:
-<iframe style="width: 100%;height:450px" scrolling="no" title="CSS4 color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/oJPyad/?height=265&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/depoulo/pen/oJPyad/'>CSS4 color blend adjuster with just custom properties and calc()</a> by Paolo Priotto
+<iframe style="width: 100%;height:450px" scrolling="no" title="CSS color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/oJPyad/?height=265&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/depoulo/pen/oJPyad/">CSS color blend adjuster with just custom properties and calc()</a> by Paolo Priotto
   (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 If you dared to inspect the code, you might be struck by one thing though: the resulting `hsl()` statement is an _awfully_ long CSS code monster!
@@ -160,7 +160,7 @@ But you might be thinking: _"Even if this actually works, who would want to writ
 Which is why, if you don't mind some Less, I give you a handful of mixins to hide all the ugly math and color channel bloat.
 You've well deserved them by reading your way down (__If you've skipped to here, shhh, go away! You're not worthy!__).
 
-<iframe style="width: 100%;height:450px" scrolling="no" title="CSS4 color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/vbYbVp/?height=265&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe style="width: 100%;height:450px" scrolling="no" title="CSS color blend adjuster with just custom properties and calc()" src="//codepen.io/depoulo/embed/vbYbVp/?height=265&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/depoulo/pen/vbYbVp/'>Derive colors from user input at runtime with pre-compiled LESS mixins.</a> by Paolo Priotto
   (<a href='https://codepen.io/depoulo'>@depoulo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -171,7 +171,7 @@ I don't know about you, but I'm starting to think this could even work in a real
 
 Coming back to the Twitter poll from the introductory paragraph, I think I've shown that CSS is in fact a "real" programming language, even if a very different one.
 
-We've also seen that deriving color variations from user input is achievable today, but _a lot_ harder than it would be with the CSS4 `color()` function.
+We've also seen that deriving color variations from user input is achievable today, but _a lot_ harder than it would be with the CSS `color()` function.
 
 Generally speaking, no matter whether you're writing CSS, JavaScript, or Java for a living, I honestly encourage you to look beyond your own nose, and try to get familiar with the different programming models of various languages.
 In short: make love, not war.
