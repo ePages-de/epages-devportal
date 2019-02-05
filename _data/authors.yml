@@ -166,6 +166,12 @@
   description: is a Software Engineer who studied Physics. When he is not sitting in front of a computer, he loves to play the cello.
   image: fgehring.jpg
 
+- id: fnabhan
+  name: Fouad-Steffen
+  full_name: Fouad-Steffen Nabhan
+  description: is a Product Owner who loves to work with his team on a great ecommerce product. When he is not in the office, he's out and about with his wife and twins.
+  image: fnabhan.jpg
+
 - id: fstangenberger
   name: Frank
   full_name: Frank Stangenberger
@@ -321,6 +327,12 @@
   full_name: Michaela Wawrok
   description: is a UX Manager. She loves creating UX concepts, and is keen on data-driven work.
   image: mwawrok.jpg
+
+- id: mzeyen
+  name: Maik
+  full_name: Maik Zeyen
+  description: is a QA and Release Engineer. He keeps our software at a high standard, and ensures on-time release cycles.
+  image: avatar_male.jpg
 
 - id: nfranke
   name: Norman

@@ -6,6 +6,7 @@ header_image: public/code-fpm.jpg
 category: tech-stories
 tags: ["fpm", "ecommerce"]
 authors: ["Maik", "Wolf"]
+about_authors: ["mzeyen", "wfilss"]
 ---
 
 As one of the leading ecommerce companies, ePages distributes its software for Linux-based systems, such as as .rpm and .deb packages.
