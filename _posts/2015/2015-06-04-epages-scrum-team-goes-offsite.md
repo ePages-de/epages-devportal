@@ -6,6 +6,7 @@ header_image: public/offsite-1.jpg
 category: events
 tags: ["offsite", "team", "workshop"]
 authors: ["Fouad-Steffen"]
+about_authors: ["fnabhan"]
 ---
 
 Working hard and embracing the nature? How does that fit together? One of our ePages scrum teams organised an offsite event and convened in a lovely castle to focus on knowledge transfer. What did they do? Read on!
