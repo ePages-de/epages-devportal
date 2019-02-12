@@ -29,6 +29,9 @@ I noted down what I did in the first 10 minutes and also every little issue that
 ### Welcome to my shop!
 
 I set up my own online shop for fabrics: since I am very passionate about sewing I created a shop to sell fabrics, "lucky bags" (little scraps of fabric) and some accessories like scissors.
+
+{% image_custom image="/assets/img/pages/blog/images/fabric-shop.png" width="50" lightbox %}
+
 It was fun to create all my products and to think of how to present my shop in a nice way.
 I could also see how my storefront would look like later an and I did a test purchase to see how everything works.
 I even invented marketing strategies like coupons and call-to-action buttons to present new products and link them to their product page.
@@ -39,7 +42,8 @@ One issue that I noticed concerns the saving process.
 While editing my pages in the editor I didn't get any indication whether my work is saved automatically or if I should save it by my own.
 Only after talking about this issue later on I discovered that actually there already exits a confirmation message to indicate that the changes are saved.
 It is just bit hidden in the left corner:
-[Image of shop]
+
+{% image_custom image="/assets/img/pages/blog/images/all-changes-saved.png" width="50" lightbox %}
 
 ## All done- and now?
 
