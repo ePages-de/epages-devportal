@@ -412,6 +412,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: sdinter
+  name: Skadi
+  full_name: Skadi Dinter
+  description: studies Computer Science and is our UX intern. She thinks about specialising in UX to create awesome user experiences all day long.
+  image: avatar_female.jpg
+
 - id: shippo
   name: Shippo
   full_name: Shippo
