@@ -23,7 +23,7 @@ Let's use an example and say, our software now offers the option to place Call-T
 So what do we do, when we need to craft an article about that?
 We play dumb.
 We forget about certain things that we have seen or heard about before.
-Then we take one of our trial shops, make our way to the new feature, try it out, experiment with it, and track our experiences on the way.
+Then we take one of our showcase shops for the help center, make our way to the new feature, try it out, experiment with it, and track our experiences on the way.
 Even though the software has been tested many times before, maybe to us there was something unclear, or unexpected.
 This is important information from which we can generate advice or share some clues during the creation of the article.
 And sure thing, we also pass our findings and feedback on to our UX team and Product Management.
@@ -46,7 +46,7 @@ Our merchants are now familiar with what they can achieve with Call-To-Actions.
 Let's tell and show (!) them how they can implement this great stuff for their shop.
 
 Remember?
-We've already experienced working with CTAs ourselves in our trial shop.
+We've already experienced working with CTAs ourselves in our showcase shop.
 How super excited we got about it!
 We were almost on the verge of setting up our own online business.
 (Ok, Ok. Before we do that, we want to tell our merchants how it's done.)
