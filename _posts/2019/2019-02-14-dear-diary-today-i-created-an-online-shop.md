@@ -21,7 +21,7 @@ What's more, I was a part of various UX-related meetings from my first day on.
 
 One of my first tasks in the UX team was a Diary Study.
 According to the [Nielsen Norman Group](https://www.nngroup.com/){:target="_blank"} it is a qualitative usability research method that can give insights about user behaviors and needs.
-In this case, I slipped into the role of a merchant who sets up an online shop for the first time.
+In this case, I slipped into the role of a merchant who sets up an [online shop](https://signup.beyondshop.cloud/epages){:target="_blank"} for the first time.
 I noted down what I did in the first 10 minutes, and also every little issue that I came across: not knowing how to do something, everything that doesn't work like I would expect it, an unexpected step in the workflow, a function that I miss... .
 
 ### Welcome to my fabrics shop
