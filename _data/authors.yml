@@ -430,6 +430,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: tschlueter
+  name: Tobias
+  full_name: Tobias Schlueter
+  description: is a Software Engineer who values pair programming and customer-centric software development
+  image: tschlueter.jpg
+
 - id: thaapakoski
   name: Timo
   full_name: Timo Haapakoski
