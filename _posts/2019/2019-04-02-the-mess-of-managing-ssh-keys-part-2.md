@@ -74,10 +74,9 @@ Now just loop over the result and map them to fit the struct.
 
   if keyData.Result != nil {
     for _, v := range keyData.Result {
-      key := ""
-      date := ""
-      label := ""
-      primary := ""
+
+      var key, date, label, primary string
+
       if v["f_text_c_1506425983066"] != nil {
         key = v["f_text_c_1506425983066"].(string)
       }
