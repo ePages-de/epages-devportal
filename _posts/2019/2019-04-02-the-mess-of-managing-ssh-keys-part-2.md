@@ -2,7 +2,7 @@
 layout: post
 title: The mess of managing ssh keys - part 2
 date: 2019-03-31
-header_image: public/tbd.jpg
+header_image: public/ssh-key-management.jpg
 header_position: bottom
 header_overlay: true
 category: tech-stories
@@ -15,13 +15,13 @@ about_authors: ["cseeger"]
 
 We created our information storage in the last part and will now take a look at the backend implementation.
 
-As always if you read my other blogposts im a big fan of [Golang](https://golang.org/) and both the API and frontend is written in it.
-Also i've written and maintain a [client library impementation](https://github.com/cseeger-epages/i-doit-go-api) for i-doit in golang.
+As always if you read my other blogposts im a big fan of [Golang](https://golang.org/){:target="_blank"} and both the API and frontend is written in it.
+Also i've written and maintain a [client library impementation](https://github.com/cseeger-epages/i-doit-go-api){:target="_blank"} for i-doit in golang.
 
 For writting REST APIs in golang there are quite some good tutorials on the internet and there are also some good frameworks.
 
-But i've written my own from scratch which you can find [here](https://github.com/cseeger-epages/restfool-go).
-There are also some simple examples for implementing handler and path routing stuff in the [examples section](https://github.com/cseeger-epages/restfool-go/tree/master/examples).
+But i've written my own from scratch which you can find [here](https://github.com/cseeger-epages/restfool-go){:target="_blank"}.
+There are also some simple examples for implementing handler and path routing stuff in the [examples section](https://github.com/cseeger-epages/restfool-go/tree/master/examples){:target="_blank"}.
 
 So we can concentrate on the cmdb specific parts.
 Also the nessesary information should be provided by the user using HTTP POST as data payload.
@@ -104,10 +104,10 @@ Dont be confused by lines like this
 ```
   v["f_dialog_c_1510835574647"].(map[string]interface{})["title"].(string)
 ```
-the `.(map[string]interface{})` is a concept in go called [type assertions](https://tour.golang.org/methods/15) that just assigns a specific type to an interface.
+the `.(map[string]interface{})` is a concept in go called [type assertions](https://tour.golang.org/methods/15){:target="_blank"} that just assigns a specific type to an interface.
 In our case we assign `map[string]interface{}` to it which is similar to an associative array where the key is a string and the value itself is also just `interface{}`.
 Then the index `title` is called and the `string` type is assigned to the interface.
-I say similar to arrays because go does not often make use of arrays, it has [slices](https://www.godesignpatterns.com/2014/05/arrays-vs-slices.html).
+I say similar to arrays because go does not often make use of arrays, it has [slices](https://www.godesignpatterns.com/2014/05/arrays-vs-slices.html){:target="_blank"}.
 
 If you want to add a key to a user you can do this more or less the same way:
 ```
