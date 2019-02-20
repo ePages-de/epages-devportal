@@ -2,7 +2,7 @@
 layout: post
 title: The mess of managing ssh keys - part 1
 date: 2019-03-31
-header_image: public/tbd.jpg
+header_image: public/ssh-key-management.jpg
 header_position: bottom
 header_overlay: true
 category: tech-stories
@@ -52,7 +52,7 @@ Where can we store all that information.
 
 ## ssh-key and i-doit cmdb
 
-As you may know we are a heavy user of [idoit](https://www.i-doit.com/) as our central CMDB storing many of our data. 
+As you may know we are a heavy user of [idoit](https://www.i-doit.com/){:target="_blank"} as our central CMDB storing many of our data. 
 Idoit gives us the possibility to sync data from our active directory. 
 And we synced all our groups and persons with it.
 Person and group data are always up to date since HR in and out processes are considered.
