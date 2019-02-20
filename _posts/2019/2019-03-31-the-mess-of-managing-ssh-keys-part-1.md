@@ -34,7 +34,7 @@ What a nice world would it be if there where some central ssh-key storage and ea
 
 Yeah thats at least what i thought. 
 
-So i build one.
+So lets build one.
 
 ## BrAiNsToRmInG
 
@@ -47,7 +47,6 @@ Since most of the `authorized_keys` files are deployed by some orcestration tool
 - maybe a frontend so people can manage there ssh-keys 
 - what about syncinc with something that recognizes changes in human ressource of the company ? Active Directory is the magic word here
 
-I think thats it. 
 But first things first. 
 Where can we store all that information.
 
@@ -58,7 +57,7 @@ Idoit gives us the possibility to sync data from our active directory.
 And we synced all our groups and persons with it.
 Person and group data are always up to date since HR in and out processes are considered.
 If people leave they are removed from AD groups and the key file generation will exclude them, also for new people who were added to the groups they are included.
-This makes the whole group management stuff a lot easier because i dont have to take care anymore !
+This makes the whole group management stuff a lot easier because we dont have to take care anymore !
 If we now put ssh-keys on every person, we could filter them through persons and groups and maybe some additional fields here.
 
 So how we do this ?
