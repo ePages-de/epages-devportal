@@ -11,7 +11,7 @@ authors: ["Carsten"]
 about_authors: ["cseeger"]
 ---
 
-SSH key management ... wait what ?. 
+## SSH key management ... wait what ?. 
 
 Remember that stuff you did with `ssh-keygen`.
 These `id_rsa` and `id_rsa.pub` files, where the content of the `.pub` file can be used in `authorized_keys` files to achieve passwordless authentication via ssh.
