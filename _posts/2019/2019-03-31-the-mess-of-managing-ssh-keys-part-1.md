@@ -42,7 +42,7 @@ Lets think about this, what features should such a tool have ?
 
 Since most of the `authorized_keys` files are deployed by some orcestration tool or maybe some automation pipeline, it should be integratable.
 
-- so i want an API (because APIs are great and easy to integrate in almost everything)
+- so we need an API (because APIs are great and easy to integrate in almost everything)
 - it should be filterable by some parameters ( i think of groups, maybe some label or tag feature, adding people etc.)
 - maybe a frontend so people can manage there ssh-keys 
 - what about syncinc with something that recognizes changes in human ressource of the company ? Active Directory is the magic word here
