@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Experimenting on Team Structures
-date: 2019-02-20
+title: Why experimenting on team structures is a good idea
+date: 2019-02-26
 header_image: public/feature-team.jpg
 header_position: center
 category: techcomm-and-socialmedia
