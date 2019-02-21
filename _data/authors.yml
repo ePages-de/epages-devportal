@@ -431,9 +431,9 @@
   image: avatar_male.jpg
 
 - id: tschlueter
-  name: Tobias
-  full_name: Tobias Schlueter
-  description: is a Software Engineer who values pair programming and customer-centric software development
+  name: Tobias S.
+  full_name: Tobias Schlüter
+  description: is a Software Engineer who values pair programming and customer-centric software development.
   image: tschlueter.jpg
 
 - id: thaapakoski
