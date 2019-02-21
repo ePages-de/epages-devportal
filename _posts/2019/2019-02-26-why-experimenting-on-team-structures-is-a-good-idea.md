@@ -18,14 +18,14 @@ Each team can work independently, and build deep knowledge in certain domains.
 Less context switch leads to more focus.
 Having the experts in technology and of a certain domain in one team allows great technical decisions, high quality code reviews, as well es flexible, and robust solutions.
 
-## Why change it?
+## Why changing a team structure?
 
 Component teams work great for features that touch a small number of business domains.
 The more services a feature touches, the more overhead in terms of team and task administration you have.
 Knowing our next big feature requires heavy work on the frontend and product backend part we decided to join forces to form a new team.
 We expected a great portion of focus, and to deliver fast results to our end customer without impact on our high standards for code quality and automated testing.
 
-## How we started
+## What we did
 
 We composed a temporary team of four backend developers, two frontend developers, two frontend designers, and one UX manager.
 In a kickoff-meeting, Product Management and UX presented us the requirements, enriched by some first UI drafts.
@@ -33,6 +33,8 @@ Over all specialties we discussed challenges, risks, and a possible path to deli
 As the outcome of the meeting we grouped stories into four milestones.
 It felt really good to know that we can focus on the basic parts first, knowing what will come, but required no detailed solution for everything yet.
 This gave us a big drive forward, and led to a simpler solution than I initially anticipated.
+
+{% image_custom image="/assets/img/pages/blog/images/feature-team.jpg" width="50" lightbox %}
 
 Having a clear common goal, it was time to move some tables, chairs, and monitors.
 Within one day we transformed the room into a cozy, collaborative work environment.
