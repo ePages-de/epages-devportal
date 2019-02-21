@@ -6,6 +6,7 @@ header_image: private/agile-meetup.jpg
 category: events
 tags: ["meetup", "agile", "scrum"]
 authors: ["Anja B.", "Fouad-Steffen"]
+about_authors: ["abaericke", "fnabhan"]
 ---
 
 Last Monday we had our first agile meetup at ePages.
