@@ -4,8 +4,8 @@ title: Why experimenting on team structures is a good idea
 date: 2019-02-26
 header_image: public/feature-team.jpg
 header_position: center
-category: techcomm-and-socialmedia
-tags: ["methods-and-tools", "on-the-job"]
+category: on-the-job
+tags: ["team structure", "feature team", "process"]
 authors: ["Tobias"]
 about_authors: ["tschlueter"]
 ---
