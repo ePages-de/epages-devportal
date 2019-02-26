@@ -13,7 +13,7 @@ about_authors: ["tschlueter"]
 
 Our current development team setup is composed of several component teams.
 We have one bigger frontend team and three backend teams.
-Component teams are a very good fit to our microservice architecture, and serve our [API-first](blog/tech-stories/why-we-go-beyond-insights-from-our-cto/) approach quite well.
+Component teams are a very good fit to our microservice architecture, and serve our [API-first](/blog/tech-stories/why-we-go-beyond-insights-from-our-cto/) approach quite well.
 Each team can work independently, and build deep knowledge in certain domains.
 Less context switch leads to more focus.
 Having the experts in technology and of a certain domain in one team allows great technical decisions, high quality code reviews, as well es flexible, and robust solutions.
