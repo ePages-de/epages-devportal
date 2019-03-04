@@ -1,16 +1,16 @@
-- title: Social Media Week Hamburg
-  description: We are participating in this event.
-  link: https://smwhamburg.com/
-  date: 27. Feb - 1. Mar 2019
-  time:
-  address: SMWHH Hub Museum/University<br>Museumstraße<br>22765 Hamburg
-
 - title: DevOps Gathering
   description: We are participating in this event.
   link: https://devops-gathering.io/
   date: 11.-13. Mar 2019
   time:
   address: Zentrum für IT Sicherheit<br>Lise-Meitner-Allee 4<br>44801 Bochum
+
+- title: HackerX (Backend)
+  description: We are participating in this event.
+  link:
+  date: 27. Mar 2019
+  time: '19:00 - 22:00'
+  address: Kreditech<br>Ludwig-Erhard-Str. 1, 8th floor<br>20453 Hamburg
 
 - title: Gravity +
   description: We are participating in this event.
