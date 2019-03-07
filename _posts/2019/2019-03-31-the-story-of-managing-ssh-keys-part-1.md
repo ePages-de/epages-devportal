@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The story of managing ssh keys - part 1
-date: 2019-03-31
+title: How to easily manage SSH keys
+date: 2019-03-12
 header_image: public/ssh-key-management.jpg
 header_position: bottom
 header_overlay: true
