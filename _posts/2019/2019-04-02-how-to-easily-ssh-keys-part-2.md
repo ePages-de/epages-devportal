@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The mess of managing ssh keys - part 2
+title: how to easily manage ssh keys - part 2
 date: 2019-03-31
 header_image: public/ssh-key-management.jpg
 header_position: bottom
@@ -13,17 +13,16 @@ about_authors: ["cseeger"]
 
 ## Implementing the backend
 
-We created our information storage in the last part and will now take a look at the backend implementation.
+In the last part we created our information storage. Now its time to implement the backend.
 
-As always if you read my other blogposts im a big fan of [Golang](https://golang.org/){:target="_blank"} and both the API and frontend is written in it.
+You may read my other blogposts and recognized that im a big fan of [Golang](https://golang.org/){:target="_blank"} and both the API and frontend is written in it.
 Also i've written and maintain a [client library impementation](https://github.com/cseeger-epages/i-doit-go-api){:target="_blank"} for i-doit in golang.
 
 For writting REST APIs in golang there are quite some good tutorials on the internet and there are also some good frameworks.
-
 But i've written my own from scratch which you can find [here](https://github.com/cseeger-epages/restfool-go){:target="_blank"}.
 There are also some simple examples for implementing handler and path routing stuff in the [examples section](https://github.com/cseeger-epages/restfool-go/tree/master/examples){:target="_blank"}.
 
-So we can concentrate on the cmdb specific parts.
+So we can concentrate on the CMDB specific parts.
 Also the nessesary information should be provided by the user using HTTP POST as data payload.
 
 To not mess with authentication we use the authentication of the i-doit API and just pass username and password through (or create a token).
