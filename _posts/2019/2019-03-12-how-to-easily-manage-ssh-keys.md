@@ -56,8 +56,8 @@ If we now put SSH keys on every person, we can filter them by persons and groups
 
 How do we do this?
 It's pretty simple.
-We can just add a custom category to our i-doit persons.
-You can do this in the i-doit configuration (upper right click on your name and on configure if you are an administrator).
+We can just add a custom category to the i-doit persons (specific object in the i-doit CMDB).
+You can do this in the i-doit configuration (just right click on your name and then on configure if you are an administrator).
 The custom categories can be found in the CMDB configuration.
 Our new custom category looks something like this:
 
