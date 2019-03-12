@@ -36,7 +36,7 @@ Germans worry: digitalization is everywhere.
 * When Google cars drove through our streets and took pictures, we were scared what they would do with these data.
 * We do have an Amazon Alexa, but its plug is pulled out, and only connected when we wanna know about the weather forecast.
 
-But a fear actutally doesn't really exist.
+But a fear actually doesn't really exist.
 We are very innovative, and pioneers in many technical areas, such as autonomous driving or artificial intelligence.
 But we don't do anything with it.
 
