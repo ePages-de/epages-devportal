@@ -1,16 +1,23 @@
-- title: OOP
-  description: We are participating in this event.
-  link: https://www.oop-konferenz.de/oop2019/startseite-englisch.html
-  date: 21.-23. Jan 2019
-  time:
-  address: ICM<br>Am Messesee 6<br>81829 München
-
 - title: DevOps Gathering
   description: We are participating in this event.
   link: https://devops-gathering.io/
   date: 11.-13. Mar 2019
   time:
   address: Zentrum für IT Sicherheit<br>Lise-Meitner-Allee 4<br>44801 Bochum
+
+- title: HackerX (Backend)
+  description: We are participating in this event.
+  link:
+  date: 27. Mar 2019
+  time: '19:00 - 22:00'
+  address: Kreditech<br>Ludwig-Erhard-Str. 1, 8th floor<br>20453 Hamburg
+
+- title: Gravity +
+  description: We are participating in this event.
+  link: https://www.gravity-conference.com/
+  date: 4.-5. Apr 2019
+  time:
+  address: Ellington Hotel Berlin<br>Nürnberger Str. 50-55<br>10789 Berlin
 
 - title: Karrieremesse Schmalkalden
   description: We are exhibiting at this event.
@@ -25,6 +32,13 @@
   date: 4. Jun 2019
   time: '11:00 - 18:00'
   address: Universität Hamburg<br>Edmund-Siemers-Allee 1<br>20146 Hamburg
+
+- title: Firmenkontaktbörse FSU Jena
+  description: We are exhibiting at this event.
+  link: http://www.sft.uni-jena.de/Firmenkontaktboerse.html
+  date: 5. Jun 2019
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Fürstengraben 1<br>07743 Jena
 
 - title: Firmenkontaktmesse FH Wedel
   description: We are exhibiting at this event.
