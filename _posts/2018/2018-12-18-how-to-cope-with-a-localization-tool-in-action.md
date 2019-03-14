@@ -84,7 +84,6 @@ In our intranet, we've created an overview of approved PRs:
 Here's a little explanation for the column titles:
 
 - **PR**: Contains a short but meaningful name for the PR so that you know what this PR is about and which keys it includes.
-  - **PR**: Contains a short but meaningful name for the PR so that you know what this PR is about and which keys it includes.
 - **Approved**: Receives a checkmark once the Localization Manager has approved the PR.
 - **Merged**: Receives a checkmark once the PR was merged into the `l10n` branch by the development team.
 - **Translation date**: Contains the date the keys will be processed by the UI writers.
