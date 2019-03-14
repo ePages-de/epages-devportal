@@ -64,10 +64,17 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       list-style-type: decimal
 
     ol, ul
-      list-style-position: inside
+      list-style-position: outside
 
       li
-        margin-left: 1em
+        margin-left: 2em
+
+        ul
+          margin: 0
+
+        p
+          margin: 0
+          display: initial
 
     div:not(.custom-image .author__image) img:not(.icon-share), P img:not(.icon-share)
       margin: 2rem 0
