@@ -28,7 +28,7 @@ Depending on the complexity of the feature, this can be quite some manual effort
 ## Introducing l10n branch
 
 Implementing a new localization tool in a software company like [ePages](https://epages.com/en/){:target="_blank"}, is of course closely related to the cooperation with the developers.
-The Git Synchronization already helped a lot to improve this cooperation. 
+The Git Synchronization already helped a lot to improve this cooperation.
 But nevertheless, coming up with a fitting Git workflow for the localization process was one of our biggest challenges.
 (To all the non-developers that have never worked with Git or GitHub before, just forward this section to a developer colleague 😉.
 They will know what to do, and it will make your life easier!)
@@ -51,9 +51,9 @@ Running on this system, the In-Context Editor can display the untranslated keys 
 Now we had this great new branch.
 But this didn't solve all our challenges.
 We still needed to ensure that PRs are merged at the right time.
-Meaning that a new PR could only be merged into the `l10n` branch, if 
+Meaning that a new PR could only be merged into the `l10n` branch, if
 
-- no UI texts are currently in the making, 
+- no UI texts are currently in the making,
 - no UI texts are about to be done,
 - the `l10n` branch doesn't contain translated keys that are not yet merged into the `master` branch.
 
@@ -86,7 +86,7 @@ Here's a little explanation for the column titles:
 - **PR**: Contains a short but meaningful name for the PR so that you know what this PR is about and which keys it includes.
 - **Approved**: Receives a checkmark once the Localization Manager has approved the PR.
 - **Merged**: Receives a checkmark once the PR was merged into the `l10n` branch by the development team.
-- **Translation date**: Contains the date the keys will be processed by the UI writers. 
+- **Translation date**: Contains the date the keys will be processed by the UI writers.
 - **Merged back**: Receives a checkmark once the PR of PhraseApp with new translations was merged back into the `l10n` branch by the development team.
 - **Comment**: Contains comments if needed, e.g. a reminder that keys in PhraseApp need to be deleted once the PR is merged.
 
