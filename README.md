@@ -18,7 +18,9 @@ In order to write a blog post for the DevBlog, we've collected all required info
 
 ## License
 
-This project comprises different licenses. The content in the folders
+This project comprises different licenses.
+
+The content in the following folders may not be shared or adapted:
 
 * `assets/img/logos`,
 * `assets/img/pages/about`,
@@ -27,23 +29,21 @@ This project comprises different licenses. The content in the folders
 * `assets/img/pages/jobs`,
 * `resources`
 
-may not be shared or adapted.
-
 The different fonts in the `assets/fonts` folder are licensed under their own respective licenses.
 
-The content in the folders
+The content in the following folders, as well as the related .html files, and all other content is licensed under [CC-BY-4.0](/LICENSE-CC-BY-40.txt):
 
 * `assets/img/pages/headers/public`,
 * `assets/img/pages/common`,
 * `posts`,
 * `beyond-essence`
 
-the related .html files, and all other content is licensed under [CC-BY-4.0](/LICENSE-CC-BY-40.txt).
-
 ## Contributing
 
-1. Fork it
+1. Fork the repository
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+    * Blog post contributions should target `master` branch
+    * New features, improvements or bug fixes should target `develop` branch
