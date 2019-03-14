@@ -31,7 +31,7 @@ The content in the following folders may not be shared or adapted:
 
 The different fonts in the `assets/fonts` folder are licensed under their own respective licenses.
 
-The content in the following folders, as well as the related .html files, and all other content is licensed under [CC-BY-4.0](/LICENSE-CC-BY-40.txt):
+The content in the following folders, as well as the related `.html` files, and all other content is licensed under [CC-BY-4.0](/LICENSE-CC-BY-40.txt):
 
 * `assets/img/pages/headers/public`,
 * `assets/img/pages/common`,
