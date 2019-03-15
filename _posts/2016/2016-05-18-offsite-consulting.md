@@ -5,7 +5,7 @@ date: 2016-05-18
 header_image: private/consulting-offsite.jpg
 category: events
 tags: ["team", "offsite", "workshop"]
-authors: ["Pavlo", "Tobias"]
+authors: ["Pavlo", "Tobias G."]
 about_authors: ["pkalashnikov", "tgiessler"]
 ---
 
