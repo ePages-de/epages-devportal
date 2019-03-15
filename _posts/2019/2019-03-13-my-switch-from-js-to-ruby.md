@@ -12,7 +12,7 @@ about_authors: ["gsanemeterio"]
 
 Hello, my name is German, I am currently part of ePages as software engineer with ruby as language, although before I worked with Angular. When the opportunity of work in ePages came to me it cost me to take a decision but at the end I take the risk, as I like new challenges and to learn new things and I saw it was a great opportunity.
 
-Now in ePages I started with the famous [Rails tutorial of Michael Hartl](https://www.railstutorial.org/). During 3 weeks I was reading and trying it at the same time that I was doing the exercises. It's amazing how fast things can be done in rails!. One finished the tutorial, I started to do pair programming with my teammate. He explained me the projects and cleared my dubs about ruby and, shortly after, I started with my own tasks, and apply that I learned in the tutorial.
+Now in ePages I started with the famous [Rails tutorial of Michael Hartl](https://www.railstutorial.org/){:target="_blank"}. During 3 weeks I was reading and trying it at the same time that I was doing the exercises. It's amazing how fast things can be done in rails!. One finished the tutorial, I started to do pair programming with my teammate. He explained me the projects and cleared my dubs about ruby and, shortly after, I started with my own tasks, and apply that I learned in the tutorial.
 
 While I was doing the tutorial I was seeing the similar things between rails and another languages with I work before or that I've seen such as Symfony. Due to my experience with other languages I could associate concepts of rails with other languages that I know. While I was doing the tutorial I was surprise with the easier that rails let to manage the database, thanks to ActiveRecord
 
