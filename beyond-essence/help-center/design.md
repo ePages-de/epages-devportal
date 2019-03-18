@@ -29,11 +29,11 @@ This way, the user is used to the design and can concentrate on the content.
 
 We add a light grey overlay to the articles and cut out the area that is currently relevant:
 
-{% image_custom image="/assets/img/pages/essence/ImageHighlighting.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/image-highlighting.png" width="50" %}
 
 If we need to number certain elements in an image, we use a fixed set of numbers:
 
-{% image_custom image="/assets/img/pages/essence/NumberedImage.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/numbered-image.png" width="50" %}
 
 ## Make use of boxes to highlight content
 
@@ -43,28 +43,28 @@ We use graphically highlighted boxes for certain information.
 
 Use _Info_ boxes to give further reading hints. Most of the time these kind of boxes contain links to other articles that have a closer look at a certain topic. This way, we do not duplicate content by still providing the user with everything the needs to know.
 
-{% image_custom image="/assets/img/pages/essence/InfoBox1.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/info-box1.png" width="50" %}
 
-{% image_custom image="/assets/img/pages/essence/InfoBox2.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/info-box2.png" width="50" %}
 
 ### Note boxes
 
 _Note_ boxes contain relevant information that is useful for the current context but that is not necessary to perform an action. It can e.g. be used to explain the impact of the action, point out a specific behavior of an element, explain the relation to other features, or simply give deeper information on a feature.
 
-{% image_custom image="/assets/img/pages/essence/NoteBox1.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/note-box1.png" width="50" %}
 
-{% image_custom image="/assets/img/pages/essence/NoteBox2.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/note-box2.png" width="50" %}
 
-{% image_custom image="/assets/img/pages/essence/NoteBox3.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/note-box3.png" width="50" %}
 
 
 ### Caution boxes
 
 Use _Caution_ boxes only for seleted cases where you really need to make the user aware that an action might have negative consequences.
 
-{% image_custom image="/assets/img/pages/essence/CautionBox1.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/caution-box1.png" width="50" %}
 
-{% image_custom image="/assets/img/pages/essence/CautionBox2.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/caution-box2.png" width="50" %}
 
 ### Formatting 
 

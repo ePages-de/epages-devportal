@@ -30,7 +30,7 @@ If there are no related articles, this section can be omitted.
 
 ## Language 
 
-Concerning [language](/beyond-essence/content/language/), [grammar](beyond-essence/content/grammar/), and [spelling and punctuation](/beyond-essence/content/spelling-punctuation/) we mostly stick to the guidelines that are already mentioned in _Content_.
+Concerning [language](/beyond-essence/content/language/), [grammar](/beyond-essence/content/grammar/), and [spelling and punctuation](/beyond-essence/content/spelling-punctuation/) we mostly stick to the guidelines that are already mentioned in _Content_.
 The [tone of voice](https://developer.epages.com/beyond-essence/content/tone-of-voice/) is also applied to the Help center.
 
 ### Mention the element you are referring to
@@ -56,4 +56,4 @@ Every user has a different background and a different perception of icons.
 That's why it's hard to name icons, e.g. "truck icon", or "gears icon".
 Instead, add the image of the icon as it's used in the software.
 
-{% image_custom image="/assets/img/pages/essence/IconExample.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/icon-example.png" width="50" %}
