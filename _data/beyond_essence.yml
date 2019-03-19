@@ -40,10 +40,10 @@
 - title: Help center
   entries:
     - title: Design & formatting
-      link: beyond-essence/help-center/design.md
+      link: beyond-essence/help-center/design-and-formatting.md
 
-    - title: Structure & language
-      link: beyond-essence/help-center/structure-content.md
+    - title: Article structure
+      link: beyond-essence/help-center/article-structure.md
 
     - title: Language peculiarities
-      link: beyond-essence/help-center/languages.md
+      link: beyond-essence/help-center/language-peculiarities.md
