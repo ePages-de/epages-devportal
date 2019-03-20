@@ -61,7 +61,7 @@ Note boxes contain relevant information that is useful for the current context b
 
 ### Caution boxes
 
-Only use caution boxes for seleted cases where you really need to make the user aware that an action might have a negative impact.
+Only use caution boxes for selected cases where you really need to make the user aware that an action might have a negative impact.
 
 {% image_custom image="/assets/img/pages/essence/caution-box1.png" width="50" %}
 
