@@ -55,7 +55,7 @@ Besides the general guidelines for the Help center, each language has it's own c
 
 **Grammar**
 
-- Use infinitive in the title of a help article. Do not use gerundium or direct speech.
+- Use the infinitive in the title of a help article. Do not use gerundium or direct speech.
 
 **Terminology**
 
