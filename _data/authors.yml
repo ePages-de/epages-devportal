@@ -190,6 +190,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: gsanemeterio
+  name: German
+  full_name: German
+  description: Here goes the description.
+  image: avatar_male.jpg
+
 - id: hahnert
   name: Heiko
   full_name: Heiko Ahnert
