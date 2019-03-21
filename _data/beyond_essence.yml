@@ -36,3 +36,14 @@
 
     - title: Toast messages
       link: beyond-essence/inventory/toast-messages.md
+
+- title: Help center
+  entries:
+    - title: Design & formatting
+      link: beyond-essence/help-center/design-and-formatting.md
+
+    - title: Article structure
+      link: beyond-essence/help-center/article-structure.md
+
+    - title: Language peculiarities
+      link: beyond-essence/help-center/language-peculiarities.md
