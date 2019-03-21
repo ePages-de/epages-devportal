@@ -62,15 +62,14 @@ It's more about having the complete overview of the whole process, coordinating 
 
 ### What challenges have you faced so far?
 
-I'm with ePages since November 2017, and yes, there were some challenges 😉.
-But all of them were exciting.
+I had various challenges, and all of them were exciting.
 I had to set up a new translation process and understand the work procedures, and requirements of each and everyone involved.
 And sure, there were some setbacks.
 But we have coped.
 
 There were also things coming my way I did not think of from the beginning.
 For example, it was not that easy to find translation agencies that committed to work with PhraseApp, and also to work agile.
-We had to make quite some compromises.
+We had to make some compromises.
 But we found a way, and we are constantly striving to improve the process.
 
 After a year with the new tool and process, we did a [retrospective](/blog/language-and-localization/how-to-cope-with-a-localization-tool-in-action/) with the teams involved.
