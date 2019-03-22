@@ -26,10 +26,10 @@ But also an introduction to agile working took place.
  ## 12.03.2019 Talk Day 1
 
 With Day 2 of the meetup the series of talks began. 
-Starting with a talk about DevOps and experiments to a talk about Software Craftmannship held by former epagee 
+Starting with a talk about DevOps and experiments to a talk about Software Craftsmanship held by former epagee 
 Benjamin Nothdurft and his colleague Sandra Parsick about software engineering that aims to regard software 
 development as a skilled craft instead of a classical engineering approach.
-(Bild Benjamin)
+
 
 The Session continued with talks about Kubernetes for attendencies without any technical background this talk explained
 the use of Kubernetes and how you can make the best use out of the Tool HELM for your container systems with Kubernetes.
