@@ -1,11 +1,11 @@
 ---
 title: DevOps Gathering 2019 in Bochum
 layout: post
-date: '2019-02-14'
+date: 2019-03-22
 header_image: public/logo-dogr-header.svg
 header_position: bottom
 header_overlay: true
-category: ux-and-design
+category: events
 tags: ["devops", "docker", "kubernetes", "devops gathering"]
 authors: ["Maik"]
 about_authors: ["mzeyen"]
@@ -17,7 +17,7 @@ But it not only was a pure conference it also featured a nice workshop day.
 
  ## 11.03.2019 Workshop Day
 This first day of this 3 day DevOps meetup was supposed to be all about workshops. A perfect fit for Cloud Native 
-Engeneers and SRE´s. You had the chance to learn from exciting Cloud Native enablers, Docker Community members and 
+Engeneers and SREï¿½s. You had the chance to learn from exciting Cloud Native enablers, Docker Community members and 
 international experts. The workshops also left room for experiments and talks with other attendencies. From docker 
 security to Kubernetes on Amazon EKS and a Kubernetes 101 it was a kind of everything DevOps is about. 
 But also an introduction to agile working took place.
