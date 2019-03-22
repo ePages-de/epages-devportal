@@ -26,7 +26,7 @@ If you cut these 6 octets by half the first 3 are the so called Organizationally
 The important thing here are the first 2 bit of the first byte.
 Lets call them b0 and b1. 
 
-The b0 bit states if this mac address is a unicast (0) or [multicast address](https://en.wikipedia.org/wiki/Multicast_address#Ethernet) (1).
+The b0 bit states if this mac address is a unicast (0) or [multicast address](https://en.wikipedia.org/wiki/Multicast_address#Ethernet){:target="_blank"} (1).
 
 The b1 bit states if a mac address is globally unique (0) or locally administered (1).
 
@@ -37,7 +37,7 @@ Lets assume these 3 byte are fixed for now.
 Using only the last 3 byte we can generate up to 16^6 or 2^24 addresses which is exactly the size of a /8 sized network.
 You may think now hey thats exactly the size of the biggest usable local network.
 
-There are 3 private IPv4 address ranges specified in [RFC1918](https://tools.ietf.org/html/rfc1918):
+There are 3 private IPv4 address ranges specified in [RFC1918](https://tools.ietf.org/html/rfc1918){:taget="_blank"}:
 
 - 10.0.0.0 - 10.255.255.255  (10/8 prefix)
 - 172.16.0.0 - 172.31.255.255  (172.16/12 prefix)
@@ -48,10 +48,10 @@ There are 3 private IPv4 address ranges specified in [RFC1918](https://tools.iet
 So generating only one mac prefix allows us to generated enough addresses for the biggest assignable private network. 
 Cool thing and we know if we want to use it localy we only have to set the second bit in the first byte of this mac address to 1.
 
-You also have the option to [register](https://standards.ieee.org/products-services/regauth/index.html) a mac prefix (with b1=0) for your own purposes.
+You also have the option to [register](https://standards.ieee.org/products-services/regauth/index.html){:target="_blank"} a mac prefix (with b1=0) for your own purposes.
 The registration is made by IEEE and costs about 1000$ - 3000$.
 
-IEEE also publishes a list of already existing [OUIs](http://standards-oui.ieee.org/oui.txt).
+IEEE also publishes a list of already existing [OUIs](http://standards-oui.ieee.org/oui.txt){:target="_blank"}.
 
 ## mac address prefix generation
 
@@ -104,7 +104,7 @@ Lets take a look at our pattern above and we see A is part of the locally admini
 The last 3 bytes lets call them the suffix can also be generated at random or just iterating over.
 An example could be `D4:FC:AE` and using our example prefix would give us the following MAC address `EA:A2:B7:D4:FC:AE`. 
 
-I've put all this into a [golang](https://golang.org/) libary called [mac-gen-go](https://github.com/cseeger-epages/mac-gen-go). 
+I've put all this into a [golang](https://golang.org/){:target="_blank"} libary called [mac-gen-go](https://github.com/cseeger-epages/mac-gen-go){:target="_blank"}. 
 
 For the sake of math :D:
 
