@@ -6,3 +6,9 @@ _site
 _config_write.yml
 log/
 .DS_Store
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Intellij files
+.idea
