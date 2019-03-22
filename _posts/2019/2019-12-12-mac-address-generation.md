@@ -37,7 +37,7 @@ Lets assume these 3 byte are fixed for now.
 Using only the last 3 byte we can generate up to 16^6 or 2^24 addresses which is exactly the size of a /8 sized network.
 You may think now hey thats exactly the size of the biggest usable local network.
 
-There are 3 private IPv4 address ranges specified in [RFC1918](https://tools.ietf.org/html/rfc1918){:taget="_blank"}:
+There are 3 private IPv4 address ranges specified in [RFC1918](https://tools.ietf.org/html/rfc1918){:target="_blank"}:
 
 - 10.0.0.0 - 10.255.255.255  (10/8 prefix)
 - 172.16.0.0 - 172.31.255.255  (172.16/12 prefix)
