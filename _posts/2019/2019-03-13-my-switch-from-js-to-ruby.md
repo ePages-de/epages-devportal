@@ -10,9 +10,10 @@ authors: ["German"]
 about_authors: ["gsanemeterio"]
 ---
 
-Hello, my name is German, I am currently part of ePages as software engineer with ruby as language, although before I worked with Angular.
+## Learning Rails
 When the opportunity of work in ePages came to me it cost me to take a decision but at the end I take the risk, as I like new challenges and to learn new things and I saw it was a great opportunity.
 
+### Discovering similarities and differences
 Now in ePages I started with the famous [Rails tutorial of Michael Hartl](https://www.railstutorial.org/){:target="_blank"}.
 During 3 weeks I was reading and trying it at the same time that I was doing the exercises.
 It's amazing how fast things can be done in rails!
