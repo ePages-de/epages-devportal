@@ -48,6 +48,22 @@ end
 - In ruby you don't have to declare variables.
 - Difference at other languages you don't have to type `return` to give back data, as always give back the result of the last line of code.
 
+```ruby
+def sum(num1, num2)
+  num1 + num2
+end
+
+result = sum 5, 6
+```
+
+```js
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+let result = sum(5, 6);
+```
+
 When some friend told me about rails he mentioned one word `magick` today I finally understand why.
 
 - ActiveModel: I remember in my last work there a problem to make work Synfony with Oracle so when I saw ActiveRecord the first thing that I did was search in google information about rails and it looks there's not any problem to integrate rails and Oracle.
