@@ -193,7 +193,7 @@
 - id: gsanemeterio
   name: German
   full_name: German
-  description: Here goes the description.
+  description: is a Ruby on Rails Developer. He love to learn new technologies and playing videogames.
   image: avatar_male.jpg
 
 - id: hahnert
