@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My switch from JavaScript to Ruby
+title: How I became fond of Ruby on Rails (as a JavaScript developer)
 date: 2019-03-13
 header_image: public/my-switch-from-js-to-ruby.jpg
 header_position: center
