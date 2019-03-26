@@ -10,6 +10,8 @@ authors: ["German"]
 about_authors: ["gsanemeterio"]
 ---
 
+I am currently part of ePages as software engineer with ruby as language, although before I worked with Angular.
+
 ## Learning Rails
 When the opportunity of work in ePages came to me it cost me to take a decision but at the end I take the risk, as I like new challenges and to learn new things and I saw it was a great opportunity.
 
