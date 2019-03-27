@@ -10,252 +10,45 @@ body.about
       margin-bottom: 1rem
       text-align: center
 
-
-
-
-
-  .about
-
-    .card
-      padding: 2rem
-      margin-top: 4rem
-      text-align: center
-
-      +grid-media($grid-medium)
-        padding: 4rem 8rem
-
-      &__title
-        margin-bottom: 1rem
-
-      &__body
-
-        &:first-child
-          margin-bottom: 2rem
-
-        svg
-          margin-right: 1rem
-
-      .cta
-        margin-top: 3rem
-
-
-
-
-  .channels
-
-    .card
-      padding: 2rem
-      margin-top: 4rem
-
-      +grid-media($grid-medium)
-        padding: 4rem
-
-      ul
-        display: flex
-        justify-content: space-between
-        flex-direction: column
-
-        +grid-media($grid-medium)
-          flex-direction: row
-
-        li a
-          display: flex
-          align-items: center
-          margin-bottom: 1rem
-          color: $gray-dark
-
-          +grid-media($grid-medium)
-            margin-bottom: 0
-
-          svg
-            margin-right: 1.25rem
-            color: $gray-light
-            color: $beyond-green
-            width: 40px
-
-          span
-            color: $beyond-green
-
-          &:hover, &:focus
-
-            svg
-              color: darken($beyond-green, 10%)
-              transition: $base-transition
-
-            span
-              color: darken($beyond-green, 10%)
-              transition: $base-transition
-
-
-
-
-
-  .events
-    position: relative
-    text-align: center
-
-    .carousel
-      margin-top: 3rem
-      text-align: left
-
-      &__item
-
-        .card--event
-          position: relative
-          margin: 1rem
-          line-height: 1
-
-          &__play-icon
-            cursor: pointer
-            position: absolute
-            color: transparentize($white, .4)
-            font-size: 5rem
-            line-height: 1
-            left: 50%
-            top:  50%
-            transform: translate(-50%, calc(-50% - 47px))
-            display: inline-flex
-            z-index: 1
-
-          &:hover, &:focus
-
-            .card--event__play-icon
-              color: transparentize($white, .2)
-              transition: $base-transition
-
-          &__image
-            height: 250px
-            width: 100%
-            background-size: cover
-            background-repeat: no-repeat
-            background-position: center
-            border-top-left-radius:  $base-border-radius
-            border-top-right-radius: $base-border-radius
-            position: relative
-
-          &__body
-            padding: 2rem
-
-          &__title
-            color: $base-font-color
-
-
-
-
-
-  .exhibitions
-    text-align: center
-
-    .card-container--exhibition
-      overflow: hidden
-      margin-top: 3rem
-
-      +grid-media($grid-medium)
-        position: relative
-
-        &::before
-          content: ''
-          position: absolute
-          display: block
-          width: 1px
-          background: #cecece
-          height: calc(100% - 8rem)
-          margin: auto
-          top:    0
-          left:   0
-          right:  0
-          bottom: 0
-
-
-      .card--float
-        width: 100%
-
-        +grid-media($grid-medium)
-          width: 50%
-          position: relative
-          box-sizing: border-box
-          padding: 4rem
-
-          &:nth-child(2)
-            margin-top: 50px
-
-          &:nth-child(even)
-            float: right
-
-            .card
-
-              &::after
-                content: ''
-                position: absolute
-                display: block
-                width: 4rem
-                background: #cecece
-                height: 1px
-                margin: auto
-                top:  7.2rem
-                left: 0
-
-          &:nth-child(odd)
-            float: left
-
-            .card
-
-              &::after
-                content: ''
-                position: absolute
-                display: block
-                width: 4rem
-                background: #cecece
-                height: 1px
-                margin: auto
-                top:   7.2rem
-                right: 0
-
-
-        .card--exhibition
-          padding: 2rem
-          text-align: center
-          line-height: 1
-          margin-bottom: 2rem
-
-          +grid-media($grid-medium)
-            margin-bottom: 0
-
-          a
-            display: block
-
-          &__upper
-            background: darken($beyond-beige, 25%)
-            margin: -2rem -2rem 0
-            padding: 1.5rem
-            border-top-left-radius:  $base-border-radius
-            border-top-right-radius: $base-border-radius
-
-          &__date
-            color: darken($beyond-beige, 5%)
-            margin-bottom: 1rem
-
-          &__title
-            font-family: $display-font-family
-            color: $white
-            position: relative
-            bottom: -.2rem
-
-          &__lower
-            background: $white
-            margin: 0 -2rem -2rem
-            padding: 1.5rem
-            border-bottom-left-radius:  $base-border-radius
-            border-bottom-right-radius: $base-border-radius
-
-          &__description
-            color: $base-font-color-light
-            margin-top: 3rem
-
-          &__address
-            color: darken($beyond-beige, 25%)
-            line-height: 1.2
-
-          &:hover, &:focus
-            box-shadow: $hover-box-shadow
-            transition: $base-transition
+  .locations
+    +grid-collapse
+    +grid-container
+    height: 350px
+
+    &__map
+      +grid-column(8)
+      height: 350px
+
+    &__text
+      +grid-column(4)
+      background: green
+      height: 350px
+
+  .tooltip
+    display: flex
+
+    &__image
+      width: 100px
+      height: 100px
+      margin-right: 12px
+
+      &--hamburg
+        background-image: url('/assets/img/pages/about/city.png')
+        background-size: cover
+
+      &--jena
+        background-image: url('/assets/img/pages/about/city.png')
+        background-size: cover
+
+      &--barcelona
+        background-image: url('/assets/img/pages/about/city.png')
+        background-size: cover
+
+      &--bilbao
+        background-image: url('/assets/img/pages/about/city.png')
+        background-size: cover
+
+    &__text
+      display: flex
+      flex-direction: column
+      justify-content: center
