@@ -2,10 +2,9 @@ $(document).ready(function(){
   // Carousel
   $('.js-carousel--about').slick({
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next'),
+    arrows: false,
     responsive: [
       {
         breakpoint: 769,

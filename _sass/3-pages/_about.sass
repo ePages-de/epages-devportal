@@ -14,6 +14,28 @@ body.about
     
     .section__body
       text-align: center
+
+  .teams
+    padding: 0 10px
+
+    .slick-track
+      background-image: url(/assets/img/pages/common/footer.jpg)
+
+    .carousel__item
+      height: 164px
+      padding: 25px 10px
+      background-color: rgba(178, 199, 212, 0.6)
+      box-sizing: border-box
+    
+      &:not(:last-child)
+        border-right: 2px solid white
+
+    &__card-header
+      text-align: center
+      margin-bottom: 10px
+
+    &__card-content
+      text-align: center
       
   .locations
     +grid-collapse
