@@ -12,7 +12,7 @@ $(document).ready(function () {
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
-          adaptiveHeight: true,
+          adaptiveHeight: true
         }
       },
       {
