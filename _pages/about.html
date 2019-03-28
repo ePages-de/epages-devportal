@@ -34,6 +34,99 @@ header_image: public/about.jpg
 
 </section>
 
+<section>
+  <h2 class="section__title">International. Interdisciplinary. Connected.</h2>
+
+  <p class="section__body">More than 100 creative minds are spread over these locations:</p>
+
+  <div class="card">
+
+    <div class="cities">
+
+      <div class="city">
+        <div class="js-city-slider">
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/hamburg.jpg')"></div>
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/hamburg-1.jpg')"></div>
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/hamburg-2.jpg')"></div>
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/hamburg-3.jpg')"></div>
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/hamburg-4.jpg')"></div>
+        </div>
+
+        <div class="city__name">Hamburg</div>
+
+        <div class="quote">
+          {% assign author_data = site.data.authors | where:"id", "ppriotto" | first %}
+          <img class="quote__image" src="/assets/img/pages/blog/authors/{{ author_data.image }}" />
+          <div class="quote__text">
+            What I like most about working at ePages is the multi-cultural environment, and that we have a high representation of women in tech.
+            <span class="quote__author">{{ author_data.name }}</span>
+            <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
+            <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="city">
+        <div class="js-city-slider">
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/jena.jpg')"></div>
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/jena-1.jpg')"></div>
+        </div>
+
+        <div class="city__name">Jena</div>
+
+        <div class="quote">
+          {% assign author_data = site.data.authors | where:"id", "fgehring" | first %}
+          <img class="quote__image" src="/assets/img/pages/blog/authors/{{ author_data.image }}" />
+          <div class="quote__text">
+            Here at ePages I enjoy working in a dynamic team. We even cook together once or twice a week.
+            <span class="quote__author">{{ author_data.name }}</span>
+            <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
+            <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="city">
+        <div class="js-city-slider">
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/barcelona.jpg')"></div>
+        </div>
+
+        <div class="city__name">Barcelona</div>
+
+        <div class="quote">
+          {% assign author_data = site.data.authors | where:"id", "mmerino" | first %}
+          <img class="quote__image" src="/assets/img/pages/blog/authors/{{ author_data.image }}" />
+          <div class="quote__text">
+            Barcelona is one of the most important European cities in software development. It's great that I can live there, and at the same time work remotely with my team in Hamburg.
+            <span class="quote__author">{{ author_data.name }}</span>
+            <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
+            <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="city">
+        <div class="js-city-slider">
+          <div class="city__header" style="background-image: url('/assets/img/pages/about/bilbao.jpg')"></div>
+        </div>
+
+        <div class="city__name">Bilbao</div>
+
+        <div class="quote">
+          {% assign author_data = site.data.authors | where:"id", "uabrisketa" | first %}
+          <img class="quote__image" src="/assets/img/pages/blog/authors/{{ author_data.image }}" />
+          <div class="quote__text">
+            I'm thankful that after 1 1/2 years in Hamburg, ePages gave me the chance to return to my hometown Bilbao to work remotely.
+            <span class="quote__author">{{ author_data.name }}</span>
+            <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
+            <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="locations">
   <h2 class="section__title">{ Wanna code with us? }</h2>
   <div id="map" class="locations__map"></div>
