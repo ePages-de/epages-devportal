@@ -152,14 +152,25 @@ body.about
       justify-content: space-between
 
     .card
-      padding: 2rem
       flex-basis: 100%
       box-sizing: border-box
       margin-bottom: 1rem
+      background-position: center
+      background-size: cover
+      height: 200px
 
       +grid-media($grid-medium)
         margin-bottom: 0
         flex-basis: calc(100% / 3 - 1rem)
+      
+      &:nth-child(1)
+        background-image: url('/assets/img/pages/about/hamburg.jpg')
+      
+      &:nth-child(2)
+        background-image: url('/assets/img/pages/about/jena.jpg')
+      
+      &:nth-child(3)
+        background-image: url('/assets/img/pages/about/barcelona.jpg')
 
   .locations
     +grid-collapse
