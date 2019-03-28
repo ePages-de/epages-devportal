@@ -19,20 +19,26 @@ body.about
     padding: 0 10px
 
     .carousel
-      background-image: url(/assets/img/pages/common/footer.jpg)
+      background-image: url(/assets/img/pages/about/teams.jpg)
       background-size: cover
       background-position: center
 
     .carousel__item
-      padding: 30px 10px
+      padding: 30px
       box-sizing: border-box
-      border-right: 2px solid $whitesmoke
+      display: flex
+      flex-direction: column
+      justify-content: center
+      height: 190px
+      background-color: rgba(109, 181, 179, 0.85)
 
       +grid-media($grid-small)
-        height: 163px
-
         &:nth-child(even)
-          background-color: rgba(133, 189, 189, 0.3)
+          background-color: rgba(109, 181, 179, 0.97)
+
+      +grid-media($grid-medium)
+        height: 220px
+        padding: 50px 20px
 
     &__card-header,
     &__card-content
