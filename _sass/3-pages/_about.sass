@@ -57,12 +57,44 @@ body.about
     +grid-container
 
     &__map
-      +grid-column(8)
-      height: 350px
+      +grid-column(12)
+      height: 300px
+      box-shadow: $base-box-shadow
 
+      +grid-media($grid-medium)
+        +grid-column(6)
+
+      +grid-media($grid-large)
+        +grid-column(7)
+
+    &__text-box
+      +grid-column(12)
+      box-shadow: $base-box-shadow
+      padding: 30px
+      box-sizing: border-box
+      margin-top: 20px
+      background-image: url(/assets/img/pages/headers/private/about.jpg)
+      background-position: center
+      background-size: cover
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+
+      +grid-media($grid-medium)
+        +grid-column(6)
+        margin-top: 0
+        height: 300px
+
+      +grid-media($grid-large)
+        +grid-column(5)
+    
     &__text
-      +grid-column(4)
-      background: green
+      line-height: 1.3
+      text-align: justify
+      color: $white
+      text-shadow: $base-text-shadow
+      margin-bottom: 20px
 
   .tooltip
     display: flex
