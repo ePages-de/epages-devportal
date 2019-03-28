@@ -70,19 +70,33 @@ body.about
   .cities
     +grid-collapse
     +grid-container
-    padding: 4rem
+    padding: 2rem
     box-sizing: border-box
-    display: flex
-    align-items: stretch
-    flex-direction: row
-    flex-wrap: wrap
+
+    +grid-media($grid-medium)
+      display: flex
+      align-items: stretch
+      flex-direction: row
+      flex-wrap: wrap
+      padding: 4rem
 
     .city
-      +grid-column(6)
+      +grid-column(12)
       position: relative
 
-      &:not(:nth-last-child(-n+2))
+      &:not(:last-child)
         margin-bottom: 6rem
+
+        +grid-media($grid-medium)
+          margin-bottom: 0
+
+      &:not(:nth-last-child(-n+2))
+
+        +grid-media($grid-medium)
+          margin-bottom: 6rem
+
+      +grid-media($grid-medium)
+        +grid-column(6)
 
       &__name
         background: $cat-all-categories
@@ -126,13 +140,20 @@ body.about
 
       .quote
         display: flex
+        flex-direction: column
+
+        +grid-media($grid-medium)
+          flex-direction: row
 
         &__image
           +size(7.5rem)
           min-width: 7.5rem
           min-height: 7.5rem
           border-radius: 100%
-          margin-right: 2rem
+          margin: 0 auto 2rem
+
+          +grid-media($grid-medium)
+            margin: 0 2rem 0 0
 
         &__text
           border: 1px solid #dddddd
