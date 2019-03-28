@@ -64,7 +64,6 @@ var descriptions = {
     '<div class="tooltip__image tooltip__image--barcelona"></div>' +
     '<div class="tooltip__text">' +
     '<h4>Barcelona</h4>' +
-    '<p>ePages Southern Europe S.L.</p>' +
     '<p>Diagonal 435, 5º - 1ª</p>' +
     '<p>08036 Barcelona</p>' +
     '</div>' +
@@ -73,7 +72,6 @@ var descriptions = {
     '<div class="tooltip__image tooltip__image--jena"></div>' +
     '<div class="tooltip__text">' +
     '<h4>Jena</h4>' +
-    '<p>ePages GmbH</p>' +
     '<p>Heinrich-Heine-Straße 1</p>' +
     '<p>07743 Jena</p>' +
     '</div>' +
@@ -82,7 +80,6 @@ var descriptions = {
     '<div class="tooltip__image tooltip__image--hamburg"></div>' +
     '<div class="tooltip__text">' +
     '<h4>Hamburg</h4>' +
-    '<p>ePages GmbH</p>' +
     '<p>Pilatuspool 2</p>' +
     '<p>20355 Hamburg</p>' +
     '</div>' +
@@ -91,7 +88,6 @@ var descriptions = {
     '<div class="tooltip__image tooltip__image--bilbao"></div>' +
     '<div class="tooltip__text">' +
     '<h4>Bilbao</h4>' +
-    '<p>ePages Southern Europe S.L.</p>' +
     '<p>Remote work</p>' +
     '</div>' +
     '</div>',
