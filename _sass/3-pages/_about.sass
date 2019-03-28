@@ -50,23 +50,6 @@ body.about
     &__card-content
       line-height: 1.4
 
-  .statistics
-    
-    .card-wrapper
-      display: flex
-      flex-wrap: wrap
-      justify-content: space-between
-
-    .card
-      padding: 2rem
-      flex-basis: 100%
-      box-sizing: border-box
-      margin-bottom: 1rem
-
-      +grid-media($grid-medium)
-        margin-bottom: 0
-        flex-basis: calc(100% / 3 - 1rem)
-
   .cities
     +grid-collapse
     +grid-container
@@ -160,6 +143,23 @@ body.about
             +padding(.3em 0 0 .3em)
             bottom: -11px
             right: -1px
+
+  .statistics
+    
+    .card-wrapper
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+
+    .card
+      padding: 2rem
+      flex-basis: 100%
+      box-sizing: border-box
+      margin-bottom: 1rem
+
+      +grid-media($grid-medium)
+        margin-bottom: 0
+        flex-basis: calc(100% / 3 - 1rem)
 
   .locations
     +grid-collapse
