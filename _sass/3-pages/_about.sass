@@ -10,13 +10,12 @@ body.about
       margin-bottom: 1rem
       text-align: center
 
-  .introduction
+  .teams
+    padding: 0 10px
 
     .section__body
       text-align: center
-
-  .teams
-    padding: 0 10px
+      margin-bottom: 50px
 
     .carousel
       background-image: url(/assets/img/pages/about/teams.jpg)
@@ -51,6 +50,23 @@ body.about
 
     &__card-content
       line-height: 1.4
+
+  .statistics
+    
+    .card-wrapper
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+
+    .card
+      padding: 2rem
+      flex-basis: 100%
+      box-sizing: border-box
+      margin-bottom: 1rem
+
+      +grid-media($grid-medium)
+        margin-bottom: 0
+        flex-basis: calc(100% / 3 - 1rem)
 
   .locations
     +grid-collapse
