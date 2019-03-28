@@ -15,6 +15,37 @@ body.about
     .section__body
       text-align: center
 
+  .teams
+    padding: 0 10px
+
+    .carousel
+      background-image: url(/assets/img/pages/common/footer.jpg)
+      background-size: cover
+      background-position: center
+
+    .carousel__item
+      padding: 30px 10px
+      box-sizing: border-box
+      border-right: 2px solid $whitesmoke
+
+      +grid-media($grid-small)
+        height: 163px
+
+        &:nth-child(even)
+          background-color: rgba(133, 189, 189, 0.3)
+
+    &__card-header,
+    &__card-content
+      text-align: center
+      color: $white
+      text-shadow: $base-text-shadow
+
+    &__card-header
+      margin-bottom: 5px
+
+    &__card-content
+      line-height: 1.4
+
   .locations
     +grid-collapse
     +grid-container
