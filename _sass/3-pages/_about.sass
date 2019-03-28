@@ -7,7 +7,6 @@ body.about
       margin: 12rem 0
 
     .section__title
-      margin-bottom: 1rem
       text-align: center
 
     .section__body
@@ -15,6 +14,9 @@ body.about
       margin-bottom: 4rem
 
   .teams
+
+    .section__title
+      margin-bottom: 1rem
 
     .carousel
       background-image: url(/assets/img/pages/about/teams.jpg)
@@ -62,6 +64,9 @@ body.about
       flex-direction: row
       flex-wrap: wrap
       padding: 4rem
+
+    .section__title
+      margin-bottom: 1rem
 
     .city
       +grid-column(12)
@@ -125,7 +130,7 @@ body.about
         display: flex
         flex-direction: column
 
-        +grid-media($grid-medium)
+        +grid-media($grid-small)
           flex-direction: row
 
         &__image
@@ -135,7 +140,7 @@ body.about
           border-radius: 100%
           margin: 0 auto 2rem
 
-          +grid-media($grid-medium)
+          +grid-media($grid-small)
             margin: 0 2rem 0 0
 
         &__text
@@ -166,36 +171,34 @@ body.about
             right: -1px
 
   .statistics
+
+    .section__title
+      margin-bottom: 3rem
     
     .card-wrapper
       display: flex
       flex-wrap: wrap
       justify-content: space-between
 
-    .card
-      flex-basis: 100%
-      box-sizing: border-box
-      margin-bottom: 1rem
-      background-position: center
-      background-size: cover
-      height: 200px
+      .image-wrapper
+        flex-basis: 100%
+        margin-bottom: 4rem
 
-      +grid-media($grid-medium)
-        margin-bottom: 0
-        flex-basis: calc(100% / 3 - 1rem)
-      
-      &:nth-child(1)
-        background-image: url('/assets/img/pages/about/hamburg.jpg')
-      
-      &:nth-child(2)
-        background-image: url('/assets/img/pages/about/jena.jpg')
-      
-      &:nth-child(3)
-        background-image: url('/assets/img/pages/about/barcelona.jpg')
+        +grid-media($grid-medium)
+          margin-bottom: 0
+          flex-basis: calc(100% / 3 - 1rem)
+        
+        img
+          max-width: 400px
+          margin: 0 auto
+          display: block
 
   .locations
     +grid-collapse
     +grid-container
+
+    .section__title
+      margin-bottom: 3rem
 
     &__map
       +grid-column(12)
