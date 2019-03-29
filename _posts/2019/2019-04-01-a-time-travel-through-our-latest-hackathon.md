@@ -23,7 +23,7 @@ We were asked to brainstorm about possible topics and to add them to a Confluenc
 These questions swirled through our minds:
 - What would help us in our everyday office life?
 - Which topic are on our I-always-wanted-to-work-on-that list?
-- Which topics are great but didn't make it yet and might never make it to one of the team's sprints?
+- Which topics are great but didn't make it yet and might never make it to one of the teams' sprints?
 
 My team member Birgit and I also brainstormed and added a topic to the list: Improving the [About us page](/about/) of the DevPortal.
 
