@@ -96,7 +96,7 @@ But we didn't 😉.
 Instead, the standardized on-boarding process won, followed by our About us page (wohooo) and the instore checkout for our Beyond product.
 For all other teams, the provided dinner was a pretty good consolation.
 
-If you’d like get more insights on our hackathon, check [#ephack19](https://twitter.com/hashtag/ephack19?src=hash) on Twitter.
-Or take the chance and visit our newly designed and award-winning [About us](https://developer.epages.com/about/) page.
+If you’d like get more insights on our hackathon, check [#ephack19](https://twitter.com/hashtag/ephack19?src=hash){:target="_blank"} on Twitter.
+Or take the chance and visit our newly designed and award-winning [About us](/about/) page.
 
 
