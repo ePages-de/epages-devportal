@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This year's hackathon: a journey through time"
+title: "This year's hackathon: a travel through time"
 date: 2019-04-01
 header_image: private/hackathon19.jpg
 header_position: top
@@ -21,18 +21,18 @@ It's getting serious, folks.
 We were asked to brainstorm about possible topics and collected them on a Confluence page.
 These questions needed consideration:
 - What would help us in our everyday office life?
-- Which topic are on our I-always-wanted-to-work-on-that list?
+- Which topics are on our I-always-wanted-to-work-on-that list?
 - Can we come up with a topic that suits our omnichannel strategy?
 
-Even my team member Birgit and I (as "non-developers") found a topic that we would like to work on:  Improving the [About us page](/about/) of the DevPortal.
+Even my team member Birgit and I (as "non-developers") found a topic that we would like to work on: improving the [About us page](/about/) of the DevPortal.
 
 ## Two weeks before the hackathon
 
 Lots of topics were collected and added to the list.
-Now, it was time to decide which topic we'd like to join.
+Now it was time to decide which topic we'd like to join.
 Let me tell you, it was a tough decision.
 So many different topics, and all of them were interesting!
-Some suggestions aimed to improve our processes and workflows, such as a standardized on-boarding process, unified PR pipelines, a performance test, or a Circle CI wallboard.
+Some suggestions aimed to improve our processes and workflows, such as a standardized onboarding process, unified PR pipelines, a performance test, or a Circle CI wallboard.
 Others had a closer look at our products and merchants, e.g. a UX check for integrating apps, an Instore Checkout, or an app for importing products via CSV.
 
 These questions helped me to decide which topic I'd like to join:
@@ -40,7 +40,7 @@ These questions helped me to decide which topic I'd like to join:
 - What will I learn when participating?
 - Whom would I work with? 
 
-A hackathon is the perfect chance to work together with colleagues that you don't work with on a daily basis.
+A hackathon is the perfect chance to collaborate with colleagues that you don't work with on a daily basis.
 Maybe even with colleagues from different locations.
 We can even build small "feature teams" for the two days.
 
@@ -59,10 +59,10 @@ By having a breakfast!
 {% twitter https://twitter.com/epagesdevs/status/1110812533349322752 %}
 
 The room was packed with ePagees.
-Our colleagues from Jena, Barcelona, and Bilbao have already arrived the day before, and everyone was chatting... and eating.
+Our colleagues from Jena, Barcelona, and Bilbao already arrived the day before, and everyone was chatting... and eating.
 Around 10 am the last buns and bagels disappeared, and our CTO officially kicked off the event.
 
-For the rest of the day, each team was diving into its topic, brainstorming, discussing, hacking, or developing prototypes.
+For the rest of the day, each team was diving into their topic, brainstorming, discussing, hacking, or developing prototypes.
 When walking across the floor, I've seen many colored white boards and concentrated faces.
 
 Around 6 pm one word was spread across the floor... PIZZA.
@@ -79,7 +79,7 @@ No?
 Well, now you'll understand that each group was even more motivated to deliver great results.
 So, everyone continued hacking, discussing, and analyzing.
 And of course, all teams remembered that they have a presentation slot at the end of the day.
-No way, some prepared the slides in the last minutes because they were so into their tasks.
+No way, some prepared the slides in the last minutes because they were so into their tasks 😉.
 
 At 4:30 pm all teams gathered into our biggest conference room.
 It was time to share the results.
@@ -91,10 +91,8 @@ Afterwards, everyone had three votes.
 
 And the winner is... well, it would be a nice romantic-hollywood-movie-like ending for this post to tell you that my team won.
 But we didn't 😉.
-Instead, the standardized on-boarding process won, followed by our About us page (wohooo), as well as the Instore Checkout for our Beyond product.
+Instead, the standardized onboarding process won, followed by our About us page, as well as the Instore Checkout for our Beyond product.
 For all other teams, the provided dinner was a pretty good consolation.
 
 If you’d like to get more insights on our hackathon, check [#ephack19](https://twitter.com/hashtag/ephack19?src=hash){:target="_blank"} on Twitter.
 Or take the chance and visit our newly designed and award-winning [About us](/about/) page.
-
-
