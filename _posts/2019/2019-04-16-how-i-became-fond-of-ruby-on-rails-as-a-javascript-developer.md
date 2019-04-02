@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I became fond of Ruby on Rails (as a JavaScript developer)
-date: 2019-03-13
+date: 2019-04-16
 header_image: public/my-switch-from-js-to-ruby.jpg
 header_position: center
 category: tech-stories
@@ -25,7 +25,7 @@ When I was done with the tutorial, I started to do pair programming with my team
 He explained me the projects and cleared away my doubts about Ruby.
 Shortly after that, I started with my own tasks, and applied what I learned in the tutorial.
 
-### Discovering similarities and differences
+## Discovering similarities and differences
 
 While I was doing the tutorial I recognized the similar things between Rails and another languages with I worked with or that I've seen before, such as Symfony.
 Due to my experience with other languages I was able to associate concepts of Rails with other languages that I know.
@@ -69,6 +69,8 @@ function sum(num1, num2) {
 
 let result = sum(5, 6);
 ```
+
+## It's magic(k)
 
 When some friend told me about Rails, he mentioned the word `magick`.
 Today I finally understand why.
