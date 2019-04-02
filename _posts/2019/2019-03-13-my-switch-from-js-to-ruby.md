@@ -10,27 +10,33 @@ authors: ["German"]
 about_authors: ["gsanemeterio"]
 ---
 
-I am currently part of ePages as software engineer with ruby as language, although before I worked with Angular.
+At the beginning of this year I joined ePages as software engineer with focus on Ruby on Rails, although before I worked with Angular.
+When I first got the opportunity to work as a Ruby developer at ePages, the decision was not easy for me to make.
+But at the end I took the chance.
+I like new challenges and to learn new things, and I saw it was a great opportunity.
+In this post I'd like to share some insights with you on how I got started with Rails.
 
 ## Learning Rails
-When the opportunity of work in ePages came to me it cost me to take a decision but at the end I take the risk, as I like new challenges and to learn new things and I saw it was a great opportunity.
+
+In order to learn Rails I started with the famous [Rails tutorial of Michael Hartl](https://www.railstutorial.org/){:target="_blank"}.
+During 3 weeks I was reading and trying it at the same time that I was doing the exercises.
+It's amazing how fast things can be done in Rails!
+When I was done with the tutorial, I started to do pair programming with my teammate right away.
+He explained me the projects and cleared away my doubts about Ruby.
+Shortly after that, I started with my own tasks, and applied what I learned in the tutorial.
 
 ### Discovering similarities and differences
-Now in ePages I started with the famous [Rails tutorial of Michael Hartl](https://www.railstutorial.org/){:target="_blank"}.
-During 3 weeks I was reading and trying it at the same time that I was doing the exercises.
-It's amazing how fast things can be done in rails!
-One finished the tutorial, I started to do pair programming with my teammate.
-He explained me the projects and cleared my dubs about ruby and, shortly after, I started with my own tasks, and apply that I learned in the tutorial.
 
-While I was doing the tutorial I was seeing the similar things between rails and another languages with I work before or that I've seen such as Symfony.
-Due to my experience with other languages I could associate concepts of rails with other languages that I know.
-While I was doing the tutorial I was surprise with the easier that rails let to manage the database, thanks to ActiveRecord
+While I was doing the tutorial I recognized the similar things between Rails and another languages with I worked with or that I've seen before, such as Symfony.
+Due to my experience with other languages I was able to associate concepts of Rails with other languages that I know.
+While I was doing the tutorial I was surprised how easy it was with Rails to manage a database, thanks to ActiveRecord.
 
-As each language there're differences and js and ruby couldn't been the exception, still today I'm thinking in how I do in javascript and then I search ruby's equivalent.
+Every language is different, and JavaScript and Ruby are not an exception.
+I still wonder how I would do things in JavaScript and then I search for an equivalent in Ruby.
 
-Some of syntax differences with I found are:
+Here are some syntax differences I figured out:
 
-- In ruby is not necessary type parenthesis to send parameters in a function.
+- In Ruby is not necessary type parenthesis to send parameters in a function.
 - Foreach
 
 ```ruby
@@ -45,8 +51,8 @@ end
 })
 ```
 
-- In ruby you don't have to declare variables.
-- Difference at other languages you don't have to type `return` to give back data, as always give back the result of the last line of code.
+- In Ruby you don't have to declare variables.
+- Unlike other languages you don't have to type `return` to give back data, as always the result of the last line of code is returned.
 
 ```ruby
 def sum(num1, num2)
@@ -64,9 +70,10 @@ function sum(num1, num2) {
 let result = sum(5, 6);
 ```
 
-When some friend told me about rails he mentioned one word `magick` today I finally understand why.
+When some friend told me about Rails, he mentioned the word `magick`.
+Today I finally understand why.
 
-- ActiveModel: I remember in my last work there a problem to make work Synfony with Oracle so when I saw ActiveRecord the first thing that I did was search in google information about rails and it looks there's not any problem to integrate rails and Oracle.
+- ActiveModel: I remember that in my last job there was a problem to make Synfony work with Oracle. When I saw ActiveRecord the first thing that I did was search Google for information about Rails. It looks like there's no problem to integrate Rails and Oracle.
 - Trust: Rails with only type the name of some functions knows how to work.
 
 ```ruby
@@ -74,4 +81,5 @@ def index
 end
 ```
 
-This is a little reflection from someone who has left of his comfort zone, I still have a lot to learn both JavaScript and Ruby, but that is another history.
+This is a little reflection of someone who left his comfort zone.
+For me there's still room for improvement, both in JavaScript and Ruby, but that's another story.
