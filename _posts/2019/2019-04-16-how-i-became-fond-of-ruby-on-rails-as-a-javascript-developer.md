@@ -70,9 +70,9 @@ function sum(num1, num2) {
 let result = sum(5, 6);
 ```
 
-## It's magic(k)
+## It's magic
 
-When some friend told me about Rails, he mentioned the word `magick`.
+When some friend told me about Rails, he mentioned the word *magic*.
 Today I finally understand why.
 
 - ActiveModel: I remember that in my last job there was a problem to make Synfony work with Oracle. When I saw ActiveRecord the first thing that I did was search Google for information about Rails. It looks like there's no problem to integrate Rails and Oracle.
