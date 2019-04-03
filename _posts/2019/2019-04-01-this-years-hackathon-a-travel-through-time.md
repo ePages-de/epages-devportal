@@ -13,7 +13,7 @@ about_authors: ["cgebken"]
 The ePages Hackathon is an integral part of our calendars.
 Each year we plan two days filled with interesting topics and lots of fun.
 But what does participation in this hackathon actually mean?
-Let me take you on a little time travel to give you some insights into the preparation and the actual event.
+Let me take you on a little time travel to give you some insights on the preparation and the actual event.
 
 ## Three weeks before the hackathon
 
@@ -44,7 +44,7 @@ A hackathon is the perfect chance to collaborate with colleagues that you don't 
 Maybe even with colleagues from different locations.
 We can even build small "feature teams" for the two days.
 
-As my team mate Birgit took the lead for the "About us page" group, I took the chance to join a team that had the goal to categorize our merchants and their shops.
+As my teammate Birgit took the lead for the "About us page" group, I took the chance to join a team that had the goal to categorize our merchants and their shops.
 The results of such a categorization could help Product Management to make decisions on future features or improvements.
 And of course, I also had my personal goal: get some ideas to improve our help articles.
 
