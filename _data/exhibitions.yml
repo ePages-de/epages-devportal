@@ -10,6 +10,12 @@
   time:
   address: WTC Congress Center<br>Krasnopresnenskaya nab., 12, 4th entrance<br>Moscow, Russia
 
+- title: IT KoM
+  link: https://ai.fh-erfurt.de/en/itk/
+  date: 9. May 2019
+  time: '9:30 - 14:30'
+  address: FH Erfurt, Haus 8<br>Altonaer Straße 25<br>99085 Erfurt
+
 - title: Karrieremesse Schmalkalden
   link: https://www.karrieremesse-schmalkalden.de/
   date: 15. May 2019
@@ -21,6 +27,12 @@
   date: 23.-24. May 2019
   time:
   address: Multikino<br>ul. Dobrego Pasterza 128<br>Kraków
+
+- title: Data Science Day Jena
+  link: https://www.fmi.uni-jena.de/Fakult%C3%A4t/Aktivit%C3%A4ten+der+Fakult%C3%A4t/Veranstaltungen/Data+Science+Day+Jena/Data+Science+Day+2019.html
+  date: 29. May 2019
+  time: '13:00 - 20:00'
+  address: Universität Jena, Rosensäle<br>Fürstengraben 27<br>07743 Jena
 
 - title: Stellenwerk Jobmesse
   link: https://www.stellenwerk-jobmesse.de/hamburg/
@@ -39,6 +51,12 @@
   date: 13.-14. Jun 2019
   time:
   address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
+
+- title: Jobwalk Jena
+  link: https://jena.jobwalk.city/
+  date: 22. Jun 2019
+  time:
+  address: Marktplatz<br>00743 Jena
 
 - title: Karrieremesse inovailmenau
   link: https://inova-ilmenau.de/inova/
