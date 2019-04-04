@@ -46,4 +46,4 @@ The content in the following folders, as well as the related `.html` files, and 
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
     * Blog post contributions should target `master` branch
-    * New features, improvements or bug fixes should target `develop` branch
+    * New features, improvements or bug fixes should target `develop ` branch
