@@ -15,7 +15,7 @@ It's one of the biggest HR conferences, they said.
 There will be awesome speakers, they said.
 The venue would be amazing, they said.
 I wanted to see it for myself, and signed up for the [Gravity+](https://www.gravity-conference.com/){:target="_blank"}, a two-day conference all about Employer Branding.
-Before I was even there, I could notice already, that the organization turned out to be professional, and that all was well thought through.
+Before I was even there, I could notice already that the organization turned out to be professional, and that all was well thought through.
 So I was sure, taking part would be worth it.
 And that's how it was!
 
@@ -24,8 +24,8 @@ I'll share some of my **absolute** highlights here.
 ## Corporate Happiness Management
 
 Already in the keynote, I learnt about the existence of a Corporate Happiness Manager.
-Daniela Gleue ([Upstalsboom](https://www.upstalsboom.de/hotels.html){:target="_blank"}) explained us in a captivating talk, why a company needs to invest in people who care about people.
-She explained, that some time ago the  employee satisfaction at Upstalsboom had reached its absolute low point.
+Daniela Gleue ([Upstalsboom](https://www.upstalsboom.de/hotels.html){:target="_blank"}) explained us in a captivating talk why a company needs to invest in people who care about people.
+She explained that some time ago the employee satisfaction at Upstalsboom had reached its absolute low point.
 And when her boss realized the dimensions, he went to a monastery for a while.
 But he came back with the awareness that something had to change.
 By holding development workshops and actively listening to the employees, jointly working on improvements and creating a feel-good atmosphere in so many different ways, they turned the hotel chain into an attractive employer (brand).
@@ -33,7 +33,7 @@ Absolute impressive story.
 
 ## Job ambassadors
 
-[Eugenia Mönning](https://twitter.com/eugeniamoenning?lang=en){:target="_blank"} from [Otto](https://twitter.com/otto_de){:target="_blank"} showed us, how a traing programm turns passionate employees into corporate influencers.
+[Eugenia Mönning](https://twitter.com/eugeniamoenning?lang=en){:target="_blank"} from [Otto](https://twitter.com/otto_de){:target="_blank"} showed us, how a training program turns passionate employees into corporate influencers.
 
 {% image_custom image="/assets/img/pages/blog/images/influencers.jpg" width="50" lightbox %}
 
