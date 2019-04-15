@@ -113,22 +113,16 @@ var infowindow = new google.maps.InfoWindow();
 
 var marker, i;
 
-var icons = {
-  office: {
-    url: "/assets/img/pages/about/office.svg",
-    scaledSize: new google.maps.Size(40, 40)
-  },
-  remote: {
-    url: "/assets/img/pages/about/remote.svg",
-    scaledSize: new google.maps.Size(40, 40)
-  }
+var icon = {
+  url: "/assets/img/pages/about/office.svg",
+  scaledSize: new google.maps.Size(40, 40)
 };
 
 for (i = 0; i < locations.length; i++) {
   marker = new google.maps.Marker({
     position: locations[i].position,
     map: map,
-    icon: icons[locations[i].type]
+    icon: icon
   });
 
   google.maps.event.addListener(marker, 'click', (function (marker, i) {
