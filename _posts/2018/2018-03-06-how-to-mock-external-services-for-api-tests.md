@@ -7,7 +7,8 @@ header_position: center
 header_overlay: true
 category: api-experience
 tags: ["microservice", "testing", "continuous delivery", "api"]
-authors: ["Benjamin", "Jan"]
+authors: ["Benjamin", "Jan M."]
+about_authors: ["bnothdurft", "jmewes"]
 ---
 
 In our microservices architecture we are keen on testing our system to make sure that it is working fine on every layer.
