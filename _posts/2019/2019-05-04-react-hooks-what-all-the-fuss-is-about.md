@@ -24,7 +24,7 @@ React lets developers split their UI into components. A component can do a varie
 
 **Class-components**, on the other hand, are a bit more complex. They also take props and render UI, but on top of that keep a state and have different so-called lifecycle methods. So if, for instance, you wanted to update your state once some of your props changed, you would use a class-component to do that.
 
-And that's where hooks come in. **Hooks allow you to do all the things you previously needed classes for, inside a function-component.** :tada:
+And that's where hooks come in. **Hooks allow you to do all the things you previously needed classes for, inside a function-component.** 🎉
 
 #### What Makes Them So Great?
 
@@ -50,7 +50,7 @@ Classes are one of the harder things for React-beginners to understand and maste
 
 With hooks, all these problems fade away. You can do anything you want with a function-component now and hooks will most likely even encourage you to use better patterns for your components.
 
-**No confusion about how to use classes and no fighting over when to use them.** :tada:
+**No confusion about how to use classes and no fighting over when to use them.** 🎉
 
 #### What Does This Mean For Me?
 
