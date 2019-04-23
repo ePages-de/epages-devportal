@@ -226,6 +226,12 @@
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg
 
+- id: jwieben
+  name: Jonathan
+  full_name: Jonathan Wieben
+  description: is a JavaScript Engineer with a passion for simplicity, in programming as well as in life.
+  image: jwieben.jpg
+
 - id: jschnegotzki
   name: Jan S.
   full_name: Jan Schnegotzki
@@ -265,7 +271,7 @@
 - id: kmueller
   name: Katja
   full_name: Katja Müller
-  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
   image: kmueller.jpg
 
 - id: lbrandt
