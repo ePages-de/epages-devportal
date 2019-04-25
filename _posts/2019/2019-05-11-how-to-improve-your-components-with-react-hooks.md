@@ -20,7 +20,7 @@ I am going to illustrate this by writing the same component in two ways, with an
 
 #### A Typical Class Component
 
-Let's assume we wanted to write a `UserProfile` component, that displays a users profile picture next to their name. We also want the profile picture to be hidden when the window width is fewer than 1024 pixels.
+Let's assume we wanted to write a `UserProfile` component, that displays a users profile picture next to their name. We also want the profile picture to be hidden when the window width is fewer than 1024 pixels (you'd probably use CSS for that, but we are going to do it the JS-way for demonstrational purposes).
 
 In order to achieve this, we are going to need some state. It should store the user data as well as a flag indicating if we are on a small screen. We will use the components lifecycle methods to set and update these values.
 
@@ -121,11 +121,11 @@ I think the reason that this functional version of our component is easier to un
 
 We can see that in the functional component, each logic is much more grouped together than in the class component. This not only makes our component easier to read top to bottom but also easier to extract logic from.
 
-#### Going Even Further
+#### Going Further
 
 Now that we have rewritten our component as a function, let's think about how we can improve it even further.
 
-Let's say we wanted to reuse some of our component logic in another place. We could decide to just copy and paste the logic we want to reuse, but React actually gives us a better way: Custom hooks. Custom hooks allow you to extract your component logic into reusable functions. Here's how they would look for our `UserProfile` component:
+Let's say we wanted to reuse some of our component logic in another place. We could decide to just copy and paste the logic we want to reuse, but React now provides us with a better way: Custom hooks. Custom hooks allow you to extract your component logic into reusable functions. Here's how they would look for our `UserProfile` component:
 
 ```js
 function useUser(userId) {
@@ -176,4 +176,4 @@ function UserProfile({ userId }) {
 }
 ```
 
-On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component where we want to use it. 🎉
+On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component we want to use it. 🎉
