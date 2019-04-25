@@ -137,6 +137,7 @@ function useUser(userId) {
   React.useEffect(
     () => {
       fetch('https://some-api.com/user/' + userId)
+        .then(response => response.json())
         .then(user => setUser(user))
     },
     [userId]
