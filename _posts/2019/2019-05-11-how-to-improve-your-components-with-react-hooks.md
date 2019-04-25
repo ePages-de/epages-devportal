@@ -12,7 +12,7 @@ about_authors: ["jwieben"]
 
 ## How To Improve Your Components With React Hooks
 
-The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html) that was released a few months ago. New libraries for Hooks are appearing left and right and everyone seems to be rewriting their apps with them.
+The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html){:target="_blank"} that was released a few months ago. New libraries for Hooks are appearing left and right and everyone seems to be rewriting their apps with them.
 
 So what is it about Hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that Hooks bring to the table: **They allow you to organize your component logic in a simpler way.**
 
