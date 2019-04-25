@@ -20,7 +20,7 @@ I am going to illustrate this by writing the same component in two ways, with an
 
 #### A typical class component
 
-Let's assume we wanted to write a `UserProfile` component, that displays a users profile picture next to their name. We also want the profile picture to be hidden when the window width is fewer than 1024 pixels (you'd probably use CSS for that, but we are going to do it the JS-way for demonstrational purposes).
+Let's assume we wanted to write a `UserProfile` component, that displays a users profile picture next to their name. We also want the profile picture to be hidden when the window width is less than 1024 pixels (you'd probably use CSS for that, but we are going to do it the JS-way for demonstrational purposes).
 
 In order to achieve this, we are going to need some state. It should store the user data as well as a flag indicating if we are on a small screen. We will use the components lifecycle methods to set and update these values.
 
@@ -57,7 +57,7 @@ class UserProfile extends React.Component {
   };
 
   fetchUser = () => {
-    fetch("https://some-api.com/user/" + this.props.userId)
+    fetch(`https://some-api.com/user/${this.props.userId}`)
       .then(response => response.json())
       .then(user => this.setState({ user }));
   };
@@ -176,7 +176,7 @@ function UserProfile({ userId }) {
 }
 ```
 
-On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component we want to use it. 🎉
+On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component we want. 🎉
 
 <br />
 
