@@ -118,7 +118,7 @@ We can immediately notice that our component got shorter, which is usually a goo
 
 I think the reason that this functional version of our component is easier to understand lies in **the way the component logic is organized**. To demonstrate this point, I put both versions side by side and added some color coding. (Yellow: Code related to user data, Red: Code related to screen size)
 
-![Screenshot 2019-04-24 at 15.49.52](/Users/jonathan-wieben/Desktop/Screenshot 2019-04-24 at 15.49.52.png)
+{% image_lightbox image="/assets/img/pages/blog/images/react-hooks-component-comparison.png" %}
 
 We can see that in the functional component, each logic is much more grouped together than in the class component. This not only makes our component easier to read top to bottom but also easier to extract logic from.
 
