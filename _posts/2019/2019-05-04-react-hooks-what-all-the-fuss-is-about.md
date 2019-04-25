@@ -2,7 +2,7 @@
 layout: post
 title: React Hooks - What All The Fuss Is About
 date: 2019-05-04
-header_image: public/react-hooks.png
+header_image: public/react-hooks.jpg
 header_position: center
 category: coding
 tags: ["javascript", "reactjs"]
@@ -12,7 +12,7 @@ about_authors: ["jwieben"]
 
 ## React Hooks - What All The Fuss Is About
 
-Reacts new Hooks have been all the rage these last few months. You might have heard about them without really understanding what they are and why so many people are so excited about them. Maybe you have asked yourself why a simple API proposal would get [thousand of comments and reactions on its RFC](https://github.com/reactjs/rfcs/pull/68){:target="_blank"}. This post intends to help you understand some of the hype.
+Reacts new Hooks have been all the rage these last few months. You might have heard about them without really understanding what they are and why so many people are so excited about them. Maybe you have asked yourself why a simple API proposal would get [thousand of comments and reactions on its RFC](https://github.com/reactjs/rfcs/pull/68){:target="\_blank"}. This post intends to help you understand some of the hype.
 
 #### What Are Hooks?
 
