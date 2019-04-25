@@ -58,6 +58,7 @@ class UserProfile extends React.Component {
 
   fetchUser = () => {
     fetch('https://some-api.com/user/' + this.props.userId)
+      .then(response => response.json())
       .then(user => this.setState({ user }))
   }
 
