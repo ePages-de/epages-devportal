@@ -12,11 +12,11 @@ about_authors: ["jwieben"]
 
 ## How To Improve Your Components With React Hooks
 
-The React world has been going crazy over the new Hooks API that was released a few months ago. New libraries for hooks are appearing left and right and everyone seems to be rewriting their apps with them.
+The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html) that was released a few months ago. New libraries for Hooks are appearing left and right and everyone seems to be rewriting their apps with them.
 
-So what is it about hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that hooks bring to the table: **They allow you to organize your component logic in a simpler way.**
+So what is it about Hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that Hooks bring to the table: **They allow you to organize your component logic in a simpler way.**
 
-I am going to illustrate this by writing the same component in two ways, with and without hooks, and later compare them.
+I am going to illustrate this by writing the same component in two ways, with and without Hooks, and later compare them.
 
 #### A Typical Class Component
 
@@ -38,7 +38,7 @@ class UserProfile extends React.Component {
     window.addEventListener("resize", this.handleResize);
   }
 
-  componetDidUpdate(prevProps) {
+  componentDidUpdate(prevProps) {
     if (this.props.userId !== prevProps.userId) {
       this.fetchUser();
     }
@@ -78,7 +78,7 @@ Great, our component does what it is supposed to.
 
 #### Hooking Up Our Component
 
-Now let's take a look at how the same component would look if we would use hooks.
+Now let's take a look at how the same component would look if we would use Hooks.
 
 ```js
 function UserProfile({ userId }) {
@@ -115,17 +115,17 @@ function UserProfile({ userId }) {
 
 We can immediately notice that our component got shorter, which is usually a good thing. But I would also argue that our component got easier to read and understand. Of course, this is always going to be subjective. But for the sake of the argument, let me hypothesize why one might get this feeling of reduced complexity.
 
-I think the reason that this functional version of our component is easier to understand lies in **the way the component logic is organized**. To demonstrate this point, I put both versions side by side and added some color coding. (Yellow: Code related to user data, Red: Code related to screen size)
+I think the reason that this function version of our component is easier to understand lies in **the way the component logic is organized**. To demonstrate this point, I put both versions side by side and added some color coding. (Yellow: Code related to user data, Red: Code related to screen size)
 
 ![Component comparison](/assets/img/pages/blog/images/react-hooks-component-comparison.png)
 
-We can see that in the functional component, each logic is much more grouped together than in the class component. This not only makes our component easier to read top to bottom but also easier to extract logic from.
+We can see that in the function component, each logic is much more grouped together than in the class component. This not only makes our component easier to read top to bottom but also easier to extract logic from.
 
 #### Going Further
 
 Now that we have rewritten our component as a function, let's think about how we can improve it even further.
 
-Let's say we wanted to reuse some of our component logic in another place. We could decide to just copy and paste the logic we want to reuse, but React now provides us with a better way: Custom hooks. Custom hooks allow you to extract your component logic into reusable functions. Here's how they would look for our `UserProfile` component:
+Let's say we wanted to reuse some of our component logic in another place. We could decide to just copy and paste the logic we want to reuse, but React now provides us with a better way: Custom Hooks. Custom Hooks allow you to extract your component logic into reusable functions. Here's how they would look for our `UserProfile` component:
 
 ```js
 function useUser(userId) {
@@ -177,3 +177,7 @@ function UserProfile({ userId }) {
 ```
 
 On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component we want to use it. 🎉
+
+<br />
+
+**Even though we haven't been rewriting all our apps with Hooks here at ePages, we have already found great value in using them for our refactors and new components. We are hooked, are you?**
