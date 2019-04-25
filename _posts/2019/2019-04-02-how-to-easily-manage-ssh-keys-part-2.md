@@ -11,22 +11,23 @@ authors: ["Carsten"]
 about_authors: ["cseeger"]
 ---
 
-## Implementing the backend
+In the previous post [How to easily manage SSH keys](/blog/tech-stories/how-to-easily-manage-ssh-keys/) we discussed how to manage SSH keys.
+Now it's time to implement the backend.
 
-In the last part we created our information storage. Now its time to implement the backend.
+If you've read my other blog posts, you know I'm a big fan of [Golang](https://golang.org/){:target="_blank"}.
+So it's no a surprise that both, the API and the frontend are written in Golang.
+I've also written and do maintain a Golang [client library impementation](https://github.com/cseeger-epages/i-doit-go-api){:target="_blank"} for i-doit.
 
-You may read my other blogposts and recognized that im a big fan of [Golang](https://golang.org/){:target="_blank"} and both the API and frontend is written in it.
-Also i've written and maintain a [client library impementation](https://github.com/cseeger-epages/i-doit-go-api){:target="_blank"} for i-doit in golang.
-
-For writting REST APIs in golang there are quite some good tutorials on the internet and there are also some good frameworks.
-But i've written my own from scratch which you can find [here](https://github.com/cseeger-epages/restfool-go){:target="_blank"}.
+There are some good tutorials and frameworks on the internet for writing REST APIs in Golang.
+But I've written my own from scratch which you can find [here](https://github.com/cseeger-epages/restfool-go){:target="_blank"}.
 There are also some simple examples for implementing handler and path routing stuff in the [examples section](https://github.com/cseeger-epages/restfool-go/tree/master/examples){:target="_blank"}.
 
-So we can concentrate on the CMDB specific parts.
+Let's concentrate on the CMDB-specific parts.
 Also the nessesary information should be provided by the user using HTTP POST as data payload.
 
-To not mess with authentication we use the authentication of the i-doit API and just pass username and password through (or create a token).
-We now need to get the user id and the following simple trick helps us here:
+To not mess with authentication we use the authentication of the i-doit API, and just pass username and password through (or create a token).
+We now need to get the user id.
+The following simple trick helps us here:
 
 ```
   a, err := goidoit.NewLogin(URL, APIKEY, USERNAME, PASSWORD)
@@ -41,7 +42,7 @@ We now need to get the user id and the following simple trick helps us here:
     // put your error handling here
   }
 ```
-To store our ssh keys we can use the following struct
+To store our ssh keys we can use the following structure:
 
 ```
 // SSHKey contains ssh key information
@@ -53,7 +54,7 @@ type SSHKey struct {
   Date    string `json:"date"`
 }
 ```
-and get the ssh-keys for the user
+and get the SSH keys for the user:
 
 ```
 
@@ -63,10 +64,10 @@ and get the ssh-keys for the user
   }
 
 ```
-That was easy but now comes the tricky part you need the custom field specific index.
-You will find it in the configuration page where you created the custom category under **show technical configuration**.
-The indexes here are just examples so don't try to use them.
-Now just loop over the result and map them to fit the struct.
+That was easy, but now comes the tricky part: we need the custom field specific index.
+You will find it on the configuration page where you created the custom category under **show technical configuration**.
+The indexes listed there are just examples so don't try to use them.
+Now just loop over the result, and map them to fit the structure.
 
 ```
   var sshKeys []SSHKey
@@ -97,17 +98,18 @@ Now just loop over the result and map them to fit the struct.
     }
   }
 ```
-Dont be confused by lines like this
+Don't be confused by lines like this:
 
 ```
   v["f_dialog_c_1510835574647"].(map[string]interface{})["title"].(string)
 ```
-the `.(map[string]interface{})` is a concept in go called [type assertions](https://tour.golang.org/methods/15){:target="_blank"} that just assigns a specific type to an interface.
+The `.(map[string]interface{})` is a concept in Golang called [type assertions](https://tour.golang.org/methods/15){:target="_blank"} that just assigns a specific type to an interface.
 In our case we assign `map[string]interface{}` to it which is similar to an associative array where the key is a string and the value itself is also just `interface{}`.
-Then the index `title` is called and the `string` type is assigned to the interface.
-I say similar to arrays because go does not often make use of arrays, it has [slices](https://www.godesignpatterns.com/2014/05/arrays-vs-slices.html){:target="_blank"}.
+Then the index `title` is called, and the `string` type is assigned to the interface.
+I mean it's "similar to arrays", because Golang does not often make use of arrays, it has [slices](https://www.godesignpatterns.com/2014/05/arrays-vs-slices.html){:target="_blank"}.
 
 If you want to add a key to a user you can do this more or less the same way:
+
 ```
   keyData := struct {
     SSHKey  string `json:"f_text_c_1506425983066"`
@@ -122,17 +124,17 @@ If you want to add a key to a user you can do this more or less the same way:
     // put your error handling here
   }
 ```
-this adds a new ssh-key.
+This adds a new SSH key.
 
 We now know everyting to implement specific filters and combinations e.g:
 
-- selecting a group from our cmdb and getting all members and then getting all ssh-keys (and maybe filter them)
-- we could easly just add people to existing querys that already contain one or more groups
-- of course filtering the label, date, primary whatever is no problem
+- selecting a group from our CMDB, getting all members, and then getting all SSH keys (and maybe filter them)
+- adding people easily to existing querys that already contain one or more groups
+- of course filtering the label, date, primary, or whatever is no problem.
 
-Also our beloved friend `curl` the comandline data transfer tool can be used against our API.
+Also `curl` can be used against our API.
 
-An example could look like this:
+An example may look like this:
 
 ```
 curl -X POST -H "Authorization: Basic $(echo 'user:password' | base64)" \
@@ -145,8 +147,8 @@ curl -X POST -H "Authorization: Basic $(echo 'user:password' | base64)" \
  https://ssh-api-url/key/export | jq -r '.["authorized_keys"]'
 ```
 
-The `[]group` array is used to add groups to our query `[]add` to simply add person and `[]label` lets us filter for specific labels.
-I added the `raw` attribute to be able to get the keys as a data block instead of getting every key via a seperate JSON structure.
+The `[]group` array is used to add groups to our query `[]add` to simply add persons and `[]label` lets us filter for specific labels.
+I added the `raw` attribute to be able to get the keys as a data block instead of getting every key via a separate JSON structure.
 
 which is just a difference between:
 ```
@@ -165,13 +167,13 @@ type AuthKeysResponse struct {
 }
 
 ```
-Since everything is return as JSON we can use a cli tool called `jq` to parse the whole stuff.
-
-Using `curl` it is easy to implement a bash script wrapper to simplify the commandline usage.
+Since everything is returned as JSON we can use a CLI tool called `jq` to parse the whole stuff.
+Using `curl` it is easy to implement a bash script wrapper to simplify the command line usage.
 
 From here on we should have a working API as a good foundation to create a frontend.
+It's now up to you to implement the API into a fully grown frontend service.
+But to give you some hints how this can look like, here is a picture of what I did:
 
-I leave it to the reader to implement the API into a fully grown frontend service.
-But to give you some hints how this could look like here is a picture of what i did.
+{% image_custom lightbox image="/assets/img/pages/blog/images/ssh-key-frontend.png" width="50" %}
 
-{% image_custom lightbox image="/assets/img/pages/blog/images/ssh-key-frontend.png"  width="50" %}
+Happy coding!
