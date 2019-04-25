@@ -2,7 +2,7 @@
 layout: post
 title: How To Improve Your Components With React Hooks
 date: 2019-05-11
-header_image: public/react-hooks.png
+header_image: public/react-hooks.jpg
 header_position: center
 category: coding
 tags: ["javascript", "reactjs"]
@@ -31,45 +31,45 @@ class UserProfile extends React.Component {
   state = {
     isMobile: window.innerWidth <= 1024,
     user: null
-  }
+  };
 
   componentDidMount() {
-    this.fetchUser()
-    window.addEventListener('resize', this.handleResize)
+    this.fetchUser();
+    window.addEventListener("resize", this.handleResize);
   }
 
   componetDidUpdate(prevProps) {
     if (this.props.userId !== prevProps.userId) {
-      this.fetchUser()
+      this.fetchUser();
     }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleResize)
+    window.removeEventListener("resize", this.handleResize);
   }
 
   handleResize = () => {
     if (this.state.isMobile && window.innerWidth > 1024) {
-      this.setState({ isMobile: false })
+      this.setState({ isMobile: false });
     } else if (!this.state.isMobile && window.innerWidth <= 1024) {
-      this.setState({ isMobile: true })
+      this.setState({ isMobile: true });
     }
-  }
+  };
 
   fetchUser = () => {
-    fetch('https://some-api.com/user/' + this.props.userId)
+    fetch("https://some-api.com/user/" + this.props.userId)
       .then(response => response.json())
-      .then(user => this.setState({ user }))
-  }
+      .then(user => this.setState({ user }));
+  };
 
   render() {
-    if (!this.state.user) return null
+    if (!this.state.user) return null;
     return (
       <div>
         {!this.state.isMobile && <img src={this.state.user.image} />}
         <p>{this.state.user.name}</p>
       </div>
-    )
+    );
   }
 }
 ```
@@ -82,37 +82,34 @@ Now let's take a look at how the same component would look if we would use hooks
 
 ```js
 function UserProfile({ userId }) {
-  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 1024)
-  const [user, setUser] = React.useState(null)
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 1024);
+  const [user, setUser] = React.useState(null);
 
   React.useEffect(() => {
     const handleResize = () => {
       if (isMobile && window.innerWidth > 1024) {
-        setIsMobile(false)
+        setIsMobile(false);
       } else if (!isMobile && window.innerWidth <= 1024) {
-        setIsMobile(true)
+        setIsMobile(true);
       }
-    }
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  React.useEffect(
-    () => {
-      fetch('https://some-api.com/user/' + userId)
-        .then(response => response.json())
-        .then(user => setUser(user))
-    },
-    [userId]
-  )
+  React.useEffect(() => {
+    fetch("https://some-api.com/user/" + userId)
+      .then(response => response.json())
+      .then(user => setUser(user));
+  }, [userId]);
 
-  if (!user) return null
+  if (!user) return null;
   return (
     <div>
       {!isMobile && <img src={user.image} />}
       <p>{user.name}</p>
     </div>
-  )
+  );
 }
 ```
 
@@ -132,36 +129,33 @@ Let's say we wanted to reuse some of our component logic in another place. We co
 
 ```js
 function useUser(userId) {
-  const [user, setUser] = React.useState(null)
+  const [user, setUser] = React.useState(null);
 
-  React.useEffect(
-    () => {
-      fetch('https://some-api.com/user/' + userId)
-        .then(response => response.json())
-        .then(user => setUser(user))
-    },
-    [userId]
-  )
+  React.useEffect(() => {
+    fetch("https://some-api.com/user/" + userId)
+      .then(response => response.json())
+      .then(user => setUser(user));
+  }, [userId]);
 
-  return user
+  return user;
 }
 
 function useResponsive() {
-  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 1024)
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 1024);
 
   React.useEffect(() => {
     const handleResize = () => {
       if (isMobile && window.innerWidth > 1024) {
-        setIsMobile(false)
+        setIsMobile(false);
       } else if (!isMobile && window.innerWidth <= 1024) {
-        setIsMobile(true)
+        setIsMobile(true);
       }
-    }
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  return isMobile
+  return isMobile;
 }
 ```
 
@@ -169,16 +163,16 @@ Now that we have extracted the different pieces of component logic, we can reuse
 
 ```js
 function UserProfile({ userId }) {
-  const user = useUser(userId)
-  const isMobile = useResponsive()
+  const user = useUser(userId);
+  const isMobile = useResponsive();
 
-  if (!user) return null
+  if (!user) return null;
   return (
     <div>
       {!isMobile && <img src={user.image} />}
       <p>{user.name}</p>
     </div>
-  )
+  );
 }
 ```
 
