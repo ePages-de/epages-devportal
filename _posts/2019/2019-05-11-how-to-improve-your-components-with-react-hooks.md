@@ -1,0 +1,182 @@
+---
+layout: post
+title: How To Improve Your Components With React Hooks
+date: 2019-05-11
+header_image: public/react-hooks.png
+header_position: center
+category: coding
+tags: ["javascript", "reactjs"]
+authors: ["Jonathan"]
+about_authors: ["jwieben"]
+---
+
+## How To Improve Your Components With React Hooks
+
+The React world has been going crazy over the new Hooks API that was released a few months ago. New libraries for hooks are appearing left and right and everyone seems to be rewriting their apps with them.
+
+So what is it about hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that hooks bring to the table: **They allow you to organize your component logic in a simpler way.**
+
+I am going to illustrate this by writing the same component in two ways, with and without hooks, and later compare them.
+
+#### A Typical Class Component
+
+Let's assume we wanted to write a `UserProfile` component, that displays a users profile picture next to their name. We also want the profile picture to be hidden when the window width is fewer than 1024 pixels.
+
+In order to achieve this, we are going to need some state. It should store the user data as well as a flag indicating if we are on a small screen. We will use the components lifecycle methods to set and update these values.
+
+Here's how such a component might look:
+
+```js
+class UserProfile extends React.Component {
+  state = {
+    isMobile: window.innerWidth <= 1024,
+    user: null
+  }
+
+  componentDidMount() {
+    this.fetchUser()
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  componetDidUpdate(prevProps) {
+    if (this.props.userId !== prevProps.userId) {
+      this.fetchUser()
+    }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize)
+  }
+
+  handleResize = () => {
+    if (this.state.isMobile && window.innerWidth > 1024) {
+      this.setState({ isMobile: false })
+    } else if (!this.state.isMobile && window.innerWidth <= 1024) {
+      this.setState({ isMobile: true })
+    }
+  }
+
+  fetchUser = () => {
+    fetch('https://some-api.com/user/' + this.props.userId)
+      .then(user => this.setState({ user }))
+  }
+
+  render() {
+    if (!this.state.user) return null
+    return (
+      <div>
+        {!this.state.isMobile && <img src={this.state.user.image} />}
+        <p>{this.state.user.name}</p>
+      </div>
+    )
+  }
+}
+```
+
+Great, our component does what it is supposed to.
+
+#### Hooking Up Our Component
+
+Now let's take a look at how the same component would look if we would use hooks.
+
+```js
+function UserProfile({ userId }) {
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 1024)
+  const [user, setUser] = React.useState(null)
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      if (isMobile && window.innerWidth > 1024) {
+        setIsMobile(false)
+      } else if (!isMobile && window.innerWidth <= 1024) {
+        setIsMobile(true)
+      }
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  React.useEffect(
+    () => {
+      fetch('https://some-api.com/user/' + userId)
+        .then(user => setUser(user))
+    },
+    [userId]
+  )
+
+  if (!user) return null
+  return (
+    <div>
+      {!isMobile && <img src={user.image} />}
+      <p>{user.name}</p>
+    </div>
+  )
+}
+```
+
+We can immediately notice that our component got shorter, which is usually a good thing. But I would also argue that our component got easier to read and understand. Of course, this is always going to be subjective. But for the sake of the argument, let me hypothesize why one might get this feeling of reduced complexity.
+
+I think the reason that this functional version of our component is easier to understand lies in **the way the component logic is organized**. To demonstrate this point, I put both versions side by side and added some color coding. (Yellow: Code related to user data, Red: Code related to screen size)
+
+![Screenshot 2019-04-24 at 15.49.52](/Users/jonathan-wieben/Desktop/Screenshot 2019-04-24 at 15.49.52.png)
+
+We can see that in the functional component, each logic is much more grouped together than in the class component. This not only makes our component easier to read top to bottom but also easier to extract logic from.
+
+#### Going Even Further
+
+Now that we have rewritten our component as a function, let's think about how we can improve it even further.
+
+Let's say we wanted to reuse some of our component logic in another place. We could decide to just copy and paste the logic we want to reuse, but React actually gives us a better way: Custom hooks. Custom hooks allow you to extract your component logic into reusable functions. Here's how they would look for our `UserProfile` component:
+
+```js
+function useUser(userId) {
+  const [user, setUser] = React.useState(null)
+
+  React.useEffect(
+    () => {
+      fetch('https://some-api.com/user/' + userId)
+        .then(user => setUser(user))
+    },
+    [userId]
+  )
+
+  return user
+}
+
+function useResponsive() {
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 1024)
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      if (isMobile && window.innerWidth > 1024) {
+        setIsMobile(false)
+      } else if (!isMobile && window.innerWidth <= 1024) {
+        setIsMobile(true)
+      }
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  return isMobile
+}
+```
+
+Now that we have extracted the different pieces of component logic, we can reuse them in our `UserProfile` component.
+
+```js
+function UserProfile({ userId }) {
+  const user = useUser(userId)
+  const isMobile = useResponsive()
+
+  if (!user) return null
+  return (
+    <div>
+      {!isMobile && <img src={user.image} />}
+      <p>{user.name}</p>
+    </div>
+  )
+}
+```
+
+On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component where we want to use it. 🎉
