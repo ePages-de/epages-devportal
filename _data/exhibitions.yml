@@ -1,54 +1,52 @@
-- title: DevOps Gathering
-  description: We are participating in this event.
-  link: https://devops-gathering.io/
-  date: 11.-13. Mar 2019
-  time:
-  address: Zentrum für IT Sicherheit<br>Lise-Meitner-Allee 4<br>44801 Bochum
-
-- title: HackerX (Backend)
-  description: We are participating in this event.
-  link:
-  date: 27. Mar 2019
-  time: '19:00 - 22:00'
-  address: Kreditech<br>Ludwig-Erhard-Str. 1, 8th floor<br>20453 Hamburg
-
-- title: Gravity +
-  description: We are participating in this event.
-  link: https://www.gravity-conference.com/
-  date: 4.-5. Apr 2019
-  time:
-  address: Ellington Hotel Berlin<br>Nürnberger Str. 50-55<br>10789 Berlin
+- title: IT KoM
+  link: https://ai.fh-erfurt.de/en/itk/
+  date: 9. May 2019
+  time: '9:30 - 14:30'
+  address: FH Erfurt, Haus 8<br>Altonaer Straße 25<br>99085 Erfurt
 
 - title: Karrieremesse Schmalkalden
-  description: We are exhibiting at this event.
   link: https://www.karrieremesse-schmalkalden.de/
   date: 15. May 2019
   time: '11:00 - 16:00'
   address: Hochschule Schmalkalden<br>Blechhammer 9<br>98574 Schmalkalden
 
+- title: ACE! 2019
+  link: https://aceconf.com/#!/home
+  date: 23.-24. May 2019
+  time:
+  address: Multikino<br>ul. Dobrego Pasterza 128<br>Kraków
+
+- title: Data Science Day Jena
+  link: https://www.fmi.uni-jena.de/Fakult%C3%A4t/Aktivit%C3%A4ten+der+Fakult%C3%A4t/Veranstaltungen/Data+Science+Day+Jena/Data+Science+Day+2019.html
+  date: 29. May 2019
+  time: '13:00 - 20:00'
+  address: Universität Jena, Rosensäle<br>Fürstengraben 27<br>07743 Jena
+
 - title: Stellenwerk Jobmesse
-  description: We are exhibiting at this event.
   link: https://www.stellenwerk-jobmesse.de/hamburg/
   date: 4. Jun 2019
   time: '11:00 - 18:00'
   address: Universität Hamburg<br>Edmund-Siemers-Allee 1<br>20146 Hamburg
 
 - title: Firmenkontaktbörse FSU Jena
-  description: We are exhibiting at this event.
   link: http://www.sft.uni-jena.de/Firmenkontaktboerse.html
   date: 5. Jun 2019
   time:
   address: Friedrich-Schiller-Universität Jena<br>Fürstengraben 1<br>07743 Jena
 
 - title: Firmenkontaktmesse FH Wedel
-  description: We are exhibiting at this event.
   link: https://www.fh-wedel.de/studieren/international/incomings/
   date: 13.-14. Jun 2019
   time:
   address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
 
+- title: Jobwalk Jena
+  link: https://jena.jobwalk.city/
+  date: 22. Jun 2019
+  time:
+  address: Marktplatz<br>00743 Jena
+
 - title: Karrieremesse inovailmenau
-  description: We are exhibiting at this event.
   link: https://inova-ilmenau.de/inova/
   date: 22.-23. Oct 2019
   time: '10:00 - 16:00'
