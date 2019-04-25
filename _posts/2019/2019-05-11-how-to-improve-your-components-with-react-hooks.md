@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Improve Your Components With React Hooks
+title: How to improve your components with React Hooks
 date: 2019-05-11
 header_image: public/react-hooks.jpg
 header_position: center
@@ -10,7 +10,7 @@ authors: ["Jonathan"]
 about_authors: ["jwieben"]
 ---
 
-## How To Improve Your Components With React Hooks
+## How to improve your components with React Hooks
 
 The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html){:target="_blank"} that was released a few months ago. New libraries for Hooks are appearing left and right and everyone seems to be rewriting their apps with them.
 
@@ -18,7 +18,7 @@ So what is it about Hooks that people are so excited about? Well, there are a va
 
 I am going to illustrate this by writing the same component in two ways, with and without Hooks, and later compare them.
 
-#### A Typical Class Component
+#### A typical class component
 
 Let's assume we wanted to write a `UserProfile` component, that displays a users profile picture next to their name. We also want the profile picture to be hidden when the window width is fewer than 1024 pixels (you'd probably use CSS for that, but we are going to do it the JS-way for demonstrational purposes).
 
@@ -76,7 +76,7 @@ class UserProfile extends React.Component {
 
 Great, our component does what it is supposed to.
 
-#### Hooking Up Our Component
+#### Hooking up our component
 
 Now let's take a look at how the same component would look if we would use Hooks.
 
@@ -121,7 +121,7 @@ I think the reason that this function version of our component is easier to unde
 
 We can see that in the function component, each logic is much more grouped together than in the class component. This not only makes our component easier to read top to bottom but also easier to extract logic from.
 
-#### Going Further
+#### Going further
 
 Now that we have rewritten our component as a function, let's think about how we can improve it even further.
 
