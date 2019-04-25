@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Hooks - What All The Fuss Is About
+title: React Hooks - What all the fuss is about
 date: 2019-05-04
 header_image: public/react-hooks.jpg
 header_position: center
@@ -10,11 +10,11 @@ authors: ["Jonathan"]
 about_authors: ["jwieben"]
 ---
 
-## React Hooks - What All The Fuss Is About
+## React Hooks - What all the fuss is about
 
 Reacts new Hooks have been all the rage these last few months. You might have heard about them without really understanding what they are and why so many people are so excited about them. Maybe you have asked yourself why a simple API proposal would get [thousand of comments and reactions on its RFC](https://github.com/reactjs/rfcs/pull/68){:target="_blank"}. This post intends to help you understand some of the hype.
 
-#### What Are Hooks?
+#### What are Hooks?
 
 Hooks are an addition to React, that was released in February 2019. To explain what they do, I'll have to give some background on Reacts API.
 
@@ -26,19 +26,19 @@ React lets developers split their UI into components. A component can do a varie
 
 And that's where hooks come in. **Hooks allow you to do all the things you previously needed classes for, inside a function-component.** 🎉
 
-#### What Makes Them So Great?
+#### What makes them so great?
 
 Now you might be asking yourself: What's the big deal? You can write your components in a different way, what's so crazy about that?
 
 In some ways you'd be right, there's nothing fundamentally new here. But **React Hooks solve a variety of problems**. I want to hit on a few of them here.
 
-##### Improved Reusability
+##### Improved reusability
 
 Before Hooks, React didn't provide a way to "attach" reusable behavior to a component. Instead, patterns emerged that would allow sharing stateful behavior between components. These, however, were burdensome and made the code harder to follow.
 
 With hooks, stateful logic can be extracted into independent pieces of code that are easily shared between components and projects.
 
-##### Reduced Complexity
+##### Reduced complexity
 
 When a class-component increases in complexity, it tends to grow into an unmaintainable mess. That's because class-components make your organize your logic in lifecycle methods. As a result, you end up with lifecycle methods that contain a mix of unrelated logic. If you now wanted to take out a specific behavior of your component and move it to a different one, you would have to go look at all the different lifecycle methods and extract only the parts you need and put them somewhere else. This is hard and makes refactoring painful.
 
@@ -52,6 +52,6 @@ With hooks, all these problems fade away. You can do anything you want with a fu
 
 **No confusion about how to use classes and no fighting over when to use them.** 🎉
 
-#### What Does This Mean For Me?
+#### What does this mean for me?
 
 If you are not working with React, this new API won't affect you much. Except that your developers that do work with React might have a better time coding and as a result will be more effective at building cool and stable UIs. It probably also means that React is not going away anytime soon, as the React-team keeps innovating while at the same time providing a great developer-experience.
