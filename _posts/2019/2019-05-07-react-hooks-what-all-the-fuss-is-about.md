@@ -44,11 +44,11 @@ The new Hooks API, on the other hand, allows you to separate your component into
 
 ### Classes can be confusing
 
-Classes are one of the harder things for React-beginners to understand and master. They tend to be quite verbose and come with some quirks one has to be aware of. And even experienced React developers struggle with when to use a class and when to use a function.
+Classes are one of the harder things for React-beginners to understand and master. They tend to be quite verbose and come with some quirks one has to be aware of. And even experienced React developers struggle when to use a class and when to use a function.
 
 With hooks, all these problems fade away. You can do anything you want with a function-component now, and hooks will most likely even encourage you to use better patterns for your components.
 
-**No confusion about how to use classes, and no fighting over when to use them.** 🎉
+**No confusion about how to use classes, and no struggle when to use them.** 🎉
 
 ## What does this mean for me?
 
