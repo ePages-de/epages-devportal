@@ -190,6 +190,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: gsanemeterio
+  name: German
+  full_name: German San Emeterio
+  description:  is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
+  image: avatar_male.jpg
+
 - id: hahnert
   name: Heiko
   full_name: Heiko Ahnert
