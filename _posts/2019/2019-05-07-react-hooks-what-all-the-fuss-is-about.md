@@ -4,7 +4,7 @@ title: React Hooks - What all the fuss is about
 date: 2019-05-07
 header_image: public/react-hooks.jpg
 header_position: center
-category: coding
+category: tech-stories
 tags: ["javascript", "reactjs"]
 authors: ["Jonathan"]
 about_authors: ["jwieben"]
