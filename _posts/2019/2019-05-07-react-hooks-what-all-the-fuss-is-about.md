@@ -52,4 +52,6 @@ With hooks, all these problems fade away. You can do anything you want with a fu
 
 ## What does this mean for me?
 
-If you are not working with React, this new API won't affect you much. Except that your developers that do work with React might have a better time coding, and as a result will be more effective at building cool and stable UIs. It probably also means that React is not going away anytime soon, as the React-team keeps innovating, while at the same time provide a great developer experience.
+Even if you're not a React developer, and this new React API won't affect you directly, it will affect your colleagues that **do** work with it. And it will affect them positively, as they will be more effective at building cool and stable UIs.
+
+It probably also means that React is not going away anytime soon, as the React team keeps innovating, while at the same time they provide a great developer experience.
