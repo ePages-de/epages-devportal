@@ -10,7 +10,7 @@ authors: ["Jonathan"]
 about_authors: ["jwieben"]
 ---
 
-Reacts new hooks have been all the rage these last few months. You might have heard about them without really understanding what they are and why so many people are so excited about them. Maybe you have asked yourself why a simple API proposal would get [thousands of comments and reactions on its RFC](https://github.com/reactjs/rfcs/pull/68){:target="_blank"}. This post intends to help you understand some of the hype.
+React's new _Hooks_ have been all the rage these last few months. You might have heard about them without really understanding what they are and why so many people are so excited about them. Maybe you have asked yourself why a simple API proposal would get [thousands of comments and reactions on its RFC](https://github.com/reactjs/rfcs/pull/68){:target="\_blank"}. This post intends to help you understand some of the hype.
 
 ## What are Hooks?
 
@@ -22,7 +22,7 @@ React lets developers split their UI into components. A component can do a varie
 
 **Class-components**, on the other hand, are a bit more complex. They also take props and render UI, but on top of that keep a state and have different so-called lifecycle methods. So if, for instance, you wanted to update your state once some of your props changed, you would use a class-component to do that.
 
-And that's where hooks come in. **Hooks allow you to do all the things you previously needed classes for, inside a function-component.** 🎉
+And that's where Hooks come in. **Hooks allow you to do all the things you previously needed classes for, inside a function-component.** 🎉
 
 ## What makes them so great?
 
@@ -32,9 +32,9 @@ In some ways you'd be right, there's nothing fundamentally new here. But **React
 
 ### Improved reusability
 
-Before hooks, React didn't provide a way to "attach" reusable behavior to a component. Instead, patterns emerged that would allow sharing stateful behavior between components. These, however, were burdensome and made the code harder to follow.
+Before Hooks, React didn't provide a way to "attach" reusable behavior to a component. Instead, patterns emerged that would allow sharing stateful behavior between components. These, however, were burdensome and made the code harder to follow.
 
-With hooks, stateful logic can be extracted into independent pieces of code that are easily shared between components and projects.
+With Hooks, stateful logic can be extracted into independent pieces of code that are easily shared between components and projects.
 
 ### Reduced complexity
 
@@ -44,9 +44,9 @@ The new Hooks API, on the other hand, allows you to separate your component into
 
 ### Classes can be confusing
 
-Classes are one of the harder things for React-beginners to understand and master. They tend to be quite verbose and come with some quirks one has to be aware of. And even experienced React developers struggle when to use a class and when to use a function.
+Classes are one of the harder things for React beginners to understand and master. They tend to be quite verbose and come with some quirks one has to be aware of. And even experienced React developers struggle when to use a class and when to use a function.
 
-With hooks, all these problems fade away. You can do anything you want with a function-component now, and hooks will most likely even encourage you to use better patterns for your components.
+With Hooks, all these problems fade away. You can do anything you want with a function-component now, and Hooks will most likely even encourage you to use better patterns for your components.
 
 **No confusion about how to use classes, and no struggle when to use them.** 🎉
 
