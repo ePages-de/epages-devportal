@@ -180,9 +180,9 @@
 
 - id: fvollert
   name: Frederik
-  full_name: Frederik
-  description: belongs to the epagesdevs content team.
-  image: avatar_male.jpg
+  full_name: Frederik Vollert
+  description: is the founder of PhraseApp.com and shares the team's notoriously bad music taste; he loves rap. Having spent some time in the U.S. as a high-school student and enjoying traveling, he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.
+  image: fvollert.jpg
 
 - id: fziller
   name: Florian
