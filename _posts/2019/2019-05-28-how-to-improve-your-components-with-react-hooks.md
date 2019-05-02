@@ -10,11 +10,11 @@ authors: ["Jonathan"]
 about_authors: ["jwieben"]
 ---
 
-The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html){:target="_blank"} that was released a few months ago. New libraries for hooks are appearing left and right, and everyone seems to be rewriting their apps with them.
+The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html){:target="_blank"} that was released a few months ago. New libraries for Hooks are appearing left and right, and everyone seems to be rewriting their apps with them.
 
-So what is it about hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that hooks bring to the table: **they allow you to organize your component logic in a simpler way.**
+So what is it about Hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that Hooks bring to the table: **they allow you to organize your component logic in a simpler way.**
 
-I am going to illustrate this by writing the same component in two ways, with and without hooks, and later compare them.
+I am going to illustrate this by writing the same component in two ways, with and without Hooks, and later compare them.
 
 ## A typical class component
 
@@ -76,7 +76,7 @@ Great, our component does what it is supposed to.
 
 ## Hooking up our component
 
-Now let's see what the same component would look like if we use hooks.
+Now let's see what the same component would look like if we use Hooks.
 
 ```js
 function UserProfile({ userId }) {
@@ -176,4 +176,4 @@ function UserProfile({ userId }) {
 
 On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component we want. 🎉
 
-Even though we haven't been rewriting all our apps with hooks here at ePages, we have already found great value in using them for our refactors, and new components. We are hooked, are you?
+Even though we haven't been rewriting all our apps with Hooks here at ePages, we have already found great value in using them for our refactors, and new components. We are hooked, are you?
