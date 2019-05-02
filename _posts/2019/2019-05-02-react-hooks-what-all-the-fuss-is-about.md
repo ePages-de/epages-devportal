@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React Hooks - What all the fuss is about
-date: 2019-05-07
+date: 2019-05-02
 header_image: public/react-hooks.jpg
 header_position: center
 category: tech-stories
@@ -14,7 +14,7 @@ React's new _Hooks_ have been all the rage these last few months. You might have
 
 ## What are Hooks?
 
-Hooks are an addition to React, that was released in February 2019. To explain what they do, I'll have to give some background on the React API.
+Hooks are an addition to React, that were released in February 2019. To explain what they do, I'll have to give some background on the React API.
 
 React lets developers split their UI into components. A component can do a variety of things: render UI, keep a state, or fetch data. **There are two ways of writing a component: as a function or as a class.** For the sake of simplicity, I will refer to those different types of components as function-components and class-components for the rest of this blog post.
 
