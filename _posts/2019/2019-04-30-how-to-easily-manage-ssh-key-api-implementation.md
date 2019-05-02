@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to easily manage ssh keys - API implementation
+title: How to easily manage ssh keys - API implementation
 date: 2019-03-31
 header_image: public/ssh-key-management.jpg
 header_position: bottom
@@ -11,16 +11,16 @@ authors: ["Carsten"]
 about_authors: ["cseeger"]
 ---
 
-In the previous post [How to easily manage SSH keys](/blog/tech-stories/how-to-easily-manage-ssh-keys/) we discussed how to manage SSH keys.
-Now it's time to implement the backend.
+In the previous post [How to easily manage SSH keys](/blog/tech-stories/how-to-easily-manage-ssh-keys/) we described how to manage SSH keys.
+Now it's time to implement the backend, to be able to store, request and filter our ssh-keys and create `authorized_keys` files.
 
 If you've read my other blog posts, you know I'm a big fan of [Golang](https://golang.org/){:target="_blank"}.
-So it's no a surprise that both, the API and the frontend are written in Golang.
+So it's no surprise that both, the API and the frontend are written in Golang.
 I've also written and do maintain a Golang [client library impementation](https://github.com/cseeger-epages/i-doit-go-api){:target="_blank"} for i-doit that will be used here.
 
-Before we start a small advice, this post does not touch the basics of implementing a REST API.
-It would be to long to read, so it just covers the specifics of our use case.
-If its your first REST API implementation you may want to look at some tutorials and/or framworks on the internet.
+Before we start, this post does not touch the basics of implementing a REST API.
+It would be too long to read, so it just covers the specifics of our use case.
+If it's your first REST API implementation you may want to look at some tutorials and/or frameworks on the internet.
 I've also written a small [library](https://github.com/cseeger-epages/restfool-go){:target="_blank"} for this purpose where you can find some basic [examples](https://github.com/cseeger-epages/restfool-go/tree/master/examples){:target="_blank"} implementing a simple HTTPS GET handler.
 In our case all data payloads are provided by the user via HTTP(S) POST.
 
@@ -66,9 +66,9 @@ and get the SSH keys for the user:
 
 ```
 
-If you never worked with i-doit before the `C__CATG__CUSTOM_FIELDS_SSHKEYS"` is a global category index used to find specific categorys.
+If you never worked with i-doit before the `C__CATG__CUSTOM_FIELDS_SSHKEYS"` is a global category index used to find specific categories.
 You can find them all in the [JSON-RPC API documentation](https://kb.i-doit.com/pages/viewpage.action?pageId=7831613&preview=/7831613/61015264/i-doit%20JSON-RPC%201.8.3.pdf){:target="_blank"} from idoit.
-`C__CATG__CUSTOM_FIELDS_...` are the global category index of the custom fields we created in the first post.
+`C__CATG__CUSTOM_FIELDS_...` is the global category index of the custom fields we created in the first post.
 We also need a specific field index used for our data fields within our category.
 You will find it on the configuration page of the i-doit CMDB where we created the custom category.
 There you can find all field indexes under **show technical configuration**.
