@@ -1,10 +1,9 @@
 ---
 layout: post
 title: How to easily manage ssh keys - API implementation
-date: 2019-03-31
-header_image: public/ssh-key-management.jpg
+date: 2019-05-09
+header_image: public/ssh-keys.jpg
 header_position: bottom
-header_overlay: true
 category: tech-stories
 tags: ["idoit", "ssh", "development", "tools"]
 authors: ["Carsten"]
@@ -20,7 +19,7 @@ I've also written and do maintain a Golang [client library impementation](https:
 
 Before we start, this post does not touch the basics of implementing a REST API.
 It would be too long to read, so it just covers the specifics of our use case.
-If it's your first REST API implementation you may want to look at some tutorials and/or frameworks on the internet.
+If it's your first REST API implementation, you may want to look at some tutorials and/or frameworks on the internet.
 I've also written a small [library](https://github.com/cseeger-epages/restfool-go){:target="_blank"} for this purpose where you can find some basic [examples](https://github.com/cseeger-epages/restfool-go/tree/master/examples){:target="_blank"} implementing a simple HTTPS GET handler.
 In our case all data payloads are provided by the user via HTTP(S) POST.
 
@@ -66,7 +65,7 @@ and get the SSH keys for the user:
 
 ```
 
-If you never worked with i-doit before the `C__CATG__CUSTOM_FIELDS_SSHKEYS"` is a category index used to find specific categories.
+If you never worked with i-doit before, the `C__CATG__CUSTOM_FIELDS_SSHKEYS"` is a category index used to find specific categories.
 You can find them all in the [JSON-RPC API documentation](https://kb.i-doit.com/pages/viewpage.action?pageId=7831613&preview=/7831613/61015264/i-doit%20JSON-RPC%201.8.3.pdf){:target="_blank"} from idoit.
 `C__CATG__CUSTOM_FIELDS_...` is the category index of the custom fields we created in the first post.
 We also need a specific field index used for our data fields within our category.
@@ -129,7 +128,7 @@ In our case we assign `map[string]interface{}` to it which is similar to an asso
 Then the index `title` is called, and the `string` type is assigned to the interface.
 I mean it's "similar to arrays", because Golang does not often make use of arrays, it has [slices](https://www.godesignpatterns.com/2014/05/arrays-vs-slices.html){:target="_blank"}.
 
-If you want to add a key to a user you can do this more or less the same way:
+If you want to add a key to a user, you can do this more or less the same way:
 
 ```
   keyData := struct {
@@ -147,7 +146,7 @@ If you want to add a key to a user you can do this more or less the same way:
 ```
 This adds a new SSH key.
 
-We now know everyting to implement specific filters and combinations e.g:
+Now we know everyting to implement specific filters and combinations e.g:
 
 - selecting a group from our CMDB, getting all members, and then getting all SSH keys (and maybe filter them)
 - adding people easily to existing querys that already contain one or more groups
