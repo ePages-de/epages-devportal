@@ -11,8 +11,8 @@ authors: ["Carsten"]
 about_authors: ["cseeger"]
 ---
 
-In the previous post [How to easily manage SSH keys](/blog/tech-stories/how-to-easily-manage-ssh-keys/) we described how to manage SSH keys.
-Now it's time to implement the backend, to be able to store, request and filter our ssh-keys and create `authorized_keys` files.
+In the previous post we described [How to easily manage SSH keys](/blog/tech-stories/how-to-easily-manage-ssh-keys/). 
+Now it's time to implement the backend to be able to store, request and filter our ssh-keys and create `authorized_keys` files.
 
 If you've read my other blog posts, you know I'm a big fan of [Golang](https://golang.org/){:target="_blank"}.
 So it's no surprise that both, the API and the frontend are written in Golang.
@@ -26,7 +26,7 @@ In our case all data payloads are provided by the user via HTTP(S) POST.
 
 Let's concentrate on the CMDB-specific parts.
 
-To not mess with authentication we use the authentication of the i-doit API, and just pass username and password through (or create a token).
+To not mess with authentication we use the authentication of the i-doit API and just pass username and password through (or create a token).
 We now need to get the user id.
 The following simple trick helps us here:
 
@@ -66,9 +66,9 @@ and get the SSH keys for the user:
 
 ```
 
-If you never worked with i-doit before the `C__CATG__CUSTOM_FIELDS_SSHKEYS"` is a global category index used to find specific categories.
+If you never worked with i-doit before the `C__CATG__CUSTOM_FIELDS_SSHKEYS"` is a category index used to find specific categories.
 You can find them all in the [JSON-RPC API documentation](https://kb.i-doit.com/pages/viewpage.action?pageId=7831613&preview=/7831613/61015264/i-doit%20JSON-RPC%201.8.3.pdf){:target="_blank"} from idoit.
-`C__CATG__CUSTOM_FIELDS_...` is the global category index of the custom fields we created in the first post.
+`C__CATG__CUSTOM_FIELDS_...` is the category index of the custom fields we created in the first post.
 We also need a specific field index used for our data fields within our category.
 You will find it on the configuration page of the i-doit CMDB where we created the custom category.
 There you can find all field indexes under **show technical configuration**.
@@ -76,7 +76,7 @@ The indexes listed there are just examples so don't try to use them.
 Text fields starts with `f_text_c_` and our yes-no-field is a so called dialog field and starts with `f_dialog_c`.
 
 
-Now just loop over the result, and map them to fit the structure.
+Now just loop over the result and map them to fit the structure.
 
 ```
   var sshKeys []SSHKey
@@ -151,7 +151,7 @@ We now know everyting to implement specific filters and combinations e.g:
 
 - selecting a group from our CMDB, getting all members, and then getting all SSH keys (and maybe filter them)
 - adding people easily to existing querys that already contain one or more groups
-- of course filtering the label, date, primary, or whatever is no problem.
+- of course filtering the label, date, primary or whatever is no problem.
 
 Also `curl` can be used against our API.
 
