@@ -274,6 +274,12 @@
   description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
   image: kmueller.jpg
 
+- id: ksalazar
+  name: Kathia
+  full_name: Kathia
+  description: is a Software Developer with open attitude when it comes to programming languages and frameworks.
+  image: ksalazar.jpg
+
 - id: lbrandt
   name: Lena
   full_name: Lena
