@@ -40,13 +40,7 @@ Getting the paperwork done for the visa was easier than I expected.
 During this process, I got support from Serena, and Elisa, the HR Manager.
 My visa was approved one week after the interview at the German Embassy.
 
-## The sad part
-
-Leaving friends and family is not easy.
-Even worse, if you have an adorable dog that has been with you during the last 15 years 😔 (don't worry, he's well taken care of and living with my mother).
-But life is about challenges, so I didn't hesitate to take this opportunity to live and work in Hamburg.
-
-## The company
+## First days at the company
 
 I had a nice welcome on my first day at work.
 That week, we had the ePages Hackathon.
@@ -64,7 +58,7 @@ We have the daily meetings at 09:15 with Timo, our Product Owner, and Elisa (ano
 
 Parallel to work, I had to take care of some German documents needed, such as the address registration, bank account, and health insurance.
 All that went fine.
-Once I got everything ready, I requested the Blue Card at the immigration office. 
+Once I got everything ready, I requested the Blue Card at the immigration office.
 The only thing I can complain about is that I had to go very early... at 7 a.m!
 
 ## The hardest part
