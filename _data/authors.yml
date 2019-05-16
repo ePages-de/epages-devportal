@@ -436,6 +436,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: sholler
+  name: Stefanie
+  full_name: Stefanie Holler
+  description: is a certified Scrum Master. With a passion for learning as well as for Inspect & Adapt cycles, she uses her background as a facilitator to enhance team and personal development.
+  image: sholler.jpg
+
 - id: skoenig
   name: Silvio
   full_name: Silvio
