@@ -262,11 +262,23 @@
   description: is a Product Owner at ePages. She started her job career as an Editor where she learned to love user-centric values. Taking these values over to Product Management truly matters to her.
   image: kdeharde.jpg
 
+- id: kmueller
+  name: Katja
+  full_name: Katja Müller
+  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  image: kmueller.jpg
+
 - id: kpeskova
   name: Karsten P.
   full_name: Karsten Peskova
   description: is a qualified civil engineer and has held a variety of different jobs since joining the software industry many years ago. He enjoys working directly with our customers, but also solving technical problems of all kinds.
   image: kpeskova.jpg
+
+- id: ksalazar
+  name: Kathia
+  full_name: Kathia Salazar
+  description: is a Software Developer with open attitude when it comes to programming languages and frameworks.
+  image: ksalazar.jpg
 
 - id: kullmann
   name: Katharina
