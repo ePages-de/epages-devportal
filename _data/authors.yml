@@ -180,9 +180,9 @@
 
 - id: fvollert
   name: Frederik
-  full_name: Frederik
-  description: belongs to the epagesdevs content team.
-  image: avatar_male.jpg
+  full_name: Frederik Vollert
+  description: is the founder of PhraseApp.com and shares the team's notoriously bad music taste; he loves rap. Having spent some time in the U.S. as a high-school student and enjoying traveling, he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.
+  image: fvollert.jpg
 
 - id: fziller
   name: Florian
@@ -232,6 +232,12 @@
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg
 
+- id: jwieben
+  name: Jonathan
+  full_name: Jonathan Wieben
+  description: is a JavaScript Engineer with a passion for simplicity, in programming as well as in life.
+  image: jwieben.jpg
+
 - id: jschnegotzki
   name: Jan S.
   full_name: Jan Schnegotzki
@@ -279,6 +285,12 @@
   full_name: Katharina
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
+
+- id: kmueller
+  name: Katja
+  full_name: Katja Müller
+  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  image: kmueller.jpg
 
 - id: lbrandt
   name: Lena
@@ -435,6 +447,12 @@
   full_name: Shippo
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+
+- id: sholler
+  name: Stefanie
+  full_name: Stefanie Holler
+  description: is a certified Scrum Master. With a passion for learning as well as for Inspect & Adapt cycles, she uses her background as a facilitator to enhance team and personal development.
+  image: sholler.jpg
 
 - id: skoenig
   name: Silvio
