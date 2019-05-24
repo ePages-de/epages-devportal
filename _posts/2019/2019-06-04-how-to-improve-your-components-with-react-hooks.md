@@ -10,17 +10,23 @@ authors: ["Jonathan"]
 about_authors: ["jwieben"]
 ---
 
-The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html){:target="_blank"} that was released a few months ago. New libraries for Hooks are appearing left and right, and everyone seems to be rewriting their apps with them.
+The React world has been going crazy over the new [Hooks API](https://reactjs.org/docs/hooks-overview.html){:target="_blank"} that was released a few months ago.
+New libraries for Hooks are appearing left and right, and everyone seems to be rewriting their apps with them.
 
-So what is it about Hooks that people are so excited about? Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that Hooks bring to the table: **they allow you to organize your component logic in a simpler way.**
+So what is it about Hooks that people are so excited about?
+Well, there are a variety of reasons. In this post I would like to focus on one of the central advantages that Hooks bring to the table: **they allow you to organize your component logic in a simpler way.**
 
 I am going to illustrate this by writing the same component in two ways, with and without Hooks, and later compare them.
 
 ## A typical class component
 
-Let's assume we wanted to write a `UserProfile` component, that displays a user's profile picture next to their name. We also want the profile picture to be hidden when the window width is less than 1024 pixels. (You'd probably use CSS for that, but we are going to do it the JS-way for demonstrational purposes.)
+Let's assume we wanted to write a `UserProfile` component, that displays a user's profile picture next to their name.
+We also want the profile picture to be hidden when the window width is less than 1024 pixels.
+(You'd probably use CSS for that, but we are going to do it the JS-way for demonstrational purposes.)
 
-In order to achieve this, we are going to need some state. It should store the user data as well as a flag indicating if we are on a small screen. We will use the component's lifecycle methods to set and update these values.
+In order to achieve this, we are going to need some state.
+It should store the user data as well as a flag indicating if we are on a small screen.
+We will use the component's lifecycle methods to set and update these values.
 
 Here's how such a component might look:
 
@@ -111,9 +117,14 @@ function UserProfile({ userId }) {
 }
 ```
 
-We can immediately notice that our component got shorter, which is usually a good thing. But I would also argue that our component got easier to read and understand. Of course, this is always going to be subjective. But for the sake of the argument, let me hypothesize why one might get this feeling of reduced complexity.
+We can immediately notice that our component got shorter, which is usually a good thing.
+But I would also argue that our component got easier to read and understand.
+Of course, this is always going to be subjective.
+But for the sake of the argument, let me hypothesize why one might get this feeling of reduced complexity.
 
-I think the reason that this function version of our component is easier to understand lies in **the way the component logic is organized**. To demonstrate this point, I put both versions side by side and added some color coding. (Yellow: Code related to user data, Red: Code related to screen size)
+I think the reason that this function version of our component is easier to understand lies in **the way the component logic is organized**.
+To demonstrate this point, I put both versions side by side and added some color coding.
+(Yellow: Code related to user data, Red: Code related to screen size)
 
 ![Component comparison](/assets/img/pages/blog/images/react-hooks-component-comparison.png)
 
@@ -123,7 +134,10 @@ We can see that in the function component, each logic is much more grouped toget
 
 Now that we have rewritten our component as a function, let's think about how we can improve it even further.
 
-Let's say we wanted to reuse some of our component logic in another place. We could decide to just copy and paste the logic we want to reuse, but React now provides us with a better way: custom hooks. Custom hooks allow you to extract your component logic into reusable functions. Here's how they would look for our `UserProfile` component:
+Let's say we wanted to reuse some of our component logic in another place.
+We could decide to just copy and paste the logic we want to reuse, but React now provides us with a better way: custom hooks.
+Custom hooks allow you to extract your component logic into reusable functions.
+Here's how they would look for our `UserProfile` component:
 
 ```js
 function useUser(userId) {
@@ -176,4 +190,9 @@ function UserProfile({ userId }) {
 
 On top of improving the readability of our `UserProfile` even further, we can now reuse our logic in any component we want. 🎉
 
-Even though we haven't been rewriting all our apps with Hooks here at ePages, we have already found great value in using them for our refactors, and new components. We are hooked, are you?
+Even though we haven't been rewriting all our apps with Hooks here at ePages, we have already found great value in using them for our refactors, and new components.
+We are hooked, are you?
+
+## Related posts
+
+[React Hooks - What all the fuss is about](/blog/tech-stories/react-hooks-what-all-the-fuss-is-about/)
