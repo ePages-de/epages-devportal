@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to improve your components with React Hooks
-date: 2019-05-28
+date: 2019-06-04
 header_image: public/metal-hooks.jpg
 header_position: center
 category: coding
