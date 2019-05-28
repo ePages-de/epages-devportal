@@ -36,7 +36,7 @@ What I also took out of the keynote: empathy as a noun is an idea, as an action 
 That was said during the talk “[Build a product based on values](https://aceconf.com/#!/speaker/229/nela-dunato){:target="_blank"}” and was to emphasize that "having values" is not enough.
 The company or team values also need to fit to the employee's skills.
 Only if our values are actually matching our competencies, we can move towards our goals.
-That's also why it doesn't help if values are forced down from the top, either you choose the employees also based on the company values, or you find out the shared values your employees from your current employees.
+That's also why it doesn't help if values are forced down from the top, either you choose the employees also based on the company values, or you find out the shared values from your current employees.
 
 ### "Pair programming with a stranger is like navigating through a city with someone you don’t know; it's probably an axe murderer and speaks a different language than you – and you still need to be nice."
 
