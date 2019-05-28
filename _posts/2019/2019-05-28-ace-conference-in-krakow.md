@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ACE! conference in Krakow
-date: 2019-05-29
+date: 2019-05-28
 header_image: private/ace2019.jpg
 header_position: top
 category: events
