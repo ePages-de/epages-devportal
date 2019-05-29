@@ -119,3 +119,4 @@ Stay tuned on how we made this work 😉.
 ## Related post
 
 * [Why the heck would we need a software localization tool?](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/)
+* [How to cope with a localization tool in action](/blog/language-and-localization/how-to-cope-with-a-localization-tool-in-action/)

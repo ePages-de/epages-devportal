@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to easily manage ssh keys - API implementation
+title: How to easily manage SSH keys - API implementation
 date: 2019-05-09
 header_image: public/ssh-keys.jpg
 header_position: bottom
@@ -179,3 +179,7 @@ But to give you some hints how this can look like, here is a picture of what I d
 {% image_custom lightbox image="/assets/img/pages/blog/images/ssh-key-frontend.png" width="50" %}
 
 Happy coding!
+
+## Related posts
+
+[How to easily manage SSH keys](/blog/tech-stories/how-to-easily-manage-ssh-keys/)
