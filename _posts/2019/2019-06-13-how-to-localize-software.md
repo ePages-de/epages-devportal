@@ -16,7 +16,7 @@ This is a short introduction to best practices that will ensure the flawless int
 No matter if you have different types of content or technical requirements, at the end of your localization process, it should be content that is ready for market release in your chosen locale.
 Learn more about the possibilities and tools you should rely on in the following sections.
 
-## How to Prepare for Software Localization
+## How to prepare for software localization
 
 As a first step, before you can even think about starting the software localization, you need to ensure that your content is ready for [internationalization](https://phraseapp.com/blog/posts/i18n-a-simple-definition/?utm_campaign=i18n-simple-definition&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} (i18n).
 This means your design should take into account different length of strings, the readiness for left-to-right and right-to-left reading, the use of UTF and other various factors.
@@ -30,7 +30,7 @@ Once your internationalization process has been finished, you can proceed to the
 This extraction can happen, for instance, through SaaS as an automated procedure, which saves developers a lot of time and headache previously encountered when preparing sheets and files.
 The automated extraction also allows for fewer errors and ensures that no extras are introduced by the translators during the localization process – a painful reality that used to cause many glitches and bugs in need of fixing in the final revision.
 
-## How to Decide on How to Localize Your Software
+## How to decide on how to localize your software
 
 Now that your content is ready, you can start localizing your software.
 In order to do that, you need to decide whether to keep the localization in your hands and work with a team of translators using a [software localization tool](https://phraseapp.com/blog/posts/questions-to-ask-when-evaluating-the-best-software-localization-tool/?utm_campaign=5-questions-l10n-tool&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"}, or whether to hand the process over to a Language Service Provider (LSP) specialized on software localization.
@@ -46,7 +46,7 @@ In addition, you would like to check that whoever will handle the translation is
 As the last step before handing over the content and having professionals begin translating, you should ensure the expertise of the translators and test for their skills for your specific content.
 This is especially important if you have not previously used glossaries or term bases that can be used for localization, as those will have to be created ideally only by experts in the field.
 
-## Submitting Your Content for Localization
+## Submitting your content for localization
 
 You can extract your strings yourself, have it handled by a software solution or opt for automatic extraction of strings in the platform solution you chose for your software localization.
 However, the strings are not and should not be the only content you submit to your translators or LSP.
@@ -60,7 +60,7 @@ In modern tools and SaaS platforms, you can assign roles accordingly and ensure 
 Embracing the technological possibilities for your localization can only facilitate and shorten your overall time spent.
 Now that you have provided everything for the translators and localization managers, you can focus on other tasks while they work their magic.
 
-## Revision and Iterations of Your Localized Content
+## Revision and iterations of your localized content
 
 Once your content has been localized according to your instructions and terminology, it is critical to ensure the quality of the produced content in its localized version.
 Put another way, there needs to be serious proofreading and revision.
