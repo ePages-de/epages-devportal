@@ -2,7 +2,7 @@
 layout: post
 title: "Guest Post: How to level up your global business with software localization"
 date: 2019-06-13
-header_image: public/localizationPostPhraseApp.jpg
+header_image: public/localization-guest-phraseapp.jpg
 header_position: top
 header_overlay: true
 category: language-and-localization
