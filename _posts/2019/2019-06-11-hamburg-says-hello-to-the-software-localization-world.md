@@ -33,9 +33,9 @@ It definitely was a great start into the day!
 The conference started off with talks related to machine translation and machine learning.
 The speakers mostly had an academic background and worked at universities.
 That's not bad at all, but their talks were a bit too theoretical for my colleague and me.
-But it was definitely worth it for everyone who is into neural vs statistical machine translation, and who is interested the latest researches and findings regarding that topic.
+But it was definitely worth it for everyone who is into neural vs statistical machine translation, and who is interested in the latest researches and findings regarding that topic.
 
-My favorite takeaway was that one way to answer the question *"What makes a translation useful"* is another question: *"How well is who did what to whom, for whom, when, where, why and how preserved in translation".* ([Meriem Beloucif](https://twitter.com/meriembeloucif){:target="_blank"})
+My favorite takeaway was that one way to answer the question *"What makes a translation useful?"* is another question: *"How well is who did what to whom, for whom, when, where, why and how preserved in translation?".* ([Meriem Beloucif](https://twitter.com/meriembeloucif){:target="_blank"})
 
 ## The practical stories
 
