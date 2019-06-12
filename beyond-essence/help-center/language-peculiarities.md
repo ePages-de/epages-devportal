@@ -5,7 +5,7 @@ title: Language peculiarities
 background_image: index.jpg
 ---
 
-Concerning [language](/beyond-essence/content/language/), [grammar](/beyond-essence/content/grammar/), and [spelling and punctuation](/beyond-essence/content/spelling-punctuation/) we stick to the guidelines that we've already mentioned in _Content_.
+Concerning [language](/beyond-essence/content/language/), [grammar](/beyond-essence/content/grammar/), and [spelling and punctuation](/beyond-essence/content/spelling-punctuation/) we stick to our general guidelines.
 The [tone of voice](https://developer.epages.com/beyond-essence/content/tone-of-voice/) is also applied to our Help center.
 
 Apart from that, there are some aspects you additionally need to keep in mind when writing help articles.
