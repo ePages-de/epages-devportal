@@ -18,7 +18,7 @@ background_image: index.jpg
 
 ## Mention the elements
 
-- Explicitly mention the element the user needs to interact with, e.g a checkbox or a card. 
+- Explicitly mention the element the merchant needs to interact with, e.g. a checkbox or a card. 
 - Exception: Only mention the element _button_ if it's absolutely necessary to understand the sentence.
 Otherwise, just write the button label in bold.
 

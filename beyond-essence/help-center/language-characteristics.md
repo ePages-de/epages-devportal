@@ -17,11 +17,11 @@ background_image: index.jpg
 
 **Grammar**
 
-- Use infinitive in the title of a help article. Do NOT use gerundium or direct speech.
+- Use infinitive in the title of a help article. Do not use gerundium or direct speech.
 
 **Terminology**
 
-- Do not use a "computer specific language". E.g. use "select" or "navigate" instead of "click" or "hover with your mouse over..".
+- Use a language that can be applied to touch devices (e.g. tablets and smartphones). E.g. use "select" or "navigate to ..." instead of "click" or "hover with your mouse over...".
 - Use the path to a view if the navigation takes more than one step: "In the sidebar of the cockpit, navigate to **Products > Product overview**."
 
 
@@ -43,7 +43,7 @@ background_image: index.jpg
 
 **Terminology**
 
-- Do not use a "computer specific language". E.g. use "wählen" instead of "klicken".
+- Use a language that can be applied to touch devices (e.g. tablets and smartphones). E.g. use "wählen" instead of "klicken".
 - Use the path to a view if the navigation takes more than one step: "Navigiere in der Seitenleiste des Cockpits zu **Produkte > Produktübersicht**."
 - Use "Shop" instead of "Onlineshop".
 - Use "der", "die", "das" instead of "welcher", "welche", "welches".
