@@ -2,7 +2,7 @@
 layout: beyond-essence
 title: Notifications
 ---
-
+**WORK IN PROGRESS**
 Notifications contain relevant context information and provide permanent support.
 
 ## Use cases
@@ -31,4 +31,4 @@ Coming soon
 
 ## Design
 
-Design wise notifications do not have a shadow like toasts and are in terms of length depending on the white cards.
+In comparison to toast messages, notifications do not have a shadow, and their length depends on the white cards.
