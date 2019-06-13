@@ -180,9 +180,9 @@
 
 - id: fvollert
   name: Frederik
-  full_name: Frederik
-  description: belongs to the epagesdevs content team.
-  image: avatar_male.jpg
+  full_name: Frederik Vollert
+  description: is the founder of PhraseApp.com and shares the team's notoriously bad music taste; he loves rap. Having spent some time in the U.S. as a high-school student and enjoying traveling, he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.
+  image: fvollert.jpg
 
 - id: fziller
   name: Florian
@@ -232,6 +232,12 @@
   description: is a Software Developer with a passion for all things that involve lean processes.
   image: avatar_male.jpg
 
+- id: jwieben
+  name: Jonathan
+  full_name: Jonathan Wieben
+  description: is a JavaScript Engineer with a passion for simplicity, in programming as well as in life.
+  image: jwieben.jpg
+
 - id: jschnegotzki
   name: Jan S.
   full_name: Jan Schnegotzki
@@ -256,11 +262,23 @@
   description: is a Product Owner at ePages. She started her job career as an Editor where she learned to love user-centric values. Taking these values over to Product Management truly matters to her.
   image: kdeharde.jpg
 
+- id: kmueller
+  name: Katja
+  full_name: Katja Müller
+  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  image: kmueller.jpg
+
 - id: kpeskova
   name: Karsten P.
   full_name: Karsten Peskova
   description: is a qualified civil engineer and has held a variety of different jobs since joining the software industry many years ago. He enjoys working directly with our customers, but also solving technical problems of all kinds.
   image: kpeskova.jpg
+
+- id: ksalazar
+  name: Kathia
+  full_name: Kathia Salazar
+  description: is a Software Developer with open attitude when it comes to programming languages and frameworks.
+  image: ksalazar.jpg
 
 - id: kullmann
   name: Katharina
@@ -271,7 +289,7 @@
 - id: kmueller
   name: Katja
   full_name: Katja Müller
-  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
   image: kmueller.jpg
 
 - id: lbrandt
@@ -429,6 +447,12 @@
   full_name: Shippo
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+
+- id: sholler
+  name: Stefanie
+  full_name: Stefanie Holler
+  description: is a certified Scrum Master. With a passion for learning as well as for Inspect & Adapt cycles, she uses her background as a facilitator to enhance team and personal development.
+  image: sholler.jpg
 
 - id: skoenig
   name: Silvio
