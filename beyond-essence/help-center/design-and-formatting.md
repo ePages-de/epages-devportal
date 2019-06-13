@@ -15,6 +15,8 @@ background_image: index.jpg
 - Use **bold** for elements that the user has to select, e.g. buttons, checkboxes, menu items, or radio buttons.
 - Use _italics_ for elements that are mentioned to navigate the user, e.g. cards, views, and input fields.
 
+{% image_custom image="/assets/img/pages/essence/general-formatting.png" width="50" %}
+
 ## Layout 
 
 ### Visuals
@@ -26,7 +28,7 @@ background_image: index.jpg
 
 - To refer to certain elements in an image, use numbers.
 
-{% image_custom image="/assets/img/pages/essence/numbered-image.png" width="50" %}.
+{% image_custom image="/assets/img/pages/essence/numbered-image.png" width="50" %}
 
 ### Info boxes
 
