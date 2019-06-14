@@ -78,3 +78,9 @@ pagination:
   permalink: page-:num
   extension: json
   indexpage: page-1
+
+development:
+  google_api_key: developmentapikey
+
+production:
+  google_api_key: productionapikey

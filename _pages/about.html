@@ -160,6 +160,9 @@ header_image: public/about.jpg
 <link rel="stylesheet" href="/assets/slick/slick-theme.css" />
 <link rel="stylesheet" href="/assets/slick/slick.css" />
 <script src="/assets/slick/slick.min.js"></script>
-<script src="https://maps.google.com/maps/api/js?key=AIzaSyCGIAu5RAopcJys8C-AvN1g4-sJM7jJGt0"
-  type="text/javascript"></script>
+{% if jekyll.environment == 'development' %}
+  <script src="https://maps.google.com/maps/api/js?key={{ site.development.google_api_key }}" type="text/javascript"></script>
+{% else %}
+  <script src="https://maps.google.com/maps/api/js?key={{ site.production.google_api_key }}" type="text/javascript"></script>
+{% endif %}  
 <script src="/assets/js/about.js"></script>
