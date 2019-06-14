@@ -106,6 +106,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: crichter
+  name: Christin
+  full_name: Christin Richter
+  description: is a Localization Expert, writer, and part of the PhraseApp Content Team. She considers innovation a mandatory process, that is enhanced by disruptive technologies and organizations.
+  image: crichter.jpg
+
 - id: cseeger
   name: Carsten
   full_name: Carsten Seeger
