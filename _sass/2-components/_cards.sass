@@ -155,7 +155,7 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
 
     .custom-image
       margin: 0 auto
-      width: 100%
+      width: calc(100% - #{$card-margin-mobile} * 2)
 
       a
         width: 100%
@@ -199,15 +199,21 @@ $widths: 5,10,15,20,25,30,35,40,45,50,100
       &--left
         float: left
         margin-right: $card-margin-mobile
+        margin-left: $card-margin-mobile
+        margin-bottom: $card-margin-mobile
 
         +grid-media($grid-medium)
           margin-right: 4rem
+          margin-left: 6rem
 
       &--right
         float: right
+        margin-right: $card-margin-mobile
         margin-left: $card-margin-mobile
+        margin-bottom: $card-margin-mobile
 
         +grid-media($grid-medium)
+          margin-right: 6rem
           margin-left: 4rem
 
       &__image
