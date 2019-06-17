@@ -80,7 +80,7 @@ pagination:
   indexpage: page-1
 
 development:
-  google_api_key: developmentapikey
+  google_api_key: AIzaSyCGIAu5RAopcJys8C-AvN1g4-sJM7jJGt0
 
 production:
-  google_api_key: productionapikey
+  google_api_key: AIzaSyA93ZtpmR_qGWcFzis2tVGG0biAqEf4B5c
