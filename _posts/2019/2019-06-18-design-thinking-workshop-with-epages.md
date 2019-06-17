@@ -27,14 +27,14 @@ Everyone can benefit from this method, may it be during a roadmap process to ide
 Unlike in other seminars or lectures at the university, in our workshop we encouraged the students to make mistakes and to just try out new approaches.
 The premise of Design Thinking is to fail early and often, to just do, instead of endless contemplations – because this is how you learn the most.
 
-{% image_custom image="/assets/img/pages/blog/images/prototype-inhouse-navigation.png" width="20" align="right" caption="The_prototype_for_the_inhouse_navigation*" %}
-
 With these principles in mind, we started to work on the following design challenge: how can the process of borrowing books in the university's library be improved?
-*(1: displaying the right level, 2: displaying the relevant bookshelf, 3: displaying the exact place, where the book is stored)*
+
+{% image_custom image="/assets/img/pages/blog/images/prototype-inhouse-navigation.png" width="20" align="right" caption="The_prototype_for_the_inhouse_navigation_*" %}
 
 Since this problem was very realistic to the workshop's participants, they could immediately contribute their own experiences, interview other students, and observe the process in reality, or try out the library's app on their own.
 
 Only after 4 hours of workshop session they came up with the great and innovative idea of integrating a map system to the library's app, which navigates the students to the right library (in Jena we have various libraries for different disciplines), and helps the students find the book on the right bookshelf in the appropriate stock.
+As demonstrated in the prototype for the inhouse navigation * , first the right level is shown (1), then the relevant bookshelf is displayed (2), and even the exact place where the book is stored is highlighted (3).
 
 ## Take aways of the workshop
 
