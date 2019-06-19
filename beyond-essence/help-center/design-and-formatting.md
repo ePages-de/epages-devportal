@@ -12,10 +12,10 @@ background_image: index.jpg
 - Keep the overall appearance structured and simple.
 - Use the _Standard_ font size for general text sections.
 - Use the predefined header sizes starting with _Header 2_.
-- Use **bold** for elements that the user has to select, e.g. buttons, checkboxes, menu items, or radio buttons.
-- Use _italics_ for elements that are mentioned to navigate the user, e.g. cards, views, and input fields.
+- Use **bold** formatting for elements that the user has to select, e.g. buttons, checkboxes, menu items, or radio buttons.
+- Use _italic_ formatting for elements that are mentioned to navigate the user, e.g. cards, views, and input fields.
 
-{% image_custom image="/assets/img/pages/essence/general-formatting.png" width="50" %}
+{% image_custom image="/assets/img/pages/essence/updated-purchasability.png" width="50" %}
 
 ## Layout 
 
