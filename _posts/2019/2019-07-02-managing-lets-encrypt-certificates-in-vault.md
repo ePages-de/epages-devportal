@@ -16,6 +16,8 @@ Here at ePages, we use them for testing our products, as well as for protecting 
 **Even though they are free, there is an extra cost: they need renewal (currently every 90 days at most)**.
 If you're interested in how to reduce these costs, keep reading 😉.
 
+## Automating certificate issuance
+
 Certificates get issued after Let's Encrypt validates that users control the domain names in those certificates using the ACME API and "challenges".
 The most popular ones are the HTTP-01 and the DNS-01. The first requires users to get a particular file and serve it via HTTP or HTTPS, so that the Let's Encrypt servers are able to retrieve it.
 The latter uses DNS records respectively, so that Let's Encrypt can validate the domain ownership via queries.
