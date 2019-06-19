@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Managing Let's Encrypt certificates in Vault
-date: 2019-06-20
+date: 2019-07-02
 header_image: public/vault.jpg
 header_position: bottom
 header_overlay: true
