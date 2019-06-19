@@ -99,4 +99,5 @@ Stay tuned.
 
 ## Related post
 
-[Rocking the stage with a software localization tool](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/)
+* [Rocking the stage with a software localization tool](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/)
+* [How to cope with a localization tool in action](/blog/language-and-localization/how-to-cope-with-a-localization-tool-in-action/)

@@ -3,6 +3,7 @@ layout: post
 title: "Guest post: Higher localization quality with static placeholders"
 date: 2016-12-29
 header_image: public/quality.jpg
+header_overlay: true
 category: language-and-localization
 tags: ["localization", "placeholder", "translation", "qa", "terminology"]
 authors: ["Frederik"]
@@ -62,10 +63,3 @@ Complex solutions sometimes look enticing at the beginning, but can lead to addi
 A balanced usage of localization library and format smartness leads to a stable and maintainable translation process.
 
 Using [advanced localization feature](https://phraseapp.com/features){:target="_blank"} should be a topic discussed by all involved parties including your translation team or vendor as they all will have to deal with this long after the localization format initially was introduced and choices to use advanced format feature were made.
-
-## About the author
-
-{% image_custom image="/assets/img/pages/blog/images/blog-phraseapp-fvollert.jpg" width="10" align="left" circle %}
-
-Fred is the founder of [PhraseApp.com](https://phraseapp.com/){:target="_blank"} and shares the team's notoriously bad music taste; he loves rap.
-Having spent some time in the U.S. as a high-school student and enjoying traveling he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.

@@ -147,9 +147,3 @@ But this should be done carefully and it may make the translation process more e
 I would suggest to reduce the complexity in the translation process by using explicit sentences with pluralization and placeholders at most.
 Complex rule-based translation messages usually lead to confusion with external editors or translators, make problems harder to debug and solve and thereby overcomplicate the process.
 Using a [translation management system with a translation memory](https://phraseapp.com){:target="_blank"} and simple ways to manage a large complex word base is key to being able to achieve an [efficient translation process](https://phraseapp.com){:target="_blank"}.
-
-## About the author
-
-{% image_custom image="/assets/img/pages/blog/images/blog-phraseapp-fvollert.jpg" width="10" align="left"  circle %}
-
-Fred is the founder of PhraseApp.com and shares the team's notoriously bad music taste; he loves rap. Having spent some time in the U.S. as a high-school student and enjoying traveling he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.
