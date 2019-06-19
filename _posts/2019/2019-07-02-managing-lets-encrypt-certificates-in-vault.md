@@ -14,7 +14,7 @@ about_authors: ["ikoutras"]
 [Let's Encrypt](https://letsencrypt.org/){:target="_blank"} has facilitated the securing of websites by providing certificates free of charge.
 Here at ePages, we use them for testing our products, as well as for protecting some internal infrastructure.
 **Even though they are free, there is an extra cost: they need renewal (currently every 90 days at most)**.
-If interested in how to reduce this cost 😉, keep reading.
+If you're interested in how to reduce these costs, keep reading 😉.
 
 Certificates get issued after Let's Encrypt validates that users control the domain names in those certificates using the ACME API and "challenges".
 The most popular ones are the HTTP-01 and the DNS-01. The first requires users to get a particular file and serve it via HTTP or HTTPS, so that the Let's Encrypt servers are able to retrieve it.
@@ -33,13 +33,13 @@ HashiCorp's [Vault](https://www.vaultproject.io/){:target="_blank"} secures, sto
 To avoid depending on a single server, we containerize the complete process.
 Since the state is stored in Vault, we are able to run the certificate creation and renewal process anywhere as long as there is Vault access.
 
-A testing setup can be created by using the files provided in [this Gist](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab {:target="_blank"}.
-In the following sections we describe how they are supposed to work and how one issues and renews certificates.
+A testing setup can be created by using the files provided in [this Gist](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab9){:target="_blank"}.
+In the following sections we describe how they are supposed to work, and how one issues and renews certificates.
 
 ## Get Vault ready
 
-Before running anything we need a Vault instance and a proper token to access it.
-For the sake of this post, let's run Vault locally, inside a Docker container:
+Before running anything, we need a Vault instance, and a proper token to access it.
+For the sake of this post, let's run Vault locally inside a Docker container:
 
 ```bash
 $ docker network create certbot-vault-net
@@ -59,12 +59,14 @@ export VAULT_TOKEN=$(docker logs dev-vault 2>&1 | grep 'Root Token' | cut -d ' '
 ```
 
 *Note: On a production environment it is advised to follow the principle of least privilege, i.e., use multiple tokens with different policies, depending on the process.
-When initializing Certbot data and/or creating new certificates, we need write permissions on everything, while when performing certificate renewal, we need read access on most Vault paths and only update permission on the certificates path.*
+When initializing Certbot data and/or creating new certificates, we need write permissions on everything.
+Whereas when performing certificate renewal, we need read access on most Vault paths, and only update permission on the certificates path.*
 
 ## Create a Docker image for Certbot and Vault
 
 Let's embed the Vault client on an official Certbot Docker image.
-As aforementioned, we are going to use DNS-01 challenges to avoid exposing any network ports and re-directing HTTP(S) traffic to this container. More specifically, we are going to use the DNSimple plug-in as seen in the [Dockerfile](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab#file-dockerfile){:target="_blank"}.
+As aforementioned, we are going to use DNS-01 challenges to avoid exposing any network ports and re-directing HTTP(S) traffic to this container.
+More specifically, we are going to use the DNSimple plug-in as seen in the [Dockerfile](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab#file-dockerfile){:target="_blank"}.
 
 The RUN argument is similar to the [official's Vault Docker image](https://github.com/hashicorp/docker-vault/blob/2b7561b55940c35e412c914083e7dd40d21e9193/0.X/Dockerfile#L12-L46){:target="_blank"} with the removal of the `ca-certificates` package which is available from the base image and the addition of the `curl` and `jq` packages that we are going to need later on.
 
@@ -92,9 +94,10 @@ Let's create a Let's Encrypt account:
 $ certbot register --non-interactive --agree-tos -m webmaster@example.com
 ```
 
-where `webmaster@example.com` is the mail address we are using to receive e-mail notifications on certificate expirations.
+where `webmaster@example.com` is the email address we are using to receive email notifications on certificate expirations.
 
-The previous step created some 'state' in `/etc/letsencrypt` inside the container. Let's store it in Vault:
+The previous step created some 'state' in `/etc/letsencrypt` inside the container.
+Let's store it in Vault:
 
 ```bash
 export ACCOUNT_PARENT_PATH=/etc/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory
@@ -147,7 +150,6 @@ Hopefully our Dockerfile includes already some scripts to fix this!
 ### Re-initialize at startup
 
 For the initialization process we shall create a shell script called [initialize.sh](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab#file-initialize-sh){:target="_blank"}.
-
 The script reads the necessary information from the Vault and re-creates the necessary Certbot file structure for certificate issuing and renewal.
 
 ### Updating renewed certificates in Vault
@@ -176,6 +178,6 @@ $ docker stop dev-vault && docker rm dev-vault
 $ docker network rm certbot-vault-net
 ```
 
-## Footnotes
+#### Footnotes
 
 [^vault]: ["Learn about secrets management and data protection with HashiCorp Vault"](https://learn.hashicorp.com/vault/){:target="_blank"}
