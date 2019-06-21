@@ -32,7 +32,7 @@ background_image: index.jpg
 
 ### Info boxes
 
-Use Info boxes to give further reading hints by linking to related articles.
+Use info boxes to give further reading hints by linking to related articles.
 
 **Configuration:**
 
