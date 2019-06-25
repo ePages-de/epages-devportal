@@ -22,7 +22,7 @@ What's more, you can reach many things without using the public transport.
 From the central station to our hotel it was only a 30-minute walk.
 
 The venue for the conference was extraordinary and an absolute highlight.
-It was a ship (!) - the SS Rotterdam.
+It was a ship (!) - the "Rotterdam".
 
 {% image_custom image="/assets/img/pages/blog/images/ssrotterdam.jpg" width="40" lightbox %}
 
