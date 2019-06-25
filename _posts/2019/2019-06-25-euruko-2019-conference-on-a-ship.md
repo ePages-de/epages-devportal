@@ -36,13 +36,14 @@ The first speaker was the creator of Ruby [Yukihiro Matsumoto](https://github.co
 He announced Ruby3 to be launched in December 2020.
 The main novelty will be the static typing.
 But he let us know that he personally doesn't like it because it is not **DRY** (Don't Repeat Yourself).
-He's doing it as a split project to use whoever likes it.
+He's going to slit up the project into ruby and static typing, so everyone can use what they prefer.
 Personally I'm going to try to persuade my team to use it 😃.
 
 {% image_custom image="/assets/img/pages/blog/images/matz-euruko2019.jpg" width="40" lightbox %}
 
 [Hongli Lai](https://twitter.com/honglilai){:target="_blank"} presented us in **What causes Ruby memory bloat?** his solution to the problem of memory fragmentation.
-He mentioned the solution is easy, he applied at function to defragment the memory and showed an app with passed from occupy 230MB without solution to 60MB.
+He mentioned the solution is easy: he presented an easy solution in which he applied a function to defragment the memory.
+When applying this fuction to an app, the memory was reduced from 230 MB to 60 MB.
 The solution that he presented is [Fullstaqruby](https://fullstaqruby.org){:target="_blank"}.
 Even though still in beta, we should not lose sight of it.
 
@@ -76,7 +77,7 @@ If we don't do that, in the future we can have a monster such as the legendary H
 
 Each day we had a special talk: the first day [Melanie Keatley](https://twitter.com/Keatley){:target="_blank"} showed us her owns Pokemons in her talk **It's very effective; using Pokemon to catch all code smells**.
 The second day [Richard Schneeman](https://twitter.com/schneems){:target="_blank"} as [Marie Kondo](https://twitter.com/mariekondo){:target="_blank"} explained us how we can relocate the code in order to optimize our code.
-In this talk he used his dotter as rabbit dubing, that was awesome.
+In this talk he used his daugther as a voice actor for a rabbit - that was awesome.
 
 ## Lighting talks
 
@@ -86,7 +87,7 @@ I've been trying for months that my visual works as with TypeScript.
 Another incredible talk was from Norma Miller who was parsing in real time to transform every talk into text.
 She talked about the machine that she uses, and in that moment more or less she typed 350000 words and had a ratio of 99.65%.
 It was amazing to see how she works!
-Anecdote: a volunteer tried to replace her, and she couldn't make any phrase during her talk.
+Anecdote: a volunteer tried to replace her but couldn't make any phrase while talking.
 
 ## Next stop
 
