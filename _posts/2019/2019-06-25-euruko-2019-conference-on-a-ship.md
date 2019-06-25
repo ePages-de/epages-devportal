@@ -10,7 +10,7 @@ about_authors: ["gsanemeterio"]
 ---
 
 Last week my colleague and I were in Rotterdam for the [European Ruby conference](https://euruko2019.org/){:target="_blank"}.
-As I mentioned in my last [post](https://developer.epages.com/blog/tech-stories/how-i-became-fond-of-ruby-on-rails-as-a-javascript-developer/){:target="_blank"}, Ruby is the main language that we use in our team.
+As I mentioned in my last [post](/blog/tech-stories/how-i-became-fond-of-ruby-on-rails-as-a-javascript-developer/), Ruby is the main language that we use in our team.
 Of course we had to go there!
 
 ## Amazing city, extraordinary venue
