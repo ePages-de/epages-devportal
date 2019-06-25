@@ -42,7 +42,7 @@ Personally I'm going to try to persuade my team to use it 😃.
 {% image_custom image="/assets/img/pages/blog/images/matz-euruko2019.jpg" width="40" lightbox %}
 
 [Hongli Lai](https://twitter.com/honglilai){:target="_blank"} presented us in **What causes Ruby memory bloat?** his solution to the problem of memory fragmentation.
-He mentioned the solution is easy, and showed an app with step to occupy 230MB without solution to 60MB.
+He mentioned the solution is easy, he applied at function to defragment the memory and showed an app with passed from occupy 230MB without solution to 60MB.
 The solution that he presented is [Fullstaqruby](https://fullstaqruby.org){:target="_blank"}.
 Even though still in beta, we should not lose sight of it.
 
@@ -85,7 +85,7 @@ I swear that that was what most pleased me.
 I've been trying for months that my visual works as with TypeScript.
 Another incredible talk was from Norma Miller who was parsing in real time to transform every talk into text.
 She talked about the machine that she uses, and in that moment more or less she typed 350000 words and had a ratio of 99.65%.
-It was amazing to see how she works! 
+It was amazing to see how she works!
 Anecdote: a volunteer tried to replace her, and she couldn't make any phrase during her talk.
 
 ## Next stop
