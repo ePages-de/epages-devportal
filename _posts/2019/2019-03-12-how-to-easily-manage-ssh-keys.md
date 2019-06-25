@@ -84,5 +84,9 @@ The date is used for the creation date of the key (or if that's too long ago, at
 Maybe we will use this later to remind people to generate a new key after some ... years 😉.
 
 Now we have everything in place to implement our new born baby.
-In the follow-up posts we will focus on the implemntation of our API, and discuss some ideas about the frontend part.
+In the follow-up posts we will focus on the implementation of our API, and discuss some ideas about the frontend part.
 Stay tuned.
+
+## Related posts
+
+[How to easily manage SSH keys - API implementation](/blog/tech-stories/how-to-easily-manage-ssh-key-api-implementation/)
