@@ -35,11 +35,13 @@ What's more, our developers had to make adjustments to our microservices to meet
 They also supported our Technical Communicators a lot with all the fine tuning.
 
 (To be honest, it was not really a goodbye to Asciidoctor.
-As it is an integral part to publish our internal developer documentation, it had to remain.)
+We still had to support it to document the (internal) Messaging API of each microservice.
+Keeping Asciidoctor did not mean so much additional effort for our developers, since it's provided by Spring REST Docs already.
+But for our Technical Communicators it was, because they had to keep the .adoc files and the Stoplight texts consistent.)
 
 ## Soft launch
 
-Automatically turning an OpenAPI specification into an API Reference, making the navigation a lot easier, introducing interactivity by sending test requests during document usage, a code generator for a multitude of languages and frameworks, a search... all that made our eyes shine!
+Automatically turning an OpenAPI specification into an API reference, making the navigation a lot easier, introducing interactivity by sending test requests during document usage, a code generator for a multitude of languages and frameworks, a search... all that made our eyes shine!
 And a bunch of Frontend developers were happily using the documentation from the very beginning when we internally launched it.
 That was a good opportunity to try and test the docs before we let any external developer on it. 
 
@@ -51,18 +53,20 @@ From the time we started with the tool until then, the API reference had changed
 New endpoints had been crafted, and the API had grown massively.
 No wonder that we were wondering why, during our final check, lots of these endpoints were missing in Stoplight.
 
-We asked our developers to investigate and the result somewhat surprised us:
-OpenAPI 2 cannot provide different schemas and/or payload examples for a single URI.
-Wow, that was some news!
-So much effort, and now this!
-As our API handles many endpoints with a single URI such as products and variation products, there was no quick and easy solution to solve this issue.
+We asked our developers to investigate, and now this:
+OpenAPI 2 doesn't support multiple schemas and/or payload examples for the same request, if it uses the same HTTP method, resource, content type, and HTTP status code.
+As our API handles many use cases with a single resource, such as products and variation products, there was no quick and easy solution to solve this issue.
 And releasing an incomplete documentation was no option for us.
 
 ## What now?
 
-We figured that OpenAPI 3 caters for different schemas/examples for one URI.
-But implementing that requires backend resources for the rework.
-What's more, Stoplight has OpenAPI 3 in beta mode, and we can't assume it's running flawlessly.
+We figured that OpenAPI 3 caters for different schemas/examples for the same request.
+But we had some question marks about investing time in it's implementation:
+
+* OpenAPI 3 was contributed to our open-source project by externals. It works for their use cases, but does it work for ours as well?
+* Do we really get a benefit when importing it in Stoplight?
+* Stoplight has OpenAPI 3 in beta mode - can we assume it's running flawlessly?
+
 But let me get this right: it's not just about Stoplight - any other “frontend” that we would use with OpenAPI 2 would result in the same problem.
 
 So, after some mourning, we got back to our feet, and back to the roots.
