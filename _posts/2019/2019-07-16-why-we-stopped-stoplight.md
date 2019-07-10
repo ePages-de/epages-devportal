@@ -29,9 +29,10 @@ In short, we wanted to make life easier for developers 😉.
 
 To generate our static [HTML documentation](http://docs.beyondshop.cloud/){:target="_blank"} we use [Spring REST Docs](https://spring.io/projects/spring-restdocs){:target="_blank"}, a test-driven approach to produce documentation for RESTful services.
 For Stoplight to be our new tool, our backend team had to make some considerable effort as the tool consumes [OpenAPI](https://swagger.io/docs/specification/about/){:target="_blank"} specification files.
-For example, they built an [open-source project](https://github.com/ePages-de/restdocs-api-spec){:target="_blank"} to generate OpenAPI 2, OpenAPI 3, and Postman Collections from tests documented with Spring REST Docs.
 
-And what's more, our developers had to make adjustments to our microservices to meet the requirements of OpenAPI, such as adapting the REST integration tests to use URI templates, and each request needed its own description (in addition to the snippet identifier that Spring REST Docs already requires) as well as support our Technical Communicators with the fine tuning.
+For example, they built an [open-source project](https://github.com/ePages-de/restdocs-api-spec){:target="_blank"} to generate OpenAPI 2, OpenAPI 3, and Postman Collections from tests documented with Spring REST Docs.
+What's more, our developers had to make adjustments to our microservices to meet the requirements of OpenAPI, such as adapting the REST integration tests to use URI templates, and each request needed its own description (in addition to the snippet identifier that Spring REST Docs already requires).
+They also supported our Technical Communicators a lot with all the fine tuning.
 
 (To be honest, it was not really a goodbye to Asciidoctor.
 As it is an integral part to publish our internal developer documentation, it had to remain.)
