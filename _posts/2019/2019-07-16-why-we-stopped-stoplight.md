@@ -21,22 +21,17 @@ Now it's just getting interesting, because I'll tell you what led us to the deci
 
 As mentioned in "[On our way to interactive documentation with Stoplight](/blog/api-experience/on-our-way-to-interactive-documentation-with-stoplight/)" we wanted to switch from a static HTML document to [Stoplight](https://stoplight.io/){:target="_blank"} as a documentation solution to provide interactivity and a better usability for users of our API.
 We know that developers not only want to read documentation, they also want to see how an API works.
-Although various rest clients are out there to test an API, we wanted to bring that interactivity directly into our documentation.
+Although various REST clients are out there to test an API, we wanted to bring that interactivity directly into our documentation.
 This way users can learn about our API and try it out in one place instead of having to switch between tools.
 In short, we wanted to make life easier for developers 😉.
 
 ## Goodbye Asciidoctor - Hello OpenAPI
 
 To generate our static [HTML documentation](http://docs.beyondshop.cloud/){:target="_blank"} we use [Spring REST Docs](https://spring.io/projects/spring-restdocs){:target="_blank"}, a test-driven approach to produce documentation for RESTful services.
-For Stoplight to be our new tool, our backend team had to make some considerable effort as the tool is based on [OpenAPI](https://swagger.io/docs/specification/about/){:target="_blank"}.
-For example, they built an [API specification support to Spring REST Docs](https://github.com/ePages-de/restdocs-api-spec){:target="_blank"} that, amongst others, supports OpenAPI.
+For Stoplight to be our new tool, our backend team had to make some considerable effort as the tool consumes [OpenAPI](https://swagger.io/docs/specification/about/){:target="_blank"} specification files.
+For example, they built an [open-source project](https://github.com/ePages-de/restdocs-api-spec){:target="_blank"} to generate OpenAPI 2, OpenAPI 3, and Postman Collections from tests documented with Spring REST Docs.
 
-And what's more, our developers had to:
-
-* make adjustments to our microservices to meet the requirements of OpenAPI
-* build a deployment pipeline
-* adjust the API tests
-* support our Technical Communicators with the fine tuning.
+And what's more, our developers had to make adjustments to our microservices to meet the requirements of OpenAPI, such as adapting the REST integration tests to use URI templates, and each request needed its own description (in addition to the snippet identifier that Spring REST Docs already requires) as well as support our Technical Communicators with the fine tuning.
 
 (To be honest, it was not really a goodbye to Asciidoctor.
 As it is an integral part to publish our internal developer documentation, it had to remain.)
@@ -56,7 +51,7 @@ New endpoints had been crafted, and the API had grown massively.
 No wonder that we were wondering why, during our final check, lots of these endpoints were missing in Stoplight.
 
 We asked our developers to investigate and the result somewhat surprised us:
-OpenAPI V2 cannot provide different schemas and/or payload examples for a single URI.
+OpenAPI 2 cannot provide different schemas and/or payload examples for a single URI.
 Wow, that was some news!
 So much effort, and now this!
 As our API handles many endpoints with a single URI such as products and variation products, there was no quick and easy solution to solve this issue.
@@ -64,16 +59,15 @@ And releasing an incomplete documentation was no option for us.
 
 ## What now?
 
-We figured that OpenAPI V3 caters for different schemas/examples for one URI.
+We figured that OpenAPI 3 caters for different schemas/examples for one URI.
 But implementing that requires backend resources for the rework.
-All these resources are blocked for feature development for the rest of the year.
-What's more, Stoplight has OpenAPI V3 in beta mode, and we can't assume it's running flawlessly.
-But let me get this right: it's not just about Stoplight - any other “frontend” that we would use with OpenAPI V2 would result in the same problem.
+What's more, Stoplight has OpenAPI 3 in beta mode, and we can't assume it's running flawlessly.
+But let me get this right: it's not just about Stoplight - any other “frontend” that we would use with OpenAPI 2 would result in the same problem.
 
 So, after some mourning, we got back to our feet, and back to the roots.
 We tidied up the static HTML document and will continue using it.
 There's some light on the horizon that we tune usability up, and we'll also research some other options that can replace the current HTML documentation in the long run.
-We have [Postman](https://www.getpostman.com/api-documentation-generator){:target="_blank"} on the radar, but we don't want to promise too much yet.
+We have [Postman Collections](https://www.getpostman.com/api-documentation-generator){:target="_blank"} on the radar, but we don't want to promise too much yet.
 
 With us it never gets boring 😉.
 Stay tuned.
