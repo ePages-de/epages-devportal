@@ -35,7 +35,7 @@ HashiCorp's [Vault](https://www.vaultproject.io/){:target="_blank"} secures, sto
 To avoid depending on a single server, we containerize the complete process.
 Since the state is stored in Vault, we are able to run the certificate creation and renewal process anywhere as long as there is Vault access.
 
-A testing setup can be created by using the files provided in [this Gist](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab9){:target="_blank"}.
+A testing setup can be created by using the files provided in [this Gist](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab){:target="_blank"}.
 In the following sections we describe how they are supposed to work, and how one issues and renews certificates.
 
 ## Get Vault ready
