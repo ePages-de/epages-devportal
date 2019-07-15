@@ -1,29 +1,29 @@
 - title: (Senior) Java Developer
   link: https://epages.com/en/career/?jh=2zr2s8sjxdwkvny4wmv8294nn0dc7j3
-  description: As a Senior Java Developer based in Hamburg, you will be part of a tight-knit Scrum team working on a microservice-based architecture.
+  description: Bring your knowledge of Java and Kotlin to work on a microservice architecture for our new ecommerce platform.
   location: Hamburg / Jena
 
-- title: (Mid-level) JavaScript Engineer
-  link: https://epages.com/en/career/?jh=0ml7dxc8s5o3bno9e2tfamouig39b86
-  description: We're looking for product-aware engineers who are thoughtful, responsible and passionate builders and value user experience.
+- title: (Senior) Java Developer
+  link: https://epages.com/en/career/?jh=r6guph7qxv3tltd57aha83e3a69k4fp
+  description: Together with the teams in Hamburg and Jena you'll develop modules in Java and implement features for our new ecommerce platform.
+  location: Barcelona
+
+- title: Scrum Master
+  link: https://epages.com/en/career/?jh=f9onabx9x5t890oxwhwvswmnp878hdh
+  description: Bring your knowledge of agile methods to supervise our Scrum teams with the objective to improve the development cycle.
   location: Hamburg / Jena
-
-- title: Ruby Developer
-  link: https://epages.com/en/career/?jh=3r12t9pp853d18z17601z39yc7tzgqs
-  description: Together with Scrum Master and Product Owner, you are responsible for the development and maintenance of our crucial in-house tools.
-  location: Hamburg
-
-- title: Quality Assurance Engineer
-  link: https://epages.com/en/career/?jh=b5omuicu10n5l3ht9qk41cx4ke28ppr
-  description: You will responsible for assuring excellent quality and usability of our next generation ecommerce platform for SMBs.
-  location: Hamburg
-
-- title: User Experience Manager
-  link: https://epages.com/en/career/?jh=ljbhczh3vtlrfesk78wunm15ir4nqq9
-  description: Based on the results from user research and usability tests you will develop use cases, workflows and wireframes.
-  location: Hamburg
 
 - title: Software developer - ecommerce
   link: https://epages.com/en/career/?jh=3guijs41891ppdzqt0u0fhufovetyp7
-  description: You will be part of a Scrum team and responsible to further develop our ecommerce platform. Ideally you have knowledge of Perl and Java.
+  description: With your knowledge of Perl and Java you'll support our team in Jena to further develop our ecommerce platform.
   location: Jena
+
+- title: Ruby Developer
+  link: https://epages.com/en/career/?jh=3r12t9pp853d18z17601z39yc7tzgqs
+  description: With your skills in Ruby, Rails, JavaScript, and PostgreSQL you are responsible for the development of our crucial in-house tools.
+  location: Hamburg
+
+- title: UX Expert
+  link: https://epages.com/en/career/?jh=ljbhczh3vtlrfesk78wunm15ir4nqq9
+  description: Support our teams with your knowledge of Usability Engineering and UX to craft a great ecommerce experience for our merchants.
+  location: Hamburg
