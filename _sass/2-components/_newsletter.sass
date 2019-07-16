@@ -1,0 +1,48 @@
+.newsletter
+
+  &__label
+    color: $white
+    font-weight: bold
+    font-size: 1.3em
+    width: 100%
+    display: inline-flex
+    margin-bottom: .5em
+
+    +grid-media($grid-large)
+      width: auto
+      padding-right: 1em
+
+    +grid-media($grid-huge)
+    // ToDo: Screen 
+
+  &__wrapper
+    display: flex
+    flex-direction: column
+
+    +grid-media($grid-medium)
+      flex-direction: row
+      justify-content: space-between
+
+    +grid-media($grid-huge)
+    // ToDo: Screen 
+
+  &__input
+    box-sizing: border-box
+    padding: .5em 1em
+    border: 0
+    width: 100%
+    margin-bottom: .5em
+
+    +grid-media($grid-medium)
+      margin-bottom: 0
+      margin-right: 1em
+
+  &__button
+    background-color: $beyond-green
+    color: $white 
+    padding: .5em 1em
+    border: 0
+    width: 100%
+
+    +grid-media($grid-medium)
+      max-width: 25%
