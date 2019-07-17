@@ -1,19 +1,22 @@
 .newsletter
 
+  +grid-media($grid-huge)
+    display: flex
+    align-items: center
+
   &__label
     color: $white
     font-weight: bold
     font-size: 1.3em
     width: 100%
     display: inline-flex
+    flex-shrink: 1
     margin-bottom: .5em
 
-    +grid-media($grid-large)
-      width: auto
-      padding-right: 1em
-
     +grid-media($grid-huge)
-    // ToDo: Screen 
+      width: auto
+      padding-right: 1.5em
+      margin-bottom: 0
 
   &__wrapper
     display: flex
@@ -24,14 +27,19 @@
       justify-content: space-between
 
     +grid-media($grid-huge)
-    // ToDo: Screen 
+      width: 100%
 
   &__input
+    background: none
+    border: 2px solid $white
+    color: $white
     box-sizing: border-box
     padding: .5em 1em
-    border: 0
     width: 100%
     margin-bottom: .5em
+
+    &::placeholder
+      color: $white
 
     +grid-media($grid-medium)
       margin-bottom: 0
@@ -39,7 +47,7 @@
 
   &__button
     background-color: $beyond-green
-    color: $white 
+    color: $white
     padding: .5em 1em
     border: 0
     width: 100%
