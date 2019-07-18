@@ -25,7 +25,7 @@
     text-align: center
 
     &--logo
-      margin-bottom: 2rem
+      margin-bottom: 4rem
 
       .logo
         display: block
@@ -34,7 +34,20 @@
           height: 3rem
 
     &--social
-      margin-bottom: 6rem
+      margin-bottom: .5rem
+
+      a:not(:first-child)
+        margin-left: 1rem
+
+      .icon
+        color: transparentize($white, .6)
+
+        &:hover, &:focus
+          transition: $base-transition
+          color: $white
+    
+    &--newsletter
+      margin-bottom: 2rem
 
       a:not(:first-child)
         margin-left: 1rem
@@ -47,7 +60,7 @@
           color: $white
 
     &--links
-      margin-bottom: 4rem
+      margin-bottom: 3.5rem
 
       .navigation
 
