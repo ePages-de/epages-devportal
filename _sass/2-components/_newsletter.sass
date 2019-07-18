@@ -1,4 +1,5 @@
 .newsletter
+  max-width: 650px
 
   +grid-media($grid-huge)
     display: flex
@@ -43,14 +44,16 @@
 
     +grid-media($grid-medium)
       margin-bottom: 0
-      margin-right: 1em
+      margin-right: 1%
+      width: 66.4%
 
   &__button
-    background-color: $beyond-green
+    background-color: $dev-green-blue
     color: $white
     padding: .5em 1em
     border: 0
     width: 100%
+    min-width: 175px
 
     +grid-media($grid-medium)
-      max-width: 25%
+      width: 32.6%
