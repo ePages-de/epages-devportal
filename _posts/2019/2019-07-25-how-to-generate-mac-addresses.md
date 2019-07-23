@@ -12,7 +12,7 @@ about_authors: ["cseeger"]
 ---
 
 In this post I will cover the topic of MAC address generation and dive into the IEEE 802 standard.
-Sometimes you may need a random MAC address for a purpose such as overwriting the existing one or in virtualization szenarios.
+Sometimes you may need a random MAC address for a purpose such as overwriting the existing one or in virtualization scenarios.
 You could probably just copy and paste an existing MAC address that is not used in your environment, because statistically spoken there is very low chance of generating conflicts here.
 (*The chance of a conflict is around 1/(2^48) x (count of MAC addresses in your environment) by assuming you just pick a MAC address at random.*)
 
@@ -68,7 +68,7 @@ This one is the most common OUI used by almost any hardware producing company (o
 Almost everyone who needs a OUI uses this pattern.
 Last but not least (11) is the locally administered multicast, and also a rare one.
 
-MAC addresses are commonly written in hex and not binary representation, so let's take a look how our candidates look in hex.
+MAC addresses are commonly written in hex and not in binary representation, so let's take a look how our candidates look in hex.
 First thing, we can ignore the last 4 bits since they do not affect the b0 and b1 bit in hex. 
 Also b2 and b3 can be 0 or 1 since they do not matter, but affect the hex representation.
 
