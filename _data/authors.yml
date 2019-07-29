@@ -199,7 +199,7 @@
 - id: gsanemeterio
   name: German
   full_name: German San Emeterio
-  description:  is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
+  description: is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
   image: avatar_male.jpg
 
 - id: hahnert
@@ -277,7 +277,7 @@
 - id: kmueller
   name: Katja
   full_name: Katja Müller
-  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
   image: kmueller.jpg
 
 - id: kpeskova
@@ -483,6 +483,12 @@
   full_name: Sandra
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
+
+- id: szikora
+  name: Somto
+  full_name: Somto Zikora
+  description: is a Javascript developer. He loves solving problems, the knottier the better.
+  image: avatar_male.jpg
 
 - id: tgiessler
   name: Tobias G.
