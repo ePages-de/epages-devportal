@@ -1,23 +1,29 @@
-- title: Firmenkontaktmesse FH Wedel
-  link: https://www.fh-wedel.de/studieren/international/incomings/
-  date: 14. Jun 2019
+- title: ePages R&D Day
+  link: 
+  date: 11. Sept 2019
   time:
-  address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
+  address: ePages GbmH<br>Pilatuspool 2<br>20355 Hamburg
 
-- title: EuRuKo 2019
-  link: https://euruko2019.org/
-  date: 21.-22. Jun 2019
+- title: ePages YOU
+  link: 
+  date: 12.-13. Sept 2019
   time:
-  address: ss Rotterdam<br>3E Katendrechtshoofd 25,<br>3072AM Rotterdam
+  address: ePages GbmH<br>Pilatuspool 2<br>20355 Hamburg
 
-- title: Jobwalk Jena
-  link: https://jena.jobwalk.city/
-  date: 22. Jun 2019
+- title: SoCraTes
+  link: https://www.socrates-conference.de/home
+  date: 22.-25. Aug 2019
   time:
-  address: Marktplatz<br>00743 Jena
+  address: Hotel Park Soltau<br>Winsener Straße 111<br>29614 Soltau
 
 - title: Karrieremesse inovailmenau
   link: https://inova-ilmenau.de/inova/
   date: 22.-23. Oct 2019
   time: '10:00 - 16:00'
   address: TU Ilmenau<br>Ehrenbergstraße 51<br>98693 Ilmenau
+
+- title: code.talks
+  link: https://www.codetalks.com/
+  date: 24.-25. Oct 2019
+  time:
+  address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
