@@ -25,9 +25,9 @@ Translation keys have corresponding values for each of the available languages, 
 Imagine those keys as placeholders within the code.
 This way several locales can be supported without the need to adapt the code for each of them.
 
-Many software localization tools display keys quite prominently.
+Many software localization tools display keys quite prominently in their UIs.
 That's why they can be used for context information in case screenshots or an In-Context Editor are not available.
-So, it's important to craft meaningful translation keys that includes the missing context.
+So, it's important to craft meaningful translation keys that include the missing context.
 Let's make that clear with an example: `categoryListView.createButton.label` and `categoryList.create` both are keys that could be used as a placeholder for the same UI text.
 But the first one gives way more context information, such as the view we're dealing with and that it's a button label.
 
@@ -55,15 +55,14 @@ By taking the suggestions from the translation memory into account, you can thus
 
 ## Glossaries
 
-I think we all agree that a translation memory is a great tool to support consistency in translations.
+I think we all agree that a translation memory is a great tool to ensure consistency in translations.
 But what about consistency in copywriting?
-If there is no text that the translation memory can compare, how should it be able to make suggestions?
-
 Are copywriters free to use whatever terminology they want?
 Of course not.
 They also need to take care of using the common terms and phrases.
-But it's a bit harder to find them.
-Glossaries do not only help to explain certain terms and concepts to external translators.
+
+Glossaries are our tool of choice to support here.
+They do not only help to explain certain terms and concepts to external translators.
 [Maintaining a glossary](https://developer.epages.com/blog/language-and-localization/five-compelling-reasons-why-you-should-care-about-terminology/){:target="_blank"} also facilitates a copywriters's life.
 If they are e.g. wondering if to use *user name* or *username*, or *ecommerce* or *e-commerce*, they can check the spelling in the glossary.
 This way the most important terms of the product will be spelled consistently throughout the software.
@@ -74,8 +73,9 @@ Glossaries can support copywriters with the right spelling of a term or a senten
 But what about the general grammar, and tone of voice?
 You'll need a guideline for these topics.
 The content of the guideline is totally up to the company and the product.
-Establishing a structure for recurring text types, and deciding how to apply grammar rules to these types could be the first steps.
-This way it could e.g. be achieved that all checkbox labels start with a verb.
+Establishing a structure for recurring text types, and deciding how to apply grammar rules to these types can be a first step.
+Starting off with such a guideline helps, let's say to align that all checkbox labels start with a verb.
+That's already a good move into the right direction.
 
 After [setting up the guideline](https://developer.epages.com/blog/language-and-localization/how-to-create-awesome-ui-texts/){:target="_blank"}, it will simplify UI text related tasks every single time, and the texts will automatically be more consistent and coherent.
 In the best case, a guideline is set up for each of the supported locales to give further guidance for the translators. 
@@ -84,7 +84,7 @@ In the best case, a guideline is set up for each of the supported locales to giv
 
 To be honest: setting up and maintaining all these tools and guidelines is time consuming.
 But it's totally worth it.
-It saves time later on when creating UI texts, communicating with translators or developers.
+It saves time later on when creating UI texts, communicating with translators, or developers.
 And what's best: it saves a user's time as they can navigate better and faster through the software and have a great user experience.
 This is worth it, isn't it?
 
