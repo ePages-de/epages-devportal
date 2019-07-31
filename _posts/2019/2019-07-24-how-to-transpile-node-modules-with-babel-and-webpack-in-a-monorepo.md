@@ -13,31 +13,56 @@ about_authors: ["szikora"]
 
 Recently, we faced an issue where Javascript stopped working on our storefront frontend on Internet Explorer 11.
 This came with the usual consequences such as `onClick` functions not not working etc.
-We were naturally concerned about this, and upon investigation we found that a certain dependency of ours- or so we thought, was not transpiled to ES5 before being published.
+We were naturally concerned about this, and upon investigation we found that a certain dependency of ours- or so we thought, was not transpiled _from ES6 to ES5_ before being published.
+
+## Erm, what is _transpilation_?...
+
+Given how complex this turned out to be, it bears giving a little background on _what transpilation is, and why we need it_.
+Transpilation is the process of transforming code from one programming language to its equivalent in another programming language, when both languages are on the same abstraction level.
+An example of this is transpiling Typescript - _[a strictly syntactical superset of JavaScript](https://en.wikipedia.org/wiki/Microsoft_TypeScript){:target="_blank"}_, to pure Javascript.
+This- of course, is as opposed to compilation which, though it is also a transformation of code from language to another, can be between languages of varying abstraction levels e.g. compiling C code to binary executables (machine code).
+
+### A story of Javascript standards and transpilation
+
+In this case though, we are not transpiling between Javascript and a derivative language, but between 2 standards of Javascript- ES5 and ES6.
+The ES stands for ECMAScript, which is a [scripting-language specification](https://en.wikipedia.org/wiki/ECMAScript){:target="_blank"}, created to standardize Javascript.
+ES5 refers to the fifth edition of ECMAScript, which is currently supported by all modern browsers.
+ES6- also known as ES2015, is the sixth edition and added several helpful features to Javascript which can be found [here](http://es6-features.org){:target="_blank"}.
+Now, to avoid browser compatibility issues, it is generally advisable to transpile any software meant to run in the browser and written in ES6 or greater, to ES5.
+This is because while most browsers have added support for ES6, there are still some holdouts(I'm looking at you Internet Explorer!!) with quite widespread usage.
+
+### Tools we use
+
+There are a number of tools for Javascript transpilation out there, but we use [Babel](https://babeljs.io/docs/en/){:target="_blank"} - an extremely powerful Javascript transpilation toolchain that supports conversion between Javascript standards as well as its derivative languages.
+Babel can be configured using a `.babelrc` file, or a `babel.config.js` file.
+Another tool we rely on heavily in our build environment is [Webpack](https://webpack.js.org/concepts){:target="_blank"}, a static module bundler for modern JavaScript applications.
+Webpack is highly configurable, and can be set up so one can configure Babel from within the webpack configuration file, which is usually called `webpack.config.js` using the Babel plugin.
+
+## So what happened then?
+
+We do not transpile the contents of our `node_modules` folder, to reduce the size of our bundle and avoid extremely long build times.
+This is because we expect that we receive already transpiled code from our dependencies.
+This time, we were wrong.
 
 ## What we did...
 
-It was an annoying problem, as we do not transpile our `node_modules` folder, expecting that we are receiving ES5 code at all times.
-The solution we came up with was to modify the regex pattern we used to exclude the `node_modules` folder in our webpack config so that it excluded everything in the `node_modules` folder _except the folder containing the module that was not transpiled_.
+Of course, we cannot transpile our entire `node_modules` folder, since that would increase build time by a terrible factor.
+The compromise we came up with was to modify the regex pattern we used to exclude the `node_modules` folder in our webpack/babel config so that it excluded everything in the `node_modules` folder _except the folder containing the module that was not transpiled_.
 
 Essentially we changed this:
 
 ```
-{
-  test: /\.jsx?$/,
-  loaders: [{ loader: 'happypack/loader', options: { id: 'babel' } }],
+...
   exclude: /node_modules/,
-}
+...
 ```
 
 to this:
 
 ```
-{
-  test: /\.jsx?$/,
-  loaders: [{ loader: 'happypack/loader', options: { id: 'babel' } }],
-  exclude: /node_modules\/(?!name-of-untranspiled-module.*/,
-}
+...
+  exclude: /node_modules\/?!name-of-untranspiled-module.*/,
+...
 ```
 
 ## Why this didn't work...
@@ -93,11 +118,9 @@ Finally, redefine the exclusion regex in your `webpack.config.js` or `babel.conf
 exclude: new RegExp(
           fs
             .readFileSync(path.resolve('./non_ES5_node_modules'), 'utf-8')
-            .slice(1, -1)
+            .slice(1, -2)
         )
 ```
-
-**Note: The `.slice(1, -1)` call removes the surrounding slashes on the regex since we are creating a new one. If your linter adds a newline to every file, `.slice(1, -2)` works better ;).**
 
 Now that your regex is ready and added to your build configuration, you should have no problems with ES6 modules and legacy browser compatibilty.
 
