@@ -12,7 +12,7 @@ about_authors: ["cgebken"]
 ---
 
 At [ePages](https://epages.com/us/){:target="_blank"} we offer our customers a cloud-based online shop software in 16 distinct languages.
-That's why coming up with consistent UI texts and translations can be a real challenge here if you're not supported by the right tooling.
+That's why coming up with consistent UI texts and translations can be a real challenge if you're not supported by the right tooling.
 But consistency is crucial for a great usability of our products and it makes life easier for our merchants.
 Fortunately, we have some tools and guidelines at hand that we would like to share here.
 
@@ -20,7 +20,6 @@ Fortunately, we have some tools and guidelines at hand that we would like to sha
 
 Consistency already starts in the development phase.
 That's when developers craft the translation keys for the UI texts.
-But it's not about the UI texts, it's more about the translation keys for the UI texts.
 Translation keys have corresponding values for each of the available languages, and these values are stored as translations in individual locale files.
 Imagine those keys as placeholders within the code.
 This way several locales can be supported without the need to adapt the code for each of them.
@@ -31,15 +30,15 @@ So, it's important to craft meaningful translation keys that include the missing
 Let's make that clear with an example: `categoryListView.createButton.label` and `categoryList.create` both are keys that could be used as a placeholder for the same UI text.
 But the first one gives way more context information, such as the view we're dealing with and that it's a button label.
 
-On top of that, consistent keys facilitate the search for certain elements later on - in the code as well as in the software localization tool.
-If all buttons are e.g. structured as in our example, later on these keys can be searched for `Button.label` to easily get an overview of all already existing UI texts for button labels.
+On top of that, consistent keys facilitate the search for certain elements - in the code as well as in the software localization tool.
+If all buttons are e.g. structured as in our example, these keys can be searched for `Button.label` to easily get an overview of all already existing UI texts for button labels.
 This is a good trick to check once again whether all UI texts of this type are consistent.
 Bottom line: meaningful translation keys definitely support consistent UI texts.
 
 But as many developers work on a software, each of them has their own style to craft translation keys.
 That's why you should invest time to [come up with a style guide for translation keys](https://developer.epages.com/blog/language-and-localization/why-you-should-invest-time-on-translation-keys/){:target="_blank"}.
 It leads to a company-wide consistent usage, and thus enables users to understand and categorize the keys more easily.
-Furthermore, developers have a given template and don’t need to spend extra time thinking about the correct term or structure.
+Furthermore, developers have a given template, and don’t need to spend extra time thinking about the correct term or structure.
 
 ## Translation Memories
 
@@ -47,7 +46,7 @@ A sentence can be translated into another language in different ways.
 The styles of the translators and the terminology used may differ.
 But a consistent translation for the same term or phrase will improve usability.
 
-It is impossible to remember all UI texts and corresponding translations we have ever produced.
+It is impossible to remember all UI texts and corresponding translations that were ever produced.
 Especially when working on larger or several different projects.
 That's exactly where translation memories jump in.
 They remind you of existing translations even if the source text is not exactly the same.
@@ -82,7 +81,7 @@ In the best case, a guideline is set up for each of the supported locales to giv
 
 ## What are you doing that for?
 
-To be honest: setting up and maintaining all these tools and guidelines is time consuming.
+To be honest: setting up and maintaining all these tools and guidelines is time-consuming.
 But it's totally worth it.
 It saves time later on when creating UI texts, communicating with translators, or developers.
 And what's best: it saves a user's time as they can navigate better and faster through the software and have a great user experience.
