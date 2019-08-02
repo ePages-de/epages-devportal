@@ -304,7 +304,8 @@ task :test_html do
 
   url_ignore = [/.*apps.*/,
                 /.*signup/,
-                /.*terms-and-conditions.*/]
+                /.*terms-and-conditions.*/,
+                /.*beyond-docs.*/]
 
   options = { disable_external: true,
               url_ignore: url_ignore,
