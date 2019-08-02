@@ -21,18 +21,17 @@ Fortunately, we have some tools and guidelines at hand that we would like to sha
 Consistency already starts in the development phase.
 That's when developers craft the translation keys for the UI texts.
 Translation keys have corresponding values for each of the available languages, and these values are stored as translations in individual locale files.
-Imagine those keys as placeholders within the code.
+Imagine those keys as placeholders for the localized UI texts within the code.
 This way several locales can be supported without the need to adapt the code for each of them.
 
 Many software localization tools display keys quite prominently in their UIs.
-That's why they can be used for context information in case screenshots or an In-Context Editor are not available.
-So, it's important to craft meaningful translation keys that include the missing context.
-Let's make that clear with an example: `categoryListView.createButton.label` and `categoryList.create` both are keys that could be used as a placeholder for the same UI text.
+That's why meaninful translation keys can be used for context information in case screenshots or an In-Context Editor are not available.
+Let's make that clear with an example: `categoryListView.createButton.label` and `categoryList.create` are keys that can both be used as a placeholder for the same UI text.
 But the first one gives way more context information, such as the view we're dealing with and that it's a button label.
 
 On top of that, consistent keys facilitate the search for certain elements - in the code as well as in the software localization tool.
-If all buttons are e.g. structured as in our example, these keys can be searched for `Button.label` to easily get an overview of all already existing UI texts for button labels.
-This is a good trick to check once again whether all UI texts of this type are consistent.
+If all buttons are e.g. structured as in our example, the search results for `Button.label` will easily give an overview of all already existing UI texts for button labels.
+This is a good trick to check whether all UI texts of this type are consistent.
 Bottom line: meaningful translation keys definitely support consistent UI texts.
 
 But as many developers work on a software, each of them has their own style to craft translation keys.
@@ -42,19 +41,18 @@ Furthermore, developers have a given template, and don’t need to spend extra t
 
 ## Translation Memories
 
-A sentence can be translated into another language in different ways.
-The styles of the translators and the terminology used may differ.
+UI texts can be properly translated in different ways as the styles of the translators and the terminology used may differ.
 But a consistent translation for the same term or phrase will improve usability.
 
-It is impossible to remember all UI texts and corresponding translations that were ever produced.
+However, it is impossible to remember all UI texts and corresponding translations that were ever produced.
 Especially when working on larger or several different projects.
 That's exactly where translation memories jump in.
 They remind you of existing translations even if the source text is not exactly the same.
-By taking the suggestions from the translation memory into account, you can thus easily translate recurring terms and phrases consistently.
+By taking the suggestions from the translation memory into account, recurring terms and phrases can thus be easily translated consistently.
 
 ## Glossaries
 
-I think we all agree that a translation memory is a great tool to ensure consistency in translations.
+A translation memory is a great tool to ensure consistency in translations.
 But what about consistency in copywriting?
 Are copywriters free to use whatever terminology they want?
 Of course not.
@@ -70,14 +68,14 @@ This way the most important terms of the product will be spelled consistently th
 
 Glossaries can support copywriters with the right spelling of a term or a sentence.
 But what about the general grammar, and tone of voice?
-You'll need a guideline for these topics.
-The content of the guideline is totally up to the company and the product.
+These topics can be tackled with a guideline.
+The content of this guideline is totally up to the company and the product.
 Establishing a structure for recurring text types, and deciding how to apply grammar rules to these types can be a first step.
-Starting off with such a guideline helps, let's say to align that all checkbox labels start with a verb.
+Starting off with such a topic helps, let's say to align that all checkbox labels start with a verb.
 That's already a good move into the right direction.
 
 After [setting up the guideline](https://developer.epages.com/blog/language-and-localization/how-to-create-awesome-ui-texts/){:target="_blank"}, it will simplify UI text related tasks every single time, and the texts will automatically be more consistent and coherent.
-In the best case, a guideline is set up for each of the supported locales to give further guidance for the translators. 
+In the best case, a guideline is set up for each of the supported locales to give further guidance to the translators. 
 
 ## What are you doing that for?
 
@@ -96,8 +94,6 @@ When it comes to software localization, maintaining consistency is a vital part 
 
 ## Author
 
-I propose to stick with Harm, but slightly update his description and title (no "PhraseApp Content Team" but "CTO at ePages"): 
+- Update Harm's title (no "PhraseApp Content Team" but "CTO at ePages"): 
 
-Harm Behrens is CTO at ePages, and shares the “bike2work” passion of many ePagees.
-He's an ecommerce-addict, internet enthusiast, and Ruby/Docker evangelist.
-Having a strong focus on developing a new software platform at ePages using React JS, Java, Spring Boot, Kubernetes, Docker, and more, he's keen on having all of our ecommerce applications localized.
+- Christina Gebken is a Localization Manager and TechWriter at ePages. She loves working agile, and writing new software help articles.
