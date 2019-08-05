@@ -66,10 +66,10 @@ This way the most important terms of the product will be spelled consistently th
 
 ## UI text guidelines
 
-Glossaries can support copywriters with the right spelling of a term or a sentence.
-But what about the general grammar, and tone of voice?
+Consistency in UI texts is not only about the correct terms and phrases.
+It's also about the general grammar, and tone of voice.
 These topics can be tackled with a guideline.
-The content of this guideline is totally up to the company and the product.
+The content of this guideline is totally up to the company and their product.
 Establishing a structure for recurring text types, and deciding how to apply grammar rules to these types can be a first step.
 Starting off with such a topic helps, let's say to align that all checkbox labels start with a verb.
 That's already a good move into the right direction.
