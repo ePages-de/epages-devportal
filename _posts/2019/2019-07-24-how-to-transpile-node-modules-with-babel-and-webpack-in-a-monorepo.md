@@ -15,7 +15,7 @@ Recently, we faced an issue where Javascript stopped working on our storefront f
 This came with the usual consequences such as `onClick` functions not not working etc.
 We were naturally concerned about this, and upon investigation we found that a certain dependency of ours- or so we thought, was not transpiled _from ES6 to ES5_ before being published.
 
-## Erm, what is _transpilation_?...
+## Erm, what is _transpilation_?
 
 Given how complex this turned out to be, it bears giving a little background on _what transpilation is, and why we need it_.
 Transpilation is the process of transforming code from one programming language to its equivalent in another programming language, when both languages are on the same abstraction level.
@@ -30,6 +30,7 @@ ES5 refers to the fifth edition of ECMAScript, which is currently supported by a
 ES6- also known as ES2015, is the sixth edition and added several helpful features to Javascript which can be found [here](http://es6-features.org){:target="_blank"}.
 Now, to avoid browser compatibility issues, it is generally advisable to transpile any software meant to run in the browser and written in ES6 or greater, to ES5.
 This is because while most browsers have added support for ES6, there are still some holdouts(I'm looking at you Internet Explorer!!) with quite widespread usage.
+If you don't want to do this though, you can avoid, feature detect or polyfill browser or DOM apis not supported in IE11, or any browser for that matter.
 
 ### Tools we use
 
@@ -72,11 +73,20 @@ Seeing as it would be a laborious process to add every untranspiled module to ou
 
 ## Enter are-you-es5
 
-[are-you-es5](https://github.com/obahareth/are-you-es5){:target="_blank"} is a nifty npm package which according to its readme, is _"A package to help you find out which of your `node_modules` aren't written in ES5 so you can add them to your Webpack/Rollup/Parcel transpilation steps"\_.
+[are-you-es5](https://github.com/obahareth/are-you-es5){:target="_blank"} is a nifty npm package which according to its readme, is *"A package to help you find out which of your `node_modules` aren't written in ES5 so you can add them to your Webpack/Rollup/Parcel transpilation steps"*.
 It must be said that the package works entirely as advertised, and ordinarily I would recommend this for use in any project that may run on Internet Explorer, except for the following caveat: **It does not work when used in monorepos**.
 
-Due to the split nature of a monorepo, most `node_modules` folders are in the root folder, but are referenced in the `package.json` of their respective packages.
-`are-you-es5` currently is not configured to work with such a project structure.
+### What is a monorepo?
+
+A [monorepo](https://en.wikipedia.org/wiki/Monorepo){:target="_blank"}, short for *monolithic repository*, is  a software development strategy where code for several projects is stored in a single repository.
+The advantages of using a monorepo structure are numerous and include simplified dependency management, streamlining of large scale refactoring processes and ease of code reuse among others.
+Despite all the vaunted advantages, a glaring flaw of the monorepo project structure which affected us in this case is the fact that it complicates build and version control processes.
+There aren't many tools that help overcome the version control issues, and this has led to companies such as Facebook and Microsoft contributing heavily to or forking their own versions of their preferred version control software, or just building theirs as in the case of Google.
+Build problems are in a similar situation, so much so that Facebook and Google also developed their own build software.
+
+We are fortunate to have [Lerna](https://github.com/lerna/lerna){:target="_blank"}, a tool which optimizes the workflow around monorepos with git and npm, and for this reason fits our purposes quite nicely.
+The way Lerna sets up monorepos, most `node_modules` folders end up in the root folder, but are referenced in the `package.json` of their respective packages.
+`are-you-es5` is currently not configured to work with such a project structure.
 
 ## Enter depoulo/are-you-es5
 
@@ -85,6 +95,7 @@ The pull request is [here](https://github.com/obahareth/are-you-es5/pull/12){:ta
 The performance caveats that ensue due to the fact that `require.resolve()` interacts with the file system are acceptable, since this occurs only at build time.
 Also, it worked!!
 Using this modified version we are able to check if all our dependencies are transpiled or not, but it doesn't end there.
+There is an ongoing discussion on the pull request, but so far our solution has worked reliably for us. 
 
 ## Our final solution
 
