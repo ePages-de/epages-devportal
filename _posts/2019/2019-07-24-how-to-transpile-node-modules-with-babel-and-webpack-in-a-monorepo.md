@@ -90,7 +90,7 @@ The way Lerna sets up monorepos, most `node_modules` folders end up in the root 
 
 ## Enter depoulo/are-you-es5
 
-[Paolo Priotto](https://github.com/depoulo){:target="_blank"} forked the `are-you-es5` repository and changed it so instead of hardcoding a path to the `node_modules` directory, `require.resolve()` is used to generate an absolute path to each package's directory.
+[Paolo Priotto](https://github.com/depoulo){:target="_blank"} forked the `are-you-es5` repository and changed it so that instead of hardcoding a path to the `node_modules` directory, `require.resolve()` is used to generate an absolute path to each package's directory.
 The pull request is [here](https://github.com/obahareth/are-you-es5/pull/12){:target="_blank"}.
 The performance caveats that ensue due to the fact that `require.resolve()` interacts with the file system are acceptable, since this occurs only at build time.
 Also, it worked!!
