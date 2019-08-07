@@ -68,7 +68,7 @@ into this:
 
 ## Why this didn't work...
 
-We should have expected this from the onset, but upon rebuilding the project we errored again on IE11, because _another module_ was also not transpiled!
+We should have expected this from the onset, but upon rebuilding the project we errored again on IE11, because _another module_ was also not being transpiled!
 Seeing as it would be a laborious process to add every untranspiled module to our regex, we decided to figure out a way to do this check programmatically.
 
 ## Enter are-you-es5
