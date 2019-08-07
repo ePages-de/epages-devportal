@@ -58,7 +58,7 @@ Essentially we changed this:
 ...
 ```
 
-to this:
+into this:
 
 ```
 ...
