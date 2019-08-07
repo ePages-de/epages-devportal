@@ -72,7 +72,7 @@ View your shop
 Jump to images
 ```
 
-Exception: When referring to the Help center, we currently use whole sentences as a link that also contain a period at the end.
+Exception: When referring to the Help center, we currently display whole sentences as a link that also contain a period at the end.
 
 ```
 Further information is available in the Help center.
