@@ -29,7 +29,7 @@ The ES stands for ECMAScript, which is a [scripting-language specification](http
 ES5 refers to the fifth edition of ECMAScript, which is currently supported by all modern browsers.
 ES6- also known as ES2015, is the sixth edition and added several helpful features to Javascript which can be found [here](http://es6-features.org){:target="_blank"}.
 Now, to avoid browser compatibility issues, it is generally advisable to transpile any code meant to run in the browser and written in ES6 or greater, to ES5.
-This is because while most browsers have added support for ES6, there are still some holdouts(I'm looking at you Internet Explorer!!) with quite widespread usage.
+This is because while most browsers have added support for ES6, there are still some holdouts (I'm looking at you, Internet Explorer!!) with quite widespread usage.
 If you don't want to do this though, you can avoid, feature detect or polyfill browser or DOM apis not supported in IE11, or any browser for that matter.
 
 ### Tools we use
