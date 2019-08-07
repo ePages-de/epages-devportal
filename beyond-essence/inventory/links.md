@@ -56,6 +56,8 @@ They are displayed
 Clicking or touching a link will open new content, e.g. a view, a popup, or a PDF document.
 Depending on the use case or implementation, the content will be opened in a new tab, in the same tab, or in a new tool.
 
+When hovering over a link, the color slightly changes to indicate that the user can interact with the element.
+
 ## Copy writing
 
 Choose meaningful and descriptive labels that clearly describe the destination.
