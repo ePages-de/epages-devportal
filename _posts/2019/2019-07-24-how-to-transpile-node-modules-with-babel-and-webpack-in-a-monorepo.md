@@ -137,4 +137,4 @@ Now that your regex is ready and added to your build configuration, you should h
 
 ## Conclusion
 
-I'd like to give a huge shout out to [obahareth](https://github.com/obahareth){:target="_blank"}, creator of the `are-you-es5` package, and [Paolo](https://github.com/depoulo){:target="_blank"} -who did a huge part of the work needed to achieve this solution.
+I'd like to give a huge shout out to [obahareth](https://github.com/obahareth){:target="_blank"}, creator of the `are-you-es5` package, and [Paolo](https://github.com/depoulo){:target="_blank"} - who did a huge part of the work needed to achieve this solution.
