@@ -20,7 +20,7 @@ We were naturally concerned about this, and upon investigation we found that a c
 Given how complex this turned out to be, it bears giving a little background on _what transpilation is, and why we need it_.
 Transpilation is the process of transforming code from one programming language to its equivalent in another programming language, when both languages are on the same abstraction level.
 An example of this is transpiling Typescript - _[a strictly syntactical superset of JavaScript](https://en.wikipedia.org/wiki/Microsoft_TypeScript){:target="_blank"}_, to pure Javascript.
-This- of course, is as opposed to compilation which, though it is also a transformation of code from language to another, can be between languages of varying abstraction levels e.g. compiling C code to binary executables (machine code).
+This, of course, is opposed to compilation which, though also a transformation of code from one language to another, can be between languages of varying abstraction levels, e.g. compiling C code to binary executables (machine code).
 
 ### A story of Javascript standards and transpilation
 
