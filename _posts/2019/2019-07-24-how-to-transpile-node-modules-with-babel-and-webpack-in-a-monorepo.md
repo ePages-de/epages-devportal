@@ -12,7 +12,7 @@ about_authors: ["szikora"]
 ---
 
 Recently, we faced an issue where Javascript stopped working on our storefront frontend on Internet Explorer 11.
-This came with the usual consequences such as `onClick` functions not not working etc.
+This came with the usual consequences such as `onClick` functions not working etc.
 We were naturally concerned about this, and upon investigation we found that a certain dependency of ours- or so we thought, was not transpiled _from ES6 to ES5_ before being published.
 
 ## Erm, what is _transpilation_?
