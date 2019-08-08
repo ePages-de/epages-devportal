@@ -10,7 +10,7 @@ They present a list of fixed options the user can choose from.
 
 ## Use cases
 
-In the Beyond cockpit we provide three types of dropdowns:
+In the Beyond cockpit we provide two types of dropdowns:
 
 * Dropdowns with default selection. Are used to already preselect the most common or the recommended option for the user.
 
@@ -18,14 +18,16 @@ In the Beyond cockpit we provide three types of dropdowns:
 
 ## Structure
 
-Dropdowns are similar to input fields as they consist of a container, and a label.
+Dropdowns consist of a container, a label, and a drawer.
 The label is located near the top of the container.
-Additionally, each dropdown has a drawer that is displayed once the dropdown is selected.
+The drawer is displayed above or below the container once the dropdown is selected.
 Dropdowns can vary in width.
 
-Dropdowns with default selection include arrows on the very right of the container.
+Dropdowns with default selection additionally include arrows on the very right of the container.
 
-{% image_custom image="/assets/img/pages/essence/dropdowns-arrows-new.png" width="50" %}
+Exception: Some dropdowns, e.g the pagination dropdown, do not contain a label.
+
+{% image_custom image="/assets/img/pages/essence/dropdowns-pagination.png" width="50" %}
 
 ## Position
 
