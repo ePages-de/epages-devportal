@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to transpile node_modules with babel and webpack in a monorepo
-date: 2019-07-24
+date: 2019-08-08
 header_image: public/webpack-babel-lerna.jpg
 header_position: center
 header_overlay: true
