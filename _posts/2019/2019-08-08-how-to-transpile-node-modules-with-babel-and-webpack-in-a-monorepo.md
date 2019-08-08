@@ -62,7 +62,7 @@ into this:
 
 ```
 ...
-  exclude: /node_modules\/?!name-of-untranspiled-module.*/,
+  exclude: /node_modules\/(?!name-of-untranspiled-module)/,
 ...
 ```
 
