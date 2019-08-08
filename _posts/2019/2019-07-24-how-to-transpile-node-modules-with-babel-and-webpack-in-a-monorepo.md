@@ -24,13 +24,13 @@ This, of course, is opposed to compilation which, though also a transformation o
 
 ### A story of Javascript standards and transpilation
 
-In this case though, we are not transpiling between Javascript and a derivative language, but between 2 standards of Javascript- ES5 and ES6.
+In this case though, we are not transpiling between Javascript and a derivative language, but between 2 standards of Javascript: ES5 and ES6.
 The ES stands for ECMAScript, which is a [scripting-language specification](https://en.wikipedia.org/wiki/ECMAScript){:target="_blank"}, created to standardize Javascript.
 ES5 refers to the fifth edition of ECMAScript, which is currently supported by all modern browsers.
-ES6- also known as ES2015, is the sixth edition and added several helpful features to Javascript which can be found [here](http://es6-features.org){:target="_blank"}.
+ES6 - also known as ES2015 - is the sixth edition, and added several helpful features to Javascript which can be found [here](http://es6-features.org){:target="_blank"}.
 Now, to avoid browser compatibility issues, it is generally advisable to transpile any code meant to run in the browser and written in ES6 or greater, to ES5.
-This is because while most browsers have added support for ES6, there are still some holdouts (I'm looking at you, Internet Explorer!!) with quite widespread usage.
-Other ways of ensuring browser compatibility- which can of course be used with transpilation (and should be in most cases) include avoiding or [polyfilling](https://en.wikipedia.org/wiki/Polyfill_(programming)){:target="_blank"} browser or DOM apis not supported in a browser, or [feature detection](https://en.wikipedia.org/wiki/Feature_detection_(web_development)){:target="_blank"}.
+This is because, while most browsers have added support for ES6, there are still some holdouts (I'm looking at you, Internet Explorer!!) with quite widespread usage.
+Other ways of ensuring browser compatibility - which can of course be used with transpilation (and should be in most cases) include avoiding or [polyfilling](https://en.wikipedia.org/wiki/Polyfill_(programming)){:target="_blank"} browser or DOM APIs not supported in a browser, or [feature detection](https://en.wikipedia.org/wiki/Feature_detection_(web_development)){:target="_blank"}.
 
 ### Tools we use
 
@@ -79,10 +79,11 @@ It must be said that the package works entirely as advertised, and ordinarily I 
 ### What is a monorepo?
 
 A [monorepo](https://en.wikipedia.org/wiki/Monorepo){:target="_blank"}, short for _monolithic repository_, is a software development strategy where code for several projects is stored in a single repository.
-The advantages of using a monorepo structure are numerous and include simplified dependency management, streamlining of large scale refactoring processes and ease of code reuse among others.
+The advantages of using a monorepo structure are numerous and include simplified dependency management, streamlining of large scale refactoring processes, and ease of code reuse among others.
 Despite all the vaunted advantages, a glaring flaw of the monorepo project structure which affected us in this case is the fact that it complicates build and version control processes.
 There aren't many tools that help overcome the version control issues, and this has led to companies such as Facebook and Microsoft contributing heavily to or forking their own versions of their preferred version control software, or just building theirs as in the case of Google.
-Build problems are in a similar situation, so much so that Facebook and Google also developed their own build software.
+Build problems are in a similar situation.
+So much, that Facebook and Google also developed their own build software.
 
 We are fortunate to have [Lerna](https://github.com/lerna/lerna){:target="_blank"}, a tool which optimizes the workflow around monorepos with git and npm, and for this reason fits our purposes quite nicely.
 The way Lerna sets up monorepos, most `node_modules` folders end up in the root folder, but are referenced in the `package.json` of their respective packages.
@@ -120,7 +121,7 @@ Then we added a `postinstall` script to the scripts object of our package's `pac
 ...
 ```
 
-One of the reasons `are-you-es5` is so useful is that it has a `--regex`(`-r`) flag which generates the regular expression needed to _exclude everything in the `node_modules` directory except the untranspiled modules_.
+One of the reasons `are-you-es5` is so useful is, that it has a `--regex`(`-r`) flag which generates the regular expression needed to _exclude everything in the `node_modules` directory except the untranspiled modules_.
 The postinstall script leverages this feature by writing the regex to the `non_ES5_node_modules` file anytime `yarn` or `npm install` is run.
 
 Finally, redefine the exclusion regex in your `webpack.config.js` or `babel.config.js` like this,
