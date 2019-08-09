@@ -22,10 +22,13 @@ In the Beyond cockpit we provide two types of modal dialogs:
 
 ## Structure
 
-Modal dialogs consist of a container, a close icon, and buttons.
-The buttons are located at the lower left corner of the container whereas the close icon is displayed in the upper right corner.
+Modal dialogs consist of a container, a close icon, and two buttons.
+One of these buttons is always a _Cancel_ button.
+The second button depends on the specific use case.
 
-Optionally, modal dialogs can contain a title, and further UI elements like checkboxes, or input fields.
+Both buttons are located at the lower right corner of the container whereas the close icon is displayed in the upper right corner.
+
+Optionally, modal dialogs can also contain a title, and further UI elements like checkboxes, or input fields.
 
 ## Position
 
@@ -46,7 +49,7 @@ The user can actively close the modal dialog by:
 * selecting the close icon,
 * selecting the _Cancel_ button,
 * selecting the ESC key on the keypad,
-* or clicking or touching outside the modal dialog.
+* or clicking, or touching outside the modal dialog.
 
 ## Copy writing
 
