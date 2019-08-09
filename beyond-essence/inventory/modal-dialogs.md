@@ -6,7 +6,7 @@ background_image: index.jpg
 ---
 
 Modal dialogs display new content to the user without taking them to a different view.
-Users need to interact with the modal dialog before continuing further tasks.
+Users need to interact with the modal dialog before continuing with further tasks.
 
 ## Use cases
 
@@ -23,8 +23,8 @@ In the Beyond cockpit we provide two types of modal dialogs:
 ## Structure
 
 Modal dialogs consist of a container, a close icon, and two buttons.
-One of these buttons is always a _Cancel_ button.
-The second button depends on the specific use case.
+The secondary button is always a _Cancel_ button.
+The primary button depends on the specific use case.
 
 Both buttons are located at the lower right corner of the container whereas the close icon is displayed in the upper right corner.
 
@@ -32,7 +32,7 @@ Optionally, modal dialogs can also contain a title, and further UI elements like
 
 ## Position
 
-Modal dialogs are opened prominently as an overlay in the middle of a browser window.
+Modal dialogs are opened prominently as an overlay in the center of a browser window.
 
 ## Behavior
 
@@ -53,17 +53,34 @@ The user can actively close the modal dialog by:
 
 ## Copy writing
 
-Users should clearly understand what happens when they interact with the modal dialog.
-That's why, if available, titles should briefly but clearly summarize the purpose of the dialog.
+If available, use a brief but descriptive title for modal dialogs.
+Users should clearly understand what happens when interacting with this element.
+Besides this shared characteristic, the copywriting standards of the two modal types differ.
+
+### Confirmation dialogs
+
+Titles of this type are:
 
 * Descriptive but concise
 * Neutral and without ambiguity
 
 ```
 Delete product?
+```
+
+### Input dialogs
+
+For this type the copywriting of the element that triggers the modal dialog is taken over.
+Meaning if the user selected the button _Process returns_, the related modal dialog title will also be _Process returns_.
+This way the connection between the two elements is clear and traceable.
+
+```
 Process returns
+Process order cancelation
 Page settings
 ```
+
+Exeption: If the element that triggers the modal dialog is an icon, the modal dialog title will be the same as the hover text of the icon.
 
 ## Design
 
