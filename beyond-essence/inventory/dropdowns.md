@@ -72,17 +72,15 @@ A removed option will appear again in the drawer list.
 Each dropdown comes with a clear and precise label, that describes what the user needs to select in the dropdown.
 
 ```
-Reference unit
 Tax class
-Select countries
 ```
 
 The options in the drawer are short and sweet as the context is already provided in the label.
 
 ```
-1 l 
 Standard
-United Kingdom (GB)
+Reduced
+Tax-exempt
 ```
 
 ## Design
