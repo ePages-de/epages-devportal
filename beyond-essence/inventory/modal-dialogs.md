@@ -79,7 +79,7 @@ Process order cancelation
 Page settings
 ```
 
-Exeption: If the element that triggers the modal dialog is an icon, the modal dialog title will be the same as the hover text of the icon.
+Exeption: If the element that triggers the modal dialog is an icon, the modal dialog title is the same as the hover text of the icon.
 
 ## Design
 
