@@ -19,6 +19,7 @@ Buttons appear at various places throughout the UI, such as:
 * Top bar
 * Bottom bar
 * Themes
+* Editor
 * Empty states
 
 ## Structure
@@ -40,6 +41,13 @@ The primary button is always located on the right side, the secondary button on 
 
 {% image_custom image="/assets/img/pages/essence/buttons-primary-secondary.png" width="20" lightbox %}
 
+There are cases where those buttons are separated from each other, e.g. when the primary button comes with an informational text.
+
+{% image_custom image="/assets/img/pages/essence/buttons-separated.png" width="40" lightbox %}
+
+If buttons appear in the bottom bar, they come in 3, such as `delete`, `cancel`, and `publish`.
+The `delete` button is then placed on the left side while primary and secondary button are positioned as a pair on the right side.
+
 **Typical locations for buttons:**
 
 *In the topbar*
@@ -57,6 +65,11 @@ The primary button is always located on the right side, the secondary button on 
 *On an empty state*
 
 {% image_custom image="/assets/img/pages/essence/buttons-empty-state.png" width="30" lightbox %}
+
+*On cards*
+
+{% image_custom image="/assets/img/pages/essence/buttons-card.png" width="50" lightbox %}
+
 
 ## Behavior
 
