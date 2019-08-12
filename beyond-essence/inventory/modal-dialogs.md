@@ -55,7 +55,6 @@ The user can actively close the modal dialog by:
 
 If available, use a brief but descriptive title for modal dialogs.
 Users should clearly understand what happens when interacting with this element.
-Besides this shared characteristic, the copywriting standards of the two modal types differ.
 
 ### Confirmation dialogs
 
@@ -70,7 +69,7 @@ Delete product?
 
 ### Input dialogs
 
-For this type the copywriting of the element that triggers the modal dialog is taken over.
+The copywriting of the element that triggers the modal dialog is taken over for the modal dialog title.
 Meaning if the user selected the button _Process returns_, the related modal dialog title will also be _Process returns_.
 This way the connection between the two elements is clear and traceable.
 
