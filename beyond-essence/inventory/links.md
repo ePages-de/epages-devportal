@@ -12,9 +12,13 @@ They are interactive and give users access to further content that is not direct
 
 In the Beyond cockpit, we provide various types of links:
 
-* Links in tables and overviews
+* Links in tables
 
 {% image_custom image="/assets/img/pages/essence/links-in-tables.png" width="50" lightbox %}
+
+* Links in overviews
+
+{% image_custom image="/assets/img/pages/essence/links-overviews.png" width="50" lightbox %}
 
 * Links with icons
 
@@ -49,6 +53,9 @@ They are displayed
 
 - on cards,
 - in the topbar,
+- in settings layers,
+- in modal dialogs,
+- in overviews,
 - and in tables.
 
 ## Behavior
