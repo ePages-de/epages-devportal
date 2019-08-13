@@ -27,12 +27,12 @@ Optionally, they can also contain a title, and further UI elements like checkbox
 The close icon is always displayed in the upper right corner of the container.
 
 The two buttons are located at the lower right corner of the container.
-In confirmation dialogs, these buttons are a primary button, and a danger button.
-In input dialogs, a default button is used instead of a danger button.
+In confirmation dialogs, these buttons are a danger button, and a default button.
+In input dialogs, a primary button is used instead of a danger button.
 
 Exceptions:
 
-* There are cases where the two buttons are separated from each other, e.g. when another UI element such as a link or a secondary button should be located next to the primary button.
+* There are cases where the two buttons are separated from each other, e.g. when another UI element such as a link should be located next to the primary button.
 The default or warning button is then moved to the lower left corner of the container.
 
 * In some modal dialogs no button, or only the primary button is displayed.
