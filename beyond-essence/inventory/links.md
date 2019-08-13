@@ -13,9 +13,9 @@ They are interactive and give users access to further content that is not direct
 In the Beyond cockpit, we provide two types of links:
 
 * Primary links
-* Secondary links
+* Default links
 
-Primary links are used for the recommended user action whereas secondary links have less importance and shouldn't be in the focus of the user's attention.
+Primary links are used for the recommended user action whereas default links have less importance and shouldn't be in the focus of the user's attention.
 
 ## Structure
 
@@ -24,7 +24,7 @@ Links are characterized by a certain color that stands out from the surrounding 
 Depending on the use case or implementation, an icon can be displayed next to the link.
 By adding an icon, the link and the its destination will be more self-explanatory.
 
-If a secondary button is displayed in addition to a primary link, both links can either be located below each other or next to each other.
+If a default link is displayed in addition to a primary link, both links can either be located below each other or next to each other.
 
 ## Position
 
