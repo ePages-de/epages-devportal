@@ -86,10 +86,13 @@ Process order cancelation
 Page settings
 ```
 
-Exeptions: 
+Exceptions: 
 
 * If the element that triggers the modal dialog is an icon, the modal dialog title is the same as the hover text of the icon.
-* If the element can trigger two different modal dialogs (depending on the current state of the shop), the title of the modal dialog is not taken over from the element. It rather descriptively and concisely represents the purpose of the respective modal dialog.
+* If the element can trigger two different modal dialogs, the title of the modal dialog is not taken over from the element.
+It rather concisely describes the purpose of the respective modal dialog.
+The `Available apps` icon in the topbar e.g. triggers a modal dialog with the title `Explore the world of apps` if no apps were installed yet.
+If there were already apps installed, it triggers a modal dialog with the title `My apps` .
 
 ## Design
 
