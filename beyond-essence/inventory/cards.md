@@ -21,6 +21,10 @@ In the Beyond cockpit we provide two types of cards:
 
 {% image_custom image="/assets/img/pages/essence/cards-title.png"  width="100" lightbox %}
 
+* Cards for topic clustering
+
+{% image_custom image="/assets/img/pages/essence/cards-cluster.png"  width="100" lightbox %}
+
 ## Structure
 
 Cards resemble physical cards.
@@ -33,6 +37,8 @@ Cards with title have the same structure as standard cards but come with a title
 Depending on where the cards appear, they can have a one-column grid (as shown in "Use cases") or two-column grid:
 
 {% image_custom image="/assets/img/pages/essence/cards-two-columns.png"  width="100" lightbox %}
+
+Cards for topic clustering stand out from the above mentioned structure with regards to the amount and allocation of text as well as the UI elements used.
 
 ## Position
 
