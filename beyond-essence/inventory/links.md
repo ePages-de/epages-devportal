@@ -10,60 +10,67 @@ They are interactive and give users access to further content that is not direct
 
 ## Use cases
 
-In the Beyond cockpit, we provide various types of links:
+In the Beyond cockpit, we provide two types of links:
 
-* Links in tables
+* Primary links
+* Secondary links
 
-{% image_custom image="/assets/img/pages/essence/links-in-tables.png" width="50" lightbox %}
-
-* Links in overviews
-
-{% image_custom image="/assets/img/pages/essence/links-overviews.png" width="50" lightbox %}
-
-* Links with icons
-
-{% image_custom image="/assets/img/pages/essence/links-with-icons.png" width="50" lightbox %}
-
-* Stand-alone links
-
-{% image_custom image="/assets/img/pages/essence/links-standalone.png" width="50" lightbox %}
-
-* Breadcrumb links
-
-{% image_custom image="/assets/img/pages/essence/links-breadcrumbs.png" width="50" lightbox %}
-
-* Links embedded in text
-
-{% image_custom image="/assets/img/pages/essence/links-embedded.png" width="50" lightbox %}
-
-* Pagination links
-
-{% image_custom image="/assets/img/pages/essence/links-pagination.png" width="50" lightbox %}
-
+Primary links are used for the recommended user action whereas secondary links have less importance and shouldn't be in the focus of the user's attention.
 
 ## Structure
 
 Links are characterized by a certain color that stands out from the surrounding text color.
-In exeptional cases, an icon is displayed next to the link.
+
+Depending on the use case or implementation, an icon can be displayed next to the link.
+By adding an icon, the link and the its destination will be more self-explanatory.
+
+If a secondary button is displayed in addition to a primary link, both links can either be located below each other or next to each other.
 
 ## Position
 
-Links are positioned in various locations throughout the software.
-They are displayed
+Links are positioned in various locations throughout the software:
 
-- on cards,
-- in the topbar,
-- in settings layers,
-- in modal dialogs,
-- in overviews,
-- and in tables.
+* In tables
+
+{% image_custom image="/assets/img/pages/essence/links-in-tables.png" width="50" lightbox %}
+
+* In overviews
+
+{% image_custom image="/assets/img/pages/essence/links-overviews.png" width="50" lightbox %}
+
+* In breadcrumbs
+
+{% image_custom image="/assets/img/pages/essence/links-breadcrumbs.png" width="50" lightbox %}
+
+* In the pagination
+
+{% image_custom image="/assets/img/pages/essence/links-pagination.png" width="50" lightbox %}
+
+* In the topbar
+
+{% image_custom image="/assets/img/pages/essence/links-topbar.png" width="50" lightbox %}
+
+
+They can also be included on cards, in settings layers, or in modal dialogs.
+Here they can appear as followed:
+
+* Embedded in text
+
+{% image_custom image="/assets/img/pages/essence/links-embedded.png" width="50" lightbox %}
+
+* As stand-alone links
+
+{% image_custom image="/assets/img/pages/essence/links-standalone.png" width="50" lightbox %}
+
 
 ## Behavior
 
 Clicking or touching a link will open new content, e.g. a view, a popup, or a PDF document.
-Depending on the use case or implementation, the content will be opened in a new tab, in the same tab, or in a new tool.
+Depending on the use case or implementation, the content will be opened in a new tab, in the same tab, or in a desktop, or mobile application.
 
 When hovering over a link, the color slightly changes to indicate that the user can interact with the element.
+
+Exception: If, for design purposes, a link is used instead of a button, clicking or touching a link will also change, or delete data.
 
 ## Copy writing
 
