@@ -10,25 +10,32 @@ Users need to interact with the modal dialog before continuing with further task
 
 ## Use cases
 
-In the Beyond cockpit we provide two types of modal dialogs:
+In the Beyond cockpit we provide two types of modal dialogs.
 
-* Confirmation dialogs. Are used to validate a user's decision.
+* Confirmation dialogs are used to validate a user's decision.
 
 {% image_custom image="/assets/img/pages/essence/modal-dialogs-confirmation.png" width="50" %}
 
-* Input dialogs. Include input fields, checkboxes, or other UI elements the user can interact with.
+* Input dialogs include input fields, checkboxes, or other UI elements the user can interact with.
 
 {% image_custom image="/assets/img/pages/essence/modal-dialogs-inputs.png" width="50" %}
 
 ## Structure
 
 Modal dialogs consist of a container, a close icon, and two buttons.
-The secondary button is always a _Cancel_ button.
-The primary button depends on the specific use case.
+Optionally, they can also contain a title, and further UI elements like checkboxes, or input fields.
+The close icon is always displayed in the upper right corner of the container.
 
-Both buttons are located at the lower right corner of the container whereas the close icon is displayed in the upper right corner.
+The two buttons are located at the lower right corner of the container.
+In confirmation dialogs, these buttons are a primary button, and a danger button.
+In input dialogs, a default button is used instead of a danger button.
 
-Optionally, modal dialogs can also contain a title, and further UI elements like checkboxes, or input fields.
+Exceptions:
+
+* There are cases where the two buttons are separated from each other, e.g. when another UI element such as a link or a secondary button should be located next to the primary button.
+The default or warning button is then moved to the lower left corner of the container.
+
+* In some modal dialogs no button, or only the primary button is displayed.
 
 ## Position
 
@@ -79,7 +86,10 @@ Process order cancelation
 Page settings
 ```
 
-Exeption: If the element that triggers the modal dialog is an icon, the modal dialog title is the same as the hover text of the icon.
+Exeptions: 
+
+* If the element that triggers the modal dialog is an icon, the modal dialog title is the same as the hover text of the icon.
+* If the element can trigger two different modal dialogs (depending on the current state of the shop), the title of the modal dialog is not taken over from the element. It rather descriptively and concisely represents the purpose of the respective modal dialog.
 
 ## Design
 
