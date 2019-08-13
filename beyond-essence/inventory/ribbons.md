@@ -9,7 +9,7 @@ Ribbons are graphical elements and are used on UI elements to mark, highlight, o
 
 ## Use cases
 
-In the Beyond cockpit ribbons are used as labels to mark a function, such as an active theme, a test order, or a canceled order.
+In the Beyond cockpit ribbons are used as labels to mark a state, such as an active theme, a test order, or a canceled order.
 
 ## Structure
 
