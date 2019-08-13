@@ -32,8 +32,8 @@ In input dialogs, a primary button is used instead of a danger button.
 
 Exceptions:
 
-* There are cases where the two buttons are separated from each other, e.g. when another UI element such as a link should be located next to the primary button.
-The default or warning button is then moved to the lower left corner of the container.
+* There are cases where the two buttons are separated from each other, e.g. when another UI element, such as a link, should be located next to the primary button.
+The default button is then moved to the lower left corner of the container.
 
 * In some modal dialogs no button, or only the primary button is displayed.
 
