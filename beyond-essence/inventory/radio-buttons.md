@@ -9,7 +9,11 @@ Radio buttons belong to the selection controls and allow users to select a singl
 
 ## Use cases
 
-In the Beyond cockpit we provide two types of radio buttons:
+In the Beyond cockpit we provide three types of radio buttons:
+
+* Radio buttons that allow to select from a list of options
+
+{% image_custom image="/assets/img/pages/essence/radio-buttons-list.png" width="100" lightbox %}
 
 * Radio buttons that relate to input fields
 
