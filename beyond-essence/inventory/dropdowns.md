@@ -10,7 +10,7 @@ They present a list of fixed options the user can choose from.
 
 ## Use cases
 
-Dropdowns are used to already preselect the most common, or the recommended option for the user by still giving them the chance two select another option.
+Dropdowns are used to already preselect the most common, or the recommended option for the user by still giving them the chance to select another option.
 
 ## Structure
 
@@ -33,7 +33,8 @@ Exception: The pagination dropdown is not located on a card but below one.
 ## Behavior
 
 In the initial state, the container of a dropdown displays the default option.
-After the container or the arrows are clicked or touched, the drawer is opened below the label but it overlays the container.
+After the container or the arrows are clicked or touched, the drawer is opened.
+Depending on the implementation, the drawer overlays either the label, the container, or both. 
 The user can now choose between the different dropdown options.
 The currently selected option is marked with a hook on the left.
 Once the user selected an option, the drawer is closed and the selected option is displayed in the container.
