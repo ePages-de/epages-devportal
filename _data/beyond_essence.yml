@@ -25,6 +25,9 @@
 
 - title: Inventory
   entries:
+    - title: Cards
+      link: beyond-essence/inventory/cards.md
+
     - title: Checkboxes
       link: beyond-essence/inventory/checkboxes.md
 
