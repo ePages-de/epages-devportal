@@ -33,8 +33,8 @@
 
     - title: Checkboxes
       link: beyond-essence/inventory/checkboxes.md
+
     - title: Dropdowns
-    
       link: beyond-essence/inventory/dropdowns.md
 
     - title: Empty states
@@ -48,8 +48,8 @@
 
     - title: Modal dialogs
       link: beyond-essence/inventory/modal-dialogs.md
-    - title: Radio buttons
 
+    - title: Radio buttons
       link: beyond-essence/inventory/radio-buttons.md
 
     - title: Ribbons
