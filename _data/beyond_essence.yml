@@ -25,23 +25,38 @@
 
 - title: Inventory
   entries:
+    - title: Buttons
+      link: beyond-essence/inventory/buttons.md
+
     - title: Cards
       link: beyond-essence/inventory/cards.md
 
     - title: Checkboxes
       link: beyond-essence/inventory/checkboxes.md
 
+    - title: Dropdowns
+      link: beyond-essence/inventory/dropdowns.md
+
     - title: Empty states
       link: beyond-essence/inventory/empty-states.md
+
+    - title: Input fields
+      link: beyond-essence/inventory/input-fields.md
+
+    - title: Links
+      link: beyond-essence/inventory/links.md
+
+    - title: Modal dialogs
+      link: beyond-essence/inventory/modal-dialogs.md
+
+    - title: Radio buttons
+      link: beyond-essence/inventory/radio-buttons.md
 
     - title: Ribbons
       link: beyond-essence/inventory/ribbons.md
 
-    - title: Toggle switches
-      link: beyond-essence/inventory/toggle-switches.md
-
     - title: Toast messages
       link: beyond-essence/inventory/toast-messages.md
 
-    - title: Links
-      link: beyond-essence/inventory/links.md
+    - title: Toggle switches
+      link: beyond-essence/inventory/toggle-switches.md
