@@ -64,7 +64,7 @@ tests, because we do want to see the errors in this phase, so that we have a cha
 ## Concurrent test execution
 
 We had to take some precautions in order to be able to run tests concurrently.
-There word "concurrent" has two different meanings here. On one hand it refers to starting the program in a way that makes it invoke
+The word "concurrent" has two different meanings here. On one hand it refers to starting the program in a way that makes it invoke
 several tests in parallel. This can be achieved using the [`maxParallelForks`](https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html#org.gradle.api.tasks.testing.Test:maxParallelForks) property of a Gradle test task.
 This way of parallelising tests written in JVM / Gradle does not require any specific support by the test framework.
 
@@ -117,7 +117,7 @@ In that sense they are also driving the development behind certain non-functiona
 ## Zalenium
 
 The most recent addition to our development environment is [Zalenium by Zalando](https://opensource.zalando.com/zalenium/). Before we
-installed Zalenium we had been maintaining our own Grid installation, which was also based on [docker-selenium](https://github.com/SeleniumHQ/docker-selenium).
+switched to Zalenium we had been maintaining our own Grid installation, which was also based on [docker-selenium](https://github.com/SeleniumHQ/docker-selenium).
 
 Using Zalenium all of our UI tests produce a video recording, which is very helpful when analysing failures. The videos are much more
 useful than screenshots. Seeing the test in motion makes it that much easier to understand the problem. While both videos and screenshots
@@ -142,8 +142,3 @@ the code is comparably much easier to understand and navigate. There is no frame
 is also greatly reduced.
 
 But most importantly the tests are running again regularly, and mostly free from random errors.
-
-
-
-
-We managed to build, maintain and improve a test suite that was
