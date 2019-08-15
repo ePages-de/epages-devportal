@@ -16,7 +16,7 @@ During the hackathon in March we were able to shape the idea and the first draft
 Since then (four and a half months ago) we worked further on the user-centered onboarding tool.
 In the following I want to present our results so far and how the specific implementation aspects are linked to the user’s need (- at least what we think the users need is - next phase would be obviously to test our idea and product on our newbies!)
 
-image
+{% image_custom image="/assets/img/pages/blog/images/onboarding-slogan.png" width="50" lightbox %}
 
 ## “The excited but also insecure new employee...
 
@@ -26,7 +26,7 @@ So, to operate against the insecurity of our new employee we want to create an a
 This discovery seems so simple and crystal clear, maybe even trivial to think of now.
 But back then it prevented us from going in the wrong direction, to deluge the newbie with information and meetings - that’s why design thinking rocks! 
 
-image
+{% image_custom image="/assets/img/pages/blog/images/onboarding-learning.png" width="50" lightbox %}
 
 ## … has a need for social acceptance, … 
 
@@ -37,7 +37,7 @@ This beforehand preparation clearly demonstrates that we have been waiting for h
 Also, by assigning a buddy to her who can help in case she feels lost, we illustrate, that it’s okay and even wanted to ask questions and that we will support her wherever we can.
 We want to have her here and make her integration into the epages family as smooth as possible ;)
 
-image
+{% image_custom image="/assets/img/pages/blog/images/onboarding-startpage.png" width="50" lightbox %}
 
 ## … structure, 
 
@@ -52,7 +52,7 @@ To set individual goals is a prerequisite for success (or at least makes it meas
 On the individual onboarding page, we guide her through the goal setting process by e.g. encouraging her to self-reflect about her strengths and expectations.
 As the onboarding page is individualized she can directly fill in her goals, update the current status of the goal’s achievement and discuss her progress with her manager (or restrict the permissions of the page, so that only she can see this). 
 
-image
+{% image_custom image="/assets/img/pages/blog/images/onboarding-goals.png" width="50" lightbox %}
 
 ## … because it is more important to feel self-effective than getting pure information.”
 
