@@ -35,6 +35,16 @@ cycle.
 this problem. There are some considerations to cut back on using the Groovy language, but this was not really a concern for us,
 because Groovy is a very easy to learn languages, and it is mostly backwards compatible to Java.
 
+<img alt="Image of Spock the Star Trek character" src="/assets/img/pages/blog/images/spock-geb-zalenium.png" class="center-image"/>
+<style type="text/css">
+.center-image {
+    height: 320px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
 
 ## Stability testing
 
