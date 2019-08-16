@@ -58,7 +58,7 @@ exclude:
   - firebase.json
 
 feed:
-  path: /blog/feed.xml
+  path: /feed.xml
 
 category_list:
   api-experience: API Experience
