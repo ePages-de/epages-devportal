@@ -35,7 +35,7 @@ Using our [REST client SITe](https://github.com/ePages-de/site){:target="_blank"
 ## We're keeping you up to date
 
 We've implemented a change log that covers significant updates and changes to the ePages REST API.
-In order to keep track of these changes we recommend you to follow [@epagesdevs](https://twitter.com/epagesdevs){:target="_blank"} on Twitter or subscribe to our [RSS feed for the API Change Log](/blog/feed.xml).
+In order to keep track of these changes we recommend you to follow [@epagesdevs](https://twitter.com/epagesdevs){:target="_blank"} on Twitter or subscribe to our [RSS feed for the API Change Log](/feed.xml).
 
 ## Happy coding!
 
