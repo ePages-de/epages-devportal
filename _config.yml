@@ -21,7 +21,6 @@ include:
   - beyond-essence
 
 plugins:
-  - jekyll-feed
   - jekyll-admin
   - bourbon
   - neat
