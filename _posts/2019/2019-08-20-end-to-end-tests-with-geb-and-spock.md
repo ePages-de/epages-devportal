@@ -9,6 +9,7 @@ category: tech-stories
 tags: ["tech", "methods-and-tools", "coding"]
 authors: ["Thomas", "Torben"]
 about_authors: ["thirsch", "tulber"]
+language: BE
 ---
 
 This blog post is going to be a summary of our recent endeavours to establish a solid end-to-end testing culture at ePages,

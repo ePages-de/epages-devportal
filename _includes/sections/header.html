@@ -23,6 +23,18 @@
               {{ author }}
             </a>{% unless forloop.last %}, {% endunless %}
           {% endfor %}&nbsp; — &nbsp;{{ page.date | date: "%B %d, %Y" }}&nbsp; — &nbsp;<a href="/blog/{{ page.category }}" class="header__category">{{ page.category | category_name }}</a>&nbsp; — &nbsp;<i class='far fa-clock' style='font-size: 1.6rem'></i><span> {{ reading_time }} min. read</span>
+          {% if page.language == 'BE' %}
+            &nbsp; — &nbsp;
+            <img src="/assets/img/pages/blog/images/british-flag.png" class="flag-icon" />
+            British English
+            <style type="text/css">
+            .flag-icon {
+                display: inline;
+                height: 20px;
+                vertical-align: text-bottom;
+            }
+            </style>
+          {% endif %}
         </div>
       {% endif %}
 
