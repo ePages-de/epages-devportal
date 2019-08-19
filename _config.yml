@@ -21,7 +21,6 @@ include:
   - beyond-essence
 
 plugins:
-  - jekyll-feed
   - jekyll-admin
   - bourbon
   - neat
@@ -58,7 +57,7 @@ exclude:
   - firebase.json
 
 feed:
-  path: /feed.xml
+  path: /blog/feed.xml
 
 category_list:
   api-experience: API Experience
