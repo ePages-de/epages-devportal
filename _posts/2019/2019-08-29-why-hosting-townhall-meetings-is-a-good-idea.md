@@ -53,5 +53,6 @@ The highlight at the end is always this: we can try food and drinks from the cou
 ## Making communication and exchange a delight
 
 By hosting Town Hall meetings we found a good way to maintain communication and transparency within our organization, and at the same time we manage to foster company culture.
+We even use [sli.do](https://www.sli.do/) sometimes for raising questions or voting on topics which makes the meeting more interactive and fun.
 Of course there's always room for improvement.
 But sure thing this feedback can be brought up during a chat with management or HR in one of the next Town Halls 😉.
