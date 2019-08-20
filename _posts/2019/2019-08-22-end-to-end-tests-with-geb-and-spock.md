@@ -158,3 +158,5 @@ the code is comparably much easier to understand and navigate. This made it poss
 of the code, which is probably going to help with future maintenance.
 
 But most importantly the tests are running again regularly, and mostly free from random errors.
+
+Credit for the header image of this post goes to Brady Holt.
