@@ -47,7 +47,7 @@ Our office manager lovingly arranges bread rolls, cold cuts, müsli, juices, fru
 
 {% twitter https://twitter.com/epagesdevs/status/1149574890309029888 %}
 
-Our International Town Hall takes place every two months at 5:00 p.m. on thursdays.
+Our International Town Hall takes place every two months at 5:00 p.m. on Thursdays.
 We're an international team, and there's so much to learn and discover from other countries that we decided to give culture an own spotlight.
 One (or several) of our colleagues present their home country by putting together some slides of specialities of their country, be it the national emblem, clothes, spots to visit, national holidays, and such.
 The highlight at the end is always this: we can try food and drinks from the country while questioning our colleagues about their home.
