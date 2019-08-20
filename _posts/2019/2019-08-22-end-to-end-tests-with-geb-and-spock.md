@@ -3,7 +3,7 @@ title: End-to-end tests with Geb and Spock
 layout: post
 date: '2019-08-22'
 header_image: public/crash-test.jpg
-header_position: middle
+header_position: center
 header_overlay: true
 category: tech-stories
 tags: ["tech", "methods-and-tools", "coding"]
