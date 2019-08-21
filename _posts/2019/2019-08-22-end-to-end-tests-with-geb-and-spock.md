@@ -6,7 +6,7 @@ header_image: public/crash-test.jpg
 header_position: center
 header_overlay: true
 category: tech-stories
-tags: ["tech", "methods-and-tools", "coding"]
+tags: ["testing", "Zalenium", "Selenium framework"]
 authors: ["Thomas", "Torben"]
 about_authors: ["thirsch", "tulber"]
 ---
@@ -159,4 +159,4 @@ of the code, which is probably going to help with future maintenance.
 
 But most importantly the tests are running again regularly, and mostly free from random errors.
 
-Credit for the header image of this post goes to Brady Holt.
+*Credit for the header image of this post goes to Brady Holt.*
