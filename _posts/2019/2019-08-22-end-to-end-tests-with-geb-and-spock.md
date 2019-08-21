@@ -40,21 +40,9 @@ We wanted a way to simply and effectively develop end-to-end tests, and to be ab
 Last but not least we wanted to make use of Selenium Grid to parallelize execution of the tests, in order to improve the feedback
 cycle.
 
-<a href="https://gebish.org/" target="_blank">Geb</a>, <a href="http://spockframework.org/" target="_blank">Spock</a> and
-<a href="https://gradle.org/" target="_blank">Gradle</a> are a very good fit to approach this challenge. There are some considerations
-to cut back on using the Groovy language, but this was not really a concern for us, because Groovy is a very easy to learn language,
-and it is mostly backwards compatible to Java.
+[Geb](https://gebish.org/){:target="_blank"}, [Spock](http://spockframework.org/){:target="_blank"}, and [Gradle](https://gradle.org/){:target="_blank"} are a very good fit to approach this challenge. There are some considerations to cut back on using the Groovy language, but this was not really a concern for us, because Groovy is a very easy to learn language, and it is mostly backwards compatible to Java.
 
-<img alt="Image of Spock the Star Trek character" src="/assets/img/pages/blog/images/spock-geb-zalenium.png" class="center-image"/>
-<style type="text/css">
-.center-image {
-    height: 320px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
+{% image_custom image="/assets/img/pages/blog/images/spock-geb-zalenium.png" width="20" lightbox %}
 
 ## Stability testing
 
@@ -84,8 +72,7 @@ tests, because we do want to see the errors in this phase, so that we have a cha
 
 We had to take some precautions in order to be able to run tests concurrently.
 The word "concurrent" has two different meanings here. On one hand it refers to starting the program in a way that makes it invoke
-several tests in parallel. This can be achieved using the <a href="https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html#org.gradle.api.tasks.testing.Test:maxParallelForks" target="_blank">`maxParallelForks`</a> property
-of a Gradle test task.
+several tests in parallel. This can be achieved using the [`maxParallelForks`](https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html#org.gradle.api.tasks.testing.Test:maxParallelForks){:target="_blank"} property of a Gradle test task.
 This way of parallelizing tests written in JVM / Gradle does not require any specific support by the test framework.
 
 The other meaning of "concurrent" refers to having two instances of the same test running *somewhere*.
@@ -98,10 +85,8 @@ Often times our third-party integrations would allow us to create any number of 
 In one case we were not allowed to do that, as we were testing against the live system of that integration, because no "sandbox" existed.
 
 So we had to come up with a mechanism, that would allow us to prevent concurrent execution of this test, and instead wait for the
-ongoing run to finish. Conveniently, Java already provides <a href="https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html" target="_blank">an interface for this purpose</a>, which has exactly the desirable property that requesting a lock includes waiting for
-its availability, while disabling the current thread. Nice!  
-The interface is readily usable implemented by the <a href="https://github.com/redisson/redisson" target="_blank">Redisson</a> library,
-which uses <a href="https://redislabs.com/why-redis/" target="_blank">Redis</a> as its backend.
+ongoing run to finish. Conveniently, Java already provides [an interface for this purpose](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html){:target="_blank"}, which has exactly the desirable property that requesting a lock includes waiting for its availability, while disabling the current thread. Nice!  
+The interface is readily usable implemented by the [Redisson](https://github.com/redisson/redisson){:target="_blank"} library, which uses [Redis](https://redislabs.com/why-redis/){:target="_blank"} as its backend.
 
 ## Diagnosing actual problems
 
@@ -121,7 +106,7 @@ Also, this problem was not even related to activities of our own team, but rathe
 on in other teams. We were the ones to notice it early, because we were running automated checkout tests many times per day, and paying
 close attention to the results.
 
-The next step was to deploy production grade monitoring to the test environment. Tools like the <a href="https://www.elastic.co/what-is/elk-stack" target="_blank">Elastic Stack</a> are typically used in the production environment of any serious web enterprise. By also making
+The next step was to deploy production grade monitoring to the test environment. Tools like the [Elastic Stack](https://www.elastic.co/what-is/elk-stack){:target="_blank"} are typically used in the production environment of any serious web enterprise. By also making
 them available in the development environment, the task of diagnosing problems that happen only rarely becomes significantly easier,
 because the log output of the whole system can be viewed at a glance, and is stored for later analysis.
 
@@ -134,7 +119,7 @@ be able to pass. In that sense they are also driving the development behind cert
 
 ## Zalenium
 
-The most recent addition to our development environment is <a href="https://opensource.zalando.com/zalenium/" target="_blank">Zalenium by Zalando</a>. Before we switched to Zalenium we had been maintaining our own Grid installation, which was also based on <a href="https://github.com/SeleniumHQ/docker-selenium" target="_blank">docker-selenium</a>.
+The most recent addition to our development environment is [Zalenium by Zalando](https://opensource.zalando.com/zalenium/){:target="_blank"}. Before we switched to Zalenium we had been maintaining our own Grid installation, which was also based on [docker-selenium](https://github.com/SeleniumHQ/docker-selenium){:target="_blank"}.
 
 Using Zalenium all of our UI tests produce a video recording, which is very helpful when analyzing failures. The videos are much more
 useful than screenshots. Seeing the test in motion makes it that much easier to understand the problem. While both videos and screenshots
