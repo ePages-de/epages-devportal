@@ -35,7 +35,7 @@ HashiCorp's [Vault](https://www.vaultproject.io/){:target="_blank"} secures, sto
 To avoid depending on a single server, we containerize the complete process.
 Since the state is stored in Vault, we are able to run the certificate creation and renewal process anywhere as long as there is Vault access.
 
-A testing setup can be created by using the files provided in [this Gist](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab){:target="_blank"}.
+A testing setup can be created by using the files provided in [this Gist](https://gist.github.com/teamblack-ci/b853bf2c360f7e528e6b1b0aad9995f6){:target="_blank"}.
 In the following sections we describe how they are supposed to work, and how one issues and renews certificates.
 
 ## Get Vault ready
@@ -68,7 +68,7 @@ Whereas when performing certificate renewal, we need read access on most Vault p
 
 Let's embed the Vault client on an official Certbot Docker image.
 As aforementioned, we are going to use DNS-01 challenges to avoid exposing any network ports and re-directing HTTP(S) traffic to this container.
-More specifically, we are going to use the DNSimple plug-in as seen in the [Dockerfile](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab#file-dockerfile){:target="_blank"}.
+More specifically, we are going to use the DNSimple plug-in as seen in the [Dockerfile](https://gist.github.com/teamblack-ci/b853bf2c360f7e528e6b1b0aad9995f6#file-dockerfile){:target="_blank"}.
 
 The RUN argument is similar to the [official's Vault Docker image](https://github.com/hashicorp/docker-vault/blob/2b7561b55940c35e412c914083e7dd40d21e9193/0.X/Dockerfile#L12-L46){:target="_blank"} with the removal of the `ca-certificates` package which is available from the base image and the addition of the `curl` and `jq` packages that we are going to need later on.
 
@@ -151,13 +151,13 @@ Hopefully our Dockerfile includes already some scripts to fix this!
 
 ### Re-initialize at startup
 
-For the initialization process we shall create a shell script called [initialize.sh](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab#file-initialize-sh){:target="_blank"}.
+For the initialization process we shall create a shell script called [initialize.sh](https://gist.github.com/teamblack-ci/b853bf2c360f7e528e6b1b0aad9995f6#file-initialize-sh){:target="_blank"}.
 The script reads the necessary information from the Vault and re-creates the necessary Certbot file structure for certificate issuing and renewal.
 
 ### Updating renewed certificates in Vault
 
 Certificates may get renewed inside the container, but still do not get updated in Vault.
-To do so, we need to place a Certbot deploy hook, [00-update-vault.sh](https://gist.github.com/ikoutras-epages/b4780862a93315aac1a971754ca50eab#file-00-update-vault-sh){:target="_blank"}, in `/etc/letsencrypt/renewal-hooks/deploy/`.
+To do so, we need to place a Certbot deploy hook, [00-update-vault.sh](https://gist.github.com/teamblack-ci/b853bf2c360f7e528e6b1b0aad9995f6#file-00-update-vault-sh){:target="_blank"}, in `/etc/letsencrypt/renewal-hooks/deploy/`.
 
 ## Wrapping it up
 

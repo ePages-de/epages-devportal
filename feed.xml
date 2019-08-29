@@ -1,0 +1,19 @@
+---
+layout: none
+permalink: /blog/feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="{{ site.url }}/blog/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="{{ site.url }}" rel="alternate" type="text/html" />
+  <updated>{{ "now" | date: "%Y-%m-%dT%H:%M:%S%:z" }}</updated>
+  <id>{{ site.url }}/blog/feed.xml</id>
+  <title type="html">{{ site.title }}</title>
+  {% for post in site.posts limit:10 %}
+    <entry>
+      <title type="html">{{ post.title | xml_escape }}</title>
+      <link href="{{ site.url }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+    </entry>
+  {% endfor %}
+</feed>

@@ -8,7 +8,6 @@ gem 'colorize'
 gem 'html-proofer'
 
 group :jekyll_plugins do
-  gem 'jekyll-feed'
   gem 'jekyll-admin'
   gem 'bourbon'
   gem 'neat'
