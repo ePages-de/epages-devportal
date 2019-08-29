@@ -59,7 +59,7 @@ Nevertheless, you should always be careful with such an outside setting and test
 It can be really annoying for the team if they can’t hear each other, or if the stickies are blown away by the wind.
 So far we couldn't do an outdoor retrospective here at ePages because all locations near our office are not quiet enough.
 
-## Combine outside and indoor retrospectives
+## Combination of out- and indoor retrospectives
 
 If your team is not very experienced or you are worried about an actionable outcome, you might as well combine an indoor with an outdoor retrospective.
 The agenda can be roughly compared to a walk and talk retrospective but the team spends more time inside, and the topic identification and the discussion is more guided.
