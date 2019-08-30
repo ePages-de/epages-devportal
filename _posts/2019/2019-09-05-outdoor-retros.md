@@ -69,10 +69,13 @@ This could be an agenda:
 3.	Let the groups take a walk while discussing the topics (20 minutes).
 4.	Meet again in the meeting room and let everyone present their topics.
 
+## Conclusion
+
 As you can see, there are different ways to jazz up your retrospectives by doing them outdoors.
 Unfortunately, we couldn't do an outdoor retrospective yet because all locations near our office are not quiet enough.
-What are your experiences with doing outdoor retrospectives?
+But we're a big fan of walk and talk retrospectives.
 
+What are your experiences with doing outdoor retrospectives?
 Did you manage to find a location that is quiet enough?
 Do you even have other ideas?
 We'd happy to hear your thoughts on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}!
