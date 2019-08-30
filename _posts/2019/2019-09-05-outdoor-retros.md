@@ -25,13 +25,13 @@ Here a three formats you can go with:
 ## Walk and talk retrospectives
 
 Doing your retrospective outside while taking a walk is a nice way for the team to have a little break from their usual office setup.
-Walking and enjoying the fresh air keeps the brain going. 
-Furthermore my teams often give the feedback that walking helps them to speak about difficult topics.
+Walking and fresh air keep the brain going. 
+Furthermore, my teams often give the feedback that walking helps them to speak about difficult topics.
 
-Here is how we do it here at ePages:
+Here is how we do it at ePages:
 
 1. Start in the team space: Throw a ball and ask everyone how he or she is feeling today.
-2. Give guiding questions: Maybe prepare short printouts for everyone.
+2. Give guiding questions. I always prepare short printouts for everyone.
 3. Explain the route you'll go, and agree on where and when to meet for wrap-up.
 3. Wrap up with the whole team discussing what everyone learned. This can also be outside using a ball to throw.
 
@@ -50,18 +50,17 @@ The action items can then be shared with everyone in the final wrap-up.
 
 If you have a nice and quiet space outside your office, you might as well do a proper retrospective outdoors. 
 It is important that the location is really quiet (no street noise, street works, etc.) and also sheltered from wind.
-When the location is windy, team members might not understand each other as the wind takes the voice into different directions.
+In a windy location team members might not understand each other as the wind takes the voice into different directions.
 Inner courtyards are perfect for this.
 You could then also use the walls of the buildings for hanging up flipcharts and stickies. 
 If the location is close to your office, you could also take a flipchart stand outside.
 
-Nevertheless, you should always be careful with such an outside setting and test everything beforehand.
+Nevertheless, you should always be careful with such an outside location and test everything beforehand.
 It can be really annoying for the team if they can’t hear each other, or if the stickies are blown away by the wind.
-So far we couldn't do an outdoor retrospective here at ePages because all locations near our office are not quiet enough.
 
 ## Combination of out- and indoor retrospectives
 
-If your team is not very experienced or you are worried about an actionable outcome, you might as well combine an indoor with an outdoor retrospective.
+If your team is not that experienced or you are worried about an actionable outcome, you might as well combine an indoor with an outdoor retrospective.
 The agenda can be roughly compared to a walk and talk retrospective but the team spends more time inside, and the topic identification and the discussion is more guided.
 This could be an agenda:
 
@@ -70,7 +69,10 @@ This could be an agenda:
 3.	Let the groups take a walk while discussing the topics (20 minutes).
 4.	Meet again in the meeting room and let everyone present their topics.
 
+As you can see, there are different ways to jazz up your retrospectives by doing them outdoors.
+Unfortunately, we couldn't do an outdoor retrospective yet because all locations near our office are not quiet enough.
 What are your experiences with doing outdoor retrospectives?
+
 Did you manage to find a location that is quiet enough?
 Do you even have other ideas?
 We'd happy to hear your thoughts on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}!
