@@ -53,7 +53,7 @@ Besides this feature list, we also had an eye on the overall feature set, the pr
 What can I say?
 It wasn't an easy decision.
 We could have worked with nearly all of them.
-But some test accounts and discussions later, we decided to go with [PhraseApp](https://phraseapp.com/){:target="_blank"}.
+But some test accounts and discussions later, we decided to go with [Phrase](https://phrase.com/){:target="_blank"}.
 
 ## Organizational stuff
 
@@ -82,7 +82,7 @@ So we had a deeper look at our interal processes.
 Long story short, these are the most important Q&As we tackled:
 
 **Q**: Do we provide our developers with final UI texts before or after they develop a feature?   
-**A**: First, the developers have to create the keys while they are coding, but without any final texts. Afterwards, these keys will be automatically uploaded to PhraseApp (keyword: Git Synchronization). The final UI texts will only be delivered by our UI writers at this point in time. Thus, we can make use of all the features PhraseApp offers.
+**A**: First, the developers have to create the keys while they are coding, but without any final texts. Afterwards, these keys will be automatically uploaded to Phrase (keyword: Git Synchronization). The final UI texts will only be delivered by our UI writers at this point in time. Thus, we can make use of all the features Phrase offers.
 
 **Q**: How often do we create UI texts?   
 **A**: Twice a week.
@@ -97,7 +97,7 @@ With this (and some further minor changes), we reduced the localization and tran
 We thought that our translation agency would jump for joy when we tell them about the new localiztion tool.
 Finally, we would be able to provide really great context for all our translation keys with the In-Context Editor.
 We wouldn't need to handle our communication via email and XML files anymore.
-The agency could simply get their own PhraseApp account and start off translating.
+The agency could simply get their own Phrase account and start off translating.
 
 But we forgot that translators are used to their typical translation tools, and not yet to dedicated software localization tools.
 They would need to spend some time to get used to this new tool.
