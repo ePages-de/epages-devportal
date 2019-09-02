@@ -6,7 +6,7 @@ header_image: public/design-system.jpg
 header_position: top
 header_overlay: true
 category: ux-and-design
-tags: ["UI", "design", "patterns", "design system"]
+tags: ["UI", "design", "UI patterns", "design system"]
 authors: ["Birgit"]
 about_authors: ["bbader"]
 ---
@@ -28,7 +28,7 @@ All are enthusiastic about the new product approach, do research, contribute ide
 Let's be honest with each other: things change over time.
 New features are requested and need to be implemented, further teams are involved to top up development resources, or new colleagues join to help grow the product.
 There might also be partners providing external applications to complete the feature set.
-With all those different resources we still we want to deliver a nice and sound product, right?
+With all those different resources we still want to deliver a nice and sound product, right?
 And clients should have a good time using it.
 But let's face it: it may also happen that colleagues who know the product like the back of their hand are absent for a longer time or meanwhile have left the company.
 Who has the overview then?
@@ -39,7 +39,7 @@ Who knows the details?
 How do all the colleagues that work on the product know about decisions that have been made?
 I've heard people (including myself) discuss stuff like this:
 
-* Why do we use a toggle here instead of a checkbox?
+* Why do we use a toggle switch here instead of a checkbox?
 * How should we get the message across in the UI?
 * Seriously? Is this the way we want to go from UX perspective?
 * Can we expect our users to know this?
@@ -49,9 +49,13 @@ I've heard people (including myself) discuss stuff like this:
 
 ## Design system to the rescue
 
-Discussions about the above topics as well as questions that repeately come up could be avoided with a design system.
+Discussions about the above topics as well as questions that repeatedly come up could be avoided with a design system.
 What does that do exactly?
-It helps to create a better process, it aims for consistency and transparent decisions, it helps all involved parties to work efficiently on the product, it trains new employees on how and when to use certain UI elements, and documents decisions that have been made along the way.<br>
+It helps to create a better product design process.
+It aims for consistent UI elements in terms of design, usage, and speech.
+It supports all involved parties to work efficiently on the product.
+It trains new employees on how and when to use certain UI elements, and documents decisions that have been made along the way.
+It establishes a common knowledge base. <br>
 Scope and structure are up to the company's needs, but the design system should give of course the answers to questions that repeatedly arise during product development.
 
 A design system might cover:
@@ -60,12 +64,11 @@ A design system might cover:
 * UX directive
 * Elements used in the UI (inventory) and their behavior
 * Design guidelines for styling UI inventory (colors, fonts, dimensions, padding...)
-* When to use specific elements (use cases)
 * Tone of voice
 
 ## Let's do this
 
 It's clear that a design system is not brought by Santa Claus.
 It involves a huge amount of work and alignment of resources to establish it.
-Processes need to be implemented, and all involved parties have to be onboarded.
+Processes need to be implemented on how to best work together crafting a great product, and all involved parties have to be onboarded.
 In a follow-up post we'll give you insights of how we made the first small steps towards a design system.
