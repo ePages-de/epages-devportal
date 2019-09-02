@@ -11,20 +11,20 @@ authors: ["Christin"]
 about_authors: ["crichter"]
 ---
 
-Do you have your strings ready and want to move into the [localization](https://phraseapp.com/blog/posts/l10n-all-stats-facts-data-youll-ever-need/?utm_campaign=l10n-simple-definition&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} (l10n) process, but you are not sure where and how to start?
+Do you have your strings ready and want to move into the [localization](https://phrase.com/blog/posts/l10n-all-stats-facts-data-youll-ever-need/?utm_campaign=l10n-simple-definition&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} (l10n) process, but you are not sure where and how to start?
 This is a short introduction to best practices that will ensure the flawless integration of your software localization process with your design, programming and iteration environment.
 No matter if you have different types of content or technical requirements, at the end of your localization process, it should be content that is ready for market release in your chosen locale.
 Learn more about the possibilities and tools you should rely on in the following sections.
 
 ## How to prepare for software localization
 
-As a first step, before you can even think about starting the software localization, you need to ensure that your content is ready for [internationalization](https://phraseapp.com/blog/posts/i18n-a-simple-definition/?utm_campaign=i18n-simple-definition&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} (i18n).
+As a first step, before you can even think about starting the software localization, you need to ensure that your content is ready for [internationalization](https://phrase.com/blog/posts/i18n-a-simple-definition/?utm_campaign=i18n-simple-definition&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} (i18n).
 This means your design should take into account different length of strings, the readiness for left-to-right and right-to-left reading, the use of UTF and other various factors.
 Furthermore, you need to ensure that you opt for a full locale and not just a language to adjust date formats, spelling and word choices respectively.
 
 The process of internationalization describes the generalization of your design so as to be ready for the different locales.
 This is one of the most important steps to get ready for your software localization process and cannot be skipped if you wish to avoid neverending bug fixes further down the line.
-If this is your first localization effort, it makes sense to get a localization or [globalization](https://phraseapp.com/blog/posts/globalization-vs-localization/?utm_campaign=globalization-vs-localization&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} expert on board who can help you with the details.
+If this is your first localization effort, it makes sense to get a localization or [globalization](https://phrase.com/blog/posts/globalization-vs-localization/?utm_campaign=globalization-vs-localization&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} expert on board who can help you with the details.
 
 Once your internationalization process has been finished, you can proceed to the extraction of the strings that need to be localized.
 This extraction can happen, for instance, through SaaS as an automated procedure, which saves developers a lot of time and headache previously encountered when preparing sheets and files.
@@ -33,8 +33,8 @@ The automated extraction also allows for fewer errors and ensures that no extras
 ## How to decide on how to localize your software
 
 Now that your content is ready, you can start localizing your software.
-In order to do that, you need to decide whether to keep the localization in your hands and work with a team of translators using a [software localization tool](https://phraseapp.com/blog/posts/questions-to-ask-when-evaluating-the-best-software-localization-tool/?utm_campaign=5-questions-l10n-tool&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"}, or whether to hand the process over to a Language Service Provider (LSP) specialized on software localization.
-In any of those two cases, you need to ensure that only the best [localization management](https://phraseapp.com/on/localization-management?utm_campaign=localization-management&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} and quality assessment practices are in place.
+In order to do that, you need to decide whether to keep the localization in your hands and work with a team of translators using a [software localization tool](https://phrase.com/blog/posts/questions-to-ask-when-evaluating-the-best-software-localization-tool/?utm_campaign=5-questions-l10n-tool&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"}, or whether to hand the process over to a Language Service Provider (LSP) specialized on software localization.
+In any of those two cases, you need to ensure that only the best [localization management](https://phrase.com/on/localization-management?utm_campaign=localization-management&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} and quality assessment practices are in place.
 
 Currently, there is an increased opportunity to capitalize on new tools which focus on the localization of content.
 They are built to streamline your workflow, can be easily implemented and also facilitate the simultaneous workflow of everyone involved in your localization process.
@@ -74,4 +74,4 @@ All comments and requests for alterations will then have to be taken into accoun
 This step will help you guarantee the best possible outcome and facilitate any following iterations from your side.
 Localization today often happens simultaneously with iterations and updates.
 Therefore, it is of utmost importance to have an elaborate workflow in place and rely on a strong software localization tool.
-If you are still looking for one, give [PhraseApp](https://phraseapp.com/?utm_campaign=phraseapp-homepage&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} a try.
+If you are still looking for one, give [Phrase](https://phrase.com/?utm_campaign=phraseapp-homepage&utm_medium=blog-relations&utm_source=epages-blog){:target="_blank"} a try.
