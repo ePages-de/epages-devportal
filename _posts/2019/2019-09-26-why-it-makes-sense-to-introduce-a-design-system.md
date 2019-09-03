@@ -54,8 +54,7 @@ What does that do exactly?
 It helps to create a better product design process.
 It aims for consistent UI elements in terms of design, usage, and speech.
 It supports all involved parties to work efficiently on the product.
-It trains new employees on how and when to use certain UI elements, and documents decisions that have been made along the way.
-It establishes a common knowledge base. <br>
+It trains new employees on how and when to use certain UI elements, and documents decisions that have been made along the way.<br>
 Scope and structure are up to the company's needs, but the design system should give of course the answers to questions that repeatedly arise during product development.
 
 A design system might cover:
@@ -71,4 +70,4 @@ A design system might cover:
 It's clear that a design system is not brought by Santa Claus.
 It involves a huge amount of work and alignment of resources to establish it.
 Processes need to be implemented on how to best work together crafting a great product, and all involved parties have to be onboarded.
-In a follow-up post we'll give you insights of how we made the first small steps towards a design system.
+In a follow-up post we'll give you insights on how we made the first small steps towards a design system.
