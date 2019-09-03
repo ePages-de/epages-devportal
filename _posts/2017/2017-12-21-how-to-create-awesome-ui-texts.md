@@ -27,15 +27,15 @@ In our case, we often have one-word-strings.
 One word.
 Sometimes you don't even know if this word is a subject or a verb.
 How can you be able to translate this into another language?
-This is one of the reasons, we decided to work with the software localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}.
-With the help of PhraseApp's [In-Context Editor](http://demo.phraseapp.com/){:target="_blank"} we are now able to see, and translate the single strings directly in our software.
+This is one of the reasons, we decided to work with the software localization tool [Phrase](https://phrase.com/){:target="_blank"}.
+With the help of Phrase's [In-Context Editor](https://phrase.com/demo/){:target="_blank"} we are now able to see, and translate the single strings directly in our software.
 
 ## Benefit of a good memory
 
 Having a look at the context is not enough.
 You also have to remember, which terminology, and phrasing you used in similar texts before.
 This way, you can come up with consistent, and understandable UI texts.
-[PhraseApp](https://phraseapp.com/){:target="_blank"} also offers a Translation Memory to tackle this.
+[Phrase](https://phrase.com/){:target="_blank"} also offers a Translation Memory to tackle this.
 But Translation Memories do not always show every result, and (most of the time) do not take into account syntax similarities, or content overlaps.
 Thus, it helps if you are able to remember what you already did before.
 So, stay concentrated, don't forget the past, and benefit from the work you already did.

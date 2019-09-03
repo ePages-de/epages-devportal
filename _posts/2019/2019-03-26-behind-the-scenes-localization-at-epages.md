@@ -37,13 +37,13 @@ Now that I was so familiar with the topic of software localization, and introduc
 It's not so much different from localizing any other software, I guess.
 But we work agile.
 We have many small features at short intervals, and therefore smaller translation packages.
-For this reason (and several others), we decided to use PhraseApp as our localization tool.
+For this reason (and several others), we decided to use [Phrase](https://phrase.com/){:target="_blank"} as our localization tool.
 
-### Why PhraseApp?
+### Why Phrase?
 
 It facilitated the communication with the developers A LOT.
 They can concentrate on development, while I can still arrange the coordination and translation of new features in a timely manner.
-What's more, PhraseApp comes with a Translation Memory and an In-Context Editor. 
+What's more, Phrase comes with a Translation Memory and an In-Context Editor. 
 Especially the topic of providing context to our translators was a big issue before we introduced the tool.
 
 ### How much programming must a Localization Manager know to work on software localization?
@@ -68,7 +68,7 @@ And sure, there were some setbacks.
 But we have coped.
 
 There were also things coming my way I did not think of from the beginning.
-For example, it was not that easy to find translation agencies that committed to work with PhraseApp, and also to work agile.
+For example, it was not that easy to find translation agencies that committed to work with Phrase, and also to work agile.
 We had to make some compromises.
 But we found a way, and we are constantly striving to improve the process.
 
@@ -89,7 +89,7 @@ This helps me to understand the software and our developers' work even better, w
 
 ### What are your goals for 2019?
 
-I'd like to find more use cases for using PhraseApp within the company, as well as to equip our new product with a new language.
+I'd like to find more use cases for using Phrase within the company, as well as to equip our new product with a new language.
 And of course, I will never stop improving our current translation process.
 
 ### Sounds great! All the best, and thanks again for your time.
