@@ -30,7 +30,7 @@ Furthermore, my teams often give the feedback that walking helps them to speak a
 
 Here is how we do it at ePages:
 
-1. Start in the team space: Throw a ball and ask everyone how he or she is feeling today.
+1. Start in the team space: Throw a ball and ask everyone how they are feeling today.
 2. Give guiding questions. I always prepare short printouts for everyone.
 3. Explain the route you'll go, and agree on where and when to meet for wrap-up.
 3. Wrap up with the whole team discussing what everyone learned. This can also be outside using a ball to throw.
@@ -61,10 +61,11 @@ It can be really annoying for the team if they can’t hear each other, or if th
 ## Combination of out- and indoor retrospectives
 
 If your team is not that experienced or you are worried about an actionable outcome, you might as well combine an indoor with an outdoor retrospective.
-The agenda can be roughly compared to a walk and talk retrospective but the team spends more time inside, and the topic identification and the discussion is more guided.
+The agenda can be roughly compared to a walk and talk retrospective.
+But the team spends more time inside, and the topic identification as well as the discussion are more guided.
 This could be an agenda:
 
-1.	Start in a conference room with gathering stickies, grouping the topics and finding 3-5 topics to discuss.
+1.	Start in a conference room with gathering stickies, grouping the topics, and finding 3-5 topics to discuss.
 2.	Split the team into groups and let each group choose a topic to discuss about and to create action items for.
 3.	Let the groups take a walk while discussing the topics (20 minutes).
 4.	Meet again in the meeting room and let everyone present their topics.
@@ -72,10 +73,10 @@ This could be an agenda:
 ## Conclusion
 
 As you can see, there are different ways to jazz up your retrospectives by doing them outdoors.
-Unfortunately, we couldn't do an outdoor retrospective yet because all locations near our office are not quiet enough.
+Unfortunately, we couldn't do an outdoor retrospective yet, because all locations near our office are not quiet enough.
 But we're a big fan of walk and talk retrospectives.
 
 What are your experiences with doing outdoor retrospectives?
 Did you manage to find a location that is quiet enough?
 Do you even have other ideas?
-We'd happy to hear your thoughts on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}!
+We'd be happy to hear your thoughts on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}!
