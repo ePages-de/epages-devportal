@@ -12,8 +12,8 @@ about_authors: ["bbader"]
 ---
 
 Every year during this time we organize our R&D Day.
-Developers from all locations gather togehter and spend a day on topics that are currently relevant to them or might be exciting to work on.
-During the last two months, all colleagues had the opportunity to suggest topics they would like to learn more about or bring in something they want share themselves.
+Developers from all locations gather together and spend a day on topics that are currently relevant to them or might be exciting to work on.
+During the last two months, all colleagues had the opportunity to suggest topics they would like to learn more about or bring in something they want to share themselves.
 With the help of our Scrum Masters this converted into a one-day agenda with a nice mixture of talks, workshops, and open spaces.
 Spoiler alert: and of course there was no way around pizza 🍕!
 
