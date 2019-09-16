@@ -15,6 +15,6 @@ So exciting to participate on my first RnD Day at ePages! After just having held
 
 ## Github workshop with our Tech Writers
 
-Smart thing: our Tech Writes taught us non-devsin a beginners workshop how to use Github. I already knew Github in theory and sometimes checked out the status of the dev teams open pull requests. But it's always nice to be able to actually use the things yourself. And like this, I can direclty post my next blogpost directly in the repository.
+Smart thing: our Tech Writes taught us non-devsin a beginners workshop how to use Github. I already knew Github in theory and sometimes checked out the status of the dev teams open pull requests. But it's always nice to be able to actually use the things yourself. And like this, I can post my next blog post directly in the repository.
 
 {% twitter https://twitter.com/shollerhh/status/1171761823189753856 %}
