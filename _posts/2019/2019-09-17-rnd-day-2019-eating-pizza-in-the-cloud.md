@@ -55,7 +55,7 @@ All the topics were super interesting, and there was a lot to learn.
 
 From the *GitHub for beginners* workshop that I held together with my colleague, we gathered some statements about the R&D Day.
 After a 90 minutes workshop, our newborn GitHubbies (all non-devs!) were able to make a Pull Request to our [epages-devportal](https://github.com/ePages-de/epages-devportal){:target="_blank"}.
-We asked them to commit some thoughts about the day, and here we go with some quotes (they have not been checked for grammar 😆):
+We asked them to commit some thoughts about the day, and here we go with some quotes:
 
 *Stefanie says*:
 
