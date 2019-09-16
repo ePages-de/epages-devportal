@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Let's recap our R&D Day 2019
+title: "R&D Day 2019: eating pizza in the cloud"
 date: 2019-09-17
 header_image: private/rnd19.jpg
 header_position: center
