@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "R&D Day 2019: eating pizza in the cloud"
-date: 2019-09-16
+title: "R&amp;D Day 2019: eating pizza in the cloud"
+date: '2019-09-16'
 header_image: private/rnd19.jpg
 header_position: center
 header_overlay: true
 category: events
-tags: ["company", "events", "workshops", "development", "r&d"]
+tags: ["company", "events", "workshops", "development"]
 authors: ["Birgit"]
 about_authors: ["bbader"]
 ---
