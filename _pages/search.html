@@ -13,7 +13,7 @@ title: Search
   window.store = {
     {% for post in site.posts %}
       "{{ post.url | slugify }}": {
-        "title": "{{ post.title | xml_escape }}",
+        "title": "{{ post.title }}",
         "category": "{{ post.category | xml_escape }}",
         "tags": "{{ post.tags | join: ', ' | xml_escape }}",
         "authors": "{{ post.authors | join: ', ' | xml_escape }}",
