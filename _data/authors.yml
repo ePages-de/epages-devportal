@@ -37,7 +37,7 @@
 - id: alanghans
   name: Anna-Lena
   full_name: Anna-Lena Langhans
-  description: is an apprentice of the Design and Consult Team at ePages. She’s open minded and likes new challenges.
+  description: is an apprentice in the Design and Consult team at ePages. She’s open-minded and likes new challenges.
   image: alanghans.jpg
 
 - id: aortmann
@@ -355,7 +355,7 @@
 - id: mkoester
   name: Mario
   full_name: Mario Köster
-  description: is an apprentice in the field of design and consulting. He is always open to new ideas and likes to work with others in a team.
+  description: is an apprentice in the Design and Consult team at ePages. He is always open to new ideas and likes to work with others in a team.
   image: mkoester.jpg
 
 - id: mmerino
