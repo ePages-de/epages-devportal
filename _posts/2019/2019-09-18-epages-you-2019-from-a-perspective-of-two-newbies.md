@@ -50,7 +50,7 @@ They addressed what they already like about the current software, but also the c
 
 {% twitter https://twitter.com/epagesdevs/status/1172078677452120064 %}
 
-It was great to see what we already achieved in terms of our online shop software, but also to recognize what still needs to be done in order to meet the merchants needs.
+It was great to see what ePages has already achieved with its online shop software, but also to recognize what still needs to be done in order to meet the merchants needs.
 A big thank you goes to the merchants from [superstreusel.de](https://www.superstreusel.de/){:target="_blank"}, [hansemann.de](https://www.hansemann.de/){:target="_blank"}, [nutringo.de](https://www.nutringo.de/){:target="_blank"}, and [chronobalance.de](https://www.chronobalance.de/){:target="_blank"} for their time and opinion.
 
 ### Hands-on
@@ -77,7 +77,7 @@ Overall it was a very cool experience to try out this uncommon sport.
 
 After sport comes the pleasure.
 For all ePagees a very tasty buffet with thai curry, rice, falafel, salad, and chicken breast had been prepared.
-Everyone filled their stomachs, drank some drinks, and reviewed the day.
+Everyone filled their stomachs, had some drinks, and reviewed the day.
 As newbies this was our opportunity to get to know new faces and make new contacts.
 Eventually we headed home, prepared for the next day.
 
