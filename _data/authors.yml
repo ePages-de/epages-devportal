@@ -34,6 +34,12 @@
   description: is an experienced Infrastructure System Engineer with experiences ranging from VAX/VMS to today's current Linux systems. He is a passionate photographer, and never goes without a camera.
   image: avatar_male.jpg
 
+- id: alanghans
+  name: Anna-Lena
+  full_name: Anna-Lena Langhans
+  description: is an apprentice in the Design and Consult team at ePages. She’s open-minded and likes new challenges.
+  image: alanghans.jpg
+
 - id: aortmann
   name: Anja O.
   full_name: Anja Ortmann
@@ -345,6 +351,12 @@
   full_name: Martin
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+
+- id: mkoester
+  name: Mario
+  full_name: Mario Köster
+  description: is an apprentice in the Design and Consult team at ePages. He is always open to new ideas and likes to work with others in a team.
+  image: mkoester.jpg
 
 - id: mmerino
   name: Manel
