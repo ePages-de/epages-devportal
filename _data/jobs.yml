@@ -1,16 +1,16 @@
 - title: (Senior) Java Developer
   link: https://epages.com/en/career/?jh=2zr2s8sjxdwkvny4wmv8294nn0dc7j3
   description: Bring your knowledge of Java and Kotlin to work on a microservice architecture for our new ecommerce platform.
-  location: Hamburg / Jena
+  location: Hamburg
 
-- title: (Senior) Java Developer
-  link: https://epages.com/en/career/?jh=r6guph7qxv3tltd57aha83e3a69k4fp
-  description: Together with the teams in Hamburg and Jena you'll develop modules in Java and implement features for our new ecommerce platform.
-  location: Barcelona
+- title: Java Developer
+  link: https://epages.com/en/career/?jh=bo6dp88of7sn4vuj9cyn2k9vde0v1vh
+  description: Together with the counterpart team in Hamburg you'll develop modules in Java and implement features for our new ecommerce platform.
+  location: Jena
 
-- title: Scrum Master
-  link: https://epages.com/en/career/?jh=f9onabx9x5t890oxwhwvswmnp878hdh
-  description: Bring your knowledge of agile methods to supervise our Scrum teams with the objective to improve the development cycle.
+- title: JavaScript Engineer
+  link: https://epages.com/en/career/?jh=0ml7dxc8s5o3bno9e2tfamouig39b86
+  description: Bring your knowledge in shipping large scale web applications in JavaScript, and support our frontend team building an aweseome UI.
   location: Hamburg
 
 - title: Software developer - ecommerce
@@ -23,7 +23,7 @@
   description: With your skills in Ruby, Rails, JavaScript, and PostgreSQL you are responsible for the development of our crucial in-house tools.
   location: Hamburg
 
-- title: Working student / Intern
-  link: https://epages.com/en/career/?jh=1sn3k1tn7idyk1agbkk3n6dk706ht7m
-  description: Support our teams in setting up UI patterns and work closely together with UX, Design, and Technical Communication.
+- title: Software Developer - 3rd-party
+  link: https://epages.com/en/career/?jh=24qdehf4abxzl836rd7dnp2lujbufxz
+  description: Join our development team in building, designing, and maintaining 3rd-party integrations that link to our online shop platform.
   location: Hamburg
