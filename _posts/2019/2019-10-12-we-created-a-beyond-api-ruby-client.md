@@ -10,7 +10,7 @@ authors: ["Unai"]
 about_authors: ["uabrisketa"]
 ---
 
-Some time ago we published the first pre-release version of our new _open source_ project: [Beyond API Ruby Client](https://github.com/ePages-de/beyond_api-ruby_client). In this article I am going tell you about our motivation behind this project as wel as what it is about.
+Some time ago we published the first pre-release version of our new _open source_ project: [Beyond API Ruby Client](https://github.com/ePages-de/beyond_api-ruby_client){:target="_blank"}. In this article I am going tell you about our motivation behind this project as wel as what it is about.
 
 ## Motivation
 
@@ -47,8 +47,8 @@ session.token.refresh
 session.products.all(page: 1, size: 50)
 ```
 
-If you want more information about how to start using our gem or see all the available endpoints, check our [getting started](https://github.com/ePages-de/beyond_api-ruby_client/blob/master/GETTING_STARTED.md) page on GitHub.
+If you want more information about how to start using our gem or see all the available endpoints, check our [getting started](https://github.com/ePages-de/beyond_api-ruby_client/blob/master/GETTING_STARTED.md){:target="_blank"} page on GitHub.
 
 ## Want to contribute?
 
-The **Beyond API Ruby Client** project is _open source_ and as an open source project we would like to invite you to contribute to it. You can check our [contributing page](https://github.com/ePages-de/beyond_api-ruby_client/blob/master/CONTRIBUTING.md) on GitHub to know how you can help on the development of the project.
+The **Beyond API Ruby Client** project is _open source_ and as an open source project we would like to invite you to contribute to it. You can check our [contributing page](https://github.com/ePages-de/beyond_api-ruby_client/blob/master/CONTRIBUTING.md){:target="_blank"} on GitHub to know how you can help on the development of the project.
