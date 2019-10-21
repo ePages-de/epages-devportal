@@ -199,7 +199,7 @@
 - id: gsanemeterio
   name: German
   full_name: German San Emeterio
-  description:  is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
+  description: is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
   image: avatar_male.jpg
 
 - id: hahnert
@@ -277,7 +277,7 @@
 - id: kmueller
   name: Katja
   full_name: Katja Müller
-  description:  is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
+  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
   image: kmueller.jpg
 
 - id: kpeskova
@@ -484,6 +484,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: szikora
+  name: Somto
+  full_name: Somto Zikora
+  description: is a Javascript developer. He loves solving problems, the knottier the better.
+  image: avatar_male.jpg
+
 - id: tgiessler
   name: Tobias G.
   full_name: Tobias G.
@@ -505,8 +511,14 @@
 - id: thirsch
   name: Thomas
   full_name: Thomas Hirsch
-  description: is a Software Engineer, who has accepted the challenges of build- and test automationn. Also a proponent of Open Source software.
+  description: is a Software Engineer who has accepted the challenges of build- and test automation. Also a proponent of Open Source software.
   image: thirsch.jpg
+
+- id: tulber
+  name: Torben
+  full_name: Torben Ulber
+  description: is a  Technical Support & QA Engineer who enjoys solving issues for customers and testing our software to maintain a high level of quality.
+  image: tulber.jpg
 
 - id: uabrisketa
   name: Unai A.

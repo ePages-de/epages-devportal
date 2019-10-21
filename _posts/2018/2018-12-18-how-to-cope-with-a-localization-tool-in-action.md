@@ -10,13 +10,13 @@ authors: ["Christina"]
 about_authors: ["cgebken"]
 ---
 
-In this series of blog posts, you've accompanied us on our journey towards an improved localization process with the help of the localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}.
-We've already talked about our [former localization flow](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/), and our learnings and improvements when [integrating PhraseApp](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
+In this series of blog posts, you've accompanied us on our journey towards an improved localization process with the help of the localization tool [Phrase](https://phrase.com/){:target="_blank"}.
+We've already talked about our [former localization flow](/blog/language-and-localization/why-the-heck-would-we-need-a-software-localization-tool/), and our learnings and improvements when [integrating Phrase](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
 But now it's time to talk about challenges that we faced during this restructuring time, and in some regards are still facing.
 
 ## There's still no way around screenshots
 
-PhraseApp offers great features such as Git-Synchronization, or In-Context Editor.
+Phrase offers great features such as Git-Synchronization, or In-Context Editor.
 If you'd like to get more detailed information on these, check back on our post ["Rocking the stage with a software localization tool"](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
 Nevertheless, some of these features are not the one and only solution for us.
 This is especially true for the In-Context Editor.
@@ -36,7 +36,7 @@ They will know what to do, and it will make your life easier!)
 After setting up the Git Synchronization, we figured out that our current Git workflow no longer matched our requirements, and that we needed to make some changes.
 Our solution was to introduce a branch called `l10n`.
 This branch is exclusively used for PRs with code changes that somehow affect localization, e.g. PRs with newly added keys.
-In order to enable our UI writers to edit these keys, PhraseApp is also connected to the `l10n` branch.
+In order to enable our UI writers to edit these keys, Phrase is also connected to the `l10n` branch.
 All other code changes will use our `master` branch, which is regularly rolled out to our live platforms serving our merchants and their customers.
 This way, no untranslated keys will be visible in our UI, and code changes that are not related to localization are not blocked.
 
@@ -87,14 +87,14 @@ Here's a little explanation for the column titles:
 - **Approved**: Receives a checkmark once the Localization Manager has approved the PR.
 - **Merged**: Receives a checkmark once the PR was merged into the `l10n` branch by the development team.
 - **Translation date**: Contains the date the keys will be processed by the UI writers.
-- **Merged back**: Receives a checkmark once the PR of PhraseApp with new translations was merged back into the `l10n` branch by the development team.
-- **Comment**: Contains comments if needed, e.g. a reminder that keys in PhraseApp need to be deleted once the PR is merged.
+- **Merged back**: Receives a checkmark once the PR of Phrase with new translations was merged back into the `l10n` branch by the development team.
+- **Comment**: Contains comments if needed, e.g. a reminder that keys in Phrase need to be deleted once the PR is merged.
 
 With the help of this list, it's much easier to keep an overview of localization-related PRs and their approvals.
 
 ## The effort was worth it!
 
-It's now almost one year ago that we introduced PhraseApp.
+It's now almost one year ago that we introduced Phrase.
 That's why we lately had a localization retrospective with our UI writers, developers, the responsible Product Owner, and our Localization Manager.
 And...we are happy!
 Even though, there are still some challenges that pop up every now and then.
