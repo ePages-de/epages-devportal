@@ -1,10 +1,10 @@
 ---
 layout: post
-title: We created a Beyond API Ruby Client
-date: 2019-10-12
+title: Faster app development with the Beyond API Ruby Client
+date: 2019-10-24
 header_image: public/we-created-a-beyond-api-ruby-client.jpg
 header_overlay: true
-category: coding
+category: api-experience
 tags: ["ruby", "gem", "api"]
 authors: ["Unai"]
 about_authors: ["uabrisketa"]
