@@ -10,17 +10,21 @@ authors: ["Unai"]
 about_authors: ["uabrisketa"]
 ---
 
-Some time ago we published the first pre-release version of our new _open source_ project: [Beyond API Ruby Client](https://github.com/ePages-de/beyond_api-ruby_client){:target="_blank"}. In this article I am going tell you about our motivation behind this project as wel as what it is about.
+Some time ago we published the first pre-release version of our new _open source_ project: [Beyond API Ruby Client](https://github.com/ePages-de/beyond_api-ruby_client){:target="_blank"}.
+In this article I am going tell you about our motivation behind this project as wel as what it is about.
 
 ## Motivation
 
-Our Team (formally known as Team 42) is responsible of all the internal tools we use at ePages, like the Developer Portal. We use Ruby and Ruby based Frameworks as Rails or Jekyll for the development of our projects. This, in combination with great gems maintained by the community, gives us the possibility of developing fast and create reliable tools.
+Our Team (formally known as Team 42) is responsible of all the internal tools we use at ePages, like the Developer Portal. We use Ruby and Ruby based Frameworks as Rails or Jekyll for the development of our projects.
+This, in combination with great gems maintained by the community, gives us the possibility of developing fast and create reliable tools.
 
-From some time now we also started developing apps for our new ePages Beyond product. As we wanted to make future app development faster in order to be more productive we decided to develop this new tool.
+From some time now we also started developing apps for our new ePages Beyond product.
+As we wanted to make future app development faster in order to be more productive we decided to develop this new tool.
 
 ## The tool
 
-The **Beyond API Ruby Client** is the tool in charge of connecting apps and Beyond shops making use of the Beyond API. If you want to develop apps for Beyond using Ruby on Rails this gem will give you access to all resources you need.
+The **Beyond API Ruby Client** is the tool in charge of connecting apps and Beyond shops making use of the Beyond API.
+If you want to develop apps for Beyond using Ruby on Rails this gem will give you access to all resources you need.
 
 You will be able to easily obtain your first Oauth Token, refresh it or access any of the multiple endpoints that the Beyond API offers, and all of this using the Ruby syntax we know you love. Here you can find some examples:
 
@@ -51,4 +55,5 @@ If you want more information about how to start using our gem or see all the ava
 
 ## Want to contribute?
 
-The **Beyond API Ruby Client** project is _open source_ and as an open source project we would like to invite you to contribute to it. You can check our [contributing page](https://github.com/ePages-de/beyond_api-ruby_client/blob/master/CONTRIBUTING.md){:target="_blank"} on GitHub to know how you can help on the development of the project.
+The **Beyond API Ruby Client** project is _open source_ and as an open source project we would like to invite you to contribute to it.
+You can check our [contributing page](https://github.com/ePages-de/beyond_api-ruby_client/blob/master/CONTRIBUTING.md){:target="_blank"} on GitHub to know how you can help on the development of the project.
