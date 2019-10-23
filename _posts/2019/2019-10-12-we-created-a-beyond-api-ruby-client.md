@@ -15,8 +15,8 @@ In this post I am going tell you about our motivation behind this project as wel
 
 ## Motivation
 
-Our team is responsible for developing and maintaining all the internal tools we use at ePages, such as the [Developer Portal](https://developer.epages.com/){:target="_blank"}.
-We use Ruby and Ruby-based frameworks such as [Rails](https://rubyonrails.org/){:target="_blank"} or [Jekyll](https://jekyllrb.com/) for the development of our projects.
+Our team is responsible for developing and maintaining all the internal tools we use at ePages, such as the [Developer Portal](/).
+We use Ruby and Ruby-based frameworks such as [Rails](https://rubyonrails.org/){:target="_blank"} or [Jekyll](https://jekyllrb.com/){:target="_blank"} for the development of our projects.
 This, in combination with great gems maintained by the community, gives us the possibility to develop quickly and create reliable tools.
 
 For a while now we also started developing apps for our product [ePages Beyond](https://signup.beyondshop.cloud/){:target="_blank"}.
