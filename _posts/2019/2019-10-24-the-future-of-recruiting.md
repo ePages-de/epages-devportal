@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Future of Recruiting Barcamp
-date: 2019-10-23
-header_image: public/rocket.jpg
+date: 2019-10-24
+header_image: private/tfor-banner.jpg
 header_overlay: true
 header_position: top
 category: on-the-job
