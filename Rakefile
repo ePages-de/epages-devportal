@@ -332,9 +332,8 @@ task :write do
   date_from   = Date.new(2015)
   date_to     = Date.today.prev_month.prev_month
 
-  if File.exist?(write_file)
-    File.delete(write_file)
-  end
+  File.delete(write_file) if File.exist?(write_file)
+
   File.new(write_file, 'w')
 
   exclude = { 'exclude' => YAML.load_file('_config.yml')['exclude'],
@@ -353,4 +352,6 @@ task :write do
   exclude['exclude'].push *(Date.new(date_to.year)..date_to).map { |d| "_posts/#{d.year}/#{d.year}-#{'%02d' % d.month}-*" }.uniq
 
   File.open(write_file, 'w+') { |f| f.puts exclude.to_yaml }
+
+  sh 'bundle exec jekyll serve --config _config.yml,_config_write.yml'
 end

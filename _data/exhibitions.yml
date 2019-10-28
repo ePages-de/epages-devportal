@@ -1,20 +1,14 @@
-- title: Ruby Russia
-  link: https://rubyrussia.club/
-  date: 28. Sept 2019
+- title: Devoxx Ukraine
+  link: https://devoxx.com.ua/
+  date: 01.-02. Nov 2019
   time:
-  address: Pokrovka Street 47<br>Moscow, Russia
+  address: Event space M82<br>Mezhyhirska St, 82<br>04080 Kyiv
 
-- title: Karrieremesse inovailmenau
-  link: https://inova-ilmenau.de/inova/
-  date: 22.-23. Oct 2019
-  time: '10:00 - 16:00'
-  address: TU Ilmenau<br>Ehrenbergstraße 51<br>98693 Ilmenau
-
-- title: code.talks
-  link: https://www.codetalks.com/
-  date: 24.-25. Oct 2019
+- title: Devoxx Belgium
+  link: https://devoxx.be/
+  date: 06.-08. Nov 2019
   time:
-  address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
+  address: Kinepolis Antwerp<br>Groenendaallaan 394<br>2030 Antwerp
 
 - title: codemotion
   link: https://events.codemotion.com/conferences/berlin/2019/
