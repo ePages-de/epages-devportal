@@ -184,6 +184,12 @@
   description: is a Product Owner who loves to work with his team on a great ecommerce product. When he is not in the office, he's out and about with his wife and twins.
   image: fnabhan.jpg
 
+- id: foellerich
+  name: Florian O.
+  full_name: Florian Oellerich
+  description: is a JavaScript Engineer who just recently started his own video game streaming channel. 
+  image: avatar_male.jpg
+
 - id: fstangenberger
   name: Frank
   full_name: Frank Stangenberger
