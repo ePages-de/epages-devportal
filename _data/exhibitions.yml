@@ -1,8 +1,14 @@
-- title: code.talks
-  link: https://www.codetalks.com/
-  date: 24.-25. Oct 2019
+- title: Devoxx Ukraine
+  link: https://devoxx.com.ua/
+  date: 01.-02. Nov 2019
   time:
-  address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
+  address: Event space M82<br>Mezhyhirska St, 82<br>04080 Kyiv
+
+- title: Devoxx Belgium
+  link: https://devoxx.be/
+  date: 06.-08. Nov 2019
+  time:
+  address: Kinepolis Antwerp<br>Groenendaallaan 394<br>2030 Antwerp
 
 - title: codemotion
   link: https://events.codemotion.com/conferences/berlin/2019/
