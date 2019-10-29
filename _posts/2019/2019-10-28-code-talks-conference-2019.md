@@ -14,6 +14,7 @@ about_authors: ["mmerino","nsimu"]
 Over 1500 developers gathered last week in Hamburg to talk about code. The [code.talks](https://www.codetalks.de/home){:target="_blank"} developers conference took place on the Dammtor Cinemmaxx same great location as last two years.
 
 # Highlights
+{% image_custom image="/assets/img/pages/blog/images/code-talks-2019-1.jpg" width="20" lightbox %}
 
 ## The Early Days of Id Software: Programming Principles - John Romero
 (by Narcis)
@@ -46,7 +47,7 @@ Robin Moffat explained how to use Apache Kafka not just as a message queue but a
 (by Manel)
 The idea, or inspiration, behind this presentation is the fact that, when debeloping, we spend way more time reading code than writing (10 to 1 according to "Uncle Bob"), so then it becomes clear that well designed modules pays off long term.
 
-Markus exposed four key concenpts to achieve the target:
+Markus exposed four key concepts to achieve the target:
 #####1. Domain Design
 We must know the boundaries of the application we want to build.
 How to find your domain ? -> think about data and their relationships.
@@ -74,6 +75,7 @@ Another interesting presentation was "A programming language to manipulate cells
 She presented the bioreactor they build in Berlin, a big box with tubes and sensors and motors. They build also a web application to control the reactor. The reactor is using microcontrollers to command different sensors and motors. There was a live demo where she changed the spinnig speed and started the reactor. By automating this reactions the scientists can be sure that the process is always the same and remove the human error from the process. Everything is automated from feeding the cells to different timings in the process. And you can watch it live on internet, no need to go to the lab on weekends.
 
 
+{% image_custom image="/assets/img/pages/blog/images/code-talks-2019-2.jpg" width="20" lightbox %}
 ## Digital responsibility ethics in a digital world - [Steffen Hartmann](https://www.codetalks.de/program#speaker-709?event=5){:target="_blank"} @ [MayFlower](https://mayflower.de/){:target="_blank"}
 (by Manel)
 Steffen started the presentation with a video named [f*ck the poor ?](https://www.youtube.com/watch?v=eBuC_0-d-9Y){:target="_blank"}  (It was interesting to see people's reactions)
