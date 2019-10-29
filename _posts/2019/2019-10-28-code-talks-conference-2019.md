@@ -2,7 +2,7 @@
 layout: post
 title: code.talks 2019 - popcorn, nachos and code
 date: 2019-11-01
-header_image:
+header_image: private/codetalks2019.png
 header_position: bottom
 header_overlay: true
 category: tech-stories
