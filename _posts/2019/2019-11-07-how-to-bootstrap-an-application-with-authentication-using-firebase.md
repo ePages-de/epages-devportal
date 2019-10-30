@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to bootstrap an application with authentication using Firebase
-date: 2019-10-31
+date: 2019-11-07
 header_image: public/app-development-tutorial.png
 header_position: top
 header_overlay: true
@@ -177,7 +177,7 @@ Now, we configure and use the Firebase UI with Firebase Auth.
 After publishing these changes, we can see a UI where a new user can either register or log in.
 That means the next big step is done: Users can log in!
 
-**Note:** After logging in, you can always log out via `firebase.auth().signOut().
+**Note:** After logging in, you can always log out via `firebase.auth().signOut()`.
 
 Currently, we still see the login UI after a user logged in. 
 Let's fix that and only display the login UI when a user is not logged in yet.
