@@ -106,3 +106,22 @@ Then Steffen moved the topic to the "biased nature of humans" and exposed some p
 - *Would you develop a face recognition app to be sold in Hong-Kong?*
 
 {% image_custom image="/assets/img/pages/blog/images/code-talks-2019-2.jpg" width="50" lightbox %}
+
+Another interesting topic was how developers biasing may affect program accessibility features (or the lack of them because of "edge case" considerations).
+
+To sum it up, Steffen provided some advice for developers:
+- Know yourself and be conscious about your biases, morals, and blind spots.
+- Make it an emotional topic for you. This way you'll care about it.
+- Get the people on the table, ask them about their opinion on some, maybe unpleasant, features of your app.
+
+A great takeaway of this talk: *"Moral and ethics aren't functional problems."*
+
+## Summary
+
+The different presentations were grouped in several tracks (e.g Architecture, AI, Big Data, Buzzing Techs).
+But there was no need to follow one track for the whole day.
+We personally decided to attend the ones that looked most appealing to us, independently of technologies or topics.
+This way we got a great overview of what is going on!
+Besides the variety of great talks, we'd also like to mention that, as you might have guessed, this event was not only about presentations and coding.
+On Thursday evening, participants could enjoy a big party, plenty of food, drinks, and live music.
+Our bottom line of this conference: A great mixture and definitely worth attending!
