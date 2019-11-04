@@ -367,7 +367,7 @@
 - id: mmerino
   name: Manel
   full_name: Juan Manuel Merino
-  description: is a Software Engineer and Java enthusiast. He has a lot of experience in developing third-party connectors.
+  description: is a Software Engineer and Java/Kotlin enthusiast. He has a lot of experience in developing third-party connectors.
   image: mmerino.jpg
 
 - id: mriess
@@ -399,6 +399,12 @@
   full_name: Nicole
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
+
+- id: nsimu
+  name: Narcis
+  full_name: Narcis Simu
+  description: is a passionate Software Developer with interests in API development and IoT.
+  image: avatar_male.jpg
 
 - id: nzolotova
   name: Natalia
