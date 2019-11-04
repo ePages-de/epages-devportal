@@ -58,7 +58,7 @@ $ firebase init
 We already know that we need a couple of other Firebase features, but we'll add them later on.
 For now, we'll only go with the hosting feature.
 We can select our `beyondapp` project we created in step 0 as the default firebase project or create a new project directly from the terminal.
-As we want to keep it simple for fast results, we choose a public directory.
+As we want to keep it simple for fast results, we will keep the public directory at the default `public`.
 Our demo app will only have one page to install the app, so we can configure it as a single-page app.
 The `firebase-tools` will now generate an `index.html` in the `public/` directory that we can upload to firebase hosting with `firebase deploy --only hosting`.
 
