@@ -187,8 +187,8 @@
 - id: foellerich
   name: Florian O.
   full_name: Florian Oellerich
-  description: is a JavaScript Engineer who just recently started his own video game streaming channel.
-  image: avatar_male.jpg
+  description: is a JavaScript Engineer with a passion for Flutter.
+  image: foellerich.png
 
 - id: fstangenberger
   name: Frank
