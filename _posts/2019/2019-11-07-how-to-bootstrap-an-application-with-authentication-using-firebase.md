@@ -17,16 +17,16 @@ But in many cases there is at least one requirement: the usage of the OAuth2 pro
 Let's have a closer look at this protocol and which requirements can be concluded from the [related documentation](http://docs.beyondshop.cloud/#_app_development){:target="_blank"}:
 
 1. We need an SSL encrypted domain for the Application Callback URL.
-2. We need to store at least `api_url`, `access_token`, and `refresh_token` for **each** merchant.
+2. We need to store at least `api_url`, `access_token`, and `refresh_token` for **each** user.
 3. We have to communicate with the API we are developing for.
 4. We need to have `client_id` and `client_secret` available for installation and token refresh, but keep them secret.
 5. We should not let all of the above happen inside a static browser script but in a server that can keep the secret away from the outside.
 
-This list, especially number 2, leads us to another requirement: We need to authenticate individual merchants!
-We have to keep the `access_token` and `refresh_token` for each and every merchant secure and only give the merchant access to his own set of tokens.
-For this, we need to authenticate and authorize individual merchants: We need an authentication system.
+This list, especially number 2, leads us to another requirement: We need to authenticate individual users!
+We have to keep the `access_token` and `refresh_token` for each and every user secure and only give the user access to his own set of tokens.
+For this, we need to authenticate and authorize individual users: We need an authentication system.
 
-If all that should be achieved while still bootstraping an app really fast, the Googles Firebase platform is the perfect solution.
+If all that should be achieved while still bootstraping an app really fast, the Google Firebase platform is the perfect solution.
 It provides us with everything we need to tackle the above listed requirements:
 
 * Authentication as a service with [Firebase Authentication](https://firebase.google.com/products/auth/){:target="_blank"},
@@ -35,13 +35,14 @@ It provides us with everything we need to tackle the above listed requirements:
 * an SSL-enabled static file hosting for a login form with [Firebase Hosting](https://firebase.google.com/products/hosting/){:target="_blank"}.
 
 Additionally, it provides many integrations for different platforms and programming languages, e.g. Java and Node.js on the server, Java, Kotlin and Dart (Flutter) on Android, Switch and Objective-C on iOS, and Javascript in the browser.
-It can also take care of the login screen with the FirebaseUI project available for Web, iOS and Android.
+It can also take care of the login screen with the Firebase UI project available for Web, iOS and Android.
 
 In the following, we'll go through the single steps required to bring all of this to life.
 
 ## Step 0 - Prepare firebase project
 First, we need to [create a new firebase project](https://console.firebase.google.com){:target="_blank"}.
 We'll call our demo project `beyondapp`, so in the following code snippets you'll need to replace all occurences of this name with your project name.
+Our demo app is supposed to be available in an online shop software.
 
 ## Step 1 - SSL encrypted Application Callback URL
 
@@ -54,11 +55,11 @@ $ firebase login
 $ firebase init
 ```
 
-We already know that we need a couple of Firebase features, but we'll add them later on.
-For now, we only go with the hosting feature.
+We already know that we need a couple of other Firebase features, but we'll add them later on.
+For now, we'll only go with the hosting feature.
 We can select our `beyondapp` project we created in step 0 as the default firebase project or create a new project directly from the terminal.
-Since we want to keep it simple for fast results, we will keep the public directory at the default `public`.
-As our demo app will only have one page to install the app, we can configure it as a single-page app.
+As we want to keep it simple for fast results, we choose a public directory.
+Our demo app will only have one page to install the app, so we can configure it as a single-page app.
 The `firebase-tools` will now generate an `index.html` in the `public/` directory that we can upload to firebase hosting with `firebase deploy --only hosting`.
 
 As a result we receive an SSL encrypted hosted page at https://beyondapp.web.app and https://beyondapp.firebaseapp.com.
@@ -71,13 +72,11 @@ Next, we need a `client_id`, `client_secret`, `authorization_code`, and an `acce
 For our example app, we created a custom app in the Beyond Cockpit and tested the authorization to receive those.
 But this workflow heavily depends on the software you are developing for.
 
-That's how we implement the authorization process on our Firebase Hosting page:
+By adding the following code snippet to the `public/index.html` file and publishing it to Firebase, we implement the authorization process on our Firebase Hosting page:
 
-**Note:** In the following code snippet we include the `client_secret` in our HTML payload.
+**Note:** In the snippet we include the `client_secret` in our HTML payload.
 This practice is not secure and we strongly advice you to avoid this in production!
 We'll explain a more secure possibility in a follow-up post.
-
-Add this block to the `public/index.html` file and publish it to Firebase:
 
 ```javascript
 const client_id = '0BE38CFF-F3B6-4D68-8F16-1CE270C028BC'
@@ -114,38 +113,38 @@ Let's quickly recap the most important ones to communicate with the API:
 
 - `access_token`: The Bearer token required for authentication against the API.
 - `refresh_token`: Used to get a new `access_token` once the old one expired.
-- `api_url`: Shop specific URL for all API requests.
+- `api_url`: The shop-specific URL for all API requests.
 
 Strictly speaking we do not need the `refresh_token` for communicating with the API.
 But the `access_token` is only valid for a specific time frame.
 So let's keep the `refresh_token` on the list of required properties to properly use the API at all time.
 
 Furthermore, we need to remember the required parameters for API requests.
-As our app will be installed in more than one shop, we need to save the parameters on a **per shop base**.
-We'll ensure this by using the `tenantId`, a unique identifier of the tenant, in most cases the shop.
-This parameter is part of the `answer` variable in step 3.
+As our app will be installed in more than one online shop, we need to save the parameters on a **per shop base**.
+We'll ensure this by using the `tenantId`, a unique identifier of the tenant, in most cases of the online shop.
+This parameter will be part of the `answer` variable in step 3.
 
 ## Step 3 - Firebase auth
 
-We can now receive tokens from shops and have unique identifiers to save these tokens independently.
-But we also need a user authentication for each merchant to restrict the shop access.
+We can now receive tokens from online shops and determined unique identifiers to save these tokens independently.
+But we also need a user authentication for each user to restrict the shop access.
 For this purpose, we'll use Firebase Auth.
 Firebase Auth is an authentication service with support for many different login methods.
 The most common login method is probably email and password, but login with e.g. Google and Facebook is also possible.
-To activate it, we go to the Firebase Console, Develop > [Authentication](https://console.firebase.google.com/u/0/project/beyondapp/authentication/users){:target="_blank"}.
+To activate it, we open the Firebase Console and select Develop > [Authentication](https://console.firebase.google.com/u/0/project/beyondapp/authentication/users){:target="_blank"}.
 Here, we activate the first authentication method "E-Mail address/password".
 And done.
 We now have an authentication service!
 
 Let's put it into practice in our `public/index.html`.
-To do so, we add the following snippet to the `head` section:
+To do so, we add the following code snippet to the `head` section:
 
 ```html
 <script src="https://cdn.firebase.com/libs/firebaseui/4.2.0/firebaseui.js"></script>
 <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.2.0/firebaseui.css" />
 ```
 
-Next, we add an empty container to the `body` where the login form will show up:
+Next, we add an empty container to the `body` on the desired position for the login form:
 
 ```html
 <div id="firebaseui-auth-container" />
@@ -174,10 +173,10 @@ Now, we configure and use the Firebase UI with Firebase Auth.
   // The start method will wait until the DOM is loaded.
   ui.start('#firebaseui-auth-container', uiConfig);
 ```
-After publishing these changes, we can see a UI where a new user can either register or log in.
+After publishing these changes, new users can either register or log in via the UI.
 That means the next big step is done: Users can log in!
 
-**Note:** After logging in, you can always log out via `firebase.auth().signOut()`.
+**Note:** After logging in, we can always log out via `firebase.auth().signOut()`.
 
 Currently, we still see the login UI after a user logged in. 
 Let's fix that and only display the login UI when a user is not logged in yet.
@@ -207,9 +206,9 @@ firebase.auth().onAuthstateChanged(async function(user) {
 ```
 
 Now, the login UI is only shown to users that are not yet logged in.
-On top of that, we have a convenient way to get access to the user data.
+On top of that, we found a convenient way to get access to the user data.
 Thus, we have access to the unique ID of the user `user.uid`.
-As a last part of this step, we only want to do the authorization after the user has logged in to Firebase Auth.
+As a last part of this step, we only want to authorize users after they are logged in to Firebase Auth.
 
 For this, we'll first replace the anonymous iife (immediately invoked function expression) with a real named function.
 
@@ -231,10 +230,10 @@ firebase.auth().onAuthstateChanged(async function(user) {
 })
 ```
 
-With the login UI, we can now distinguish between different merchants and give API access only to the registered user.
+With the login UI, we can now distinguish between different users and give API access only to registered ones.
 That's already a great achievement.
 
-Next up will be the database creation to save the tokens we received in this step and only give the specific merchant access to it.
+Next up will be a database creation to save the tokens we received in this last step and only give specific users access to it.
 And of course, we still need to improve our security with the help of Cloud functions.
 All of this will be tackled in a follow-up post.
 Stay tuned!
