@@ -30,13 +30,13 @@ Michael claimed that in the future Candidate Matching is how recruiting would be
 This is where digitalisation comesin, AI and better algorithm to improve the application process, candidate matching, and cultural fit. 
 But for now, I would say Active Sourcing is still on ;-)
 
-{% image_custom image="/assets/img/pages/blog/images/active-sourcing-ist-tot.png" width="50" lightbox %}  
+{% image_custom image="/assets/img/pages/blog/images/active-sourcing-ist-tot.jpg" width="50" lightbox %}  
 
 ## Employer Branding is Dead. Long Live Employer Branding!
 Gero Hesse, one of the keynote speakers, gave an excellent presentation on Employer Branding, an aspect that should be inseparable to Recruiting.
 The main point I took home from this was, in order to be successful in an employee market we need to focus on creating a combination of Opportunity Marketing and Employer Branding, i.e. what does the future employee wants to do + what satisfaction do they want from it = where can I do it.
 
-{% image_custom image="/assets/img/pages/blog/images/arbeitnehmer-arbeitgeber.png" width="50" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/arbeitnehmer-arbeitgeber.jpg" width="50" lightbox %}
 
 ## 7 Open sessions
 I really enjoyed the open discussions here.
