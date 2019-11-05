@@ -1,35 +1,29 @@
-- title: SoCraTes
-  link: https://www.socrates-conference.de/home
-  date: 22.-25. Aug 2019
+- title: Devoxx Ukraine
+  link: https://devoxx.com.ua/
+  date: 01.-02. Nov 2019
   time:
-  address: Hotel Park Soltau<br>Winsener Straße 111<br>29614 Soltau
+  address: Event space M82<br>Mezhyhirska St, 82<br>04080 Kyiv
 
-- title: ePages R&amp;D Day
-  link: https://developer.epages.com/blog/events/rnd-day-2018/
-  date: 11. Sept 2019
+- title: Devoxx Belgium
+  link: https://devoxx.be/
+  date: 06.-08. Nov 2019
   time:
-  address: ePages GmbH<br>Pilatuspool 2<br>20355 Hamburg
+  address: Kinepolis Antwerp<br>Groenendaallaan 394<br>2030 Antwerp
 
-- title: ePages YOU
-  link: https://developer.epages.com/blog/events/epages-you-our-annual-gathering-of-epagees/
-  date: 12.-13. Sept 2019
+- title: codemotion
+  link: https://events.codemotion.com/conferences/berlin/2019/
+  date: 12.-13. Nov 2019
   time:
-  address: ePages GmbH<br>Pilatuspool 2<br>20355 Hamburg
+  address: Kulturbrauerei<br>Schönhauser Allee 36<br>10435 Berlin
 
-- title: Ruby Russia
-  link: https://rubyrussia.club/
-  date: 28. Sept 2019
+- title: dotCSS
+  link: https://www.dotcss.io/
+  date: 4. Dec 2019
   time:
-  address: Pokrovka Street 47<br>Moscow, Russia
+  address: Dock Pullmann<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
 
-- title: Karrieremesse inovailmenau
-  link: https://inova-ilmenau.de/inova/
-  date: 22.-23. Oct 2019
-  time: '10:00 - 16:00'
-  address: TU Ilmenau<br>Ehrenbergstraße 51<br>98693 Ilmenau
-
-- title: code.talks
-  link: https://www.codetalks.com/
-  date: 24.-25. Oct 2019
+- title: dotJS
+  link: https://www.dotjs.io/
+  date: 5.-6. Dec 2019
   time:
-  address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
+  address: Dock Pullmann<br>87 Avenue des Magasins Généraux (Bâtiment 137)<br>93300 Aubervilliers
