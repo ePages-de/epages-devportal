@@ -6,8 +6,8 @@ header_image: public/app-development-tutorial.png
 header_position: top
 header_overlay: true
 category: coding
-tags: ["firebase", "development", "app"]
-authors: ["Florian"]
+tags: ["firebase", "development", "app", "cloud functions"]
+authors: ["Florian O."]
 about_authors: ["foellerich"]
 ---
 
