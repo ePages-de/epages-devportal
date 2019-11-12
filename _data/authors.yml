@@ -52,6 +52,12 @@
   description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asandau.jpg
 
+- id: asasin
+  name: Alkesei
+  full_name: Aleksei Sasin
+  description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
+  image: asasin.png
+
 - id: azwick
   name: Anne
   full_name: Anne Zwick
