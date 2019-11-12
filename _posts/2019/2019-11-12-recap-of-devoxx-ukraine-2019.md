@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Devoxx Ukraine
+title: Recap of Devoxx Ukraine 2019
 date: 2019-11-12
 header_image: private/devoxx-ukr.png
 header_position: top
