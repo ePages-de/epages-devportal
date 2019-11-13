@@ -6,7 +6,7 @@ header_image: public/microservices-wiremock.jpg
 header_position: center
 header_overlay: true
 category: api-experience
-tags: ["microservice", "testing", "continuous delivery", "api"]
+tags: ["microservice", "testing", "continuous delivery", "api", "mock", "wiremock"]
 authors: ["Benjamin", "Jan M."]
 about_authors: ["bnothdurft", "jmewes"]
 ---
