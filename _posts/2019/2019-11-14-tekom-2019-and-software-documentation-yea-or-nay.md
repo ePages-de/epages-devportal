@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tekom 2019 and software documentation - Yea or Nay?
-date: 2019-11-15
+date: 2019-11-14
 header_image: private/tekom-2019.jpg
 header_position: bottom
 header_overlay: true
