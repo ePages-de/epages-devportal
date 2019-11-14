@@ -54,7 +54,7 @@ Initially, they came up with two options:
 {% image_custom image="/assets/img/pages/blog/images/blog-tekom-2019-1.jpg" width="50" lightbox %}
 
 To sum it up: installing a dedicated TechWriter in the team didn't work out as there were not enough TechWriters.
-But in a short trial phase, they figured out that a dedicated TechWriter was highly accepted in the development team, and that they were able to develop a better product know-how.
+But in a short trial phase, they figured out that a dedicated TechWriter was highly accepted in the development team, and that he was able to develop a better product know-how.
 Of course, there were also some downsides, such as possible idle times if the development team is not working on tasks that are relevant for documentation.
 But if you have enough resources, why not give it a try?
 
