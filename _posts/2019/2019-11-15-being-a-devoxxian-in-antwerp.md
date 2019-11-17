@@ -6,12 +6,12 @@ header_image: private/devoxx-be-header.jpg
 header_position: top
 header_overlay: true
 category: events
-tags: ["conference", "java", "rest", "spring", "reactive"]
+tags: ["conference", "java11", "rest", "spring", "security"]
 authors: ["Donaldo"]
 about_authors: ["dlika"]
 ---
 
-Here I am going to tell you about my experience at [Devoxx Belgium 2019](https://devoxx.be).
+Here I am going to tell you about my experience at [Devoxx Belgium 2019](https://devoxx.be){:target="_blank"}.
 
 It took place at Kinopolis in Antwerp, Belgium. The talks were held in the cinemas , guaranteeing top seats, top audio, and top visual quality.
 As the tickets were sold out so early this year , the rooms and the venue was packed to the rim with people.
@@ -33,12 +33,11 @@ This keynote left everyone including me highly motivated and inspired. Here are 
 - Architecting is evaluating tradeoffs
   - Stop being bias when it comes to technology decisions
 - Guide, don't dictate
-
-{% twitter https://twitter.com/venkat_s/status/1767761478 %}
-
 - Proactive Collective Ownership
 - Prototypes beat any arguments
 - Comfort is your enemy
+
+{% twitter https://twitter.com/venkat_s/status/1767761478 %}
 
 ## How to get properly hacked, [Julien Topçu](https://twitter.com/julientopcu){:target="_blank"}
 
@@ -54,7 +53,6 @@ What I particularly appreciated in this presentation is the ease with which I un
 
 ### Java Language Futures, [Brian Goetz](https://twitter.com/BrianGoetz){:target="_blank"}
 
----
 When it comes to Java, it has been declared dead many times but in reality, it is the world most popular programming platform. And next year (2020) Java will be 25 years old, for coincidence next year I will also be 25 years old :p
 
 Brian Goetz
@@ -62,11 +60,12 @@ Brian Goetz
 
 Here are some of the language features coming up which will make it easier to build and maintain reliable programs:
 
-- Switch statement
-    - Switch now can be either a statement or an expression
-    - Multiple cases at once are allowed
-    - No fallthrough allowed, break rarely needed
-    - More concise, less error-prone
+#### Switch statement
+
+ * Switch now can be either a statement or an expression
+ * Multiple cases at once are allowed
+ * No fallthrough allowed, break rarely needed
+ * More concise, less error-prone
 
 {% highlight java %}
 int numLetters= 
@@ -76,15 +75,12 @@ int numLetters=
                 case THURSDAY,SATURDAY -> 8;
                 case WEDNESDAY -> 9;
                 // no default needed - all cases are covered
-
-
         }
 {% endhighlight %}
 
-- Text Block
-    - Text can span multiple lines
-    - Incidental indentation is stripped away by the compiler
-
+#### Text Block
+* Text can span multiple lines
+* Incidental indentation is stripped away by the compiler
 {% highlight java %}
 
 String html = """
@@ -96,10 +92,10 @@ String html = """
             """;
 {% endhighlight %}
 
-- Record classes
-    - Transparent, shallowly immutable data aggregate
-    - Reduce boilerplate code
-    - Similar to data classes in Kotlin
+#### Record classes
+* Transparent, shallowly immutable data aggregate
+* Reduce boilerplate code
+* Similar to data classes in Kotlin
 
 {% highlight java %}
 record Range(int low,int high){};
@@ -128,14 +124,16 @@ List<Person> getTopNPersonsByScore(List<Person>list,int n){
 Below is a fair list of tools, services, technologies that came to my attention during the entire conference.
 I found them interesting and I would like to try them out.
 
-- ArchUnit [https://www.archunit.org/](https://www.archunit.org/) Unit test your Java architecture
-- Bombardier [https://github.com/codesenberg/bombardier](https://github.com/codesenberg/bombardier) Http benchmarking
-- Karate (DSL) [https://github.com/intuit/karate](https://github.com/intuit/karate) open-source tool to combine API test-automation, mocks and performance-testing into a single, unified framework
-- Dive [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive) inspecting container image layers
-- DeckDeck Go [https://deckdeckgo.com/](https://deckdeckgo.com/) Presentation Editor
+- ArchUnit [https://www.archunit.org/](https://www.archunit.org/){:target="_blank"} Unit test your Java architecture
+- Bombardier [https://github.com/codesenberg/bombardier](https://github.com/codesenberg/bombardier){:target="_blank"} Http benchmarking
+- Karate (DSL) [https://github.com/intuit/karate](https://github.com/intuit/karate){:target="_blank"}open-source tool to combine API test-automation, mocks and performance-testing into a single, unified framework
+- Dive [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive){:target="_blank"} inspecting container image layers
+- DeckDeck Go [https://deckdeckgo.com/](https://deckdeckgo.com/){:target="_blank"} Presentation Editor
 
 ## Final Summary
 
 Devoxx BE 2019 was once again a great conference.
-My "to-learn-list" is filled to the brim, and I also feel like I have to take time to look at the talks again, trying things out for myself. All in all, it is always refreshing to step out of your everyday tasks and let your mind stock up on new experiences.
+My "to-learn-list" is filled to the brim, and I also feel like I have to take time to look at the talks again, trying things out for myself. 
+
+All in all, it is always refreshing to step out of your everyday tasks and let your mind stock up on new experiences.
 I urge anyone who is passionate about development to visit, it is a place where knowledge and experiences are shared in the best way.
