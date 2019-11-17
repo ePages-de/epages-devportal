@@ -153,6 +153,12 @@
   full_name: Declan
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+  
+- id: dlika
+  name: Donaldo
+  full_name: Donaldo Lika
+  description: is an experienced Java developer who is ambitious and keeps himself always updated with the latests technology trends.
+  image: dlika.jpg
 
 - id: dpauli
   name: David
