@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Being a devoxxian in Antwerp
-date: 2019-11-15
+title: Being a Devoxxian in Antwerp
+date: 2019-11-19
 header_image: private/devoxx-be-header.jpg
 header_position: top
 header_overlay: true
