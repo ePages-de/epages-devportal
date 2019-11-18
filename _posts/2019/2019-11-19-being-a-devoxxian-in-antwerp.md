@@ -11,27 +11,29 @@ authors: ["Donaldo"]
 about_authors: ["dlika"]
 ---
 
-Here I am going to tell you about my experience at [Devoxx Belgium 2019](https://devoxx.be){:target="_blank"}.
-
-It took place at Kinopolis in Antwerp, Belgium. The talks were held in the cinemas , guaranteeing top seats, top audio, and top visual quality.
-As the tickets were sold out so early this year , the rooms and the venue was packed to the rim with people.
+In this post I am going to tell you about my experience at [Devoxx Belgium 2019](https://devoxx.be){:target="_blank"}.
+It took place at Kinopolis in Antwerp, Belgium.
+The talks were held in the cinema auditoriums, guaranteeing top seats, top audio, and top visual quality.
+As the tickets were sold out so early this year, the rooms and the venue were packed to the rim with people.
 
 {% image_custom image="/assets/img/pages/blog/images/devoxx-be-room.jpg" width="50" lightbox %}
 
 ## Qualities of a Highly Effective Architect
 
- First I have to say that this talk, was really inspiring and made you think of changing some things in yourself and the way I behave in certain situations.
+First I have to say that this talk was really inspiring and made me think of changing some things of the way I behave in certain situations.
 
-The conference kicked off with a Keynote by [Venkat Subramaniam](https://twitter.com/venkat_s){:target="_blank"}, who listed a set of qualities an architect should have but in my opinion the same qualities apply for developers, engineers. Venkat amazingly explained those qualities by providing his own experiences.
+The conference kicked off with a keynote by [Venkat Subramaniam](https://twitter.com/venkat_s){:target="_blank"}, who listed a set of qualities an architect should have, but in my opinion the same qualities apply for developers and engineers.
+Venkat amazingly explained those qualities by providing his own experiences.
 
 {% image_custom image="/assets/img/pages/blog/images/devoxx-be-venkat.jpg" width="50" lightbox %}
 
-This keynote left everyone including me highly motivated and inspired. Here are the key points I took with me:
+This keynote left everyone including me highly motivated and inspired.
+Here are the key points I took with me:
 
-- Knowledge is a wealth that grows when given.
-- Criticize Ideas, Not people
+- Knowledge is a wealth that grows when given
+- Criticize ideas, not people
 - Architecting is evaluating tradeoffs
-  - Stop being bias when it comes to technology decisions
+- Stop being biased when it comes to technology decisions
 - Guide, don't dictate
 - Proactive Collective Ownership
 - Prototypes beat any arguments
@@ -41,28 +43,29 @@ This keynote left everyone including me highly motivated and inspired. Here are 
 
 ## How to get properly hacked, [Julien Topçu](https://twitter.com/julientopcu){:target="_blank"}
 
-Presented by Julien Topçu, a member of the OWASP Foundation whose mission is to increase the visibility of security on applications, so that people and organizations can make informed decisions.
+This talk was held by Julien Topçu, a member of the OWASP Foundation whose mission is to increase the visibility of security on applications, so that people and organizations can make informed decisions.
 
 {% image_custom image="/assets/img/pages/blog/images/devoxx-be-julien.jpeg" width="50" lightbox %}
 
-He made the attenders discover security holes, through the story of Candide admiring his mentor, who decides to create his own commercial site "Pangloss", where you can find books and video game consoles.
+He made the attendees discover security holes through the story of Candide admiring his mentor, who decides to create his own commercial site "Pangloss", where you can find books and video game consoles.
+He showed us through his adventures how Candide discovered the vulnerabilities of his site, starting from the well-known SQL injection which allows, among others, to log in as an administrator, to less known vulnerabilities that can execute code from remote.
 
-He showed us through his adventures how Candide discovered the vulnerabilities of his site, starting from the well-known SQL Injection which allows among others to log as an administrator, to less known vulnerabilities that can execute code in remote.
-
-What I particularly appreciated in this presentation is the ease with which I understood and followed this subject so well brought. It was easy to put myself in Candide's place and from now on I would be more vigilant in my code to avoid security breaches.
+What I particularly appreciated in this presentation was the ease with which I understood and followed this subject that was so well brought.
+It was easy to put myself in Candide's place and from now on I would be more vigilant in my code to avoid security breaches.
 
 ### Java Language Futures, [Brian Goetz](https://twitter.com/BrianGoetz){:target="_blank"}
 
-When it comes to Java, it has been declared dead many times but in reality, it is the world most popular programming platform. And next year (2020) Java will be 25 years old, for coincidence next year I will also be 25 years old :p
+When it comes to Java, it has been declared dead many times, but in reality it is the world's most popular programming platform.
+And next year (2020) Java will be 25 years old, for coincidence next year I will also be 25 years old 😃.
 
-Brian Goetz
+*Brian Goetz*
 {% image_custom image="/assets/img/pages/blog/images/devoxx-be-java-upgrade.jpg" width="50" lightbox %}
 
 Here are some of the language features coming up which will make it easier to build and maintain reliable programs:
 
 #### Switch statement
 
- * Switch now can be either a statement or an expression
+ * Switch can now be either a statement or an expression
  * Multiple cases at once are allowed
  * No fallthrough allowed, break rarely needed
  * More concise, less error-prone
@@ -101,7 +104,7 @@ String html = """
 record Range(int low,int high){};
 {% endhighlight %}
 
-Here is an example of using the records as temporary variables on the stream's intermediate operations
+Here is an example of using the records as temporary variables on the stream's intermediate operations:
 
 {% highlight java %}
 
@@ -124,11 +127,11 @@ List<Person> getTopNPersonsByScore(List<Person>list,int n){
 Below is a fair list of tools, services, technologies that came to my attention during the entire conference.
 I found them interesting and I would like to try them out.
 
-- ArchUnit [https://www.archunit.org/](https://www.archunit.org/){:target="_blank"} Unit test your Java architecture
-- Bombardier [https://github.com/codesenberg/bombardier](https://github.com/codesenberg/bombardier){:target="_blank"} Http benchmarking
-- Karate (DSL) [https://github.com/intuit/karate](https://github.com/intuit/karate){:target="_blank"}open-source tool to combine API test-automation, mocks and performance-testing into a single, unified framework
-- Dive [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive){:target="_blank"} inspecting container image layers
-- DeckDeck Go [https://deckdeckgo.com/](https://deckdeckgo.com/){:target="_blank"} Presentation Editor
+- [ArchUnit](https://www.archunit.org/){:target="_blank"} Unit test your Java architecture
+- [Bombardier](https://github.com/codesenberg/bombardier){:target="_blank"} HTTP benchmarking
+- [Karate (DSL)](https://github.com/intuit/karate){:target="_blank"} Open-source tool to combine API test-automation, mocks and performance-testing into a single, unified framework
+- [Dive](https://github.com/wagoodman/dive){:target="_blank"} Inspecting container image layers
+- [DeckDeck Go](https://deckdeckgo.com/){:target="_blank"} Presentation Editor
 
 ## Final Summary
 
