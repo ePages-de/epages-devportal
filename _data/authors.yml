@@ -148,17 +148,17 @@
   description: is an experienced Java developer. He has deep DevOps knowledge and a strong passion for Kubernetes and cloud technologies.
   image: djablonski.jpg
 
+- id: dlika
+  name: Donaldo
+  full_name: Donaldo Lika
+  description: is an experienced Java developer who is ambitious and always keeps up with the latest technology trends.
+  image: dlika.jpg
+
 - id: dmoran
   name: Declan
   full_name: Declan
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
-
-- id: dlika
-  name: Donaldo
-  full_name: Donaldo Lika
-  description: is an experienced Java developer who is ambitious and keeps himself always updated with the latests technology trends.
-  image: dlika.jpg
 
 - id: dpauli
   name: David
