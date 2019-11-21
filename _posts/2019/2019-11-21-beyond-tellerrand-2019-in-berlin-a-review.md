@@ -2,11 +2,11 @@
 layout: post
 title: beyond tellerrand 2019 in Berlin - a review
 date: 2019-11-21
-header_image: private/devoxx-be-header.jpg
+header_image: private/byd-tellerrand-2019.png
 header_position: top
 header_overlay: true
 category: events
-tags: ["conference", "design"]
+tags: ["conference", "design", "web development"]
 authors: ["Mario"]
 about_authors: ["mkoester"]
 ---
@@ -20,9 +20,11 @@ Also unique were the generous breaks between the individual talks to allow visit
 
 When we arrived at the conference hall, the event was ready to take off.
 We were waiting for two days full of interesting presentations about different topics.
-Jeremy Keith, web developer and writer, started the first day with a lecture about "The Layers of the Web".
+[Jeremy Keith](https://twitter.com/adactio){:target="_blank"}, web developer and writer, started the first day with a lecture about "The Layers of the Web".
 He talked about the original idea of the World Wide Web, and how the framework of technology behind the internet works.
-If you're interested, you can watch the video of the presentation [here](https://bit.ly/2qwBdLb){:target="_blank"}.
+If you're interested, you can watch the video of the presentation [here](https://vimeo.com/373128517){:target="_blank"}.
+
+{% image_custom image="/assets/img/pages/blog/images/layersoftheweb.png" width="50" lightbox %}
 
 Jeremy Keith's talk was followed by further lectures on topics such as:
  
@@ -31,8 +33,6 @@ Jeremy Keith's talk was followed by further lectures on topics such as:
 * On Finding Purpose (by Burton Rast)
 * Headbuilder (by Wilfrid Wood)
 * The Story of You (by Mike Hill)
-
-Image
 
 All these lectures were inspiring and interesting in their own way.
 One lecture dealt with the topic of barrier-free operation of a website for visually impaired people, whereas another was about interactive web animations using SVG graphics.
@@ -55,17 +55,17 @@ The talk by Natalya Shelburne was followed by lectures on the following topics:
 * CSS at the Intersection (by Natalya Shelburne)
 * Engaging Empathy (by Sharon Steed)
 
-image
+{% image_custom image="/assets/img/pages/blog/images/cssintersection.png" width="50" lightbox %}
 
 Also on this day we could take something for ourselves from almost every lecture, and in addition there was much positive food for thought.
 But my personal favorite was Seb Lester's talk.
 He is a well-known type designer and talked about how he started designing fonts out of passion.
 Over time, he saw his own fonts more and more in the public and ended up designing for big companies such as H&M, Intel, Nike, Apple, The New York Times, and many more.
- 
+
 His two biggest projects were designing a logo for a NASA space mission as well as a font for the Winter Olympics 2010 in Vancouver.
 However, Seb Lester is not only known for his fonts.
 His calligraphic arts are also popular around the world.
-On [Instagram](https://bit.ly/2pvyIZ4){:target="_blank"}, over a million followers watch him inspire his art.
+On [his Instagram profile](https://www.instagram.com/seblester/){:target="_blank"} over a million followers watch him inspire his art.
 
 ## Summary
 
@@ -75,6 +75,6 @@ There was a balance between lectures on web development, design, art, and motiva
 The conference provided much food for thought and opened up new ways to be even more productive in the team, and to work more efficiently and happily overall.
 Definitely this was not the last beyond tellerrand for us!
 
-If this article made you curious you can watch the videos of the different talks [here](https://bit.ly/2Xuhlo6){:target="_blank"}.
+If this article made you curious you can watch the videos of the different talks [here](https://vimeo.com/showcase/6578267){:target="_blank"}.
 
 *All photos were made by [Florian Ziegler](https://florianziegler.com/){:target="_blank"}.*
