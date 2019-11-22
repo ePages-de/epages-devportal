@@ -1,7 +1,7 @@
 ---
 layout: post
 title: beyond tellerrand 2019 in Berlin - a review
-date: 2019-11-21
+date: 2019-11-22
 header_image: private/byd-tellerrand-2019.png
 header_position: top
 header_overlay: true
