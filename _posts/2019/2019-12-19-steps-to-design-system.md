@@ -25,10 +25,16 @@ But we can accept that and fix those things in the next iterations.
 
 ## Joint forces
 
+We can always do better.
+
+
 ## Stocktaking
 
 
 ## get the team onboard
+
+
+
 
 ## single source of truth
 
