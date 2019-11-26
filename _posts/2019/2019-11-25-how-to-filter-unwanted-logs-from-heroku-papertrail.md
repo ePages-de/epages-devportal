@@ -56,6 +56,6 @@ In order to prevent Heroku outer filtering unwanted parameters you can do the fo
 2. Select `Regex` filter type and fill out the filter with the following code: `heroku\/router:.*(signature|return_url|api_url|access_token_url|code)`
 3. Activate the filter
 
-{% image_custom image="/assets/img/pages/blog/images/how-to-ignore-unwanted-logs-from-heroku-papertrail-1.png" width="80" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/how-to-filter-unwanted-logs-from-heroku-papertrail-1.png" width="80" lightbox %}
 
 And Boiala! With this configuration, logs from `heroku/router` that contain your secret parameters will be ignored and never saved.
