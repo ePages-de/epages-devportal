@@ -353,5 +353,5 @@ task :write do
 
   File.open(write_file, 'w+') { |f| f.puts exclude.to_yaml }
 
-  sh 'bundle exec jekyll serve --config _config.yml,_config_write.yml'
+  sh 'bundle exec jekyll serve --config _config.yml,_config_write.yml --host 0.0.0.0'
 end
