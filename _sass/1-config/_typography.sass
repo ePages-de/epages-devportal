@@ -45,3 +45,17 @@ a
 
   &:hover
     color: darken($link-font-color, 10%)
+
+blockquote
+  font-style: italic
+  position: relative
+  padding: 0 5em
+
+  &::before
+    content: "“"
+    position: absolute
+    font-size: 800%
+    line-height: .8
+    opacity: .3
+    top: 0
+    left: 6rem
