@@ -11,7 +11,7 @@ authors: ["Unai A."]
 about_authors: ["uabrisketa"]
 ---
 
-Some days ago we wanted to add [Papertrail](https://elements.heroku.com/addons/papertrail) to one of our [Heroku](https://www.heroku.com/)-hosted projects and we discovered a problem: _Heroku router was logging some critical information_. On this blog post I'm going to explain you how to filter unwanted logs from Heroku Papertrail Addon.
+Some days ago we wanted to add [Papertrail](https://elements.heroku.com/addons/papertrail){:target="_blank"} to one of our [Heroku](https://www.heroku.com/){:target="_blank"}-hosted projects and we discovered a problem: _Heroku router was logging some critical information_. On this blog post I'm going to explain you how to filter unwanted logs from Heroku Papertrail Addon.
 
 ### The problem
 
