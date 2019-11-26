@@ -21,7 +21,7 @@ module Jekyll
       raise 'ImageCustom: "image" attribute must be provided' if image.nil?
       # raise 'ImageCustom: Image doesn\'t exist' unless File.file?(image)
       raise 'ImageCustom: "width" attribute must be provided' if width.nil?
-      raise 'ImageCustom: "width" attribute must be in [5|10|15|20|25|30|35|40|45|50|100]' unless [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100].include? width.to_i
+      raise 'ImageCustom: "width" attribute must be in [5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100]' unless [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100].include? width.to_i
     end
 
     def render(context)
