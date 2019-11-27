@@ -20,18 +20,48 @@ ePages developers.
 
 ## Why code quality?
 
-In his brilliant non-technical (as in "your manager can read that") article ["Is High Quality Software Worth the Cost?"](https://martinfowler.com/articles/is-quality-worth-cost.html),
+In his brilliant non-technical (as in "your manager can read that") article "Is High Quality Software Worth the Cost?",
 renowned software architect Martin Fowler nails this down to:
-> Internal quality makes it easier to enhance software.
+> [Internal quality makes it easier to enhance software.](https://martinfowler.com/articles/is-quality-worth-cost.html#InternalQualityMakesItEasierToEnhanceSoftware)
 
-From his experience, the effort put into code quality starts paying for itself within a few weeks of ongoing feature development.
+From his experience, the effort put into code quality starts paying for itself within a few weeks of 
+ongoing feature development.
 
-This is definitely something I can confirm from my day job here at ePages, where we've just recently reached a historically low open bug count.
-How did we achieve that? 
+This is definitely something I can confirm from my day job here at ePages, where we've just recently reached 
+a historically low open bug count, enabling us to focus on developing new features.
+How did we achieve that (other than thanks to our awesome QA engineers of course)? 
 
 ## Code reviews
 
+xx percent of the colleagues who took my survey answered the question "Do you do code reviews in your team?" with 
+"Always! Code reviews are mandatory in my team.", with another xx percent stating "Most of the time".
+
+This brings us to my first rule of code reviews: 
+[No exceptions](https://adriennetacke.github.io/conducting-humane-code-reviews/#/57), 
+e.g. just because you're the most senior developer in the team doesn't mean your code needs no peer review, 
+or just because it's a time critical bug doesn't mean you may push to master without anyone having anyone approve 
+your changes.
+
+Adrienne Tacke, whose talk "Conducting humane code reviews" I'm linking above, also points out another golden rule:
+> [Let the robots take over! (they're better at it anyway)](https://adriennetacke.github.io/conducting-humane-code-reviews/#/24)
+
+From my own experience, this is a big deal. For one, you feel less offended by a computer complaining about your indentation
+style or your overly complex boolean expressions than you would be when told so by a human.
+But maybe even more importantly, you don't have to re-discuss these things over and over again, and the code review can
+focus more on the strategic aspects of the problem being solved.
+In fact, my internal survey reveals a wide range of tools being used by my fellow colleagues, including, but not limited to,
+xxx (to the one person who answered "None": I'd be interested in your reasons).
+
+When asked about the greatest benefits code reviews give them, xxx
+
+But let's not conceal the major pain points expressed in the survey: xxx Can you relate?
+
+One interesting takeaway is that a surprisingly high percentage (xx%) sometimes read their own pull request changes 
+on GitHub - apparently a perspective change helps finding issues in your own code.
+
 ## Pair programming
+
+
 
 ## Unit testing
 
