@@ -4,7 +4,7 @@ title: "Test-driven development with Java"
 date: 2016-04-05
 header_image: public/java.jpg
 category: tech-stories
-tags: ["java", "training", "tdd", "programming"]
+tags: ["java", "training", "tdd", "programming", "mock", "wiremock"]
 authors: ["Jan"]
 about_authors: ["jmewes"]
 ---
