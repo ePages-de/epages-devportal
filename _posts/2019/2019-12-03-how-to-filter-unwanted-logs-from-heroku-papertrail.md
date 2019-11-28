@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to filter unwanted logs from Heroku Papertrail
-date: 2019-11-25
+date: 2019-12-03
 header_image: public/how-to-filter-unwanted-logs-from-heroku-papertrail.jpg
 header_position: top
 header_overlay: true
