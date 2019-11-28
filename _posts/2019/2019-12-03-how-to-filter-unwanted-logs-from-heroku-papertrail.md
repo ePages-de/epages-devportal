@@ -12,11 +12,11 @@ about_authors: ["uabrisketa"]
 ---
 
 Some days ago we wanted to add [Papertrail](https://elements.heroku.com/addons/papertrail){:target="_blank"} to one of our [Heroku](https://www.heroku.com/){:target="_blank"}-hosted projects and discovered a problem: _Heroku router was logging some critical information_.
-On this blog post I'm going to explain you how to filter unwanted logs from Heroku Papertrail Addon.
+In this blog post I'm going to explain you how to filter unwanted logs from the Heroku Papertrail add-on.
 
-### The problem
+### The challenge
 
-When a Beyond Shop merchant is installing an app, a `GET` request is triggered to the app Callback URL with the information that the developer needs in order to identify the merchant.
+When a merchant installs an app, a `GET` request is triggered to the app's Callback URL with the information that the developer needs to identify the merchant.
 This information (like the `api_url`, the `code` or the `signature`) is sent as query parameters.
 The request looks like this:
 
@@ -24,7 +24,7 @@ The request looks like this:
 GET /callback_url?code={code}&signature={signature}&return_url={return_url}&api_url={api_url}&access_token_url={access_token_url}
 ```
 
-We didn't want to store that information on our logs so we thought: _"Ok, we are using Rails so let's add some filtering to `config/initializers/filter_parameter_logging.rb`"_, and we added the following to the file:
+We didn't want to store that information on our logs so we thought: _"Ok, we are using Rails. Let's add some filtering to `config/initializers/filter_parameter_logging.rb`"_, so we added the following to the file:
 
 ```ruby
 Rails.application.config.filter_parameters += [
@@ -36,7 +36,7 @@ Rails.application.config.filter_parameters += [
 ```
 
 It worked!
-Now our local development logs were looking like this:
+Our local development logs looked like this:
 
 ```bash
 Started GET "/callback_url?access_token_url=[FILTERED]&api_url=[FILTERED]&code=[FILTERED]&return_url=[FILTERED]&signature=[FILTERED]"`
@@ -46,8 +46,7 @@ Started GET "/callback_url?access_token_url=[FILTERED]&api_url=[FILTERED]&code=[
 Parameters: {"access_token_url"=>"[FILTERED]", "api_url"=>"[FILTERED]", "code"=>"[FILTERED]", "return_url"=>"[FILTERED]", "signature"=>"[FILTERED]"}`
 ```
 
-But the problem came when we pushed this changes to Heroku and installed the Papertrail addon.
-We discovered that yes, Rails logs were correctly filtered but Heroku was still logging the request with the `heroku/router` program:
+But when we pushed these changes to Heroku and installed the Papertrail add-on we discovered that, yes, Rails logs were correctly filtered, but Heroku was still logging the request with the `heroku/router` program:
 
 ```bash
 heroku/router: at=info method=GET path="/callback_url?access_token_url=<real-info>&api_url=<real-info>&code=<real-info>&return_url=<real-info>&signature=<real-info>" ...
@@ -55,12 +54,13 @@ heroku/router: at=info method=GET path="/callback_url?access_token_url=<real-inf
 
 ### The solution
 
-In order to prevent Heroku outer filtering unwanted parameters you can do the following:
+In order to prevent Heroku router from filtering unwanted parameters, you can do the following:
 
-1. On Papertrail go to **Settings > Filter logs > Add Log Filter**
+1. In Papertrail go to **Settings > Filter logs > Add Log Filter**.
 2. Select `Regex` filter type and fill out the filter with the following code: `heroku\/router:.*(signature|return_url|api_url|access_token_url|code)`
 3. Activate the filter
 
 {% image_custom image="/assets/img/pages/blog/images/how-to-filter-unwanted-logs-from-heroku-papertrail-1.png" width="80" lightbox %}
 
-And Boiala! With this configuration, logs from `heroku/router` that contain your secret parameters will be ignored and never saved.
+Et voilà!
+With this configuration, logs from `heroku/router` that contain your secret parameters will be ignored and never saved.
