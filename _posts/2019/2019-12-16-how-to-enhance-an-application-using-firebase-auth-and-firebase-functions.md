@@ -36,7 +36,7 @@ First, we have to add the Firestore API to the `public/index.html`:
   <script defer src="/__/firebase/7.2.0/firebase-firestore.js"></script>
 ```
 
-Next, we can use IT?!??!?!? from our existing script after we `fetch` the access data via the API.
+Next, we can use it from our existing script after we `fetch` the access data via the API.
 Add this snippet to the end of the `registerBeyond` method we introduced in the last blog post.
 
 ```javascript
