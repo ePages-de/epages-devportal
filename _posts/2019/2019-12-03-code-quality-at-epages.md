@@ -61,7 +61,24 @@ on GitHub - apparently a perspective change helps finding issues in your own cod
 
 ## Pair programming
 
+In her pitch "To Pair or not to Pair", Birgitta Böckeler points out that the very first programmers
+worked in pairs, quoting ENIAC programmer [Jean Bartik](https://en.wikipedia.org/wiki/Jean_Bartik):
+> [Betty Snyder and I, from the beginning, were a pair. And I believe that the best programs and designs are done by pairs, because you can criticise each other, and find each other's errors, and use the best ideas.](https://speakerdeck.com/birgitta410/to-pair-or-not-to-pair?slide=3)
 
+This matches with the answers given in my survey:
+> To learn from more experienced team members.1
+
+> It helps to write code which is understandable for everybody, not just the author.
+
+> I like the interaction and discuss about approaches on how to solve things.
+
+Overall, what my colleagues like about pair programming falls into the categories knowledge transfer, resulting quality, and human interaction.
+
+But again, let's not conceal the fact that many colleagues also expressed problems they're facing. As one might expect, working so closely with someone brings up a whole category of issues. xxx
+
+Pair programming advocates will argue that all of said issues can be mitigated by just practicing it more often. Let's have a look at how often ePages developers practice pair programming: xxx 
+
+Now, depending on where you stand, you can see some room for improvement, or say we're happy with how we're doing.
 
 ## Unit testing
 
