@@ -34,6 +34,12 @@
   description: is an experienced Infrastructure System Engineer with experiences ranging from VAX/VMS to today's current Linux systems. He is a passionate photographer, and never goes without a camera.
   image: avatar_male.jpg
 
+- id: alanghans
+  name: Anna-Lena
+  full_name: Anna-Lena Langhans
+  description: is an apprentice in the Design and Consult team at ePages. She’s open-minded and likes new challenges.
+  image: alanghans.jpg
+
 - id: aortmann
   name: Anja O.
   full_name: Anja Ortmann
@@ -45,6 +51,12 @@
   full_name: Alexander Sandau
   description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asandau.jpg
+
+- id: asasin
+  name: Alkesei
+  full_name: Aleksei Sasin
+  description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
+  image: asasin.png
 
 - id: azwick
   name: Anne
@@ -136,6 +148,12 @@
   description: is an experienced Java developer. He has deep DevOps knowledge and a strong passion for Kubernetes and cloud technologies.
   image: djablonski.jpg
 
+- id: dlika
+  name: Donaldo
+  full_name: Donaldo Lika
+  description: is an experienced Java developer who is ambitious and always keeps up with the latest technology trends.
+  image: dlika.jpg
+
 - id: dmoran
   name: Declan
   full_name: Declan
@@ -177,6 +195,12 @@
   full_name: Fouad-Steffen Nabhan
   description: is a Product Owner who loves to work with his team on a great ecommerce product. When he is not in the office, he's out and about with his wife and twins.
   image: fnabhan.jpg
+
+- id: foellerich
+  name: Florian O.
+  full_name: Florian Oellerich
+  description: is a JavaScript Engineer with a passion for Flutter.
+  image: foellerich.png
 
 - id: fstangenberger
   name: Frank
@@ -346,10 +370,16 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: mkoester
+  name: Mario
+  full_name: Mario Köster
+  description: is an apprentice in the Design and Consult team at ePages. He is always open to new ideas and likes to work with others in a team.
+  image: mkoester.jpg
+
 - id: mmerino
   name: Manel
   full_name: Juan Manuel Merino
-  description: is a Software Engineer and Java enthusiast. He has a lot of experience in developing third-party connectors.
+  description: is a Software Engineer and Java/Kotlin enthusiast. He has a lot of experience in developing third-party connectors.
   image: mmerino.jpg
 
 - id: mriess
@@ -381,6 +411,12 @@
   full_name: Nicole
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
+
+- id: nsimu
+  name: Narcis
+  full_name: Narcis Simu
+  description: is a passionate Software Developer with interests in API development and IoT.
+  image: avatar_male.jpg
 
 - id: nzolotova
   name: Natalia
