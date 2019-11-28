@@ -235,5 +235,5 @@ That's already a great achievement.
 
 Next up will be a database creation to save the tokens we received in this last step and only give specific users access to it.
 And of course, we still need to improve our security with the help of Cloud functions.
-All of this will be tackled in a follow-up post.
+All of this is tackled in [a follow-up post](blog/coding/how-to-enhance-an-application-using-firebase-auth-and-firebase-functions/){:target="_blank"}.
 Stay tuned!

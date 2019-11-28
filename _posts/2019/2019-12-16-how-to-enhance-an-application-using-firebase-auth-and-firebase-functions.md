@@ -1,30 +1,31 @@
 ---
 layout: post
-title: How to using Firebase
-date: 2019-10-24
-header_image: public/we-created-a-beyond-api-ruby-client.jpg
+title: How to enhance an application using Firebase Auth and Firebase Functions
+date: 2019-12-16
+header_image: public/firebase-post-2.jpg
+header_position: top
 header_overlay: true
-category: api-experience
-tags: ["firebase", "app", "cloud functions"]
+category: coding
+tags: ["firebase", "app", "cloud functions", "app development"]
 authors: ["Florian O."]
 about_authors: ["foellerich"]
 ---
 
-In the last part of this series, we went through all the steps required to bootstrap an application with authentication.
+In the [last part of this series](/blog/coding/how-to-bootstrap-an-application-with-authentication-using-firebase/){:target="_blank"}, we went through all the steps required to bootstrap an application with authentication.
 Our intermediate result was a login UI that can be used to distinguish users.
 Furthermore, we were able to give API access only to registered users.
 In this part, we'll take care of a database creation and security improvements.
 
 ## Step 1 - Database creation
 
-Via the authentication servive Firebase Auth, we receice tokens for the different shops.
-Only the specific merchant of this shop should have access to this token.
+Via the authentication service Firebase Auth, we receice tokens for different shops.
+Only the specific merchant of the shop should have access to this token.
 To do so, we first need to create a database in the Firebase console (Develop > Database).
 Then, we create a Cloud Firestore database.
 For fast results, we choose the test mode for now.
 We'll secure the data in a later step.
 Before we can start storing data, we need a collection for our users.
-That's why we create a collection called `users` in the Cloud Firestore UI .
+That's why we create a collection called `users` in the Cloud Firestore UI.
 For the first document we need to provide, we use the document id `test`.
 The document does not need any properties yet.
 
@@ -102,7 +103,7 @@ At this point, we could dive deeper into the theory of Firebase functions, but w
 
 Instead, we use the Firebase [HTTPS callables](https://firebase.google.com/docs/functions/callable){:target="_blank"} and trigger them with the Javascript Firebase SDK.
 If you are interested in the methods we use for that, check our [Javascript Tutorial](http://docs.beyondshop.cloud/#_tutorial_javascript){:target="_blank"}.
-For example, we are using [request-promise-native](https://github.com/request/request-promise-native){:target="_blank"} for an easy promise based request API that works similar to the browser fetch API.
+For example, we are using [request-promise-native](https://github.com/request/request-promise-native){:target="_blank"} for an easy promise-based request API that works similar to the browser fetch API.
 To do so, we go into the `functions` directory and run the installation via `npm install --save request request-promise-native`.
 
 Then, we set the functions node version to version 8.
@@ -164,9 +165,9 @@ $ firebase functions:config:set beyond.client_id="0BE38CFF-F3B6-4D68-8F16-1CE270
 const { client_id, client_secret } = functions.config().beyond
 ```
 
-## Step 4 - Firebase Cloud Function for client side Javascript
+## Step 4 - Firebase Cloud Function for client-side Javascript
 
-Now that we have a Firebase Function for the authentication, we can also use it for the client side JavaScript.
+Now that we have a Firebase Function for the authentication, we can also use it for the client-side JavaScript.
 For doing so, we need the Firebase Functions SDK.
 
 ```html
@@ -198,4 +199,4 @@ Let's have a look at our final result: We have an `index.html` file on Firebase 
 With these 112 lines of code we managed to offer an installation process with its own user authentication, enable the installation of our app, save required information in a database, and redirect the user back to a specific page.
 And all this is done in a safe and secure way.
 If you feel like you'd like to get some further information or clarify open questions, reach out to us on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}.
-We're happy to here from you and your experiences!
+We're happy to hear from you and your experiences!
