@@ -11,11 +11,14 @@ authors: ["Unai A."]
 about_authors: ["uabrisketa"]
 ---
 
-Some days ago we wanted to add [Papertrail](https://elements.heroku.com/addons/papertrail){:target="_blank"} to one of our [Heroku](https://www.heroku.com/){:target="_blank"}-hosted projects and we discovered a problem: _Heroku router was logging some critical information_. On this blog post I'm going to explain you how to filter unwanted logs from Heroku Papertrail Addon.
+Some days ago we wanted to add [Papertrail](https://elements.heroku.com/addons/papertrail){:target="_blank"} to one of our [Heroku](https://www.heroku.com/){:target="_blank"}-hosted projects and discovered a problem: _Heroku router was logging some critical information_.
+On this blog post I'm going to explain you how to filter unwanted logs from Heroku Papertrail Addon.
 
 ### The problem
 
-When a Beyond Shop merchant is installing an app, a `GET` request is triggered to the app Callback URL with the information that the developer needs in order to identify the merchant. This information (like the `api_url`, the `code` or the `signature`) is sent as query parameters. The request looks like this:
+When a Beyond Shop merchant is installing an app, a `GET` request is triggered to the app Callback URL with the information that the developer needs in order to identify the merchant.
+This information (like the `api_url`, the `code` or the `signature`) is sent as query parameters.
+The request looks like this:
 
 ```bash
 GET /callback_url?code={code}&signature={signature}&return_url={return_url}&api_url={api_url}&access_token_url={access_token_url}
@@ -32,7 +35,8 @@ Rails.application.config.filter_parameters += [
   :code]
 ```
 
-It worked! Now our local development logs were looking like this:
+It worked!
+Now our local development logs were looking like this:
 
 ```bash
 Started GET "/callback_url?access_token_url=[FILTERED]&api_url=[FILTERED]&code=[FILTERED]&return_url=[FILTERED]&signature=[FILTERED]"`
@@ -42,7 +46,8 @@ Started GET "/callback_url?access_token_url=[FILTERED]&api_url=[FILTERED]&code=[
 Parameters: {"access_token_url"=>"[FILTERED]", "api_url"=>"[FILTERED]", "code"=>"[FILTERED]", "return_url"=>"[FILTERED]", "signature"=>"[FILTERED]"}`
 ```
 
-But the problem came when we pushed this changes to Heroku and installed the Papertrail addon. We discovered that yes, Rails logs were correctly filtered but Heroku was still logging the request with the `heroku/router` program:
+But the problem came when we pushed this changes to Heroku and installed the Papertrail addon.
+We discovered that yes, Rails logs were correctly filtered but Heroku was still logging the request with the `heroku/router` program:
 
 ```bash
 heroku/router: at=info method=GET path="/callback_url?access_token_url=<real-info>&api_url=<real-info>&code=<real-info>&return_url=<real-info>&signature=<real-info>" ...
