@@ -1,7 +1,7 @@
 ---
 title: How to keep up your code quality
 layout: post
-date: '2019-11-03'
+date: '2019-12-03'
 header_image: public/coffee.jpg
 header_position: center
 header_overlay: true
@@ -22,7 +22,7 @@ ePages developers.
 
 In his brilliant non-technical (as in "your manager can read that") article "Is High Quality Software Worth the Cost?",
 renowned software architect Martin Fowler nails this down to:
-> [Internal quality makes it easier to enhance software.](https://martinfowler.com/articles/is-quality-worth-cost.html#InternalQualityMakesItEasierToEnhanceSoftware)
+> [Internal quality makes it easier to enhance software.](https://martinfowler.com/articles/is-quality-worth-cost.html#InternalQualityMakesItEasierToEnhanceSoftware){:target="_blank"}
 
 From his experience, the effort put into code quality starts paying for itself within a few weeks of 
 ongoing feature development.
@@ -37,7 +37,7 @@ How did we achieve that (other than thanks to our awesome QA engineers of course
 "Always! Code reviews are mandatory in my team", with another 11 percent stating "Most of the time".
 
 This brings us to my first rule of code reviews: 
-[No exceptions](https://adriennetacke.github.io/conducting-humane-code-reviews/#/57), 
+[No exceptions](https://adriennetacke.github.io/conducting-humane-code-reviews/#/57){:target="_blank"}, 
 e.g. just because you're the most senior developer in the team doesn't mean your code needs no peer review, 
 or just because it's a time critical bug doesn't mean you may push to master without anyone having anyone approve 
 your changes.
@@ -59,7 +59,7 @@ When I asked about the greatest benefits, most answers my colleagues gave fell i
 ## Tooling
 
 Adrienne Tacke, whose talk "Conducting humane code reviews" I'm linking above, also points out another golden rule:
-> [Let the robots take over! (they're better at it anyway)](https://adriennetacke.github.io/conducting-humane-code-reviews/#/24)
+> [Let the robots take over! (they're better at it anyway)](https://adriennetacke.github.io/conducting-humane-code-reviews/#/24){:target="_blank"}
 
 From my own experience, this is a big deal. For one, you feel less offended by a computer complaining about your indentation
 style or your overly complex boolean expressions than you would be when told so by a human.
@@ -67,7 +67,7 @@ But maybe even more importantly, you don't have to re-discuss these things over 
 focus more on the strategic aspects of the problem being solved.
 
 In fact, my internal survey reveals a wide range of tools being used by my fellow colleagues, including, but not limited to,
-[ESLint](https://eslint.org/), [stylelint](https://stylelint.io/), [commitlint](https://commitlint.js.org/), [ktlint](https://ktlint.github.io/), [Perl::Critic](https://en.wikipedia.org/wiki/Perl::Critic), [Prettier](https://prettier.io/), [sonarqube](https://www.sonarqube.org/), and [import-sort](https://github.com/renke/import-sort). Most of the time this is automated into a continuous integration pipeline that runs on every pull request. Many teams also enforce certain unit test coverage thresholds using [Codecov](https://codecov.io/) or [Code Climate](https://codeclimate.com/).
+[ESLint](https://eslint.org/){:target="_blank"}, [stylelint](https://stylelint.io/){:target="_blank"}, [commitlint](https://commitlint.js.org/){:target="_blank"}, [ktlint](https://ktlint.github.io/){:target="_blank"}, [Perl::Critic](https://en.wikipedia.org/wiki/Perl::Critic){:target="_blank"}, [Prettier](https://prettier.io/){:target="_blank"}, [sonarqube](https://www.sonarqube.org/){:target="_blank"}, and [import-sort](https://github.com/renke/import-sort){:target="_blank"}. Most of the time this is automated into a continuous integration pipeline that runs on every pull request. Many teams also enforce certain unit test coverage thresholds using [Codecov](https://codecov.io/){:target="_blank"} or [Code Climate](https://codeclimate.com/){:target="_blank"}.
 
 This doesn't mean we blindly trust the robots - in fact, one interesting takeaway from my survey is that a surprisingly high percentage (94%) sometimes read their own pull request changes 
 on GitHub - apparently a perspective change helps finding issues in your own code.
@@ -77,8 +77,8 @@ Perspective change is also an inherent part of the next tool I want to discuss:
 ## Pair programming
 
 In her pitch "To Pair or not to Pair", Birgitta Böckeler points out that the very first programmers
-worked in pairs, quoting ENIAC programmer [Jean Bartik](https://en.wikipedia.org/wiki/Jean_Bartik):
-> [Betty Snyder and I, from the beginning, were a pair. And I believe that the best programs and designs are done by pairs, because you can criticise each other, and find each other's errors, and use the best ideas.](https://speakerdeck.com/birgitta410/to-pair-or-not-to-pair?slide=3)
+worked in pairs, quoting ENIAC programmer [Jean Bartik](https://en.wikipedia.org/wiki/Jean_Bartik){:target="_blank"}:
+> [Betty Snyder and I, from the beginning, were a pair. And I believe that the best programs and designs are done by pairs, because you can criticise each other, and find each other's errors, and use the best ideas.](https://speakerdeck.com/birgitta410/to-pair-or-not-to-pair?slide=3){:target="_blank"}
 
 This matches with the answers given in my survey:
 > To learn from more experienced team members.
@@ -101,7 +101,7 @@ As you can deduce from these quotes, pair programming is emotionally challenging
 
 In the original idea of _extreme programming_, 
 
-> [Pair programming means that all code is produced by two people programming on one task on one workstation.](https://en.wikipedia.org/wiki/Extreme_programming_practices#Pair_programming)
+> [Pair programming means that all code is produced by two people programming on one task on one workstation.](https://en.wikipedia.org/wiki/Extreme_programming_practices#Pair_programming){:target="_blank"}
 
 This also involves frequent role switching. Among the survey participants, 12% haven't (yet) had the opportunity to practice this style, 56 percent rarely, if ever, switch roles during pair programming, and only 31 percent do so after completing a certain logical unit. 50 percent state that they never (33%) or almost never (17%) do pair programming "by the book", and also the other half does it quite seldom (39%) or only from time to time (11%). 
 
@@ -148,7 +148,7 @@ The goal of refactoring is to reduce the effort required while reading or modify
 
 The go-to refactoring approach at my company, used by 94 percent, seems to be "on the go", following the _boy scout rule_:
 
-> [Leave your code better than you found it.](https://deviq.com/boy-scout-rule/)
+> [Leave your code better than you found it.](https://deviq.com/boy-scout-rule/){:target="_blank"}
 
 Only a minority refactor before adding or changing the functionality of a legacy module, have separate pull requests or JIRA tickets for refactoring, or do refactoring spikes.
 However, 69 percent try to split refactoring and modifying behaviour into separate commits - the colleagues reviewing their code will thank them! 
