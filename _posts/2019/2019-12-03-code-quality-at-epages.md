@@ -82,4 +82,11 @@ Now, depending on where you stand, you can see some room for improvement, or say
 
 ## Unit testing
 
+Everybody loves unit tests, right? Well, two thirds of the colleagues who completed my internal survey do write them.
+That might not seem much at first, but consider that part of our developers program mostly in CSS ([yes, that's programming, too!](https://developer.epages.com/blog/coding/css-can-do-that-color-manipulation-for-the-fearless/)), with only a sprinkle of JavaScript added.
+
+Consequently, pretty much all participants don't agree with the statement "Unit testing is overrated".
+Quite contrary, quite a few at least sometimes find a bug in their code while writing the unit test for it.
+This is remarkable given that most of the code written at ePages is product code rather than library code.
+
 ## Refactoring 
