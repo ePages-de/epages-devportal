@@ -33,14 +33,16 @@ How did we achieve that (other than thanks to our awesome QA engineers of course
 
 ## Code reviews
 
-xx percent of the colleagues who took my survey answered the question "Do you do code reviews in your team?" with 
-"Always! Code reviews are mandatory in my team.", with another xx percent stating "Most of the time".
+78 percent of the colleagues who took my survey answered the question "Do you do code reviews in your team?" with 
+"Always! Code reviews are mandatory in my team.", with another 11 percent stating "Most of the time".
 
 This brings us to my first rule of code reviews: 
 [No exceptions](https://adriennetacke.github.io/conducting-humane-code-reviews/#/57), 
 e.g. just because you're the most senior developer in the team doesn't mean your code needs no peer review, 
 or just because it's a time critical bug doesn't mean you may push to master without anyone having anyone approve 
 your changes.
+
+On average, the survey participants spend almost as much time reviewing as they do writing code. This makes sense given the fact that code reviews are mandatory in many cases. One interesting observation is that I couldn't make out a difference between novices (39% of the participants) and experts (61%) here, leading me to the conclusion that our code review culture is less about "the experienced controlling the newbies" and more about knowledge transfer. I consider this a good thing.
 
 Adrienne Tacke, whose talk "Conducting humane code reviews" I'm linking above, also points out another golden rule:
 > [Let the robots take over! (they're better at it anyway)](https://adriennetacke.github.io/conducting-humane-code-reviews/#/24)
@@ -52,12 +54,13 @@ focus more on the strategic aspects of the problem being solved.
 In fact, my internal survey reveals a wide range of tools being used by my fellow colleagues, including, but not limited to,
 xxx (to the one person who answered "None": I'd be interested in your reasons).
 
-When asked about the greatest benefits code reviews give them, xxx
-
-But let's not conceal the major pain points expressed in the survey: xxx Can you relate?
-
-One interesting takeaway is that a surprisingly high percentage (xx%) sometimes read their own pull request changes 
+When asked about the greatest benefits of code reviews, most answers my colleagues gave fall into one of three categories: Catching bugs, ensuring consistency and legibility, and knowledge transfer.
+One interesting takeaway is that a surprisingly high percentage (94%) sometimes read their own pull request changes 
 on GitHub - apparently a perspective change helps finding issues in your own code.
+
+When asked about the greatest pain points, most complaints were about too big change sets, that is pull requests.
+So if you don't want to disappoint your coworkers, try to keep the changes introduced at once as small as possible.
+The earlier this is considered in the agile product development cycle, the easier it is for a developer to adhere to this rule.
 
 ## Pair programming
 
@@ -92,7 +95,7 @@ Quite a few of my colleagues at least sometimes find a bug in their code while w
 This catching of errors, or bugs, at an early stage is something ePagees seem to like about unit testing - it was cited multiple times when asked "What do you like about unit testing / TDD?".  
 
 TDD (test driven development) - writing the test before writing the code that makes it pass - is one variant of unit testing.
-Similar to pair programming, it requires a lot of discipline, and seems a bit odd at first, especially to newcomers or less technical people. Still, 28 percent of the survey participants do TDD more often than not (17%), almost always (6%), or all the time (6%). Another 28 percent still practice it from time to time (11%), or quite seldom (17% - all percentages rounded).
+Similar to pair programming, it requires a lot of discipline, and seems a bit odd at first, especially to newcomers or less technical people. Still, 28 percent of the survey participants do TDD more often than not (17%), almost always (6%), or all the time (6%). Another 28 percent still practice it from time to time (11%), or quite seldom (17% - all percentages rounded). These are presumably the ones that also agreed with the statement: "I like TDD in theory, but I don't apply it that often in practice."
 
 Here's some of the things my fellows dislike about writing tests:
 
@@ -112,3 +115,18 @@ And here's some more quotes on what ePagees like about testing:
 
 ## Refactoring 
 
+This brings us to our last topic - refactoring, that is, changing the structure, but not the behavior, of the program code.
+Unlike a blog post, software code is never done. Instead, it is read and modified over time by a large amount of people, some of which might never meet in person, like ex-ePagees and new developers, or you and your future self. 
+
+The goal of refactoring is to reduce the effort required while reading or modifying code. As such, its return on investment takes effect only the next time someone has to read or modify the same piece of code. This creates controversy about the need for refactoring. The survey results underline this: While 5 participants partly (3) or fully (2) agree with the statement: "I enjoy refactoring for the sake of refactoring.", 7 partly (6) or fully (1) disagree with it.
+
+The go-to refactoring approach at my company, used by 94 percent, seems to be on the go, following the _boy scout rule_:
+
+> [Leave your code better than you found it.](https://deviq.com/boy-scout-rule/)
+
+Only a minority refactor before adding or changing functionality of a legacy module, have separate pull requests or JIRA tickets for refactoring, or do refactoring spikes.
+However, 69 percent try to split refactoring and modifying behaviour into separate commits.
+
+# Wrapping up
+
+xx
