@@ -54,13 +54,15 @@ focus more on the strategic aspects of the problem being solved.
 In fact, my internal survey reveals a wide range of tools being used by my fellow colleagues, including, but not limited to,
 xxx (to the one person who answered "None": I'd be interested in your reasons).
 
-When asked about the greatest benefits of code reviews, most answers my colleagues gave fall into one of three categories: Catching bugs, ensuring consistency and legibility, and knowledge transfer.
+Asking for the greatest pain points of code reviews, most complaints I got were about too big change sets or pull requests.
+So if you don't want to disappoint your coworkers, try to keep the changes introduced at once as small as possible.
+The earlier this is considered in the agile product development cycle, the easier it is for a developer to adhere to this rule.
+
+When I asked about the greatest benefits, most answers my colleagues gave fell into one of three categories: Catching bugs, ensuring consistency and legibility, and knowledge transfer.
 One interesting takeaway is that a surprisingly high percentage (94%) sometimes read their own pull request changes 
 on GitHub - apparently a perspective change helps finding issues in your own code.
 
-When asked about the greatest pain points, most complaints were about too big change sets, that is pull requests.
-So if you don't want to disappoint your coworkers, try to keep the changes introduced at once as small as possible.
-The earlier this is considered in the agile product development cycle, the easier it is for a developer to adhere to this rule.
+Perspective change is also an inherent part of the next tool I want to discuss:
 
 ## Pair programming
 
@@ -127,6 +129,6 @@ The go-to refactoring approach at my company, used by 94 percent, seems to be on
 Only a minority refactor before adding or changing functionality of a legacy module, have separate pull requests or JIRA tickets for refactoring, or do refactoring spikes.
 However, 69 percent try to split refactoring and modifying behaviour into separate commits.
 
-# Wrapping up
+## Wrapping up
 
 xx
