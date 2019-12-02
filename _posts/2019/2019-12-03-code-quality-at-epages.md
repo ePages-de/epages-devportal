@@ -44,6 +44,14 @@ your changes.
 
 On average, the survey participants spend almost as much time reviewing as they do writing code. This makes sense given the fact that code reviews are mandatory in many cases. One interesting observation is that I couldn't make out a difference between novices (39% of the participants) and experts (61%) here, leading me to the conclusion that our code review culture is less about "the experienced controlling the newbies" and more about knowledge transfer. I consider this a good thing.
 
+Asking for the greatest pain points of code reviews, most complaints I got were about too big change sets or pull requests.
+So if you don't want to disappoint your coworkers, try to keep the changes introduced at once as small as possible.
+The earlier this is considered in the agile product development cycle, the easier it is for a developer to adhere to this rule.
+
+When I asked about the greatest benefits, most answers my colleagues gave fell into one of three categories: Catching bugs, ensuring consistency and legibility, and knowledge transfer.
+
+## Tooling
+
 Adrienne Tacke, whose talk "Conducting humane code reviews" I'm linking above, also points out another golden rule:
 > [Let the robots take over! (they're better at it anyway)](https://adriennetacke.github.io/conducting-humane-code-reviews/#/24)
 
@@ -51,15 +59,11 @@ From my own experience, this is a big deal. For one, you feel less offended by a
 style or your overly complex boolean expressions than you would be when told so by a human.
 But maybe even more importantly, you don't have to re-discuss these things over and over again, and the code review can
 focus more on the strategic aspects of the problem being solved.
+
 In fact, my internal survey reveals a wide range of tools being used by my fellow colleagues, including, but not limited to,
-xxx (to the one person who answered "None": I'd be interested in your reasons).
+[ESLint](https://eslint.org/), [stylelint](https://stylelint.io/), [commitlint](https://commitlint.js.org/), [ktlint](https://ktlint.github.io/), [Perl::Critic](https://en.wikipedia.org/wiki/Perl::Critic), [Prettier](https://prettier.io/), [sonarqube](https://www.sonarqube.org/), and [import-sort](https://github.com/renke/import-sort). Most of the time this is automated into a continuous integration pipeline that runs on every pull request. Many teams also enforce certain unit test coverage thresholds using [Codecov](https://codecov.io/) or [Code Climate](https://codeclimate.com/).
 
-Asking for the greatest pain points of code reviews, most complaints I got were about too big change sets or pull requests.
-So if you don't want to disappoint your coworkers, try to keep the changes introduced at once as small as possible.
-The earlier this is considered in the agile product development cycle, the easier it is for a developer to adhere to this rule.
-
-When I asked about the greatest benefits, most answers my colleagues gave fell into one of three categories: Catching bugs, ensuring consistency and legibility, and knowledge transfer.
-One interesting takeaway is that a surprisingly high percentage (94%) sometimes read their own pull request changes 
+This doesn't mean we blindly trust the robots - in fact, one interesting takeaway is that a surprisingly high percentage (94%) sometimes read their own pull request changes 
 on GitHub - apparently a perspective change helps finding issues in your own code.
 
 Perspective change is also an inherent part of the next tool I want to discuss:
@@ -129,6 +133,8 @@ The go-to refactoring approach at my company, used by 94 percent, seems to be on
 Only a minority refactor before adding or changing functionality of a legacy module, have separate pull requests or JIRA tickets for refactoring, or do refactoring spikes.
 However, 69 percent try to split refactoring and modifying behaviour into separate commits.
 
-## Wrapping up
+## So, how to keep up your code quality?
 
-xx
+Wrapping it up: Establish a sane code review culture with focus on knowledge transfer. Split work into small, thus reviewable buckets. Use tooling to enforce consistency and a pre-agreed code style. Embrace pair programming - remember that when done from start to finish, it removes the need for further code review! Find bugs early in the development process with TDD or good unit tests. Don't fear refactoring - your tests has got you covered. Refactor on the go, but still split refactoring from changing behavior. 
+
+And to my fellow colleagues: Keep up the good work 👍
