@@ -83,10 +83,32 @@ Now, depending on where you stand, you can see some room for improvement, or say
 ## Unit testing
 
 Everybody loves unit tests, right? Well, two thirds of the colleagues who completed my internal survey do write them.
-That might not seem much at first, but consider that part of our developers program mostly in CSS ([yes, that's programming, too!](https://developer.epages.com/blog/coding/css-can-do-that-color-manipulation-for-the-fearless/)), with only a sprinkle of JavaScript added.
+That might not seem much at first, but consider that part of our developers program mostly in HTML and CSS ([yes, that's programming, too!](../css-can-do-that-color-manipulation-for-the-fearless/)), with only a sprinkle of JavaScript added.
 
-Consequently, pretty much all participants don't agree with the statement "Unit testing is overrated".
-Quite contrary, quite a few at least sometimes find a bug in their code while writing the unit test for it.
+Consequently, pretty much all participants disagree with the statement "Unit testing is overrated".
 This is remarkable given that most of the code written at ePages is product code rather than library code.
 
+Quite a few of my colleagues at least sometimes find a bug in their code while writing the unit test for it.
+This catching of errors, or bugs, at an early stage is something ePagees seem to like about unit testing - it was cited multiple times when asked "What do you like about unit testing / TDD?".  
+
+TDD (test driven development) - writing the test before writing the code that makes it pass - is one variant of unit testing.
+Similar to pair programming, it requires a lot of discipline, and seems a bit odd at first, especially to newcomers or less technical people. Still, 28 percent of the survey participants do TDD more often than not (17%), almost always (6%), or all the time (6%). Another 28 percent still practice it from time to time (11%), or quite seldom (17% - all percentages rounded).
+
+Here's some of the things my fellows dislike about writing tests:
+
+> When it becomes a quite daunting task because of mocking difficulties (with Perl)
+
+Given that [a former colleague even created a Perl mocking library](../mockify-a-mocking-framework-for-perl/), does this tell something about the language? 😉 
+
+> Sometimes you are just not in the mood to write unit tests.
+
+We're only humans after all 😇
+
+And here's some more quotes on what ePagees like about testing:
+
+> TDD: I think it's quite enjoyable.
+
+> I can refactor without fear of breaking existing functionality. Often I first write missing unit tests before refactoring or adjusting the existing code.
+
 ## Refactoring 
+
