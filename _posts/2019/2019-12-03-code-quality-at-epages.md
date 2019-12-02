@@ -83,9 +83,23 @@ This matches with the answers given in my survey:
 
 Overall, what my colleagues like about pair programming falls into the categories knowledge transfer, resulting quality, and human interaction.
 
-But again, let's not conceal the fact that many colleagues also expressed problems they're facing. As one might expect, working so closely with someone brings up a whole category of issues. xxx
+But again, let's not conceal the fact that many colleagues also expressed problems they're facing. As one might expect, working so closely with someone brings up a whole category of issues:
 
-Pair programming advocates will argue that all of said issues can be mitigated by just practicing it more often. Let's have a look at how often ePages developers practice pair programming: xxx 
+> Sometimes it's difficult to follow the other's thoughts.
+
+> When discussions don't end up with an agreement.
+
+> Sometimes it would be faster to do it by myself.
+
+As you can see, pair programming is emotionally challenging. Pair programming advocates might argue that most of said issues can be mitigated by just practicing it more often. So let's have a look at how often ePages developers practice pair programming:
+
+In the original idea of _extreme programming_, 
+
+> [Pair programming means that all code is produced by two people programming on one task on one workstation.](https://en.wikipedia.org/wiki/Extreme_programming_practices#Pair_programming)
+
+This also involves frequent role switching. Among the survey participants, 12% haven't (yet) had the opportunity to practice this style, 56 percent rarely, if ever, switch roles during pair programming, and only 31 percent do so after completing a certain logical unit. 50 percent state that they never (33%) or almost never (17%) do pair programming "by the book", and also the other half does it quite seldom (39%) or from time to time (11%). 
+
+Instead, many colleagues practice what I call "pragmatic pair programming": When someone gets stuck, they call for help, and the two start working together on the problem for a while. 61 percent of my colleagues do this more often than not (11%) or from time to time (50%). The remaining 39 percent split up into quite seldom (17%) or almost never (22%).
 
 Now, depending on where you stand, you can see some room for improvement, or say we're happy with how we're doing.
 
