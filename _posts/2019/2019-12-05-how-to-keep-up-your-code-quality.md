@@ -1,7 +1,7 @@
 ---
 title: How to keep up your code quality
 layout: post
-date: '2019-12-03'
+date: '2019-12-05'
 header_image: public/coffee.jpg
 header_position: center
 header_overlay: true
