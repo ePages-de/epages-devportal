@@ -22,7 +22,7 @@ Via the authentication service Firebase Auth, we receive tokens for different on
 Only the specific user of the shop should have access to this token.
 To do so, we first need to create a database in the Firebase console (Develop > Database).
 Then, we create a Cloud Firestore database.
-For fast results, we choose the test mode for now and don't secure the data, but we highly recommend to do so.
+For fast results, we choose the test mode for now and don't secure the data, but [we highly recommend to do so](https://firebase.google.com/docs/firestore/security/get-started){:target="_blank"}.
 Before we can start storing data, we need a collection for our users.
 That's why we create a collection called `users` in the Cloud Firestore UI.
 For the first document we need to provide, we use the document id `test`.
