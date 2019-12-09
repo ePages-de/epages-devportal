@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Why it makes sense to introduce a design system
-date: 2019-09-26
-header_image: public/design-system.jpg
-header_position: top
-header_overlay: true
+title: Design system in the making
+date: 2019-12-19
+header_image: public/design-system-in-progress.jpg
 category: ux-and-design
 tags: ["UI", "design", "UI patterns", "design system"]
 authors: ["Birgit"]
@@ -16,31 +14,61 @@ Of course we want a design system here at ePages too!
 How did we approach this?
 Continue reading 😉
 
-## Embracing failure
+## Realization
 
-We see our product growing, new features are coming in, there's time pressure here and there, and we have to make compromises to get things done in a timely manner.
-Then, after a while, when we discuss a new UX concept and revisit what already exists, we sometimes stumble across inconsistencies in the user interface, such as a bumpy UI label, a missing confirmation dialog, or a radio button that should have better been a button.
-Such things happen in an agile development environment.
-But we can accept that and fix those things in the next iterations.
+If you stumble across the same challenges over and over again, you'll realize at some point that you need help.
+"Realization" came during our UI text sessions when we were confronted with new behavior, an element being used for something else then it was intended for or "simply" disagreement about the target group.
+We reached a pain point where we desperately longed for a recurring theme that supports us with designing our user interface.
 
-## Joint forces
+A fault confessed is half redressed.
 
-We can always do better.
+## Get the team onboard
 
+Wait a sec.
+Who exactly is WE?
+WE, that is a UX Manager and a UI Writer.
+But of course these roles are not the only ones involved in the process of crafting the user interface.
+
+So we asked ourselves: 
+
+* Who else is involved?
+* With whom do we have interfaces?
+* Who makes which decisions?
+* Who has to coordinate with whom?
+
+So we brought colleagues from Product Management, UX, Frontend Design, and UI Writing together and discussed about initial approaches to common standards. 
 
 ## Stocktaking
 
+Knowing exactly what you're dealing with is always a good idea.
+So we went through the UI and did a stocktaking.
 
-## get the team onboard
+* Which elements do we use and where?
+* How are these elements designed?
+* What's their behavior?
+* Which colors, fonts, font sizes, or spacing is used?
 
+We can tell you that was a lot of work - and absolutely worth it!
 
+## Single source of truth
 
+Everyone has their own way of filing information and documenting decisions.
+It all adds up to a lot.
+There was information everywhere: in Sketch and Photoshop.
+In Phrase, Confluence, and Balsamiq.
+Somewhere on a local storage.
+On GitHub.
+Or just in the colleagues' heads.
 
-## single source of truth
+Clear thing: we had to install a single source of truth to bring all information to one place.
 
+## Endurance is king
 
+We want this to work.
+So we have to be persistent in what we do.
+That means learn from our mistakes and document decisions, stick to our own guidelines, coordinate well with each other, and critically review what's already there.
 
-
+If we continue like this, we're on a good way to build our own design system.
 
 ## Related posts
 
