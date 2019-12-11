@@ -72,7 +72,7 @@ https://www.se-radio.net/2019/05/episode-368-bryan-helmig-on-managing-distribute
 (https://www.stitcher.com/podcast/the-future-of-work-podcast/e/59481731?autoplay=true)
 
 www.retrium.com
-www.planitpoker.de 
+https://www.planitpoker.com
 
 For a really exhaustive list of ressources concerning remote work check out Lisette Sutherlands website for ressources:
 https://www.collaborationsuperpowers.com/remote-resources/
