@@ -12,7 +12,7 @@ about_authors: ["sholler"]
 ---
 
 
-One of my teams suddenly spread over four locations including onboarding two external developers. Before, it was a two location team, that met regularly for sprint change.
+One of our teams suddenly spread over four locations including onboarding two external developers. Before, it was a two location team, that met regularly for sprint change.
 In the beginning, one of our developers, who was already working remote for a longer time, gave me the following advice: Never try to make things work the way they had been working for a colocated team, but to figure out alternative ways. 
 In that very moment, I felt overwhelmed by this new situation. 
 Remote collaboration felt like a huge constraint: You can’t do group work or ice breakers in which the team has to move around. 
