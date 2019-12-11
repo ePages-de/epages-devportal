@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to enhance an application using Firebase Auth and Firebase Functions
-date: 2019-12-16
+date: 2019-12-12
 header_image: public/firebase-post-2.jpg
 header_position: top
 header_overlay: true
@@ -101,7 +101,7 @@ Now, we have a new `functions` directory in our repository.
 At this point, we could dive deeper into the theory of Firebase functions, but we'll skip that part for now.
 
 Instead, we use the Firebase [HTTPS callables](https://firebase.google.com/docs/functions/callable){:target="_blank"} and trigger them with the Javascript Firebase SDK.
-If you are interested in the methods we use for that, check our [Javascript Tutorial](http://docs.beyondshop.cloud/#_tutorial_javascript){:target="_blank"}.
+If you are interested in the methods we use for that, check our [Javascript Tutorial](/beyond-docs/#js_tutorial){:target="_blank"}.
 For example, we are using [request-promise-native](https://github.com/request/request-promise-native){:target="_blank"} for an easy promise-based request API that works similar to the browser fetch API.
 To do so, we go into the `functions` directory and run the installation via `npm install --save request request-promise-native`.
 
@@ -120,7 +120,7 @@ For upgrading, we go into `functions/package.json` and add the `engine` property
 
 Now, all functions will be deployed as Node 8 functions.
 
-Our function will also use the `getBeyondAuthToken` method introduced in the [Javascript tutorial](http://docs.beyondshop.cloud/#_tutorial_javascript){:target="_blank"} to fetch the API tokens.
+Our function will also use the `getBeyondAuthToken` method introduced in the [Javascript tutorial](/beyond-docs/#js_tutorial){:target="_blank"} to fetch the API tokens.
 That's why we can now move the `client_secret` to the server.
 Afterwards, we use the function to also store all other tokens on the server, so that the browser won't have access to the `refresh_token` either.
 
