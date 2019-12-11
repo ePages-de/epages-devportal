@@ -2,11 +2,11 @@
 layout: post
 title: What working with a distributed team taught us about agile team collaboration
 date: 2019-12-17
-header_image: private/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg
+header_image: public/remote-work.jpg
 header_position: top
 header_overlay: true
-category: events
-tags: ["Scrum", "remote"]
+category: methods-and-tools
+tags: ["scrum", "retro", "agile", "remote"]
 authors: ["Stefanie"]
 about_authors: ["sholler"]
 ---
