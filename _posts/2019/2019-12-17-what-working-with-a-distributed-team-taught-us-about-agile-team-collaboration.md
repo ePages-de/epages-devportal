@@ -3,7 +3,6 @@ layout: post
 title: What working with a distributed team taught us about agile team collaboration
 date: 2019-12-17
 header_image: public/remote-work.jpg
-header_position: top
 header_overlay: true
 category: methods-and-tools
 tags: ["scrum", "retro", "agile", "remote"]
@@ -25,7 +24,7 @@ The first thing I wanted to change was the retrospective.
 Before, we had each team sitting in a conference room in their location and connect remotely via hangouts, or the team members from our location within Germany traveled to our office. However, now I had to deal with 3-4 conference rooms and/or remote team members at once. 
 It seemed impossible to discuss in the way we had before and to summarize results on a Google document. 
 I had the impression that remote members couldn’t equally participate in ongoing important discussions in the conference room where I and the majority of the team was present.
-After researching some remote Retrospective tools, we decided to use [Retrium](www.retrium.com){:target="_blank"}. 
+After researching some remote Retrospective tools, we decided to use [Retrium](https://www.retrium.com){:target="_blank"}. 
 It was the most convenient tool with great UX, a smooth support of your moderation flow and a variety of templates including nice team radar options. 
 When introducing Retrium, I also asked the team (even when collocated) to sit in front of their laptop with headsets on. 
 In this way, each team member participated individually and equally in the video call. 
@@ -63,14 +62,13 @@ Overall, distributed collaboration, that felt like a huge limiting constraint in
 
 If you want to go further, here is a list of some of the tools and resources we found useful:
 
-[Johanna Rothman, Mark Kilby: From chaos to successful distributed teams](https://www.amazon.com/Chaos-Successful-Distributed-Agile-Teams-ebook/dp/B07PRYM1TF)
+* [Johanna Rothman, Mark Kilby: From chaos to successful distributed teams](https://www.amazon.com/Chaos-Successful-Distributed-Agile-Teams-ebook/dp/B07PRYM1TF){:target="_blank"}
 
-Podcast with Bryan Helmig, Co-Founder of Zapier
-https://www.se-radio.net/2019/05/episode-368-bryan-helmig-on-managing-distributed-teams/
+* [Podcast with Bryan Helmig, Co-Founder of Zapier](https://www.se-radio.net/2019/05/episode-368-bryan-helmig-on-managing-distributed-teams/){:target="_blank"}
 
-[Future of Work Podcast with Wade Foster, CEO of Zapir]
-(https://www.stitcher.com/podcast/the-future-of-work-podcast/e/59481731?autoplay=true)
+* [Future of Work Podcast with Wade Foster, CEO of Zapir](https://www.stitcher.com/podcast/the-future-of-work-podcast/e/59481731?autoplay=true){:target="_blank"}
 
+<<<<<<< HEAD
 www.retrium.com
 https://www.planitpoker.com
 
@@ -78,3 +76,9 @@ For a really exhaustive list of resources concerning remote work check out Liset
 https://www.collaborationsuperpowers.com/remote-resources/
 or this link for a complete list of tools for remote work:
 https://www.collaborationsuperpowers.com/tools/
+=======
+* [Retrium](https://www.retrium.com){:target="_blank"}
+* [PlanitPoker](https://www.planitpoker.de){:target="_blank"}
+
+For a really exhaustive list of ressources concerning remote work check out Lisette Sutherlands website for [resources](https://www.collaborationsuperpowers.com/remote-resources/){:target="_blank"} or [this link](https://www.collaborationsuperpowers.com/tools/){:target="_blank"} for a complete list of tools for remote work.
+>>>>>>> Some first fixes
