@@ -74,7 +74,7 @@ https://www.se-radio.net/2019/05/episode-368-bryan-helmig-on-managing-distribute
 www.retrium.com
 https://www.planitpoker.com
 
-For a really exhaustive list of ressources concerning remote work check out Lisette Sutherlands website for ressources:
+For a really exhaustive list of resources concerning remote work check out Lisette Sutherlands website for resources:
 https://www.collaborationsuperpowers.com/remote-resources/
 or this link for a complete list of tools for remote work:
 https://www.collaborationsuperpowers.com/tools/
