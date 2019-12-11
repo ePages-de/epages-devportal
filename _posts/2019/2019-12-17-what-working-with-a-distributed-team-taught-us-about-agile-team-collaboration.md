@@ -22,7 +22,7 @@ You can’t even go for lunch with your team or meet at the water dispenser for 
 
 His advice resonated with me and I started to see this a challenge and started looking for new ways of cooperation. 
 The first thing I wanted to change was the retrospective. 
-Before, we had each team sitting in a conference room in their location and connect remotely via hangouts, or the team members from our location within Germany travelled to our office. However, now I had to deal with 3-4 conference rooms and/or remote team members at once. 
+Before, we had each team sitting in a conference room in their location and connect remotely via hangouts, or the team members from our location within Germany traveled to our office. However, now I had to deal with 3-4 conference rooms and/or remote team members at once. 
 It seemed impossible to discuss in the way we had before and to summarize results on a Google document. 
 I had the impression that remote members couldn’t equally participate in ongoing important discussions in the conference room where I and the majority of the team was present.
 After researching some remote Retrospective tools, we decided to use [Retrium](www.retrium.com){:target="_blank"}. 
