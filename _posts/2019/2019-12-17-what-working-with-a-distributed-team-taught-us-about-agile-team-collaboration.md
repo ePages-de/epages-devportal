@@ -42,7 +42,7 @@ The team members gave feedback on whether they like or disliked the new online t
 
 Everyone who works with distributed teams knows about this and I can already hear your sighs. 
 We had all the issues from bad microphone quality (so you could barely hear what your colleagues were saying) to Google Hangouts  automatically leveling the sound level of your microphones. 
-This was and still is my least favourite part about working in a distributed team, but the time spent was definitely worth it. 
+This was and still is my least favorite part about working in a distributed team, but the time spent was definitely worth it. 
 We kept looking for solutions until we had fixed all technical issues. 
 Annoying, but it worked. 
 I had even set up a meeting with my PO, who is working in a different location that I am, just to try out different devices for  45 minutes. 
