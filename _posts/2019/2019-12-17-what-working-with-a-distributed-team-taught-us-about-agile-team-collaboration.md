@@ -57,7 +57,7 @@ Like I had said in the beginning, examine every process on how you could make a 
 I don’t want to bore you with the details, but besides banning all posters or physical processes we had in the team office, we also emphasised the already existing culture of using the team chat for all work related discussions and documenting all decisions in our Confluence space. 
 It also helps to consciously change your habit of just asking your closest colleague of the team to just picking someone from another location to ask for an advice or his opinion on a certain topic. 
 Besides using Retrium for the retrospective , we also looked for a tool to make estimation more smoothly. 
-We chose www.planitpoker.de because it easily allows everyone to estimat and gives a nice visual overview of the outcome. 
+We chose [planITpoker](https://www.planitpoker.com) because it easily allows everyone to estimate and gives a nice visual overview of the outcome. 
 Retrium and planitpoker worked so well for us, that we sometimes also use them for colocated teams.
 Overall, distributed collaboration, that felt like a huge limiting constraint in the beginning, became a big chance to learn to adapt and push my ability to collaborate with the team further. Not that we are already at the end, there are still a lot of things to learn and improve for us. But I had the impression, that by learning to foster collaboration and trust in a distributed team, I also learned a lot on how to do this for collocated teams more effectively.
 
