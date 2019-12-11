@@ -41,7 +41,7 @@ The team members gave feedback on whether they like or disliked the new online t
 ## Improve your sound quality
 
 Everyone who works with distributed teams knows about this and I can already hear your sighs. 
-We had all the issues from bad microphone quality (so you could barely hear what your colleagues were saying) to Google Hangouts  automatically levelling the sound level of your microphones. 
+We had all the issues from bad microphone quality (so you could barely hear what your colleagues were saying) to Google Hangouts  automatically leveling the sound level of your microphones. 
 This was and still is my least favourite part about working in a distributed team, but the time spent was definitely worth it. 
 We kept looking for solutions until we had fixed all technical issues. 
 Annoying, but it worked. 
