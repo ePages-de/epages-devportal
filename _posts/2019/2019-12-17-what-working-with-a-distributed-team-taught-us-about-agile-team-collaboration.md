@@ -53,7 +53,7 @@ Another option is to record your meeting (e.g. the Standup) to become aware of s
 
 Early in our learning path towards a better remote collaboration, one of our developers recommend a podcast with Bryan Helming, Co-Founder of Zapir, a company that works exclusively remote. In this podcast, Bryan said, one of the company’s values they committed to was “Remote first”. 
 Like I have said in the beginning, examine every process on how you could make a physical process work for a distributed team.
-I don’t want to bore you with the details, but besides banning all posters or physical processes we had in the team office, we also emphasised the already existing culture of using the team chat for all work related discussions and documenting all decisions in our Confluence space. 
+I don’t want to bore you with the details, but besides banning all posters or physical processes we had in the team office, we also emphasized the already existing culture of using the team chat for all work related discussions and documenting all decisions in our Confluence space. 
 It also helps to consciously change your habit of just asking your closest colleague of the team to just picking someone from another location to ask for an advice or his opinion on a certain topic. 
 Besides using Retrium for the retrospective , we also looked for a tool to make estimation more smoothly. 
 We chose [planITpoker](https://www.planitpoker.com) because it easily allows everyone to estimate and gives a nice visual overview of the outcome. 
