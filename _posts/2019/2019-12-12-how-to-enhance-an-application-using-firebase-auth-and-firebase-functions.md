@@ -11,14 +11,14 @@ authors: ["Florian O."]
 about_authors: ["foellerich"]
 ---
 
-In the [last part of this series](/blog/coding/how-to-bootstrap-an-application-with-authentication-using-firebase/){:target="_blank"}, we went through all the steps required to bootstrap an application with authentication.
+In the [previous part of this two-part blog post series](/blog/coding/how-to-bootstrap-an-application-with-authentication-using-firebase/){:target="_blank"}, we went through all the steps required to bootstrap an application with authentication.
 Our intermediate result was a login UI that can be used to distinguish users.
 Furthermore, we were able to give API access only to registered users.
-In this part, we'll take care of a database creation and security improvements.
+In this part we'll take care of a database creation as well as security improvements.
 
 ## Step 1 - Database creation
 
-Via the authentication service Firebase Auth, we receive tokens for different online shops.
+Via the authentication service [Firebase Auth](https://firebase.google.com/docs/auth){:target="_blank"} we receive tokens for different online shops.
 Only the specific user of the shop should have access to this token.
 To do so, we first need to create a database in the Firebase console (Develop > Database).
 Then, we create a Cloud Firestore database.
@@ -29,13 +29,13 @@ For the first document we need to provide, we use the document id `test`.
 The document does not need any properties yet.
 
 We'll now use the newly created collection `users` to save our tokens after the user logged in.
-First, we have to add the Firestore API to the `public/index.html`:
+First we have to add the Firestore API to the `public/index.html`:
 
 ```html
   <script defer src="/__/firebase/7.2.0/firebase-firestore.js"></script>
 ```
 
-Next, we can use the API from our existing script after we `fetch` the access data via the API.
+Next we can use the API from our existing script after we `fetch` the access data via the API.
 Add this snippet to the end of the `registerBeyond` method we introduced in the last blog post.
 
 ```javascript
@@ -50,10 +50,10 @@ await db.collection('users').doc(firebase.auth().currentUser.uid).set({
 
 The snippet stores the API access data in a document in which the ID is the UID of the currently logged in user.
 Thus, we can easily get the user's shop data via the user's UID.
-This fact also makes it pretty easy to restrict access to the user data later on.
+That also makes it pretty easy to restrict access to the user data later on.
 
-As a last step, we need to redirect the user, e.g. back to the page they originally came from.
-For this, we can use the query parameter `return_url`.
+As a last step we need to redirect the user, e.g. back to the page they originally came from.
+For this we can use the query parameter `return_url`.
 To do so, we add the following lines to the end of the `registerBeyond` method:
 
 ```javascript
@@ -63,7 +63,7 @@ document.location.replace(return_url);
 
 ## Step 2 - Cleanup
 
-Let's quickly summarize what we achieved until now: We have a complete app installation process with its own user authentication, all based on Firebase resources.
+Let's quickly summarize what we achieved until now: we have a complete app installation process with its own user authentication, all based on Firebase resources.
 When we first initialized Firebase with hosting enabled, the `public/index.html` file already came with a couple of Firebase features.
 But we do not need all of them.
 So let's clean up the head section of the document:
@@ -86,17 +86,17 @@ This code offers everything we need for user authorization and database storage 
 ## Step 3 - Security & Cloud Functions
 
 We can now install an app, save the required information in a database and redirect the user back to a specific page.
-So, in theory we are done.
+In theory we are done.
 But we currently have a pretty serious security issue.
 Our `client_id` and `client_secret` are displayed in the `public/index.html` and will be sent to the browser.
-To solve this issue, we have to move the secret to a safer place.
-If you have data that you do not want to deliver to the browser, you have to keep them on the server and perform all actions tied to the secret data on the server.
+To solve this, we have to move the secret to a safer place.
+If you have data that you do not want to send to the browser, you have to keep them on the server and perform all actions tied to the secret data on the server.
 This means for us, that we have to move everything related to the authorization we introduced in the last blog post to a server, in this case the Firebase Cloud Functions.
 
-Lets start with initializing these Cloud Functions.
+Let's start with initializing these Cloud Functions.
 In our repository, we again run `firebase init`, but this time we select `functions`.
 For this example, we now select JavaScript, but Typescript would also be a valid option.
-As a result, all default npm dependencies get installed.
+As a result, all default npm dependencies will be installed.
 Now, we have a new `functions` directory in our repository.
 At this point, we could dive deeper into the theory of Firebase functions, but we'll skip that part for now.
 
@@ -118,7 +118,7 @@ For upgrading, we go into `functions/package.json` and add the `engine` property
 }
 ```
 
-Now, all functions will be deployed as Node 8 functions.
+Now all functions will be deployed as Node 8 functions.
 
 Our function will also use the `getBeyondAuthToken` method introduced in the [Javascript tutorial](/beyond-docs/#js_tutorial){:target="_blank"} to fetch the API tokens.
 That's why we can now move the `client_secret` to the server.
@@ -167,7 +167,7 @@ const { client_id, client_secret } = functions.config().beyond
 ## Step 4 - Firebase Cloud Function for client-side Javascript
 
 Now that we have a Firebase Function for the authentication, we can also use it for the client-side JavaScript.
-For doing so, we need the Firebase Functions SDK.
+To do so, we need the Firebase Functions SDK.
 
 ```html
 <script defer src="/__/firebase/7.2.0/firebase-functions.js"></script>
@@ -194,8 +194,12 @@ async function registerBeyond() {
 
 Aaaand done.
 Great!
-Let's have a look at our final result: We have an `index.html` file on Firebase Hosting with 66 lines of code and a Firebase Cloud Function with 46 lines of code.
+Let's have a look at our final result: we have an `index.html` file on Firebase Hosting with 66 lines of code, and a Firebase Cloud Function with 46 lines of code.
 With these 112 lines of code we managed to offer an installation process with its own user authentication, enable the installation of our app, save required information in a database, and redirect the user back to a specific page.
 And all this is done in a safe and secure way.
 If you feel like you'd like to get some further information or clarify open questions, reach out to us on [Twitter](https://twitter.com/epagesdevs){:target="_blank"}.
 We're happy to hear from you and your experiences!
+
+## Related posts
+
+[How to bootstrap an application with authentication using Firebase](/blog/coding/how-to-bootstrap-an-application-with-authentication-using-firebase/){:target="_blank"}
