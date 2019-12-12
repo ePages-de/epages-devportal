@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design system in the making
-date: 2019-12-19
+date: 2020-01-07
 header_image: public/design-system-in-progress.jpg
 category: ux-and-design
 tags: ["UI", "design", "UI patterns", "design system"]
@@ -29,14 +29,14 @@ Who exactly is WE?
 WE, that is a UX Manager and a UI Writer.
 But of course these roles are not the only ones involved in the process of crafting the user interface.
 
-So we asked ourselves: 
+We asked ourselves: 
 
 * Who else is involved?
 * With whom do we have interfaces?
 * Who makes which decisions?
 * Who has to coordinate with whom?
 
-So we brought colleagues from Product Management, UX, Frontend Design, and UI Writing together and discussed about initial approaches to common standards. 
+So, we brought colleagues from Product Management, UX, Frontend Design, and UI Writing together and discussed about initial approaches to common standards. 
 
 ## Stocktaking
 
@@ -46,7 +46,7 @@ So we went through the UI and did a stocktaking.
 * Which elements do we use and where?
 * How are these elements designed?
 * What's their behavior?
-* Which colors, fonts, font sizes, or spacing is used?
+* Which colors, fonts, font sizes, or spacing are used?
 
 We can tell you that was a lot of work - and absolutely worth it!
 
@@ -54,18 +54,20 @@ We can tell you that was a lot of work - and absolutely worth it!
 
 Everyone has their own way of filing information and documenting decisions.
 It all adds up to a lot.
-There was information everywhere: in Sketch and Photoshop.
-In Phrase, Confluence, and Balsamiq.
-Somewhere on a local storage.
-On GitHub.
-Or just in the colleagues' heads.
+There was information everywhere.
+
+* In Sketch and Photoshop.
+* In Phrase, Confluence, and Balsamiq.
+* Somewhere on a local storage.
+* On GitHub.
+* Or just in the colleagues' heads.
 
 Clear thing: we had to install a single source of truth to bring all information to one place.
 
 ## Endurance is king
 
 We want this to work.
-So we have to be persistent in what we do.
+That's why we have to be persistent in what we do.
 That means learn from our mistakes and document decisions, stick to our own guidelines, coordinate well with each other, and critically review what's already there.
 
 If we continue like this, we're on a good way to build our own design system.
