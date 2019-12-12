@@ -237,3 +237,7 @@ Next up will be a database creation to save the tokens we received in this last 
 And of course, we still need to improve our security with the help of Cloud functions.
 All of this will be tackled in a follow-up post.
 Stay tuned!
+
+## Related posts
+
+[How to enhance an application using Firebase Auth and Firebase Functions](/blog/coding/how-to-enhance-an-application-using-firebase-auth-and-firebase-functions/)
