@@ -11,7 +11,7 @@ authors: ["Anne"]
 about_authors: ["azwick"]
 ---
 
-... sounds like a joke, but isn’t. :-)
+... sounds like a joke, but isn’t 🙂.
 On the 4th of December, me and two colleagues attended the [dotCSS](https://www.dotcss.io/){:target="_blank"} conference which is calling itself as 'The world's largest CSS conference' and indeed it was huge. 
 
 The very first thing I learned after arriving was that Aubervilliers (the place where the conference took place) is NOT Paris and that the french have a favor for sweet things.
@@ -85,4 +85,4 @@ You will find her presentation slides [here](https://noti.st/sarahdayan/pmD0XT/i
 
 Visiting the dotCSS conference was like opening a treasure chest full of new tools and possibilities I didn't think about yet.
 I guess I need to play around more often with some HTML, CSS & JavaScript to also create something funny or useful by myself.
-And I still have to get to know this magical Houdini whom some speakers mentioned at the conference.... ;-)
+And I still have to get to know this magical Houdini whom some speakers mentioned at the conference.... 😉
