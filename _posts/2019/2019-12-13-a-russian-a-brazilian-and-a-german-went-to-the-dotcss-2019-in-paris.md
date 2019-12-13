@@ -1,12 +1,12 @@
 ---
 layout: post
-title: A Russian, a Brazilian and a German went to the dotCSS 2019 in Paris
-date: 2019-12-12
+title: A Russian, a Brazilian, and a German at the dotCSS 2019 in Paris
+date: 2019-12-13
 header_image: public/dotcss-2019.png
 header_position: bottom
 header_overlay: true
 category: events
-tags: ["conference", "design", "web development"]
+tags: ["conference", "design", "web development", "css"]
 authors: ["Anne"]
 about_authors: ["azwick"]
 ---
