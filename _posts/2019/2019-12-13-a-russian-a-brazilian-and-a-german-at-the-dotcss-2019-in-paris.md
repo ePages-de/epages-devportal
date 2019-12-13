@@ -86,4 +86,4 @@ You will find her presentation slides [here](https://noti.st/sarahdayan/pmD0XT/i
 
 Visiting the dotCSS conference was like opening a treasure chest full of new tools and possibilities I hadn't thought of yet.
 I guess I need to play around more often with some HTML, CSS, and JavaScript to also create something funny or useful myself.
-And I still have to get to know this magical Houdini that some speakers mentioned at the conference.... 😉
+And I still have to get to know this magical Houdini that some speakers mentioned at the conference... 😉
