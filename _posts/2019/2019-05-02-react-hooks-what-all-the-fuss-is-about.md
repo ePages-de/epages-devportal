@@ -55,3 +55,7 @@ With Hooks, all these problems fade away. You can do anything you want with a fu
 Even if you're not a React developer, and this new React API won't affect you directly, it will affect your colleagues that **do** work with it. And it will affect them positively, as they will be more effective at building cool and stable UIs.
 
 It probably also means that React is not going away anytime soon, as the React team keeps innovating, while at the same time they provide a great developer experience.
+
+## Related posts
+
+[How to improve your components with React Hooks](/blog/coding/how-to-improve-your-components-with-react-hooks/)
