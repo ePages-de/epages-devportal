@@ -11,27 +11,28 @@ authors: ["Anne"]
 about_authors: ["azwick"]
 ---
 
-On December 5-6, 2019 me and two colleagues joined the [dotJS](https://www.dotjs.io/){:target="_blank"} conference in Paris, after we already attended the little sister conference [dotCSS](https://developer.epages.com/blog/events/a-russian-a-brazilian-and-a-german-at-the-dotcss-2019-in-paris/){:target="_blank"} a day before. 
-Even the concept of both conferences was the same, there were some differences: there were many more sponsors, speakers and participants and the conference was two days long and split into two main topics. 
-Day 1 was about Frontend development and day 2 was about Backend development with a focus on JavaScript as a language.
+Beginning of December I joined the [dotJS](https://www.dotjs.io/){:target="_blank"} conference in Paris with two colleagues, after we already attended the little sister conference [dotCSS](https://developer.epages.com/blog/events/a-russian-a-brazilian-and-a-german-at-the-dotcss-2019-in-paris/){:target="_blank"} a day before. 
+Even though the concept of both conferences was the same, it differed in some points: there were many more sponsors, speakers, and participants.
+What's more, the conference was two days long and split into two main topics. 
+Day 1 covered Frontend development while day 2 was about Backend development with a focus on JavaScript.
 With the concept of 18-minute talks one after the other, it was possible to attend all of the 20 talks without feeling exhausted, quite the contrary...
 
 {% image_custom image="/assets/img/pages/blog/images/dotjs-2019-speaker.png" width="100" lightbox %}
 
 ## My favorite talks
 
-Even every talk of each speaker was wonderfully prepared and very professional, I have very clear my TOP 3 on which I would like to provide some details...
+Even though every talk of each speaker was wonderfully prepared and very professionally held, I have my TOP 3 very clear on which I would like to provide some details...
 
 ### #1 Charlie Gerard - Exploring the hidden potential of sound data
 
-[Charlie's](https://twitter.com/devdevcharlie){:target="_blank"} talk was about machine learning in 'Using the rich properties of sound to gain insights about an activity or environment'.
-She demonstrated her topic in a very special way and showed us how a teachable machine recognizes different sounds for example coughing, typing or teeth brushing and how the collected data of a sound look.
-I mean, how often did you see someone teeth brushing on the stage to get a certain sound into a microphone in front of hundreds of people?
+[Charlie's](https://twitter.com/devdevcharlie){:target="_blank"} talk was about machine learning by "Using the rich properties of sound to gain insights about an activity or environment".
+She demonstrated her topic in a very special way and showed us how a teachable machine recognizes different sounds, for example coughing, typing, or teeth brushing, and how the collected data of a sound look like.
+I mean, how often do you see someone teeth brushing on the stage to get a certain sound into a microphone in front of hundreds of people?
 That was fun to see and exciting for everyone when the teachable machine finally showed the action "teeth brushing".
 You could feel the tension in the room before the silence was replaced by loud applause.
-Chalie also introduced us to the application possibilities as well as to the limitations. 
+Charlie also introduced us to the application's possibilities as well as its limitations.
 
-You can find her presentation slides [here](https://docs.google.com/presentation/d/1eXMvepBOs5CT0krFtokZ6ovgMfPNb7TWAPLLFsBPUzk/edit#slide=id.g5bc3345d74_0_16){:target="_blank"}
+You can find her presentation slides [here](https://docs.google.com/presentation/d/1eXMvepBOs5CT0krFtokZ6ovgMfPNb7TWAPLLFsBPUzk/edit#slide=id.g5bc3345d74_0_16){:target="_blank"}.
 
 ### #2 Chris Heilmann - Develop, Debug, Learn?
 
