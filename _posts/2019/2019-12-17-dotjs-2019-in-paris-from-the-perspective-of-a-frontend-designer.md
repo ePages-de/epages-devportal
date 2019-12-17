@@ -11,7 +11,7 @@ authors: ["Anne"]
 about_authors: ["azwick"]
 ---
 
-Beginning of December I joined the [dotJS](https://www.dotjs.io/){:target="_blank"} conference in Paris with two colleagues, after we already attended the little sister conference [dotCSS](https://developer.epages.com/blog/events/a-russian-a-brazilian-and-a-german-at-the-dotcss-2019-in-paris/){:target="_blank"} a day before. 
+Beginning of December I joined the [dotJS](https://www.dotjs.io/){:target="_blank"} conference in Paris with two colleagues, after we already attended the little sister conference dotCSS a day before. 
 Even though the concept of both conferences was the same, it differed in some points: there were many more sponsors, speakers, and participants.
 What's more, the conference was two days long and split into two main topics. 
 Day 1 covered Frontend development while day 2 was about Backend development with a focus on JavaScript.
