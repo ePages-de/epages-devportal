@@ -45,9 +45,10 @@ Therefore Chris' talk was like a revelation to me.
 He talked about exactly these problems, even if they were looked at from a different angle.
 
 Chris told us how important it is to know what exactly happens in the background of our written code, besides "Filling the needs", "Adding quality", and "Creating delight".
-He wants us to focus again on our end users to develop faster instead of staying in our comfort zone and relying on third party products.
-He questioned sending more code to the devices than necessary, because of over-engineered code.
-It was a kind of a call to go back to the roots.
+He wants us to focus again on the end customer, instead of staying in our comfort zone and focusing on third party solutions just to develop faster.
+We should stop overengineering and not send more code than necessary to our devices.
+This was a kind of call to go back to the roots.
+
 He introduced us to online editors which simplify our lives (e.g. [CodePen](https://codepen.io/){:target="_blank"}, [Stackblitz](https://stackblitz.com/){:target="_blank"}, [Codesandbox](https://codesandbox.io/){:target="_blank"}, [JSBin](https://jsbin.com/?html,output){:target="_blank"}, ...) and documentations which broaden our horizon ([Mozilla Web Docs](https://developer.mozilla.org/de/){:target="_blank"}, [Can I use](https://caniuse.com/){:target="_blank"}, ...). 
 What I learned from this talk is, that I maybe should start writing a small application with JavaScript into CodePen before setting up an entire Flutter environment for writing an app! 😬
 
