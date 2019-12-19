@@ -78,3 +78,7 @@ We're going to collect feedback and will continuoulsy improve.
 What about you?
 What is your experiences with onboarding new colleagues?
 Feel free to share it with us on our [Twitter channel](https://twitter.com/epagesdevs){:target="_blank"} #onboarding.
+
+## Related posts
+
+[What onboarding is really about](/blog/on-the-job/what-onboarding-is-really-about/)
