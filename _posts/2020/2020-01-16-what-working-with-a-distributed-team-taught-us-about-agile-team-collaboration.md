@@ -11,17 +11,19 @@ about_authors: ["sholler"]
 ---
 
 
-One of our teams suddenly spread over four locations including onboarding two external developers. Before, it was a two location team, that met regularly for sprint change.
-In the beginning, one of our developers, who was already working remote for a longer time, gave me the following advice: Never try to make things work the way they had been working for a co-located team, but to figure out alternative ways. 
+One of our teams suddenly spread over four locations including onboarding two external developers.
+Before, it was a two location team, that met regularly for sprint change.
+In the beginning, one of our developers, who was already working remote for a longer time, gave me the following advice: never try to make things work the way they had been working for a co-located team, but to figure out alternative ways. 
 In that very moment, I felt overwhelmed by this new situation. 
-Remote collaboration felt like a huge constraint: You can’t do group work or ice breakers in which the team has to move around. 
+Remote collaboration felt like a huge constraint: you can’t do group work or ice breakers in which the team has to move around. 
 You can’t even go for lunch with your team or meet at the water dispenser for a casual chat. 
 
 ## Start by questioning every practice you have whether it is suitable for remote purposes
 
 His advice resonated with me and I started to see this a challenge and started looking for new ways of cooperation. 
 The first thing I wanted to change was the retrospective. 
-Before, we had each team sitting in a conference room in their location and connect remotely via hangouts, or the team members from our location within Germany traveled to our office. However, now I had to deal with 3-4 conference rooms and/or remote team members at once. 
+Before, we had each team sitting in a conference room in their location and connect remotely via hangouts, or the team members from our location within Germany traveled to our office.
+However, now I had to deal with 3-4 conference rooms and/or remote team members at once. 
 It seemed impossible to discuss in the way we had before and to summarize results on a Google document. 
 I had the impression that remote members couldn’t equally participate in ongoing important discussions in the conference room where I and the majority of the team was present.
 After researching some remote Retrospective tools, we decided to use [Retrium](https://www.retrium.com){:target="_blank"}. 
@@ -51,14 +53,16 @@ Another option is to record your meeting (e.g. the Standup) to become aware of s
 
 ## Remote first as a principle
 
-Early in our learning path towards a better remote collaboration, one of our developers recommend a podcast with Bryan Helming, Co-Founder of Zapir, a company that works exclusively remote. In this podcast, Bryan said, one of the company’s values they committed to was “Remote first”. 
+Early in our learning path towards a better remote collaboration, one of our developers recommend a podcast with Bryan Helming, Co-Founder of Zapir, a company that works exclusively remote.
+In this podcast, Bryan said, one of the company’s values they committed to was “Remote first”. 
 Like I have said in the beginning, examine every process on how you could make a physical process work for a distributed team.
 I don’t want to bore you with the details, but besides banning all posters or physical processes we had in the team office, we also emphasized the already existing culture of using the team chat for all work related discussions and documenting all decisions in our Confluence space. 
 It also helps to consciously change your habit of just asking your closest colleague of the team to just picking someone from another location to ask for an advice or his opinion on a certain topic. 
-Besides using Retrium for the retrospective , we also looked for a tool to make estimation more smoothly. 
+Besides using Retrium for the retrospective, we also looked for a tool to make estimation more smoothly. 
 We chose [planITpoker](https://www.planitpoker.com){:target="_blank"} because it easily allows everyone to estimate and gives a nice visual overview of the outcome. 
 Retrium and planITpoker worked so well for us, that we sometimes also use them for co-located teams.
-Overall, distributed collaboration, that felt like a huge limiting constraint in the beginning, became a big chance to learn to adapt and push my ability to collaborate with the team further. Not that we are already at the end, there are still a lot of things to learn and improve for us. But I had the impression, that by learning to foster collaboration and trust in a distributed team, I also learned a lot on how to do this for collocated teams more effectively.
+Overall, distributed collaboration, that felt like a huge limiting constraint in the beginning, became a big chance to learn to adapt and push my ability to collaborate with the team further. Not that we are already at the end, there are still a lot of things to learn and improve for us.
+But I had the impression, that by learning to foster collaboration and trust in a distributed team, I also learned a lot on how to do this for collocated teams more effectively.
 
 If you want to go further, here is a list of some of the tools and resources we found useful:
 
