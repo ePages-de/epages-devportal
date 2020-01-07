@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What working with a distributed team taught us about agile team collaboration
-date: 2019-12-17
+date: 2020-01-16
 header_image: public/remote-work.jpg
 header_overlay: true
 category: methods-and-tools
