@@ -76,3 +76,7 @@ In the end, I was really satisfied with the outcome of the hackathon – not bad
 Especially working in a cross-functional team with HR, a developer, system administrator, and my fellow Scrum Masters was a great experience. 
 And of course, with three Scrum Masters in the team we directly created a Kanban board in order to continue working on this project.
 So stay tuned for more!
+
+## Related posts
+
+[Get the new employee onboard!](/blog/on-the-job/get-the-new-employee-onboard/)
