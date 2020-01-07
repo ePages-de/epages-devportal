@@ -56,7 +56,7 @@ Like I have said in the beginning, examine every process on how you could make a
 I don’t want to bore you with the details, but besides banning all posters or physical processes we had in the team office, we also emphasized the already existing culture of using the team chat for all work related discussions and documenting all decisions in our Confluence space. 
 It also helps to consciously change your habit of just asking your closest colleague of the team to just picking someone from another location to ask for an advice or his opinion on a certain topic. 
 Besides using Retrium for the retrospective , we also looked for a tool to make estimation more smoothly. 
-We chose [planITpoker](https://www.planitpoker.com) because it easily allows everyone to estimate and gives a nice visual overview of the outcome. 
+We chose [planITpoker](https://www.planitpoker.com){:target="_blank"} because it easily allows everyone to estimate and gives a nice visual overview of the outcome. 
 Retrium and planITpoker worked so well for us, that we sometimes also use them for co-located teams.
 Overall, distributed collaboration, that felt like a huge limiting constraint in the beginning, became a big chance to learn to adapt and push my ability to collaborate with the team further. Not that we are already at the end, there are still a lot of things to learn and improve for us. But I had the impression, that by learning to foster collaboration and trust in a distributed team, I also learned a lot on how to do this for collocated teams more effectively.
 
@@ -68,17 +68,7 @@ If you want to go further, here is a list of some of the tools and resources we 
 
 * [Future of Work Podcast with Wade Foster, CEO of Zapir](https://www.stitcher.com/podcast/the-future-of-work-podcast/e/59481731?autoplay=true){:target="_blank"}
 
-<<<<<<< HEAD
-www.retrium.com
-https://www.planitpoker.com
-
-For a really exhaustive list of resources concerning remote work check out Lisette Sutherlands website for resources:
-https://www.collaborationsuperpowers.com/remote-resources/
-or this link for a complete list of tools for remote work:
-https://www.collaborationsuperpowers.com/tools/
-=======
 * [Retrium](https://www.retrium.com){:target="_blank"}
 * [PlanitPoker](https://www.planitpoker.de){:target="_blank"}
 
 For a really exhaustive list of ressources concerning remote work check out Lisette Sutherlands website for [resources](https://www.collaborationsuperpowers.com/remote-resources/){:target="_blank"} or [this link](https://www.collaborationsuperpowers.com/tools/){:target="_blank"} for a complete list of tools for remote work.
->>>>>>> Some first fixes
