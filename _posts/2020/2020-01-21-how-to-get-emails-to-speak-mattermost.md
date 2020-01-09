@@ -20,7 +20,6 @@ This tool connects email servers with a chat system called Mattermost.
 Also it allows us to protect our internal communication by encryption. 
 Due to that and other possibilities we decided to use it some years ago .
 
-
 ## Mail2Most
 
 {% image_custom image="https://user-images.githubusercontent.com/13348918/60437141-ff1b5500-9c0d-11e9-913f-ae7c4a034b10.png" width="50" lightbox %}
@@ -29,7 +28,8 @@ You may also know the problem of having a bunch of email accounts that you maybe
 You know that emails are a mess sometimes.
 So why not filter these emails and send them directly to certain channels or users of your chat system, because that's what people usually use today ... Chats :D.
 That is exactly what [Mail2Most](https://github.com/cseeger-epages/mail2most){:target="_blank"} does.
-Before I created Mail2Most we used a similar system called [mattermail](https://github.com/rodcorsi/mattermail){:target="_blank"}. It did the job quite well but it was archived for over a year ago. Also it didn't support some of the things we need.
+Before I created Mail2Most we used a similar system called [mattermail](https://github.com/rodcorsi/mattermail){:target="_blank"}. It did the job quite well but it was archived for over a year ago.
+Also it didn't support some of the things we need.
 So I did what I always do when there isn't a tool that does the job I wanted it to do: I wrote it from scratch.
 That brings us back to our Mail2Most.
 
@@ -57,7 +57,8 @@ For your Mattermost server you can define:
 
 For authentication it supports normal username/password as well as oauth using a personal access token.
 
-On the email side you just need to provide the credentials. By default the Imap connection is TLS encrypted which can (but should never) be disabled.
+On the email side you just need to provide the credentials.
+By default the Imap connection is TLS encrypted which can (but should never) be disabled.
 Also you can set the email server to read-only which prevents Mail2Most from setting email flags.
 
 ## profiles we need more profiles
@@ -69,9 +70,11 @@ Multiple profiles are possible as well. So you can create different filters for 
 
 ## Can I use it? Is it free?
 
-The whole project is open-source and licensed under [MIT](https://github.com/cseeger-epages/mail2most/blob/master/LICENSE){:target="_blank"}. You can even reuse the code if you want to.
+The whole project is open-source and licensed under [MIT](https://github.com/cseeger-epages/mail2most/blob/master/LICENSE){:target="_blank"}.
+You can even reuse the code if you want to.
 Of course it's free as well :P.
-Mail2Most can be run as it is or by using docker, docker-compose or systemd. In the future I will provide a helm configuration also to run it in kubernetes.
+Mail2Most can be run as it is or by using docker, docker-compose or systemd.
+In the future I will provide a helm configuration also to run it in kubernetes.
 If you find bugs, have questions or want more features simply open an [issue](https://github.com/cseeger-epages/mail2most/issues){:target="_blank"} or drop me a [pull request](https://github.com/cseeger-epages/mail2most/pulls){:target="_blank"}.
 
 Feel free to check out the [github repo](https://github.com/cseeger-epages/mail2most){:target="_blank"}.
