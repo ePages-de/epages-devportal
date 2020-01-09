@@ -1,9 +1,10 @@
 ---
 layout: post
-title: How to get emails to speak "Mattermost"
+title: "How to get emails to speak Mattermost"
 date: 2020-01-21
 header_image: public/mail2most.png
 header_position: bottom
+header_overlay: true
 category: tech-stories
 tags: ["email", "mattermost", "chattools", "chatbots", "development", "tools"]
 authors: ["Carsten"]
