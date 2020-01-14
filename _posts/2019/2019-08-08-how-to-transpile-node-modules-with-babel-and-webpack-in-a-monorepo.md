@@ -13,7 +13,7 @@ about_authors: ["szikora"]
 
 ℹ️ _The original version of this post referred to a fork of the `are-you-es5` library. This is no longer needed as the changes have been incorporated into the original library. This post has been updated accordingly._
 
---
+---
 
 Recently, we faced an issue where Javascript stopped working on our storefront frontend on Internet Explorer 11.
 This came with the usual consequences such as `onClick` functions not working etc.
