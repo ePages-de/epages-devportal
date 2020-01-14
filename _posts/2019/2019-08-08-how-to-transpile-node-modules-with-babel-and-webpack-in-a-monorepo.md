@@ -11,7 +11,7 @@ authors: ["Somto"]
 about_authors: ["szikora"]
 ---
 
-ℹ️ _The original version of this post referred to a fork of the `are-you-es5` library. This is no longer needed as the changes have been incorporated into the original library._
+ℹ️ _The original version of this post referred to a fork of the `are-you-es5` library. This is no longer needed as the changes have been incorporated into the original library. This post has been updated accordingly._
 
 --
 
