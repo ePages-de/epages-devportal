@@ -11,6 +11,10 @@ authors: ["Somto"]
 about_authors: ["szikora"]
 ---
 
+ℹ️ _The original version of this post referred to a fork of the `are-you-es5` library. This is no longer needed as the changes have been incorporated into the original library. This post has been updated accordingly._
+
+---
+
 Recently, we faced an issue where Javascript stopped working on our storefront frontend on Internet Explorer 11.
 This came with the usual consequences such as `onClick` functions not working etc.
 We were naturally concerned about this, and upon investigation we found that a certain dependency of ours - or so we thought - was not being transpiled _from ES6 to ES5_ before being published.
@@ -74,7 +78,7 @@ Seeing as it would be a laborious process to add every untranspiled module to ou
 ## Enter are-you-es5
 
 [are-you-es5](https://github.com/obahareth/are-you-es5){:target="_blank"} is a nifty npm package which according to its readme, is _"A package to help you find out which of your `node_modules` aren't written in ES5 so you can add them to your Webpack/Rollup/Parcel transpilation steps"_.
-It must be said that the package works entirely as advertised, and ordinarily I would recommend this for use in any project that may run on Internet Explorer, except for the following caveat: **It does not work when used in monorepos**.
+It must be said that the package works entirely as advertised, and ordinarily I would recommend this for use in any project that may run on Internet Explorer, except for the following caveat: ~~**It does not work when used in monorepos**.~~
 
 ### What is a monorepo?
 
@@ -87,29 +91,29 @@ So much, that Facebook and Google also developed their own build software.
 
 We are fortunate to have [Lerna](https://github.com/lerna/lerna){:target="_blank"}, a tool which optimizes the workflow around monorepos with git and npm, and for this reason fits our purposes quite nicely.
 The way Lerna sets up monorepos, most `node_modules` folders end up in the root folder, but are referenced in the `package.json` of their respective packages.
-`are-you-es5` is currently not configured to work with such a project structure.
+~~`are-you-es5` is currently not configured to work with such a project structure.~~
 
 ## Enter depoulo/are-you-es5
 
 [Paolo Priotto](https://github.com/depoulo){:target="_blank"} forked the `are-you-es5` repository and changed it so that instead of hardcoding a path to the `node_modules` directory, `require.resolve()` is used to generate an absolute path to each package's directory.
-The pull request is [here](https://github.com/obahareth/are-you-es5/pull/12){:target="_blank"}.
+The [pull request](https://github.com/obahareth/are-you-es5/pull/12){:target="_blank"}, which we've been using when this post was published, has been merged in the meantime.
 The performance caveats that ensue due to the fact that `require.resolve()` interacts with the file system are acceptable, since this occurs only at build time.
 Also, it worked!!
-Using this modified version we are able to check if all our dependencies are transpiled or not, but it doesn't end there.
-There is an ongoing discussion on the pull request, but so far our solution has worked reliably for us.
+Using this modified version we are able to check if all our dependencies are transpiled or not, ~~but it doesn't end there.
+There is an ongoing discussion on the pull request, but~~ so far our solution has worked reliably for us.
 
 ## Our final solution
 
-We added Paolo's version of `are-you-es5` to `devDependencies` in the package with the untranspiled modules.
+We added ~~Paolo's version of~~ `are-you-es5` to `devDependencies` in the package with the untranspiled modules.
 
 ```
-yarn add depoulo/are-you-es5#master-but-with-all-of-depoulos-pull-requests-merged -D
+yarn add are-you-es5 -D
 ```
 
 Or if you use npm,
 
 ```
-npm install depoulo/are-you-es5#master-but-with-all-of-depoulos-pull-requests-merged --save-dev
+npm install are-you-es5 --save-dev
 ```
 
 Next, we created a file called `non_ES5_node_modules` in the root of the package.
