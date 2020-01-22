@@ -236,6 +236,13 @@ $widths: 5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100
       justify-content: center
       margin-bottom: 4rem
 
+    .quote
+      display: block
+      margin: 2rem $card-margin-mobile
+
+      +grid-media($grid-medium)
+        margin: 2rem $card-margin-desktop
+
   &--post
     box-sizing: border-box
     position: relative
