@@ -1,0 +1,44 @@
+.quote
+  display: flex
+  flex-direction: column
+
+  +grid-media($grid-small)
+    flex-direction: row
+
+  &__image
+    +size(7.5rem)
+    min-width: 7.5rem
+    min-height: 7.5rem
+    border-radius: 100%
+    margin: 0 auto 2rem
+    filter: grayscale(100%)
+
+    +grid-media($grid-small)
+      margin: 0 2rem 0 0
+
+  &__text
+    border: 1px solid #dddddd
+    position: relative
+    padding: 1em
+    font-size: 1.6rem
+    line-height: 1.3
+
+  &__author
+    color: #cccccc
+    font-style: italic
+    font-weight: 700
+
+  &__icon
+    background: white
+    color: #dddddd
+    position: absolute
+
+    &--left
+      +padding(0 .3em .3em 0)
+      top: -11px
+      left: -1px
+
+    &--right
+      +padding(.3em 0 0 .3em)
+      bottom: -11px
+      right: -1px
