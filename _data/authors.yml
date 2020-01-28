@@ -598,6 +598,12 @@
   description: is a Software Engineer and Linux expert. He is keen on Perl, Bash, and all DevOps-related tools.
   image: avatar_male.jpg
 
+- id: wschneider
+  name: Waldemar
+  full_name: Waldemar Schneider
+  description: is a Senior Java Developer at ePages. He is working with Java for a long time and tries to be a photographer in his private life.
+  image: wschneider.jpg
+
 - id: xalvarez
   name: Xavi
   full_name: Xavier Alvarez
