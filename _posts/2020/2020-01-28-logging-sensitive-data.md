@@ -48,8 +48,7 @@ Another topic is "data leaks", like Twitter & Facebook have suffered, have to be
 ## Pitfalls
 
 1. Developer tend to use the objects within a logger call such as: `logger.info("customer registered: $customer", customer)`. This is quiet convenient, but also a bit inconsiderate in terms of logging. This method call usually  results in a `toString` call depending on the programming language. 
-2. Logging with ELK (Elastic Search, Logstash and Kibana) 
-3. Usage of sensitive data in an URL (`/user/<email>`)
+2. Usage of sensitive data in an URL (`/user/<email>`)
 
 ## Options
 
