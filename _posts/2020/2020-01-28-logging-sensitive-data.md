@@ -2,7 +2,7 @@
 layout: post
 title: "Logging sensitive data"
 date: 2020-01-28
-header_image: public/mail2most.png
+header_image: public/logging.jpg
 header_overlay: true
 header_position: center
 category: tech-stories
