@@ -32,7 +32,7 @@ The EU introduced it as a law in April 2016.
 It became legally binding in May 2018.
 Many people remember the time before with lots of (spamming) emails regarding GDPR from shop and newsletter subscriptions or when doctors were to afraid to give any information via phone.
 
-GDPR offers people many possiblities what companies are doing with their data.
+GDPR offers people many possibilities what companies are doing with their data.
 Obviously, this comes with lots of duties for the companies.
 Also for companies who are working outside of the European Union area. 
 
@@ -47,8 +47,9 @@ Another topic is "data leaks", like Twitter & Facebook have suffered, have to be
 
 ## Pitfalls
 
-1. Developer tend to use the objects within a logger call such as: `logger.info("customer registered: $customer", customer)`. This is quiet convinient, but also a bit inconsiderate in terms of logging. This method call usually  results in a `toString` call depending on the programming language. 
-2. Logging services kibana / logstash (https://www.elastic.co/gdpr)
+1. Developer tend to use the objects within a logger call such as: `logger.info("customer registered: $customer", customer)`. This is quiet convenient, but also a bit inconsiderate in terms of logging. This method call usually  results in a `toString` call depending on the programming language. 
+2. Logging with ELK (Elastic Search, Logstash and Kibana) 
+3. Usage of sensitive data in an URL (`/user/<email>`)
 
 ## Options
 
@@ -65,11 +66,15 @@ Another topic is "data leaks", like Twitter & Facebook have suffered, have to be
 
 {% image_custom image="/assets/img/pages/blog/images/blog-log-data-redacted.jpg" width="20" lightbox caption="Source:_https://en.wikipedia.org/wiki/Sanitization_(classified_information)" %}
 
-- If you have logging services, you can use the build in scrubbing functionalites (e.g. [Splunk](https://docs.splunk.com/Documentation/Splunk/8.0.1/SearchReference/Scrub) or [Sentry](https://docs.sentry.io/data-management/sensitive-data/#server-side-scrubbing)).
-- If you use Elastic Search (e.g. with Kibana), you can use this [feature](https://www.elastic.co/blog/gdpr-personal-data-pseudonymization-part-1) which anonymizes PII. 
+- Filter for parameter in URLs like my colleague explained in a previous [blog article](https://developer.epages.com/blog/coding/how-to-filter-unwanted-logs-from-heroku-papertrail/)
+
+- If you have logging services, you can use the build in scrubbing functionalities (e.g. [Splunk](https://docs.splunk.com/Documentation/Splunk/8.0.1/SearchReference/Scrub) or [Sentry](https://docs.sentry.io/data-management/sensitive-data/#server-side-scrubbing)).
+- If you use Elastic Search (e.g. with Kibana), you can use this [feature](https://www.elastic.co/blog/gdpr-personal-data-pseudonymization-part-1) which creates anonymized PII. 
 
 {% image_custom image="/assets/img/pages/blog/images/blog-log-data-elastic-search-pseudonimization.png" width="50" lightbox caption="Source:_https://www.elastic.co/de/blog/gdpr-personal-data-pseudonymization-part-1" %}
 
+## Conclusion
 
+I hope companies will learn from the mistakes Facebook and Twitter made. These tips will put you on the right path to keep sensitive data out of logging data.   
 
-
+If you are interested in more tips and tricks, you should definitely check out the OWASP [logging cheat sheet](https://owasp.org/www-project-cheat-sheets/cheatsheets/Logging_Cheat_Sheet.html)
