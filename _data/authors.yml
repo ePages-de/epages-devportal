@@ -322,12 +322,6 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
-- id: kmueller
-  name: Katja
-  full_name: Katja Müller
-  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
-  image: kmueller.jpg
-
 - id: lbrandt
   name: Lena
   full_name: Lena
@@ -601,7 +595,7 @@
 - id: wschneider
   name: Waldemar
   full_name: Waldemar Schneider
-  description: is a Senior Java Developer at ePages. He is working with Java for a long time and tries to be a photographer in his private life.
+  description: is an experienced Java Developer. He loves working with Java and tries to be a photographer in his private life.
   image: wschneider.jpg
 
 - id: xalvarez
