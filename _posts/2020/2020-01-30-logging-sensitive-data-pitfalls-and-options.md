@@ -49,6 +49,8 @@ Now, people have the right to do the following:
 
 Looking at the last point, this becomes **very difficult** if the data is spread accross many logging systems (leaving out persistence systems as databases for applications).
 
+Disclaimer: this post does not serve as legal advice. It represents my personal interpretation and opinion about this topic.
+
 ## Pitfalls
 
 From a developer's perspective, there are two pitfalls that might come up in this context:
