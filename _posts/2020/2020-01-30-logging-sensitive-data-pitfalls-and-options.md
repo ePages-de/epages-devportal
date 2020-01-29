@@ -30,8 +30,7 @@ For example: email address, first name, last name, birthdate, SSN (social securi
 ## Why is it a bad idea to log sensitive data?
 
 Coming to an uncomfortable topic: [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation){:target="_blank"}.
-This post is not meant to provide you with any kind of legal advice on that.
-I'll only briefly summarize the most important steps and consequences that are relevant for this context.
+Let me briefly summarize the most important steps and consequences that are relevant for this context.
 
 The EU introduced GDPR as a law in April 2016.
 It became legally binding in May 2018.
