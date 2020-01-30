@@ -78,8 +78,6 @@ Here's what you can do:
 
 - If you use Elastic Search (e.g. with Kibana), you can use [this feature](https://www.elastic.co/blog/gdpr-personal-data-pseudonymization-part-1){:target="_blank"} which creates anonymized PII. 
 
-{% image_custom image="/assets/img/pages/blog/images/blog-log-data-elastic-search-pseudonimization.png" width="50" lightbox caption="Source:_Protecting_GDPR_Personal_Data_with_Pseudonymization_by_Wintergerst,_Paquette,_McDiarmid_https://www.elastic.co/de/blog/gdpr-personal-data-pseudonymization-part-1" %}
-
 ## Conclusion
 
 I personally hope that companies will learn from the mistakes Facebook and Twitter made.
