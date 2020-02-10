@@ -148,6 +148,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: dhara
+  name: Daniel
+  full_name: Daniel Hara
+  description: is a Javascript Enginner and a classical music and opera aficionado.
+  image: dhara.jpg
+
 - id: djablonski
   name: Dirk
   full_name: Dirk Jablonski
