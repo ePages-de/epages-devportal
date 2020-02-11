@@ -16,6 +16,7 @@ Automated Testing is one of the most important aspects of software development. 
 of which are unit-testing and integration testing.
 On the one hand, in unit testing, you test each one of your functions and components individually. On the other, in integration testing, you test
 how all those work along with each other to deliver all the fancy features you offer your users.
+
 As Adrià Fontcuberta pointed out at his remarkable talk at dotJS in Paris (check out this [blog post](https://developer.epages.com/blog/events/dotjs-2019-in-paris-from-the-perspective-of-a-frontend-designer/){:target="_blank"} about the conference, as well as the [video](https://www.dotconferences.com/2019/12/adria-fontcuberta-the-pragmatic-front-end-tester){:target="_blank"} of the actual talk), tests give predictability and
 "help us sleep well at night".
 In this blog post, I'll show you useful hints for unit testing a simple component in React.
