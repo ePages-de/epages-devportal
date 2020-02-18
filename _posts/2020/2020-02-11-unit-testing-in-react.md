@@ -30,6 +30,8 @@ We could start out with a simple component which has a button which can fetch (v
 in its state in order to subsequently display it. Our first shot could be:
 
 ```javascript
+import React, { useState } from 'react';
+
 const Product = (product) => (
   <div>
     <div>{product.id}</div>
@@ -38,24 +40,35 @@ const Product = (product) => (
   </div>
 )
 
-const fetchProducts = (page) => fetch(`https://beyondapi.cloud/products?page=${page}`)
+const fetchProducts = (page) => fetch(`http://localhost/products?page=${page}`)
+  .then(response => response.json())
+  .catch((error) => console.log(error))
 
-export const ProductList = () => {
+
+const ProductList = () => {
   const [products, setProducts] = useState([])
   const [page, setPage] = useState(1)
-  const loadProducts = () => {
-    const newProducts = await fetchProducts()
-    setProducts(products.concat(newProducts))
-    setPage(page + 1)
+  const loadProducts = async () => {
+    const response = await fetchProducts(page)
+    if(response) {
+      const newProducts = response.products
+      setProducts(products.concat(newProducts))
+      setPage(page + 1)
+    }
   }
   return <div>
-    {products.map(product => <Product {...product} />)}
     <button onClick={loadProducts}>
        Load more!
     </button>
+    {products.map(product => <Product {...product} />)}
   </div>
 }
+
+export default ProductList;
 ```
+
+Before going on to how to test it, I must say I've prepared a sample repo for you to try out all the code in this post.
+Just check it out on Github [here](https://github.com/DanielHara/unit-testing-react){:target="_blank"}.
 
 ## Let's test it!
 
@@ -95,19 +108,26 @@ However... Can you do it? It's now difficult to mock `fetchProducts`, because yo
 There comes another hint: try to inject your external dependencies such that you can mock them! You could pass `fetchProducts` as a prop instead:
 
 ```javascript
-export const ProductList = ({ fetchProducts }) => {
+const defaultFetchProducts = (page) => fetch(`http://localhost/products?page=${page}`)
+  .then(response => response.json())
+  .catch((error) => console.log(error))
+
+const ProductList = ({ fetchProducts=defaultFetchProducts }) => {
   const [products, setProducts] = useState([])
   const [page, setPage] = useState(1)
-  const loadProducts = () => {
-    const newProducts = await fetchProducts()
-    setProducts(products.concat(newProducts))
-    setPage(page + 1)
+  const loadProducts = async () => {
+    const response = await fetchProducts(page)
+    if(response) {
+      const newProducts = response.products
+      setProducts(products.concat(newProducts))
+      setPage(page + 1)
+    }
   }
   return <div>
-    {products.map(product => <Product {...product} />)}
     <button onClick={loadProducts}>
        Load more!
     </button>
+    {products.map(product => <Product {...product} />)}
   </div>
 }
 ```
@@ -115,73 +135,97 @@ export const ProductList = ({ fetchProducts }) => {
 And what about the test?
 
 ```javascript
+import React from 'react'
 import { fireEvent, render } from '@testing-library/react'
+import ProductList from '../ProductList'
+import Bluebird from 'bluebird'
 
-it('should render a button to load products', () => {
-  const fetchProducts = jest.fn().mockImplementation((page) => Promise.resolve([{
-    id: `dummy-id-${page}`,
-    name: 'dummy-product',
-    price: '10 £',
-  }]))
+it('should render a button to load products', async () => {
+  const fetchProducts = jest.fn().mockImplementation((page) => Promise.resolve({
+    products: [{
+      id: `dummy-id-${page}`,
+      name: 'dummy-product',
+      price: '10 £',
+    }]
+  }))
 
-  const { getByText } = render(<ProductList fetchProducts={fetchProducts} />)
+  const { getByText } = render(<ProductList fetchProducts={fetchProducts}/>)
 
   const loadMoreButton = getByText('Load more!')
-  
+
   // click the first time
   fireEvent.click(loadMoreButton)
-  
+  await Bluebird.delay(500)
+
   // expect one product
   expect(getByText('dummy-id-1')).toBeTruthy()
   expect(fetchProducts).toHaveBeenCalledTimes(1)
   expect(fetchProducts).toHaveBeenCalledWith(1)
 
-  //expect two products
+  //click the second time
+  fireEvent.click(loadMoreButton)
+  await Bluebird.delay(500)
+
+  // expect two products
   expect(getByText('dummy-id-1')).toBeTruthy()
-  expect(getByText('dummy-id-2')).toBeTruthy()
-  expect(fetchProducts).toHaveBeenCalledWith(2)
   expect(fetchProducts).toHaveBeenCalledTimes(2)
+  expect(fetchProducts).toHaveBeenCalledWith(2)
 })
 ```
 
 This test can already be taken seriously! It checks whether we called `fetchProducts` with the right arguments and whether we
 use the result of these calls in a meaningful way.
 
+On the repo, this approach is on branch `mocking-fetch-products`.
+
 ## Taking it to the next level
 
 The former approach has, nevertheless, its drawbacks. We rely completely on the mock of `fetchProducts`. How can we know if it would
 hit the right API endpoints?
-There's were the awesome `nock` library comes along. You can also mock the HTTP requests! Calling `nock('https://beyondapi.cloud')` will
-mock any requests made to `https://beyondapi.cloud` _inside_ our test! This way we also test the right HTTP requests are being made
+There's were the awesome `nock` library comes along. You can also mock the HTTP requests! Calling `nock('http://localhost')` will
+mock any requests made to `http://localhost` _inside_ our test! This way we also test the right HTTP requests are being made
 and do not have to mock `fetchProducts` any all!
 
 ```javascript
-it('should render a button to load products', () => {
-  const scope = nock(`https://beyondapi.cloud`)
+import React from 'react'
+import { fireEvent, render } from '@testing-library/react'
+import nock from 'nock'
+import ProductList from '../ProductList'
+import Bluebird from 'bluebird'
+
+it('should render a button to load products', async () => {
+  const scope = nock(`http://localhost`)
     .get('/products')
-    .query({ page: 1})
-    .reply(200, [{
-      id: `dummy-id-1`,
-      name: 'dummy-product',
-      price: '10 £',
-    }])
+    .query({ page: 1 })
+    .reply(200, {
+      products: [{
+        id: `dummy-id-1`,
+        name: 'dummy-product-1',
+        price: '10 £',
+      }]
+    })
     .get('/products')
     .query({ page: 2 })
-    .reply(200, [{
-      id: `dummy-id-2`,
-      name: 'dummy-product',
-      price: '10 £',    
+    .reply(200, {
+      products: [{
+        id: `dummy-id-2`,
+        name: 'dummy-product-2',
+        price: '20 £',
+      }]
     })
 
   const { getByText } = render(<ProductList />)
 
   const loadMoreButton = getByText('Load more!')
 
-  // click the first time
   fireEvent.click(loadMoreButton)
+  await Bluebird.delay(500)
 
   // expect one product
   expect(getByText('dummy-id-1')).toBeTruthy()
+
+  fireEvent.click(loadMoreButton)
+  await Bluebird.delay(500)
 
   //expect two products
   expect(getByText('dummy-id-1')).toBeTruthy()
@@ -190,6 +234,8 @@ it('should render a button to load products', () => {
   scope.done()
 })
 ```
+
+You can try this out on the `master` branch of the repo!
 
 Now, we actually test that the endpoint `/products` has been hit with query params `page=1` and `page=2`, thanks to the
 `scope.done()` call, which is an awesome feature of `nock`! It asserts that all of the mocked API endpoint calls have been hit!
@@ -201,4 +247,3 @@ when the need for _refactoring_ comes.
 
 Nowadays, there is absolutely no reason why you should not unit test your code. With so many great tools out there, the effort
 of writing tests absolutely pays off by dramatically decreasing the quantity of bugs and getting you covered when refactoring.  🎉
-
