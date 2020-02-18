@@ -139,6 +139,7 @@ import React from 'react'
 import { fireEvent, render } from '@testing-library/react'
 import ProductList from '../ProductList'
 import Bluebird from 'bluebird'
+import { act } from 'react-dom/test-utils'
 
 it('should render a button to load products', async () => {
   const fetchProducts = jest.fn().mockImplementation((page) => Promise.resolve({
@@ -155,7 +156,7 @@ it('should render a button to load products', async () => {
 
   // click the first time
   fireEvent.click(loadMoreButton)
-  await Bluebird.delay(500)
+  await act(() => Bluebird.delay(500))
 
   // expect one product
   expect(getByText('dummy-id-1')).toBeTruthy()
@@ -164,7 +165,7 @@ it('should render a button to load products', async () => {
 
   //click the second time
   fireEvent.click(loadMoreButton)
-  await Bluebird.delay(500)
+  await act(() => Bluebird.delay(500))
 
   // expect two products
   expect(getByText('dummy-id-1')).toBeTruthy()
@@ -192,6 +193,7 @@ import { fireEvent, render } from '@testing-library/react'
 import nock from 'nock'
 import ProductList from '../ProductList'
 import Bluebird from 'bluebird'
+import { act } from 'react-dom/test-utils'
 
 it('should render a button to load products', async () => {
   const scope = nock(`http://localhost`)
@@ -219,13 +221,13 @@ it('should render a button to load products', async () => {
   const loadMoreButton = getByText('Load more!')
 
   fireEvent.click(loadMoreButton)
-  await Bluebird.delay(500)
+  await act(() => Bluebird.delay(500))
 
   // expect one product
   expect(getByText('dummy-id-1')).toBeTruthy()
 
   fireEvent.click(loadMoreButton)
-  await Bluebird.delay(500)
+  await act(() => Bluebird.delay(500))
 
   //expect two products
   expect(getByText('dummy-id-1')).toBeTruthy()
