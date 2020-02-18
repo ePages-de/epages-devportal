@@ -15,18 +15,18 @@ of which are unit testing and integration testing.
 On the one hand, in unit testing, you test each one of your functions and components individually. On the other, in integration testing, you test
 how all those work along with each other to deliver all the fancy features you offer your users.
 
-As Adrià Fontcuberta pointed out at his remarkable talk at dotJS in Paris (check out this [blog post](/blog/events/dotjs-2019-in-paris-from-the-perspective-of-a-frontend-designer/){:target="_blank"} about the conference, as well as the [video](https://www.dotconferences.com/2019/12/adria-fontcuberta-the-pragmatic-front-end-tester){:target="_blank"} of the actual talk), tests give predictability and
+As Adrià Fontcuberta pointed out at his remarkable talk at dotJS conference in Paris (check out this [blog post](/blog/events/dotjs-2019-in-paris-from-the-perspective-of-a-frontend-designer/){:target="_blank"} about the conference, as well as the [video](https://www.dotconferences.com/2019/12/adria-fontcuberta-the-pragmatic-front-end-tester){:target="_blank"} of the actual talk), tests give predictability and
 "help us sleep well at night".
 
 In this blog post, I'll show you useful hints for unit testing a simple component in React.
 
 ## Getting started
 
-One of our most recent features at our storefront was a "Load more" button in the product pages. We could draft here a simplified version of this
+One of our most recent features at our storefront was a "Load more" button on the product pages. We could draft here a simplified version of this
 feature, and carry on to writing tests for it! This will help us to understand how tests work and how to ensure our tests are making our code
 reliable and predictable.
 
-We could start out with a simple component which has a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them
+We could start out with a simple component with a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them
 in its state in order to subsequently display it. Our first shot could be:
 
 ```javascript
