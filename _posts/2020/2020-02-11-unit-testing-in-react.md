@@ -27,7 +27,7 @@ One of the most recent features we've introduced in the storefront of ePages sho
 We could start out with a simple component with a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them
 in its state in order to subsequently display it. Our first shot could be:
 
-```javascript
+```jsx
 import React, { useState } from 'react'
 
 const Product = (product) => (
@@ -78,7 +78,7 @@ latter provides us with a thorough mocking and assertion library.
 As soon as I'm done writing the first lines of the tests, I imagine that my first test case would be to try to find a button
 to load some products:
 
-```javascript
+```jsx
 import { fireEvent, render } from '@testing-library/react'
 
 it('should render a button to load products', () => {
@@ -105,7 +105,7 @@ to assert whether the `ProductList` is rendering them correctly. This way our te
 However... Can you do it? It's now difficult to mock `fetchProducts`, because you'd have to override the `ProductList.jsx` file.
 There comes another hint: try to inject your external dependencies such that you can mock them! You could pass `fetchProducts` as a prop instead:
 
-```javascript
+```jsx
 const defaultFetchProducts = (page) => fetch(`http://localhost/products?page=${page}`).then(response => response.json())
 
 
@@ -137,7 +137,7 @@ export default ProductList
 
 And what about the test?
 
-```javascript
+```jsx
 import React from 'react'
 import { fireEvent, render } from '@testing-library/react'
 import ProductList from '../ProductList'
@@ -190,7 +190,7 @@ There's were the awesome Nock library comes along. You can also mock the HTTP re
 mock any requests made to `http://localhost` _inside_ our test! This way, we also test that the right HTTP requests are being made
 and do not have to mock `fetchProducts` any all!
 
-```javascript
+```jsx
 import React from 'react'
 import { fireEvent, render } from '@testing-library/react'
 import nock from 'nock'
