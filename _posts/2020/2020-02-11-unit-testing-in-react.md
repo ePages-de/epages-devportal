@@ -10,10 +10,10 @@ authors: ["Daniel"]
 about_authors: ["dhara"]
 ---
 
-Automated Testing is one of the most important aspects of software development. You can test your code in different ways and levels, the most relevant
-of which are unit testing and integration testing.
-On the one hand, in unit testing, you test each one of your functions and components individually. On the other, in integration testing, you test
-how all those work along with each other to deliver all the fancy features you offer your users.
+Automated testing is one of the most important aspects of software development.
+You can test your code in different ways and levels, the most relevant of which are unit testing and integration testing.
+On the one hand, in unit testing, you test each one of your functions and components individually.
+On the other, in integration testing, you test how all those work along with each other to deliver all the fancy features you offer your users.
 
 As Adrià Fontcuberta pointed out at his remarkable talk at the dotJS conference in Paris (check out this [blog post](/blog/events/dotjs-2019-in-paris-from-the-perspective-of-a-frontend-designer/){:target="_blank"} about the conference, as well as the [video](https://www.dotconferences.com/2019/12/adria-fontcuberta-the-pragmatic-front-end-tester){:target="_blank"} of the actual talk), tests give predictability and
 "help us sleep well at night".
@@ -22,10 +22,12 @@ In this blog post, I'll show you useful hints for unit testing a simple componen
 
 ## Getting started
 
-One of the most recent features we've introduced in the storefront of ePages shops is a way to simply load more results on search and product category pages by clicking on a new "Load more" button. We could draft here a simplified version of this feature, and carry on to writing tests for it! This will help us to understand how tests work and how to ensure our tests are making our code reliable and predictable.
+One of the most recent features we've introduced in the storefront of ePages shops is a way to simply load more results on search and product category pages by clicking on a new "Load more" button.
+We could draft here a simplified version of this feature, and carry on to writing tests for it!
+This will help us to understand how tests work and how to ensure our tests are making our code reliable and predictable.
 
-We could start out with a simple component with a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them
-in its state in order to subsequently display it. Our first shot could be:
+We could start out with a simple component with a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them in its state in order to subsequently display it.
+Our first shot could be:
 
 ```jsx
 import React, { useState } from 'react'
@@ -66,17 +68,16 @@ export const ProductList = () => {
 export default ProductList
 ```
 
-I've prepared a sample repository for you to try out all the code in this post. You can find it on GitHub [here](https://github.com/DanielHara/unit-testing-react){:target="_blank"}.
+I've prepared a sample repository for you to try out all the code in this post. 
+You can find it on GitHub [here](https://github.com/DanielHara/unit-testing-react){:target="_blank"}.
 
 ## Let's test it!
 
 Now comes the question, how would you test the component `ProductList`?
 
 Here at ePages we use extensively the libraries [React Testing Library](https://github.com/testing-library/react-testing-library){:target="_blank"} and [Jest](https://jestjs.io/en/){:target="_blank"} to write our unit tests.
-The former contains lots of useful features, like querying for HTML elements and firing all the events the user can trigger, while the
-latter provides us with a thorough mocking and assertion library.
-As soon as I'm done writing the first lines of the tests, I imagine that my first test case would be to try to find a button
-to load some products:
+The former contains lots of useful features, like querying for HTML elements and firing all the events the user can trigger, while the latter provides us with a thorough mocking and assertion library.
+As soon as I'm done writing the first lines of the tests, I imagine that my first test case would be to try to find a button to load some products:
 
 ```jsx
 import { fireEvent, render } from '@testing-library/react'
@@ -89,21 +90,24 @@ it('should render a button to load products', () => {
 })
 ```
 
-But, now, what I should expect? I do not know what some external API will return me. Maybe it is temporarily down.
-There comes an important notion of testing: you must decouple your tests from other dependencies as much as possible. After all, are you testing
-just `ProductList` or also an external API?
+But, now, what I should expect?
+I do not know what some external API will return me.
+Maybe it is temporarily down.
+There comes an important notion of testing: you must decouple your tests from other dependencies as much as possible.
+After all, are you testing just `ProductList` or also an external API?
 
 ## Mock it
 
-Jest offers you the possibility of mocking all kinds of functions, including their return values and assert how many times they were called,
-and with which arguments. It also offers a great deal of syntatic sugar to make your tests look pretty and for you to admire them
-after they've been written.
+Jest offers you the possibility of mocking all kinds of functions, including their return values and assert how many times they were called, and with which arguments.
+It also offers a great deal of syntatic sugar to make your tests look pretty and for you to admire them after they've been written.
 
-Maybe we could mock `fetchProducts` to take a look on whether it was called with the right arguments, and also mock the return value,
-to assert whether the `ProductList` is rendering them correctly. This way our tests becomes a lot more predictable.
+Maybe we could mock `fetchProducts` to take a look on whether it was called with the right arguments, and also mock the return value, to assert whether the `ProductList` is rendering them correctly.
+This way our tests becomes a lot more predictable.
 
-However... Can you do it? It's now difficult to mock `fetchProducts`, because you'd have to override the `ProductList.jsx` file.
-There comes another hint: try to inject your external dependencies such that you can mock them! You could pass `fetchProducts` as a prop instead:
+However... Can you do it?
+It's now difficult to mock `fetchProducts`, because you'd have to override the `ProductList.jsx` file.
+There comes another hint: try to inject your external dependencies such that you can mock them!
+You could pass `fetchProducts` as a prop instead:
 
 ```jsx
 const defaultFetchProducts = (page) => fetch(`http://localhost/products?page=${page}`).then(response => response.json())
@@ -177,18 +181,20 @@ it('should render a button to load products', async () => {
 })
 ```
 
-This test can already be taken seriously! It checks whether we called `fetchProducts` with the right arguments and whether we
-use the result of these calls in a meaningful way.
+This test can already be taken seriously!
+It checks whether we called `fetchProducts` with the right arguments and whether we use the result of these calls in a meaningful way.
 
 In the example repository, you can find this approach on the branch `mocking-fetch-products`.
 
 ## Taking it to the next level
 
-The former approach has, nevertheless, its drawbacks. We rely completely on the mock of `fetchProducts`. How can we know if it would
-hit the right API endpoints?
-There's were the awesome [Nock](https://github.com/nock/nock){:target="_blank"} library comes along. You can also mock the HTTP requests! Calling `nock('http://localhost')` will
-mock any requests made to `http://localhost` _inside_ our test! This way, we also test that the right HTTP requests are being made
-and do not have to mock `fetchProducts` any all!
+The former approach has, nevertheless, its drawbacks.
+We rely completely on the mock of `fetchProducts`.
+How can we know if it would hit the right API endpoints?
+There's were the awesome [Nock](https://github.com/nock/nock){:target="_blank"} library comes along.
+You can also mock the HTTP requests!
+Calling `nock('http://localhost')` will mock any requests made to `http://localhost` _inside_ our test!
+This way, we also test that the right HTTP requests are being made and do not have to mock `fetchProducts` any all!
 
 ```jsx
 import React from 'react'
@@ -242,13 +248,13 @@ it('should render a button to load products', async () => {
 
 You can try this out on the `master` branch of the example repository.
 
-Now, we actually test that the endpoint `/products` has been hit with query params `page=1` and `page=2`, thanks to the
-`scope.done()` call, which is an awesome feature of Nock! It asserts that all of the mocked API endpoint calls have been hit!
+Now, we actually test that the endpoint `/products` has been hit with query params `page=1` and `page=2`, thanks to the `scope.done()` call, which is an awesome feature of Nock!
+It asserts that all of the mocked API endpoint calls have been hit!
 And, furthermore, this tests the component's feature independently of its implementation (so called 'black-box testing').
-It does not matter for the test, for instance, how the `page` parameter is stored in the component. This makes it a lot easier
-when the need for _refactoring_ comes.
+It does not matter for the test, for instance, how the `page` parameter is stored in the component.
+This makes it a lot easier when the need for _refactoring_ comes.
 
 ## Conclusion
 
-Nowadays, there is absolutely no reason why you should not unit test your code. With so many great tools out there, the effort
-of writing tests absolutely pays off by dramatically decreasing the quantity of bugs and getting you covered when refactoring.  🎉
+Nowadays, there is absolutely no reason why you should not unit test your code.
+With so many great tools out there, the effort of writing tests absolutely pays off by dramatically decreasing the quantity of bugs and getting you  covered when refactoring.  🎉
