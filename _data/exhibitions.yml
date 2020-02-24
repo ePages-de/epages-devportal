@@ -1,8 +1,32 @@
+- title: Social Media Week
+  link: https://smwhamburg.com/
+  date: 25.-27. Feb 2020
+  time:
+  address: SMWHH Hub University<br>Museumstrasse 39<br>22765 Hamburg
+
 - title: ePages Hackathon
   link:
   date: 25.-26. Mar 2020
   time:
   address: ePages GmbH<br>Pilatuspool 2<br>20355 Hamburg
+
+- title: Firmenkontaktmesse FH Wedel
+  link: https://www.fh-wedel.de/bewerben/beratung/kennenlernen/firmenkontaktmesse/
+  date: 6. May 2020
+  time:
+  address: FH Wedel<br>Feldstraße 143<br>22880 Wedel
+
+- title: Jobwalk Jena
+  link: https://jena.jobwalk.city
+  date: 6. Jun 2020
+  time:
+  address: Marktplatz<br>07743 Jena
+
+- title: Firmenkontaktbörse University Jena
+  link:
+  date: 9.-10. Jun 2020
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
 
 - title: Stellenwerk Job Fair
   link: https://www.stellenwerk-jobmesse.de/hamburg/en/
@@ -20,4 +44,16 @@
   link:
   date: 1.-2. Oct 2020
   time:
-  address: to be announced
+  address: to be announced<br><br><br>
+
+- title: Karriereforum inovailmenau
+  link: https://inova-ilmenau.de/inova/
+  date: 27.-28. Oct 2020
+  time:
+  address: TU Ilmenau<br>Max-Planck-Ring 14<br>98693 Ilmenau
+
+- title: code.talks
+  link: https://www.codetalks.de/
+  date: 29.-30. Oct 2020
+  time:
+  address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
