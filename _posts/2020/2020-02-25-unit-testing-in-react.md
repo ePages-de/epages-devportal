@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unit testing in React
-date: 2020-02-11
+date: 2020-02-25
 header_image: public/code-coding-computer-cyberspace-270373.jpg
 header_overlay: true
 category: coding
@@ -11,7 +11,7 @@ about_authors: ["dhara"]
 ---
 
 Automated testing is one of the most important aspects of software development.
-You can test your code in different ways and levels, the most relevant of which are unit testing and integration testing.
+You can test your code in different ways and on several levels, the most relevant of which are unit testing and integration testing.
 On the one hand, in unit testing, you test each one of your functions and components individually.
 On the other, in integration testing, you test how all those work along with each other to deliver all the fancy features you offer your users.
 
@@ -26,7 +26,7 @@ One of the most recent features we've introduced in the storefront of ePages sho
 We could draft here a simplified version of this feature, and carry on to writing tests for it!
 This will help us to understand how tests work and how to ensure our tests are making our code reliable and predictable.
 
-We could start out with a simple component with a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them in its state in order to subsequently display it.
+We could start with a simple component including a button which can fetch (via an API) a fixed amount of, say, 1 product, and stores them in its state in order to subsequently display it.
 Our first shot could be:
 
 ```jsx
@@ -68,8 +68,7 @@ export const ProductList = () => {
 export default ProductList
 ```
 
-I've prepared a sample repository for you to try out all the code in this post. 
-You can find it on GitHub [here](https://github.com/DanielHara/unit-testing-react){:target="_blank"}.
+I've prepared a [sample repository](https://github.com/DanielHara/unit-testing-react){:target="_blank"} for you on GitHub to try out all the code in this post.
 
 ## Let's test it!
 
@@ -90,7 +89,7 @@ it('should render a button to load products', () => {
 })
 ```
 
-But, now, what I should expect?
+But, now, what should I expect?
 I do not know what some external API will return me.
 Maybe it is temporarily down.
 There comes an important notion of testing: you must decouple your tests from other dependencies as much as possible.
@@ -98,15 +97,15 @@ After all, are you testing just `ProductList` or also an external API?
 
 ## Mock it
 
-Jest offers you the possibility of mocking all kinds of functions, including their return values and assert how many times they were called, and with which arguments.
-It also offers a great deal of syntatic sugar to make your tests look pretty and for you to admire them after they've been written.
+Jest offers you the possibility of mocking all kinds of functions, including their return values, and asserting how many times they were called, and with which arguments.
+It also offers a great deal of syntactic sugar to make your tests look pretty and for you to admire them after they've been written.
 
 Maybe we could mock `fetchProducts` to take a look on whether it was called with the right arguments, and also mock the return value, to assert whether the `ProductList` is rendering them correctly.
-This way our tests becomes a lot more predictable.
+This way our tests become a lot more predictable.
 
-However... Can you do it?
-It's now difficult to mock `fetchProducts`, because you'd have to override the `ProductList.jsx` file.
-There comes another hint: try to inject your external dependencies such that you can mock them!
+However... Can it easily be done?
+It's difficult to mock `fetchProducts`, because you'd have to override the `ProductList.jsx` file.
+Here comes another hint: try to inject your external dependencies such that you can mock them!
 You could pass `fetchProducts` as a prop instead:
 
 ```jsx
@@ -194,7 +193,7 @@ How can we know if it would hit the right API endpoints?
 There's were the awesome [Nock](https://github.com/nock/nock){:target="_blank"} library comes along.
 You can also mock the HTTP requests!
 Calling `nock('http://localhost')` will mock any requests made to `http://localhost` _inside_ our test!
-This way, we also test that the right HTTP requests are being made and do not have to mock `fetchProducts` any all!
+This way, we also test that the right HTTP requests are being made and do not have to mock `fetchProducts` at all!
 
 ```jsx
 import React from 'react'
