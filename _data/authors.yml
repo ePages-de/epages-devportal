@@ -40,6 +40,12 @@
   description: is an apprentice in the Design and Consult team at ePages. She’s open-minded and likes new challenges.
   image: alanghans.jpg
 
+- id: amahaiuddin
+  name: Aroso
+  full_name: Aroso Mahaiuddin
+  description: is a working student in our TechComm team, who is passionate about creating content for our epagesdevs social media channels.
+  image: amahaiuddin.jpg
+
 - id: aortmann
   name: Anja O.
   full_name: Anja Ortmann
@@ -322,12 +328,6 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
-- id: kmueller
-  name: Katja
-  full_name: Katja Müller
-  description: is an experienced Frontend Designer. She loves to craft visually appealing user interfaces, and to create illustrations alike.
-  image: kmueller.jpg
-
 - id: lbrandt
   name: Lena
   full_name: Lena
@@ -597,6 +597,12 @@
   full_name: Wolf-Dietrich Filss
   description: is a Software Engineer and Linux expert. He is keen on Perl, Bash, and all DevOps-related tools.
   image: avatar_male.jpg
+
+- id: wschneider
+  name: Waldemar
+  full_name: Waldemar Schneider
+  description: is an experienced Java Developer. He loves working with Java and tries to be a photographer in his private life.
+  image: wschneider.jpg
 
 - id: xalvarez
   name: Xavi
