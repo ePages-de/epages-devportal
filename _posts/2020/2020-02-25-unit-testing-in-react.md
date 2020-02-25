@@ -190,7 +190,7 @@ In the example repository, you can find this approach on the branch `mocking-fet
 The former approach has, nevertheless, its drawbacks.
 We rely completely on the mock of `fetchProducts`.
 How can we know if it would hit the right API endpoints?
-There's were the awesome [Nock](https://github.com/nock/nock){:target="_blank"} library comes along.
+There's where the awesome [Nock](https://github.com/nock/nock){:target="_blank"} library comes along.
 You can also mock the HTTP requests!
 Calling `nock('http://localhost')` will mock any requests made to `http://localhost` _inside_ our test!
 This way, we also test that the right HTTP requests are being made and do not have to mock `fetchProducts` at all!
