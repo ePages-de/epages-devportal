@@ -256,4 +256,4 @@ This makes it a lot easier when the need for _refactoring_ comes.
 ## Conclusion
 
 Nowadays, there is absolutely no reason why you should not unit test your code.
-With so many great tools out there, the effort of writing tests absolutely pays off by dramatically decreasing the quantity of bugs and getting you  covered when refactoring.  🎉
+With so many great tools out there, the effort of writing tests absolutely pays off by dramatically decreasing the probability of inserting bugs and getting you covered when refactoring.  🎉
