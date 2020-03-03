@@ -29,7 +29,7 @@ E.g. an automated test runs through the available languages and checks that a ce
 
 ## Glossary for shared terminology
 
-At [PhraseApp](https://phraseapp.com/){:target="_blank"}, we've got a [glossary feature](https://phraseapp.com/docs/guides/working-with-phraseapp/glossary/){:target="_blank"}, which allows the management of shared terminology across one or multiple localization projects.
+At [PhraseApp](https://phrase.com/){:target="_blank"}, we've got a [glossary feature](https://help.phrase.com/help/translation-glossary){:target="_blank"}, which allows the management of shared terminology across one or multiple localization projects.
 Each term can be configured with a standard translation or marked as non-translatable.
 
 Translators can easily distinguish shared terminology in our Translation Center Editor interface and thus the language consistency can be improved.
@@ -41,7 +41,7 @@ However, as translators are allowed to adapt the glossary terms to the used gram
 
 Especially in large projects, keeping track of the completeness of the translation in all languages a feature should be localized to can be tedious.
 
-At [PhraseApp](https://phraseapp.com/){:target="_blank"} we use a tagging mechanism.
+At [PhraseApp](https://phrase.com/){:target="_blank"} we use a tagging mechanism.
 Regardless if your localization format supports segment context information, once imported into PhraseApp, segments (we call them keys) can be annotated with one or multiple tags.
 
 For example, let's say you added a new checkout flow called `checkout-v2` to your application.
@@ -62,4 +62,4 @@ The universal paradigm for localization formats and features to me is well descr
 Complex solutions sometimes look enticing at the beginning, but can lead to additional problems.
 A balanced usage of localization library and format smartness leads to a stable and maintainable translation process.
 
-Using [advanced localization feature](https://phraseapp.com/features){:target="_blank"} should be a topic discussed by all involved parties including your translation team or vendor as they all will have to deal with this long after the localization format initially was introduced and choices to use advanced format feature were made.
+Using [advanced localization features](https://phrase.com/features){:target="_blank"} should be a topic discussed by all involved parties including your translation team or vendor as they all will have to deal with this long after the localization format initially was introduced and choices to use advanced format feature were made.
