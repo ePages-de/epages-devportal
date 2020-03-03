@@ -16,7 +16,7 @@ Such a big city should definitely have that topic on the screen!
 And a conference is the best place to share opinions and experiences about that.
 
 As this was the first time the conference was held, I had no clue what it would be like.
-So, last Thursday my colleague and I headed out to the [Hello World conference](https://lp.phraseapp.com/lp/hello-world/){:target="_blank"} - full of hopes and dreams 😉.
+So, last Thursday my colleague and I headed out to the [Hello World conference](https://lp.phrase.com/lp/hello-world/){:target="_blank"} - full of hopes and dreams 😉.
 And that's how it was:
 
 ## The WOW moment
@@ -42,7 +42,7 @@ My favorite takeaway was that one way to answer the question *"What makes a tran
 After lunch, the content of the talks shifted from a more theorical view to a more practical one.
 Anne Sophie Delafosse kicked this part off with a talk about the challenges of localization at [Deliveroo](https://twitter.com/Deliveroo){:target="_blank"}.
 That's when I knew why I wanted to be at this conference!
-As Deliveroo is also working with the software localization tool [PhraseApp](https://phraseapp.com/){:target="_blank"}, they've made similar or even the same experiences in terms of localization as we did.
+As Deliveroo is also working with the software localization tool [PhraseApp](https://phrase.com/){:target="_blank"}, they've made similar or even the same experiences in terms of localization as we did.
 It was great to see how they tackled their challenges, as well as which workarounds and processes they use in [comparison to us](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/).
 
 {% twitter https://twitter.com/phraseapp/status/1136606844384940032 %}
