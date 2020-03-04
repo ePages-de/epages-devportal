@@ -372,9 +372,9 @@
 
 - id: mkofler
   name: Miriam
-  full_name: Miriam Kofler
-  description: belongs to the epagesdevs content team.
-  image: avatar_female.jpg
+  full_name: Miriam
+  description: is a Scrum Master who is keen on promoting an agile culture. She has a passion for coaching, which she integrates in her work with the teams.
+  image: mkofler.jpg
 
 - id: mkohl
   name: Martin
