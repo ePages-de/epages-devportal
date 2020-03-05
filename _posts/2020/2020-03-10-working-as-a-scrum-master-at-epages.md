@@ -22,7 +22,7 @@ Hi, I started in November 2019 as a Scrum Master at ePages.
 In order to tell you how I became a Scrum Master, and how I became an ePagee, I need to go into a little more detail.
 
 I did my master's degree in Intercultural Human Resources Development and Communications Management in Jena.
-The studies included various topics: from digital work to agile work, and new work in combination with psychological concepts.
+The studies included various topics: from digital work to agile work, and New Work in combination with psychological concepts.
 Originally, my plan was to work in the field of Human Resources Development.
 Due to a lucky coincidence during my internship at an ecommerce software company, I ended up in the field of Scrum where I worked together with the Scrum Masters. 
 In this internship I got a deeper insight into Scrum and agile work which I really liked.
@@ -57,9 +57,9 @@ My day starts at 7.30 a.m. at ePages.
 First, I get a coffee and try to exchange with other colleagues in the kitchen to keep me updated.
 Then, I return to my desk to check my emails and messages.
 Afterwards, I priotize my tasks for the day to get a better overview.
-At 9.15 a.m. we have our Scrum Master's Daily where I exchange with the other Scrum Master from Hamburg, for example about ongoing topics in the teams.
-Half an hour later I have the Daily with my teams.
-After the Daily and before my lunch break, I try to work on my tasks which I priotized in the morning.
+At 9.15 a.m. we have our Scrum Master's Daily Scrum where I exchange with the other Scrum Master from Hamburg, for example about ongoing topics in the teams.
+Half an hour later I have the Daily Scrum with my teams.
+After the Daily Scrum and before my lunch break, I try to work on my tasks which I priotized in the morning.
 
 + **Lunch time:**
 I usually spend my lunch break together with the team.
