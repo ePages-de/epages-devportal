@@ -34,13 +34,13 @@ A big part of my work is collaborating with the Scrum teams.
 Currently, I'm supporting two teams in Jena.
 But these teams also include team members who work remotely from Bratislava and Leipzig.
 My aim is to ensure that my teams can work undisturbed in a harmonic environment without any conflicts.
-If there are any conflicts, I try to adress them, and solve them as fast as possible.
+If there are any conflicts, I adress them, and solve them as fast as possible.
 
-Organisational development is a big task as well, which includes organizing and hosting e.g. the Daily Scrum or Retrospectives.
+Team development is a big task as well, which includes organizing and hosting e.g. the Daily Scrum or Retrospectives.
 There are some important aspects I have to consider as a Scrum Master: listen to the team, meet their needs, and building trust within the teams.
 But my work is not only limited to working with the Scrum teams.
-The Scrum Master's objective is to encourage team work also across different locations.
-Our task is for example to coordinate that the teams work cross-functional, to handle communication bareers, to avoid miscommunications between the individual teams, and to support the teams in order to work better together.
+The Scrum Master's objective is to encourage team work also across different teams and locations.
+Our task is for example to coordinate that the teams work in alignment with each other, to handle communication barriers, to avoid miscommunications between the individual teams, and to support the teams in order to work better together.
 
 We do not only work with the RnD teams, but also with other teams like Project Management, Marketing, HR, and Sales in order to develop new team processes.
 Thus, we would like to ensure that the whole company moves into the same direction.
@@ -56,10 +56,10 @@ But I will try to explain how my "typical" work day looks like.
 My day starts at 7.30 a.m. at ePages.
 First, I get a coffee and try to exchange with other colleagues in the kitchen to keep me updated.
 Then, I return to my desk to check my emails and messages.
-Afterwards, I priotize my tasks for the day to get a better overview.
+Afterwards, I prioritize my tasks for the day to get a better overview.
 At 9.15 a.m. we have our Scrum Master's Daily Scrum where I exchange with the other Scrum Master from Hamburg, for example about ongoing topics in the teams.
 Half an hour later I have the Daily Scrum with my teams.
-After the Daily Scrum and before my lunch break, I try to work on my tasks which I priotized in the morning.
+After the Daily Scrum and before my lunch break, I try to work on my tasks which I prioritized in the morning.
 
 + **Lunch time:**
 I usually spend my lunch break together with the team.
@@ -69,8 +69,8 @@ For example, this week I will prepare Kaiserschmarrn (since I am originally from
 
 * **Afternoon:**
 The afternoon often differs, depending on if we have a Sprint change or not.
-If we have a Sprint change, I spend the day with planning Reviews, and Retrospectives.
-Otherwise, I work on organisational development tasks, or on cross-team tasks.
+If we have a Sprint change, I spend most of the day with meetings (e.g. Sprint Review, Retrospective, and Sprint Planning).
+Otherwise, I work on organizational development tasks, or on cross-team tasks.
 
 ## What is one of the biggest challenges of your job, and how do you handle it?
 
@@ -93,8 +93,8 @@ This makes it so much more important to stay in touch with the Scrum Masters in 
 The Daily Scrum helps us all a lot to keep us updated.
 
 Furthermore, the Scrum Masters in Hamburg have a board where they collect important and current topics they discussed about.
-Once or twice a week we're meeting remotly and work on the collected topics together.
-And if there are any question from my side, I have always the opportunity to call them.
+Once or twice a week we're meeting remotely and work on the collected topics together.
+And if there are any questions from my side, I can call them at any time.
 The cooperation works very well.
 
 ## Do you have a favorite Retrospective?
