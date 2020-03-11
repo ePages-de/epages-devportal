@@ -65,7 +65,9 @@ After the Daily Scrum and before my lunch break, I try to work on my tasks which
 I usually spend my lunch break together with the team.
 Sometimes we meet in our social room to eat together, or go outside to have lunch.
 On other days we even cook together.
-For example, this week I will prepare Kaiserschmarrn (since I am originally from Austria) for the whole team. 
+For example, this week I will prepare Kaiserschmarrn (since I am originally from Austria) for the whole team.
+
+{% image_custom image="/assets/img/pages/blog/images/blog-scrum-post-food.png" width="50" lightbox %}
 
 * **Afternoon:**
 The afternoon often differs, depending on if we have a Sprint change or not.
