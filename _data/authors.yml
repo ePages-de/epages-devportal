@@ -370,6 +370,12 @@
   description: is an experienced Software Engineer with a degree in Technical Informatics. His focus is on backend implementations for our products Base and Now.
   image: mhoehn.jpg
 
+- id: mkofler
+  name: Miriam
+  full_name: Miriam
+  description: is a Scrum Master who is keen on promoting an agile culture. She has a passion for coaching, which she integrates in her work with the teams.
+  image: mkofler.jpg
+
 - id: mkohl
   name: Martin
   full_name: Martin
