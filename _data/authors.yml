@@ -148,6 +148,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: dhara
+  name: Daniel
+  full_name: Daniel Hara
+  description: is a JavaScript Engineer and a classical music and opera aficionado who is passionate about testing.
+  image: dhara.jpg
+
 - id: djablonski
   name: Dirk
   full_name: Dirk Jablonski
@@ -363,6 +369,12 @@
   full_name: Michael Höhn
   description: is an experienced Software Engineer with a degree in Technical Informatics. His focus is on backend implementations for our products Base and Now.
   image: mhoehn.jpg
+
+- id: mkofler
+  name: Miriam
+  full_name: Miriam
+  description: is a Scrum Master who is keen on promoting an agile culture. She has a passion for coaching, which she integrates in her work with the teams.
+  image: mkofler.jpg
 
 - id: mkohl
   name: Martin

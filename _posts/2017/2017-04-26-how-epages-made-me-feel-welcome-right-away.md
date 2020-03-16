@@ -83,7 +83,7 @@ As it was my first Hackathon, it was a really great experience for me and it was
 Making coffee and copies and doing all the annoying stuff nobody else wants to do?
 That's how an internship could be... but not at ePages.
 Taking into account my wishes and interests, I got my own varied and interesting tasks.
-For example, I had the chance to research on some software localization tools such as [PhraseApp](https://phraseapp.com/){:target="_blank"} or I was even engaged in making a [video of our Hackathon](https://www.youtube.com/watch?v=j-qMUo8_ChQ){:target="_blank"}.
+For example, I had the chance to research on some software localization tools such as [PhraseApp](https://phrase.com/){:target="_blank"} or I was even engaged in making a [video of our Hackathon](https://www.youtube.com/watch?v=j-qMUo8_ChQ){:target="_blank"}.
 I am really happy, that I got my own responsible tasks and felt like a "real" colleague and not only like an intern.
 
 ## The secret recipe

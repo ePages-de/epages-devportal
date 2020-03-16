@@ -8,14 +8,14 @@ tags: ["localization", "i18n", "translation", "software", "gettext"]
 authors: ["Frederik"]
 about_authors: ["fvollert"]
 ---
-From our work with hundreds of companies localizing software here at [PhraseApp](https://phraseapp.com/){:target="_blank"}, I want to share some insights in the usage of gettext and advanced translation message format features.
+From our work with hundreds of companies localizing software here at [PhraseApp](https://phrase.com/){:target="_blank"}, I want to share some insights in the usage of gettext and advanced translation message format features.
 I'll share my point of view on which features to use and which to rather avoid.
 
 ## A discussion of the "smartness" of localization formats
 
 Locales for text-based resources are usually quite simple.
 They are composed of segments, each given a label or name and the translation content for the segment in the given language.
-For example, when using the [gettext locale format](https://phraseapp.com/docs/guides/formats/gettext-po/){:target="_blank"}, a locale contains bits like this:
+For example, when using the [gettext locale format](https://phrase.com/docs/guides/formats/gettext-po/){:target="_blank"}, a locale contains bits like this:
 
 {% highlight text %}
   msgid "Hello World"
@@ -100,7 +100,7 @@ Although, pluralization is a useful feature it is usually used sparsely in proje
 The use-cases of phrases such as "You've got %d items in your cart." are actually quite rare and often not worth the trouble of communicating the specifics with translators who may or may not be aware of pluralization features in software localization.
 Same story for complex interpolation, such as `"%.2f"` or similar.
 Any non-standard text may cause confusion, misunderstanding and in some cases even programmatic errors. Simple is usually more maintainable.
-Albeit, modern [translation management platforms](https://phraseapp.com){:target="_blank"} like PhraseApp help to assist translators in translating strings that have interpolation or plural-rules they adhere to.
+Albeit, modern [translation management platforms](https://phrase.com){:target="_blank"} like PhraseApp help to assist translators in translating strings that have interpolation or plural-rules they adhere to.
 
 ### ICU is a completely different story
 
@@ -146,4 +146,4 @@ But this should be done carefully and it may make the translation process more e
 
 I would suggest to reduce the complexity in the translation process by using explicit sentences with pluralization and placeholders at most.
 Complex rule-based translation messages usually lead to confusion with external editors or translators, make problems harder to debug and solve and thereby overcomplicate the process.
-Using a [translation management system with a translation memory](https://phraseapp.com){:target="_blank"} and simple ways to manage a large complex word base is key to being able to achieve an [efficient translation process](https://phraseapp.com){:target="_blank"}.
+Using a [translation management system with a translation memory](https://phrase.com){:target="_blank"} and simple ways to manage a large complex word base is key to being able to achieve an [efficient translation process](https://phrase.com){:target="_blank"}.
