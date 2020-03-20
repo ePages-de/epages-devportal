@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to bring a simple Go app on Kubernetes
+title: How to get a simple Go app on Kubernetes
 date: 2020-03-24
 header_image: public/coffee-writing-computer-blogging.jpg
 header_position: center
