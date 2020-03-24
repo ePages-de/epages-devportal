@@ -86,7 +86,7 @@ To fulfill it, we use the popular [Viper](https://github.com/spf13/viper){:targe
 It supports many useful features like different configuration file formats and environment variables or support for [pflag](https://github.com/spf13/pflag){:target="_blank"} parameters. 
 
 To represent the final state of the configuration settings after applying the overwrite hierarchy (see [goals](#goals) section), we create an internal config object.
-Lets start with an example. Our configuration file (myapp.yaml) could look like this:
+Let's start with an example. Our configuration file (myapp.yaml) could look like this:
 
 ```yaml
 logging:
