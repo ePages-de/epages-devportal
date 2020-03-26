@@ -71,7 +71,9 @@ jobs:
             - docs-rubygems-v1-fallback
       - run:
           name: Bundle Install
-          command: bundle install
+          command: |
+            gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
+            bundle install
       - save_cache:
           key: docs-rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
