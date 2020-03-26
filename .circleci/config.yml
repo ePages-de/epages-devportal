@@ -27,6 +27,9 @@ jobs:
             - devportal-rubygems-v1-{{ checksum "Gemfile.lock" }}
             - devportal-rubygems-v1-fallback
       - run:
+          name: Install Dependencies
+          command: gem install bundler
+      - run:
           name: Bundle Install
           command: bundle install
       - save_cache:
