@@ -27,7 +27,9 @@ jobs:
             - devportal-rubygems-v1-fallback
       - run:
           name: Bundle Install
-          command: bundle install
+          command: |
+            gem update --system
+            bundle install
       - save_cache:
           key: devportal-rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
@@ -68,7 +70,9 @@ jobs:
             - docs-rubygems-v1-fallback
       - run:
           name: Bundle Install
-          command: bundle install
+          command: |
+            gem update --system
+            bundle install
       - save_cache:
           key: docs-rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
