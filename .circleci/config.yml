@@ -4,7 +4,6 @@ defaults: &defaults
   working_directory: ~/repo
   environment:
     BUNDLE_PATH: ~/repo/vendor/bundle
-    BUNDLER_VERSION: 2.1.4
 
 devportal_defaults: &devportal_defaults
   <<: *defaults
@@ -27,10 +26,7 @@ jobs:
             - devportal-rubygems-v1-fallback
       - run:
           name: Bundle Install
-          command: |
-            gem update --system
-            gem install bundler
-            bundle install
+          command: bundle install
       - save_cache:
           key: devportal-rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
@@ -71,10 +67,7 @@ jobs:
             - docs-rubygems-v1-fallback
       - run:
           name: Bundle Install
-          command: |
-            gem update --system
-            gem install bundler
-            bundle install
+          command: bundle install
       - save_cache:
           key: docs-rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
