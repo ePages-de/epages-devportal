@@ -9,6 +9,8 @@ devportal_defaults: &devportal_defaults
   <<: *defaults
   docker:
     - image: circleci/ruby:2.4.2
+      environment:
+        BUNDLER_VERSION: 2.1.4
 
 docs_defaults: &docs_defaults
   <<: *defaults
@@ -25,11 +27,10 @@ jobs:
             - devportal-rubygems-v1-{{ checksum "Gemfile.lock" }}
             - devportal-rubygems-v1-fallback
       - run:
-          name: Install Dependencies
-          command: gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
-      - run:
           name: Bundle Install
-          command: bundle install
+          command: |
+            gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
+            bundle install
       - save_cache:
           key: devportal-rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
