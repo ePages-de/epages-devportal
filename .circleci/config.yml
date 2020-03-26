@@ -29,7 +29,7 @@ jobs:
           name: Bundle Install
           command: |
             gem update --system
-            gem install bundler
+            bundle update --bundler
             bundle install
       - save_cache:
           key: devportal-rubygems-v1-{{ checksum "Gemfile.lock" }}
@@ -73,7 +73,7 @@ jobs:
           name: Bundle Install
           command: |
             gem update --system
-            gem install bundler
+            bundle update --bundler
             bundle install
       - save_cache:
           key: docs-rubygems-v1-{{ checksum "Gemfile.lock" }}
