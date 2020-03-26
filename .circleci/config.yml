@@ -4,6 +4,7 @@ defaults: &defaults
   working_directory: ~/repo
   environment:
     BUNDLE_PATH: ~/repo/vendor/bundle
+    BUNDLER_VERSION: 2.1.4
 
 devportal_defaults: &devportal_defaults
   <<: *defaults
