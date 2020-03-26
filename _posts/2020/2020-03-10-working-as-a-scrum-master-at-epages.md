@@ -42,7 +42,7 @@ But my work is not only limited to working with the Scrum teams.
 The Scrum Master's objective is to encourage team work also across different teams and locations.
 Our task is for example to coordinate that the teams work in alignment with each other, to handle communication barriers, to avoid miscommunications between the individual teams, and to support the teams in order to work better together.
 
-We do not only work with the RnD teams, but also with other teams like Project Management, Marketing, HR, and Sales in order to develop new team processes.
+We do not only work with the RnD teams, but also with other teams like Product Management, Marketing, HR, and Sales in order to develop new team processes.
 Thus, we would like to ensure that the whole company moves into the same direction.
 
 ## Could you tell us how your typical work day looks like?
