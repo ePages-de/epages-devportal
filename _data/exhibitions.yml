@@ -10,12 +10,6 @@
   time:
   address: Marktplatz<br>07743 Jena
 
-- title: Firmenkontaktbörse University Jena
-  link:
-  date: 9.-10. Jun 2020
-  time:
-  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
-
 - title: Stellenwerk Job Fair
   link: https://www.stellenwerk-jobmesse.de/hamburg/en/
   date: 16. Jun 2020
@@ -45,3 +39,15 @@
   date: 29.-30. Oct 2020
   time:
   address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
+
+- title: Firmenkontaktbörse University Jena
+  link: https://www.sft.uni-jena.de/Aktuelles/Veranstaltungen/Firmenkontaktb%C3%B6rse+2020.html
+  date: 3. Nov 2020
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
+
+- title: Jenaer Unternehmenstage
+  link: https://jenaer-unternehmenstage.de/
+  date: 5. Nov 2020
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
