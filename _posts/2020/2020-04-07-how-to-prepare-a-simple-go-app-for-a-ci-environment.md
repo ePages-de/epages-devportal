@@ -180,7 +180,7 @@ It uses the repository's _Dockerfile_, which is described in the next section.
 
 ### Dockerfile
 
-Since Docker version 17.05 the awesome feature of [multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/){:target="_blank"} is available.
+Since Docker version 17.05, the awesome feature of [multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/){:target="_blank"} is available.
 It allows you to define different containers for different stages.
 This has another very nice side effect: Docker can skip stages if no action is required.
 This speeds up the construction process enormously. 
@@ -482,7 +482,7 @@ This ensures the pod replacement without any downtime.
 
 ## Conclusion
 
-With this second part of our blog post series, we have completed the live cycle of our Go application. 
+With this second part of our blog post series, we have completed the life cycle of our Go application. 
 Based on an [example](#software-life-cycle) of how a developer's work on our application (_myapp_) should look like, we showed the required tools to implement the CI/CD related topics.
 We started with the [Magefile](#magefile) which defines several targets for local commands and then moved on to the [Dockerfile](#dockerfile).
 It uses a YAML feature called anchors to simplify the content without repeating the code.
