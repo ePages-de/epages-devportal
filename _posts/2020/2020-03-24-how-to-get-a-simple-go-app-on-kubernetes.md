@@ -258,3 +258,7 @@ By using _logrus_ and _viper_ we were able to fulfill logging and setting of con
 As expected, the second point turned out to be difficult.
 But with the help of a very generic _MergeFileWithPFlags_ function we were able to implement this requirement as well.
 In the second part of this blog post, we will show how the remaining goals can be implemented.
+
+## Related post
+
+*tbd
