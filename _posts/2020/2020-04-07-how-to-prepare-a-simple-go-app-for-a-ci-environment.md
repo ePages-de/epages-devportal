@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to get a simple Go app in a CI environment
+title: How to prepare a simple Go app for a CI environment
 date: 2020-04-07
 header_image: public/abstract-art-blur-bright.jpg
 header_position: center
@@ -43,7 +43,8 @@ Let us explain how we want to develop, build, test, and deploy this internal pie
 ## Software life cycle
 
 Let me start with an example that will help us to get a better understanding for the following subsections.
-A developer starts with a Git repository on their local machine.
+It shows how a developer's work on our application (_myapp_) should look like:
+The developer starts with a Git repository on their local machine.
 It can be empty or, as in the current case, prepared for our internal automated pipelines (GitLab, [GitLab-runner](https://docs.gitlab.com/runner/){:target="_blank"}, [Jenkins](https://jenkins.io/){:target="_blank"}, and [Helm](https://helm.sh/){:target="_blank"}-v3).
 They want to add a new feature.
 After entering a few lines of new code, they decide to test their changes locally.
