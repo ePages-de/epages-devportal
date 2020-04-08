@@ -261,4 +261,4 @@ In the second part of this blog post, we will show how the remaining goals can b
 
 ## Related post
 
-*tbd
+* [How to prepare a simple Go app for a CI environment](/blog/tech-stories/how-to-prepare-a-simple-go-app-for-a-ci-environment/)
