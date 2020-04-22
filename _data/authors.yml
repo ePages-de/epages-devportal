@@ -193,7 +193,7 @@
 - id: eprohn
   name: Elisa
   full_name: Elisa Prohn
-  description: is a passionate HR Manager, who loves the variety and challenges in her daily working life. She believes in building employee engagement and enjoys working with our collaborative colleagues.
+  description: is a passionate HR Manager, who loves the variety of challenges in her daily working life. She strongly believes in building employee engagement.
   image: eprohn.jpg
 
 - id: ewiedmann
@@ -319,7 +319,7 @@
 - id: kkoessler
   name: Katharina
   full_name: Katharina Kössler
-  description: is HR Manager at ePages. She loves to spread good humour and motivation, and find new colleagues for the teams at ePages.
+  description: is an HR Manager at ePages. She loves to spread good humor and motivation, and to find new colleagues for our different teams.
   image: kkoessler.jpg
 
 - id: kmueller
