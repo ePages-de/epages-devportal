@@ -190,6 +190,12 @@
   description: is a JavaScript Engineer, Node.js lover, and Elixir alchemist.
   image: emueller.jpg
 
+- id: eprohn
+  name: Elisa
+  full_name: Elisa Prohn
+  description: is a passionate HR Manager, who loves the variety and challenges in her daily working life. She believes in building employee engagement and enjoys working with our collaborative colleagues.
+  image: eprohn.jpg
+
 - id: ewiedmann
   name: Elisa
   full_name: Elisa Wiedmann
@@ -309,6 +315,12 @@
   full_name: Kerstin Deharde
   description: is a Product Owner at ePages. She started her job career as an Editor where she learned to love user-centric values. Taking these values over to Product Management truly matters to her.
   image: kdeharde.jpg
+
+- id: kkoessler
+  name: Katharina
+  full_name: Katharina Kössler
+  description: is HR Manager at ePages. She loves to spread good humour and motivation, and find new colleagues for the teams at ePages.
+  image: kkoessler.jpg
 
 - id: kmueller
   name: Katja
