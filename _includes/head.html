@@ -42,4 +42,15 @@
   <script src="/assets/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="/assets/css/lightbox.css" />
 
+  <script src="{{ '/assets/js/cookie-notice.js' | relative_url }}"></script>
+
+  <script>
+    if (!readCookie('cookie-notice-dismissed')) {
+      /* Show the cookie notice if no option has been selected yet */
+      $(document).ready(function() {
+        $('.cookie-notice__backdrop').css('display', 'flex');
+      });
+    }
+  </script>
+
 </head>
