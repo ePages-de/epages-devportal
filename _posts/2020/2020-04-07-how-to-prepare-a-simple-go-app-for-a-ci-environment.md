@@ -490,6 +490,6 @@ The same file is later on used by GitLab's [build pipeline](#build-pipeline) to 
 The new Docker feature of multiple stages within a Dockerfile helps to minimize and speed up this process.
 In a second phase, the [deployment](#deployment) with Helm and Jenkins is used to finally update the application on our internal Kubernetes cluster.
 
-## Related posts
+## Related post
 
 * [How to get a simple Go app on Kubernetes](/blog/tech-stories/how-to-get-a-simple-go-app-on-kubernetes/)
