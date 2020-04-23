@@ -25,13 +25,13 @@ function eraseCookie(name) {
 }
 
 $(document).on('click', '.cookie-notice__actions--accept', function() {
-  createCookie('cookie-notice-dismissed', 'true', 31);
+  createCookie('cookie-notice-dismissed', 'true', 365);
   $('.cookie-notice__backdrop').hide();
   location.reload();
 });
 
 $(document).on('click', '.cookie-notice__actions--reject', function() {
-  createCookie('cookie-notice-dismissed', 'false', 31);
+  createCookie('cookie-notice-dismissed', 'false', 365);
   $('.cookie-notice__backdrop').hide();
   location.reload();
 });
