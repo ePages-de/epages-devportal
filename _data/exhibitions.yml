@@ -1,15 +1,3 @@
-- title: ePages Hackathon
-  link:
-  date: 25.-26. Mar 2020
-  time:
-  address: ePages GmbH<br>Pilatuspool 2<br>20355 Hamburg
-
-- title: TestCon Moscow
-  link: https://testconf.ru/
-  date: 1.-2. Apr 2020
-  time:
-  address: Hotel Vega Izmailovo<br>Autobahn 71, 3B<br>105613 Moskau, Izmailovo<br>
-
 - title: Firmenkontaktmesse FH Wedel
   link: https://www.fh-wedel.de/bewerben/beratung/kennenlernen/firmenkontaktmesse/
   date: 6. May 2020
@@ -21,12 +9,6 @@
   date: 6. Jun 2020
   time:
   address: Marktplatz<br>07743 Jena
-
-- title: Firmenkontaktbörse University Jena
-  link:
-  date: 9.-10. Jun 2020
-  time:
-  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
 
 - title: Stellenwerk Job Fair
   link: https://www.stellenwerk-jobmesse.de/hamburg/en/
@@ -57,3 +39,15 @@
   date: 29.-30. Oct 2020
   time:
   address: CinemaxX Dammtor<br>Dammtordamm 1<br>20354 Hamburg
+
+- title: Firmenkontaktbörse University Jena
+  link: https://www.sft.uni-jena.de/Aktuelles/Veranstaltungen/Firmenkontaktb%C3%B6rse+2020.html
+  date: 3. Nov 2020
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
+
+- title: Jenaer Unternehmenstage
+  link: https://jenaer-unternehmenstage.de/
+  date: 5. Nov 2020
+  time:
+  address: Friedrich-Schiller-Universität Jena<br>Campus Ernst-Abbe-Platz<br>Carl-Zeiß-Straße 3<br>07743 Jena
