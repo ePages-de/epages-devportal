@@ -3,11 +3,12 @@
   max-width: 70rem
   padding: 2rem
   color: #3e3e3e
+  margin: 2rem
 
   &__backdrop
     +position(fixed, 0 0 0 0)
     background-color: rgba(0,0,0,.3)
-    z-index: 99
+    z-index: 9999
     display: none
     justify-content: center
     align-items: center
@@ -19,12 +20,21 @@
 
 
   &__actions
-    display: flex
+    display: grid
     justify-content: space-between
-    padding-top: 20px
+    padding-top: 2rem
+
+    +grid-media($grid-medium)
+      display: flex
 
     &--accept
-      background-color: #56b0ef
+      background-color: $beyond-green
 
     &--reject
-      background-color: #8f8f8f
+      background-color: $gray-light
+      margin-bottom: 1rem
+      width: 29rem
+
+      +grid-media($grid-medium)
+        margin-bottom: 0
+        width: auto
