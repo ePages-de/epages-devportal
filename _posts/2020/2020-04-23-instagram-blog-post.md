@@ -1,14 +1,33 @@
 ---
 layout: post
-title: HR insights - ePages at job fairs
-date: 2020-04-23
-header_image: public/job-fair.jpg
+title: 5 tips to kick off your company Instagram account
+date: 2020-05-07
+header_image: public/instagram-company-account.jpg
 header_position: center
 header_overlay: true
-category: on-the-job
-tags: ["job", "hr", "job fair"]
-authors: ["Aroso", "Elisa", "Katharina"]
-about_authors: ["amahaiuddin", "eprohn", "kkoessler"]
+category: techcomm-and-socialmedia
+tags: ["social media", "Instagram", "content"]
+authors: ["Aroso"]
+about_authors: ["amahaiuddin"]
 ---
 
+Instagram is the perfect tool for sharing visuals around the world - after all, it is called a picture is worth a thousand words. We started our Instagram channel @life_at_epages in 2019 to express our company culture. 
+
+
+## Create Instagram How-to guide 
+- Define your target group 
+- Content Ideas 
+- Write down content ideas as a reminder and also to know which content is suitable for your account 
+- Consider a consistent visual presentation of the Instagram feed 
+- Hashtags 
+
+## Content Plan – Calendar is variable 
+- Create content plan to coordinate your posts 
+- Not everything works --> did not use content plan 
+
+## Agenda - Events/Fairs 2020 
+- Write down events/fairs to keep them in mind 
+
+## Competitors analysis 
+- Analyze your competitors 
 
