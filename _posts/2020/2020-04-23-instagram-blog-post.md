@@ -11,7 +11,7 @@ authors: ["Aroso"]
 about_authors: ["amahaiuddin"]
 ---
 
-Instagram is the perfect tool for sharing visuals around the world - after all, it is called a picture is worth a thousand words. We started our Instagram channel @life_at_epages in 2019 to express our company culture. 
+Instagram is the perfect social media platform for sharing visuals around the world - after all, it is called a picture is worth a thousand words. We started our Instagram channel @life_at_epages in 2019 to present our company culture. But kicking-off a company Instagram channel involves some important aspects to consider when starting the account and also to keep the account alive. In the following I will explain which actions we took when starting our Instagram channel.
 
 
 ## Create Instagram How-to guide 
