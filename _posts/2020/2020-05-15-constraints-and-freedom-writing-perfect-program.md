@@ -16,7 +16,7 @@ My professor once told my group it is not possible to write a perfect computer p
 Right after saying that he corrected himself, specifying that the program has to have some kind of input.
 
 Wanting to prove our professor wrong, we suggested the program that merely takes an input of two numbers and returns their sum.
-To make it easier to follow, the java code is provided below.
+To make it easier to follow the events later, I will provide an example code in Java.
 
 ```java
 import java.util.Scanner;  
@@ -82,8 +82,8 @@ public class Sum {
 }
 ```
 
-## Errors not found?
-We run our program and start manually testing it (we don't want to write unit tests to keep our program as small as possible, but keep in mind that in a real world perfect application this is a must).
+## Well... Not really
+We run our program and start manually testing it (we don't want to write unit tests to keep our program as small as possible, but keep in mind that this is a must if we want to make our program perfect in every way).
 This gives us the following:
 
 ```
@@ -99,8 +99,7 @@ Please enter the second real number
 Sum of the numbers = 5.5
 ```
 
-The error checking worked, the addition worked, so this program is perfect now, right? Well...
-not really.
+The error checking worked, the addition worked, so our program is perfect now, right? Well... not really.
 How about the number precision?
 
 ```
@@ -142,22 +141,21 @@ But he also pointed out that the reason this was a contender for the perfect pro
 
 ## Constraints = Freedom (sometimes)
 This made me realize that having constraints in one place might give a lot of freedom in another.
-If we allowed an input of integer numbers from the start, which would be within the range of, say, -1000 and +1000, we would have spent a lot less time trying to polish the user input and more time on implementing an actual program logic (which in our case was a simple addition, but in enterprise software..
-you get the point).
+If we allowed an input of integer numbers from the start, which would be within the range of, say, -1000 and +1000, we would have spent a lot less time trying to polish the user input and more time on implementing an actual logic (which in our case was a simple addition, but in enterprise software... you get the point).
 
 Of course, we don't only have the logical constraints, such as validations.
 There are other constraints, which we, unfortunately, cannot control.
 These could be of any kind, such as financial constraints, but if we were to keep this strictly technical, common constraints are the memory size and computational power.
 In fact, we have already seen the memory constraint while looking at `BigDecimals` above.
 
-Programmers constantly get frustrated by these constraints and want to *"simply upgrade the machines"*, because they feel that otherwise the amount of things they can do is very limited or very slow (I know I am one of them).
+Programmers constantly get frustrated by these constraints and want to *simply upgrade the machines*, because they feel that otherwise the amount of things they can do is very limited or very slow (I know I am one of them).
 But, sometimes, even these constraints could act as the catalysts of progress.
 For example, if computers had unlimited computational power, there would be no need to optimize software, but as this is impossible and there is always going to be a limit, there is always going to be a need for optimization, too.
 
 To give an example, lots of games nowadays can boast huge open world maps, which you can explore any way you want, but loading the entire world into computer memory would be a waste of resources or just downright impossible.
-This was an issue for many games ahead of their time and the way those developers solved the memory problem was using [dynamic loading](https://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicLoading){:target="_blank"}.
+This was an issue for many games ahead of their time, and the way those developers solved the memory problem was using [dynamic loading](https://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicLoading){:target="_blank"}.
 The idea is extremely simple; you only load that part of the world that the player is looking at, and a little more around that area, so that it looks natural when the user is moving their view.
 As soon as the player stops looking at the previously rendered area, you destroy it.
 
-Yes, this and many other breakthroughs happened out of a necessity, but there is no reason to deny that those constraints we are complaining about while waiting for yet another Jenkins build, are the same constraints that drive the progress forward.
+Yes, this and many other breakthroughs happened out of a necessity, but there is no reason to deny that those constraints we are complaining about while waiting for yet another Jenkins build, are the same constraints that help drive the progress forward.
 Even if only out of necessity.
