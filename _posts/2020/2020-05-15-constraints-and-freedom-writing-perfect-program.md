@@ -45,7 +45,7 @@ Not something a perfect program should do.
 
 Obvious solution is to not allow any characters other than the numbers.
 We can't, however, proceed with that, as it will limit the user to the digit characters only.
-What about the real numbers with decimal points, such as the [gravity of Earth](https://en.wikipedia.org/wiki/Gravity_of_Earth){:target="_blank"}{:target="_blank"} that equals to`9.8`? This number would already break the code above, by the way, as it's not an integer and Java's `Scanner` object did not expect it.
+What about the real numbers with decimal points, such as the [gravity of Earth](https://en.wikipedia.org/wiki/Gravity_of_Earth){:target="_blank"} that equals to`9.8`? This number would already break the code above, by the way, as it's not an integer and Java's `Scanner` object did not expect it.
 Regardless, `9.8` is still a valid number, and we have never stated that our perfect program only works with integers, but rather with numbers in general, so we cannot let that *bring us down* (pun intended).
 
 We could add error handling with a nice error message and use doubles instead of integers, right?
