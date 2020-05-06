@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Constraints or freedom? Adventure to write a perfect program
+title: Constraints or freedom? The adventure of writing a perfect program
 date: 2020-05-07
 header_image: public/adventure-perfect-program.jpg
 header_position: top
@@ -11,11 +11,10 @@ authors: ["Andrey"]
 about_authors: ["akhasanov"]
 ---
 
-## Once upon a time
-My professor once told my group it is not possible to write a perfect computer program.
+Once upon a time, my professor told my group it is not possible to write a perfect computer program.
 Right after saying that he corrected himself, specifying that the program has to have some kind of input.
 
-Wanting to prove our professor wrong, we suggested the program that merely takes an input of two numbers and returns their sum.
+Wanting to prove our professor wrong, we suggested a program that merely takes an input of two numbers and returns their sum.
 To make it easier to follow the events later, I will provide an example code in Java.
 
 ```java
@@ -38,16 +37,17 @@ public class Sum {
 Read two integers from the input, calculate their sum and print the result to the output.
 What could be easier?
 
-## First obstacle
+## First obstacles
 As soon as we wrote the code and ran it on our computers, we realized that there are some things that could be improved.
-What if the user accidentally adds a non-digit character (such as a letter) to his number?
+What if the user accidentally adds a non-digit character (such as a letter) to their number?
 That would immediately raise the `InputMismatchException` and our contender for the "*Easiest program since Hello World*" title would break in a blink of an eye.
 Not something a perfect program should do.
 
-Obvious solution is to not allow any characters other than the numbers.
-We can't, however, proceed with that, as it will limit the user to the digit characters only.
-What about the real numbers with decimal points, such as the [gravity of Earth](https://en.wikipedia.org/wiki/Gravity_of_Earth){:target="_blank"} that equals to`9.8`? This number would already break the code above, by the way, as it's not an integer and Java's `Scanner` object did not expect it.
-Regardless, `9.8` is still a valid number, and we have never stated that our perfect program only works with integers, but rather with numbers in general, so we cannot let that *bring us down* (pun intended).
+The obvious solution was to not allow any characters other than numbers.
+We couldn't, however, proceed with that, as it will limit the user to the digit characters only.
+What about the real numbers with decimal points, such as the [gravity of Earth](https://en.wikipedia.org/wiki/Gravity_of_Earth){:target="_blank"} that equals to `9.8`?
+This number would already break the code above, by the way, as it's not an integer and Java's `Scanner` object did not expect it.
+Regardless, `9.8` is still a valid number, and we have never stated that our perfect program only works with integers, but rather with numbers in general, so we couldn't let that *bring us down* (pun intended).
 
 We could add error handling with a nice error message and use doubles instead of integers, right?
 
@@ -83,9 +83,8 @@ public class Sum {
 }
 ```
 
-## Well... Not really
-We run our program and start manually testing it (we don't want to write unit tests to keep our program as small as possible, but keep in mind that this is a must if we want to make our program perfect in every way).
-This gives us the following:
+We ran our program and started manually testing it (we didn't want to write unit tests to keep our program as small as possible, but keep in mind that this is a must if we want to make our program perfect in every way).
+This gave us the following:
 
 ```
 Enter two real numbers to calculate their sum
@@ -113,7 +112,7 @@ Please enter the second real number
 Sum of the numbers = 3.3000000000000003
 ```
 
-The precision is actually working as intended, as the Java 8 [tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){:target="_blank"} notes that *this data type should never be used for precise values*.
+The precision was actually working as intended, as the Java 8 [tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){:target="_blank"} notes that *this data type should never be used for precise values*.
 It suggests using `BigDecimal` objects instead.
 This approach would have worked for 99.99% of cases (numbers are made up), but we were after that sweet 100% perfection.
 The reason this would not be a perfect solution is a pretty curious one, as Java creates an array for every digit of your number, but that array's size is specified  by an `int`, which [itself](https://stackoverflow.com/a/6792049){:target="_blank"} has a limit of [2,147,483,647](https://en.wikipedia.org/wiki/2,147,483,647){:target="_blank"} (2<sup>31</sup> − 1).
