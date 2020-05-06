@@ -40,7 +40,8 @@ What could be easier?
 
 ## First obstacle
 As soon as we wrote the code and ran it on our computers, we realized that there are some things that could be improved.
-What if the user accidentally adds a non-digit character (such as a letter) to his number? That would immediately raise the `InputMismatchException` and our contender for the "*Easiest program since Hello World*" title would break in a blink of an eye.
+What if the user accidentally adds a non-digit character (such as a letter) to his number?
+That would immediately raise the `InputMismatchException` and our contender for the "*Easiest program since Hello World*" title would break in a blink of an eye.
 Not something a perfect program should do.
 
 Obvious solution is to not allow any characters other than the numbers.
@@ -99,7 +100,8 @@ Please enter the second real number
 Sum of the numbers = 5.5
 ```
 
-The error checking worked, the addition worked, so our program is perfect now, right? Well... not really.
+The error checking worked, the addition worked, so our program is perfect now, right?
+Well... not really.
 How about the number precision?
 
 ```
