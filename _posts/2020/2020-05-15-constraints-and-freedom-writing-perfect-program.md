@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Constraints or freedom? Adventure to write a perfect program
-date: 2020-05-15
-header_image: public/coffee-writing-computer-blogging.jpg
-header_position: center
+date: 2020-05-07
+header_image: public/adventure-perfect-program.jpg
+header_position: top
 header_overlay: true
 category: tech-stories
 tags: ["java", "programming", "python"]
