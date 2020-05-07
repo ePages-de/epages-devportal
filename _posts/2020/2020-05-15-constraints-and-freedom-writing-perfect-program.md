@@ -44,7 +44,7 @@ That would immediately raise the `InputMismatchException` and our contender for 
 Not something a perfect program should do.
 
 The obvious solution was to not allow any characters other than numbers.
-We couldn't, however, proceed with that, as it will limit the user to the digit characters only.
+We can't, however, proceed with that, as it will limit the user to the digit characters only.
 What about the real numbers with decimal points, such as the [gravity of Earth](https://en.wikipedia.org/wiki/Gravity_of_Earth){:target="_blank"} that equals to `9.8`?
 This number would already break the code above, by the way, as it's not an integer and Java's `Scanner` object did not expect it.
 Regardless, `9.8` is still a valid number, and we have never stated that our perfect program only works with integers, but rather with numbers in general, so we couldn't let that *bring us down* (pun intended).
@@ -84,7 +84,7 @@ public class Sum {
 ```
 
 We ran our program and started manually testing it (we didn't want to write unit tests to keep our program as small as possible, but keep in mind that this is a must if we want to make our program perfect in every way).
-This gave us the following:
+This gives us the following:
 
 ```
 Enter two real numbers to calculate their sum
@@ -112,7 +112,7 @@ Please enter the second real number
 Sum of the numbers = 3.3000000000000003
 ```
 
-The precision was actually working as intended, as the Java 8 [tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){:target="_blank"} notes that *this data type should never be used for precise values*.
+The precision is actually working as intended, as the Java 8 [tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){:target="_blank"} notes that *this data type should never be used for precise values*.
 It suggests using `BigDecimal` objects instead.
 This approach would have worked for 99.99% of cases (numbers are made up), but we were after that sweet 100% perfection.
 The reason this would not be a perfect solution is a pretty curious one, as Java creates an array for every digit of your number, but that array's size is specified  by an `int`, which [itself](https://stackoverflow.com/a/6792049){:target="_blank"} has a limit of [2,147,483,647](https://en.wikipedia.org/wiki/2,147,483,647){:target="_blank"} (2<sup>31</sup> − 1).
