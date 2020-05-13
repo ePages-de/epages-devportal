@@ -11,42 +11,52 @@ authors: ["Aroso"]
 about_authors: ["amahaiuddin"]
 ---
 
-Instagram is the perfect social media platform for sharing visuals around the world - after all, it is called a picture is worth a thousand words. 
+It is called a picture is worth a thousand words - Instagram is the perfect social media platform for sharing visuals around the worlld.
 We started our Instagram channel @life_at_epages in 2019 to present our company culture and express thus who we are. 
-But keeping the company Instagram channel alive and coordinating content, involves some important aspects to consider.
+But managing a company Instagram channel and coordinating content, involves some important aspects to consider.
 In the following I will explain which actions we take in order to keep our company Instagram channel alive.
-
 
 ## Create Instagram How-to guide 
 
 Usually, an Instagram company channel is not run by a single employee but by a team consisting of two or more persons.
-In order to develop and create a consistent Instagram channel, we created an Instagram How-to guide. 
-This guide shows the employee an overview of how to use Instagram at ePages.
+In order to develop and create consistent content for our Instagram channel, we created an Instagram How-to guide. 
+This guide shows the employees an overview of how to use Instagram at ePages and is continuously being updated.  
 
-- Aim of Instagram channel 
-Write down what you what do you want to reach with the Instagram company channel and in which areas the channel should support the company.
+- Aim of Instagram channel
+Write down what you want to reach with the Instagram channel and in which areas the channel should support the company.
+Should it support you more in promoting your company product, should it support you in reaching out to potential hires, or should it support you more in gaining traffic on your blog.
 
-- Target group 
-Define your target group and list groups which belong to your target group as well as groups which not belong to your target group. 
+- Target group
+Define your target group: Write down the groups you would like to reach with your Instagram channel as well as groups which not belong to your target group.
+This makes it more clear for the employees which group of persons you would like to reach out to.
+Thus, you can orient your content towards your defined target group.
 
 - Content Ideas 
-List in a table content ideas that show which kind of content is suitable for your Instagram channel, e.g. internal events, employee portraits, or team activities. 
+List in a table content ideas that show which kind of content is suitable for your Instagram channel, e.g. internal & external events, employee portraits, or team activities.
+Furthermore, you can specify the content ideay by describing them.
+For example, write down which external events you want to visualize - is it only conferences, or fairs as well?
 This table is a reminder for content ideas and shows in which direction you can move with the content. 
 
 - Hashtags 
-List in a table hashtags that show which kind of hashtags is suitable for your Instagram channel, e.g. internal events, employee portraits, or team activities. 
-Write down company niche hashtags, Company wide hashtags, or location hashtags. 
+Note hashtags that are suitable for your Instagram captions and sort them into different categories.
+Use different kind of hashtags such as company-branded hashtags, company wide hashtags, or location hashtags.
+Our company-branded hashtags are #lifeatepages or #itsepages.
+Besides that write down some more general hashtags such as #yoga or #companyculture, and location hashtags such as #hamburg or #paris.
+Thus, your account can be found also from a wider audience.
 
-## Consistent visual presentation 
-Consider a consistent visual presentation of the Instagram feed 
+## Agenda - Events/Fairs 2020 
+
+Throughout the year ePages is also organizing internal events such as our hackathon, our Sales Kick-off event, or the ePagey YOU, but also participating in external events such as conferences and fairs.
+These events can also provide perfect content for your company Instagram channel.
+
+- Write down events/fairs to keep them in mind 
 
 ## Content Plan – Calendar is variable 
 - Create content plan to coordinate your posts 
 - Not everything works --> did not use content plan 
 
-## Agenda - Events/Fairs 2020 
-- Write down events/fairs to keep them in mind 
-
 ## Competitors analysis 
-- Analyze your competitors 
+- Analyze your competiors 
 
+## Consistent visual presentation
+Consider a consistent visual presentation of the Instagram feed 
