@@ -60,7 +60,7 @@ As per Sidekiq documentation, there might be a [performance advantage](https://g
 Having those things in mind, we decided to use Sidekiq::Worker to create the jobs and Sidekiq as the queuing backend. 
 Amongst many nice features, we found these very useful:
 
-- the [retry mechanism](https://github.com/mperham/sidekiq/wiki/Error-Handling#configuration){:target="_blank"} that allows to a add custom logic when an exception is raised inside a worker
+- the [retry mechanism](https://github.com/mperham/sidekiq/wiki/Error-Handling#configuration){:target="_blank"} that allows to add custom logic when an exception is raised inside a worker
 - the ability to programmatically [retrieve real-time information](https://github.com/mperham/sidekiq/wiki/API){:target="_blank"} about jobs and queues
 - the [web UI to monitor jobs](https://github.com/mperham/sidekiq/wiki/Monitoring){:target="_blank"} which can be enabled by just adding a few lines of code
 
