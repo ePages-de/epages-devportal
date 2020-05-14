@@ -44,19 +44,27 @@ Our company-branded hashtags are #lifeatepages or #itsepages.
 Besides that write down some more general hashtags such as #yoga or #companyculture, and location hashtags such as #hamburg or #paris.
 Thus, your account can be found also from a wider audience.
 
-## Agenda - Events/Fairs 2020 
+## Create an agenda for events and fairs 
 
-Throughout the year ePages is also organizing internal events such as our hackathon, our Sales Kick-off event, or the ePagey YOU, but also participating in external events such as conferences and fairs.
+Throughout the year ePages is organizing internal events such as our hackathon, our Sales Kick-off event, or the ePages YOU, but also participating in external events such as conferences and fairs.
 These events can also provide perfect content for your company Instagram channel.
+In order to keep them in mind create an agenda where you list all internal and external events.
+List also which team or employees the external events are visiting.
+Thus, you can remind them in time to take some nice pictures from the event.
 
-- Write down events/fairs to keep them in mind 
+## Create a content plan 
 
-## Content Plan – Calendar is variable 
-- Create content plan to coordinate your posts 
-- Not everything works --> did not use content plan 
-
-## Competitors analysis 
-- Analyze your competiors 
+In order to coordinate your content on Instagram you can create a content plan. 
+This is actually a calender where you can coordinate your content: So, which picture do you want to share when?
+This makes it easier for you to plan your content sharing in advance.
+We created a content plan at the start of our Instagram channel. 
+But it didn't work for us.
+We're a little channel and are very flexible with sharing our content.
+So, we're deciding each week what content we would like to share on Instagram.
+But we still keep it mind - it might support us in the future.
 
 ## Consistent visual presentation
-Consider a consistent visual presentation of the Instagram feed 
+Consider a consistent visual presentation of the Instagram feed.
+
+## Competitors analysis 
+- Analyze your competitors 
