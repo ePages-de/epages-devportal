@@ -79,7 +79,7 @@ And of course, also keep in mind to have a matching style of the images shared i
 ## 5. Be up-to-date
 
 If your Instagram channel is supposed to represent your company culture, the images should show what you're up to as a company and how the daily working life of your employees looks like.
-So last, but not least, you should always be up-to-date about the company life.
+So last but not least, you should always be up-to-date about the company life.
 Ask colleagues of different departments if there's anything new you can share on the Instagram channel and keep an overview of what is going on.
 
 These are some actions we take to manage our Instagram channel.
