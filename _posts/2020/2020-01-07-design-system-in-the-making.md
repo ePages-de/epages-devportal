@@ -23,7 +23,7 @@ If you stumble across the same challenges over and over again, you'll realize at
 "Realization" came during our UI text sessions when we were confronted with new behavior, an element being used for something else than it was intended for, or "simply" disagreement about the target group.
 We reached a pain point where we desperately longed for a recurring theme that supports us with designing our user interface.
 
-> A fault confessed is half redressed.
+{% quote text="A fault confessed is half redressed." %}
 
 ## Get the team onboard
 

@@ -22,7 +22,8 @@ ePages developers.
 
 In his brilliant, non-technical (as in "your manager can read that") article "Is High Quality Software Worth the Cost?",
 renowned software architect Martin Fowler nails this down to:
-> [Internal quality makes it easier to enhance software.](https://martinfowler.com/articles/is-quality-worth-cost.html#InternalQualityMakesItEasierToEnhanceSoftware){:target="_blank"}
+{% quote text="[Internal quality makes it easier to enhance software.](https://martinfowler.com/articles/is-quality-worth-cost.html#InternalQualityMakesItEasierToEnhanceSoftware){:target="_blank"}" %}
+> 
 
 From his experience, the effort put into code quality starts paying for itself within a few weeks of ongoing feature development.
 
