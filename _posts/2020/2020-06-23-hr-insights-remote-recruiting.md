@@ -2,7 +2,7 @@
 layout: post
 title: HR insights - Remote recruiting
 date: 2020-06-23
-header_image: public/instagram-company-account.jpg
+header_image: public/remote-recruiting.jpg
 header_position: center
 header_overlay: true
 category: on-the-job
