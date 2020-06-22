@@ -1,7 +1,7 @@
 ---
 title: How to generate MAC addresses
 layout: post
-date: '2019-07-25'
+date: 2019-07-25
 header_image: public/mac-address.jpg
 header_position: bottom
 header_overlay: true
@@ -20,12 +20,12 @@ But anyway, sometimes you want to do things right, and understand how MAC addres
 
 ## The basics
 
-A MAC address or Media Access Control address is a unique hardware identifier address, often referenced as physical or hardware address. 
+A MAC address or Media Access Control address is a unique hardware identifier address, often referenced as physical or hardware address.
 A classic (IPv4 referring) MAC address has 48 bits or 6 bytes, and is expressed in hexadecimal digits separated by colons between each of the 6 octets.
 
 If you divide these 6 octets by two, the first 3 are the so-called Organizationally Unique Identifiers (OUI), and the last 3 refer to a manufacturer-specific number.
 Important here are the first two bits of the first byte.
-Let's call them b0 and b1. 
+Let's call them b0 and b1.
 
 The b0 bit states if this MAC address is a unicast (0) or a [multicast](https://en.wikipedia.org/wiki/Multicast_address#Ethernet){:target="_blank"} (1) address.
 The b1 bit states if a MAC address is globally unique (0) or locally administered (1).
@@ -45,7 +45,7 @@ There are three private IPv4 address ranges specified in [RFC1918](https://tools
 
 ## Local and global MAC addresses
 
-Generating only one MAC prefix allows us to generate enough addresses for the biggest assignable private network. 
+Generating only one MAC prefix allows us to generate enough addresses for the biggest assignable private network.
 Cool thing, and we know that if we want to use it locally we only have to set the second bit in the first byte of this mac address to 1.
 
 You also have the option to [register](https://standards.ieee.org/products-services/regauth/index.html){:target="_blank"} a MAC prefix (with b1=0) for your own purposes.
@@ -64,12 +64,12 @@ where b ∊ {0,1} can be set at random.
 The first one (10) is a locally administered unicast address, and it's the most common use case if you need a local MAC address.
 The second one (01) is a globally unique multicast address, and very rare, since multicast addresses are not used very often.
 Our third one (00) is a very typical representative of its species: the global unique unicast address.
-This one is the most common OUI used by almost any hardware producing company (or even software-related when it comes to virtualization). 
+This one is the most common OUI used by almost any hardware producing company (or even software-related when it comes to virtualization).
 Almost everyone who needs a OUI uses this pattern.
 Last but not least (11) is the locally administered multicast, and also a rare one.
 
 MAC addresses are commonly written in hex and not in binary representation, so let's take a look how our candidates look in hex.
-First thing, we can ignore the last 4 bits since they do not affect the b0 and b1 bit in hex. 
+First thing, we can ignore the last 4 bits since they do not affect the b0 and b1 bit in hex.
 Also b2 and b3 can be 0 or 1 since they do not matter, but affect the hex representation.
 
 We can have the following combination:
@@ -93,13 +93,13 @@ Our first byte can have the following hex representations:
 We now have 2 bytes left, and since they do not have special bits they can be randomly chosen.
 Let's take a look at the following example MAC prefix `EA:A2:B7`.
 `EA` represents our first byte in hex so `A2` and `B7` can be ignored since they are just random.
-The `E` also is just random so the only interesting part is the `A`. 
-When we take a look at our pattern above, we see that `A` is part of the locally administered unicast addresses. 
+The `E` also is just random so the only interesting part is the `A`.
+When we take a look at our pattern above, we see that `A` is part of the locally administered unicast addresses.
 `EA:A2:B7` is a valid local unicast MAC address prefix.
 
 The last 3 bytes, let's call them the suffix, can also be generated randomly or simply iteratively.
-An example could be `D4:FC:AE`, and using our example prefix, it would give us the following MAC address `EA:A2:B7:D4:FC:AE`. 
-I've put all this into a [golang](https://golang.org/){:target="_blank"} libary called [mac-gen-go](https://github.com/cseeger-epages/mac-gen-go){:target="_blank"}. 
+An example could be `D4:FC:AE`, and using our example prefix, it would give us the following MAC address `EA:A2:B7:D4:FC:AE`.
+I've put all this into a [golang](https://golang.org/){:target="_blank"} libary called [mac-gen-go](https://github.com/cseeger-epages/mac-gen-go){:target="_blank"}.
 
 For the sake of math 😀:
 we have 24 bits representing our prefix, and two of them are reserved.
