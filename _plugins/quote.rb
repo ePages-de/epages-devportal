@@ -14,7 +14,7 @@ module Jekyll
     def render(context)
       %{<div class="quote">
           <div class="quote__text">
-            #{@args[:attributes][:text]}
+            #{@args[:attributes][:text].tr('_', ' ')}
             <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
             <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
           </div>
