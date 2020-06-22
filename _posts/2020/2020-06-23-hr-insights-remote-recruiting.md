@@ -22,7 +22,7 @@ Our remote recruiting process is not that different from our usual application p
 ePages is a digital company - so, we've already implemented many digital processes before.
 For the remote recruiting process during COVID-19, we only had to adapt some details.
 
-Here's how it looks like (in the best case):
+Here's how it looks like (in the best-case scenario):
 
 1. We review the application, and if the applicant meets the requirements, they receive an invitation for an interview.
 2. We have a phone interview with the applicant. If the applicant is based abroad, we use [Skype](https://www.skype.com/en/){:target="_blank"} or [BigBlueButton](https://bigbluebutton.org/){:target="_blank"} for the phone call - both tools are free of charge and very easy to use which makes it easier for applicants to get along.
