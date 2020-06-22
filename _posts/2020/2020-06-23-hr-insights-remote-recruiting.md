@@ -7,74 +7,83 @@ header_position: center
 header_overlay: true
 category: on-the-job
 tags: ["job", "hr", "remote", "recruiting"]
-authors: ["Katharina", "Katharina"]
+authors: ["Katharina K.", "Katharina W."]
 about_authors: ["kkoessler", "kwendt"]
 ---
 
-At ePages we do remote recruiting all over the year, because we’re not only hiring employees from Germany but also from all over the world - we have recruited employees e.g. from Greece, Russia, Canada, and many more countries.
-Now, due to COVID-19 we had to conduct all job interviews remote.
-We will explain you in this blog post how our remote recruiting process looks like and what have changed due to COVID-19.
+At ePages, we do remote recruiting all over the year, because we’re not only hiring employees from Germany but also from all over the world.
+Currently, we have employees from more than 20 countries, e.g. from Greece, Russia, and Canada.
+In these days, we had to conduct all job interviews remote - also for applicants based in Germany.
+As many of you will face the same challenge, we'd like to share our experiences with you and present how our remote recruiting process looks like and what we have changed due to COVID-19.
 
-## Remote recruiting process
+## Our remote recruiting process
 
-Our remote recruiting process is not very different from our usual application process. 
-ePages is a digital company - so, we have already implemented many digital processes before.
-For the remote recruiting process during COVID-19 we only had to adapt details to the new situation.
+Our remote recruiting process is not that different from our usual application process.
+ePages is a digital company - so, we've already implemented many digital processes before.
+For the remote recruiting process during COVID-19, we only had to adapt some details.
 
-Here are the steps of a usual remote recruiting process:
+Here's how it looks like (in the best case):
 
-1. Of course, first we review the application, and if the applicant meets the requirements, they receive an invitation for an interview.
-2. Then we have a telephone interview with the applicant. If the applicant is abroad, we use Skype or BigBlueButton for the telephone call - both tools are free of charge and very easy to use which makes it easier for applicants to get along. Afterwards our applicants receive a task they have to work on within a week.
-3. The next step is an interview via video call with one HR Manager, and one of our Head Managers, or one of the team members.
-4. Followed by a second interview (incl. get-together with the team) or a trial day which we organize fully remote via video call.
-5. In the end we make our decision about the applicant and let them know about the decision.
+1. We review the application, and if the applicant meets the requirements, they receive an invitation for an interview.
+2. We have a phone interview with the applicant. If the applicant is based abroad, we use Skype or BigBlueButton for the phone call - both tools are free of charge and very easy to use which makes it easier for applicants to get along.
+3. The applicant receives a task they have to work on within a week.
+3. We schedule an interview via video call with one of us, and either one of our Managers or one of the team members.
+4. We schedule a second interview (incl. a get-together with the team) or a trial day which is conducted fully remotly via video call.
+5. We make an offer to the applicant.
 
-## Remote trial day 
+## The remote trial day 
 
-We created a remote version of the trial day for each of our RnD teams.
-The procedures in the trial days differ from team to team.
-At the trial day you get to know usally the team members, the Scrum Masters, and also other team members your team is working close together with.
-Futhermore, you get a task you have to work on and you have to present.
-As a tech candidate you get access to the internal chat tools and you will participate remotely in the daily routines of the team.
+We've created a remote version of the trial day for each of our RnD teams.
+The exact procedures of the trial days differ from team to team.
+But in general, the applicant always gets to know the team members, the Scrum Masters, and also other ePagees the team is working closely with.
+Furthermore, they get a small task they have to work on and that they'll present to the team at the end of the day.
+In some teams, the tasks is also handed out beforehand.
+Tech candidates get access to the internal chat tools and will participate remotely in the daily routines of the team.
 
-To sum it up our trial days follow this structure:
+To sum it up, our trial days follow this structure:
 
-1. Welcome session: You get to know the team.
-2. Task session: You will get a little task during the day you have to work on. Sometimes you get the task in advance before your trial day.
-3. Social session: You're having a break, where you can have lunch and exchange with the team.
-4. Presentation session: You will present the results of your tasks to the team.
-5. Check out session: You get feedback and say good bye.
+1. Welcome session: The applicant gets to know the team.
+2. Task: The applicant gets a small task they need to work on.
+3. Social part: The applicant has a break from their task and it's time for an exchange with the team.
+4. Presentation: The applicant presents the results of their task to the team.
+5. Feedback session: The applicant receives feedback and it's time to say goodbye.
 
 ## Personal interviews during COVID-19
 
-When COVID-19 started, we didn’t do any personal interviews and switched to fully remote-recruiting quite quickly.
-But currently, it is possible for us to invite applicants for a personal interview again.
-As we already mentioned, the first interview normally takes place on the phone.
-There, we take the opportunity to talk about the specific requirements of the current situation.
-Together with the applicant, we discuss what needs to be considered and whether, for example, a personal meeting is an option for the candidate.
-Important factors, whether a personal interview can take place, are for example: How many people are involved in total - do we have a room where sufficient distance can be kept? Is the majority of the team members in the office or in the home office? Does the applicant feel comfortable coming for a personal interview?
+When COVID-19 started, we stopped conducting personal interviews.
+If circumstances allow, it is nowadays possible for us to invite applicants for a personal interview again.
+As already mentioned, the first interview usually takes place via phone.
+During that call, we take the opportunity to talk about the specific requirements of the current situation.
+Together with the applicant, we discuss what needs to be considered and whether a personal meeting is an option for the candidate.
+Important factors for that decision are the following questions:
 
-If the applicant is coming to a personal interview, we need to follow the restrictions related to COVID-19.
-When welcoming the applicant, we refrain from shaking hands at the moment - even if this sometimes feels strange.
-Furthermore, we have disinfectants available everywhere, we air the rooms before and after, possibly also during the meetings, and make sure that there is enough distance between the participants.
-If necessary, we also provide a mouth and nose protector for the interview.
+- How many people are involved?
+- Do we have a room where sufficient distance can be kept?
+- Is the majority of the team in the office or working from home?
+- Does the applicant feel comfortable with the situation?
+
+If a personal interview is agreed, we need to stick to the known restrictions.
+When welcoming the applicant, we refrain from shaking hands - even if it sometimes feels strange.
+Furthermore, we have disinfectants available everywhere, we air the rooms before and after the interview and if possible also during the meeting.
+Of course, we also make sure that there is enough distance between the participants and if required, we also provide masks.
 
 ## Challenges in remote recruiting
 
-One big challenge in remote recruiting is definitely that you cannot perceive the candidate directly.
-Usually, we do a little office tour after interviews which is not possible with remote recruiting.
-But as we are a company in a digital world, we are very familiar with remote situations and more focus the advantage behind like checking remote skills.
-And to let the candidate participate in our social life too, we always integrate social chat sessions in between - especially during trial days.
+One big challenge in remote recruiting is obviously that you cannot meet in person.
+Usually, we e.g. do a little office tour after the interview which is not possible with remote recruiting.
+But one could at least explain the office situation and the room structure so that the applicant gets an idea of how it looks like.
+
+Remote recruiting also has an advantage, at least for companies that are based in different cities and thus require remote communication for their daily work: You immediately get an impression of the remote communication skills of the applicant.
 
 ## Tips for applicants
 
-There are some points applicants should consider in the remote recruiting process:
+Here are some aspects applicants should consider during the remote recruiting process:
 
-- Prepare yourself 15-30 minutes earlier than the appointment starts.
-- Be available via telephone or e-mail all the time before and during the interview.
-- Check if your internet connection, webcam, and headset/microphone works correctly.
-- Use Chrome or Mozilla Firefox as a browser because we had already some issues using other browsers. For example, BigBlueButton is not working with Internet Explorer.
-- Try to find a place, where the light is good so that the webcam can catch a good picture of you, and also pay attention to what can be seen in your background - for example dirty dishes.
-- Don't worry, technical problems can occur, but we always find a solution.
+- The preparation for the call should start early, e.g. 15-30 minutes before the interview starts. The internet connection, the webcam, and the headset or microphone should e.g. be checked beforehand.
+- The compatibility of the chosen communication tool and the internet browser should be checked. Here at ePages, we recommend Chrome or Mozilla Firefox because we've already had some issues using other browsers. For example, BigBlueButton is not working with Internet Explorer.
+- The applicant should be available via phone or email, in case the chosen communication tool is not working properly.
+- Every participant should find a room or seat with good light so that they can be properly seen via webcam. Especially the applicants should pay attention to what can be seen in the background - for example dirty dishes or clothes.
 
-And last but not least: Be open-minded, relax, and keep calm.
+Don't worry, technical problems can occur, but it's always possible to find a solution.
+By forwarding the tips beforehand to the applicant, you might be able to avoid some of them.
+In general, we've made really positive experiences with remote recruiting and can recommend it to all Tech Recruiters.

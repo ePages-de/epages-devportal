@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: on-the-job
 tags: ["job", "hr", "job fair"]
-authors: ["Aroso", "Elisa", "Katharina"]
+authors: ["Aroso", "Elisa", "Katharina K."]
 about_authors: ["amahaiuddin", "eprohn", "kkoessler"]
 ---
 
