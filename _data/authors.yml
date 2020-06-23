@@ -323,7 +323,7 @@
   image: kdeharde.jpg
 
 - id: kkoessler
-  name: Katharina
+  name: Katharina K.
   full_name: Katharina Kössler
   description: is an HR Manager at ePages. She loves to spread good humor and motivation, and to find new colleagues for our different teams.
   image: kkoessler.jpg
@@ -350,6 +350,12 @@
   name: Katharina
   full_name: Katharina
   description: belongs to the epagesdevs content team.
+  image: avatar_female.jpg
+
+- id: kwendt
+  name: Katharina W.
+  full_name: Katharina Wendt
+  description: is a dedicated Tech Recruiter who loves to meet different people. She is always happy when a new colleague joins ePages and enjoys supporting with onboarding.
   image: avatar_female.jpg
 
 - id: lbrandt
