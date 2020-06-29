@@ -14,7 +14,7 @@ about_authors: ["bbader"]
 We asked ourselves: 
 
 * Who else is involved?
-* With whom do we have interfaces?
+* With whom do we have interfaces!
 * Who makes which decisions?
 * Who has to coordinate with whom?
 
