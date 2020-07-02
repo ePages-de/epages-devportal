@@ -1,5 +1,6 @@
 module Jekyll
   class Quote < Liquid::Tag
+    REGEX = /text="(.*)"/.freeze
 
     ALLOWED_ATTRIBUTES = %w(
       text
@@ -14,7 +15,7 @@ module Jekyll
     def render(context)
       %{<div class="quote">
           <div class="quote__text">
-            #{@args[:attributes][:text].tr('_', ' ')}
+            #{Kramdown::Document.new(@args[:attributes][:text]).to_html}
             <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
             <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
           </div>
