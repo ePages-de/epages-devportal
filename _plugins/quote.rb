@@ -1,25 +1,16 @@
 module Jekyll
-  class Quote < Liquid::Tag
-
-    ALLOWED_ATTRIBUTES = %w(
-      text
-    ).freeze
-
-    def initialize(_, args, _)
-      super
-      @args = OptionParser.parse(args, ALLOWED_ATTRIBUTES)
-      raise 'Quote: "text" attribute must be provided' if @args[:attributes][:text].nil?
-    end
+  class Quote < Liquid::Block
 
     def render(context)
       %{<div class="quote">
           <div class="quote__text">
-            #{@args[:attributes][:text].tr('_', ' ')}
+            #{Kramdown::Document.new(super).to_html}
             <i class="quote__icon quote__icon--left fas fa-quote-left"></i>
             <i class="quote__icon quote__icon--right fas fa-quote-right"></i>
           </div>
         </div>}
     end
+
   end
 end
 
