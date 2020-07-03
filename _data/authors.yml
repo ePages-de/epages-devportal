@@ -430,6 +430,12 @@
   description: is a UX Manager. She loves creating UX concepts, and is keen on data-driven work.
   image: mwawrok.jpg
 
+- id: mzeller
+  name: Manfred
+  full_name: Manfred Zeller
+  description: is a certified Scrum Master. He enjoys taking part in complicated discussions a lot and is always looking for ways to proceed and to grow as a team.
+  image: avatar_male.jpg
+
 - id: mzeyen
   name: Maik
   full_name: Maik Zeyen
