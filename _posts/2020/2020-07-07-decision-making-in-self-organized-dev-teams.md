@@ -2,11 +2,11 @@
 layout: post
 title: Decision making in self organized dev teams
 date: 2020-07-07
-header_image: public/remote-recruiting.jpg
+header_image: public/decision-making.jpg
 header_position: center
 header_overlay: true
 category: methods-and-tools
-tags: ["decision making", "agile", "scrum", "self organization"]
+tags: ["decisions", "agile", "scrum", "self organization"]
 authors: ["Manfred"]
 about_authors: ["mzeller"]
 ---
