@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decision making in self organized dev teams
+title: Decision making in self-organized dev teams
 date: 2020-07-07
 header_image: public/decision-making.jpg
 header_position: center
