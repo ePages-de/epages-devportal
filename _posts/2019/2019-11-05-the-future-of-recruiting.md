@@ -27,7 +27,7 @@ You could see the faces in the audiences was like "Whaaattt??!!".
 Active Sourcing for recruiters is like our daily bread to find candidates and our way of networking.
 It's THE METHOD.
 Okay, so what's next?
-Michael claimed that in the future Candidate Matching is how recruiting would be done, the applicant market will turn into a supplier market,in which companies have to focus more on Recruiting/HR Marketing.
+Michael claimed that in the future Candidate Matching is how recruiting would be done, the applicant market will turn into a supplier market, in which companies have to focus more on Recruiting/HR Marketing.
 This is where digitalization comes in, as well as AI and better algorithms to improve the application process, candidate matching, and cultural fit.
 But for now, I would say Active Sourcing is still on 😉.
 
@@ -43,7 +43,7 @@ The main point I took home from this was, in order to be successful in an employ
 ## 7 Open sessions
 
 I really enjoyed the open discussions here.
-You get to talk with people, who understand exactly your pain points, challenges, satisfation, and motivation.
+You get to talk with people, who understand exactly your pain points, challenges, satisfaction, and motivation.
 The role of recruiters has grown over the years and with digitalization, we are not just someone who fills position.
 We are our own brand and the employer brand, as the first line of contact to the company for future employees.
 Recruiting marketing can learn a lot from online marketing through the usage of Google AdWords, Social Media campaigns, generating and measuring click rates, creating better HR marketing campaigns and more attractive job ads.

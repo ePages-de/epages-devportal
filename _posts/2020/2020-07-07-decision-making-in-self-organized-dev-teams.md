@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decision making in self-organized dev teams
+title: Decision-making in self-organized dev teams
 date: 2020-07-07
 header_image: public/decision-making.jpg
 header_position: center
@@ -21,7 +21,7 @@ So, how can developers come up with decisions together, and thrive as a team?
 
 ## Learning one: It’s about transparency
 
-Due to its inherent complexity, decision making in development often is not about being right or wrong, but more about being transparent along the way:
+Due to its inherent complexity, decision-making in development often is not about being right or wrong, but more about being transparent along the way:
 
 1. **Knowledge**: Did the team consider the available information already?
 Can somebody inside the team share information that would be helpful?
@@ -109,7 +109,7 @@ Often, when we discussed a subject for a while and already reflected on underlyi
 Sometimes, somebody objected, sometimes somebody suggested small changes in the wording, sometimes nobody said anything. 
 Consent is reached in this particular moment, when nobody objects anymore.
 Of course, there still may be hidden arguments and objections we did not explore in-depth.
-However, it still is a great way to proceed because it prevents us of getting stuck in decision making – which brings me to my last learning.
+However, it still is a great way to proceed because it prevents us of getting stuck in decision-making – which brings me to my last learning.
 
 ## Learning four: Do it
 
