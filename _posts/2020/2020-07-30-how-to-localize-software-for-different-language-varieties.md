@@ -17,26 +17,31 @@ But can you, really?
 
 ## Language varieties
 
-Each language has many different varieties, or forms of language. There are varieties for specific purposes, e.g. language that is being used for a public speech is different from language being spoken in a casual conversation.
+Each language has many different varieties, or forms of language.
+There are varieties for specific purposes, e.g. language that is being used for a public speech is different from language being spoken in a casual conversation.
 There are also varieties for specific linguistic styles: Teenagers, for example, speak a different variety of the same language than their parents.
 
-And then there's regional varieties.
+And then there are regional varieties.
 The differences between language varieties spoken in different regions of the same country or in different countries sharing the same language can range from subtle to "is that really still the same language"?
 
 So can you cover several countries with just one language? 
 
 ## Yes and no
 
-Let's take German as an example. When localizing software for the German speaking market, this usually includes Germany, Austria and the German-speaking part of Switzerland and is typically referred to as the DACH region (DE-AT-CH).
+Let's take German as an example.
+When localizing software for the German speaking market, this usually includes Germany, Austria, and the German-speaking part of Switzerland and is typically referred to as the DACH region (DE-AT-CH).
 
 **Yes**: German speakers of all three countries usually _understand_ Standard German.
 
-**No**: Standard German does not feel _local_ for speakers of Austrian Standard Germand and Swiss Standard German. It is similar to how speakers of American English feel towards British English. It may sound "cute" in some cases, "weird" in others or downright incomprehensible in others. 
+**No**: Standard German does not feel _local_ for speakers of Austrian Standard German and Swiss Standard German.
+It is similar to how speakers of American English feel towards British English.
+It may sound "cute" in some cases, "weird" in others or downright incomprehensible in others. 
 Spiffing, right?
 
 ## Support your local varieties
 
-If you go the extra mile to make your software product sound local, it will come more natural for speakers of all regional varieties to use your product. They won't frown upon "strange expressions", may smile when being greeted in a very local way and will unconsciously feel better about your product.
+If you go the extra mile to make your software product sound local, it will come more natural for speakers of all regional varieties to use your product.
+They won't frown upon "strange expressions", may smile when being greeted in a very local way and will unconsciously feel better about your product.
 
 And we all want happy users, right?
 
@@ -44,13 +49,18 @@ And we all want happy users, right?
 
 ### Step 1: Research
 
-First of all, figure out the scope. Not all regional wording is relevant for a software product. For us, we had to look out for words related to E-commerce, so we did not have to deep-dive into all those mouth-watering words for regional dishes (although we couldn't help but stumble upon "Palatschinken" and "Rösti"), but rather focused on words like "Kassa" (Austrian term for cashier or checkout) or "Total" (Swiss term for total sum).
+First of all, figure out the scope.
+Not all regional wording is relevant for a software product.
+For us, we had to look out for words related to ecommerce, so we did not have to deep-dive into all those mouth-watering words for regional dishes (although we couldn't help but stumble upon "Palatschinken" and "Rösti"), but rather focused on words like "Kassa" (Austrian term for cashier or checkout) or "Total" (Swiss term for total sum).
 
-The research we did was mainly through online word lists and local websites, online shops and news sites. Wikipedia, for example, offers extensive lists of Helvetisms and Austriacisms that were very helpful as a starting point.
+The research we did was mainly through online word lists and local websites, online shops and news sites.
+Wikipedia, for example, offers extensive lists of [Helvetisms](https://de.wikipedia.org/wiki/Liste_von_Helvetismen) and [Austriacisms](https://de.wikipedia.org/wiki/Liste_von_Austriazismen) that were very helpful as a starting point.
 
 ### Step 2: Ask a native speaker to review
 
-Ok,  so you've done your research and came up with a list of local words that are relevant for your audience. But how do you make sure these are words that locals actually use? How do you avoid sounding as if you're trying too hard, which is the exact opposite of the smooth local experience you want to deliver to your users?
+Ok, so you've done your research and came up with a list of local words that are relevant for your audience.
+But how do you make sure these are words that locals actually use?
+How do you avoid sounding as if you're trying too hard, which is the exact opposite of the smooth local experience you want to deliver to your users?
 
 There is no other way: Ask a local.
 
