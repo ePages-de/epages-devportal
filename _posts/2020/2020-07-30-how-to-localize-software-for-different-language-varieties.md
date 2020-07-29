@@ -54,7 +54,7 @@ Not all regional wording is relevant for a software product.
 For us, we had to look out for words related to ecommerce, so we did not have to deep-dive into all those mouth-watering words for regional dishes (although we couldn't help but stumble upon "Palatschinken" and "Rösti"), but rather focused on words like "Kassa" (Austrian term for cashier or checkout) or "Total" (Swiss term for total sum).
 
 The research we did was mainly through online word lists and local websites, online shops and news sites.
-Wikipedia, for example, offers extensive lists of [Helvetisms](https://de.wikipedia.org/wiki/Liste_von_Helvetismen) and [Austriacisms](https://de.wikipedia.org/wiki/Liste_von_Austriazismen) that were very helpful as a starting point.
+Wikipedia, for example, offers extensive lists of [Helvetisms](https://de.wikipedia.org/wiki/Liste_von_Helvetismen){:target="_blank"} and [Austriacisms](https://de.wikipedia.org/wiki/Liste_von_Austriazismen){:target="_blank"} that were very helpful as a starting point.
 
 ### Step 2: Ask a native speaker to review
 
