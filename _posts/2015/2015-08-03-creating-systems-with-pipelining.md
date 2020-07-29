@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating systems with pipelining"
-date: 2015-08-03"
+date: 2015-08-03
 header_image: public/pipelines.jpg
 header_overlay: true
 category: tech-stories
