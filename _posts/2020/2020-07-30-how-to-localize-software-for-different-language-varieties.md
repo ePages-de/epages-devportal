@@ -2,7 +2,7 @@
 layout: post
 title: How to make your software sound local
 date: 2020-07-30
-header_image: public/make software sound local.jpg
+header_image: public/make-software-sound-local.jpg
 header_position: center
 header_overlay: true
 category: language-and-localization
