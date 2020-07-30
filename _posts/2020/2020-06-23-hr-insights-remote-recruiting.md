@@ -11,7 +11,7 @@ authors: ["Katharina K.", "Katharina W."]
 about_authors: ["kkoessler", "kwendt"]
 ---
 
-At ePages, we do remote recruiting all over the year, because we’re not only hiring employees from Germany but also from all over the world.
+At ePages, we do remote recruiting all over the year, because [we’re not only hiring employees from Germany but also from all over the world](https://epages.com/us/career/){:target="_blank"}.
 Currently, we have employees from more than 20 countries, e.g. from Greece, Russia, and Canada.
 In these days, we had to conduct all job interviews remote - also for applicants based in Germany.
 As many of you will face the same challenge, we'd like to share our experiences with you and present how our remote recruiting process looks like and what we have changed due to COVID-19.
@@ -22,16 +22,16 @@ Our remote recruiting process is not that different from our usual application p
 ePages is a digital company - so, we've already implemented many digital processes before.
 For the remote recruiting process during COVID-19, we only had to adapt some details.
 
-Here's how it looks like (in the best case):
+Here's how it looks like (in the best-case scenario):
 
 1. We review the application, and if the applicant meets the requirements, they receive an invitation for an interview.
-2. We have a phone interview with the applicant. If the applicant is based abroad, we use Skype or BigBlueButton for the phone call - both tools are free of charge and very easy to use which makes it easier for applicants to get along.
+2. We have a phone interview with the applicant. If the applicant is based abroad, we use [Skype](https://www.skype.com/en/){:target="_blank"} or [BigBlueButton](https://bigbluebutton.org/){:target="_blank"} for the phone call - both tools are free of charge and very easy to use which makes it easier for applicants to get along.
 3. The applicant receives a task they have to work on within a week.
 3. We schedule an interview via video call with one of us, and either one of our Managers or one of the team members.
 4. We schedule a second interview (incl. a get-together with the team) or a trial day which is conducted fully remotly via video call.
 5. We make an offer to the applicant.
 
-## The remote trial day 
+## The remote trial day
 
 We've created a remote version of the trial day for each of our RnD teams.
 The exact procedures of the trial days differ from team to team.
