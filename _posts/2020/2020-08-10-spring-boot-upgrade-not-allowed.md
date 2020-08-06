@@ -103,22 +103,23 @@ This was when Donald told me he can take this problem over.
 
 ---
 
-Integration tests, Distributed Tracing and Logging are the terms that we developers tend to ignore or not worry that much since they don't appear in the scene on sunny days.
+"Integration tests", "Distributed tracing" and "Logging" are the terms that we developers tend to ignore or not worry that much since they don't appear in the scene on sunny days.
 But working on a microservice architecture where quite often you have to debug requests passing through several services, the lack of traceability or a centralized logging system can be quite a hassle.
 Luckily our logs are analyzed and stored to `Google Stackdriver` which offers you plenty of functionalities to search through the logs.
 
 Let's go back to the problem and to what I did to find it and come up with the solution in the end.
 
-After discussing with Andrey what had he tried and I decide to go Sherlock and follow the failing requests around in order to see what was changed on its way.
+After discussing with Andrey what he had tried, I decided to go Sherlock and follow the failing requests around in order to see what was changed on its way.
 
 {% image_custom image="/assets/img/pages/blog/images/sherlock.png" width="80" lightbox %}
 
-As it's know every request in a Spring based environment goes through a chain of filters which can validate, enhance or even block the requests.
+As it is known, every request in a Spring based environment goes through a chain of filters which can validate, enhance, or even block the requests.
+
 Same like passing the security checks at the airport!
 
-Thus, I went through each filter and everything was look fine until I reached the recently added `ForwardedHeaderFilter`.
+Thus, I went through each filter and everything was looking fine until I reached the recently added `ForwardedHeaderFilter`.
 Finally, a clue appeared.
 The request path was changed to a different path which was a bit unfortunate for us since it existed only for `POST` requests therefor a `405` was received.
 After reading the documentation I understood that it's used to wrap the initial request and change it based on the `X-Forwarded` headers, a behavior which we didn't want to have.
-Then **WHY?** Why an unnecessary filter was added on the first place? Answer is simple.
+Then **WHY** an unnecessary filter was added on the first place? The answer is simple.
 Inherited from the shared libraries.
