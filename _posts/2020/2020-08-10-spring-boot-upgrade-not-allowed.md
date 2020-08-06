@@ -101,8 +101,7 @@ My team tried to lend me a hand and after every discussion I would go and make a
 After a certain point I did not believe that we can upgrade our proxy microservice in the first place and felt like giving up on the task altogether (which means putting it back to the backlog).
 This was when Donald told me he can take this problem over.
 
----
-
+## The fix
 "Integration tests", "Distributed tracing" and "Logging" are the terms that we developers tend to ignore or not worry that much since they don't appear in the scene on sunny days.
 But working on a microservice architecture where quite often you have to debug requests passing through several services, the lack of traceability or a centralized logging system can be quite a hassle.
 Luckily our logs are analyzed and stored to `Google Stackdriver` which offers you plenty of functionalities to search through the logs.
