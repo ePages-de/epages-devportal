@@ -119,7 +119,10 @@ Same like passing the security checks at the airport!
 
 Thus, I went through each filter and everything was looking fine until I reached the recently added `ForwardedHeaderFilter`.
 Finally, a clue appeared.
-The request path was changed to a different path which was a bit unfortunate for us since it existed only for `POST` requests therefor a `405` was received.
+The request path was changed to a different path, which was a bit unfortunate for us, since it only existed for `POST` requests, therefore a `405` was received.
 After reading the documentation I understood that it's used to wrap the initial request and change it based on the `X-Forwarded` headers, a behavior which we didn't want to have.
-Then **WHY** an unnecessary filter was added on the first place? The answer is simple.
-Inherited from the shared libraries.
+Removing these filters from the code completely resolved the long-standing issue we had.
+
+**WHY** was an unnecessary filter added in the first place?
+The answer is simple.
+It was inherited from the libraries that are shared between all of our microservices.
