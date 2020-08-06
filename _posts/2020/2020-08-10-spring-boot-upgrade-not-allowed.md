@@ -118,7 +118,7 @@ Same like passing the security checks at the airport!
 
 Thus, I went through each filter and everything was looking fine until I reached the recently added `ForwardedHeaderFilter`.
 Finally, a clue appeared.
-The request path was changed to a different path, which was a bit unfortunate for us, since it only existed for `POST` requests, therefore a `405` was received.
+The request path was changed to a different path, which was a bit unfortunate for us, since it only existed for `POST` requests, therefore an error with the status code `405` was received.
 After reading the documentation I understood that it's used to wrap the initial request and change it based on the `X-Forwarded` headers, a behavior which we didn't want to have.
 Removing these filters from the code completely resolved the long-standing issue we had.
 
