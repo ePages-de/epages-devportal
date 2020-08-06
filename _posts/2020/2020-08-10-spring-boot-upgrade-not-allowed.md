@@ -25,7 +25,7 @@ This does bring some side effects, however.
 
 ## Bump!
 Google Chrome is built on top of open-source Chromium, which still gets new releases and patches.
-In order to have all the recent security patches and bug fixes, development team of Google Chrome is forced to upgrade their version of Chromium every once in a while.
+In order to have all the recent security patches and bug fixes, the development team of Google Chrome is forced to upgrade their version of Chromium every once in a while.
 
 Our Beyond framework is built on top of Spring Boot, which still gets new releases and patches.
 There might be some kind of pattern here.
@@ -60,7 +60,7 @@ And it failed with a very strange reason:
 }
 ```
 It's like there was never an endpoint to get images in an *image storage* microservice.
-By looking deeper into the code I found out that what the microservice actually does is connect to another server and store or fetch the images from it.
+By looking deeper into the code, I found out that what the microservice actually does is connect to another server and store or fetch the images from it.
 A proxy, if you will.
 And that other server behind the proxy needed [forwarded headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded){:target="_blank"} to function properly.
 Our proxy is built on top of [Zuul](https://github.com/Netflix/zuul){:target="_blank"}, which was sending the needed headers correctly.
