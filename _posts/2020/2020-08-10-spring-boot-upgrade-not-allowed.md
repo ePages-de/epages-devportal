@@ -94,9 +94,31 @@ And a dozen more.
 All of them are related to uploading and managing the images on the storage.
 
 And now the vicious loop begins.
-Searching for similar issues, trying out the solutions from all the different posts on Github and Stackoverflow, failing to run them successfully, searching for new solutions. etc.
+Searching for similar issues, trying out the solutions from all the different posts on Github and Stackoverflow, failing to run them successfully, searching for new solutions, etc.
 Nothing helped.
 My team tried to lend me a hand and after every discussion I would go and make a change in the microservice, only to find out that the changes did not solve the problem.
 
 After a certain point I did not believe that we can upgrade our proxy microservice in the first place and felt like giving up on the task altogether (which means putting it back to the backlog).
 This was when Donald told me he can take this problem over.
+
+---
+
+Integration tests, Distributed Tracing and Logging are the terms that we developers tend to ignore or not worry that much since they don't appear in the scene on sunny days.
+But working on a microservice architecture where quite often you have to debug requests passing through several services, the lack of traceability or a centralized logging system can be quite a hassle.
+Luckily our logs are analyzed and stored to `Google Stackdriver` which offers you plenty of functionalities to search through the logs.
+
+Let's go back to the problem and to what I did to find it and come up with the solution in the end.
+
+After discussing with Andrey what had he tried and I decide to go Sherlock and follow the failing requests around in order to see what was changed on its way.
+
+{% image_custom image="/assets/img/pages/blog/images/sherlock.png" width="80" lightbox %}
+
+As it's know every request in a Spring based environment goes through a chain of filters which can validate, enhance or even block the requests.
+Same like passing the security checks at the airport!
+
+Thus, I went through each filter and everything was look fine until I reached the recently added `ForwardedHeaderFilter`.
+Finally, a clue appeared.
+The request path was changed to a different path which was a bit unfortunate for us since it existed only for `POST` requests therefor a `405` was received.
+After reading the documentation I understood that it's used to wrap the initial request and change it based on the `X-Forwarded` headers, a behavior which we didn't want to have.
+Then **WHY?** Why an unnecessary filter was added on the first place? Answer is simple.
+Inherited from the shared libraries.
