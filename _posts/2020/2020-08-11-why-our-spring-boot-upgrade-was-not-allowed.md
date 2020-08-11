@@ -115,7 +115,7 @@ Let's get back to the problem and to what I did to come up with a solution.
 
 After discussing with Andrey what he had tried, I decided to play Sherlock and followed the failing requests in order to see what was changed on their way.
 
-{% image_custom image="/assets/img/pages/blog/images/sherlock.png" width="50" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/sherlock.jpg" width="50" lightbox %}
 
 As you might know, every request in a Spring-based environment goes through a chain of filters which can validate, enhance, or even block the requests.
 It's similar to passing the security checks at the airport!
