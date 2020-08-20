@@ -250,6 +250,12 @@
   description: is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
   image: avatar_male.jpg
 
+- id: gzweig
+  name: Gregor
+  full_name: Gregor Zweig
+  description: is a Working Student for RnD and an enthusiast for web technologies and data science. He enjoys rock climbing to get a change in perspective.
+  image: gzweig.jpg
+
 - id: hahnert
   name: Heiko
   full_name: Heiko Ahnert
