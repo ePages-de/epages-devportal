@@ -8,7 +8,7 @@ background_image: index.jpg
 A toggle switch works like a physical switch, that can be used e.g. to turn the light on and off.
 In the cockpit we display toggle switches to enable merchants to turn a feature on or off, and to enhance cards with additional features.
 
-The UI element "checkbox" is used quite similarly.
+The UI element "checkbox" is used in our software quite similarly.
 Check the section "Choosing between toggle switch and checkbox" below and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
 
 ## Use cases
@@ -27,7 +27,7 @@ Customers will be able to view and interact with the merchant's website. This is
 * **Allow visitors to make purchases on your website**: When the merchant activates this toggle, a cart will be displayed at the top of the website and each product will have an "Add to cart" button, allowing visitors to order the merchant's products.
 The merchant needs to make sure they are ready to sell (and not only showcase) their products on their website before activating the toggle.
 
-💡 _Note: This is a temporary solution and might be handled differently in the future._
+💡 _Note: This is an inherited and temporary solution for this use case. The current implementation needs to be reviewed and updated in the future._
 
 ### Enhance cards with extensions
 
@@ -46,15 +46,15 @@ Both options don't have an impact on the functionality of the other cards, but e
 
 ## Structure
 
-A toggle switch looks like a classical on/off switch.
-The two different states give a clear visual feedback, so that the merchant is always aware if the toggle switch is turned on or off.
+A toggle switch looks like a classic on/off switch.
+The two different states give clear visual feedback so that the merchant is always aware if the toggle switch is turned on or off.
 
-* A checkmark on a green background, toggled to the right, represents an active feature.
-* A cross on a beige background, toggled to the left, represents a deactivated feature.
+* A checkmark on a green background, toggled to the right, represents an active feature or mode.
+* A cross on a beige background, toggled to the left, represents a deactivated feature or mode.
 
 On the right side of the toggle switch, a label clearly explains the action that can be taken.
 
-Depending on the complexity of the feature, additional content is shown below the toggle switch.
+Depending on the complexity of the feature or mode, additional content may be shown below the toggle switch.
 
 {% image_custom image="/assets/img/pages/essence/pricing-for-variations.png" width="100" %}
 
@@ -66,11 +66,11 @@ Toggle switches may be positioned on a card together with further UI elements th
 
 ## Behavior
 
-By selecting either the switch itself or its lable, it changes its state:
+By selecting either the switch itself or its label, it changes its state:
 
 {% image_custom image="/assets/img/pages/essence/switch-button.gif" width="100" %}
 
-## Choosing between toggle switch and checkbox
+## Choosing between toggle switches and checkboxes
 
 Toggle switches and checkboxes seem to be quite similar as they are both used to activate some sort of "settings".
 
