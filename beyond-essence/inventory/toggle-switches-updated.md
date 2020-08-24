@@ -6,19 +6,18 @@ background_image: index.jpg
 ---
 {% image_custom image="/assets/img/pages/essence/switch-button-on-off.png" width="25" align="right" %}
 A toggle switch works like a physical switch, that can be used e.g. to turn the light on and off.
-In the cockpit we display toggle switches to enable merchants to turn a feature on or off, and to enhance cards with additional features.
+In the cockpit we display toggle switches to enable merchants to turn a feature or mode on or off, and to enhance cards with additional features.
 
 The UI element "checkbox" is used in our software quite similarly.
-Check the section "Choosing between toggle switch and checkbox" below and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
+Check the section "Choosing between toggle switches and checkboxes" below and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
 
 ## Use cases
 
-In the cockpit, toggle switches have two main use cases:
+In the cockpit, toggle switches have three main use cases:
 
 ### Activate significant features
 
 Some toggle switches in the cockpit have a significant impact on the functionality of the cockpit and the merchant's workflow.
-When their default state is changed, typically more than one part of the cockpit is impacted.
 
 **Example: Website settings**
 
@@ -43,6 +42,18 @@ For the pricing of variation products, the merchant has two options:
 * If the toggle is _enabled_: A table opens on the same card and allows the merchant to set an individual price for each variation.
 
 Both options don't have an impact on the functionality of the other cards, but enhance or reduce the functionality of the Pricing card only.
+
+### Switch between different modes
+
+The third use case for toggle switches in our software is the activation/deactivation of different modes.
+
+**Example: Enable delete mode**
+
+On the Manage variations modal, the merchant can switch between two different modes:
+
+* If the toggle is _disabled_ (default): The modal is in the Edit mode and allows the merchant to make changes to existing variation values.
+* If the toggle is _enabled_: The pen icons on the value bubbles change to x icons allowing the merchant to delete values.
+Also, a confirmation message pops up informing the merchant about the consequences of deleting a variation value.
 
 ## Structure
 
@@ -83,11 +94,11 @@ To decide when to use a toggle switch, here are some clues:
 
 ## Copy writing
 
-As toggle switches typically allow merchants to enable or disable features that have a significant effect on their workflow and data might be lost when they deactivate a previously activated feature, make sure the label and description are precise and make it easy for the merchant to understand the consequences of activating/deactivating the toggle.
+As toggle switches typically allow merchants to enable or disable features or modes that have a significant effect on their workflow and data might be lost when they deactivate a previously activated feature, make sure the label (and description, if applicable) are precise and make it easy for the merchant to understand the consequences of activating/deactivating the toggle.
 
 * Be short, precise and direct
-* Start the toggle label with a verb, e.g. “Allow visitors to make purchases on your website.” (exception: “Website is live”)
-* If there is a static description text underneath the toggle, describe what will happen when the switch is on.
+* Start the toggle label with a verb and describe what changing its default state will do, e.g. “Allow visitors to make purchases on your website.” (exception: “Website is live”)
+* If there is a static description text underneath the toggle, describe what will happen when the switch is activated.
 Start with “If this toggle is activated…”
 * If the description text only appears after the feature is toggled on, describe what will happen when the switch is turned off.
 Start with: “If you toggle off FEATURE…”
@@ -99,9 +110,13 @@ Be sure to save any changes."
 
 _Precisely explains what happens when the switch is turned on._
 
-**DON'T**: "Display a cart in the header of your website."
+**DON'T**: "A cart will be displayed in the header of your website."
 
 _Too ambigous, unclear if this is what happens when the toggle is turned on or off_
+
+**ALSO DON'T**: "Want to display a cart in the header of your website?"
+
+_The question format makes in unclear for the merchant if they need to activate or deactivate the toggle for the desired outcome._
 
 ## Design
 
