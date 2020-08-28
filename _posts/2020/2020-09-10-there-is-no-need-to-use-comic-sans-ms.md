@@ -17,9 +17,8 @@ You could say that the typesetter is thus the forerunner of the digital and prin
 So, here we are a couple of decades later, having the opportunity to choose from countless font-families.
 But how do we choose between all the possibilities?
 
-Should we simply stick to the well-known Comic Sans MS forever?
-I think, every designer has their own favorites.
-In this post, I will share a few of mine.
+Let's make the most of this variety before another font ends up like the frowned upon Comic Sans MS.
+In this post, I will share a few of my favorite serif, sans-serif, and handwritten fonts.
 
 ## Serif Fonts
 
@@ -28,14 +27,15 @@ And although I would not want to use serif fonts on their own, partner them with
 
 ### Playfair Display
 
-This font, designed by Claus Eggers Sørensen, is a little bit, as the name announces it, more playful than typical serif fonts.
+[This font](https://fonts.google.com/specimen/Playfair+Display){:target="_blank"}, designed by Claus Eggers Sørensen, is a little bit, as the name announces it, more playful than typical serif fonts.
 The serifs partially finish with a dot which makes the whole picture not as straight as most serif fonts are.
-However, each letter, particularly the lower case ones, have a relatively large height which makes the typeface appear somewhat elegant.Playfair Display comes in 12 styles making it easy to emphasize without using another font-family - although you could, since Playfair Display can be paired with most plain sans-serif fonts like Roboto or Open Sans but also with other serif fonts.
+However, each letter, particularly the lower case ones, have a relatively large height which makes the typeface appear somewhat elegant.
+Playfair Display comes in 12 styles making it easy to emphasize without using another font-family - although you could, since Playfair Display can be paired with most plain sans-serif fonts like Roboto or Open Sans but also with other serif fonts.
 Furthermore, it is very well suited as a headline.
 
 ### EB Garamond
 
-EB Garamond is the revival of Claude Garamont’s famous typefaces from the mid-16th century.
+[EB Garamond](https://fonts.google.com/specimen/EB+Garamond){:target="_blank"} is the revival of Claude Garamont’s famous typefaces from the mid-16th century.
 An ode to a key moment in history and a free and open-source community project.
 Although I personally think that a designer would not use this font on a regular basis, it can fit to certain occasions.
 It comes with a seriousness that can be instrumentalized.
@@ -47,7 +47,7 @@ In the example below, I thus paired it with Playfair Display.
 
 ### Merriweather
 
-Merriweather was designed by Sorkin Type for screens.
+[Merriweather](https://fonts.google.com/specimen/Merriweather){:target="_blank"} was designed by Sorkin Type for screens.
 It is a very pleasant to read typeface.
 The font has a certain slab serif look and feel to it as it has block-like serifs.
 It looks slightly similar to Roboto Slab but it is somewhat more elegant since it does not have the typewriter appearance to it as many typical slab serif fonts do.
@@ -65,13 +65,13 @@ Here are a few of my favorites:
 
 ### Roboto
 
-The classic among the Google Fonts, Roboto by designer Christian Robertson, is largely geometrical and has a clear static look to it.
+The classic among the Google Fonts, [Roboto](https://fonts.google.com/specimen/Roboto){:target="_blank"} by designer Christian Robertson, is largely geometrical and has a clear static look to it.
 It has 12 different styles to emphasize.
 You can't go wrong with this font.
 
 ### Quicksand
 
-With its distinctive round terminals, Quicksand by Andrew Paglinawan is easily recognized.
+With its distinctive round terminals, [Quicksand](https://fonts.google.com/specimen/Quicksand){:target="_blank"} by Andrew Paglinawan is easily recognized.
 It is best used for display purposes.
 Quicksand looks modern and young but has a slightly playful character, so I would not recommend this font to professional corporations but rather for blogs or smaller, one-person businesses to emphasize on the personality behind the website.
 
@@ -79,7 +79,7 @@ Quicksand looks modern and young but has a slightly playful character, so I woul
 
 ### Montserrat
 
-This font was designed by Julieta Ulanovsky to celebrate the beauty of urban typography.
+[This font](https://fonts.google.com/specimen/Montserrat){:target="_blank"} was designed by Julieta Ulanovsky to celebrate the beauty of urban typography.
 Although it works best for headlines, you can use it as a body text font.
 The slight horizontal stretch of each letter of this typeface gives it a futuristic and modern look.
 It comes in 18 (!) styles and works good on its own.
@@ -98,13 +98,13 @@ Nevertheless, there are many beautiful handwritten fonts out there and given the
 All of the above typefaces are Google Fonts, free and open-source.
 They are a great resource from designers for designers.
 However, when it comes to handwriting fonts, I personally think that there are better ones out there.
-Dancing Script by Impallari Type is, as the name announces it, spontaneous and the letters bounce.
+[Dancing Script](https://fonts.google.com/specimen/Dancing+Script){:target="_blank"} by Impallari Type is, as the name announces it, spontaneous and the letters bounce.
 Still, it looks kind of intentional which I think should not be the case with handwritten fonts.
 Either way, if it fits to the content of your creation, it is a good choice to shaken up your design.
 
 ### Wildy Sign
 
-This premium handdrawn monoline font by Dikas Studios looks really realistic.
+[This premium handdrawn monoline font](https://freedesignresources.net/wildy-sign-signature-font/){:target="_blank"} by Dikas Studios looks really realistic.
 The letters flow into each other and catch the eye of its viewer immediately.
 Wildy Sign works best for print designs or social media feeds, but I can also imagine it on a website to emphasize the personality of its owner.
 In the example below, I paired it with the above mentioned Quicksand.
@@ -114,7 +114,7 @@ In the example below, I paired it with the above mentioned Quicksand.
 ### Quentin
 
 A bit difficult to read but nontheless beautiful.
-That's Quentin by Get Studio.
+That's [Quentin](https://freedesignresources.net/quentin-free-font/){:target="_blank"} by Get Studio.
 This free typeface is an eyecatcher.
 Its significant rough texture from dry strokes look really authentic.
 I can imagine it on a website with an artistic topic.
