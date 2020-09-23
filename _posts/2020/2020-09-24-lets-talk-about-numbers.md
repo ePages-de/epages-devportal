@@ -4,7 +4,7 @@ title: Let's talk about numbers
 date: 2020-09-24
 header_image: private/survey-header.png
 header_overlay: true
-category: methods-and-tools
+category: on-the-job
 tags: ["company culture", "facts"]
 authors: ["Aroso"]
 about_authors: ["amahaiuddin"]
