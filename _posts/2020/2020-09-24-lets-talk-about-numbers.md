@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Let's talk about numbers
+title: Let's talk about numbers 2020
 date: 2020-09-24
 header_image: private/survey-header.png
 header_overlay: true
@@ -14,6 +14,6 @@ Two years ago, we published our blog post [Let's talk about numbers](/blog/on-th
 
 Some time has passed by now. So, I was wondering what has changed in the meantime: How many #womenintech do we have? What are the top 3 programming languages our developers are using? That’s why I’ve talked to our software developers, designers, UX experts, technical writers, POs, and scrum masters (again). Here’s the updated version of who we are and what we stand for: 
 
-{% image_custom image=".jpg" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/ePagesInNumbers2020.png" width="100" lightbox %}
 
-Note: Some questions allowed multiple answers. This caused the total response percentage to exceed 100.%
+Note: Some questions allowed multiple answers. This caused the total response percentage to exceed 100%.
