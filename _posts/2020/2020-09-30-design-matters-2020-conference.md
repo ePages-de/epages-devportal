@@ -17,7 +17,7 @@ From UX designers to product designers to UI designers, anyone who “creates”
 
 ## A hybrid conference 
 
-Using the live-streaming platform [vi.to](https://vi.to/){:target="_blank"} and guided by live stream host [André Cardoso](hhttps://designmatters.io/line-up/andre-cardoso/){:target="_blank"} , those of us participating remotely enjoyed main stage talks, online-only workshops, and interviews with speakers.
+Using the live-streaming platform [vi.to](https://vi.to/){:target="_blank"} and guided by live stream host [André Cardoso](hhttps://designmatters.io/line-up/andre-cardoso/){:target="_blank"}, those of us participating remotely enjoyed main stage talks, online-only workshops, and interviews with speakers.
 All talks fell under the three themes of this year’s conference: Real Fake, Next Gen Design, and Scrappy Creative.
 
 {% image_custom image="/assets/img/pages/blog/images/01-design-matters-2020-conference.png" width="40" lightbox %}
