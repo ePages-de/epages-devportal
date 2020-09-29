@@ -2,7 +2,7 @@
 layout: post
 title: Design Matters 2020 Conference
 date: 2020-09-30
-header_image: private/survey-header.png
+header_image: public/design-matters-2020.jpg
 header_overlay: true
 category: event
 tags: ["conference", "design"]
@@ -20,7 +20,7 @@ From UX designers to product designers to UI designers, anyone who “creates”
 Using the live-streaming platform [vi.to](https://vi.to/){:target="_blank"} and guided by live stream host [André Cardoso](hhttps://designmatters.io/line-up/andre-cardoso/){:target="_blank"} , those of us participating remotely enjoyed main stage talks, online-only workshops, and interviews with speakers.
 All talks fell under the three themes of this year’s conference: Real Fake, Next Gen Design, and Scrappy Creative.
 
-{% image_custom image="/assets/img/pages/blog/images/01-design-matters-2020-conference.png" width="50" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/01-design-matters-2020-conference.png" width="40" lightbox %}
 
 ## Real Fake
 
@@ -34,7 +34,7 @@ With robots like the GPT-3 writing articles in the Guardian, it has never before
 Another highlight was a talk from [Anita Patwardhan Butler](https://designmatters.io/line-up/anita-patwardhan-butler/){:target="_blank"} from Twitter, who presented a case study of managing the spread of misinformation on Twitter.
 They found that many “fake news” articles were being re-tweeted before the user had even read the article, and they worked to “balance flow and friction” and create an additional step in the re-tweeting process to invite users to read articles before they shared them.
 
-{% image_custom image="/assets/img/pages/blog/images/02-design-matters-2020-conference.png" width="50" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/02-design-matters-2020-conference.png" width="40" lightbox %}
 
 ## Next Gen Design
 
@@ -48,7 +48,7 @@ Addressing topics such as inclusivity, ethics, and sustainability, the talks in 
 For example, when we conduct UX research, how much are our own personal biases influencing the way we analyze the needs and behaviors of users that are different from us? 
 A subsequent online-only workshop with moderators from McKinsey challenged us in small groups to see how we might be perpetuating stereotypes and anti-black discrimination in our design processes and working environments.
 
-{% image_custom image="/assets/img/pages/blog/images/03-design-matters-2020-conference.png" width="50" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/03-design-matters-2020-conference.png" width="40" lightbox %}
 
 ## Practical takeaways
 
