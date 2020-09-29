@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design Matters 2020 Conference
+title: Design Matters 2020
 date: 2020-09-30
 header_image: public/design-matters-2020.jpg
 header_overlay: true
@@ -29,7 +29,7 @@ It is no longer black and white – things such as face filters and avatars mean
 As Design Matters co-founder [Ingrid Haug](https://designmatters.io/line-up/ingrid-haug-2/){:target="_blank"} stated in her welcome talk, “we need a new visual language for true and false.”
 
 Talks from designers such as [Simone Rebaudengo](https://designmatters.io/line-up/simone-rebaudengo/){:target="_blank"} from oio.studio explored the ever-changing boundaries between products and people.
-With robots like the GPT-3 writing articles in the Guardian, it has never before been so true that we as designers have a responsibility to support users in determining what is real.
+With robots like the [GPT-3 writing articles in the Guardian](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3){:target="_blank"}, it has never before been so true that we as designers have a responsibility to support users in determining what is real.
 
 Another highlight was a talk from [Anita Patwardhan Butler](https://designmatters.io/line-up/anita-patwardhan-butler/){:target="_blank"} from Twitter, who presented a case study of managing the spread of misinformation on Twitter.
 They found that many “fake news” articles were being re-tweeted before the user had even read the article, and they worked to “balance flow and friction” and create an additional step in the re-tweeting process to invite users to read articles before they shared them.
