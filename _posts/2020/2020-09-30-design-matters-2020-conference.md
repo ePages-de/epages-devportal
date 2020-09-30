@@ -4,7 +4,7 @@ title: Design Matters 2020
 date: 2020-09-30
 header_image: public/design-matters-2020.jpg
 header_overlay: true
-category: event
+category: events
 tags: ["conference", "design"]
 authors: ["Sarah"]
 about_authors: ["swilsonreissmann"]
