@@ -17,7 +17,7 @@ From UX designers to product designers to UI designers, anyone who “creates”
 
 ## A hybrid conference 
 
-Using the live-streaming platform [vi.to](https://vi.to/){:target="_blank"} and guided by live stream host [André Cardoso](hhttps://designmatters.io/line-up/andre-cardoso/){:target="_blank"}, those of us participating remotely enjoyed main stage talks, online-only workshops, and interviews with speakers.
+Using the live-streaming platform [vi.to](https://vi.to/){:target="_blank"} and guided by live stream host [André Cardoso](https://designmatters.io/line-up/andre-cardoso/){:target="_blank"}, those of us participating remotely enjoyed main stage talks, online-only workshops, and interviews with speakers.
 All talks fell under the three themes of this year’s conference: Real Fake, Next Gen Design, and Scrappy Creative.
 
 {% image_custom image="/assets/img/pages/blog/images/01-design-matters-2020-conference.png" width="40" lightbox %}
@@ -53,7 +53,7 @@ A subsequent online-only workshop with moderators from McKinsey challenged us in
 ## Practical takeaways
 
 The conference wasn’t just high-level inspiring talks; there were also very tangible and practical learnings.
-One such talk was by [Vitaly Friedman](https://designmatters.io/line-up/kevin-bickam/){:target="_blank"} of Smashing Magazine, a well-known UX website based in Freiburg.
+One such talk was by [Vitaly Friedman](https://designmatters.io/line-up/vitaly-friedman/){:target="_blank"} of Smashing Magazine, a well-known UX website based in Freiburg.
 In his talk about designing usable web forms, he highlighted the research his company has done on UX best practices for form inputs and gave a plethora of useful advice about how to improve the experience of filling out a form for our users.
 
 ## Summary
