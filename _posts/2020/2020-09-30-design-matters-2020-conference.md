@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design Matters 2020
+title: Design Matters 2020 - A hybrid conference
 date: 2020-09-30
 header_image: public/design-matters-2020.jpg
 header_overlay: true
@@ -10,17 +10,17 @@ authors: ["Sarah"]
 about_authors: ["swilsonreissmann"]
 ---
 
-Just when you thought you wouldn’t be able to attend any conferences or do any networking in this year of COVID, the [Design Matters](https://designmatters.io/){:target="_blank"} conference in Copenhagen decided to go hybrid.
+Just when you thought you wouldn’t be able to attend any conferences or do any networking in this year of COVID-19, the [Design Matters 2020](https://designmatters.io/){:target="_blank"} conference in Copenhagen decided to go hybrid.
 Disappointed to not be able to attend in person, last week I eagerly logged on remotely for the two-day conference from the comfort of my own home.
 Design Matters is a yearly conference bringing together “creatives” who are interested in exploring new movements in digital design.
 From UX designers to product designers to UI designers, anyone who “creates” digital products will find something to be inspired by.
 
-## A hybrid conference 
+## A hybrid conference
 
 Using the live-streaming platform [vi.to](https://vi.to/){:target="_blank"} and guided by live stream host [André Cardoso](https://designmatters.io/line-up/andre-cardoso/){:target="_blank"}, those of us participating remotely enjoyed main stage talks, online-only workshops, and interviews with speakers.
-All talks fell under the three themes of this year’s conference: Real Fake, Next Gen Design, and Scrappy Creative.
+All talks fell under the three themes of this year’s conference: "Real Fake", "Next Gen Design", and "Scrappy Creative".
 
-{% image_custom image="/assets/img/pages/blog/images/01-design-matters-2020-conference.png" width="40" lightbox %}
+{% twitter https://twitter.com/uxerexuser/status/1308661347819958275 %}
 
 ## Real Fake
 
@@ -32,7 +32,7 @@ Talks from designers such as [Simone Rebaudengo](https://designmatters.io/line-u
 With robots like the [GPT-3 writing articles in the Guardian](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3){:target="_blank"}, it has never before been so true that we as designers have a responsibility to support users in determining what is real.
 
 Another highlight was a talk from [Anita Patwardhan Butler](https://designmatters.io/line-up/anita-patwardhan-butler/){:target="_blank"} from Twitter, who presented a case study of managing the spread of misinformation on Twitter.
-They found that many “fake news” articles were being re-tweeted before the user had even read the article, and they worked to “balance flow and friction” and create an additional step in the re-tweeting process to invite users to read articles before they shared them.
+They found that many “fake news” articles were being retweeted before the user had even read the article, and they worked to “balance flow and friction” and create an additional step in the re-tweeting process to invite users to read articles before they shared them.
 
 {% image_custom image="/assets/img/pages/blog/images/02-design-matters-2020-conference.png" width="40" lightbox %}
 
@@ -61,5 +61,3 @@ In his talk about designing usable web forms, he highlighted the research his co
 The hybrid conference was a great success and I felt only disappointed that I couldn’t be there in person.
 Networking was more challenging remotely, but possible.
 I took a lot of inspiration and practical advice with me I can use in my daily work at ePages and look forward to attending in person next year (fingers crossed!)
-
-_Note: Images shared with permission from the conference._
