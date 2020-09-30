@@ -562,6 +562,12 @@
   description: is a passionate Tech Recruiter, who enjoys talks about technologies, and believes in creating an awesome candidate experience journey.
   image: stansil.jpg
 
+- id: swilsonreissmann
+  name: Sarah
+  full_name: Sarah Wilson-Reißmann
+  description: is a UX manager, who loves to create seamless solutions that delight users. She enjoys hearing and analyzing user insights, writing detailed UX concepts, and perfecting her Kimchi recipe.
+  image: swilsonreissmann.jpg
+
 - id: szetzsche
   name: Sandra
   full_name: Sandra
