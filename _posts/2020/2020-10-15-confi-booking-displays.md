@@ -1,54 +1,63 @@
 ---
 layout: post
-title: Confi-Displays
-date: 2020-10-12
+title: Displays for our conference rooms
+date: 2020-10-15
 header_image: public/confis.jpg
 header_position: center
 header_overlay: true
 category: methods-and-tools
-tags: []
+tags: ["display", "outlook", "meeting"]
 authors: ["Norman"]
 about_authors: ["nfranke"]
 ---
 
 
-# Displays for our conference rooms
-
 ## From the idea to a functioning display
 
-Is the conference room free at the moment? 
-Or has a colleague already booked it? 
-Am I interrupting an ongoing meeting? 
+Is the conference room free at the moment?
+Or has a colleague already booked it?
+Am I interrupting an ongoing meeting?
 
-These and many more questions will surely go through most people's minds when they stand in front of a locked conference room. 
+These and many more questions will surely go through most people's minds when they stand in front of a locked conference room.
 
-On the other hand, many people are familiar with the situation, that you are in a meeting and you are disturbed by colleagues bursting in because they think that the room is free. 
+On the other hand, many people are familiar with the situation, that you are in a meeting and you are disturbed by colleagues bursting in because they think that the room is free.
 
-To avoid these and other problems, we have thought about building small displays for our conference rooms to give a quick overview of the booked times of the respective rooms. There are some solutions on the market but we have decided to build them ourselves.
+To avoid these and other problems, we have thought about building small displays for our conference rooms to give a quick overview of the booked times of the respective rooms.There are some solutions on the market but we have decided to build them ourselves.
 
-As we always employ interns in the company and looking for practical and interesting projects, this was a very good opportunity. Three interns were involved in this project. Henri (the first trainee) already set up a working prototype and built a first display. Nikolas and Kilian have refined and extended it. 
+As we always employ interns in the company and looking for practical and interesting projects, this was a very good opportunity.
+Three interns were involved in this project. 
+Henri (the first trainee) already set up a working prototype and built a first display. 
+Nikolas and Kilian (further trainees) have refined and extended it.
 
-The initial proto-type with a 3D-printed housing and small display was then transformed into a finished 10.1&Prime; touch display in a cool wooden frame. The rudimentary proto-type has also changed a lot and an appointment booking option has been added. 
+The initial proto-type with a 3D-printed housing and small display was then transformed into a finished 10.1&Prime; touch display in a cool wooden frame. 
+The rudimentary proto-type has also changed a lot and an appointment booking option has been added.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-confi-comparison.jpg" width="70" lightbox %}
 
 ## The technology behind it
 
-Basically, it can be said that the structure described below does not necessarily have to be used. This project also aimed to show the trainees working on it a variety of technology. Since different systems have already been used in the company, we have concentrated on using and expanding them. Not all parts can be reproduced identically and the following lines of code serve as an example and illustration of how such a project can be implemented.
+Basically, it can be said that the structure described below does not necessarily have to be used.
+This project also aimed to show the trainees working on it a variety of technology. Since different systems have already been used in the company, we have concentrated on using and expanding them.
+Not all parts can be reproduced identically and the following lines of code serve as an example and illustration of how such a project can be implemented.
 
 ### The data source
 
-As data source and resource management we use the functionality of the resource calendars of Outlook365. There we have created a dedicated calendar for each conference room. All colleagues can use it to book the room for their appointments. Collisions and double bookings are minimised via the appointment scheduling option. Nevertheless, this is not completely excluded. 
+As data source and resource management we use the functionality of the resource calendars of Outlook.
+There we have created a dedicated calendar for each conference room. All colleagues can use it to book the room for their appointments.
+Collisions and double bookings are minimised via the appointment scheduling option. Nevertheless, this is not completely excluded. 
 
 Outlook offers the possibility of querying these calendars externally using Exchange Web Services Calls (EWS) and displaying the individual entries.
 
 
-
 ### The intermediate layer / message broker
 
-Since we want to install as less "intelligence" as possible in our displays, we need an intermediate layer that retrieves and prepares the information from Outlook. We have already developed a internal team website, which collects data from different systems and displays them in a bundled form, the idea of using it here was very obvious. 
+Since we want to install as less "intelligence" as possible in our displays, we need an intermediate layer that retrieves and prepares the information from Outlook.
+We have already developed an internal team website, which collects data from different systems and displays them in a bundled form, the idea of using it here was very obvious.
 
-This team website is based on Java and the Vaadin framework. There already exists a connection to our Outlook system via EWS Java client. By means of this connection we can simply call up appointments and store these data temporarily. This information can then be retrieved in the internal network via REST request. With the help of this controller the occupancy of the individual conference rooms can be called up and an overview of the currently available config can be displayed. 
+This team website is based on [Java](oracle.com/java/){:target="_blank"} and the [Vaadin](https://vaadin.com/){:target="_blank"} framework.
+There already exists a connection to our Outlook system via EWS Java client. By means of this connection we can simply call up appointments and store these data temporarily.
+This information can then be retrieved in the internal network via REST request.
+With the help of this controller the occupancy of the individual conference rooms can be called up and an overview of the currently available config can be displayed.
 
 {% highlight java %}
 @RequestMapping(method = RequestMethod.GET, value = "/{confiName}")
@@ -105,10 +114,15 @@ public ResponseEntity<?> getAppointments(@PathVariable String confiName) throws 
 {% endhighlight %}
 
 
+In addition to this, a function was created with which a new appointment for the respective conference room can be created via REST call.
+With this function you can also create and save a new allocation via the displays later.
+However, this is not intended to replace the actual booking process of the room and is only intended as a quick and easy way of reserving the conference room at short notice.
+For this purpose, the start and end times, the reason and the organiser are required as details.
+In order to facilitate the entry on the display, a list is provided for the reason and for the booker (LDAP user), from which you can only select.
+The selection option for the reason is maintained manually as a config file in Git and the list of available organisers is generated from the LDAP directory.
 
-In addition to this, a function was created with which a new appointment for the respective conference room can be created via REST call. With this function you can also create and save a new allocation via the displays later. However, this is not intended to replace the actual booking process of the room and is only intended as a quick and easy way of reserving the conference room at short notice. For this purpose, the start and end times, the reason and the organiser are required as details. In order to facilitate the entry on the display, a list is provided for the reason and for the booker (LDAP user), from which you can only select. The selection option for the reason is maintained manually as a config file in Git and the list of available organisers is generated from the LDAP directory. 
-
-If a room is booked using this function, an EWS request is sent from the team website to the Outlook system and a new appointment entry is generated in the room. After a few minutes this entry will appear automatically on the displays.
+If a room is booked using this function, an EWS request is sent from the team website to the Outlook system and a new appointment entry is generated in the room.
+After a few minutes this entry will appear automatically on the displays.
 
 {% highlight java %}
 public void createAppointment(String emailAdress, String booker, Date startDate, Date endDate, String title)
@@ -715,7 +729,10 @@ So that this file does not have to be maintained manually and can be updated aut
 
 By calling up this REST request, the return value is the currently valid config.js and the displays are thus updated to the latest configuration status.
 
-With the help of our webdesigner Caro & Björn, we could develop a great frontend. Here the current and following bookings for the day are displayed. For each booking the start and end time, the title and the booker are displayed. If you click on the symbol at the end of the line, the participants are also displayed. The line fills up the more time of the meeting has passed. The meeting will then disappear after approx. 30 minutes after completion.
+With the help of our web designers Caro and Björn, we could develop a great frontend. Here the current and following bookings for the day are displayed.
+For each booking the start and end time, the title and the booker are displayed. If you click on the symbol at the end of the line, the participants are also displayed.
+The line fills up the more time of the meeting has passed.
+The meeting will then disappear after approx. 30 minutes after completion.
 
 <table>
 	<tr>
@@ -727,6 +744,8 @@ With the help of our webdesigner Caro & Björn, we could develop a great fronten
 
 ## Outlook
 
-With the current version of the displays, we have a working system and we can install them in all our conference rooms. Our employees can see at a glance which appointments are due for the current day and in which time slots the conference room is occupied. With the help of the booking function it is also possible to book the room at short notice. Now it is time to put everything through its paces and see whether the system is also successful in everyday life. 
+With the current version of the displays, we have a working system and we can install them in all our conference rooms.
+Our employees can see at a glance which appointments are due for the current day and in which time slots the conference room is occupied.
+With the help of the booking function it is also possible to book the room at short notice. Now it is time to put everything through its paces and see whether the system is also successful in everyday life.
 
-For the future it is already planned to provide the booking function with a logic that double bookings are not possible and are thus prevented. 
+For the future it is already planned to provide the booking function with a logic that double bookings are not possible and are thus prevented.
