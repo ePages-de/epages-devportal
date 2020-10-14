@@ -61,6 +61,9 @@ This information can then be retrieved in the internal network via REST requests
 With the help of this controller, the occupancy of the individual conference rooms can be called up and an overview of the currently available config can be displayed.
 
 {% highlight java %}
+
+// ConfiController.java
+...
 @RequestMapping(method = RequestMethod.GET, value = "/{confiName}")
 @ResponseBody
 public ResponseEntity<?> getAppointments(@PathVariable String confiName) throws AMHomeException {
@@ -90,6 +93,7 @@ public ResponseEntity<?> getAppointments(@PathVariable String confiName) throws 
 	}
 	return new ResponseEntity<>(roomBookings, HttpStatus.OK);
 }
+...
 {% endhighlight %}
 
 {% highlight bash %}
@@ -126,6 +130,8 @@ If a room is booked using this function, an EWS request is sent from the team we
 After a few minutes, this entry will appear automatically on the displays.
 
 {% highlight java %}
+// EWSClient.java
+...
 public void createAppointment(String emailAdress, String booker, Date startDate, Date endDate, String title)
 		throws URISyntaxException, Exception {
 
@@ -145,6 +151,7 @@ public void createAppointment(String emailAdress, String booker, Date startDate,
 	appointment.save(folderId);
 	CachedResponses.invalidate(folderId);
 }
+...
 {% endhighlight %}
 
 ### The display
@@ -187,6 +194,7 @@ Every 15 minutes a new request is sent to the intermediate layer to update the o
 It is not necessary to reload the website on the display.
 
 {% highlight html %}
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -254,6 +262,7 @@ It is not necessary to reload the website on the display.
 {% endhighlight %}
 
 {% highlight js %}
+/* confi-controller.js */
 const appointments = window.appointments !== undefined ? window.appointments : [
   {name: "weekly",id: 1},
   {name: "SM-Daily",id: 2},
@@ -689,6 +698,7 @@ The configuration file for the booking function is loaded automatically when the
 This is required for the selection fields when booking a room.
 
 {% highlight javascript %}
+/* config.js */
 window.appointments = [
     {name: "weekly",id: 1},
     {name: "SM-Daily",id: 2},
@@ -707,6 +717,7 @@ An additional function was built into the team website that generates this file 
 This way, the file does not have to be maintained manually and can be updated automatically. 
 
 {% highlight java %}
+// ConfiController.java
 @RequestMapping(method = RequestMethod.GET, value = "/get_config_js")
 	@ResponseBody
 	public ResponseEntity<?> createConfigJS() {
