@@ -1,53 +1,53 @@
 ---
 layout: post
-title: Displays for our conference rooms
+title: How to create meeting room schedule displays on your own
 date: 2020-10-15
 header_image: public/confis.jpg
 header_position: center
 header_overlay: true
 category: methods-and-tools
-tags: ["display", "outlook", "meeting"]
+tags: ["display", "outlook", "conference room", "rasberry pi"]
 authors: ["Norman"]
 about_authors: ["nfranke"]
 ---
-
-
-## From the idea to a functioning display
 
 Is the conference room free at the moment?
 Or has a colleague already booked it?
 Am I interrupting an ongoing meeting?
 
-These and many more questions will surely go through most people's minds when they stand in front of a locked conference room.
+These and many more questions will surely go through most peoples' minds when they stand in front of a locked conference room.
 
-On the other hand, many people are familiar with the situation, that you are in a meeting and you are disturbed by colleagues bursting in because they think that the room is free.
+On the other hand, many people will be familiar with the following situation: You are in a meeting and you are disturbed by colleagues bursting in because they think that the room is free.
 
-To avoid these and other problems, we have thought about building small displays for our conference rooms to give a quick overview of the booked times of the respective rooms.There are some solutions on the market but we have decided to build them ourselves.
+To avoid these and other problems, we have thought about building small displays for our conference rooms to give a quick overview of the booked time slots of the respective rooms.
+There are some solutions on the market but we have decided to build one ourselves.
 
-As we always employ interns in the company and looking for practical and interesting projects, this was a very good opportunity.
+As we at ePages regularly employ interns and look for practical and interesting projects, this was a very good opportunity.
 Three interns were involved in this project. 
-Henri (the first trainee) already set up a working prototype and built a first display. 
-Nikolas and Kilian (further trainees) have refined and extended it.
+Henri (the first intern) has already set up a working prototype and built a first display. 
+Nikolas and Kilian (further interns) have refined and extended it.
 
-The initial proto-type with a 3D-printed housing and small display was then transformed into a finished 10.1&Prime; touch display in a cool wooden frame. 
-The rudimentary proto-type has also changed a lot and an appointment booking option has been added.
+The initial prototype with a 3D-printed housing and a small display was then transformed into the final 10.1&Prime; touch display in a cool wooden frame. 
+The rudimentary prototype has also changed a lot and an appointment booking option has been added.
 
 {% image_custom image="/assets/img/pages/blog/images/blog-confi-comparison.jpg" width="70" lightbox %}
 
 ## The technology behind it
 
-Basically, it can be said that the structure described below does not necessarily have to be used.
-This project also aimed to show the trainees working on it a variety of technology. Since different systems have already been used in the company, we have concentrated on using and expanding them.
+Basically, it can be said that you don't necessarily need to use the structure described below.
+This project also aimed to show the interns working on it a variety of technologies.
+Since different systems have already been used in the company, we concentrated on using and expanding them.
 Not all parts can be reproduced identically and the following lines of code serve as an example and illustration of how such a project can be implemented.
 
 ### The data source
 
-As data source and resource management we use the functionality of the resource calendars of Outlook.
-There we have created a dedicated calendar for each conference room. All colleagues can use it to book the room for their appointments.
-Collisions and double bookings are minimised via the appointment scheduling option. Nevertheless, this is not completely excluded. 
+As data source and resource management we use the functionality of the resource calendars of [Outlook](https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook){:target="_blank"}.
+There, we have created a dedicated calendar for each conference room.
+All colleagues can use it to book the room for their appointments.
+Collisions and double bookings are minimized via the appointment scheduling option.
+Nevertheless, this is not completely impossible. 
 
-Outlook offers the possibility of querying these calendars externally using Exchange Web Services Calls (EWS) and displaying the individual entries.
-
+Outlook offers the possibility of querying these calendars externally using [Exchange Web Services Calls (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/start-using-web-services-in-exchange){:target="_blank"} and displaying the individual entries.
 
 ### The intermediate layer / message broker
 
@@ -55,9 +55,10 @@ Since we want to install as less "intelligence" as possible in our displays, we 
 We have already developed an internal team website, which collects data from different systems and displays them in a bundled form, the idea of using it here was very obvious.
 
 This team website is based on [Java](oracle.com/java/){:target="_blank"} and the [Vaadin](https://vaadin.com/){:target="_blank"} framework.
-There already exists a connection to our Outlook system via EWS Java client. By means of this connection we can simply call up appointments and store these data temporarily.
-This information can then be retrieved in the internal network via REST request.
-With the help of this controller the occupancy of the individual conference rooms can be called up and an overview of the currently available config can be displayed.
+There already exists a connection to our Outlook system via an EWS Java client.
+By means of this connection we can simply call up appointments and store these data temporarily.
+This information can then be retrieved in the internal network via REST requests.
+With the help of this controller, the occupancy of the individual conference rooms can be called up and an overview of the currently available config can be displayed.
 
 {% highlight java %}
 @RequestMapping(method = RequestMethod.GET, value = "/{confiName}")
@@ -114,15 +115,15 @@ public ResponseEntity<?> getAppointments(@PathVariable String confiName) throws 
 {% endhighlight %}
 
 
-In addition to this, a function was created with which a new appointment for the respective conference room can be created via REST call.
-With this function you can also create and save a new allocation via the displays later.
-However, this is not intended to replace the actual booking process of the room and is only intended as a quick and easy way of reserving the conference room at short notice.
-For this purpose, the start and end times, the reason and the organiser are required as details.
-In order to facilitate the entry on the display, a list is provided for the reason and for the booker (LDAP user), from which you can only select.
-The selection option for the reason is maintained manually as a config file in Git and the list of available organisers is generated from the LDAP directory.
+In addition to this, a function was created with which a new appointment for the respective conference room can be created via a REST call.
+With this function, you can also create and save a new allocation via the displays later on.
+However, this is not intended to replace the actual booking process of the room and should only serve as a quick and easy way of reserving the conference room at short notice.
+For this purpose, the start and end times, the reason, and the organizer are required as details.
+In order to facilitate the entry on the display, a list is provided for the reason and for the organizer (LDAP user), from which you need to select.
+The selection option for the reason is maintained manually as a config file in Git and the list of available organizers is generated from the LDAP directory.
 
-If a room is booked using this function, an EWS request is sent from the team website to the Outlook system and a new appointment entry is generated in the room.
-After a few minutes this entry will appear automatically on the displays.
+If a room is booked using this function, an EWS request is sent from the team website to the Outlook system and a new appointment entry is generated for the room.
+After a few minutes, this entry will appear automatically on the displays.
 
 {% highlight java %}
 public void createAppointment(String emailAdress, String booker, Date startDate, Date endDate, String title)
@@ -147,11 +148,13 @@ public void createAppointment(String emailAdress, String booker, Date startDate,
 {% endhighlight %}
 
 ### The display
-For our displays we used a 10.1&Prime; touch display from Sunfounder and a Raspberry Pi 3a+. The display was embedded in the wooden frame and braced with the help of self-designed and self-printed 3D holders.  
+For our displays we used a 10.1&Prime; touch display from [Sunfounder](https://www.sunfounder.com/){:target="_blank"} and a [Raspberry Pi 3a+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/){:target="_blank"}.
+The display was embedded in a wooden frame and braced with the help of self-designed and self-printed 3D holders.  
 
 {% image_custom image="/assets/img/pages/blog/images/blog-confi-back-and-front.jpg" width="70" lightbox %}
 
-A minimal installation of Raspbian runs on the displays. This Lite version has been converted into a kiosk monitor (browser without URL input and in full screen mode) using X-Server and Chromium Browser and automatically opens the correct conference room website when starting. 
+A minimal installation of [Raspbian](https://www.raspberrypi.org/downloads/raspberry-pi-os/){:target="_blank"} runs on the displays.
+This lite version has been converted into a kiosk monitor (a browser without URL input and in full screen mode) using X-Server and Chromium Browser that automatically opens the correct conference room website when starting. 
 
 {% highlight bash %}
 ➜  ~ sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox chromium-browser
@@ -179,7 +182,9 @@ chromium-browser --disable-infobars --kiosk 'https://confis.vm-intern.epages.com
 ```
 {% endhighlight %}
 
-The website is a simple HTML page which uses AJAX requests to retrieve data from our team website and to prepare it nicely. Every 15 minutes a new request is sent to the intermediate layer and the occupancy data is updated. It is not necessary to reload the website on the display.
+The website is a simple HTML page which uses AJAX requests to retrieve data from our team website and to prepare it nicely.
+Every 15 minutes a new request is sent to the intermediate layer to update the occupancy.
+It is not necessary to reload the website on the display.
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -680,7 +685,8 @@ const initConfi = function(options) {
 };
 {% endhighlight %}
 
-The configuration file for the booking function is loaded automatically when the web page is opened. This is required for the selection fields for booking a room.
+The configuration file for the booking function is loaded automatically when the web page is opened.
+This is required for the selection fields when booking a room.
 
 {% highlight javascript %}
 window.appointments = [
@@ -697,7 +703,8 @@ window.user = [
 ];
 {% endhighlight %}
 
-So that this file does not have to be maintained manually and can be updated automatically, a function has also been built into the team website that generates this file from the existing data.
+An additional function was built into the team website that generates this file from the existing data.
+This way, the file does not have to be maintained manually and can be updated automatically. 
 
 {% highlight java %}
 @RequestMapping(method = RequestMethod.GET, value = "/get_config_js")
@@ -727,12 +734,14 @@ So that this file does not have to be maintained manually and can be updated aut
 {% endhighlight %}
 
 
-By calling up this REST request, the return value is the currently valid config.js and the displays are thus updated to the latest configuration status.
+By calling this REST request, the return value is the currently valid config.js and the displays are thus updated to the latest configuration status.
 
-With the help of our web designers Caro and Björn, we could develop a great frontend. Here the current and following bookings for the day are displayed.
-For each booking the start and end time, the title and the booker are displayed. If you click on the symbol at the end of the line, the participants are also displayed.
+With the help of our web designers Caro and Björn, we were able to develop a great frontend.
+Here, the current and upcoming bookings for the day are displayed.
+For each booking the start and end time, the title, and the organizer are displayed.
+If you click on the symbol at the end of the line, the participants are also displayed.
 The line fills up the more time of the meeting has passed.
-The meeting will then disappear after approx. 30 minutes after completion.
+The meeting will then disappear approx. 30 minutes after completion.
 
 <table>
 	<tr>
@@ -742,10 +751,11 @@ The meeting will then disappear after approx. 30 minutes after completion.
 </table>
 
 
-## Outlook
+## What's next?
 
 With the current version of the displays, we have a working system and we can install them in all our conference rooms.
 Our employees can see at a glance which appointments are due for the current day and in which time slots the conference room is occupied.
-With the help of the booking function it is also possible to book the room at short notice. Now it is time to put everything through its paces and see whether the system is also successful in everyday life.
+With the help of the booking function, it is also possible to book the room at short notice.
+Now, it is time to put everything through its paces and see whether the system is also successful in everyday life.
 
-For the future it is already planned to provide the booking function with a logic that double bookings are not possible and are thus prevented.
+For the future it is already planned to provide the booking function with a logic that prevents double bookings.
