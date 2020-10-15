@@ -54,7 +54,7 @@ Outlook offers the possibility of querying these calendars externally using [Exc
 Since we want to install as less "intelligence" as possible in our displays, we need an intermediate layer that retrieves and prepares the information from Outlook.
 We have already developed an internal team website, which collects data from different systems and displays them in a bundled form, the idea of using it here was very obvious.
 
-This team website is based on [Java](oracle.com/java/){:target="_blank"} and the [Vaadin](https://vaadin.com/){:target="_blank"} framework.
+This team website is based on [Java](https://www.oracle.com/java/){:target="_blank"} and the [Vaadin](https://vaadin.com/){:target="_blank"} framework.
 There already exists a connection to our Outlook system via an EWS Java client.
 By means of this connection we can simply call up appointments and store these data temporarily.
 This information can then be retrieved in the internal network via REST requests.
