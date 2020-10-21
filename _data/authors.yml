@@ -133,7 +133,7 @@
 - id: crichter
   name: Christin
   full_name: Christin Richter
-  description: is a Localization Expert, writer, and part of the PhraseApp Content Team. She considers innovation a mandatory process, that is enhanced by disruptive technologies and organizations.
+  description: is a Localization Expert, writer, and part of the Phrase Content Team. She considers innovation a mandatory process, that is enhanced by disruptive technologies and organizations.
   image: crichter.jpg
 
 - id: cseeger
@@ -235,7 +235,7 @@
 - id: fvollert
   name: Frederik
   full_name: Frederik Vollert
-  description: is the founder of PhraseApp.com and shares the team's notoriously bad music taste; he loves rap. Having spent some time in the U.S. as a high-school student and enjoying traveling, he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.
+  description: is the founder of Phrase.com and shares the team's notoriously bad music taste; he loves rap. Having spent some time in the U.S. as a high-school student and enjoying traveling, he is interested in the differences and similarities in international culture and took localization seriously from the beginning in every project he worked on.
   image: fvollert.jpg
 
 - id: fziller
@@ -249,6 +249,12 @@
   full_name: German San Emeterio
   description: is a JavaScript Developer who is now into Ruby on Rails. He is fond of video games, and mangas, as well as loves to learn new technologies.
   image: avatar_male.jpg
+
+- id: gzweig
+  name: Gregor
+  full_name: Gregor Zweig
+  description: is a Working Student for RnD and an enthusiast for web technologies and data science. He enjoys rock climbing to get a change in perspective.
+  image: gzweig.jpg
 
 - id: hahnert
   name: Heiko
@@ -325,7 +331,7 @@
 - id: kkoessler
   name: Katharina K.
   full_name: Katharina Kössler
-  description: is an HR Manager at ePages. She loves to spread good humor and motivation, and to find new colleagues for our different teams.
+  description: is our HR Manager at ePages in Jena. She loves to spread good humor and motivation, and to find new colleagues for the different teams.
   image: kkoessler.jpg
 
 - id: kmueller
@@ -446,7 +452,7 @@
   name: Norman
   full_name: Norman Franke
   description: keeps ePages’ shops running - day and night - and is not afraid of standby duty.
-  image: avatar_male.jpg
+  image: nfranke.jpg
 
 - id: nstender
   name: Nicole
@@ -556,6 +562,12 @@
   description: is a passionate Tech Recruiter, who enjoys talks about technologies, and believes in creating an awesome candidate experience journey.
   image: stansil.jpg
 
+- id: swilsonreissmann
+  name: Sarah
+  full_name: Sarah Wilson-Reißmann
+  description: is a UX manager, who loves to create seamless solutions that delight users. She enjoys hearing and analyzing user insights, writing detailed UX concepts, and perfecting her Kimchi recipe.
+  image: swilsonreissmann.jpg
+
 - id: szetzsche
   name: Sandra
   full_name: Sandra
@@ -651,3 +663,9 @@
   full_name: Xavier Alvarez
   description: is a Java and Kotlin Backend Developer, and an Ubuntu fanboy.
   image: avatar_male.jpg
+
+- id: ywolpers
+  name: Yasmine
+  full_name: Yasmine W.
+  description: is a UX Writer / Tech Writer at ePages. She loves working with words and languages and is passionate about finding just the right wording. Even if that means deciding the original wording was actually the best option.
+  image: ywolpers.jpg
