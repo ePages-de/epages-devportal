@@ -21,12 +21,13 @@ Some toggle switches in the cockpit have a significant impact on the functionali
 
 **Example: Website settings**
 
-* **Website is live**: When the merchant activates this toggle, the website goes live and will be visible to customers.
-Customers will be able to view and interact with the merchant's website. This is an important step for the merchant, as they need to make sure they're all set before activating the toggle.
-* **Allow visitors to make purchases on your website**: When the merchant activates this toggle, a cart will be displayed at the top of the website and each product will have an "Add to cart" button, allowing visitors to order the merchant's products.
-The merchant needs to make sure they are ready to sell (and not only showcase) their products on their website before activating the toggle.
+* **Website is live**: 
+When the merchant activates this toggle and saves the changes, the website goes live and will be visible to customers.
+Customers will be able to view and interact with the merchant's website.
+* **Allow visitors to make purchases on your website**: 
+When the merchant activates this toggle and saves the changes, a cart will be displayed at the top of the website and each product will have an "Add to cart" button, allowing visitors to order the merchant's products.
 
-💡 _Note: This is an inherited and temporary solution for this use case. The current implementation needs to be reviewed and updated in the future._
+💡 _Note: This is a temporary solution. The current implementation needs to be reviewed and updated in the future._
 
 ### Enhance cards with extensions
 
@@ -54,6 +55,8 @@ On the Manage variations modal, the merchant can switch between two different mo
 * If the toggle is _disabled_ (default): The modal is in the Edit mode and allows the merchant to make changes to existing variation values.
 * If the toggle is _enabled_: The pen icons on the value bubbles change to x icons allowing the merchant to delete values.
 Also, a confirmation message pops up informing the merchant about the consequences of deleting a variation value.
+
+💡 _Note: This use case is currently not implemented in our software._
 
 ## Structure
 
