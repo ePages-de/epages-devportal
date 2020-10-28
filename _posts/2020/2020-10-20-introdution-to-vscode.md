@@ -122,7 +122,7 @@ VSCode has the possibility of has an internal terminal. It means that you can ru
 
 ### Show/hide terminal
 
-This shortcut allows you to show and hide the vSCode's terminal without lost your session.
+This shortcut allows you to show and hide the VSCode's terminal without lost your session.
 
 * On Windows: ```
   Ctrl + `
