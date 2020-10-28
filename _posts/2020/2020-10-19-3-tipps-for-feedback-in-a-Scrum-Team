@@ -7,13 +7,13 @@ header_position: center
 header_overlay: true
 category: methods-and-tools
 tags: ["feedback", "Agile", "Scrum"]
-authors: ["Stefanie"]
-about_authors: ["sholller"]
+authors: ["Stefanie", "Miriam"]
+about_authors: ["sholller","mkofler"]
 ---
 Uhhh, yet another blog post about giving feedback… 
 There are already thousands of articles about this topic. 
 Now that I start writing this blog post I feel really reluctant to do this, since you have probably heard all of this before and nothing I write will be new to you. 
-But I’d like to invite you to ask yourself: When was the last time someone annoyed and you directly went to this colleague afterwards to tell him how this made your feel?
+But I’d like to invite you to ask yourself: When was the last time someone did something, that annoyed you and you directly went to this colleague afterwards to tell him/her how this made your feel?
 Can’t recall when this happened? Then please go on reading here!
 When our teammates do something that makes us angry there are typically 5 reactions:
 1. This was so bad, he/she should realize this on her/his own
@@ -35,6 +35,24 @@ I often hear people say: “I don’t think it’s appropriate to discuss this r
 It’s ok if you wait for your colleague to be back in the office the next day, but don’t postpone it for longer. 
 With colleagues, that are working from home or in different locations I often witness, that the feedback will never be given. 
 And I know from colleagues that work remotely, that they appreciate very much if someone reaches out to them and asks for a call. 
+
+The great art of giving valuable feedback is to leave out personal interpretations and only focus on the perception and effect of the behavior. 
+In addition, I-messages are essential, since it is all about your perception.
+
+A simple and practical way to give constructive feedback in an appreciative and respectful manner derives from Nonviolent Communication (by Rosenberg) and is divided into three sections.
+
+1. Perception: What did I observe?
+2. Effect: What was the effect on me?
+3. Wish: What is my wish for the future?
+
+For example:
+1. Perception: "I noticed that you seemed absent at our last meeting. You often looked at your mobile phone and hardly participated in the joint discussion."
+2. Effect: "I felt that another topic was on your mind at that moment and that you were absent. In this way you miss the contents of our meeting and do not contribute anything from your side. That's a pity, because we are running the project together."
+3. Wish: "My wish for the future is that you simply seek the conversation with me in advance. If you have an urgent topic on your mind, it makes sense to clarify it first and then be present at the meeting with a clear head. With pleasure we can then also simply move the appointment. Just talk to me openly."
+
+These three steps are a good guideline that I often use before I give feedback.
+But now let's move on to the 3 tipps for feedback in a Scrum-Team:
+
 
 ## 1)	Don’t wait
 
@@ -67,7 +85,7 @@ This is especially true when you had talked about an improvement your colleague 
 First and foremost, ePages has a company culture, that values openness, honesty and direct feedback. The onboarding for new employees is characterized by often and early feedback from different levels (HR, peers and manager) and of course the new employee also gives feedback to us and to the onboarding process. All employees participate in a 360 degree feedback process at least once a year, in this process everyone is rated on Communication, Collaboration and Quality of work and peers and manger give comments on what possible improvements they see.
 To be “rated” by your peers sounds worse that it is, in practice the comments your colleagues and managers give are generally appreciative and very helpful.
 But of course, giving feedback once a year is not enough in a self-organized team. 
-Therefor the Scrum Masters encourage giving feedback often. 
+Therefore the Scrum Masters encourage giving feedback often. 
 To support the teams in actually doing so, we first have a look at what the team needs. 
 This may go from offering a training on the principles of feedback to doing regular feedback retrospectives. 
 Feedback is a key element of a retrospective, but of course not the only one. 
@@ -76,6 +94,9 @@ The teams liked this so much that we now do this regularly every 2 to 3 months.
 It is a nice way to have some appointed time to make sure that you actually tell your colleagues what you liked and did not like.
 
 How do you ensure that feedback in your team is given early and often? 
-When was the last time you gave feedback to your colleagues be it positive or negative directly after the event? 
+When was the last time you gave feedback to your colleagues - be it positive or negative - directly after the event? 
+How do you give feedback to your colleagues? What guidelines do you use?
 Let us know on Twitter at @epagesdevs!
 
+If you want to read further, here are our recommendations:
+Kim Scott - [here] (bit.ly/2BZq3Eo) {:target="_blank"} or in her book "Radical Candor"
