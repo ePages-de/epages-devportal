@@ -95,7 +95,7 @@ With this shortcut, you can go to a specific line in the file that you have open
 
 {% image_custom image="/assets/img/pages/blog/images/vscode_shortcuts_go_to_specific_line.gif" width="50" lightbox %}
 
-### Remove a Line
+### Remove a line
 
 Remove the full line where the cursor is.
 
@@ -107,7 +107,7 @@ Remove the full line where the cursor is.
 
 ### Open new terminal
 
-VSCode has the possibility of has an internal terminal. It means that you can run shell commands without losing the focus of the editor.
+VSCode has the possibility of an internal terminal. It means that you can run shell commands without losing the focus of the editor.
 
 * On Windows: ```
   Ctrl + Shift + `
@@ -136,7 +136,7 @@ This shortcut allows you to show and hide the VSCode's terminal without lost you
 
 {% image_custom image="/assets/img/pages/blog/images/vscode_shortcuts_show_hide_terminal.gif" width="50" lightbox %}
 
-### Go to File
+### Go to file
 
 With this shortcut, you can go to a specific file in your project.
 
@@ -148,7 +148,7 @@ With this shortcut, you can go to a specific file in your project.
 
 ### Open Settings
 
-If you like to change your VS settings you can go with this shortcut.
+If you like to change your VSCode settings, you can go with this shortcut.
 
 * On Windows: `Ctrl + ,`
 * On Mac: `⌘ + ,`
@@ -156,7 +156,7 @@ If you like to change your VS settings you can go with this shortcut.
 
 {% image_custom image="/assets/img/pages/blog/images/vscode_shortcuts_open_settings.gif" width="50" lightbox %}
 
-### Select Current Line
+### Select current line
 
 You can select the full line of where your cursor is.
 
@@ -170,7 +170,7 @@ You can select the full line of where your cursor is.
 
 There are more shortcuts, maybe some of them are different in your Linux distribution (I use Ubuntu). But don't worry, you can check all of them and even custom them. You only need to go to `File -> Preferences -> Keyboard Shortcuts`.
 
-On the VSCode website, there is a pdf with shortcut's information for your operating system.
+On the website of VSCode, you can find a PDF with all available shortcuts for your operating system
 
 * [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
 * [Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf){:target="_blank"}
