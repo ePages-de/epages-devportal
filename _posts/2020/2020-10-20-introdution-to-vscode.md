@@ -1,27 +1,27 @@
 ---
 layout: post
-title: Most useful VSCode shortcuts
+title: 13 useful VSCode shortcuts for faster development
 date: 2020-10-29
 header_image: public/shortcuts.jpg
 header_position: center
 header_overlay: true
 category: methods-and-tools
-tags: ["text", "editor", "vscode", "shortcuts"]
+tags: ["text", "editor", "visual studio code", "shortcuts"]
 authors: ["German"]
 about_authors: ["gsanemeterio"]
 ---
 
-As a developer, I've used a lot of text editor such as [Atom](https://atom.io/){:target="_blank"}, [Sublime Text](https://www.sublimetext.com/){:target="_blank"}, [Notepad++](https://notepad-plus-plus.org/downloads/){:target="_blank"}...
+As a developer, I've already used many different text editors such as [Atom](https://atom.io/){:target="_blank"}, [Sublime Text](https://www.sublimetext.com/){:target="_blank"}, and [Notepad++](https://notepad-plus-plus.org/downloads/){:target="_blank"}.
+But in [Visual Studio Code (VSCode)](https://code.visualstudio.com/){:target="_blank"} I see a powerful tool for making websites.
 
-But in Visual Studio Code I see a powerful tool for making websites.
-
-Frequently, I'm asked by my team, about certain shortcuts in VSCode.
-
+Frequently, I'm asked by my team about certain shortcuts in VSCode.
 In this blog post, I'm going to share some of the most useful shortcuts that I use.
 
 ### Format code
 
-This shortcut helps to put your code in the correct format. It's necessary to set well your editor settings. To make it work, you have to press:
+This shortcut helps to put your code in the correct format.
+It's necessary to set well your editor settings.
+To make it work, you have to press:
 
 * On Windows: `Shift + Alt + F`
 * On Mac: `⇧ + ⌥ + F`
@@ -31,7 +31,8 @@ This shortcut helps to put your code in the correct format. It's necessary to se
 
 ### Show command palette
 
-This is one of the most useful commands that I know. With this command, you can run an extension or even know the shortcuts of the extension.
+This is one of the most useful commands that I know.
+With this command, you can run an extension or figure out its shortcuts.
 
 * On Windows: `Ctrl + Alt + P`
 * On Mac: `⇧ + ⌘ + P`
@@ -59,11 +60,11 @@ This shortcut helps you a lot when you need to type in different lines.
 
 {% image_custom image="/assets/img/pages/blog/images/vscode_shortcuts_duplicate_cursor.gif" width="50" lightbox %}
 
-Also if you keep pressed `Ctrl + Alt` you click in whatever you like, you'll duplicate it where you've clicked.
+Also, if you keep pressed `Ctrl + Alt` and click with your mouse in any line, you'll duplicate the cursor several times in the respective lines.
 
 ### Select word
 
-With this shortcut, you can select the word where your cursor is.
+With this shortcut, you can select the word under your cursor.
 
 * On Windows: `Ctrl+ D`
 * On Mac: `⌘ + D`
@@ -83,7 +84,7 @@ This shortcut allows you to open and close the sidebar immediately.
 
 {% image_custom image="/assets/img/pages/blog/images/vscode_shortcuts_open_close_sidebar.gif" width="50" lightbox %}
 
-In some moments, this helps you a lot.
+In some situations, this will help you a lot.
 
 ### Go to a specific line
 
@@ -97,7 +98,7 @@ With this shortcut, you can go to a specific line in the file that you have open
 
 ### Remove a line
 
-Remove the full line where the cursor is.
+This is how to remove the full line under your cursor:
 
 * On Windows: `Ctrl + X`
 * On Mac: `⌘ + X`
@@ -107,7 +108,8 @@ Remove the full line where the cursor is.
 
 ### Open new terminal
 
-VSCode has the possibility of an internal terminal. It means that you can run shell commands without losing the focus of the editor.
+VSCode has the possibility of an internal terminal.
+This means that you can run shell commands without losing your focus in the editor.
 
 * On Windows: ```
   Ctrl + Shift + `
@@ -122,7 +124,7 @@ VSCode has the possibility of an internal terminal. It means that you can run sh
 
 ### Show/hide terminal
 
-This shortcut allows you to show and hide the VSCode's terminal without lost your session.
+This shortcut allows you to show and hide the VSCode's terminal without losing your entries.
 
 * On Windows: ```
   Ctrl + `
@@ -148,7 +150,7 @@ With this shortcut, you can go to a specific file in your project.
 
 ### Open Settings
 
-If you like to change your VSCode settings, you can go with this shortcut.
+If you'd like to change your VSCode settings, you can go with this shortcut.
 
 * On Windows: `Ctrl + ,`
 * On Mac: `⌘ + ,`
@@ -158,7 +160,7 @@ If you like to change your VSCode settings, you can go with this shortcut.
 
 ### Select current line
 
-You can select the full line of where your cursor is.
+You can select the full line under your cursor.
 
 * On Windows: `Ctrl + L`
 * On Mac: `⌘ + L`
@@ -168,9 +170,11 @@ You can select the full line of where your cursor is.
 
 ## Overview of all available shortcuts
 
-There are more shortcuts, maybe some of them are different in your Linux distribution (I use Ubuntu). But don't worry, you can check all of them and even custom them. You only need to go to `File -> Preferences -> Keyboard Shortcuts`.
+There are more shortcuts available, and maybe some of the ones above are different in your Linux distribution (I use Ubuntu).
+But don't worry, you can check all of them and even customize them.
+You only need to go to `File -> Preferences -> Keyboard Shortcuts`.
 
-On the website of VSCode, you can find a PDF with all available shortcuts for your operating system
+On the website of VSCode, you can find a PDF with all available shortcuts for your operating system:
 
 * [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
 * [Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf){:target="_blank"}
