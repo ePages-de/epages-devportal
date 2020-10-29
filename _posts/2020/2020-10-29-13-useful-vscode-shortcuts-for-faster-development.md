@@ -20,8 +20,8 @@ In this blog post, I'm going to share some of the most useful shortcuts that I u
 ### Format code
 
 This shortcut helps to put your code in the correct format.
-Of course, first you need to edit your formatting settings in the editor.
-To apply that shortcut, you have to press:
+Of course, you first need to edit your formatting settings in the editor.
+To apply this shortcut, you have to press:
 
 * On Windows: `Shift + Alt + F`
 * On Mac: `⇧ + ⌥ + F`
