@@ -20,7 +20,7 @@ In this blog post, I'm going to share some of the most useful shortcuts that I u
 ### Format code
 
 This shortcut helps to put your code in the correct format.
-It's necessary to set well your editor settings.
+This shortcut helps to put your code in the correct format. Of course, first you need to edit your formatting settings in the editor. To apply that shortcut, you have to press:
 To make it work, you have to press:
 
 * On Windows: `Shift + Alt + F`
@@ -84,7 +84,7 @@ This shortcut allows you to open and close the sidebar immediately.
 
 {% image_custom image="/assets/img/pages/blog/images/vscode_shortcuts_open_close_sidebar.gif" width="50" lightbox %}
 
-In some situations, this will help you a lot.
+In some situations, this will help you a lot - especially when you have a very long code snippet.
 
 ### Go to a specific line
 
