@@ -32,7 +32,7 @@ Humour should be very well dosed and never take the situation lightly. When in d
 
 MAYBE: *"I have a feeling I've seen this email before... would you like to log in instead of signing up?"*
 
-RATHER NOT: *We were unable to save your changes. But the force will be with you. Always.*
+PROBABLY NOT: *We were unable to save your changes. But the force will be with you. Always.*
 
 NEVER: *"Oh no. All of your products have been deleted. Well, that's not the end of the world, is it?"*
 
