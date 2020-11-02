@@ -2,8 +2,7 @@
 layout: beyond-essence
 ---
 
-A list that doesn’t contain any items, or a search result page that doesn’t display any results are examples of empty states.
-We want to use empty states to a) guide the merchant on what to do next and b) avoid confusion on the merchant’s end.
+Examples of where empty states should be present include a table or list with no entries or a search result page with no results. Empty order tables or graphs can be depressing and demotivating, so we want to use empty states to a) guide the merchant on what to do next, b) avoid confusion on the merchant’s end and c) motivate and encourage the merchant at the beginning of their journey.
 
 ## Structure
 
@@ -12,7 +11,7 @@ An empty state should include:
 * A headline that briefly describes the state
 * A text that conveys the purpose of the page and explains what the merchant could do next
 * A CTA button that links to the next action (if there is a logical next action)
-* An illustration matching the tone of voice of the page
+* An illustration matching the theme of the page
 * A link to the corresponding help center article
 
 ## Copywriting
@@ -28,7 +27,9 @@ The intention of the wording on empty state pages depends on the kind of empty s
 * Explain how to take action
 
 _Example_:
-Product overview: Motivate the merchant to actively create the first product.
+Marketing coupons: The empty state motivates the merchant to create their first campaign and links to the Help Center for more information.
+
+{% image_custom image="/assets/img/pages/essence/coupon-campaign-empty-state.png" width="100" align="center" %}
 
 **Cannot be changed by simple action**, e.g. results that depend on the sales performance. 
 
@@ -36,6 +37,7 @@ Product overview: Motivate the merchant to actively create the first product.
 * Motivate the merchant to check back later to see what’s new or take an alternative action in the meantime.
 
 _Example_:
-App overview: There are currently no apps available here.
+App overview:
+There are currently no apps available here.
 As soon as new apps become available, you'll see them here.
 Check in at a later time to see what's new!
