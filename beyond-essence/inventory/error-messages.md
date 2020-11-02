@@ -38,7 +38,7 @@ NEVER: *"Oh no. All of your products have been deleted. Well, that's not the end
 
 ## Use cases
 
-In the Beyond cockpit we currently use two types of error messages: Toast messages and Validation messages.
+In the Beyond cockpit we currently use two types of error messages: Toast messages and validation messages.
 
 **[Toast messages](/beyond-essence/inventory/toast-messages/)**: For errors that affect the entire workflow. These messages are displayed until the error is resolved. Most of the error messages shown in toast messages are currently unspecific internal error messages.
 
