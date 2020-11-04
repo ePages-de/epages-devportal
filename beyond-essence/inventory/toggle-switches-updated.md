@@ -58,31 +58,11 @@ Also, a confirmation message pops up informing the merchant about the consequenc
 
 💡 _Note: This use case is currently not implemented in our software._
 
-## Structure
-
-A toggle switch looks like a classic on/off switch.
-The two different states give clear visual feedback so that the merchant is always aware if the toggle switch is turned on or off.
-
-* A checkmark on a green background, toggled to the right, represents an active feature or mode.
-* A cross on a beige background, toggled to the left, represents a deactivated feature or mode.
-
-On the right side of the toggle switch, a label clearly explains the action that can be taken.
-
-Depending on the complexity of the feature or mode, additional content may be shown below the toggle switch.
-
-{% image_custom image="/assets/img/pages/essence/pricing-for-variations.png" width="100" %}
-
-For further information on the exact visualisation of addtional content, consult the design section.
-
-## Position
-
-Toggle switches may be positioned on a card together with further UI elements that relate to a specific topic.
-
 ## Behavior
 
 By selecting either the switch itself or its label, it changes its state:
 
-{% image_custom image="/assets/img/pages/essence/switch-button.gif" width="100" %}
+{% image_custom image="/assets/img/pages/essence/pricing-variations-toggle.gif" width="100" %}
 
 ## Choosing between toggle switches and checkboxes
 
@@ -123,5 +103,20 @@ _The question format makes in unclear for the merchant if they need to activate 
 
 ## Design
 
-An activated toggle switch comes with a white checkmark icon on a green background, whereas a deactivated toggle switch is visualised via a white "close icon" on a beige background.
-Immediately after toggling the switch from off to on more information and/or functionality is displayed in an area with light beige background below the toggle switch.
+A toggle switch looks like a classic on/off switch.
+The two different states give clear visual feedback so that the merchant is always aware if the toggle switch is turned on or off.
+
+* A white checkmark icon on a green background, toggled to the right, represents an active feature or mode.
+* A white cross on a beige background, toggled to the left, represents a deactivated feature or mode.
+
+On the right side of the toggle switch, a label clearly explains the action that can be taken.
+
+Depending on the complexity of the feature or mode, additional content may be shown below the toggle switch.
+
+{% image_custom image="/assets/img/pages/essence/images-for-variations.png" width="100" %}
+
+For further information on the exact visualisation of addtional content, consult the design section.
+
+## Position
+
+Toggle switches may be positioned on a card together with further UI elements that relate to a specific topic.
