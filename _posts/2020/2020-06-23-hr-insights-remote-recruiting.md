@@ -31,7 +31,7 @@ Here's how it looks like (in the best-case scenario):
 4. We schedule a second interview (incl. a get-together with the team) or a trial day which is conducted fully remotly via video call.
 5. We make an offer to the applicant.
 
-## The remote trial day 
+## The remote trial day
 
 We've created a remote version of the trial day for each of our RnD teams.
 The exact procedures of the trial days differ from team to team.
