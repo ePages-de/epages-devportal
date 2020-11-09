@@ -95,11 +95,15 @@ _Precisely explains what happens when the switch is turned on._
 
 **DON'T**: "A cart will be displayed in the header of your website."
 
-_Too ambigous, unclear if this is what happens when the toggle is turned on or off_
+_Too ambigous, unclear if this is what happens when the toggle is turned on or off._
 
 **ALSO DON'T**: "Want to display a cart in the header of your website?"
 
 _The question format makes in unclear for the merchant if they need to activate or deactivate the toggle for the desired outcome._
+
+## Position
+
+Toggle switches may be positioned on a card together with further UI elements that relate to a specific topic.
 
 ## Design
 
@@ -116,7 +120,3 @@ Depending on the complexity of the feature or mode, additional content may be sh
 {% image_custom image="/assets/img/pages/essence/images-for-variations.png" width="100" %}
 
 For further information on the exact visualisation of addtional content, consult the design section.
-
-## Position
-
-Toggle switches may be positioned on a card together with further UI elements that relate to a specific topic.
