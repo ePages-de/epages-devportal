@@ -23,7 +23,11 @@ DO: You can add max. %{count} products.
 
 DON'T: You can't add more than %{count} products.
 
-DO: Incorrect password. Maybe you mistyped?
+DO: Incorrect password.
+Try again later.
+
+MAYBE: Incorrect password.
+Maybe you mistyped?
 
 DON'T: You've entered an incorrect password! Enter the correct password without typos.
 
@@ -40,7 +44,7 @@ NEVER: *"Oh no. All of your products have been deleted. Well, that's not the end
 
 In the Beyond cockpit we currently use two types of error messages: Toast messages and validation messages.
 
-**[Toast messages](/beyond-essence/inventory/toast-messages/)**: For errors that affect the entire workflow. These messages are displayed until the error is resolved. Most of the error messages shown in toast messages are currently unspecific internal error messages.
+**[Toast messages](/beyond-essence/inventory/toast-messages/)**: For errors that affect the entire workflow. Most of the error messages shown in toast messages are currently unspecific internal error messages.
 
 Error messages in toast messages should ideally contain the following elements:
 
