@@ -2,29 +2,92 @@ html
   background: $white !important
 
 .link-collection
+  max-width: 500px
+  margin: 0 auto
 
   img
     display: block
     margin: 0 auto 3rem
-    width: 25rem
+    width: 15rem
 
-  p
-    color: #afafaf
-    text-align: center
-    font-weight: 700
-    margin-bottom: 3rem
-
-  a
+  .button
+    +padding(10px null)
     background-color: #eb3b41
     color: $white
     display: block
-    width: 40rem
-    max-width: 80%
+    width: 100%
     text-align: center
-    padding: 10px 20px
-    margin: 0 auto 20px
     transition: $base-transition
 
     &:hover
       background-color: lighten(#eb3b41, 8%)
       transition: $base-transition
+
+  .columns
+    display: flex
+    justify-content: space-between
+    margin-bottom: 20px
+
+    .button
+      width: calc(50% - 10px)
+
+    .image
+      width: calc(50% - 10px)
+      background-size: cover !important
+      background-repeat: no-repeat !important
+      background-position: center !important
+      display: flex
+      justify-content: center
+      align-items: center
+      vertical-align: middle
+      transform: translateZ(0)
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+      backface-visibility: hidden
+      -moz-osx-font-smoothing: grayscale
+      transition-duration: 0.3s
+      transition-property: transform
+      position: relative
+
+      &:hover,
+      &:focus,
+      &:active
+        transform: scale(1.05)
+
+      p
+        font-size: 16px
+        font-family: "HelveticaNeue", sans-serif
+        margin: 0 10px
+        line-height: 1
+        color: #fff
+        text-align: center
+        text-shadow: 0 1px 3px rgba(50,50,50,0.4)
+
+        +grid-media($grid-medium)
+          font-size: 22px
+          line-height: 1.2
+          margin: 0 20px
+
+      .flag
+        +size(40px)
+        position: absolute
+        top: 0
+        right: 20px
+        background-size: 60px
+        background-repeat: no-repeat
+        background-position: center
+
+        +grid-media($grid-medium)
+          background-size: 80px
+          +size(50px)
+
+        &--blog
+          background-color: #4eb7a8
+
+        &--job
+          background-color: #EB3C41
+
+  .legal
+    margin: 0 auto
+    display: table
+    color: #EB3C41
+    margin-top: 30px
