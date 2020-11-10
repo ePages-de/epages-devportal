@@ -79,7 +79,7 @@ The Scrum Master cannot give background information about what exactly annoyed y
 On top of that, three team members telling someone they did not like a behaviour is ten times more efficient that one consolidated Scrum Master feedback. 
 
 The same is true for feedback via your manager. 
-If you immediately complain to the manager instead of telling the person directly, this may will take longer for the manager to give feedback than for you.
+If you immediately complain to the manager instead of telling the person directly, it may take much longer for the manager to give feedback than for you.
 What would you prefer?
 Would you like your colleagues to give direct feedback to you or should they pass it on to your manager instead?
 
@@ -101,8 +101,8 @@ Furthermore, your peers and your manager give comments on what possible improvem
 To be “rated” by your peers sounds worse than it is.
 In practice, the comments your colleagues and managers give are usually appreciative and very helpful.
 
-But of course, giving feedback once a year is not enough in a self-organized team. 
-Therefore, we as Scrum Masters encourage the team members to give feedback often. 
+But of course, giving feedback once a year is not enough in a self-organized team.
+Therefore, we as Scrum Masters encourage the team members to give feedback often.
 To support the teams in actually doing so, we first have a look at what the team needs. 
 This may go from offering a training on the principles of feedback to doing regular feedback retrospectives. 
 Feedback is a key element of a retrospective, but of course not the only one. 
