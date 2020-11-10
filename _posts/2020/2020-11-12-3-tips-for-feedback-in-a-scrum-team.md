@@ -2,7 +2,7 @@
 layout: post
 title: 3 tipps for feedback in a Scrum team
 date: 2020-11-12
-header_image: public/confis.jpg
+header_image: public/feedback-culture.jpg
 header_position: center
 header_overlay: true
 category: methods-and-tools
@@ -33,7 +33,8 @@ Therefore: if no one calls out unacceptable behaviour, it will feel like accepte
 Even if it does feel uncomfortable, giving constructive feedback about things you did not like, helps your colleagues to improve. 
 Telling them means you care about them, that you value them and that you want them to grow. 
 The awkward feeling of saying: “Hey, I think you could do better here!” quickly disappears if you say: “How do you see it? Is there a way I can help you to improve?” 
-This is even more important if you are working remotely. 
+This is even more important if you are working remotely.
+
 We often hear people say: “I don’t think it’s appropriate to discuss this remote.
 I prefer to speak about it face-to-face.” 
 It’s ok if you wait for your colleague to be back in the office the next day, but don’t postpone it for longer. 
@@ -76,15 +77,16 @@ If you tell your colleague: “The team thinks you are not capable to do this.�
 As Scrum Masters, we have to stress that you may speak to your Scrum Master / Agile Coach about the matter, but it’s about you to address your feedback. 
 The Scrum Master cannot give background information about what exactly annoyed you. 
 On top of that, three team members telling someone they did not like a behaviour is ten times more efficient that one consolidated Scrum Master feedback. 
+
 The same is true for feedback via your manager. 
-If you immediately complain to the manager instead of telling the person directly, this may result in a negative view your manager will get on that person, a lesser likelihood for raises and usually, it will take longer for the manager to give feedback than for you. 
+If you immediately complain to the manager instead of telling the person directly, this may will take longer for the manager to give feedback than for you.
 What would you prefer?
 Would you like your colleagues to give direct feedback to you or should they pass it on to your manager instead?
 
 ## 3)	Praise often
 
-This post is mainly focussed on giving negative feedback, but of course, the same is true for praise. 
-Honest and specific praise costs you very little effort and has a huge effect. 
+This post is mainly focussed on giving negative feedback, but of course, the same is true for praise.
+Honest and specific praise costs you very little effort and has a huge effect.
 This is especially true if you have talked about an improvement your colleague could make and then realize that they actually changed the behaviour.
 Instant praise is the best way to reinforce this.
 
@@ -115,4 +117,4 @@ What guidelines do you use?
 Let us know on Twitter [@epagesdevs](https://twitter.com/epagesdevs){:target="_blank"}!
 
 If you want to read further, here are our recommendations:
-Kim Scott - [_Why Leading a Remote Team Requires Radical Candor_](https://marker.medium.com/helping-your-all-remote-team-function-right-now-requires-radical-honesty-6b29622c6db9){:target="_blank"} or check out her book _Radical Candor_.
+[Kim Scott](https://twitter.com/kimballscott){:target="_blank"} - [_Why Leading a Remote Team Requires Radical Candor_](https://marker.medium.com/helping-your-all-remote-team-function-right-now-requires-radical-honesty-6b29622c6db9){:target="_blank"} or check out her book _Radical Candor_.
