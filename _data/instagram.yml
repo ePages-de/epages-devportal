@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/about/barcelona.jpg
-  text: <strong>HR insights - Remote recruiting</strong>
-  link: nasda
+  image: /assets/img/pages/instagram/blog.jpg
+  text: <strong>13 useful VSCode shortcuts for faster development</strong>
+  link: /blog/methods-and-tools/13-useful-vscode-shortcuts-for-faster-development/
 
 job:
-  image: /assets/img/pages/about/barcelona.jpg
-  text: We're hiring a <strong>Frontentd Designer</strong>
-  link: nasda
+  image: /assets/img/pages/instagram/job.jpg
+  text: We're hiring a <strong>Java Engineer</strong>
+  link: https://epages-gmbh-jobs.personio.de/job/202108?language=de
