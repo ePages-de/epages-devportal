@@ -5,5 +5,5 @@ blog:
 
 job:
   image: /assets/img/pages/instagram/job.jpg
-  text: We're hiring a <strong>Java Engineer</strong>
+  text: We're hiring a<br /><strong>Java Engineer</strong>
   link: https://epages-gmbh-jobs.personio.de/job/202108?language=de
