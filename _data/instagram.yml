@@ -1,0 +1,9 @@
+blog:
+  image: /assets/img/pages/about/barcelona.jpg
+  text: <strong>HR insights - Remote recruiting</strong>
+  link: nasda
+
+job:
+  image: /assets/img/pages/about/barcelona.jpg
+  text: We're hiring a <strong>Frontentd Designer</strong>
+  link: nasda
