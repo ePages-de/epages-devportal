@@ -307,9 +307,12 @@ task :test_html do
                 /.*terms-and-conditions.*/,
                 /.*beyond-docs.*/]
 
+  file_ignore = [/.*instagram.*/]
+
   options = { disable_external: true,
               url_ignore: url_ignore,
               empty_alt_ignore: true,
+              file_ignore: file_ignore,
               check_html: true,
               allow_hash_href: true }
 

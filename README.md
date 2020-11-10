@@ -24,6 +24,7 @@ The content in the following folders may not be shared or adapted:
 
 * `assets/img/logos`,
 * `assets/img/pages/about`,
+* `assets/img/pages/instagram`,
 * `assets/img/pages/headers/private`,
 * `assets/img/pages/blog/images`,
 * `assets/img/pages/jobs`,
