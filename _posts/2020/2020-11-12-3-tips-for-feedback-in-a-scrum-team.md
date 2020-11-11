@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 tips for feedback in a Scrum team
+title: 3 tipps for feedback in a Scrum team
 date: 2020-11-12
 header_image: public/feedback-culture.jpg
 header_position: center
