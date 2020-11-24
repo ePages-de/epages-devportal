@@ -13,9 +13,9 @@ about_authors: ["rwelzel"]
 
 ## Change is written upon all things
 
-We as developers are making changes to our software all the time. As RESTful API developers, it is common for us to change the internal behaviour of endpoints on a weekly basis. But many times we do changes without having enough knowledge about how these changes will affect the performance of a given endpoint. 
+We as developers are making changes to our software all the time. As **RESTful API** developers, it is common for us to change the internal behaviour of endpoints on a weekly basis. But many times we do changes without having enough knowledge about how these changes will affect the performance of a given endpoint. 
 
-Sometimes we might not even have the appropriate information available to make an accurate assessment of the impact of the changes that are made to our REST endpoints. Information like how often a specific endpoint is called, or how long it takes to respond on average, are vital to making a correct assessment of the impact of our changes on the software. Based on data like this we can decide whether our approach is adequate or not.
+Sometimes we might not even have the appropriate information available to make an accurate assessment of the impact of the changes that are made to our *REST* endpoints. Information like how often a specific endpoint is called, or how long it takes to respond on average, are vital to making a correct assessment of the impact of our changes on the software. Based on data like this we can decide whether our approach is adequate or not.
 
 Another important factor used in this assessment is having a **load testing tool** to actually be able to measure the impact of code changes.
 
@@ -143,7 +143,7 @@ Artillery can also:
 * Define scenarios where RPS increase with time
 * Reporting
 
-For more information you can look in the [documentation](https://artillery.io/docs/guides/overview/welcome.html), it is very easy to understand and also very useful, especially the "guides" section.
+For more information you can look in the [documentation](https://artillery.io/docs/guides/overview/welcome.html){:target="_blank"}, it is very easy to understand and also very useful, especially the "guides" section.
 
 ## Conclusion
 
