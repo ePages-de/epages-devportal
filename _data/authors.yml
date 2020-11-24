@@ -669,3 +669,9 @@
   full_name: Yasmine W.
   description: is a UX Writer / Tech Writer at ePages. She loves working with words and languages and is passionate about finding just the right wording. Even if that means deciding the original wording was actually the best option.
   image: ywolpers.jpg
+
+- id: rwelzel
+  name: Roberto
+  full_name: Roberto Welzel Filho
+  description: is a Java backend developer and an ocasional video game player.
+  image: rwelzel.jpg
