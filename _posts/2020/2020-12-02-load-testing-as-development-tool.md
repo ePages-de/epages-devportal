@@ -27,11 +27,15 @@ To achieve this you do a simple comparison of before/after: the results of a loa
 
 ## Your Tool Belt
 
+{% image_custom image="/assets/img/pages/blog/images/tool-belt.jpg" width="50" %}
+
 Workers of every trade need tools, right? With developers, it is no different. There are a few very nice tools that are easy to use and enable you to measure the impact of changes in an endpoint’s performance. We will take a look at a couple of these that can integrate your developer belt of tools. There are many (many) others out there, but the goal here is to get acquainted with just a couple, to get you started. As with every tool, each has a specific use, so take into consideration your specific needs when choosing the tool.
 
 ### Vegeta
 
-The first is called Vegeta (yes, the infamous nemesis of our beloved protector of Earth, Goku). The repository can be found here: [Vegeta Github Repo](https://github.com/tsenart/vegeta){:target="_blank"}.
+The first is called Vegeta (yes, the infamous nemesis of our beloved protector of Earth, Goku). The repository can be found here: [Vegeta Github Repo](https://github.com/tsenart/vegeta){:target="_blank"}. And here is a cool picture of Vegeta (of course this post go not go without this):
+
+{% image_custom image="/assets/img/pages/blog/images/vegeta.png" width="15" %}
 
 **Vegeta** is a command line tool that is simple to use and does a good job. To use it, you can either download the binaries (section "releases" on Github) or, if you are using Mac, you can also download it via brew:
 
