@@ -84,7 +84,8 @@ This command line tool also allows you to:
 * Set timeouts
 * Output your report in JSON format
 
-It can even plot the results in a graph (check the `plot` command)! Check out the GitHub repo to see a list of available options, it is a very flexible tool.
+It can even plot the results in a graph (check the `plot` command)!
+Check out the GitHub repo to see a list of available options, it is a very flexible tool.
 
 ### Artillery
 
