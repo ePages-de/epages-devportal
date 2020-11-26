@@ -532,6 +532,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
 
+- id: rwelzel
+  name: Roberto
+  full_name: Roberto Welzel Filho
+  description: is a Java Backend Developer and an occasional video game player.
+  image: rwelzel.jpg
+
 - id: sdinter
   name: Skadi
   full_name: Skadi Dinter
