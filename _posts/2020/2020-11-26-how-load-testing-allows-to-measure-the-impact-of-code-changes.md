@@ -113,7 +113,7 @@ config:
       name: "The real deal"
   defaults:
     headers:
-      Authorization: 'Bearer <insert the token here>'x
+      Authorization: 'Bearer <insert the token here>'
 scenarios:
   - flow:
     - get:
