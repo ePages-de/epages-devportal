@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Load testing for measuring impact
+title: How load testing allows to measure the impact of code changes
 date: 2020-11-26
 header_image: public/load-testing-as-development-tool.jpg
 header_position: bottom
