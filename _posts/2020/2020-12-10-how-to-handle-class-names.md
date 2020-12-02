@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to handle class names
+title: How to structure CSS classes
 date: 2020-12-01
 header_image: private/class-names.jpg
 header_position: center
@@ -13,7 +13,7 @@ about_authors: ["azimmermann"]
 
 A clean and arranged CSS structure is hard to maintain in growing projects. Therefore it is important to think right from the beginning how to structure your classes to not lose control. But if you start to search for methods and techniques to organize your CSS, you will soon realize that there are many ways to reach your goal!
 
-## The universe of the most popular CSS methodologies
+## The most popular CSS methodologies
 
 * [Object-Oriented CSS (OOCSS)](https://de.slideshare.net/stubbornella/object-oriented-css){:target="_blank"} _by Nicole Sullivan, introduced 2009_ 
 * [Block, Element, Modifier (BEM)](https://en.bem.info/){:target="_blank"} _by the developer team at Yandex 2005, open source since 2010_
@@ -22,22 +22,14 @@ A clean and arranged CSS structure is hard to maintain in growing projects. Ther
 * [SUIT CSS](http://suitcss.github.io/){:target="_blank"} _by Nicolas Gallagher, introduced 2014_
 * [Attribute Modules for CSS (AMCSS)](https://amcss.github.io/){:target="_blank"} _by Glen Maddern & Ben Schwarz, introduced 2014_
 * [Scalable and Modular Architecture for CSS (SMACSS)](http://smacss.com/){:target="_blank"} _by Jonathan Snook, introduced 2015_
-* [Flat hierarchy of selectors (FUN / Enduring CSS)](https://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/#l7){:target="_blank"} _by Ben Frain, introduced 2015_
-* [Systematic CSS](https://www.yumpu.com/en/document/read/47573458/systematic-css){:target="_blank"} _by Kieran Potts, introduced 2015_
-* [Reasonable System for CSS Stylesheet Structure (RSCSS)](https://rscss.io/){:target="_blank"}** _by Denis Vieira, introduced 2017_
-* [CUBE CSS](https://piccalil.li/blog/cube-css/){:target="_blank"} _by Andy Bell, introduced 2020_
 
-**Techniques that are usually rather mixed with certain CSS methods:**
-* [Utility classes](https://catalin.red/css-utility-classes-naming-conventions/){:target="_blank"}
-* [CSS Modules](https://github.com/css-modules/css-modules){:target="_blank"}
+The universe of different CSS methodologies is even bigger and grows from time to time, although the list of the most popular ones seems not to change. Since I've been dealing with these methodologies for quite a while now, I'd like to jump right to the point where I introduce you to the two most interesting approaches from my point of view.
 
+## BEM vs. SUIT CSS - Two methods in comparison
 
-## BEM vs. SUIT CSS
-
-Since I have been dealing with these methodologies for quite a while now, I would like to jump right to the point where I introduce you to the two most interesting ones from my point of view. You've probably already heard of **BEM**, after all, it's the most known and something like the superstar among the CSS methodologies. **BEM** was started to create by a developer team at Yandex in 2005 and became open source in 2010. Companies that are using **BEM** are e.g: Google, BBC, and BuzzFeed. **SUIT CSS** is another method with many similarities and was developed by Nicolas Gallagher in 2014. Companies that are using it are e.g: Twitter, BBC Three, and LevelEleven. 
+You've probably already heard of **BEM**, after all, it's the most known and something like the superstar among the CSS methodologies. **BEM** was started to create by a developer team at Yandex in 2005 and became open source in 2010. Companies that are using **BEM** are e.g: Google, BBC, and BuzzFeed. **SUIT CSS** is another method with many similarities and was developed by Nicolas Gallagher in 2014. Companies that are using it are e.g: Twitter, BBC Three, and LevelEleven. 
 
 Both methods include component-based thinking to achieve reusable, clean code for faster development and code sharing in a scalable team. And both provide a clean structure of having semantically meaningful class names to express how a component is structured and if there are presentation modifications. Although the spelling is different, there is a best practice rule that runs like a red thread: Instead of deep nesting, try to build new components. Means also to focus on writing CSS classes in form of flat nesting.
-
 
 ### Block, Element, Modifier (BEM)
 
@@ -128,7 +120,7 @@ As you can see, the declaration of the classes is so well defined that it takes 
 * Using unique and context-related class names avoids CSS conflicts
 * Composing and reusing blocks reduces the amount of maintainable CSS code
 * Scalability apply to projects of all sizes
-* **BEM:** More popular naming convention for classes leads to more public Q&A
+* **BEM:** More popular naming convention, many developers have already come into contact with
 * **SUIT CSS:** Camelcase makes longer class names more readable
 * **SUIT CSS:** Utility and state classes provides the possibility of reusable classes
 
