@@ -70,11 +70,11 @@
   description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asasin.png
 
-- id: azwick
+- id: azimmermann
   name: Anne
   full_name: Anne Debora Zimmermann
   description: is a Frontend Designer. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
-  image: azwick.jpg
+  image: azimmermann.jpg
 
 - id: bbader
   name: Birgit
