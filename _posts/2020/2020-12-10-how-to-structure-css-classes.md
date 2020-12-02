@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to structure CSS classes
-date: 2020-12-01
+date: 2020-12-10
 header_image: private/class-names.jpg
 header_position: center
 header_overlay: true
