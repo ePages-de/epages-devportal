@@ -2,7 +2,7 @@
 layout: post
 title: How to structure CSS classes
 date: 2020-12-10
-header_image: private/class-names.jpg
+header_image: public/class-structure.jpg
 header_position: center
 header_overlay: true
 category: coding
@@ -11,7 +11,9 @@ authors: ["Anne"]
 about_authors: ["azimmermann"]
 ---
 
-A clean and arranged CSS structure is hard to maintain in growing projects. Therefore it is important to think right from the beginning how to structure your classes to not lose control. But if you start to search for methods and techniques to organize your CSS, you will soon realize that there are many ways to reach your goal!
+A clean and arranged CSS structure is hard to maintain in growing projects.
+Therefore it is important to think right from the beginning how to structure your classes to not lose control.
+But if you start to search for methods and techniques to organize your CSS, you will soon realize that there are many ways to reach your goal!
 
 ## The most popular CSS methodologies
 
@@ -23,17 +25,28 @@ A clean and arranged CSS structure is hard to maintain in growing projects. Ther
 * [Attribute Modules for CSS (AMCSS)](https://amcss.github.io/){:target="_blank"} _by Glen Maddern & Ben Schwarz, introduced 2014_
 * [Scalable and Modular Architecture for CSS (SMACSS)](http://smacss.com/){:target="_blank"} _by Jonathan Snook, introduced 2015_
 
-The universe of different CSS methodologies is even bigger and grows from time to time, although the list of the most popular ones seems not to change. Since I've been dealing with these methodologies for quite a while now, I'd like to jump right to the point where I introduce you to the two most interesting approaches from my point of view.
+The universe of different CSS methodologies is even bigger and grows from time to time, although the list of the most popular ones seems not to change.
+Since I've been dealing with these methodologies for quite a while now, I'd like to jump right to the point where I introduce you to the two most interesting approaches from my point of view.
 
 ## BEM vs. SUIT CSS - Two methods in comparison
 
-You've probably already heard of **BEM**, after all, it's the most known and something like the superstar among the CSS methodologies. **BEM** was started to create by a developer team at Yandex in 2005 and became open source in 2010. Companies that are using **BEM** are e.g: Google, BBC, and BuzzFeed. **SUIT CSS** is another method with many similarities and was developed by Nicolas Gallagher in 2014. Companies that are using it are e.g: Twitter, BBC Three, and LevelEleven. 
+You've probably already heard of **BEM**, after all, it's the most known and something like the superstar among the CSS methodologies.
+BEM was started to create by a developer team at Yandex in 2005 and became open source in 2010.
+Companies that are using BEM are, e.g. Google, BBC, and BuzzFeed. 
+**SUIT CSS** is another method with many similarities and was developed by [Nicolas Gallagher](https://mobile.twitter.com/necolas){:target="_blank"} in 2014.
+Companies that are using it are, e.g. Twitter, BBC Three, and LevelEleven.
 
-Both methods include component-based thinking to achieve reusable, clean code for faster development and code sharing in a scalable team. And both provide a clean structure of having semantically meaningful class names to express how a component is structured and if there are presentation modifications. Although the spelling is different, there is a best practice rule that runs like a red thread: Instead of deep nesting, try to build new components. Means also to focus on writing CSS classes in form of flat nesting.
+Both methods include component-based thinking to achieve reusable, clean code for faster development and code sharing in a scalable team.
+And both provide a clean structure of having semantically meaningful class names to express how a component is structured and if there are presentation modifications.
+Although the spelling is different, there is a best practice rule that runs like a red thread: Instead of deep nesting, try to build new components.
+Means also to focus on writing CSS classes in form of flat nesting.
 
 ### Block, Element, Modifier (BEM)
 
-In order to the [BEM naming convention](https://en.bem.info/methodology/naming-convention/#two-dashes-style){:target="_blank"}, block and element are connected with two underscores e.g. `.author-card__image`. A modifier is added with two dashes e.g. `.author-card--full-size`. Modifiers can be added to blocks and elements e.g. `author-card__image--placeholder`. Separate words are written with a hyphen and in lowercase Latin letters.
+In order to the [BEM naming convention](https://en.bem.info/methodology/naming-convention/#two-dashes-style){:target="_blank"}, block and element are connected with two underscores, e.g. `.author-card__image`.
+A modifier is added with two dashes, e.g. `.author-card--full-size`.
+Modifiers can be added to blocks and elements, e.g. `author-card__image--placeholder`.
+Separate words are written with a hyphen and in lowercase Latin letters.
 
 **Block:**      `.block {}` <br>
 **Element:**    `.block__element {}` <br>
@@ -72,10 +85,13 @@ In order to the [BEM naming convention](https://en.bem.info/methodology/naming-c
 
 ### SUIT CSS
 
-Suit CSS focuses on supporting especially the UI component-based web application development e.g. React, Ember, and Angular.
-Regarding the [SUIT CSS naming convention](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md){:target="_blank"} we use double hyphens to indicate a component modifier e.g. `.AuthorCard--example`, and a single hyphen to indicate a component descendant e.g. `.AuthorCard-image`. Components, modifiers, and descendants names are written in camelcase, and component names start with a capital. 
+**Suit CSS** focuses on supporting especially the UI component-based web application development, e.g. [React](https://reactjs.org/){:target="_blank"}, [Ember](https://emberjs.com/){:target="_blank"}, and [Angular](https://angular.io/){:target="_blank"}.
+Regarding the [SUIT CSS naming convention](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md){:target="_blank"} we use double hyphens to indicate a component modifier, e.g. `.AuthorCard--example`, and a single hyphen to indicate a component descendant, e.g. `.AuthorCard-image`.
+Components, modifiers, and descendants names are written in camelCase, and component names start with a capital.
 
-But now we get to the interesting part: Nicolas Gallagher added a different type of class called "helper" or "utility" class. You can add this class on any element within a component to provide low-level structural or positional traits, beginning with the prefix of `u-` e.g. `.u-fullSize`. Another addition is to have states classes which are reflecting changes to a component state, they always begin with `is-` e.g. `.is-empty`.
+But now we get to the interesting part: Nicolas Gallagher added a different type of class called "helper" or "utility" class.
+You can add this class on any element within a component to provide low-level structural or positional traits, beginning with the prefix of `u-`, e.g. `.u-fullSize`.
+Another addition is to have states classes which are reflecting changes to a component state, they always begin with `is-`, e.g. `.is-empty`.
 
 ```
 .u-utilityName {}
@@ -110,9 +126,10 @@ But now we get to the interesting part: Nicolas Gallagher added a different type
 ```
 
 
-## Summery
+## Summary
 
-As you can see, the declaration of the classes is so well defined that it takes the work off your shoulders to think about class names in detail. But there are a lot of other advantages, why you should consider using **BEM** or **SUIT CSS** for your projects. 
+As you can see, the declaration of the classes is so well defined that it takes the work off your shoulders to think about class names in detail.
+But there are a lot of other advantages why you should consider using **BEM** or **SUIT CSS** for your projects.
 
 **Pros:**
 * Clear and predefined naming conventions makes understanding as well as debugging much easier
@@ -121,7 +138,7 @@ As you can see, the declaration of the classes is so well defined that it takes 
 * Composing and reusing blocks reduces the amount of maintainable CSS code
 * Scalability apply to projects of all sizes
 * **BEM:** More popular naming convention, many developers have already come into contact with
-* **SUIT CSS:** Camelcase makes longer class names more readable
+* **SUIT CSS:** camelCase makes longer class names more readable
 * **SUIT CSS:** Utility and state classes provides the possibility of reusable classes
 
 **Cons:**
@@ -130,4 +147,7 @@ As you can see, the declaration of the classes is so well defined that it takes 
 * **BEM:** No reusable classes, means the need for new class creations for the same styling
 * **SUIT CSS:** Not as long and "ugly" class names, but unfamiliar at the first glace, because of the capital letter in the beginning
 
-So what is the better CSS method now you may ask? Sorry, but that's your decision. It depends hardly on what style of class names writing you prefer and if you see utility and state classes as a great addition or as an ugly being. I, for my part, call **SUIT CSS** the powerful little brother of **BEM** since he copies the benefits of the **BEM** concept and puts a cherry on top.
+So what is the better CSS method now you may ask? 
+Sorry, but that's your decision.
+It depends hardly on what style of class names writing you prefer and if you see utility and state classes as a great addition or as an ugly being.
+I, for my part, call **SUIT CSS** the powerful little brother of **BEM** since he copies the benefits of the BEM concept and puts a cherry on top.
