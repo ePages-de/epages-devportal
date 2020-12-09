@@ -25,7 +25,7 @@ But if you start searching for methodologies and techniques to organize your CSS
 * [Attribute Modules for CSS (AMCSS)](https://amcss.github.io/){:target="_blank"} _by Glen Maddern & Ben Schwarz, introduced 2014_
 * [Scalable and Modular Architecture for CSS (SMACSS)](http://smacss.com/){:target="_blank"} _by Jonathan Snook, introduced 2015_
 
-The universe of other CSS methodologies is even bigger and grows from time to time, although the list of the most popular ones seems not to change.
+The universe of CSS methodologies is even bigger and grows from time to time, although the list of the most popular ones seems not to change.
 Since I've been dealing with these methodologies for quite a while now, I'd like to jump right to the point where I introduce you to the two most interesting approaches from my point of view.
 
 ## BEM vs. SUIT CSS - Two methodologies in comparison
@@ -113,7 +113,7 @@ These always begin with `is-`, e.g. `.is-empty`.
 #### SUIT CSS code example
 
 Do you remember the little author box we used as an example for BEM?
-This is how it would look like with SUIT CSS:
+This is how it could look like with SUIT CSS:
 
 ```
 // HTML structure
