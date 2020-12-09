@@ -6,7 +6,7 @@ header_image: public/class-structure.jpg
 header_position: center
 header_overlay: true
 category: coding
-tags: ["coding", "challenge", "devops", "css"]
+tags: ["bem", "suit css", "challenge", "css", "coding"]
 authors: ["Anne"]
 about_authors: ["azimmermann"]
 ---
