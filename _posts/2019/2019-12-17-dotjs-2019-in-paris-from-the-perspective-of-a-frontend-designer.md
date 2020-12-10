@@ -8,7 +8,7 @@ header_overlay: true
 category: events
 tags: ["conference", "frontend", "backend", "web development"]
 authors: ["Anne"]
-about_authors: ["azwick"]
+about_authors: ["azimmermann"]
 ---
 
 Beginning of December I joined the [dotJS](https://www.dotjs.io/){:target="_blank"} conference in Paris with two colleagues, after we already attended the little sister conference [dotCSS](/blog/events/a-russian-a-brazilian-and-a-german-at-the-dotcss-2019-in-paris/) a day before. 
