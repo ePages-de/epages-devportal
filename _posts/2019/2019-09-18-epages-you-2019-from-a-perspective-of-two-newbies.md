@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ePages YOU 2019 - from a perspective of two newbies"
-date: '2019-09-18'
+date: 2019-09-18
 header_image: private/you2019.jpg
 header_position: bottom
 header_overlay: true

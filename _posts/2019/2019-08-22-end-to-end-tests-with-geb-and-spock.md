@@ -1,7 +1,7 @@
 ---
 title: End-to-end tests with Geb and Spock
 layout: post
-date: '2019-08-22'
+date: 2019-08-22
 header_image: public/crash-test.jpg
 header_position: center
 header_overlay: true
