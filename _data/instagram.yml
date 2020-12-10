@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/instagram/blog.jpg
-  text: <strong>13 useful VSCode shortcuts for faster development</strong>
-  link: /blog/methods-and-tools/13-useful-vscode-shortcuts-for-faster-development/
+  image: /assets/img/pages/instagram/blog-post-how-to-structure-CSS-classes.jpg
+  text: <strong>How to structure CSS classes</strong>
+  link: /blog/coding/how-to-structure-css-classes/
 
 job:
-  image: /assets/img/pages/instagram/job.jpg
-  text: We're hiring a<br /><strong>Java Engineer</strong>
-  link: https://epages-gmbh-jobs.personio.de/job/202108?language=de
+  image: /assets/img/pages/instagram/job-ux-manager.jpg
+  text: We're hiring a<br /><strong>User Experience Manager</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/203174?language=de
