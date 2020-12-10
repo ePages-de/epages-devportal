@@ -6,8 +6,8 @@ header_image: private/survey-header.png
 header_overlay: true
 category: on-the-job
 tags: ["company culture", "facts"]
-authors: ["Aroso"]
-about_authors: ["amahaiuddin"]
+authors: ["Aroso", "Anne"]
+about_authors: ["amahaiuddin", "azimmermann"]
 ---
 
 Two years ago, we published our blog post [Let's talk about numbers](/blog/on-the-job/lets-talk-about-numbers/){:target="_blank"} to give you an impression of the stuff we do and like here at ePages.
