@@ -1,29 +1,29 @@
-- title: (Senior) Java Developer
-  link: https://epages.com/en/career/?jh=2zr2s8sjxdwkvny4wmv8294nn0dc7j3
-  description: Bring your knowledge of Java and Kotlin to work on a microservice architecture for our new ecommerce platform.
-  location: Hamburg
-
-- title: Java Developer
-  link: https://epages.com/en/career/?jh=bo6dp88of7sn4vuj9cyn2k9vde0v1vh
-  description: Together with the counterpart team in Hamburg you'll develop modules in Java and implement features for our new ecommerce platform.
-  location: Jena
-
-- title: JavaScript Engineer
-  link: https://epages.com/en/career/?jh=0ml7dxc8s5o3bno9e2tfamouig39b86
-  description: Bring your knowledge in shipping large scale web applications in JavaScript, and support our frontend team building an aweseome UI.
-  location: Hamburg
-
-- title: Software developer - ecommerce
-  link: https://epages.com/en/career/?jh=3guijs41891ppdzqt0u0fhufovetyp7
-  description: With your knowledge of Perl and Java you'll support our team in Jena to further develop our ecommerce platform.
-  location: Jena
-
 - title: Ruby Developer
-  link: https://epages.com/en/career/?jh=3r12t9pp853d18z17601z39yc7tzgqs
+  link: https://epages-gmbh.jobs.personio.de/job/202168?language=en
   description: With your skills in Ruby, Rails, JavaScript, and PostgreSQL you are responsible for the development of our crucial in-house tools.
+  location: Bilbao
+
+- title: Senior Java Developer
+  link: https://epages-gmbh.jobs.personio.de/job/202115
+  description: Bring your knowledge of Java and Kotlin to work on a microservice-based architecture for our new ecommerce platform.
   location: Hamburg
 
-- title: Software Developer - 3rd-party
-  link: https://epages.com/en/career/?jh=24qdehf4abxzl836rd7dnp2lujbufxz
-  description: Join our development team in building, designing, and maintaining 3rd-party integrations that link to our online shop platform.
+- title: Technical Product Owner
+  link: https://epages-gmbh.jobs.personio.de/job/226186?language=en
+  description: With your knowledge of the tech stacks of website and commerce platforms you are responsible for several Scrum teams.
   location: Hamburg
+
+- title: Technical Writer - Social Media & Localization
+  link: https://epages-gmbh.jobs.personio.de/job/290299?language=de
+  description: Rock our developer relations on our social media channels and support the localization & translation management team.
+  location: Hamburg
+
+- title: User Experience Manager
+  link: https://epages-gmbh.jobs.personio.de/job/203174?language=de
+  description: Join our agile user experience team and develop user-friendly interaction concepts for our ecommerce software.
+  location: Hamburg
+
+- title: Internship / Working student - Software development
+  link: https://epages-gmbh.jobs.personio.de/job/202164?language=de
+  description: Support our RnD department in the conception and implementation of new features for our web-based online shop software.
+  location: Jena
