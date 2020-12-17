@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: ux-and-design
 tags: ["ux", "design thinking", "workshop", "company culture", "mindset", "collaboration"]
-authors: ["Christian K."]
+authors: ["Christian Ko."]
 about_authors: ["ckorff"]
 ---
 

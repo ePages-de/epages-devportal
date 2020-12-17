@@ -5,7 +5,7 @@ date: 2016-07-08
 header_image: public/elastic-meetup.jpg
 category: events
 tags: ["meetup", "elasticsearch", "open data", "delivery pipeline"]
-authors: ["Christian K.", "Jens", "Benjamin"]
+authors: ["Christian Kö.", "Jens", "Benjamin"]
 about_authors: ["ckoehler", "jfischer", "bnothdurft"]
 ---
 
