@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: ux-and-design
 tags: ["ux", "design thinking", "workshop", "company culture", "mindset", "collaboration"]
-authors: ["Christian Korff"]
+authors: ["Christian K."]
 about_authors: ["ckorff"]
 ---
 
@@ -19,8 +19,8 @@ Multiple iterations are often necessary as technical limitations pop up and othe
 
 ## Let’s get started…
 
-For one of our latest developed features, I had the idea to not just create a concept within the UX Team but instead conduct a workshop with the developers who would later implement this feature.
-Even though no coding would be involved in the workshop, we wanted to spread the idea of user-centered design and the awareness for UX inside the company and gather the developers` ideas upfront.
+For one of our latest developed features, I had the idea to not just create a concept within the UX team but instead conduct a workshop with the developers who would later implement this feature.
+Even though no coding would be involved in the workshop, we wanted to spread the idea of user-centered design and the awareness for UX inside the company and gather the developers' ideas upfront.
 This should enhance their understanding of the feature itself and of course also ensure technical feasibility from the beginning on as they would know exactly what they would be able to implement in our software.
 
 ## How to break a week down to a day?
