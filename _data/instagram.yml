@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/instagram/css-blog-pic.jpg
-  text: <strong>How to structure CSS classes</strong>
-  link: /blog/coding/how-to-structure-css-classes/
+  image: /assets/img/pages/instagram/design-thinking-workshop.jpg
+  text: <strong>How Design Thinking workshops with developers can boost your company’s UX mindset</strong>
+  link: /blog/ux-and-design/how-design-thinking-workshops-with-developers-can-boost-your-companys-ux-mindset/
 
 job:
   image: /assets/img/pages/instagram/job-ux-manager.jpg
