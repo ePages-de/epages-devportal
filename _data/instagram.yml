@@ -1,0 +1,9 @@
+blog:
+  image: /assets/img/pages/instagram/css-blog-pic.jpg
+  text: <strong>How to structure CSS classes</strong>
+  link: /blog/coding/how-to-structure-css-classes/
+
+job:
+  image: /assets/img/pages/instagram/job-ux-manager.jpg
+  text: We're hiring a<br /><strong>User Experience Manager</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/203174?language=de

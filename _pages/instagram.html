@@ -8,24 +8,48 @@ title: Instagram
 
   <img class="" src="/assets/img/logos/logo_life_at_epages.svg" />
 
-  <p>@life_at_epages</p>
+  <div style="margin-bottom: 50px;">
+    <div class="columns">
+      <a class="button" href="https://epages.com/en/">ePages Home</a>
 
-  <a href="https://epages.com/en/">ePages Home</a>
+      <a class="button" href="https://epages.com/en/career/">ePages Career</a>
+    </div>
 
-  <a href="https://epages.com/en/career/">ePages Career</a>
+    <a class="button" href="https://twitter.com/epages">Twitter @epages</a>
+  </div>
 
-  <a href="https://twitter.com/epages">Twitter @epages</a>
+  <div style="margin-bottom: 50px;">
+    <div class="columns">
+      <a class="button" href="https://developer.epages.com/blog/">Dev Blog</a>
 
-  <br />
+      <a class="button" href="https://developer.epages.com/devjobs/">Dev Jobs</a>
+    </div>
 
-  <a href="https://developer.epages.com/blog/">Dev Blog</a>
+    <a class="button" href="https://twitter.com/epagesdevs/">Twitter @epagesdevs</a>
+  </div>
 
-  <a href="https://developer.epages.com/devjobs/">Dev Jobs</a>
+  <div>
+    <div class="columns">
+      <a class="image" href="{{ site.data.instagram.job.link }}" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.data.instagram.job.image }}')">
+        <p>{{ site.data.instagram.job.text }}</p>
+        <span class="flag flag--job" style="background-image: url('/assets/img/pages/instagram/rocket.png')"></span>
+      </a>
 
-  <a href="https://twitter.com/epagesdevs/">Twitter @epagesdevs</a>
+      <a class="image" href="{{ site.data.instagram.blog.link }}" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.data.instagram.blog.image }}')">
+        <p>{{ site.data.instagram.blog.text }}</p>
+        <span class="flag flag--blog" style="background-image: url('/assets/img/pages/instagram/typewriter.png')"></span>
+      </a>
+    </div>
+  </div>
 
-  <br />
-
-  <a href="https://epages.com/en/legal-notice/">Legal Notice</a>
+  <a class="legal" href="https://epages.com/en/legal-notice/" style="text-decoration: underline;">Legal Notice</a>
 
 </div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+  var width = $('.button').width();
+  $('.image').height(`${width}px`);
+</script>

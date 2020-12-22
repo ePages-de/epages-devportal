@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "R&amp;D Day 2019: eating pizza in the cloud"
-date: '2019-09-16'
+title: "RnD Day 2019: eating pizza in the cloud"
+date: 2019-09-16
 header_image: private/rnd19.jpg
 header_position: center
 header_overlay: true

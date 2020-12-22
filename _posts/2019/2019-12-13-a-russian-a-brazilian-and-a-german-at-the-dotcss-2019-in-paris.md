@@ -8,7 +8,7 @@ header_overlay: true
 category: events
 tags: ["conference", "design", "web development", "css"]
 authors: ["Anne"]
-about_authors: ["azwick"]
+about_authors: ["azimmermann"]
 ---
 
 ... sounds like a joke, but isn’t 🙂.

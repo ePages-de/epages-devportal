@@ -70,11 +70,11 @@
   description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asasin.png
 
-- id: azwick
+- id: azimmermann
   name: Anne
   full_name: Anne Debora Zimmermann
   description: is a Frontend Designer. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
-  image: azwick.jpg
+  image: azimmermann.jpg
 
 - id: bbader
   name: Birgit
@@ -119,10 +119,16 @@
   image: avatar_male.jpg
 
 - id: ckoehler
-  name: Christian K.
+  name: Christian Kö.
   full_name: Christian Köhler
   description: is an Application Engineer, keeping systems running, and exploring the cloud.
   image: ckoehler.jpg
+
+- id: ckorff
+  name: Christian Ko.
+  full_name: Christian Korff
+  description:  is a UX Manager who loves to create interaction concepts which focus on the user needs and strives for a company UX mindset.
+  image: ckorff.png
 
 - id: cmueller
   name: Christoph
@@ -531,6 +537,12 @@
   full_name: Renato
   description: belongs to the epagesdevs content team.
   image: avatar_male.jpg
+
+- id: rwelzel
+  name: Roberto
+  full_name: Roberto Welzel Filho
+  description: is a Java Backend Developer and an occasional video game player.
+  image: rwelzel.jpg
 
 - id: sdinter
   name: Skadi
