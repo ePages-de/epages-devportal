@@ -119,4 +119,4 @@ Depending on the complexity of the feature or mode, additional content may be sh
 
 {% image_custom image="/assets/img/pages/essence/images-for-variations.png" width="100" %}
 
-For further information on the exact visualization of addtional content, consult the design team.
+For further information on the exact visualization of additional content, consult the design team.
