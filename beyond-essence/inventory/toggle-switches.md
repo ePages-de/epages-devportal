@@ -4,9 +4,11 @@ header_image: private/main.jpg
 title: Toggle switches
 background_image: index.jpg
 ---
-{% image_custom image="/assets/img/pages/essence/switch-button-on-off.png" width="25" align="right" %}
 A toggle switch works like a physical switch, that can be used e.g. to turn the light on and off.
 In the cockpit we display toggle switches to enable merchants to turn a feature or mode on or off, and to enhance cards with additional features.
+
+{% image_custom image="/assets/img/pages/essence/delete-mode-off.png" width="25" align="center" %}
+{% image_custom image="/assets/img/pages/essence/delete-mode-on.png" width="25" align="center" %}
 
 The UI element "checkbox" is used in our software quite similarly.
 Check the section "Choosing between toggle switches and checkboxes" below and have a look at the inventory entry [Checkboxes](/beyond-essence/inventory/checkboxes/) to find the right element for your use case.
@@ -15,7 +17,7 @@ Check the section "Choosing between toggle switches and checkboxes" below and ha
 
 In the cockpit, toggle switches have three main use cases:
 
-### Activate significant features
+### Activate or deactivate significant features
 
 Some toggle switches in the cockpit have a significant impact on the functionality of the cockpit and the merchant's workflow.
 
@@ -86,16 +88,16 @@ Start with: “If you toggle off FEATURE…”
 * Don't use neutral or ambiguous phrases.
 * Avoid asking questions.
 
-**DO**: "If this toggle is activated, there will be a cart displayed in the header of your website as well as an "Add to cart" button on each product.
+**DO**: (description) "If this toggle is activated, there will be a cart displayed in the header of your website as well as an "Add to cart" button on each product.
 Be sure to save any changes."
 
 _Precisely explains what happens when the switch is turned on._
 
-**DON'T**: "A cart will be displayed in the header of your website."
+**DON'T**: (description) "A cart will be displayed in the header of your website."
 
 _Too ambigous, unclear if this is what happens when the toggle is turned on or off._
 
-**ALSO DON'T**: "Want to display a cart in the header of your website?"
+**ALSO DON'T**: (neither for the description nor for the label) "Want to display a cart in the header of your website?"
 
 _The question format makes in unclear for the merchant if they need to activate or deactivate the toggle for the desired outcome._
 
@@ -117,4 +119,4 @@ Depending on the complexity of the feature or mode, additional content may be sh
 
 {% image_custom image="/assets/img/pages/essence/images-for-variations.png" width="100" %}
 
-For further information on the exact visualisation of addtional content, consult the design team.
+For further information on the exact visualization of addtional content, consult the design team.
