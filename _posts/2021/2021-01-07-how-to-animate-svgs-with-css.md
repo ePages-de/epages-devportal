@@ -78,7 +78,7 @@ Let's try it out:
 Once you've added your SVG or SVG code to a page, you have it in the DOM, which allows you to target and style your SVG with CSS like any other HTML element.
 
 In our example, we just add a bit of CSS.
-As you can see, if we simply use the [animation property](https://css-tricks.com/almanac/properties/a/animation/){:target="_blank"} in CSS with a bit of [transform](https://css-tricks.com/almanac/properties/t/transform/){:target="_blank"} and opacity, we already have a cool and simple hover animation: **SVG CSS animation checkmark**.
+As you can see, if we simply use the [animation property](https://css-tricks.com/almanac/properties/a/animation/){:target="_blank"} in CSS with a bit of [transform](https://css-tricks.com/almanac/properties/t/transform/){:target="_blank"} and opacity, we already have a cool and simple hover animation:
 
 <iframe height="380" style="width: 100%;" scrolling="no" title="SVG CSS animation checkmark" src="https://codepen.io/zefia/embed/QWKpBop?height=380&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/zefia/pen/QWKpBop'>SVG CSS animation checkmark</a> by Svenja Völz
@@ -97,7 +97,7 @@ HTML elements have their coordinate system originating at the 50% point of the r
 In contrast, without specifying anything else, the origin of each SVG coordinate system is in the upper left corner (0,0) of the parent element.
 
 Let's have a look at an example.
-In this **SVG rotate origin**, we have not specified anything else.
+In this SVG rotate origin, we have not specified anything else.
 We would expect the wheels to rotate around themselves.
 But as we can see, this does not work for an SVG, because the wheels rotate around the original zero point.
 
@@ -121,7 +121,7 @@ _fill-box_ uses the object bounding box for reference, while _view-box_ takes th
 The second property is _transform-origin_.
 With this, we change the default origin and set another anchor point for an element's transformation.
 
-As you can see in our example, the wheels now behave as desired: **SVG rotate origin edited**.
+As you can see in our example, the wheels now behave as desired:
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="SVG rotate origin changed" src="https://codepen.io/zefia/embed/LYRjBKe?height=400&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/zefia/pen/LYRjBKe'>SVG rotate origin changed</a> by Svenja Völz
@@ -144,7 +144,7 @@ A dash can be as long as we want it to be and if it is longer than the path leng
 If we now set an offset that is high enough, it looks like there is no shape.
 Now, we just need to set this offset back to 0 in an animation.
 And ta-da!
-It looks like the graphic is drawing itself: **SVG writing animation**.
+It looks like the graphic is drawing itself:
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="SVG writing animation" src="https://codepen.io/zefia/embed/RwGZJYK?height=400&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/zefia/pen/RwGZJYK'>SVG writing animation</a> by Svenja Völz
