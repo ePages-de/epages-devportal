@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/instagram/design-thinking-workshop.jpg
-  text: <strong style="font-size:1.8rem;">How Design Thinking workshops with developers can boost your campany's UX mindset</strong>
-  link: /blog/ux-and-design/how-design-thinking-workshops-with-developers-can-boost-your-companys-ux-mindset/
+  image: /assets/img/pages/instagram/blog-animate-svg-css.jpg
+  text: <strong>How to animate SVGs with CSS</strong>
+  link: /blog/coding/how-to-animate-svgs-with-css/
 
 job:
   image: /assets/img/pages/instagram/job-ux-manager.jpg
