@@ -592,6 +592,12 @@
   description: is a Javascript developer. He loves solving problems, the knottier the better.
   image: avatar_male.jpg
 
+- id: svoelz
+  name: Svenja
+  full_name: Svenja Völz
+  description: is a passionate Frontend Designer. She loves modern and clean user interfaces as much as video games or a good book.
+  image: avatar_female.jpg
+
 - id: tgiessler
   name: Tobias G.
   full_name: Tobias G.
