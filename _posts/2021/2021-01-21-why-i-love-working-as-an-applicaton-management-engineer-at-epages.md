@@ -7,8 +7,8 @@ header_position: bottom
 header_overlay: true
 category: on-the-job
 tags: ["application management", "engineer", "job"]
-authors: ["Christian Kö."]
-about_authors: ["ckoehler"]
+authors: ["Aroso", "Christian Kö."]
+about_authors: ["amahaiuddin", "ckoehler"]
 ---
 
 ## What is your job position at ePages? And can you tell us what Application Management is about?
