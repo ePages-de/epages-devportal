@@ -10,9 +10,9 @@ tags: ["application management", "engineer", "job"]
 authors: ["Aroso", "Christian Kö."]
 about_authors: ["amahaiuddin", "ckoehler"]
 ---
-On our dev blog, we introduced you already to different job positions, sushc as xxx.
-On of the departments we haven’t explained closer yet, is our Application Management.
-In order, to get a deeper insight into this department, I talked to our Application Management Engineer Christian.
+On our dev blog, we introduced you already to different job positions, such as [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/){:target="_blank"}, [UI Designer](/blog/on-the-job/working-as-a-ui-designer-at-epages/){:target="_blank"}, or [Java Developer](/blog/on-the-job/working-as-a-java-developer-at-epages/){:target="_blank"}.
+One of the departments we haven’t explained closer yet, is our Application Management.
+In order, to get a deeper insight to the job of a Application Management Engineer, I talked to our colleague Christian.
 
 ## What is your job position at ePages? And can you tell us what Application Management is about?
 
