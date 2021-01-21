@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/instagram/blog-animate-svg-css.jpg
-  text: <strong>How to animate SVGs with CSS</strong>
-  link: /blog/coding/how-to-animate-svgs-with-css/
+  image: /assets/img/pages/instagram/blog-post-application-management.jpg
+  text: What working as an Application Management Engineer is all about
+  link: /blog/on-the-job/what-working-as-an-application-management-engineer-is-all-about/
 
 job:
   image: /assets/img/pages/instagram/job-ux-manager.jpg
