@@ -586,6 +586,12 @@
   description: belongs to the epagesdevs content team.
   image: avatar_female.jpg
 
+- id: sshaju
+  name: Shohidur
+  full_name: Shohidur Rahman Shaju
+  description: is a QA Engineer who always gives importance in delivering quality products to customers.
+  image: sshaju.jpg
+
 - id: szikora
   name: Somto
   full_name: Somto Zikora
