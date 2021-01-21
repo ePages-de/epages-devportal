@@ -146,7 +146,7 @@ But there are a lot of other advantages why you should consider using **BEM** or
 * Clear and predefined naming conventions are more comprehensible and make debugging much easier
 * The flat CSS structure makes specificity easier
 * Using unique and context-related class names avoids CSS conflicts
-* Composing and reusing blocks reduces the amount of CSS code 
+* Composing and reusing blocks reduces the amount of CSS code
 * Scalability applies to projects of all sizes
 * **BEM:** More popular naming convention, many developers gained first experience with it
 * **SUIT CSS:** camelCase makes longer class names more readable
