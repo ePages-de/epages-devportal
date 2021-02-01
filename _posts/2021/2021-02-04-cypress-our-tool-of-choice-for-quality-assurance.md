@@ -35,13 +35,13 @@ Let me introduce you to some advantages and features Cypress offers:
 
 - **Time travel**: Screenshots of every command are available in the test runner. It's easy to track how the commands were executed.
 
-- **Automatic waiting**: Cypress waits for assertions and commands to be finished before moving on. A developer does not need to add a waiting time for completion of a query.
+- **Automatic waiting**: Cypress waits for assertions and commands to be finished before moving on. Developers don't need to add a waiting time for the completion of a query.
 
-- **Real time reloads**: When changes are made (and saved) on the code base, Cypress automatically reloads and restarts running tests.
+- **Real-time reloads**: When changes are made (and saved) on the code base, Cypress automatically reloads and restarts running tests.
 
 - **Auto scroll**: The automatic scrolling operation ensures that an element is in view before performing an action (e.g. clicking on a button).
 
-- **Debuggability**: The debugging is fast and easy. All errors and stack traces can be read in the browser developer tools which helps to find out why tests are failing.
+- **Debuggability**: The debugging is fast and easy. All errors and stack traces can be found in the browser developer tools which helps to find out why tests are failing.
 
 - **Videos**: Videos of the whole test suite can be viewed when running them from the Command Line Interface (CLI).
 
@@ -57,7 +57,7 @@ Let me explain some additional features a bit better that are specifically usefu
 
 One of the core features of Cypress is that failed tests can be retried multiple times.
 By default, this feature is disabled but you can easily enable it in the configuration.
-If a test passes, Cypress will move forward to carry out the remaining tests.
+If a test passes, Cypress will then move forward to carry out the remaining tests.
 But if a test fails, Cypress will retry the test again until it reaches the set limit of retries.
 
 Retry-ability can thus reduce the risk of flaky tests failing entire test runs and helps us to get reliable and consistent results.
@@ -71,12 +71,13 @@ There is only one requirement: TypeScript 3.4 (or higher) must be installed in t
 ### Plugins
 
 The possibility of [plugins](https://docs.cypress.io/plugins/index.html){:target="_blank"} in Cypress provides additional benefits for QA Engineers.
-For example, they can be used to change resolved configuration programmatically, expand functionality, as well as to add new features and commands.
+For example, they allow custom commands for the interaction with iFrames, to access the Cypress documentation from the terminal, or to set up Slack reports if tests are failing.
+In general, they are a great way to expand functionality by adding new features and commands.
 If you would like to know how to write a plugin, check out the Cypress [API documentation](https://docs.cypress.io/api/plugins/writing-a-plugin.html#Plugins-API){:target="_blank"}.
 
 ## Installing Cypress
 
-Now that you know about WHY we chose Cypress, let's have a look at HOW we are using it.
+Now that you know about WHY we chose Cypress, let's have a look at HOW to use it.
 The [installation](https://docs.cypress.io/img/snippets/installing-cli.b927778a.mp4){:target="_blank"} of Cypress is easy and fast.
 You only need the following commands:
 
@@ -102,5 +103,5 @@ As written above, any browser can be selected to carry out cross-browser tests.
 
 ## Summary
 
-In this blog post, I have shown various advantages and features of Cypress, and gave a quick introduction on how you can install the tool easily.
+In this blog post, I have shown various advantages and features of Cypress, and gave a quick introduction on how to use the tool.
 To sum it up, Cypress is a great choice for us in terms of frontend testing because it is fast, reliable, and full of advantageous features.
