@@ -2,7 +2,7 @@
 layout: post
 title: Cypress - our tool of choice for Quality Assurance
 date: 2021-02-04
-header_image: public/quality-assurance.jpg
+header_image: public/cypress-quality-assurance.jpg
 header_position: bottom
 header_overlay: true
 category: methods-and-tools
