@@ -65,12 +65,6 @@ A merchant has successfully integrated a third-party.
 
 *Success! You've successfully integrated with Google Shopping. Start straight away and assign products.*
 
-#### Error messages
-
-*Oops, what's going on? Your shop is not connected with this payment method. Contact our support so that you can be reconnected.*
-
-*Oops, we broke it. (Not your fault.)*
-
 #### List of keywords/slogans
 
 * We wanted to take a minute to celebrate with you, because - hey - you did amazingly!
