@@ -11,7 +11,7 @@ With a positive and cheerful tone of voice we want to ensure that everywhere in 
 For example, if a merchant successfully went through the onboarding steps and finally opened their shop, they might feel happy, excited, and relieved, but also a bit unsure what the next steps will be.
 We can respond to this by celebrating them and telling them what to do next.
 
-When a merchant receives an error message, they might feel alarmed and insecure what to do about it and how to solve the issue.
+When a merchant receives an [error message](/beyond-essence/content/language/#error-messages), they might feel alarmed and insecure what to do about it and how to solve the issue.
 We can support them by explaining what caused the error and how to continue.
 We always want to be supportive with our merchants and never frightening them.
 
@@ -64,12 +64,6 @@ A merchant just opened their online shop. Time to celebrate and give them furthe
 A merchant has successfully integrated a third-party.
 
 *Success! You've successfully integrated with Google Shopping. Start straight away and assign products.*
-
-#### Error messages
-
-*Oops, what's going on? Your shop is not connected with this payment method. Contact our support so that you can be reconnected.*
-
-*Oops, we broke it. (Not your fault.)*
 
 #### List of keywords/slogans
 
