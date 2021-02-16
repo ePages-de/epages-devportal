@@ -2,8 +2,8 @@
 layout: post
 title: The secret of incremental and iterative software development
 date: 2021-02-18
-header_image: public/cypress-quality-assurance.jpg
-header_position: bottom
+header_image: public/incremental-development.jpg
+header_position: top
 header_overlay: true
 category: methods-and-tools
 tags: ["product management", "agile", "scrum"]
