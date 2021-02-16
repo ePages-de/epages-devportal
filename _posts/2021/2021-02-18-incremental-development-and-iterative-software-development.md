@@ -23,7 +23,7 @@ In order to define an MVP, you first need to collect and sort requirements.
 Every company has different sources to gather feedback regarding requirements and features people would like to have included in the software.
 First of all – of course - there are the users because they are the ones that interact with your product on a daily basis.
 They know exactly what parts of the product they like but also which functionalities they are sorely missing.
-Besides the requirements of the users, there might be additional ones from other stakeholders like managers or external partners who would like to see some feature sets for business and strategical reasons.
+Besides the requirements of the users, there might be additional ones from other stakeholders like managers or external partners who would like to see some feature sets for business and strategic reasons.
 
 The different requirements have to be collected, sorted, and prioritized – which is mostly a task Product Management is responsible for.
 Story mapping can be a good methodology to find out which parts of a feature are essential (core functionality) and which ones are needed to add additional value for users.
@@ -37,14 +37,14 @@ Here's an example: adding a price to a product might be one of the most importan
 
 Once you've shipped your MVP to the users, the iterative cycle of development continues.
 You (again) have to listen to your users and stakeholders, collect feedback, sort, and prioritize.
-Often it turns out that functionalities you, personally, would have seen in the next iteration of the feature will get deprioritized because your users consider other functionalities more important.
+Often it turns out that functionalities you, personally, would have seen in the next iteration of the feature are deprioritized because your users consider other functionalities more important.
 Additionally, outer circumstances may change priorities, like the lockdowns during the pandemic.
 
 ## Extend the feature and grow the product
 
 The incremental and iterative approach will not only help to continuously deliver valuable functionalities for your users and with that grow your product.
 It also gives you the chance in each iteration to improve and learn from former iterations.
-Increments don't necessarily have to be an add-on in terms of functionality but they can also be UX improvements or a restructuring of existing software parts.
+Increments don't necessarily have to be an add-on in terms of functionality, but they can also be UX improvements or a restructuring of existing software parts.
 And this - as mentioned above – is a great way to go for small and medium-sized software companies.
 Instead of constantly delivering one feature after another for which they might not have enough manpower, these companies have the chance to deliver the functionalities their users really need.
 This will lead to a well-structured and good product instead of a feature bloat.
