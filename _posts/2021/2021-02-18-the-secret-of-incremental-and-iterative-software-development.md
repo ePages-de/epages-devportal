@@ -3,10 +3,10 @@ layout: post
 title: The secret of incremental and iterative software development
 date: 2021-02-18
 header_image: public/incremental-development.jpg
-header_position: top
+header_position: bottom
 header_overlay: true
 category: methods-and-tools
-tags: ["product management", "agile", "scrum"]
+tags: ["product management", "agile", "scrum", "feedback"]
 authors: ["Kerstin"]
 about_authors: ["kdeharde"]
 ---
@@ -28,7 +28,7 @@ Besides the requirements of the users, there might be additional ones from other
 The different requirements have to be collected, sorted, and prioritized – which is mostly a task Product Management is responsible for.
 Story mapping can be a good methodology to find out which parts of a feature are essential (core functionality) and which ones are needed to add additional value for stakeholders and users.
 
-The MVP defined with that can be the first increment that is shipped to users and stakeholders.
+The MVP defined with that can be the first increment that is shipped.
 It's the first iteration of the feature that gets into the product.
 The goal is to define a piece of software that is small enough to be shipped in a short timeframe but on the other hand still has enough functionality to give value to users and stakeholders.
 Here's an example: adding a price to a product might be one of the most important functionalities when it comes to product setup in an ecommerce software, but it does not give the user a real value as long as they are not able to also update the price later on.
