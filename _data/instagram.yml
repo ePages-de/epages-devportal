@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/instagram/blog-post-cypress-quality-assurance.jpg
-  text: <strong>Cypress - our tool of choice for Quality Assurance</strong>
-  link: /blog/methods-and-tools/cypress-our-tool-of-choice-for-quality-assurance/
+  image: /assets/img/pages/headers/public/incremental-development.jpg
+  text: <strong>The secret of incremental and iterative software development</strong>
+  link: /blog/methods-and-tools/the-secret-of-incremental-and-iterative-software-development/
 
 job:
   image: /assets/img/pages/instagram/job-product-owner.jpg
