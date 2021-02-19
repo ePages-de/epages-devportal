@@ -88,6 +88,7 @@ var builder = new PdfRendererBuilder();
 builder.withHtmlContent(html, "/");
 builder.toStream(renderedPdfBytes);
 builder.run();
+renderedPdfBytes.close();
 var renderedPdf = renderedPdfBytes.toByteArray();
 
 try (var fos = new FileOutputStream("example.pdf")) {
@@ -97,7 +98,7 @@ try (var fos = new FileOutputStream("example.pdf")) {
 
 ### Layout
 
-> (OpenHtmlToPdf) is not a web browser. Specifically, it does not run javascript or implement many modern standards such as flex and grid layout.
+> (OpenHtmlToPdf is) not a web browser. Specifically, it does not run javascript or implement many modern standards such as flex and grid layout.
 
 Even though the [README file](https://github.com/danfickle/openhtmltopdf) of OpenHtmlToPdf states that they are "not a web browser", they are pretty close to it.
 They support a very wide range of CSS features.
