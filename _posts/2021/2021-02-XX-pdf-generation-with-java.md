@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PDF generation with Java
-date: 2021-02-XX
+date: 2021-03-18
 header_image: public/TBD.jpg
 header_position: center
 header_overlay: true
@@ -25,16 +25,16 @@ Out of those, we identified the options which seemed most promising for us:
 - [Apache FOP](https://xmlgraphics.apache.org/fop/) : A Java library which renders PDFs based on XML templates.
 - [HTML PDF API](https://htmlpdfapi.com/) : A SaaS service which renders PDFs based on HTML templates.
 - [OpenHtmlToPdf](https://github.com/danfickle/openhtmltopdf) : A Java library which renders PDFs based on HTML templates.
-- [Pandoc and LaTeX](https://awesomeopensource.com/project/Wandmalfarbe/pandoc-latex-template) : A command-line tool which renders PDFs e.g. from Markdown templates.
+- [Pandoc and LaTeX](https://awesomeopensource.com/project/Wandmalfarbe/pandoc-latex-template) : A command-line tool which renders PDFs, for example from Markdown templates.
 - [pdfmake](http://pdfmake.org/) : A NodeJS library which renders PDFs based on a custom JavaScript API.
 - [wkhtmltopdf](https://wkhtmltopdf.org/) : A command-line tool which renders PDFs based on HTML templates.
 
-For each one of these tools, we looked into how they work and what their respective pros and cons are.
+For each of these tools, we figured out how they work and what their respective pros and cons are.
 
-In the next phase, we built prototypes for options that seemed most promising to us: OpenHtmlToPdf, pdfmake, and Apache FOP.
+In the next phase, we built prototypes for the options that seemed most promising to us: OpenHtmlToPdf, pdfmake, and Apache FOP.
 Finally, OpenHtmlToPdf turned out to be the preferred choice by 80% of the developers involved in the decision.
 
-In the following, it is described how OpenHtmlToPdf can be used.
+In the following, I will describe how OpenHtmlToPdf can be used.
 
 ### Dependencies
 
@@ -49,10 +49,10 @@ implementation "com.openhtmltopdf:openhtmltopdf-slf4j:1.0.6"
 
 The dependency declarations for other build systems like Maven can be found at [mvnrepository.com](https://mvnrepository.com/artifact/com.openhtmltopdf).
 
-### Hello, World
+### Hello, World!
 
 The biggest advantage of OpenHtmlToPdf is that it is very simple to use.
-To define the contents and layout of the PDF files, plain HTML and CSS can be used.
+To define the content and layout of the PDF files, plain HTML and CSS can be used.
 
 Here is an example template for a PDF which contains an underlined headline and some text:
 
@@ -77,9 +77,9 @@ Here is an example template for a PDF which contains an underlined headline and 
 
 On the Java side, the PDF can be rendered with the help of the [`PdfRendererBuilder`](https://javadoc.io/static/com.openhtmltopdf/openhtmltopdf-pdfbox/1.0.0/com/openhtmltopdf/pdfboxout/PdfRendererBuilder.html) from the OpenHtmlToPdf API.
 After instantiating it, we need to register the HTML content with the method `withHtmlContent`.
-Further, we need to register a stream where to put PDF data with the `toStream` method.
+Further, we need to register a stream where to put the PDF data with the `toStream` method.
 Then we can create the PDF by calling the `run` method.
-Afterward we can get the bytes of the PDF by calling `toByteArray`.
+Afterwards, we can get the bytes of the PDF by calling `toByteArray`.
 This byte array we can then finally write into a file or upload to some storage.
 
 ```java
@@ -97,13 +97,13 @@ try (var fos = new FileOutputStream("example.pdf")) {
 
 ### Layout
 
-> (OpenHtmlToPdf) not a web browser. Specifically, it does not run javascript or implement many modern standards such as flex and grid layout.
+> (OpenHtmlToPdf) is not a web browser. Specifically, it does not run javascript or implement many modern standards such as flex and grid layout.
 
 Even though the [README file](https://github.com/danfickle/openhtmltopdf) of OpenHtmlToPdf states that they are "not a web browser", they are pretty close to it.
 They support a very wide range of CSS features.
-So much so, that it rather feels like an exception when something is missing.
+So much so that it rather feels like an exception when something is missing.
 
-E.g., for the metadata sections on the header of the first page of the documents, we are using absolute positioning like this:
+For the metadata sections on the header of the first page of the documents, we are for example using absolute positioning like this:
 
 ```css
 #foo {
@@ -113,8 +113,8 @@ E.g., for the metadata sections on the header of the first page of the documents
 }
 ```
 
-Then, for the main document content, we are using relative positioning.
-With this, the main content starts below the header of the first page and on all subsequent pages is positioned right below the page start.
+For the main document content we are then using relative positioning.
+With this, the main content starts below the header of the first page whereas it is positioned right at the top of the page on all subsequent pages.
 
 ```css
 #bar {
@@ -124,7 +124,7 @@ With this, the main content starts below the header of the first page and on all
 }
 ```
 
-At multiple places in our documents, e.g., the columns in the footer, the missing grid layout is emulated with tables.
+At multiple places in our documents, for example in the footer columns, the missing grid layout is emulated with tables.
 
 ### Challenges
 
@@ -137,8 +137,8 @@ It turned out that this is supported and requires nothing more but a little bit 
 }
 ```
 
-Another important and non-trivial part for getting the required layout was to have page numbering.
-Also this can be done with plain CSS, by using [Generated Content for Paged Media Module](https://www.w3.org/TR/css-gcpm-3/#funcdef-element):
+Another important and non-trivial part for achieving the required layout was to have page numbering.
+This can also be done with plain CSS by using the [Generated Content for Paged Media Module](https://www.w3.org/TR/css-gcpm-3/#funcdef-element):
 
 ```html
 <head>
@@ -196,13 +196,13 @@ pebbleTemplate.evaluate(stringWriter, values);
 var html = stringWriter.toString();
 ```
 
-The details for the [`HtmlEscapingStrategy`](https://javadoc.io/doc/io.pebbletemplates/pebble/latest/com/mitchellbosecke/pebble/extension/escaper/EscapingStrategy.html), the example template, and the [build dependency](https://mvnrepository.com/artifact/io.pebbletemplates/pebble) are left out of this blog post for the sake of brevity.
+The details of the [`HtmlEscapingStrategy`](https://javadoc.io/doc/io.pebbletemplates/pebble/latest/com/mitchellbosecke/pebble/extension/escaper/EscapingStrategy.html), the example template, and the [build dependency](https://mvnrepository.com/artifact/io.pebbletemplates/pebble) are left out of this blog post for the sake of brevity.
 
 ### Conclusion
 
-We could adapt the layout of the original PDFs so close that you would need a magnifier to find a difference.
+We were able to replicate the layout of the original PDFs so much that you would need a magnifier to spot a difference.
 
-Now our designers and developers can edit the PDF templates with their common tools.
+Now, our designers and developers can edit the PDF templates with their common tools.
 When we are doing changes, they can be reliably validated across different operating systems.
 Further, the HTML-based approach allows us to automatically compare the rendered templates against expected snapshots.
 
