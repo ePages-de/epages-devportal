@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/instagram/blog.jpg
-  text: <strong>13 useful VSCode shortcuts for faster development</strong>
-  link: /blog/methods-and-tools/13-useful-vscode-shortcuts-for-faster-development/
+  image: /assets/img/pages/headers/public/incremental-development.jpg
+  text: <strong>The secret of incremental and iterative software development</strong>
+  link: /blog/methods-and-tools/the-secret-of-incremental-and-iterative-software-development/
 
 job:
-  image: /assets/img/pages/instagram/job.jpg
-  text: We're hiring a<br /><strong>Java Engineer</strong>
-  link: https://epages-gmbh-jobs.personio.de/job/202108?language=de
+  image: /assets/img/pages/instagram/job-product-owner.jpg
+  text: We're hiring a<br /><strong>Technical Product Owner</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/226186?language=en
