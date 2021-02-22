@@ -2,11 +2,11 @@
 layout: post
 title: PDF generation with Java
 date: 2021-03-18
-header_image: public/TBD.jpg
+header_image: public/pdf-generation.jpg
 header_position: center
 header_overlay: true
 category: methods-and-tools
-tags: ["java", "pdf"]
+tags: ["java", "pdf", "html", "pebble"]
 authors: ["Jan M."]
 about_authors: ["jmewes"]
 ---
