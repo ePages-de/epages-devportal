@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Remote onboarding at ePages
+title: How to achieve a great remote onboarding experience
 date: 2021-03-04
 header_image: public/remote-onboarding.jpg
 header_position: bottom
