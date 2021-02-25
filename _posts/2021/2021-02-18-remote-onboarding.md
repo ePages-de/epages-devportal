@@ -65,8 +65,8 @@ Therefore, I’m really looking forward to times where our office will be full o
 
 To sum it up, here is my advice for anyone who is facing a remote onboarding:
 
-1.	Don’t worry too much! Most companies have adapted to the new situation by now and tools for video calls have improved a lot during the past month.
-2.	Prefer video calling over typing! Building relationships with people in a remote situation takes longer, so take every chance you get to talk face-to-face. 
-3.	Communication is everything! Since you are sitting at home, no one sees if you are bored or if you need help. Don’t be afraid to contact your team and ask for help! You will probably find that your co-workers are eager to support you.
-4.	Remember that everyone is sitting in the same boat! You might be new to the team, but so are most people to remote working. So, if your internet connection breaks up or you need a little time to adjust to the technical tools, be sure that everyone understands and has probably been there him- or herself during the past month.
-5.	You are new to the remote situation in general? Introducing a short walk outside before and after work imitates the way to walk and keeps you from staying indoors all day.
+1. Don’t worry too much! Most companies have adapted to the new situation by now and tools for video calls have improved a lot during the past month.
+2. Prefer video calling over typing! Building relationships with people in a remote situation takes longer, so take every chance you get to talk face-to-face. 
+3. Communication is everything! Since you are sitting at home, no one sees if you are bored or if you need help. Don’t be afraid to contact your team and ask for help! You will probably find that your co-workers are eager to support you.
+4. Remember that everyone is sitting in the same boat! You might be new to the team, but so are most people to remote working. So, if your internet connection breaks up or you need a little time to adjust to the technical tools, be sure that everyone understands and has probably been there him- or herself during the past month.
+5. You are new to the remote situation in general? Introducing a short walk outside before and after work imitates the way to walk and keeps you from staying indoors all day.
