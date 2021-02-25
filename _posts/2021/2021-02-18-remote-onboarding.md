@@ -21,7 +21,8 @@ It turned out: I could have saved myself the worry and here is why.
 
 ## Good planning is half the battle
 
-A good onboarding plan is the key to every successful onboarding, however an onboarding at the office allows you to be more spontaneous.
+A good onboarding plan is the key to every successful onboarding.
+However, an onboarding at the office allows you to be more spontaneous.
 You can ask the colleagues sitting next to you whenever a question comes up and there is always someone around to show you something new.
 While this happens, you automatically get to know everyone you work with better.
 
@@ -61,12 +62,12 @@ Therefore, getting to know your teams takes much longer.
 I have also missed out on the open office culture we used to have at ePages as well as getting to know people from other departments just by sharing the same office space.
 Therefore, I’m really looking forward to times where our office will be full of ePagees once again and I can spend time with my teams and fellow Scrum Masters in person.
 
-## Takeaways for fellow Newbies
+## Takeaways for fellow newbies
 
 To sum it up, here is my advice for anyone who is facing a remote onboarding:
 
 1. Don’t worry too much! Most companies have adapted to the new situation by now and tools for video calls have improved a lot during the past month.
 2. Prefer video calling over typing! Building relationships with people in a remote situation takes longer, so take every chance you get to talk face-to-face. 
 3. Communication is everything! Since you are sitting at home, no one sees if you are bored or if you need help. Don’t be afraid to contact your team and ask for help! You will probably find that your co-workers are eager to support you.
-4. Remember that everyone is sitting in the same boat! You might be new to the team, but so are most people to remote working. So, if your internet connection breaks up or you need a little time to adjust to the technical tools, be sure that everyone understands and has probably been there him- or herself during the past month.
+4. Remember that everyone is sitting in the same boat! You might be new to the team, but so are most people to remote working. So, if your internet connection breaks up or you need a little time to adjust to the technical tools, be sure that everyone understands and has probably been there him- or herself during the past months.
 5. You are new to the remote situation in general? Introducing a short walk outside before and after work imitates the way to walk and keeps you from staying indoors all day.
