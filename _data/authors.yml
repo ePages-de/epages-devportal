@@ -208,6 +208,12 @@
   description: is a passionate HR Manager, who loves the variety of challenges in her daily working life. She strongly believes in building employee engagement.
   image: eprohn.jpg
 
+- id: eschroeder
+  name: Elena
+  full_name: Elena Schröder
+  description: is a certified Scrum Master and Business Coach. She is passionate about agile values and principles and uses her coaching skills for the personal development of her teams.
+  image: eschroeder.jpg
+
 - id: ewiedmann
   name: Elisa
   full_name: Elisa Wiedmann
