@@ -756,8 +756,8 @@ The meeting will then disappear approx. 30 minutes after completion.
 
 <table>
     <tr>
-        <td> {% image_custom image="/assets/img/pages/blog/images/blog-confi-snapshot.png" width="100" lightbox %} </td>
-        <td> {% image_custom image="/assets/img/pages/blog/images/blog-confi-snapshot-booking.png" width="100" lightbox %} </td>
+        <td> {% image_custom image="/assets/img/pages/blog/images/blog-confi-snapshot.png" width="70" lightbox %} </td>
+        <td> {% image_custom image="/assets/img/pages/blog/images/blog-confi-snapshot-booking.png" width="70" lightbox %} </td>
     </tr>
 </table>
 
