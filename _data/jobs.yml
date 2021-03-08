@@ -8,11 +8,6 @@
   description: Bring your knowledge of Java and Kotlin to work on a microservice-based architecture for our new ecommerce platform.
   location: Hamburg
 
-- title: Technical Product Owner (m/f/d)
-  link: https://epages-gmbh.jobs.personio.de/job/226186?language=en
-  description: With your knowledge of the tech stacks of website and commerce platforms you are responsible for several Scrum teams.
-  location: Hamburg
-
 - title: JavaScript Engineer (m/f/d)
   link: https://epages-gmbh.jobs.personio.de/job/201909?language=en
   description: Build a responsive, modular, and highly user interactive web application with us that is easy to scale and to extend.
@@ -23,7 +18,12 @@
   description: Develop connectors that integrate third-party systems, such as payment gateways or product portals, into our ecommerce platform.
   location: Hamburg
 
-- title: Internship / Working student - Software development (m/f/d)
-  link: https://epages-gmbh.jobs.personio.de/job/202164?language=de
-  description: Support our RnD department in the conception and implementation of new features for our web-based online shop software.
-  location: Jena
+- title: Technical Product Owner (m/f/d)
+  link: https://epages-gmbh.jobs.personio.de/job/226186?language=en
+  description: With your knowledge of the tech stacks of website and commerce platforms you are responsible for several Scrum teams.
+  location: Hamburg
+
+- title: User Experience Manager (m/f/d)
+  link: https://epages-gmbh.jobs.personio.de/job/203174?language=en
+  description: Join our agile user experience team and develop user-friendly interaction concepts for our ecommerce software.
+  location: Hamburg
