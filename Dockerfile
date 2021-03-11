@@ -1,10 +1,10 @@
-FROM ruby:2.4.2
+FROM ruby:2.6.6
 
 RUN apt-get update
 RUN apt install -y locales \
     && apt-get install -y \
     cmake \
-    node \
+    nodejs \
     python-pygments \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/
@@ -16,6 +16,7 @@ RUN gem install \
     rdiscount \
     rouge
 
+RUN gem install bundler -v '2.1.4'
 RUN gem install nokogiri -v '1.8.1'
 
 EXPOSE 4000
