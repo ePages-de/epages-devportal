@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/remote-onboarding.jpg
-  text: <strong>How to achieve a great remote onboarding experience</strong>
-  link: /blog/on-the-job/how-to-achieve-a-great-remote-onboarding-experience/
+  image: /assets/img/pages/headers/public/pdf-generation.jpg
+  text: <strong>PDF generation with Java</strong>
+  link: /blog/methods-and-tools/pdf-generation-with-java/
 
 job:
   image: /assets/img/pages/headers/public/abstract-art-blur-bright.jpg
