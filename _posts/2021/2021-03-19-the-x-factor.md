@@ -15,7 +15,8 @@ It was autumn 2020.
 I had been at ePages for almost six years, and always in the same frontend team.
 You could say I was ready for some change.
 So when our scrum masters started asking around who could imagine joining a new, cross functional team, I was immediately up for it.
-Four months later, I want to recapitulate the journey since then.
+Four months ago, the new team started to work.
+Time to recapulate the journey since then.
 
 ## Done actually
 
@@ -23,13 +24,13 @@ Haven't we done this before?
 Yes and no.
 There have always been cross functional teams responsible for certain areas of the ePages products.
 As far as I can tell, they're successful and satisfied with their team structure.
-However, the biggest portion of the current product line has been developed following an "API first" approach, with a big core frontend team doing almost all the UI work.
+However, the biggest portion of the new product line has been developed following an "API first" approach, with a big core frontend team doing almost all the UI work.
 This led to cross-team dependencies on tasks, unavoidable handovers, and an "us vs. them" attitude.
 We'll take a deeper look at these issues in the following paragraphs.
 
 ## The incrementable Hulk
 
-With one frontend-only and multiple backend-only teams, our product managers had a hard time juggling the different priorities in order to minimize the time between API design and UI implementation.
+With one frontend-only and multiple backend-only teams, our product owners had a hard time juggling the different priorities in order to minimize the time between API design and UI implementation.
 This was especially visible in the context of [incremental and iterative software development](../../methods-and-tools/the-secret-of-incremental-and-iterative-software-development/) : if the UX designer needed to adapt the concept during the UI implementation, it could happen that the API needed to be adapted, too.
 In the worst case, the UI team had to wait for the API change, while the team responsible for the API, which had moved on to the next feature, was forced into a context switch, pausing whatever they were currently working on.
 
@@ -38,8 +39,8 @@ In the worst case, the UI team had to wait for the API change, while the team re
 Experience shows that it's impractical, if not impossible, to come up with a specification detailed enough to leave no questions open during implementation.
 This is especially true for user interfaces.
 In an agile setup with a high level of trust towards developers to _do the right thing_, like we have it here at ePages, this doesn't seem problematic at first.
-But if you put backend and frontend in different teams, you have not _one_ point of handover from specification into engineer's brains, but _three_ : from product manager to backend developers, from product manager to frontend developers, _and_ from backend developers to frontend developers.
-Involving frontend developers in the API design process doesn't make this go away, in my experience.
+But if you put backend and frontend in different teams, you have not _one_ point of handover from specification into engineer's brains, but _three_ : from product owner to backend developers, from product owner to frontend developers, _and_ from backend developers to frontend developers.
+This holds true despite the fact that we usually involve frontend developers in the API design process.
 
 ## Planet of the APIs
 
