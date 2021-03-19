@@ -15,7 +15,7 @@ It was autumn 2020.
 I had been at ePages for almost six years, and always in the same frontend team.
 You could say I was ready for some change.
 So when our Scrum Masters started asking around who could imagine joining a new, cross-functional team, I was immediately up for it.
-Four months ago, the new team started to work.
+Five months ago, the new team started to work.
 Time to recapulate the journey since then.
 
 ## Done actually
