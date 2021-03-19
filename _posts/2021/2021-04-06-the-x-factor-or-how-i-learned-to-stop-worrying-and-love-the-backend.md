@@ -31,7 +31,7 @@ We'll take a deeper look at these issues in the following paragraphs.
 ## The incrementable Hulk
 
 With one frontend-only and multiple backend-only teams, our Product Owners had a hard time juggling the different priorities in order to minimize the time between API design and UI implementation.
-This was especially visible in the context of [incremental and iterative software development](blog/methods-and-tools/the-secret-of-incremental-and-iterative-software-development/): if the UX team needed to adapt the concept during the UI implementation, it could happen that the API needed to be adapted, too.
+This was especially visible in the context of [incremental and iterative software development](/blog/methods-and-tools/the-secret-of-incremental-and-iterative-software-development/): if the UX team needed to adapt the concept during the UI implementation, it could happen that the API needed to be adapted, too.
 In the worst case, the UI team had to wait for the API change, while the team responsible for the API, which had moved on to the next feature, was forced into a context switch, pausing whatever they were currently working on.
 
 ## Lost in documentation
@@ -63,7 +63,7 @@ I had to learn so many new terms, processes, and tools, that had previously been
 The complexity and various dependencies in the cloud-based microservice setup used by our backend was overwhelming.
 My goal was to understand, be able to review, and contribute to the parts of the backend which my team decided to focus on.
 From the other end, my two backend colleagues, who wanted to review my frontend code and start contributing to the frontend projects, were overwhelmed by the complex code structure and the many coding and formatting conventions enforced there.
-On top of that, we were used to different processes: Scrum vs. Kanban, dedicated vs. integrated QA, or the [localization workflow](blog/language-and-localization/how-to-cope-with-a-localization-tool-in-action/), which was new to the backend developers.
+On top of that, we were used to different processes: Scrum vs. Kanban, dedicated vs. integrated QA, or the [localization workflow](/blog/language-and-localization/how-to-cope-with-a-localization-tool-in-action/), which was new to the backend developers.
 
 But because we were all in one team, and all in the same situation, there was always someone available and happy to educate the others about any of those topics.
 Even though Corona has made me spend no more than one (!) day in the office ever since I've joined the team, the inhibition threshold to have a short video call about any open question has always been very low.
