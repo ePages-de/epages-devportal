@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/instagram/blog.jpg
-  text: <strong>13 useful VSCode shortcuts for faster development</strong>
-  link: /blog/methods-and-tools/13-useful-vscode-shortcuts-for-faster-development/
+  image: /assets/img/pages/headers/public/pdf-generation.jpg
+  text: <strong>PDF generation with Java</strong>
+  link: /blog/methods-and-tools/pdf-generation-with-java/
 
 job:
-  image: /assets/img/pages/instagram/job.jpg
-  text: We're hiring a<br /><strong>Java Engineer</strong>
-  link: https://epages-gmbh-jobs.personio.de/job/202108?language=de
+  image: /assets/img/pages/headers/public/abstract-art-blur-bright.jpg
+  text: We're hiring a<br /><strong>JavaScript Engineer (m/f/d)</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/201909?language=en
