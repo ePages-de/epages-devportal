@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I shifted careers after a coding bootcamp and became a developer at ePages
-date: 2021-03-30
+date: 2021-04-22
 header_image: public/coding-bootcamp.jpg
 header_position: center
 header_overlay: true
@@ -57,7 +57,7 @@ I joined team Crimson, a frontend team at ePages consisting of designers, JavaSc
 We are using nearly the same tech stack and modern technologies as in the bootcamp, which made my start not too hard.
 Still, there were of course many challenges, such as finding my way around a code base much larger than anything I had worked with before and familiarizing myself with [Redux](https://redux.js.org/){:target="_blank"} and [TypeScript](https://www.typescriptlang.org/){:target="_blank"} for example, which I hadn’t used until then.
 
-It has been nearly eight months now that I’m working at ePages and I’m as exited about web development as ever.
+It has been nearly nine months now that I’m working at ePages and I’m as exited about web development as ever.
 I have learned a lot but there are still many things to discover, I want to gain more speed in developing, and learn about general computer science and software architecture principles for example.
 
 Here is some advice for people thinking about switching to development and for teams working with a bootcamp graduate:
