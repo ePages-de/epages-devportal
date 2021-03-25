@@ -12,8 +12,9 @@ about_authors: ["ppriotto"]
 ---
 
 It was autumn 2020.
-I had been at ePages for almost six years, and always in the same frontend team.
-You could say I was ready for some change.
+I had been at ePages for almost six years, and always in the same team.
+We were doing exlusively frontend, and had a great time together.
+Still, after all those years, I was ready for something new.
 So when our Scrum Masters started asking around who could imagine joining a new, cross-functional team, I was immediately up for it.
 Five months ago, the new team started to work.
 Time to recapulate the journey since then.
@@ -51,7 +52,7 @@ The frontend, on the other hand, only knows the data model exposed through the A
 This leads to situations where the API is not used as intended, superfluous requests are being made, and both sides are unsatisfied with the implementation.
 
 The underlying cause for the above issues is the separation of teams.
-Each team has its own scheduled meetings, sits in its own room, and has its own inside jokes (hopefully not just lame movie puns).
+Each team has its own scheduled meetings, sits in its own room, and has its own inside jokes (hopefully not just lame movie title puns).
 Changing an inappropriate API design or usage involves walking over to the other room, and finding someone who then has to switch context, understand the problem, and maybe even create a ticket for it.
 Since programmers are lazy, they'll start taking shortcuts to avoid this overhead, at the cost of inefficient and obscure API usage.
 It's easy to complain about "them" not doing "the right thing" for "us", or "them" using "our" API wrong, when "they" are in another team.
