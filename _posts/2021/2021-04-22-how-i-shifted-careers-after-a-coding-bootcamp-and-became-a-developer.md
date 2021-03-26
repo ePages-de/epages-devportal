@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I shifted careers after a coding bootcamp and became a developer at ePages
+title: How I shifted careers after a coding bootcamp and became a developer
 date: 2021-04-22
 header_image: public/coding-bootcamp.jpg
 header_position: center
