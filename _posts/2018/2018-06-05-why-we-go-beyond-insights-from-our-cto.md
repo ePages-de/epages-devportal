@@ -72,7 +72,7 @@ Furthermore, it offers a high flexibility and allows us to easily replace or add
 Our API-first approach not only gives us back the "freedom to develop" and have fun doing so, but also allows us to open up different target groups by connecting with other systems.
 Nearly everyone, who enriches us with functionality or vice versa, can connect via our [API](http://docs.beyondshop.cloud/){:target="_blank"}, as you can see below:
 
-{% image_custom image="/assets/img/pages/blog/images/blog-infographic.png" width="100" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/blog-infographic.png" width="90" lightbox %}
 
 Our API represents the best possible starting point for you and/or your clients, to get an ecommerce functionality without big effort.
 
