@@ -35,7 +35,7 @@ In the beginning of the session, all participants including our Scrum Master int
 
 Only sitting in one of our conference rooms for an hour and listening to what Scrum is about would be way too boring.
 So, what our Scrum Master prepared was a little [game](https://play14.org/games/lean-workflow-design){:target="_blank"} in the beginning.
-We as a team had the following task: We got a double deck of cards (each deck of cards contains 52 cards) which we had to sort by card colour (red and black), an card type (hearts, diamonds, spades, and clubs).
+We as a team had the following task: We got a double deck of cards (each deck of cards contains 52 cards) which we had to sort by card colour (red and black) and card type (hearts, diamonds, spades, and clubs).
 On top of that we were asked to order the card value from low (ace) to high (king).
 Our colleague in Jena got half a deck of cards to keep it fair.
 Before we started to sort the cards, we had to discuss in the team how much time we think we will need for the task.
