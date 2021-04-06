@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/pdf-generation.jpg
-  text: <strong>PDF generation with Java</strong>
-  link: /blog/methods-and-tools/pdf-generation-with-java/
+  image: /assets/img/pages/headers/public/cross-functional-teams.jpg
+  text: <strong>The X factor or how I learned to stop worrying and love the backend</strong>
+  link: /blog/on-the-job/the-x-factor-or-how-i-learned-to-stop-worrying-and-love-the-backend/
 
 job:
   image: /assets/img/pages/headers/public/first-hackathon.jpg
