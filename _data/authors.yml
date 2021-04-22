@@ -127,8 +127,14 @@
 - id: ckorff
   name: Christian Ko.
   full_name: Christian Korff
-  description:  is a UX Manager who loves to create interaction concepts which focus on the user needs and strives for a company UX mindset.
+  description: is a UX Manager who loves to create interaction concepts which focus on the user needs and strives for a company UX mindset.
   image: ckorff.png
+
+- id: cmenke
+  name: Carina
+  full_name: Carina Menke
+  description: is a JavaScript Engineer who is passionate about frontend development as well as design. She loves learning coding languages just as much as foreign languages.
+  image: avatar_female.jpg
 
 - id: cmueller
   name: Christoph
