@@ -523,7 +523,7 @@
 - id: ppriotto
   name: Paolo
   full_name: Paolo Priotto
-  description: is a Web Developer for all things in frontend. Although writing mostly JavaScript day in, day out, he never really gave up his passion for CSS.
+  description: is a Frontend Developer with no fear to hack together SQL, Shell, or Java code until the error message goes away.
   image: ppriotto.jpg
 
 - id: rbeer
