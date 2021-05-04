@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A good technical documentation is important and here is why!
+title: A good technical documentation is important and here is why
 date: 2021-05-13
 header_image: public/impact-good-documentation.jpg
 header_position: center
