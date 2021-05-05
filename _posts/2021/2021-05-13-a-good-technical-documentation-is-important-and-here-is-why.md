@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A good technical documentation is important and here is why
-date: 2021-05-13
+title: Why good technical documentation is important
+date: 2021-05-11
 header_image: public/impact-good-documentation.jpg
 header_position: center
 header_overlay: true
@@ -11,68 +11,63 @@ authors: ["Alicia"]
 about_authors: ["aschroeder"]
 ---
 
-In previous blog post we already presented how to create a good help article.
-However, we also want to take a look at why you should even bother writing a good help article in the first place.
-Technical documentation is often referred as boring, but don’t worry it isn’t at all!
+In a previous blog post, we've already explained [how to create a great help article](/blog/techcomm-and-socialmedia/in-three-steps-to-a-great-help-article/).
+However, we didn't take a look at why you should even bother writing a good help article in the first place.
+It's time to catch up on that.
 
-First, I will tell what technical documentation is, what makes it good, and why it might be a good idea to pay more attention to it, even if you are not a technical writer:
+Technical documentation is often referred to as boring, but don’t worry it isn’t at all!
+Let's take a look at what technical documentation is about, what makes good documentation, and why it might be a good idea to pay more attention to it, even if you are no Technical Writer.
 
 ## What is technical documentation?
 
-Technical documentation is a collective term and refers to a wide range of documents.
-It can be any kind of document/text that presents the functionality and/or construction of a product and/or explains how to use it properly.
-Since technology and processes are continually changing, and even completely new technologies are created, there is a need to educate people about them.
-From product descriptions, to manuals, and online help articles, technical documentation is everywhere!
+Technical documentation is a collective noun and refers to a wide range of documents.
+It can be any kind of document or text that displays the functionality and/or construction of a product and/or explains how to use it properly.
+Since technologies and processes are continually changing, and even completely new technologies are created, there is a need to educate people about them.
+From product descriptions to manuals and online help articles, technical documentation is everywhere!
 The target group consists out of everyone who needs to know how the product works.
-But the documentation isn’t only created for end users.
-There are also internal documents created by engineers, and developers.
-For example, internal policies and How-to-guides for internal procedures.
-These are also technical documentation.
+But documentation isn’t only created for end users.
+There are also internal documents created by engineers or developers, such as internal policies and how-to-guides for internal procedures.
+That's also technical documentation.
 
-## What makes technical documentation good?
+## What makes good technical documentation?
 
-The quality is influenced by different factors like completeness, correctness and consistency.
-However, the technical documentation also needs to match with the requirements of the target group.
-Additionally, it’s not only about capturing information.
-The usability also matters!
-It’s about presenting the information in a way that’s easy to read and understand so it’s actually helpful.
-Another important factor is the structure of the technical documentation.
-If the readers can’t even find what they are looking for, the actual quality of the content is pointless because they will never read it.
+The quality of technical documentation is influenced by different factors like completeness, correctness, and consistency.
+However, technical documentation also needs to match the requirements of the target group.
+Additionally, it's not only about capturing information.
+Usability also matters!
+Thus, it's also about presenting the information in a way that's easy to read and to understand so that it's actually helpful.
+Another important factor is the structure of the documentation.
+If the readers can't even find what they are looking for, the actual quality of the content is pointless because they will never read it.
 
-Another relevant factor for the comprehensibility is the amount of the presented information.
-The goal should be to have as much information as needed but still as less as possible.
-Good technical documentation only presents the information that is really needed to get the job done.
-More information isn’t always better.
+Another relevant factor for the comprehensibility is the amount of presented information.
+The goal should be to give as much information as needed but still as little as possible.
+Good technical documentation only includes information that is really needed to get the job done or that is relevant for the reader.
+More information isn't always better.
 Too much information can even have a discouraging effect on the reader.
-It can be difficult for them to digest all the content at once and really understand what they are reading.
+It can be difficult for them to digest everything at once and really understand what they are reading.
 
-Remember to not only add new content but also to delete outdated stuff from time to time.
-Don’t keep information in your technical documentation because someone might need them one day.
+And last but not least: Remember to not only add new content but also to delete outdated stuff from time to time.
+Don't keep information in your documentation because someone might need it one day.
 However, don’t delete it right away.
-It can be useful to keep outdated texts in an intern archive.
-Maybe, the content can be reused later and save time.
-
-To read more about how to create good technical documentation and to get an example, read one of our previous [blog posts](/blog/techcomm-and-socialmedia/in-three-steps-to-a-great-help-article/).
+It can be useful to keep outdated texts in an internal archive.
+Maybe the content can be reused later on and save you some time.
 
 ## Why is it important?
 
-You might ask yourself why this is relevant for you, especially if you are not a technical writer.
-It is important to understand what an impact a good technical documentation can have.
-In regards of software, it should always be the goal to need as less documentation as possible by creating a product that is self-explanatory e. g. by adding easy to understand UI texts.
-That technical documentation is an essential part of UX is something we already mentioned in a previous [blog post](/blog/techcomm-and-socialmedia/why-ux-and-technical-writing-make-a-dream-team/).
-
-Since the technical documentation is a part of the product it needs to have an equal quality.
-The product and the documentation merge when the customer use them together.
-If you want to create a high-quality product you need to have a high-quality documentation as well.
-
-Furthermore, technical documentation can reduce the number of support requests and rise the overall satisfaction of the customer.
-Nobody really likes to call the support.
-A good technical documentation helps them to help themselves.
-This also refers to internal documentation, that I’ve mentioned earlier.
+You might ask yourself why good technical documentation is relevant for you, especially if you are no Technical Writer.
+Let me answer this question by having a look at the impact good technical documentation can have.
+It can reduce the number of support requests and increase the overall satisfaction of the customer.
+Good technical documentation might help them to help themselves instead of forcing them to seek support from unknown people.
+This is also true for internal documentation.
 If these documents are badly written and don’t provide the needed information, the quality of the final product can still be good.
 However, it will be much harder to get there because people will waste time and make unnecessary mistakes while working on it.
 
-Of course, you don’t have to become a technical writer yourself.
-You can contribute to a good technical documentation in a lot of other ways.
-Either by proving internal documentation for your present and future colleagues or by supporting technical writers.
-This means providing the needed information and answering questions.
+One could argue that it should always be the goal to reduce the need of documentation by creating a product that is self-explanatory, for example by [creating easy to understand UI texts](/blog/language-and-localization/how-to-create-awesome-ui-texts/).
+But you will never be able to get rid of technical documentation at all if you would like to have satisfied and efficient customers and colleagues.
+Technical documentation is a part of the product and it should have an equal quality.
+If you want to create a high-quality product, you need to have high-quality documentation as well.
+
+Of course, you don’t have to become a Technical Writer yourself.
+But you can contribute to good technical documentation in many other ways.
+Either by creating internal documentation for your current and future colleagues or by supporting Technical Writers, for example by providing the required information and answering questions.
+Your customers, colleagues, and Technical Writers will be grateful.
