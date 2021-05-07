@@ -34,19 +34,18 @@ That's also technical documentation.
 The quality of technical documentation is influenced by different factors like completeness, correctness, and consistency.
 Still, there isn’t a 100% solution for a guaranteed good technical documentation. 
 
-### *Usability also matters!
+### - Usability also matters!
 Thus, it's also about presenting the information in a way that's easy to read and to understand so that it's actually helpful.
 Another important factor is the structure of the documentation.
 If the readers can't even find what they are looking for, the actual quality of the content is pointless because they will never read it.
 
-### *Consider your audience
+### - Consider your audience
 
 The technical documentation also needs to match the requirements of the target group.
 While writing for technicians you can include more complex technical information.
 If the target group of the product also includes non-specialist aka “normal people” you might need to reduce the amount of information or add more explanations.
-Additionally, it's not only about capturing information the amount of presented information also matters.
 
-Another relevant factor for the comprehensibility is the amount of presented information.
+Additionally, it's not only about capturing information the amount of presented information also matters.
 The goal should be to give as much information as needed but still as little as possible.
 Good technical documentation only includes information that is really needed to get the job done or that is relevant for the reader.
 More information isn't always better.
