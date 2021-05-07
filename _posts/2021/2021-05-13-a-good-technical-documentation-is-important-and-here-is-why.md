@@ -34,12 +34,12 @@ That's also technical documentation.
 The quality of technical documentation is influenced by different factors like completeness, correctness, and consistency.
 Still, there isn’t a 100% solution for a guaranteed good technical documentation. 
 
-### - Usability also matters!
+### Usability also matters!
 Thus, it's also about presenting the information in a way that's easy to read and to understand so that it's actually helpful.
 Another important factor is the structure of the documentation.
 If the readers can't even find what they are looking for, the actual quality of the content is pointless because they will never read it.
 
-### - Consider your audience
+### Consider your audience
 
 The technical documentation also needs to match the requirements of the target group.
 While writing for technicians you can include more complex technical information.
