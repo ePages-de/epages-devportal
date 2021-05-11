@@ -70,6 +70,12 @@
   description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asasin.png
 
+- id: aschroeder
+  name: Alicia
+  full_name: Alicia Schröder
+  description: is part of our Technical Writing team. She loves writing great help articles for our software and crafting creative social media content.
+  image: avatar_female.jpg
+
 - id: azimmermann
   name: Anne
   full_name: Anne Debora Zimmermann
