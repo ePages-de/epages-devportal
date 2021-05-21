@@ -38,7 +38,7 @@ I would call the [Official Joke API](https://official-joke-api.appspot.com/){:ta
 This API provides you four different endpoints to get a JSON object of [1 random joke](https://official-joke-api.appspot.com/jokes/random){:target="_blank"} or an array of objects of [10 random jokes](https://official-joke-api.appspot.com/jokes/ten){:target="_blank"}. 
 The only thing left to do is to fetch the data and return the result.
 
-**This is one way how you can do that:**
+**This is one way how to do that:**
 
 <iframe src="https://codesandbox.io/embed/fetch-data-from-api-b6vr3?fontsize=14&module=%2Fsrc%2FJokeList.tsx&theme=dark"
     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
