@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/coding-bootcamp.jpg
-  text: <strong style="font-size:1.8rem;">How I shifted careers after a coding bootcamp and became a developer</strong>
-  link: /blog/on-the-job/how-i-shifted-careers-after-a-coding-bootcamp-and-became-a-developer/
+  image: /assets/img/pages/headers/public/impact-good-documentation.jpg
+  text: <strong>Why good technical documentation is important</strong>
+  link: /blog/techcomm-and-socialmedia/why-good-technical-documentation-is-important/
 
 job:
   image: /assets/img/pages/headers/public/agile-roadmap.jpg
