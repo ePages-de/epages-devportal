@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 3 Simple-to-use APIs for newbies
-date: 2021-05-05
+title: 3 simple-to-use APIs for newbies
+date: 2021-05-27
 header_image: public/apis-for-newbies.jpg
 header_position: center
 header_overlay: true
