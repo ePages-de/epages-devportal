@@ -11,22 +11,22 @@ authors: ["Anne"]
 about_authors: ["azimmermann"]
 ---
 
-At the end of 2020, I went to my boss, Harm Behrens, and ask for support on my plan of becoming a front-end developer. 
-At that point, I worked at ePages for over 3,5 years as a frontend designer and already 8 years in total as a designer. 
+At the end of 2020, I went to my boss, Harm Behrens, and asked for support on my plan to become a front-end developer. 
+At that point, I've been working at ePages for over 3.5 years as a frontend designer and already 8 years in total as a designer. 
 He gave me his GO with the words “Don't expect your journey to be too easy!“ and I started my master plan in December with a big smile, a bag full of energy, and that crystal clear target in front of me.
 
-What should I say... He was right - I really expected it to be easier! 😄
+What can I say... He was right - I really expected it to be easier! 😄
 
 ## Data matters
 
-Since building a react application from scratch is something completely different than going into a component and changing small and mostly visual details, one of my first mini-projects was a very simple draft of a to-do checklist app. 
+Since building a react application from scratch is something completely different than going into a component to change small and mostly visual details, one of my first mini-projects was a very simple draft of a to-do checklist app. 
 At some point in my implementation, I faced a buggy behavior of my app and reached out for the help of a colleague. 
 He checked my implementation and said: 
 “In general it looks ok… You can click. You can add. But where is your data?“ 
-This was one of my glass-breaking moments because I was not even aware of needing some sort of a data structure behind my small try-out application. 
+This was one of my first glass-breaking moments. I wasn't even aware that I would need some sort of data strucuture for my small try-out application.
 As a designer, I was used to think "in" UI elements and now I learn to think "in" data.
 
-After facing this huge lack of knowledge I planned to practice with already given data. 
+After facing this huge lack of knowledge, I planned to practice with already given data. 
 At ePages we are following the API first approach, therefore I searched for simple and free useable APIs to get into this topic.
 
 You may have noticed that there is a large pool of free usable APIs out there, but not every API is perfect to start with if you are new to the field. 
@@ -50,8 +50,8 @@ The only thing left to do is to fetch the data and return the result.
 ## The One API (to rule them all)
 
 [The One API](https://the-one-api.dev/){:target="_blank"} is a massive database around the world of Lord of the Rings - I mean, how cool is that? 😱 
-You get data about the books by J. R. R. Tolkien and about the official movies by Peter Jackson as well as about many characters and quotes. 
-The One API is very well explained and [documented](https://the-one-api.dev/documentation){:target="_blank"} which makes it easy as a newbie to kick-start. 
+You get data about the books by J. R. R. Tolkien and about the official movies by Peter Jackson as well as data about many characters and quotes. 
+The One API is very well explained and [documented](https://the-one-api.dev/documentation){:target="_blank"} which makes it easier as a newbie to kick-start. 
 You also have the possibility to add pagination, sorting, and filtering options to your API requests. 
 To get access to that awesome database, you need to register and then you get a bearer token. 
 Only the `/book` endpoint is available without authentication. 
@@ -102,5 +102,5 @@ const fetchData = async () => {
 ## Famous last words
 
 Guess what? 
-I changed to a backend team in February due to the companies plan to build another feature team out of it. 
+I've changed to a backend team in February due to the company's plan to build another feature team out of it. 
 I have a strong feeling I will never forget about data anymore. 😄
