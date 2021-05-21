@@ -35,7 +35,7 @@ Therefore, I searched for simple and free-to-use APIs to get into this topic.
 You may have noticed that there is a large pool of free-to-use APIs out there, but not every API is perfect to start with if you are new to the field. 
 So let me introduce you to my 3 favorite APIs, short and simple enough for beginners.
 
-## The Official Joke API
+## 1. The Official Joke API
 
 I would call the [Official Joke API](https://official-joke-api.appspot.com/){:target="_blank"} one of the easiest APIs ever because you don’t need an access token to get the data. 
 This API provides four different endpoints to get a JSON object of [1 random joke](https://official-joke-api.appspot.com/jokes/random){:target="_blank"} or an array of objects of [10 random jokes](https://official-joke-api.appspot.com/jokes/ten){:target="_blank"}. 
@@ -50,7 +50,7 @@ The only thing left to do is to fetch the data and return the result.
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-## The One API (to rule them all)
+## 2. The One API (to rule them all)
 
 [The One API](https://the-one-api.dev/){:target="_blank"} is a massive database around the world of _The Lord of the Rings_ - I mean, how cool is that? 😱 
 You get data about the books by J. R. R. Tolkien and about the official movies by Peter Jackson as well as data about many characters and quotes. 
@@ -79,7 +79,7 @@ const fetchData = async () => {
 }
 ```
 
-## The Edamam API
+## 3. The Edamam API
 
 The [Edamam API](https://developer.edamam.com/){:target="_blank"} consists of recipe database, nutrition analysis, and food database APIs. 
 You need to register on the website to get access to the included information and the calls are limited to 10 calls per minute. 
