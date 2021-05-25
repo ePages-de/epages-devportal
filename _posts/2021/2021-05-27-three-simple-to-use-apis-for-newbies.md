@@ -66,18 +66,16 @@ Furthermore, you have a limit of 100 requests every 10 minutes.
 ```js
 const TOKEN = "thisIsYourSecretToken"
 
-const fetchData = async () => {
-  const response = await fetch(
+const fetchData = async () => (
+  await fetch(
     `https://the-one-api.dev/v2/character`,
     {
       headers: {
         Authorization: `Bearer ${TOKEN}`
       }
     }
-  )
-  const result = await response.json();
-  return result;
-}
+  ).then(response => response.json())
+)
 ```
 
 ## 3. The Edamam API
@@ -95,13 +93,11 @@ By the way, I got to know this API in a [Youtube tutorial from Dev Ed](https://w
 const APP_ID = 'yourAppId'
 const APP_KEY = 'yourAppKey'
 
-const fetchData = async () => {
-  const response = await fetch(
+const fetchData = async () => (
+  await fetch(
     `https://api.edamam.com/search?q=cake&app_id=${APP_ID}&app_key=${APP_KEY}`
-  )
-  const result = await response.json();
-  return result;
-}
+  ).then(response => response.json())
+)
 ```
 
 ## Famous last words
