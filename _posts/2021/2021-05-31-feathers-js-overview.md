@@ -117,14 +117,14 @@ You can see in the response that it has built in support for paging
 ## Conclusion
 There are many tools out there than can offer tools to assist with creating APIs as well as handling real time data. FeathersJS can help reduce boilerplate as well as allow one to be more dynamic in terms of application transport and database choices for each API, lending itself quite well to Microservice architecture. 
 
-[W-JAX 2015: Microservices](https://developer.epages.com/blog/events/wjax2015-microservices/)
+[W-JAX 2015: Microservices](/blog/events/wjax2015-microservices/)
 
 
 ## Reading material and references
 
- [Feathers Docs](https://docs.feathersjs.com/)
+ [Feathers Docs](https://docs.feathersjs.com/){:target="_blank"}
 
- [Feathers FAQ](https://docs.feathersjs.com/help/faq.html)
+ [Feathers FAQ](https://docs.feathersjs.com/help/faq.html){:target="_blank"}
 
- [Websockets VS REST](https://www.educba.com/websocket-vs-rest/)
+ [Websockets VS REST](https://www.educba.com/websocket-vs-rest/){:target="_blank"}
 

@@ -520,6 +520,12 @@
   description: is a Software Engineer. He practices katas not just in coding dojos.
   image: avatar_male.jpg
 
+- id: pboxall
+  name: Peter
+  full_name: Peter Boxall
+  description: is a Software Engineer, developing Spring Boot and soon, React.
+  image: avatar_male.jpg
+
 - id: pkalashnikov
   name: Pavlo
   full_name: Pavlo Kalashnikov
