@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/impact-good-documentation.jpg
-  text: <strong>Why good technical documentation is important</strong>
-  link: /blog/techcomm-and-socialmedia/why-good-technical-documentation-is-important/
+  image: /assets/img/pages/headers/public/apis-for-newbies.jpg
+  text: <strong>3 simple-to-use APIs for newbies</strong>
+  link: /blog/coding/three-simple-to-use-apis-for-newbies/
 
 job:
   image: /assets/img/pages/headers/public/application-management-interview.jpg
