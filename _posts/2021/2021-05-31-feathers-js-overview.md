@@ -20,7 +20,7 @@ Back in the day before the big environment around it was build, JavaScript was a
 For the backend a much more reputable and sophisticated language would be used like Java/C#(DotNet).
 
 But things have changed over the years. Now, JavaScript can be used across the full stack for different applications.
-This means, for example, a Model View Controller (MVC) web application wouldn't only require familiarity with this one language from the developer but also the ability to develop on all parts of the application.
+This means, for example, a Model View Controller ([MVC](https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/){:target="_blank"}) web application would require familiarity with one language and be able to develop on all parts of the application.
 
 ## Real-time data streaming aka the problem that FeathersJS tries to solve
 
@@ -43,7 +43,7 @@ However, FeatherJS is the one I've recently had the pleasure working with and I'
 
 1. It abstracts away the transport of the data and allows to snap between REST and websocket (real-time) communication without having to change any of the underlying code (only config).
 
-1. A built-in support for paging, searching, sorting, and filtering.
+1. Built-in support for paging, searching, sorting, and filtering.
 
 1. It comes with multiple database adapaters for SQL and NoSQL databases allowing the change of database technologies (per service in the app) with a single line of code.
 
@@ -69,14 +69,14 @@ They process information and then pass the result back to the application.
 
 ### Events
 
-Events can be used as an alternative to directly bind hooks to services.
+Events can be used as an alternative to directly binding hooks to services.
 You can use them to execute logic on the life cycle of a service from other places in the application like this:
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-events-snippet.png" width="80" lightbox %}
 
 ## Giving an example
 
-Now I will present a quick example for how to setup a FeathersJS API and make calls to it. 
+Now I will present a quick example of setting up a FeathersJS API and make calls to it. 
 For this we will create an application that creates and reads Todo items (By far the most original and unique idea!).
 
 ### Step 1: Install the FeathersJS CLI
@@ -114,9 +114,9 @@ Start the appliciation with this command:<br>
 
 ### Step 5: Test the service
 
-Lastly, we will use Postman to make calls to our API and check that things are operational.
+Lastly, I will use Postman to make calls to the API and check that things are operational.
 
-This is an example for a POST of a basic todo object to the API:
+This is an example of a POST of a basic todo object to the API:
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step5a.png" width="80" lightbox %}
  
@@ -128,7 +128,7 @@ In the response you can see that it has built-in support for paging.
 
 ## Conclusion
 There are many tools out there offering you assistance with creating APIs as well as handling real time data. 
-FeathersJS is one option that can help you reducing boilerplate code. It also allows to be more dynamic in terms of application transport and database choices for each API, lending itself quite well to [Microservice architecture](/blog//events/wjax2015-microservices/). 
+FeathersJS is one option that can help you reduce boilerplate code. It also allows for more dynamic choices in terms of application transport and databases for each API, lending itself quite well to [Microservice architecture](/blog//events/wjax2015-microservices/). 
 
 ## Reading material and references
 
