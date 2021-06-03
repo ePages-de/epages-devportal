@@ -82,6 +82,12 @@
   description: is an experienced Technical Communicator. Her heart beats for UI writing, localization, and API documentation.
   image: bbader.jpg
 
+- id: bdelafuente
+  name: Borja dlF
+  full_name: Borja de la Fuente
+  description: is a Ruby on Rails Developer. Always ready to learn new things.
+  image: avatar_male.jpg
+
 - id: bklein
   name: Bastian
   full_name: Bastian
