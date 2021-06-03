@@ -11,133 +11,129 @@ authors: ["Peter Boxall"]
 about_authors: ["pboxall"]
 ---
 
-## What is FeathersJS?
-
 FeathersJS is a web-framework for creating realtime applications as well as REST APIs in JavaScript or Typescript.
-It can help with easing the creation of realtime applications such as WhatsApp or Telegram, abstract away database logic of using different databases.
+It abstracts away the needed database logic for using different databases and eases the creation of real-time applications such as WhatsApp or Telegram.
 
-## Introduction to full stack Javascript
+## Short history of full stack JavaScript
 
-Back in the day before the great package explosion that is the Javascript environment, JavaScript as a language belonged mostly as scripts run directly on web pages or used to create client applications loaded in the browser (Single Page Apps - like Google Maps). 
-The backend would be implemented in a much more reputable and sophisticated  language such as Java/C#(DotNet).
+Back in the day before the big environment around it was build, JavaScript was a language mainly used for scripts that run directly on web pages or for the creation of client applications loaded in the browser (Single Page Apps - like Google Maps).
+For the backend a much more reputable and sophisticated language would be used like Java/C#(DotNet).
 
-Things have changed over the years and now one is able to use JavaScript across the full stack of their applications. 
-This means that you would need familiarity with one language and be able to develop on all parts of the application for a Model View Controller (MVC) web application.
+But things have changed over the years. Now, JavaScript can be used across the full stack for different applications.
+This means, for example, a Model View Controller (MVC) web application wouldn't only require familiarity with this one language from the developer but also the ability to develop on all parts of the application.
 
-## The problem that Feathers is trying to solve (Realtime data streaming) 
+## Real-time data streaming aka the problem that FeathersJS tries to solve
 
-Typically a modern backend API uses REST in order to communicate data to and from clients in a stateless manner however, a lot of web applications are starting to require realtime data.
-This would be in applications such as whatsApp and other messaging apps. 
-Realtime means that rather than a stateless request being made between a client and a server, a constant stream of data is created between server and client over websockets and allows for a constantly updating state of information.
+A modern backend API typically uses REST to send data to and from clients in a stateless manner.
+However, a lot of web applications now require real-time data.
+This applies for applications in various fields of technology e.g., the telecommunication applications like WhatsApp and other messaging apps, that I've mentioned earlier. 
+Real-time means that a constant stream of data is created between server and client over websockets, which allows a constantly updating state of information, instead of a stateless request being made between a client and a server.
 
-To further explain, a REST application could poll a service to see if there are any new messages and when there is, it will then update the client information. 
-A realtime data solution will react to the changes made to the data and pass that information all the way down through to the client without the client having to poll for the information.
+A REST application would need a poll, a service to first check if there are any new informations and, when there is, update the client's information accordingly. 
+A real-time data solution, however, would directly react to any changes and pass that information all the way to the client. The client wouldn't need to poll for the information.
+A much more effective way of always getting the the most up to date information is enabled.
+This also means, that there is a need for tools that allow us to stream the data in real-time instead of constant data polling.
 
-This allows a much more effective way of getting the most up to date information at all times. 
-This also means that there is a need for tools that allow us to stream the data in real time rather than poll the data constantly. 
-Enter, FeathersJS!  (*Medieval trumpet noises*)
+Entry of FeathersJS! (*Medieval trumpet noises*)
 
-## How does Feathers solve this?
+## The functionality of FeathersJS
 
-Whilst there are many tools around that solve the issue of realtime data, FeathersJS is one that I have had the pleasure of working with recently that provides other benefits as well:
-1. It abstracts away the transport of the data allowing you to swap between REST and websocket(realtime) communication without having to change any of the underlying code (only config).
+There are many tools providing a solution for the issue of real-time data streaming.
+However, FeatherJS is the one I've recently had the pleasure working with and I've also discovered some more benefits:
 
-1. Built in support for paging , searching, sorting and filtering.
+1. It abstracts away the transport of the data and allows to snap between REST and websocket (real-time) communication without having to change any of the underlying code (only config).
 
-1. It comes with multiple database adapaters for SQL and NoSQL databases that allow changing database technologies (per service in the app) with a single line of code.
+1. A built-in support for paging, searching, sorting, and filtering.
 
-1. FeathersJS is a lightweight wrapper around Express.JS, leaning on the large community and online resources available to the developer.
+1. It comes with multiple database adapaters for SQL and NoSQL databases allowing the change of database technologies (per service in the app) with a single line of code.
 
-1. It uses code generation to do away with boilerplate code that takes away from the developers time put towards implementing valuable business logic. 
+1. FeathersJS is a lightweight wrapper around Express.JS, leaning on the large community and online resources available for developers.
 
-## Feathers structure
+1. It uses code generation to mitigate boilerplate code that uses up the developers' time which instead could be put towards implementing valuable business logic. 
 
-The structure of a feathers API can broken down into these parts: 
+## Talking about structure
+
+Please note that the following explanations are incredibly brief. If you want more information, please also refer to the detailed FeathersJS documentation that I've linked at the end of this post.
+
+The structure of a FeatherJS API can be roughly broken down into these parts: 
 
 ### Services
 
-Services are responsible for all of the CRUD logic for a resource and acts as the controllers for the API. 
-Here the developer can hook onto life-cycle events to add more business logic.
+Services are responsible for the entire CRUD logic of a resource and act as the controllers for the API. 
+Developers can hook onto life-cycle events to add more business logic.
 
 ### Hooks
 
 Hooks are small portions of business logic that can be added to service life-cycle events.
-They process information and then pass the result  back to the application.
+They process information and then pass the result back to the application.
 
 ### Events
 
-Events can be used as an alternative to binding hooks to services directly.
-You can use events to execute logic on the life-cycle of a service from other places in the application like so:
+Events can be used as an alternative to directly bind hooks to services.
+You can use them to execute logic on the life cycle of a service from other places in the application like this:
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-events-snippet.png" width="80" lightbox %}
 
-My explanations of these structures are incredibly brief and if you are left wanting, please refer to the detailed FeathersJS documentation referenced at the bottom of the post.
+## Giving an example
 
-
-## Example Application
-
-Now I will show a quick example of how to setup a FeathersJS API and make calls to it. 
-
-For this example we will create an application that creates and reads Todo items (A totally original and unique idea!).
-
+Now I will present a quick example for how to setup a FeathersJS API and make calls to it. 
+For this we will create an application that creates and reads Todo items (By far the most original and unique idea!).
 
 ### Step 1: Install the FeathersJS CLI
 
-The first step is to install the CLI, from which we can create the application, using this command:
+The first step is to install the CLI, from which we can create the application, using this command:<br>
 ***npm install -g @feathersjs/cli***
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step1.png" width="80" lightbox %}
 
 ### Step 2: Create the application
 
-Next we will create our API application and select the options that would like to set the project up with:
+Next, we will create our API application and select the options that would like to set the project up with:<br>
 ***feathers generate app***
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step2.png" width="80" lightbox %}
 
-You can see here that I selected the Socket.io option for the real-time communication as well as rest
+Here you can see that I selected the Socket.io option for the real-time communication as well as rest.
 
 ### Step 3: Create the Service
-Next we would like to create our service that will be responsible for all of the CRUD operations on the resource.
-For this example app we will create the CRUD service for the Todo objects:
+
+Next, we would like to create our service that will be responsible for all of the CRUD operations on the resource.
+For this example app we will create the CRUD service for the Todo objects:<br>
 ***feathers generate service***
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step3.png" width="80" lightbox %}
 
-Here I selected Sequelize for the databse adapter, which is a SQl Object Relational Mapper for Javascript
+Here I selected Sequelize for the databse adapter, which is a SQl Object Relational Mapper (ORM) for Javascript
 
 ### Step 4: Start the application
+
+Start the appliciation with this command:<br>
 ***npm start***
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step4.png" width="80" lightbox %}
 
 ### Step 5: Test the service
 
-Lastly we will use Postman to make calls to our API to make sure that things are operational.
+Lastly, we will use Postman to make calls to our API and check that things are operational.
 
-Here I show a POST of a basic todo object to the API:
+This is an example for a POST of a basic todo object to the API:
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step5a.png" width="80" lightbox %}
  
-
-Now after a couple of POSTs lets retrieve our list of TODOs
+After a couple of POSTs let's retrieve our list of TODOs:
 
 {% image_custom image="/assets/img/pages/blog/images/feathers-step5b.png" width="80" lightbox %}
 
-You can see in the response that it has built in support for paging
+In the response you can see that it has built-in support for paging.
 
 ## Conclusion
-There are many tools out there than can offer tools to assist with creating APIs as well as handling real time data. 
-FeathersJS can help reduce boilerplate as well as allow one to be more dynamic in terms of application transport and database choices for each API, lending itself quite well to Microservice architecture. 
-
-[W-JAX 2015: Microservices](/blog/events/wjax2015-microservices/)
-
+There are many tools out there offering you assistance with creating APIs as well as handling real time data. 
+FeathersJS is one option that can help you reducing boilerplate code. It also allows to be more dynamic in terms of application transport and database choices for each API, lending itself quite well to [Microservice architecture](/blog//events/wjax2015-microservices/). 
 
 ## Reading material and references
 
- [Feathers Docs](https://docs.feathersjs.com/){:target="_blank"}
+ * [Feathers Docs](https://docs.feathersjs.com/){:target="_blank"}
 
- [Feathers FAQ](https://docs.feathersjs.com/help/faq.html){:target="_blank"}
+ * [Feathers FAQ](https://docs.feathersjs.com/help/faq.html){:target="_blank"}
 
- [Websockets VS REST](https://www.educba.com/websocket-vs-rest/){:target="_blank"}
-
+ * [Websockets VS REST](https://www.educba.com/websocket-vs-rest/){:target="_blank"}
