@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: methods-and-tools
 tags: ["video","teams","meet","bigbluebutton"]
-authors: ["Borja de la Fuente"]
+authors: ["Borja dlF"]
 about_authors: ["bdelafuente"]
 ---
 
