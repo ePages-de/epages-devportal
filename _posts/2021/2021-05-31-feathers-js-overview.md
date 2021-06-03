@@ -1,20 +1,20 @@
 ---
 layout: post
 title: FeathersJS - A brief introduction
-date: 2021-05-31
+date: 2021-06-10
 header_image: public/feathers-cover.png
 header_position: center
 header_overlay: true
 category: methods-and-tools
 tags: ["api", "express.js", "javascript", "fullstack"]
-authors: ["Peter Boxall"]
+authors: ["Peter B."]
 about_authors: ["pboxall"]
 ---
 
 FeathersJS is a web-framework for creating realtime applications as well as REST APIs in JavaScript or Typescript.
 It abstracts away the needed database logic for using different databases and eases the creation of real-time applications such as WhatsApp or Telegram.
 
-## Short history of full stack JavaScript
+## A short history of full stack JavaScript
 
 Back in the day before the big environment around it was build, JavaScript was a language mainly used for scripts that run directly on web pages or for the creation of client applications loaded in the browser (Single Page Apps - like Google Maps).
 For the backend a much more reputable and sophisticated language would be used like Java/C#(DotNet).
