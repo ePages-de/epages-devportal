@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: methods-and-tools
 tags: ["api", "express.js", "javascript", "fullstack"]
-authors: ["Peter B."]
+authors: ["Peter"]
 about_authors: ["pboxall"]
 ---
 
