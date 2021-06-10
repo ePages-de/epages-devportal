@@ -14,7 +14,7 @@ about_authors: ["bdelafuente"]
 Until a little over a year ago, for most of us, participating in video conferences was limited to a few occasions.
 Sometimes it was necessary to speak with members of other teams who are located in a different office or if someone was doing home office.
 However, the current situation with COVID-19 required some substantial changes. 
-Now the majority is working from home bit Meetings are still necessary.
+Now the majority is working from home but Meetings are still necessary.
 Maybe even more necessary than before to stay in touch with you colleagues. 
 This made video conferencing platforms essential for us.
 
