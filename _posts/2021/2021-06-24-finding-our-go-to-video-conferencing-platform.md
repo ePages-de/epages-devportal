@@ -35,9 +35,11 @@ No to mention the [doubts about the security](https://www.youtube.com/watch?v=K7
 
 One tool that a lot of us use every week and some even every day is [BBB (BigBlueButton)](https://bigbluebutton.org/){:target="_blank"}.
 It is an open-source tool based on Linux for video conferences.
-However, you can also record them and the tool provides a chat.
-Due to the need for a physical server in the office, when we started using it, we had some problems with interruptions and slowly running meetings. 
-We were able to solve most of these problems but some of them persist.
+However, you can also record the meetings and the tool provides a chat.
+One downside is the need for an own physical server to use BBB.
+For the other platforms mentioned in this blog post, you'll only need an internet connection.
+Especially at the beginning, we also had some problems with interruptions and slowly running meetings.
+Fortunately, we were able to solve most of these problems but some of them persist.
 Especially, for teams working outside of Germany, there are still some problems with the video.
 The only solution we found is that the conference room is created by a person in Germany.
 Not ideal, therefore we were encouraged to seek different options.
