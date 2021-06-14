@@ -20,20 +20,20 @@ This made video conferencing platforms essential for our everyday work.
 
 ## Starting the journey
 
-Some months ago, we've started to use [Microsoft Teams](https://www.microsoft.com/de-de/microsoft-teams/group-chat-software) which allows us to hold meetings with more than 70 people, generate different rooms that can be used simultaneously, chat with each other, … 
+Some months ago, we've started to use [Microsoft Teams](https://www.microsoft.com/de-de/microsoft-teams/group-chat-software){:target="_blank"}which allows us to hold meetings with more than 70 people, generate different rooms that can be used simultaneously, chat with each other, … 
 However, Microsoft Teams isn't the only option. 
 Today, we use a variety of different video platforms within the company depending on the needs and personal preferences of each team.
 In this blog post, I'll talk about some of these options. comment on their characteristics, and explain why we haven't found or go-to yet.
 
-During the first months of 2020, one application in particular quite quickly gained popularity and users - [ZOOM](https://zoom.us/).
+During the first months of 2020, one application in particular quite quickly gained popularity and users - [ZOOM](https://zoom.us/){:target="_blank"}.
 We also thought about using it but there were some issues. 
 At ePages, everyone can freely decide what operating system they want to work with.
 For some developers, Linux is the best option.
 However, there were some bigger differences regarding the range of functions between Windows/Mac and Linux.
 That's why we discarded it as a viable option. 
-No to mention the [doubts about the security](https://www.youtube.com/watch?v=K7hIrw1BUck). 
+No to mention the [doubts about the security](https://www.youtube.com/watch?v=K7hIrw1BUck){:target="_blank"}. 
 
-One tool that a lot of us use every week and some even every day is [BBB (BigBlueButton)](https://bigbluebutton.org/).
+One tool that a lot of us use every week and some even every day is [BBB (BigBlueButton)](https://bigbluebutton.org/){:target="_blank"}.
 It is an open-source tool based on Linux for video conferences.
 However, you can also record them and the tool provides a chat.
 Due to the need for a physical server in the office, when we started using it, we had some problems with interruptions and slowly running meetings. 
@@ -46,14 +46,14 @@ We also use it for most of the reviews in the RnD-Department.
 
 ## Looking for different options
 
-One of the options we used most was [Google Hangouts](https://hangouts.google.com/).
+One of the options we used most was [Google Hangouts](https://hangouts.google.com/){:target="_blank"}.
 It has a very simple interface to use, includes a chat in each room and even allows more than one user to share their screen simultaneously.
 However, there is one issue.
 When the person who is sharing the screen changes the element the image quality always lacks. 
 Only for a few seconds so not a big problem but rather annoying.
 Since the platform is also no longer maintained by Google for the benefit of Google Meet, we stopped using it (It will disappear completely in June 2021).
 
-The two tools we’ve found that cover our needs best are [Google Meet](https://apps.google.com/meet/) and Microsoft Teams.
+The two tools we’ve found that cover our needs best are [Google Meet](https://apps.google.com/meet/){:target="_blank"} and Microsoft Teams.
 Both platforms allow us to create conferences with a big group of people, to share a screen (however only one at a time), to chat in each room, automatic subtitles for conversations in English, and both are providing a web version.
 This could give us the impression that both options are equally good at fulfilling our needs.
 However, there are small nuances that differ which determine the functionality.
