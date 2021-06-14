@@ -20,7 +20,7 @@ This made video conferencing platforms essential for our everyday work.
 
 ## Starting the journey
 
-Some months ago, we've started to use [Microsoft Teams](https://www.microsoft.com/de-de/microsoft-teams/group-chat-software){:target="_blank"}which allows us to hold meetings with more than 70 people, generate different rooms that can be used simultaneously, chat with each other, … 
+Some months ago, we've started to use [Microsoft Teams](https://www.microsoft.com/de-de/microsoft-teams/group-chat-software){:target="_blank"} which allows us to hold meetings with more than 70 people, generate different rooms that can be used simultaneously, chat with each other, … 
 However, Microsoft Teams isn't the only option. 
 Today, we use a variety of different video platforms within the company depending on the needs and personal preferences of each team.
 In this blog post, I'll talk about some of these options. comment on their characteristics, and explain why we haven't found or go-to yet.
