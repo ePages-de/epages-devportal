@@ -89,9 +89,9 @@
   image: bbader.jpg
 
 - id: bdelafuente
-  name: Borja dlF
+  name: Borja
   full_name: Borja de la Fuente
-  description: is a Ruby on Rails Developer. Always ready to learn new things.
+  description: is a Ruby on Rails Developer who is always eager to learn new things.
   image: avatar_male.jpg
 
 - id: bklein
