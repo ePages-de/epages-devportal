@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/headers/public/pdf-generation.jpg
-  text: <strong>PDF generation with Java</strong>
-  link: /blog/methods-and-tools/pdf-generation-with-java/
+  image: /assets/img/pages/headers/public/feathers-cover.png
+  text: <strong>FeathersJS - A brief introduction</strong>
+  link: /blog/methods-and-tools/feathersjs-a-brief-introduction/
 
 job:
-  image: /assets/img/pages/headers/public/abstract-art-blur-bright.jpg
-  text: We're hiring a<br /><strong>JavaScript Engineer (m/f/d)</strong>
-  link: https://epages-gmbh.jobs.personio.de/job/201909?language=en
+  image: /assets/img/pages/headers/public/application-management-interview.jpg
+  text: We're hiring a<br /><strong>Senior Java Developer (m/f/d)</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/202115?language=en

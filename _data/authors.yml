@@ -70,10 +70,16 @@
   description: is a Java Developer, who is passionate about clean code, keen on Open Source, and likes to be on the move.
   image: asasin.png
 
+- id: aschroeder
+  name: Alicia
+  full_name: Alicia Schröder
+  description: is part of our Technical Writing team. She loves writing great help articles for our software and crafting creative social media content.
+  image: avatar_female.jpg
+
 - id: azimmermann
   name: Anne
   full_name: Anne Debora Zimmermann
-  description: is a Frontend Designer. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
+  description: is a multi-passionate frontend dude. She is keen on User Interface and Web Design, and loves to combine the art of design with the art of coding.
   image: azimmermann.jpg
 
 - id: bbader
@@ -133,8 +139,14 @@
 - id: ckorff
   name: Christian Ko.
   full_name: Christian Korff
-  description:  is a UX Manager who loves to create interaction concepts which focus on the user needs and strives for a company UX mindset.
+  description: is a UX Manager who loves to create interaction concepts which focus on the user needs and strives for a company UX mindset.
   image: ckorff.png
+
+- id: cmenke
+  name: Carina
+  full_name: Carina Menke
+  description: is a JavaScript Engineer who is passionate about frontend development as well as design. She loves learning coding languages just as much as foreign languages.
+  image: avatar_female.jpg
 
 - id: cmueller
   name: Christoph
@@ -514,6 +526,12 @@
   description: is a Software Engineer. He practices katas not just in coding dojos.
   image: avatar_male.jpg
 
+- id: pboxall
+  name: Peter
+  full_name: Peter Boxall
+  description: is a Software Engineer, developing Spring Boot and soon, React.
+  image: avatar_male.jpg
+
 - id: pkalashnikov
   name: Pavlo
   full_name: Pavlo Kalashnikov
@@ -523,7 +541,7 @@
 - id: ppriotto
   name: Paolo
   full_name: Paolo Priotto
-  description: is a Web Developer for all things in frontend. Although writing mostly JavaScript day in, day out, he never really gave up his passion for CSS.
+  description: is a Frontend Developer with no fear to hack together SQL, Shell, or Java code until the error message goes away.
   image: ppriotto.jpg
 
 - id: rbeer
