@@ -25,6 +25,9 @@ However, Microsoft Teams isn't the only option.
 Today, we use a variety of different video conferencing platforms within the company, depending on the needs and personal preferences of each team.
 In this blog post, I'll talk about some of these options, comment on their feature set, and explain why we haven't found our go-to yet.
 
+_Disclaimer: This post showcases our personal experiences we’ve made with the different platforms on our journey to find the one that best fits our requirements._
+_The downsides and feature sets of the platforms may have changed in the meantime or might not apply to your setup._
+
 During the first months of 2020, one application in particular quite quickly gained popularity and users - [ZOOM](https://zoom.us/){:target="_blank"}.
 We also thought about using it but faced some issues. 
 At ePages, everyone can freely decide what operating system they want to work with.
@@ -40,7 +43,7 @@ One downside is the need for an own physical server to use BBB.
 For the other platforms mentioned in this blog post, you'll only need an internet connection.
 Especially at the beginning, we also had some problems with interruptions and slowly running meetings.
 Fortunately, we were able to solve most of these problems but some of them persist.
-Especially for teams working outside of Germany, there are still some issues with the video quality and availability.
+Especially for teams working outside of Germany, there are still some issues like audio and video interruptions.
 The only solution we've figured out is that the conference room is created by a person located in Germany.
 As that's not ideal, we were encouraged to seek different options.
 However, for a lot of teams at ePages BBB is still the go-to platform.
