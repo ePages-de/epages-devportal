@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/feathers-cover.png
-  text: <strong>FeathersJS - A brief introduction</strong>
-  link: /blog/methods-and-tools/feathersjs-a-brief-introduction/
+  image: /assets/img/pages/headers/public/pexels-conference.jpeg
+  text: <strong>Finding our go-to video conferencing platform</strong>
+  link: /blog/methods-and-tools/finding-our-go-to-video-conferencing-platform/
 
 job:
   image: /assets/img/pages/headers/public/application-management-interview.jpg
