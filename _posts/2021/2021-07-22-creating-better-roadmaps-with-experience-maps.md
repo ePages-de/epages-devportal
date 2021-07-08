@@ -11,15 +11,15 @@ authors: ["Christian"]
 about_authors: ["ckorff"]
 ---
 
-As a company developing products in a user centered way, we must rely on customer feedback in order to decide which features should be developed next.
-This feedback comes from many different sources like direct customer interviews, customer support, external partners our own consulting department or from other stakeholders like marketing and sales.
+As a company developing products in a user-centered way, we must rely on customer feedback in order to decide which features should be developed next.
+This feedback comes from many different sources, like direct customer interviews, customer support, external partners, or from other stakeholders (e.g. the marketing and sales department).
 
 ## The problem of collecting feedback and creating roadmaps
 
-We are collecting this feedback throughout Jira tickets, which are created by the feedback owner and later analyzed by product management.
-Doing this we faced the problem, that the feedback often was insufficiently described and missing important details about why a certain feature is needed by the user.
+We are collecting this feedback throughout [Jira tickets](https://www.atlassian.com/software/jira){:target="_blank"}, which are created by the feedback owner and later analyzed by product management.
+Doing this, we faced the problem that the feedback often was insufficiently described and missing important details about why a certain feature is needed by the user.
 Furthermore, the feedback was not really sorted and it was very hard to distinguish to which part of our software a feedback is related and how many users are actually affected by it.
-Sometimes feedback tickets were even created double and triple because the feedback owners were not able to find the original ticket inside the huge collection of feedback.
+Sometimes feedback tickets were even created several times because the feedback owners were not able to find the original ticket inside the huge collection of feedback.
 
 As also our roadmap is based on this feedback, this led to the situation, that every 3 months when it was time to create the new roadmap, we couldn’t easily detect where customers had the most problems or which features where actually the ones most urgently needed.
 Therefore, we as a product management team had to have a lot of discussions with all stakeholders where we tried to find out what in their eyes would be the most urgent needed features and to have them commit to the afterwards created roadmap which was never easy as everyone had a different opinion on what would be the next most urgent thing to develop.
@@ -47,4 +47,4 @@ Once the new roadmap is created, we can use the experience map again to visualiz
 Experience maps are a great tool to analyze, structure and visualize feedback and generally the current state of a product from a user’s point of view.
 They can help prioritizing new developments and generally enhance the user centered mindset of the company as everyone can see where the users are struggling of which goals, they are trying to achieve with the product.
 
-Image
+{% image_custom image="/assets/img/pages/blog/images/experience-map-example.png" width="70"%}
