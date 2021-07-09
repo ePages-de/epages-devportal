@@ -12,28 +12,28 @@ about_authors: ["ckorff"]
 ---
 
 As a company developing products in a user-centered way, our product management team (to which my UX colleagues and I belong) must rely on customer feedback in order to decide which features should be developed next.
-This feedback comes from many different sources, like direct customer interviews, customer support, external partners, or from other stakeholders (e.g. the marketing and sales department).
+This feedback comes from many different sources, like direct customer interviews, customer support, external partners, or other stakeholders (e.g. the marketing and sales department).
 
-## The problem of collecting feedback and creating roadmaps
+## The challenge of collecting feedback and creating roadmaps
 
 We are collecting this feedback throughout [Jira tickets](https://www.atlassian.com/software/jira){:target="_blank"}, which are created by the feedback owner and later analyzed by the product management team.
 Doing this, we faced the issue that the feedback was often insufficiently described and missing important details about why a certain feature is needed by the user.
 Furthermore, the feedback was not really sorted and it was very hard to figure out to which part of our software a feedback applies and how many users are actually affected by it.
 Sometimes, feedback tickets were even created twice or more because the feedback owners didn't find the original ticket inside the huge collection of feedback.
 
-As our roadmap process also takes the feedback we get into account, this led to another challenge whenever it was time to come up with the new roadmap (which is, here at ePages, every three month): we had a hard time detecting where customers struggle the most and which features are actually the ones most urgently needed.
+As our roadmap process is also based on the feedback we get, this led to another challenge whenever it was time to come up with the new roadmap (which is, here at ePages, every three month): we had a hard time detecting where customers struggle the most and which features are actually the ones most urgently needed.
 Therefore, the product management team had to have a lot of discussions with all stakeholders in which we tried to find out what in their eyes would be the most urgent features and to have them commit to the created roadmap.
 These discussions were never easy as everyone had a different opinion on what would be the next most urgent thing to develop.
 
 ## Learnings from UX
 
 As user experience professionals, my UX colleagues and I are used to work with feedback and to do research to find out how certain features should be designed in order to make them as easy as possible to use and understandable for the user.
-As this is the common approach in UX Design, we thought that it should also work on a product management level when it is about to decide on the direction and the next features to be developed for our products.
+As this is the common approach in UX Design, we thought that it should also work on a product management level when it is time to decide on the next features to be developed and the genereal direction of our products.
 
 We came up with the idea of using [experience maps](https://www.nngroup.com/articles/ux-mapping-cheat-sheet/#:~:text=Experience%20maps%20generalize%20the%20concept,a%20specific%20business%20or%20product.){:target="_blank"}.
 Those maps are similar to [customer journey maps](https://www.atlassian.com/team-playbook/plays/customer-journey-mapping){:target="_blank"} which are used in the field of UX to visualize how users are working with a product or a specific feature and how they experience it.
-Experience maps would help us to organize the already existing feedback, merge feedback which is shared by different users, and break the feedback apart.
-Furthermore, it would allow us to analyze and visualize the different goals, activities, touchpoints, pain points, and thoughts of our users.
+Experience maps can help us to organize the already existing feedback, merge feedback which was provided by different users, and break the feedback down into the single issues.
+Furthermore, they allow us to analyze and visualize the different goals, activities, touchpoints, pain points, and thoughts of our users.
 
 ## Structure and transparency
 
@@ -41,10 +41,10 @@ The result is a living document maintained by product management, which shows th
 
 {% image_custom image="/assets/img/pages/blog/images/experience-map-example.png" width="70"%}
 
-It serves as a great source from which we can draw for upcoming roadmaps and helps us to develop new feature ideas or feature optimizations based on the pain points and problems.
+It serves as a great source from which we can draw for upcoming roadmaps and helps us to develop new feature ideas or feature optimizations based on our users' needs.
 Furthermore, it allows us to better prioritize them as it is possible to distinguish between more rare and more common feedback which is shared by a lot of users.
 
-Once the new roadmap is created, we can again use the experience map to visualize it and allow everyone to trace back any roadmap item to the underlaying user goals and pain points.
+Once the new roadmap has been created, we can again use the experience map to allow everyone to trace back any roadmap item to the underlying user goals and pain points.
 Thus, they can immediately see the reason(s) why the respective feature should be developed next.
 
 ## Summary 
