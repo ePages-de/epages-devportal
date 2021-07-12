@@ -31,7 +31,7 @@ As user experience professionals, my UX colleagues and I are used to work with f
 As this is the common approach in UX Design, we thought that it should also work on a product management level when it is time to decide on the next features to be developed and the genereal direction of our products.
 
 We came up with the idea of using [experience maps](https://www.nngroup.com/articles/ux-mapping-cheat-sheet/#:~:text=Experience%20maps%20generalize%20the%20concept,a%20specific%20business%20or%20product.){:target="_blank"}.
-Those maps are similar to [customer journey maps](https://www.atlassian.com/team-playbook/plays/customer-journey-mapping){:target="_blank"} which are used in the field of UX to visualize how users are working with a product or a specific feature and how they experience it.
+Those maps are similar to [customer journey maps](https://www.nngroup.com/articles/ux-mapping-cheat-sheet/#:~:text=Customer%20journey%20maps%20focus%20on%20a%20specific%20customer%E2%80%99s%20interaction%20with%20a%20product%20or%20service.){:target="_blank"} which are used in the field of UX to visualize how users are working with a product or a specific feature and how they experience it.
 Experience maps can help us to organize the already existing feedback, merge feedback which was provided by different users, and break the feedback down into the single issues.
 Furthermore, they allow us to analyze and visualize the different goals, activities, touchpoints, pain points, and thoughts of our users.
 
