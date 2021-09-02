@@ -57,14 +57,14 @@ But why should you aim for that goal?
 - Collaboration with other people is easier as you have at least some basic knowledge about other topics
 - You stay interested in learning new things
 - You can break the ice easier with new colleagues
-- As you become more and more familiar with concepts outside of your knowledge, you become slowly immune against the [Paradox of Expertise](https://www.psychologytoday.com/us/blog/tracking-wonder/201906/the-paradox-expertise)
+- As you become more and more familiar with concepts outside of your knowledge, you become slowly immune against the [Paradox of Expertise](https://www.psychologytoday.com/us/blog/tracking-wonder/201906/the-paradox-expertise){:target="_blank"}
 - You will get tasks with more responsibility from your employer
 
 
 
 ### 4. Learn software architecture (how to integrate external systems: file transfer, remote procedure, messaging)
 
-A lot of developers love to code. Design patterns will pop up along the developer journey for sure. Patterns like MVC, Strategy, Bridge, Adapter, Singleton will be know for many. But there is a lot more to software architecture than this. For example, in modern software architecture you have to integrate a lot of external services instead of implementing it by yourself. There a lots of ways to do this (e.g. Webservice based solutions, file based integrations, and more can be found this [book](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Addison-Wesley-ebook/dp/B008OHVDFM/ref=rvi_1/)). Choosing the right (also technical) solution or pattern can base on many factors. One of the biggest influences you have on your decision is based on the purpose and size of the software. There huge differences between B2B, B2C, B2G or C2C applications. Each will bring their own rules and pitfalls. This could be:
+A lot of developers love to code. Design patterns will pop up along the developer journey for sure. Patterns like MVC, Strategy, Bridge, Adapter, Singleton will be know for many. But there is a lot more to software architecture than this. For example, in modern software architecture you have to integrate a lot of external services instead of implementing it by yourself. There a lots of ways to do this (e.g. Webservice based solutions, file based integrations, and more can be found this [book](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Addison-Wesley-ebook/dp/B008OHVDFM/ref=rvi_1/){:target="_blank"}). Choosing the right (also technical) solution or pattern can base on many factors. One of the biggest influences you have on your decision is based on the purpose and size of the software. There huge differences between B2B, B2C, B2G or C2C applications. Each will bring their own rules and pitfalls. This could be:
 
 - traffic load (B2C)
 - high complexity (B2B)
