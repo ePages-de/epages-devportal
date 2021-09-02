@@ -2,7 +2,7 @@
 layout: post
 title: "5 most valuable things I learned in my 10+ year career"
 date: 2021-09-11
-header_image: public/logging.jpg
+header_image: public/5-things-learning.jpg
 header_overlay: true
 header_position: center
 category: tech-stories
