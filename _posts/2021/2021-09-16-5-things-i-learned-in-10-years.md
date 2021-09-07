@@ -6,7 +6,7 @@ header_image: public/5-things-learning.jpg
 header_overlay: true
 header_position: center
 category: tech-stories
-tags: ["coding tips", "learning", "development"]
+tags: ["coding tips", "learning", "development", "soft skills"]
 authors: ["Waldemar"]
 about_authors: ["wschneider"]
 ---
