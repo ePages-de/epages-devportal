@@ -86,7 +86,7 @@ For example, in modern software architecture, you have to integrate a lot of ext
 There are lots of ways to do this (e.g. Webservice based solutions, file-based integrations, and more can be found in this [book](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Addison-Wesley-ebook/dp/B008OHVDFM/ref=rvi_1/){:target="_blank"}).
 Choosing the right (also technical) solution or pattern can base on many factors.
 One of the biggest influences you have on your decision is based on the purpose and size of the software.
-There are huge differences between [B2B](https://en.wikipedia.org/wiki/Business-to-business), [B2C](https://en.wikipedia.org/wiki/Direct-to-consumer), [B2G](https://en.wikipedia.org/wiki/Business-to-government) or [C2C](https://en.wikipedia.org/wiki/Customer_to_customer) applications.
+There are huge differences between [B2B](https://en.wikipedia.org/wiki/Business-to-business){:target="_blank"}, [B2C](https://en.wikipedia.org/wiki/Direct-to-consumer){:target="_blank"}, [B2G](https://en.wikipedia.org/wiki/Business-to-government){:target="_blank"} or [C2C](https://en.wikipedia.org/wiki/Customer_to_customer){:target="_blank"} applications.
 Each will bring its own rules and pitfalls.
 This could be:
 
