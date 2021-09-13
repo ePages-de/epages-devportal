@@ -47,7 +47,7 @@ Let's assume there are 3 views on that:
 - Technology: How to build software that is robust and lasts long (clean and homogeneous architecture, efficient, low memory usage etc.)?
 
 When you start working on new tasks, it is always helpful to know the answers to the what-why-how questions.
-Usually, these questions helped me always to get a grasp at the big picture:
+Usually, these questions always helped me to get a grasp at the big picture:
 - have the end in mind (what?)
 - understand and challenge the requirements (why?)
 - connect the dots (how?)
@@ -63,8 +63,8 @@ For me, the answer is a simple yes and no. But first, we need to understand what
 I always had the ambition to have a broad knowledge.
 I wanted to know more than just the programming language and the framework I used to write my code.
 Additionally, I learned and tried to use new languages, concepts, new (web) technologies in simple pet projects.
-The opposite of a T-Shaped person is an I-shaped person who only has deep deep knowledge in one field and no general knowledge.
-There is also the dash-shaped person with only general knowledge who has no deep knowledge of a topic.
+The opposite of a T-Shaped person is an I-shaped person who only has deep knowledge in one field and no general knowledge.
+There is also the dash-shaped person who only has general knowledge and no deep knowledge of a topic.
 
 But why should you aim for that goal?
 
