@@ -80,7 +80,7 @@ But why should you aim for that goal?
 
 A lot of developers love to code.
 Design patterns will pop up along the developer journey for sure.
-Patterns like MVC, Strategy, Bridge, Adapter, Singleton will be known for many.
+Patterns like MVC, Strategy, Bridge, Adapter, Singleton are almost common knowledge for a developer.
 But there is a lot more to software architecture than this.
 For example, in modern software architecture, you have to integrate a lot of external services instead of implementing them by yourself.
 There are lots of ways to do this (e.g. Webservice based solutions, file-based integrations, and more can be found in this [book](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Addison-Wesley-ebook/dp/B008OHVDFM/ref=rvi_1/){:target="_blank"}).
