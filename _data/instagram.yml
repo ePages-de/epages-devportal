@@ -4,6 +4,6 @@ blog:
   link: /blog/ux-and-design/why-experience-maps-help-to-create-better-roadmaps/
 
 job:
-  image: /assets/img/pages/headers/public/journey-developer.jpg
-  text: We're hiring a<br /><strong>Ruby Developer (m/f/d)</strong>
-  link: https://epages-gmbh.jobs.personio.de/job/202168?language=en
+  image: /assets/img/pages/headers/public/onboarding.jpg
+  text: We're hiring a<br /><strong style="font-size:2.0rem;">Software Developer - 3rd Party Integration, REST API (m/f/d)</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/202173
