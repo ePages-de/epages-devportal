@@ -12,7 +12,7 @@ about_authors: ["wschneider"]
 ---
 
 Back in late 2008, I started to work as a Junior Java Developer at a middle-sized company in the finance sector.
-Today at ePages, but overall I've been working as a developer (mostly with JVM-based languages) for almost 13 years.
+Today I work at ePages, but overall I've been working as a developer (mostly with JVM-based languages) for almost 13 years.
 Along the journey, I came across many different types of people, organizations, cultures, and obviously software.
 With this post, I want to present the 5 (for me) most valuable things I learned in my 10+ year career.
 Let's break it down.
@@ -28,10 +28,10 @@ But what does it mean, you may ask?
 
 Basically, it consists of 4 parts:
 1. Perceiving emotions: The ability to realize the emotions of people.
-This includes facial expressions, gestures, posture and voice.
-2. Using emotions: The ability or knowledge to use your and other people's emotions to ease cognitive activities, e.g. problem or conflict solving.
+This includes facial expressions, gestures, posture, and voice.
+2. Using emotions: The ability or knowledge to use your own and other people's emotions to ease cognitive activities, e.g. problem or conflict solving.
 3. Understanding: The ability to analyze emotions and how these can change over time.
-4. Managing: The ability to influence the emotions of yourself or other people.
+4. Managing: The ability to influence your own emotions or those of other people.
 
 
 
@@ -43,7 +43,7 @@ Many developers tend to overestimate the importance of their own domain in the s
 
 Let's assume there are 3 views on that:
 - Business: How to be more successful as a company, and how can this be achieved?
-- User: How can we provide value to the end-user or customer with the code you write?
+- User: How can you provide value to the end-user or customer with the code you write?
 - Technology: How to build software that is robust and lasts long (clean and homogeneous architecture, efficient, low memory usage etc.)?
 
 When you start working on new tasks, it is always helpful to know the answers to the what-why-how questions.
@@ -83,7 +83,7 @@ Design patterns will pop up along the developer journey for sure.
 Patterns like MVC, Strategy, Bridge, Adapter, Singleton are almost common knowledge for a developer.
 But there is a lot more to software architecture than this.
 For example, in modern software architecture, you have to integrate a lot of external services instead of implementing them by yourself.
-There are lots of ways to do this (e.g. Webservice based solutions, file-based integrations, and more can be found in this [book](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Addison-Wesley-ebook/dp/B008OHVDFM/ref=rvi_1/){:target="_blank"}).
+There are lots of ways to do this (e.g. Webservice based solutions, file-based integrations, and more can be found, for example, in this [book](https://www.martinfowler.com/books/eaa.html){:target="_blank"}).
 Choosing the right (also technical) solution or pattern can base on many factors.
 One of the biggest influences you have on your decision is based on the purpose and size of the software.
 There are huge differences between [B2B](https://en.wikipedia.org/wiki/Business-to-business){:target="_blank"}, [B2C](https://en.wikipedia.org/wiki/Direct-to-consumer){:target="_blank"}, [B2G](https://en.wikipedia.org/wiki/Business-to-government){:target="_blank"} or [C2C](https://en.wikipedia.org/wiki/Customer_to_customer){:target="_blank"} applications.
@@ -100,16 +100,16 @@ If you document your decisions (including arguments for/against other options as
 
 ### 5. Be open-minded
 
-While working for several companies over all those years, there is one thing you will always stumble upon - Discussions and disagreements.
+While working for several companies over all those years, there is one thing you will always stumble upon - discussions and disagreements.
 Every developer has a lot of knowledge and thinks their decision or opinion is the right one.
 And the developer tries not to give in as pride is standing in their way.
 
-I would be lying if I said this would not have happened to me.
+I would be lying if I said this never happened to me.
 At some point, I read an article that was not just about being open-minded, but rather how to be.
 If I need to break it down into short and concise bullet points, I would describe it as:
 
 - Always approach disagreements with curiosity.
-- Always fear being wrong, no matter how confident you are being right.
+- Always fear that you may be wrong, no matter how confident you are that you are right.
 - Try to fully *understand* (not just *hear*) other peoples arguments first, and then reject or accept those arguments.
 Furthermore, try to understand *what* people are saying, and their reasoning behind it.
 - Look for the best answer, not the best answer you can come up with by yourself, but as a team.
@@ -118,7 +118,7 @@ Furthermore, try to understand *what* people are saying, and their reasoning beh
 
 Obviously, there are a lot of other topics, which are no less important in the daily work of a developer.
 Clean code, lots of hard skills, know how to use Git, Test Driven Development, Refactoring... the list is very long.
-I tried to pick those things, which I saw as very valuable to myself.
+I tried to pick the things I found very valuable for myself.
 
 I am curious about what I will learn in the next 10 years.
 Being a developer in a fast-changing world also means lifelong learning.
