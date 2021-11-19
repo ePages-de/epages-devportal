@@ -54,7 +54,7 @@ Does the system support learning (e.g. through tooltips or undo and redo)?
 If one of the answers is “no”, we must try to find a way to improve our solution before we start explaining it.
 
 
-{% image_custom image="/assets/img/pages/blog/images/design-guidelines-iso-9241-110.png" width="50"%}
+{% image_custom image="/assets/img/pages/blog/images/design-guidelines-iso.png" width="50"%}
 
 ### Usability Heuristics 
 
