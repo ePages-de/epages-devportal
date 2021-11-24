@@ -43,6 +43,9 @@ Instead, onboarding can be strongly supported by sticking to design guidelines t
 
 ## Good design needs no explanation
 
+Even though good design needs no explanation, it can still follow some guidelines.
+Therefore, we will have a look at some of them in the following section and outline the most important takeaways for an onboarding process.
+
 ### Dialogue principles
 
 Standards like the dialogue principles (as stated in [ISO 9241-110](https://www.iso.org/standard/38009.html){:target="_blank"}) provide helpful guidance for setting up an interface.
