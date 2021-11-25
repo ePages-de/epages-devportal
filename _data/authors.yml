@@ -430,6 +430,12 @@
   description: is an experienced Software Engineer with a degree in Technical Informatics. His focus is on backend implementations for our products Base and Now.
   image: mhoehn.jpg
 
+- id: mjacobs
+  name: Martina
+  full_name: Martina Jacobs
+  description: is a crucial member of our UX team. Her focus is on improving the usability of our products to transform our merchants from ecommerce novices to successful online shop professionals with zero downtime.
+  image: avatar_female.jpg
+
 - id: mkofler
   name: Miriam
   full_name: Miriam
