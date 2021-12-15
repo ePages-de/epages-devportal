@@ -11,7 +11,7 @@ authors: ["Svenja"]
 about_authors: ["svoelz"]
 ---
 
-On December 02 and 03, I participated in the Tomorrow Academy's "Graphic Design Innovation Lab" workshop.
+On 02 and 03 December, I participated in the Tomorrow Academy's "Graphic Design Innovation Lab" workshop.
 In this post, I would like to share and reflect on some of my impressions and thoughts about the event.
 
 ## The speakers and the workshop
@@ -113,4 +113,4 @@ Throughout the workshop, there was a good balance between new input, self-experi
 Especially because of the small group of 8 people, everyone was able to contribute something and receive sufficient feedback.
 All in all, the two days felt like a little holiday for my heart and soul, where I also learned a lot for my job and daily life.
 
-{% image_custom image="/assets/img/pages/blog/images/poster-graphic-design-innovation-lab.png" align="right" %}
+{% image_custom image="/assets/img/pages/blog/images/poster-graphic-design-innovation-lab.png" align="right" width="50"%}
