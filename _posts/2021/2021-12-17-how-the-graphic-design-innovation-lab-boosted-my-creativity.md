@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How the “Graphic Design Innovation Lab“ boosted my creativity
+title: How the “Graphic Design Innovation Lab” boosted my creativity
 date: 2021-12-17
 header_image: public/creativity-child.jpg
 header_overlay: true
@@ -11,14 +11,14 @@ authors: ["Svenja"]
 about_authors: ["svoelz"]
 ---
 
-On 02 and 03 December, I participated in the Tomorrow Academy's "Graphic Design Innovation Lab" workshop.
+On the 2nd and 3rd of December, I participated in the [Tomorrow Academy's](https://tomorrowacademy.org/){:target="_blank"} "Graphic Design Innovation Lab" workshop.
 In this post, I would like to share and reflect on some of my impressions and thoughts about the workshop.
 
 ## The speakers and the workshop
 
 The twins Thomas and Martin Poschauko are multidisciplinary universal creatives who combine liberal arts, design, creative research, and academic teaching.
-As designers, they work for clients such as Sony Music, Kieler Woche, Deutsche Post, the band Labrassbanda, the Federal Ministry of Finance or the product design label Auerberg.
-They take care of the graphic design, corporate identity, illustration, and music design
+As designers, they work for clients such as Sony Music, Kieler Woche, Deutsche Post, the band Labrassbanda, the Federal Ministry of Finance, or the product design label Auerberg.
+They take care of the graphic design, corporate identity, illustration, and music design.
 The authors of the multiple awards winning book ["Nea Machina - die Kreativmaschine"](https://www.poschauko.de/neamachina/){:target="_blank"} give seminars, hold lectures about "creativity", and explore the creative process in their experiments.
 As creative consultants, they already worked with companies such as MetaDesign, Red Bull, Ferrero, Maloja, Georg Thieme Verlag, Strichpunkt Design, and ServusTV.
 For more information and insights into their work, please visit their [website](https://www.poschauko.de/){:target="_blank"}.
@@ -55,7 +55,7 @@ Maybe one or two of you have already caught yourself thinking: "I'm not that cre
 But is that true?
 What does creativity actually mean?
 
-Creativity is not just about painting beautiful pictures, writing exciting novels or making great music.
+Creativity is not just about painting beautiful pictures, writing exciting novels, or making great music.
 It manifests itself in thinking, acting, and planning, which are elementary steps for human development.
 Being creative means changing perspectives or taking different paths.
 Thus, creativity can basically be compared to problem-solving.
@@ -89,7 +89,7 @@ Their core message is that basically everything can be an inspiration.
 To do this, you only have to learn to leave your habitual ways of seeing things behind and be open to everything new.
 But this is a process that takes time and does not happen overnight.
 However, once you get used to it, your sensitivity to your environment increases every day.
-The Poschauko brothers have internalised this view so much that everything around them can be an inspiration for their innovative designs.
+The Poschauko brothers have internalized this view so much that everything around them can be an inspiration for their innovative designs.
 
 ## How is this supposed to work?
 
