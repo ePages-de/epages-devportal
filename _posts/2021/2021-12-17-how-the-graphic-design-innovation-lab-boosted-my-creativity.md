@@ -16,12 +16,9 @@ In this post, I would like to share and reflect on some of my impressions and th
 
 ## The speakers and the workshop
 
-The twins Thomas and Martin Poschauko are multidisciplinary universal creatives who combine liberal arts, design, creative research, and academic teaching.
-As designers, they work for clients such as Sony Music, Kieler Woche, Deutsche Post, the band Labrassbanda, the Federal Ministry of Finance, or the product design label Auerberg.
-They take care of the graphic design, corporate identity, illustration, and music design.
-The authors of the multiple awards winning book ["Nea Machina - die Kreativmaschine"](https://www.poschauko.de/neamachina/){:target="_blank"} give seminars, hold lectures about "creativity", and explore the creative process in their experiments.
-As creative consultants, they already worked with companies such as MetaDesign, Red Bull, Ferrero, Maloja, Georg Thieme Verlag, Strichpunkt Design, and ServusTV.
-For more information and insights into their work, please visit their [website](https://www.poschauko.de/){:target="_blank"}.
+The twins and designers [Thomas and Martin Poschauko](https://www.poschauko.de/){:target="_blank"} combine several disciplines like liberal arts, design, creative research, and academic teaching.
+They take care of the graphic design, corporate identity, illustrations, and music design for several well-known companies including Sony Music, Kieler Woche, and Deutsche Post.
+Furthermore, they share their knowledge in their book ["Nea Machina - die Kreativmaschine"](https://www.poschauko.de/neamachina/){:target="_blank"} and in different seminars and lectures about creativity.
 
 For me, the workshop started a few days before the actual date.
 I received a big package with everything I needed for the workshop, and some great little gifts, such as snacks and drinks.
@@ -113,5 +110,3 @@ Their passion and creativity was contagious.
 Throughout the workshop, there was a good balance between new input, self-experimentation, breaks, and feedback.
 Especially because of the small group of eight people, everyone was able to contribute something and receive sufficient feedback.
 All in all, the two days felt like a little holiday for my heart and soul, where I also learned a lot for my job as a Frontend Designer and my daily life.
-
-{% image_custom image="/assets/img/pages/blog/images/poster-graphic-design-innovation-lab.png" width="25" %}
