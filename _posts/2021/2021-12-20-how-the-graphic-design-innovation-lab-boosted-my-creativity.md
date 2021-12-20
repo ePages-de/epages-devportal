@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How the “Graphic Design Innovation Lab” boosted my creativity
-date: 2021-12-17
+date: 2021-12-20
 header_image: public/creativity-child.jpg
 header_overlay: true
 header_position: center
