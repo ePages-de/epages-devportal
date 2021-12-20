@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/onboarding_more_than_hello.jpg
-  text: <strong style="font-size:2.0rem;">Why “onboarding” should be much more than saying “hello” to customers</strong>
-  link: /blog/ux-and-design/why-onboarding-should-be-much-more-than-saying-hello-to-customers/
+  image: /assets/img/pages/headers/public/creativity-child.jpg
+  text: <strong style="font-size:2.0rem;">How the “Graphic Design Innovation Lab” boosted my creativity</strong>
+  link: /blog/events/how-the-graphic-design-innovation-lab-boosted-my-creativity/
 
 job:
   image: /assets/img/pages/headers/public/task.jpg
