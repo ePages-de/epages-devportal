@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Actions: a basic how-to"
-date: 2022-01-10
+date: 2022-01-06
 header_image: public/pipeline-irl.jpg
 header_position: bottom
 header_overlay: true
