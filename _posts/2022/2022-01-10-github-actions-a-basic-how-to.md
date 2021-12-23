@@ -13,7 +13,7 @@ about_authors: ["rwelzel"]
 
 So, I am quite sure you have already heard about Github Actions.
 It is Github’s solution for automating workflows.
-You can basically automate anything that can be triggered via a Github repository’s events: add/remove tags, create/close PR, etc. ([here](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows) is a complete list).
+You can basically automate anything that can be triggered via a Github repository’s events: add/remove tags, create/close PR, etc. ([here](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows){:target="_blank"} is a complete list).
 
 {% image_custom image="/assets/img/pages/blog/images/github-actions-logo.png" width="50" %}
 
@@ -149,4 +149,4 @@ I encourage you to go over to their website and read a bit more about it.
 ## NOTE
 
 I also would to make clear that Github Actions is only one of many build tools (really, a whole lot) out there.
-Gitlab also has their own [CI solution](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/), there is also [Semaphore](https://semaphoreci.com/), [Drone](https://www.drone.io/), [Travis CI](https://travis-ci.org/), [Circle CI](https://circleci.com/)... just to name a few.
+Gitlab also has their own [CI solution](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/){:target="_blank"}, there is also [Semaphore](https://semaphoreci.com/){:target="_blank"}, [Drone](https://www.drone.io/){:target="_blank"}, [Travis CI](https://travis-ci.org/){:target="_blank"}, [Circle CI](https://circleci.com/){:target="_blank"}... just to name a few.
