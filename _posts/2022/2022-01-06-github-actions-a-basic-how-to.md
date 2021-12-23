@@ -58,7 +58,7 @@ concurrency:                            #######
   cancel-in-progress: true              #######
 
 env:
-  # Gradle variables                                                              #######
+  # Gradle variables                                                                #######
   ORG_GRADLE_PROJECT_dockerHubUsername: ${{ secrets.DOCKERHUB_USER }}             ## 3 ##
   ORG_GRADLE_PROJECT_dockerHubPassword: ${{ secrets.DOCKERHUB_PASSWORD }}         #######
 
