@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Actions: a basic how-to"
 date: 2022-01-06
-header_image: public/pipeline-irl.jpg
+header_image: public/pipeline-irl.jpg # source https://pixabay.com/images/id-4691574/
 header_position: bottom
 header_overlay: true
 category: coding
@@ -23,7 +23,7 @@ Let's have a look at some reasons why GitHub Actions could be a good choice:
 
 ## Build pipeline
 
-Great, so GitHub Actions has many advantages.
+Great, so GitHub Actions is a powerful tool.
 But let's focus on one of its main use cases: creating your own build pipeline.
 You can build, test, and even deploy your service via GitHub Actions.
 You just need to know which commands to run.
