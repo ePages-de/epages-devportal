@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/headers/public/pdf-generation.jpg
-  text: <strong>PDF generation with Java</strong>
-  link: /blog/methods-and-tools/pdf-generation-with-java/
+  image: /assets/img/pages/headers/public/creativity-child.jpg
+  text: <strong style="font-size:2.0rem;">How the “Graphic Design Innovation Lab” boosted my creativity</strong>
+  link: /blog/events/how-the-graphic-design-innovation-lab-boosted-my-creativity/
 
 job:
-  image: /assets/img/pages/headers/public/abstract-art-blur-bright.jpg
-  text: We're hiring a<br /><strong>JavaScript Engineer (m/f/d)</strong>
-  link: https://epages-gmbh.jobs.personio.de/job/201909?language=en
+  image: /assets/img/pages/headers/public/task.jpg
+  text: We're hiring a<br /><strong style="font-size:2.0rem;">Technical Writer - API Documentation & Social Media (m/f/d)</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/522686
