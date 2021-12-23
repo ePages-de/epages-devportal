@@ -45,7 +45,7 @@ We have set up GitHub Actions to run the build process in two different ocasions
 
 Here is an adapted version of our build’s YAML file (located within the `.github/workflows` directory):
 ```yaml
-name: Build and test
+{% raw %}name: Build and test
 
 on:
   push:                                 #######
@@ -114,7 +114,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2                                                   ########
       - id: package-helm-chart                                                      ## 11 ##
-        run: bash -c './src/deploy/ci/package-helm-chart.sh'                        ########
+        run: bash -c './src/deploy/ci/package-helm-chart.sh'                        ########{% endraw %}
 ```
 Let’s break it down:
 1. As already mentioned, a so-called “workflow” is triggered by a specific event.
@@ -122,10 +122,10 @@ Let’s break it down:
     a. When a pull request is created for any branch.<br>
     b. When commits are pushed to the “main” branch or to any branches ending with “-test“.
 2. This section controls when builds should be canceled.
-    In our case, it makes sure that we only have one running build per pull request.
+    In this case, it makes sure that we only have one running build per pull request.
     When multiple commits are pushed in a short period of time, only the last one gets built.
 3. The section where we load the environment variables.
-    In this example, we load the Dockerhub username/password with the repository secret required for Gradle.
+    In this example, we load the Dockerhub username/password with the repository secrets used by Gradle.
 4. Here, the setup is already done and we start running commands.
     First, we must checkout the repository.
 5. After that, we need to set up the JDK.
