@@ -18,7 +18,7 @@ And what is it that makes UX such a buzzword these days?
 
 ## Where it all begins
 
-Our UX experts Anja and Lena studied two pretty different programs: [Media and Communication Science](https://www.tu-ilmenau.de/studieninteressierte/en/fields-of-study/master/media-and-communication-science-ma/){:target="_blank"} and [Information Science](https://www.uni-hildesheim.de/studium/studienangebot/masterstudium/internationales-informationsmanagement-informationswissenschaft-master-of-arts-ma/){:target="_blank"}.
+Our UX experts Anja and Lena studied two pretty different programs: [Media and Communication Science](https://www.tu-ilmenau.de/en/study/before-the-study/range-of-courses/master/media-and-communication-science-ma-1){:target="_blank"} and [Information Science](https://www.uni-hildesheim.de/studium/studienangebot/masterstudium/internationales-informationsmanagement-informationswissenschaft-master-of-arts-ma/){:target="_blank"}.
 But I learnt that the programs have two major things in common:
 
 * If it's either Ilmenau or Hildesheim: you can study the programs in two of the smallest and most adorable student towns in Germany.
