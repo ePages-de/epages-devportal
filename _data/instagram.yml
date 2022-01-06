@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/creativity-child.jpg
-  text: <strong style="font-size:2.0rem;">How the “Graphic Design Innovation Lab” boosted my creativity</strong>
-  link: /blog/events/how-the-graphic-design-innovation-lab-boosted-my-creativity/
+  image: /assets/img/pages/headers/public/pipeline-irl.jpg
+  text: <strong> GitHub Actions&#58;<br> a basic how-to</strong>
+  link: /blog/coding/github-actions-a-basic-how-to/
 
 job:
   image: /assets/img/pages/headers/public/task.jpg
