@@ -37,7 +37,7 @@ Here are the steps needed for the build process of main branch builds (the ones 
 - Build and publish a Helm chart
 
 Quite straightforward, nothing fancy.
-We have set up GitHub Actions to run the build process in two different ocasions:
+We have set up GitHub Actions to run the build process in two different occasions:
 - On pull requests (run tests)
 - When a pull request is merged into the main branch
 
@@ -120,7 +120,7 @@ Let’s break it down:
 1. As already mentioned, a so-called “workflow” is triggered by a specific event.
     In the case of this workflow, it is triggered on two events:<br>
     a. When a pull request is created for any branch.<br>
-    b. When commits are pushed to the “main” branch or to any branches ending with “-test“.
+    b. When commits are pushed to the “main” branch or any branches ending with “-test“.
 2. This section controls when builds should be canceled.
     In this case, it makes sure that we only have one running build per pull request.
     When multiple commits are pushed in a short period of time, only the last one gets built.
@@ -149,4 +149,4 @@ I would like to encourage you to check out the [GitHub Actions docs](https://doc
 ## Final note
 
 I would also like to make clear that GitHub Actions is only one of many build tools (really, a whole lot) out there.
-GitLab also has their own [CI solution](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/){:target="_blank"}, and there is also [Semaphore](https://semaphoreci.com/){:target="_blank"}, [Drone](https://www.drone.io/){:target="_blank"}, [Travis CI](https://travis-ci.org/){:target="_blank"}, [Circle CI](https://circleci.com/){:target="_blank"}... just to name a few.
+GitLab also has its own [CI solution](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/){:target="_blank"}, and there is also [Semaphore](https://semaphoreci.com/){:target="_blank"}, [Drone](https://www.drone.io/){:target="_blank"}, [Travis CI](https://travis-ci.org/){:target="_blank"}, [Circle CI](https://circleci.com/){:target="_blank"}... just to name a few.
