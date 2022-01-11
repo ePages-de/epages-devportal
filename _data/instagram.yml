@@ -1,9 +1,9 @@
 blog:
-  image: /assets/img/pages/headers/public/remote-onboarding.jpg
-  text: <strong>How to achieve a great remote onboarding experience</strong>
-  link: /blog/on-the-job/how-to-achieve-a-great-remote-onboarding-experience/
+  image: /assets/img/pages/headers/public/pipeline-irl.jpg
+  text: <strong> GitHub Actions&#58;<br> a basic how-to</strong>
+  link: /blog/coding/github-actions-a-basic-how-to/
 
 job:
-  image: /assets/img/pages/headers/public/abstract-art-blur-bright.jpg
-  text: We're hiring a<br /><strong>JavaScript Engineer (m/f/d)</strong>
-  link: https://epages-gmbh.jobs.personio.de/job/201909?language=en
+  image: /assets/img/pages/headers/public/task.jpg
+  text: We're hiring a<br /><strong>Technical Writer (m/f/d)</strong>
+  link: https://epages-gmbh.jobs.personio.de/job/522686
