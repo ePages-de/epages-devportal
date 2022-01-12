@@ -6,6 +6,7 @@ gem "jekyll", "~> 3.8"
 gem "rake", "~> 12.3"
 gem "colorize", "~> 0.8"
 gem "html-proofer", "~> 3.9"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-admin", "~> 0.8"
