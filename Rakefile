@@ -332,6 +332,8 @@ task :test_ci do
 end
 
 task :write do
+  require 'date'
+
   write_file  = '_config_write.yml'
   date_from   = Date.new(2015)
   date_to     = Date.today.prev_month.prev_month
