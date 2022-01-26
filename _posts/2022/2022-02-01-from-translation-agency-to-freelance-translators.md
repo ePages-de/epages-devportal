@@ -26,7 +26,7 @@ The advantages of working with an agency are: Fairly quick turnaround times, goo
 In the past, our team only managed localization for one of our products and the cooperation with the agency worked fine.
 
 But in 2020, we took over the localization management for another product, for which translations had previously been managed by a different team and translation agency.
-The first challenge was to connect this product to our localization tool (you can read more about that [here](/blog/language-and-localization/how-to-get-your-localization-files-to-speak-phrase/){:target="_blank"}.
+The first challenge was to connect this product to our localization tool (you can read more about that [here](/blog/language-and-localization/how-to-get-your-localization-files-to-speak-phrase/){:target="_blank"}).
 
 Both products are comprehensive tools, and several developer teams work on new and existing features for them, so the amount of texts to be localized has increased a lot for us since we took over localization for a second product.
 
@@ -42,7 +42,7 @@ To avoid the fees, we collected the texts to request them once or twice a month,
 Another challenge were corrections.
 We strive to deliver correct and consistent translations that make our software easy to understand and convenient to work with in every market.
 That’s why we review the translations for obvious errors like missing words (it can make a huge difference if a word is missing in a translation – imagine the word being “not”), redundant spaces that could cause issues in the software or incorrect glossary terms.
-With the help of our [localization tool's](blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/){:target="_blank"} translation memory and glossary we started to notice lots of smaller and bigger errors in the translations and had to request corrections from the agency for almost every order.
+With the help of our [localization tool's](/blog/language-and-localization/rocking-the-stage-with-a-software-localization-tool/){:target="_blank"} translation memory and glossary we started to notice lots of smaller and bigger errors in the translations and had to request corrections from the agency for almost every order.
 It sometimes took several days for the corrections to be delivered, which made it very stressful for us to meet internal deadlines.
 
 Moreover, communication was not very transparent.
