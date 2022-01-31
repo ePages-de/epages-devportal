@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From translation agency to freelance translators"
-date: 2022-02-01
+date: 2022-02-03
 header_image: public/agency-to-freelancer.jpg
 header_position: center
 header_overlay: true
@@ -22,7 +22,7 @@ What may sound easy was actually a long process. Read on to learn more about our
 
 Making sure that our online shop administration is up-to-date in all of our languages is one of the tasks our team, Team Emerald, is responsible for.
 Our team has worked with a translation agency for several years.
-The advantages of working with an agency are: Fairly quick turnaround times, good availability, they have a pool of many translators for almost every language and take care of managing communication with the translators.
+The advantages of working with an agency are: Fairly quick turnaround times, good availability, they have a pool of many translators for almost every language, and take care of managing communication with the translators.
 In the past, our team only managed localization for one of our products and the cooperation with the agency worked fine.
 
 But in 2020, we took over the localization management for another product, for which translations had previously been managed by a different team and translation agency.
@@ -37,7 +37,7 @@ With the amount of translations to manage, working with a translation agency sta
 One challenge was that the agency had a minimum order value and took rather high fees when the requested amount was lower than that.
 This soon became an issue.
 While the overall amount of texts to be translated had increased, features in an agile company are of course not developed all at once and changes to existing features often require many small adjustments to the texts here and there.
-To avoid the fees, we collected the texts to request them once or twice a month, which resulted in us having to manage, review and process a big bunch of translations at once for every order.
+To avoid the fees, we collected the texts to request them once or twice a month, which resulted in us having to manage, review, and process a big bunch of translations at once for every order.
 
 Another challenge were corrections.
 We strive to deliver correct and consistent translations that make our software easy to understand and convenient to work with in every market.
@@ -61,7 +61,7 @@ With many other tasks requiring our attention, it took several weeks (if not mon
 After that, I continued to research different options, weighing pros and cons, calculating costs and volume, considering needs and restrictions and consequences for the development process.
 
 I presented my findings to my teammates, and we agreed that a combined model of working with freelance translators and asking internal native speaker colleagues for help would probably be the best way to move forward.
-Freelancers seemed to have several advantages for us: They are usually flexible, allow for direct 1:1 communication and we could be sure to always work with the same translators who would grow more and more familiar with our software’s wording every time.
+Freelancers seemed to have several advantages for us: They are usually flexible, allow for direct 1:1 communication, and we could be sure to always work with the same translators who would grow more and more familiar with our software’s wording every time.
 Internal colleagues have the advantage of being very familiar with our products already and communication is easy, but it was impossible to cover all languages and the entire workload with the help of internal colleagues.
 
 And so we set out on our journey of reworking our localization process.
