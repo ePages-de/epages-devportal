@@ -1,7 +1,7 @@
 blog:
-  image: /assets/img/pages/headers/public/pipeline-irl.jpg
-  text: <strong> GitHub Actions&#58;<br> a basic how-to</strong>
-  link: /blog/coding/github-actions-a-basic-how-to/
+  image: /assets/img/pages/headers/public/agency-to-freelancer.jpg
+  text: <strong>From translation agency to freelance translators</strong>
+  link: /blog/language-and-localization/from-translation-agency-to-freelance-translators/
 
 job:
   image: /assets/img/pages/headers/public/task.jpg
