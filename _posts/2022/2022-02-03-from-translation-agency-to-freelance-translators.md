@@ -7,7 +7,7 @@ header_position: center
 header_overlay: true
 category: language-and-localization
 tags: ["localization", "language", "translation"]
-authors: ["Yasmine W."]
+authors: ["Yasmine"]
 about_authors: ["ywolpers"]
 ---
 
