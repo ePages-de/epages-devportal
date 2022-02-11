@@ -17,4 +17,4 @@ We not only asked our developers but also our other ePagees about their favorite
 
 Here are their answers:
 
-{% image_custom image="/assets/img/pages/blog/images/2022_ePagesInNumbers.png" width="90" lightbox %}
+{% image_custom image="/assets/img/pages/blog/images/2022-epages-in-numbers.png" width="90" lightbox %}
