@@ -22,7 +22,6 @@ include:
   - beyond-essence
 
 plugins:
-  - jekyll-admin
   - bourbon
   - neat
   - rouge
