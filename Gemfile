@@ -9,7 +9,6 @@ gem "html-proofer", "~> 3.9"
 gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
-  gem "jekyll-admin", "~> 0.8"
   gem "bourbon", "~> 5.1"
   gem "neat", "~> 3.0"
   gem "rouge", "~> 3.3"

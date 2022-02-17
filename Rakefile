@@ -294,7 +294,6 @@ task :test_files do
                                './.git',
                                './.sass_cache',
                                './.tweet-cache',
-                               './assets/font-awesome',
                                './assets/fonts',
                                './vendor']).run
 end
