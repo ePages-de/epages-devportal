@@ -2,7 +2,7 @@
 layout: post
 title: Let's talk about numbers 2022
 date: 2022-02-17
-header_image: private/survey-header.png
+header_image: private/survey-header_epages.png
 header_overlay: true
 category: on-the-job
 tags: ["company culture", "facts", "survey"]
