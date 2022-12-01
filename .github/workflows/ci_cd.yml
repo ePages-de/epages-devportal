@@ -18,6 +18,8 @@ jobs:
         with:
           ruby-version: 2.7.3
           bundler-cache: true
+      - run: bundle exec jekyll build
+      - run: ls -lash
 
   # deploy_production:
   #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
