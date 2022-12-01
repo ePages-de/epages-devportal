@@ -22,6 +22,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: _devportal
+          retention-days: 7
           path: |
             _site/
             .firebaserc
@@ -43,6 +44,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: _docs
+          retention-days: 7
           path: |
             _site/
 
@@ -58,7 +60,10 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: _docs
+          path: ./_docs
       - run: ls -lash
+      - run: ls -lash _site
+      - run: ls -lash _docs
 
   # deploy_production:
   #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
