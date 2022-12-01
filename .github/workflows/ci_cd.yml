@@ -84,10 +84,28 @@ jobs:
         with:
           node-version: 18
       - run: npm install --save-dev firebase-tools
-      - run: echo $FIREBASE_PROJECT
+      - run: firebase deploy --project $FIREBASE_PROJECT --token=$FIREBASE_TOKEN --non-interactive
         env:
           FIREBASE_PROJECT: ${{ secrets.FIREBASE_APP_NAME_STAGING }}
-      # - run: ./node_modules/.bin/firebase deploy --project $ENVIRONMENT --token=$FIREBASE_TOKEN --non-interactive
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+  deploy_production:
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    runs-on: ubuntu-latest
+    needs:
+      - combine_projets
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: _site
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install --save-dev firebase-tools
+      - run: firebase deploy --project $FIREBASE_PROJECT --token=$FIREBASE_TOKEN --non-interactive
+        env:
+          FIREBASE_PROJECT: ${{ secrets.FIREBASE_APP_NAME_PRODUCTION }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
   # deploy_production:
   #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
