@@ -48,6 +48,7 @@ jobs:
             _site/
 
   combine_projets:
+    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/master') }}
     runs-on: ubuntu-latest
     needs:
       - build_test_devportal
@@ -70,7 +71,7 @@ jobs:
             firebase.json
 
   deploy_staging:
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/develop' }}
+    if: ${{ github.event_name == 'push' &&  }}
     runs-on: ubuntu-latest
     needs:
       - combine_projets
