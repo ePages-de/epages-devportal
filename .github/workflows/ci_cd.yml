@@ -78,12 +78,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: _site
-      - run: ls -lash
-      - run: ls -lash _site
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm install --save-dev firebase-tools
+      - run: curl -sL firebase.tools | bash
       - run: firebase deploy --project $FIREBASE_PROJECT --token=$FIREBASE_TOKEN --non-interactive
         env:
           FIREBASE_PROJECT: ${{ secrets.FIREBASE_APP_NAME_STAGING }}
@@ -98,10 +93,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: _site
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm install --save-dev firebase-tools
+      - run: curl -sL firebase.tools | bash
       - run: firebase deploy --project $FIREBASE_PROJECT --token=$FIREBASE_TOKEN --non-interactive
         env:
           FIREBASE_PROJECT: ${{ secrets.FIREBASE_APP_NAME_PRODUCTION }}
