@@ -61,6 +61,7 @@ jobs:
         with:
           name: _docs
           path: ./_docs
+      - run: rsync -abviuzP _docs/ _site/
       - run: ls -lash
       - run: ls -lash _site
       - run: ls -lash _docs
