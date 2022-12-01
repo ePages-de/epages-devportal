@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - run: pwd
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.3
+          bundler-cache: true
 
   # deploy_production:
   #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
