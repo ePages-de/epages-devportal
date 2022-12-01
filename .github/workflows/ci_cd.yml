@@ -79,12 +79,12 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: _site
+      - run: ls -lash
       - run: ls -lash _site
-      - uses: ePages-de/action-node-run@v1
+      - uses: actions/setup-node@v3
         with:
-          node_version: 18
-          cache_key: node
-          cmd: npm install --save-dev firebase-tools
+          node-version: 18
+      - run: npm install --save-dev firebase-tools
 
   # deploy_production:
   #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
