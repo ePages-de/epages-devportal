@@ -13,13 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: pwd
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.3
           bundler-cache: true
       - run: bundle exec jekyll build
-      - run: ls -lash
       - run: bundle exec rake test_ci
       - uses: actions/upload-artifact@v3
         with:
@@ -36,19 +34,31 @@ jobs:
         with:
           repository: ePages-de/epages-docs
           ref: master
-      - run: pwd
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.3
           bundler-cache: true
       - run: bundle exec jekyll build
-      - run: ls -lash
       - run: bundle exec rake test_ci
       - uses: actions/upload-artifact@v3
         with:
           name: _docs
           path: |
             _site/
+
+  combine_projets:
+    runs-on: ubuntu-latest
+    needs:
+      - build_test_devportal
+      - build_test_docs
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: _devportal
+      - uses: actions/download-artifact@v3
+        with:
+          name: _docs
+      - run: ls -lash
 
   # deploy_production:
   #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
