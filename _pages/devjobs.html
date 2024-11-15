@@ -9,26 +9,11 @@ header_image: private/devjobs.jpg
 
 <section class="job-openings">
 
-  <h2 class="section__title" id="job-openings">Exciting. Challenging. Grow with us.</h2>
+  <h2 class="section__title" id="job-openings">Explore careers and join our team!</h2>
 
-  <p class="section__body">Do you love coding? Are you eager to take on a new challenge? We are offering various job opportunities especially for experienced web developers.</p>
+  <p class="section__body">Looking for open positions? Head over to our main job page for all current opportunities.</p>
 
-  <div class="card-wrapper">
-
-    {% assign jobs = site.data.jobs %}
-    {% for job in jobs %}
-
-      <div class="card  card--jobs">
-        <a target="_blank" href="{{ job.link }}" onClick="ga('send', 'event', 'Jobs', 'click', '{{ job.title }}');">
-          <h4 class="card__title  card--jobs__title">{{ job.title }}</h4>
-          <p class="card__body  card--jobs__body">{{ job.description | truncate: 160, '' }}</p>
-          <p class="card__footer  card--jobs__footer">{{ job.location }}</p>
-        </a>
-      </div>
-
-    {% endfor %}
-
-  </div>
+  <br>
 
   <a href="https://epages.com/career" class="cta  cta--beyond">View all jobs</a>
 
