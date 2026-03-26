@@ -49,7 +49,7 @@
 - id: amahaiuddin
   name: Aroso
   full_name: Aroso Mahaiuddin
-  description: is a working student in our TechComm team, who is passionate about creating content for our epagesdevs social media channels.
+  description: is a passionate content creator and loves crafting creative social media content.
   image: amahaiuddin.jpg
 
 - id: aortmann
@@ -73,7 +73,7 @@
 - id: aschroeder
   name: Alicia
   full_name: Alicia Schröder
-  description: is part of our Technical Writing team. She loves writing great help articles for our software and crafting creative social media content.
+  description: is a Tech Writer and Localization Manager who loves playing around with words and crafting texts that are comprehensible for everyone.
   image: avatar_female.jpg
 
 - id: azimmermann
@@ -440,7 +440,7 @@
   name: Miriam
   full_name: Miriam
   description: is a Scrum Master who is keen on promoting an agile culture. She has a passion for coaching, which she integrates in her work with the teams.
-  image: mkofler.jpg
+  image: mkofler.jpeg
 
 - id: mkohl
   name: Martin
