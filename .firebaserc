@@ -1,6 +1,0 @@
-{
-  "projects": {
-    "production": "epages-devportal",
-    "development": "epages-devportal-development"
-  }
-}
